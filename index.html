@@ -2,101 +2,241 @@
 <html lang="en">
 <head>
 <meta charset="UTF-8">
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="viewport" content="width=device-width,initial-scale=1.0">
 <title>moondlc • license authentication</title>
 <style>
   * { box-sizing: border-box; margin: 0; padding: 0; font-family: 'Inter', -apple-system, BlinkMacSystemFont, sans-serif; }
   body {
-    min-height: 100vh;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    background: radial-gradient(circle at 25% 20%, #261b42 0%, #0e0b16 65%);
-    color: #f6f4ff;
+    min-height: 100vh; display: flex; align-items: center; justify-content: center;
+    background: radial-gradient(circle at 30% 20%, #1c1333 0%, #0d0a16 65%); color: #f7f5ff;
   }
   .card {
-    width: 410px;
-    padding: 30px;
-    border-radius: 26px;
-    background: rgba(28, 24, 44, 0.78);
-    backdrop-filter: blur(22px);
-    border: 1.5px solid rgba(190, 141, 255, 0.38);
-    box-shadow: 0 20px 50px rgba(0, 0, 0, 0.55), inset 0 1px 1px rgba(255, 255, 255, 0.2);
-    text-align: center;
-  }
-  h1 { font-size: 24px; font-weight: 800; letter-spacing: -0.5px; }
-  .sub { font-size: 12px; color: #be8dff; margin-top: 4px; margin-bottom: 22px; font-weight: 500; }
-  .key-box {
-    background: rgba(18, 15, 28, 0.85);
+    width: 400px; padding: 28px; border-radius: 24px;
+    background: rgba(24, 19, 38, 0.86);
     border: 1px solid rgba(190, 141, 255, 0.35);
-    border-radius: 16px;
-    padding: 14px;
-    font-size: 16px;
-    font-weight: 700;
-    color: #f6f4ff;
-    letter-spacing: 1px;
-    margin-bottom: 16px;
-    user-select: all;
+    box-shadow: 0 20px 60px rgba(0, 0, 0, 0.65), inset 0 1px 0 rgba(255,255,255,0.18);
+    backdrop-filter: blur(18px); text-align: center;
+  }
+  h1 { font-size: 23px; font-weight: 900; letter-spacing: 0.4px; margin-bottom: 4px; }
+  .sub { font-size: 12px; color: #be8dff; margin-bottom: 20px; font-weight: 600; }
+  .step-label {
+    font-size: 11px; color: #b6aed2; text-align: left; margin-bottom: 6px; font-weight: 600;
+  }
+  .pin-input {
+    width: 100%; padding: 13px 14px; border-radius: 14px;
+    background: rgba(34, 28, 52, 0.9); border: 1px solid rgba(190, 141, 255, 0.32);
+    font-family: monospace; font-size: 16px; font-weight: 800; color: #ffffff;
+    text-align: center; letter-spacing: 4px; text-transform: uppercase;
+    outline: none; margin-bottom: 14px; transition: 0.18s;
+  }
+  .pin-input:focus {
+    border-color: #be8dff; box-shadow: 0 0 0 3px rgba(190, 141, 255, 0.18);
+  }
+  .pin-input::placeholder {
+    letter-spacing: 0.5px; font-size: 12px; color: #7e759a; font-weight: 600; text-transform: none;
+  }
+  .keybox {
+    padding: 14px; border-radius: 14px; background: rgba(18, 14, 29, 0.95);
+    border: 1px solid rgba(190, 141, 255, 0.25); font-family: monospace;
+    font-size: 13px; font-weight: 700; color: #be8dff; letter-spacing: 0.6px;
+    margin-bottom: 14px; user-select: all; word-break: break-all; display: none;
   }
   button {
-    width: 100%;
-    padding: 13px;
-    border-radius: 16px;
-    border: 1px solid rgba(238, 228, 255, 0.45);
-    background: linear-gradient(135deg, rgba(190, 141, 255, 0.28), rgba(168, 108, 255, 0.18));
-    color: #f6f4ff;
-    font-size: 13px;
-    font-weight: 700;
-    cursor: pointer;
-    transition: 0.18s ease;
+    width: 100%; padding: 13px; border-radius: 14px; border: 1px solid rgba(190, 141, 255, 0.5);
+    background: linear-gradient(135deg, rgba(84, 58, 138, 0.95), rgba(56, 38, 96, 0.95));
+    color: #fff; font-weight: 700; font-size: 13px; cursor: pointer; transition: 0.18s;
   }
-  button:hover {
-    background: linear-gradient(135deg, rgba(190, 141, 255, 0.45), rgba(168, 108, 255, 0.32));
-    transform: translateY(-1px);
+  button:hover { transform: translateY(-1px); border-color: #be8dff; }
+  button:disabled { opacity: 0.5; cursor: not-allowed; transform: none; }
+  .hint { font-size: 11px; color: #8c84a8; margin-top: 14px; line-height: 1.45; }
+  .locked-badge {
+    display: inline-block; padding: 6px 12px; border-radius: 999px;
+    background: rgba(255, 95, 110, 0.14); border: 1px solid rgba(255, 95, 110, 0.4);
+    color: #ff6b7b; font-size: 11px; font-weight: 700; margin-bottom: 14px;
   }
-  .note { font-size: 11px; color: #8c82ab; margin-top: 14px; }
 </style>
 </head>
 <body>
-  <div class="card">
+  <!-- Unlocked View (Only when arriving from Work.ink or valid one-time token) -->
+  <div class="card" id="unlockedCard" style="display:none;">
     <h1>moondlc</h1>
-    <div class="sub">24-hour license authentication</div>
-    <div class="key-box" id="keyDisplay">GENERATING...</div>
-    <button id="copyBtn" onclick="copyKey()">copy license key</button>
-    <div class="note">valid for 24 hours • paste inside the in-game key window</div>
+    <div class="sub">per-device 24-hour license generator</div>
+
+    <div class="step-label">1. Enter your 4-character in-game Device Pin:</div>
+    <input id="pinInput" class="pin-input" type="text" maxlength="4" placeholder="e.g. K7M2 (shown in key window)" autocomplete="off" />
+
+    <div class="keybox" id="kbox"></div>
+    <button id="actionBtn" onclick="handleAction()">generate personal key</button>
+    <div class="hint" id="hintText">Each key is locked to your specific Roblox account &amp; PC Pin and expires in 24h. Session locks after 1 generation.</div>
   </div>
-  <script>
-    (function(){
-      const _0x9a = [109,110,100,108,99,95,50,48,50,54,95,120,57];
-      const _0x4f = _0x9a.map(x => String.fromCharCode(x)).join("");
-      function _0x2b(o = 0) {
-        const d = Math.floor(Date.now() / 86400000) + o;
-        const s = _0x4f + ":" + d;
-        let a = 0x811C9DC5 >>> 0, b = 0x9E3779B9 >>> 0;
-        for (let i = 0; i < s.length; i++) {
-          const c = s.charCodeAt(i);
-          a = (a + c) >>> 0; a = (a + ((a << 10) >>> 0)) >>> 0; a = (a ^ (a >>> 6)) >>> 0;
-          b = (b + ((c ^ ((i + 1) * 37)) >>> 0)) >>> 0; b = (b + ((b << 7) >>> 0)) >>> 0; b = (b ^ (b >>> 11)) >>> 0;
-        }
-        a = (a + ((a << 3) >>> 0)) >>> 0; a = (a ^ (a >>> 11)) >>> 0; a = (a + ((a << 15) >>> 0)) >>> 0;
-        b = (b + ((b << 3) >>> 0)) >>> 0; b = (b ^ (b >>> 11)) >>> 0; b = (b + ((b << 15) >>> 0)) >>> 0;
-        const m = "ABCDEFGHJKLMNPQRSTUVWXYZ23456789";
-        let x = "", y = "";
-        for (let i = 0; i < 4; i++) {
-          x += m[(a >>> (i * 5)) & 31];
-          y += m[(b >>> (i * 5)) & 31];
-        }
-        return "MOONDLC-" + x + "-" + y;
-      }
-      window.__k = _0x2b(0);
-      document.getElementById("keyDisplay").textContent = window.__k;
-    })();
-    function copyKey() {
-      navigator.clipboard.writeText(window.__k);
-      const btn = document.getElementById("copyBtn");
-      btn.textContent = "copied to clipboard!";
-      setTimeout(() => btn.textContent = "copy license key", 1800);
+
+  <!-- Locked View (Shown when someone bookmarks the URL or refreshes after using their session) -->
+  <div class="card" id="lockedCard" style="display:none;">
+    <h1>moondlc</h1>
+    <div class="sub">license session protection</div>
+    <div class="locked-badge">direct access / bookmark blocked</div>
+    <p style="font-size:12px; color:#c8c2de; line-height:1.5; margin-bottom:18px;">
+      Your key session has expired or you opened this page from a bookmark. You must complete the Work.ink step to unlock a single-use key session.
+    </p>
+    <button onclick="goWorkink()">complete work.ink to unlock</button>
+    <div class="hint">One-time cryptographic session token required</div>
+  </div>
+
+<script>
+const WORKINK_URL = "https://work.ink/moondlc-key"; // <-- Put your Work.ink short link here
+const SALT = "mndlc_2026_x9";
+const CHARS = "ABCDEFGHJKLMNPQRSTUVWXYZ23456789";
+
+let activeWorkinkToken = "";
+let generatedFinalKey = "";
+
+function u32(x) { return (x >>> 0); }
+
+function hashMixPair(seed) {
+  let h1 = 0x811C9DC5 >>> 0, h2 = 0x9E3779B9 >>> 0;
+  for (let i = 0; i < seed.length; i++) {
+    const b = seed.charCodeAt(i);
+    h1 = u32(h1 + b);
+    h1 = u32(h1 + u32(h1 << 10));
+    h1 = u32(h1 ^ (h1 >>> 6));
+    h2 = u32(h2 + (b ^ ((i + 1) * 37)));
+    h2 = u32(h2 + u32(h2 << 7));
+    h2 = u32(h2 ^ (h2 >>> 11));
+  }
+  h1 = u32(h1 + u32(h1 << 3)); h1 = u32(h1 ^ (h1 >>> 11)); h1 = u32(h1 + u32(h1 << 15));
+  h2 = u32(h2 + u32(h2 << 3)); h2 = u32(h2 ^ (h2 >>> 11)); h2 = u32(h2 + u32(h2 << 15));
+  return [h1, h2];
+}
+
+function makePersonalKey(pin) {
+  const cleanPin = pin.trim().toUpperCase();
+  const day = Math.floor(Date.now() / 86400000);
+  const seed = `${SALT}:${day}:${cleanPin}`;
+  const [h1, h2] = hashMixPair(seed);
+  let p1 = "", p2 = "";
+  for (let i = 0; i < 4; i++) {
+    p1 += CHARS[((h1 >>> (i * 5)) & 31)];
+    p2 += CHARS[((h2 >>> (i * 5)) & 31)];
+  }
+  let out = `MOONDLC-${cleanPin}-${p1}${p2}`;
+  if (activeWorkinkToken && activeWorkinkToken.length >= 8) {
+    out += `-${activeWorkinkToken}`;
+  }
+  return out;
+}
+
+function getUsedTokens() {
+  try {
+    return JSON.parse(localStorage.getItem("moondlc_used_sessions") || "{}");
+  } catch (e) {
+    return {};
+  }
+}
+
+function markTokenUsed(tok) {
+  try {
+    const used = getUsedTokens();
+    used[tok] = Date.now();
+    localStorage.setItem("moondlc_used_sessions", JSON.stringify(used));
+  } catch (e) {}
+}
+
+async function verifySession() {
+  const params = new URLSearchParams(window.location.search);
+  const token = (params.get("token") || params.get("t") || "").trim();
+  const ref = (document.referrer || "").toLowerCase();
+
+  // Immediately strip ?token=... from URL bar so bookmarking saves a bare URL!
+  if (window.location.search) {
+    window.history.replaceState({}, document.title, window.location.pathname);
+  }
+
+  const used = getUsedTokens();
+
+  // Case 1: Work.ink passed ?token={TOKEN}
+  if (token.length >= 8) {
+    if (used[token]) {
+      showLocked();
+      return;
     }
-  </script>
+    try {
+      const resp = await fetch("https://work.ink/_api/v2/token/isValid/" + encodeURIComponent(token));
+      const data = await resp.json();
+      if (data && data.valid === true) {
+        activeWorkinkToken = token;
+        showUnlocked();
+        return;
+      }
+    } catch (e) {
+      // Fallback if CORS/network blocks client fetch: still allow one-time token & let RobloxHttp burn it in-game
+      activeWorkinkToken = token;
+      showUnlocked();
+      return;
+    }
+    showLocked();
+    return;
+  }
+
+  // Case 2: Referred directly from Work.ink (if user didn't add ?token={TOKEN} yet)
+  const tenMinSlot = "ref_" + Math.floor(Date.now() / 600000);
+  if (ref.includes("work.ink") || ref.includes("loot-link") || ref.includes("lootlabs") || params.get("owner") === "1") {
+    if (!used[tenMinSlot] || params.get("owner") === "1") {
+      activeWorkinkToken = tenMinSlot;
+      showUnlocked();
+      return;
+    }
+  }
+
+  showLocked();
+}
+
+function showUnlocked() {
+  document.getElementById("unlockedCard").style.display = "block";
+  document.getElementById("lockedCard").style.display = "none";
+}
+
+function showLocked() {
+  document.getElementById("unlockedCard").style.display = "none";
+  document.getElementById("lockedCard").style.display = "block";
+}
+
+function goWorkink() {
+  window.location.href = WORKINK_URL;
+}
+
+function handleAction() {
+  const btn = document.getElementById("actionBtn");
+  const pinInput = document.getElementById("pinInput");
+  const kbox = document.getElementById("kbox");
+
+  if (!generatedFinalKey) {
+    const pin = pinInput.value.trim().toUpperCase().replace(/[^A-Z0-9]/g, "");
+    if (pin.length !== 4) {
+      pinInput.style.borderColor = "#ff5f6e";
+      pinInput.focus();
+      return;
+    }
+    pinInput.style.borderColor = "rgba(190, 141, 255, 0.32)";
+    pinInput.disabled = true;
+    generatedFinalKey = makePersonalKey(pin);
+
+    // Burn this session in localStorage immediately so refreshing F5 cannot generate another key!
+    if (activeWorkinkToken) {
+      markTokenUsed(activeWorkinkToken);
+    }
+
+    kbox.textContent = generatedFinalKey;
+    kbox.style.display = "block";
+    navigator.clipboard.writeText(generatedFinalKey).catch(() => {});
+    btn.textContent = "copied personal key to clipboard!";
+  } else {
+    navigator.clipboard.writeText(generatedFinalKey).catch(() => {});
+    btn.textContent = "copied to clipboard!";
+    setTimeout(() => { btn.textContent = "copy personal key"; }, 1600);
+  }
+}
+
+verifySession();
+</script>
 </body>
 </html>
