@@ -86,7 +86,7 @@ function hashMixPair(seed) {
   return [h1, h2];
 }
 
-function generateActivationKey() {
+function generateActivationKey(workinkTok) {
   const slot = Math.floor(Date.now() / 300000); // 5-minute time slot
   let nonce = "";
   for (let i = 0; i < 4; i++) {
@@ -99,7 +99,11 @@ function generateActivationKey() {
     p1 += CHARS[((h1 >>> (i * 5)) & 31)];
     p2 += CHARS[((h2 >>> (i * 5)) & 31)];
   }
-  return `MOONDLC-${nonce}-${p1}${p2}`;
+  let k = `MOONDLC-${nonce}-${p1}${p2}`;
+  if (workinkTok && workinkTok.length >= 8) {
+    k += `-${workinkTok}`;
+  }
+  return k;
 }
 
 function initPage() {
@@ -117,7 +121,7 @@ function initPage() {
   const now = Date.now();
 
   if (cameFromWorkink) {
-    currentKey = generateActivationKey();
+    currentKey = generateActivationKey(token);
     localStorage.setItem("moondlc_last_issued", String(now));
     localStorage.setItem("moondlc_cached_key", currentKey);
     document.getElementById("kbox").textContent = currentKey;
