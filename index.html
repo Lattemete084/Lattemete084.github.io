@@ -11,7 +11,7 @@
     background: radial-gradient(circle at 30% 20%, #1c1333 0%, #0d0a16 65%); color: #f7f5ff;
   }
   .card {
-    width: 400px; padding: 28px; border-radius: 24px;
+    width: 390px; padding: 28px; border-radius: 24px;
     background: rgba(24, 19, 38, 0.86);
     border: 1px solid rgba(190, 141, 255, 0.35);
     box-shadow: 0 20px 60px rgba(0, 0, 0, 0.65), inset 0 1px 0 rgba(255,255,255,0.18);
@@ -19,27 +19,11 @@
   }
   h1 { font-size: 23px; font-weight: 900; letter-spacing: 0.4px; margin-bottom: 4px; }
   .sub { font-size: 12px; color: #be8dff; margin-bottom: 20px; font-weight: 600; }
-  .step-label {
-    font-size: 11px; color: #b6aed2; text-align: left; margin-bottom: 6px; font-weight: 600;
-  }
-  .pin-input {
-    width: 100%; padding: 13px 14px; border-radius: 14px;
-    background: rgba(34, 28, 52, 0.9); border: 1px solid rgba(190, 141, 255, 0.32);
-    font-family: monospace; font-size: 16px; font-weight: 800; color: #ffffff;
-    text-align: center; letter-spacing: 4px; text-transform: uppercase;
-    outline: none; margin-bottom: 14px; transition: 0.18s;
-  }
-  .pin-input:focus {
-    border-color: #be8dff; box-shadow: 0 0 0 3px rgba(190, 141, 255, 0.18);
-  }
-  .pin-input::placeholder {
-    letter-spacing: 0.5px; font-size: 12px; color: #7e759a; font-weight: 600; text-transform: none;
-  }
   .keybox {
-    padding: 14px; border-radius: 14px; background: rgba(18, 14, 29, 0.95);
-    border: 1px solid rgba(190, 141, 255, 0.25); font-family: monospace;
-    font-size: 13px; font-weight: 700; color: #be8dff; letter-spacing: 0.6px;
-    margin-bottom: 14px; user-select: all; word-break: break-all; display: none;
+    padding: 15px; border-radius: 14px; background: rgba(18, 14, 29, 0.95);
+    border: 1px solid rgba(190, 141, 255, 0.28); font-family: monospace;
+    font-size: 15px; font-weight: 800; color: #ffffff; letter-spacing: 1.2px;
+    margin-bottom: 16px; user-select: all; word-break: break-all;
   }
   button {
     width: 100%; padding: 13px; border-radius: 14px; border: 1px solid rgba(190, 141, 255, 0.5);
@@ -47,7 +31,6 @@
     color: #fff; font-weight: 700; font-size: 13px; cursor: pointer; transition: 0.18s;
   }
   button:hover { transform: translateY(-1px); border-color: #be8dff; }
-  button:disabled { opacity: 0.5; cursor: not-allowed; transform: none; }
   .hint { font-size: 11px; color: #8c84a8; margin-top: 14px; line-height: 1.45; }
   .locked-badge {
     display: inline-block; padding: 6px 12px; border-radius: 999px;
@@ -57,29 +40,25 @@
 </style>
 </head>
 <body>
-  <!-- Unlocked View (Only when arriving from Work.ink or valid one-time token) -->
+  <!-- Unlocked View: Instant 1-Click Key (Zero Typing Required) -->
   <div class="card" id="unlockedCard" style="display:none;">
     <h1>moondlc</h1>
-    <div class="sub">per-device 24-hour license generator</div>
-
-    <div class="step-label">1. Enter your 4-character in-game Device Pin:</div>
-    <input id="pinInput" class="pin-input" type="text" maxlength="4" placeholder="e.g. K7M2 (shown in key window)" autocomplete="off" />
-
-    <div class="keybox" id="kbox"></div>
-    <button id="actionBtn" onclick="handleAction()">generate personal key</button>
-    <div class="hint" id="hintText">Each key is locked to your specific Roblox account &amp; PC Pin and expires in 24h. Session locks after 1 generation.</div>
+    <div class="sub">24-hour license authentication</div>
+    <div class="keybox" id="kbox">GENERATING...</div>
+    <button id="copyBtn" onclick="copyKey()">copy license key</button>
+    <div class="hint">Redeem in-game within 15 minutes to activate your 24-hour HWID license.</div>
   </div>
 
-  <!-- Locked View (Shown when someone bookmarks the URL or refreshes after using their session) -->
+  <!-- Locked View: Shown when opened from a bookmark without completing Work.ink -->
   <div class="card" id="lockedCard" style="display:none;">
     <h1>moondlc</h1>
     <div class="sub">license session protection</div>
-    <div class="locked-badge">direct access / bookmark blocked</div>
+    <div class="locked-badge">session expired / bookmark blocked</div>
     <p style="font-size:12px; color:#c8c2de; line-height:1.5; margin-bottom:18px;">
-      Your key session has expired or you opened this page from a bookmark. You must complete the Work.ink step to unlock a single-use key session.
+      Your one-time key session has expired or you opened this page directly from a bookmark. Complete the Work.ink link to generate a fresh key.
     </p>
-    <button onclick="goWorkink()">complete work.ink to unlock</button>
-    <div class="hint">One-time cryptographic session token required</div>
+    <button onclick="window.location.href=WORKINK_URL">complete work.ink to unlock</button>
+    <div class="hint">Single-use session protection active</div>
   </div>
 
 <script>
@@ -87,8 +66,7 @@ const WORKINK_URL = "https://work.ink/39vZ/moondlc-key";
 const SALT = "mndlc_2026_x9";
 const CHARS = "ABCDEFGHJKLMNPQRSTUVWXYZ23456789";
 
-let activeWorkinkToken = "";
-let generatedFinalKey = "";
+let currentKey = "";
 
 function u32(x) { return (x >>> 0); }
 
@@ -108,135 +86,66 @@ function hashMixPair(seed) {
   return [h1, h2];
 }
 
-function makePersonalKey(pin) {
-  const cleanPin = pin.trim().toUpperCase();
-  const day = Math.floor(Date.now() / 86400000);
-  const seed = `${SALT}:${day}:${cleanPin}`;
+function generateActivationKey() {
+  const slot = Math.floor(Date.now() / 300000); // 5-minute time slot
+  let nonce = "";
+  for (let i = 0; i < 4; i++) {
+    nonce += CHARS[Math.floor(Math.random() * CHARS.length)];
+  }
+  const seed = `${SALT}:act:${slot}:${nonce}`;
   const [h1, h2] = hashMixPair(seed);
   let p1 = "", p2 = "";
   for (let i = 0; i < 4; i++) {
     p1 += CHARS[((h1 >>> (i * 5)) & 31)];
     p2 += CHARS[((h2 >>> (i * 5)) & 31)];
   }
-  let out = `MOONDLC-${cleanPin}-${p1}${p2}`;
-  if (activeWorkinkToken && activeWorkinkToken.length >= 8) {
-    out += `-${activeWorkinkToken}`;
-  }
-  return out;
+  return `MOONDLC-${nonce}-${p1}${p2}`;
 }
 
-function getUsedTokens() {
-  try {
-    return JSON.parse(localStorage.getItem("moondlc_used_sessions") || "{}");
-  } catch (e) {
-    return {};
-  }
-}
-
-function markTokenUsed(tok) {
-  try {
-    const used = getUsedTokens();
-    used[tok] = Date.now();
-    localStorage.setItem("moondlc_used_sessions", JSON.stringify(used));
-  } catch (e) {}
-}
-
-async function verifySession() {
+function initPage() {
   const params = new URLSearchParams(window.location.search);
   const token = (params.get("token") || params.get("t") || "").trim();
+  const isOwner = params.get("owner") === "1";
   const ref = (document.referrer || "").toLowerCase();
 
-  // Immediately strip ?token=... from URL bar so bookmarking saves a bare URL!
   if (window.location.search) {
     window.history.replaceState({}, document.title, window.location.pathname);
   }
 
-  const used = getUsedTokens();
+  const cameFromWorkink = ref.includes("work.ink") || ref.includes("loot") || token.length >= 6 || isOwner;
+  const lastIssued = parseInt(localStorage.getItem("moondlc_last_issued") || "0", 10);
+  const now = Date.now();
 
-  // Case 1: Work.ink passed ?token={TOKEN}
-  if (token.length >= 8) {
-    if (used[token]) {
-      showLocked();
-      return;
-    }
-    try {
-      const resp = await fetch("https://work.ink/_api/v2/token/isValid/" + encodeURIComponent(token));
-      const data = await resp.json();
-      if (data && data.valid === true) {
-        activeWorkinkToken = token;
-        showUnlocked();
-        return;
-      }
-    } catch (e) {
-      // Fallback if CORS/network blocks client fetch: still allow one-time token & let RobloxHttp burn it in-game
-      activeWorkinkToken = token;
-      showUnlocked();
-      return;
-    }
-    showLocked();
+  if (cameFromWorkink) {
+    currentKey = generateActivationKey();
+    localStorage.setItem("moondlc_last_issued", String(now));
+    localStorage.setItem("moondlc_cached_key", currentKey);
+    document.getElementById("kbox").textContent = currentKey;
+    document.getElementById("unlockedCard").style.display = "block";
     return;
   }
 
-  // Case 2: Referred directly from Work.ink (if user didn't add ?token={TOKEN} yet)
-  const tenMinSlot = "ref_" + Math.floor(Date.now() / 600000);
-  if (ref.includes("work.ink") || ref.includes("loot-link") || ref.includes("lootlabs") || params.get("owner") === "1") {
-    if (!used[tenMinSlot] || params.get("owner") === "1") {
-      activeWorkinkToken = tenMinSlot;
-      showUnlocked();
-      return;
-    }
+  // Allow 90 seconds of grace if they accidentally refreshed right after arriving from Work.ink, then lock bookmarks!
+  const cachedKey = localStorage.getItem("moondlc_cached_key") || "";
+  if (cachedKey && (now - lastIssued) < 90000) {
+    currentKey = cachedKey;
+    document.getElementById("kbox").textContent = currentKey;
+    document.getElementById("unlockedCard").style.display = "block";
+    return;
   }
 
-  showLocked();
-}
-
-function showUnlocked() {
-  document.getElementById("unlockedCard").style.display = "block";
-  document.getElementById("lockedCard").style.display = "none";
-}
-
-function showLocked() {
-  document.getElementById("unlockedCard").style.display = "none";
   document.getElementById("lockedCard").style.display = "block";
 }
 
-function goWorkink() {
-  window.location.href = WORKINK_URL;
+function copyKey() {
+  if (!currentKey) return;
+  navigator.clipboard.writeText(currentKey).catch(() => {});
+  const btn = document.getElementById("copyBtn");
+  btn.textContent = "copied to clipboard!";
+  setTimeout(() => { btn.textContent = "copy license key"; }, 1600);
 }
 
-function handleAction() {
-  const btn = document.getElementById("actionBtn");
-  const pinInput = document.getElementById("pinInput");
-  const kbox = document.getElementById("kbox");
-
-  if (!generatedFinalKey) {
-    const pin = pinInput.value.trim().toUpperCase().replace(/[^A-Z0-9]/g, "");
-    if (pin.length !== 4) {
-      pinInput.style.borderColor = "#ff5f6e";
-      pinInput.focus();
-      return;
-    }
-    pinInput.style.borderColor = "rgba(190, 141, 255, 0.32)";
-    pinInput.disabled = true;
-    generatedFinalKey = makePersonalKey(pin);
-
-    // Burn this session in localStorage immediately so refreshing F5 cannot generate another key!
-    if (activeWorkinkToken) {
-      markTokenUsed(activeWorkinkToken);
-    }
-
-    kbox.textContent = generatedFinalKey;
-    kbox.style.display = "block";
-    navigator.clipboard.writeText(generatedFinalKey).catch(() => {});
-    btn.textContent = "copied personal key to clipboard!";
-  } else {
-    navigator.clipboard.writeText(generatedFinalKey).catch(() => {});
-    btn.textContent = "copied to clipboard!";
-    setTimeout(() => { btn.textContent = "copy personal key"; }, 1600);
-  }
-}
-
-verifySession();
+initPage();
 </script>
 </body>
 </html>
