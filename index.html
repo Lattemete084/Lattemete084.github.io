@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>moondlc • license authentication</title>
+<style>
+  * { box-sizing: border-box; margin: 0; padding: 0; font-family: 'Inter', -apple-system, BlinkMacSystemFont, sans-serif; }
+  body {
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: radial-gradient(circle at 25% 20%, #261b42 0%, #0e0b16 65%);
+    color: #f6f4ff;
+  }
+  .card {
+    width: 410px;
+    padding: 30px;
+    border-radius: 26px;
+    background: rgba(28, 24, 44, 0.78);
+    backdrop-filter: blur(22px);
+    border: 1.5px solid rgba(190, 141, 255, 0.38);
+    box-shadow: 0 20px 50px rgba(0, 0, 0, 0.55), inset 0 1px 1px rgba(255, 255, 255, 0.2);
+    text-align: center;
+  }
+  h1 { font-size: 24px; font-weight: 800; letter-spacing: -0.5px; }
+  .sub { font-size: 12px; color: #be8dff; margin-top: 4px; margin-bottom: 22px; font-weight: 500; }
+  .key-box {
+    background: rgba(18, 15, 28, 0.85);
+    border: 1px solid rgba(190, 141, 255, 0.35);
+    border-radius: 16px;
+    padding: 14px;
+    font-size: 16px;
+    font-weight: 700;
+    color: #f6f4ff;
+    letter-spacing: 1px;
+    margin-bottom: 16px;
+    user-select: all;
+  }
+  button {
+    width: 100%;
+    padding: 13px;
+    border-radius: 16px;
+    border: 1px solid rgba(238, 228, 255, 0.45);
+    background: linear-gradient(135deg, rgba(190, 141, 255, 0.28), rgba(168, 108, 255, 0.18));
+    color: #f6f4ff;
+    font-size: 13px;
+    font-weight: 700;
+    cursor: pointer;
+    transition: 0.18s ease;
+  }
+  button:hover {
+    background: linear-gradient(135deg, rgba(190, 141, 255, 0.45), rgba(168, 108, 255, 0.32));
+    transform: translateY(-1px);
+  }
+  .note { font-size: 11px; color: #8c82ab; margin-top: 14px; }
+</style>
+</head>
+<body>
+  <div class="card">
+    <h1>moondlc</h1>
+    <div class="sub">24-hour license authentication</div>
+    <div class="key-box" id="keyDisplay">GENERATING...</div>
+    <button id="copyBtn" onclick="copyKey()">copy license key</button>
+    <div class="note">valid for 24 hours • paste inside the in-game key window</div>
+  </div>
+  <script>
+    (function(){
+      const _0x9a = [109,110,100,108,99,95,50,48,50,54,95,120,57];
+      const _0x4f = _0x9a.map(x => String.fromCharCode(x)).join("");
+      function _0x2b(o = 0) {
+        const d = Math.floor(Date.now() / 86400000) + o;
+        const s = _0x4f + ":" + d;
+        let a = 0x811C9DC5 >>> 0, b = 0x9E3779B9 >>> 0;
+        for (let i = 0; i < s.length; i++) {
+          const c = s.charCodeAt(i);
+          a = (a + c) >>> 0; a = (a + ((a << 10) >>> 0)) >>> 0; a = (a ^ (a >>> 6)) >>> 0;
+          b = (b + ((c ^ ((i + 1) * 37)) >>> 0)) >>> 0; b = (b + ((b << 7) >>> 0)) >>> 0; b = (b ^ (b >>> 11)) >>> 0;
+        }
+        a = (a + ((a << 3) >>> 0)) >>> 0; a = (a ^ (a >>> 11)) >>> 0; a = (a + ((a << 15) >>> 0)) >>> 0;
+        b = (b + ((b << 3) >>> 0)) >>> 0; b = (b ^ (b >>> 11)) >>> 0; b = (b + ((b << 15) >>> 0)) >>> 0;
+        const m = "ABCDEFGHJKLMNPQRSTUVWXYZ23456789";
+        let x = "", y = "";
+        for (let i = 0; i < 4; i++) {
+          x += m[(a >>> (i * 5)) & 31];
+          y += m[(b >>> (i * 5)) & 31];
+        }
+        return "MOONDLC-" + x + "-" + y;
+      }
+      window.__k = _0x2b(0);
+      document.getElementById("keyDisplay").textContent = window.__k;
+    })();
+    function copyKey() {
+      navigator.clipboard.writeText(window.__k);
+      const btn = document.getElementById("copyBtn");
+      btn.textContent = "copied to clipboard!";
+      setTimeout(() => btn.textContent = "copy license key", 1800);
+    }
+  </script>
+</body>
+</html>
