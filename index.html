@@ -3,62 +3,134 @@
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width,initial-scale=1.0">
-<title>moondlc • license authentication</title>
+<title>moondlc — license authentication & creator portal</title>
 <style>
   * { box-sizing: border-box; margin: 0; padding: 0; font-family: 'Inter', -apple-system, BlinkMacSystemFont, sans-serif; }
   body {
     min-height: 100vh; display: flex; align-items: center; justify-content: center;
     background: radial-gradient(circle at 30% 20%, #1c1333 0%, #0d0a16 65%); color: #f7f5ff;
+    padding: 20px;
   }
   .card {
-    width: 390px; padding: 28px; border-radius: 24px;
-    background: rgba(24, 19, 38, 0.86);
+    width: 420px; max-width: 95vw; padding: 28px; border-radius: 24px;
+    background: rgba(24, 19, 38, 0.88);
     border: 1px solid rgba(190, 141, 255, 0.35);
     box-shadow: 0 20px 60px rgba(0, 0, 0, 0.65), inset 0 1px 0 rgba(255,255,255,0.18);
     backdrop-filter: blur(18px); text-align: center;
+    position: relative;
   }
-  h1 { font-size: 23px; font-weight: 900; letter-spacing: 0.4px; margin-bottom: 4px; }
+  h1 { font-size: 24px; font-weight: 900; letter-spacing: 0.4px; margin-bottom: 4px; }
   .sub { font-size: 12px; color: #be8dff; margin-bottom: 20px; font-weight: 600; }
   .keybox {
     padding: 15px; border-radius: 14px; background: rgba(18, 14, 29, 0.95);
     border: 1px solid rgba(190, 141, 255, 0.28); font-family: monospace;
-    font-size: 15px; font-weight: 800; color: #ffffff; letter-spacing: 1.2px;
+    font-size: 14px; font-weight: 800; color: #ffffff; letter-spacing: 1px;
     margin-bottom: 16px; user-select: all; word-break: break-all;
+    max-height: 140px; overflow-y: auto; text-align: left; white-space: pre-line;
   }
-  button {
+  button.primary-btn {
     width: 100%; padding: 13px; border-radius: 14px; border: 1px solid rgba(190, 141, 255, 0.5);
     background: linear-gradient(135deg, rgba(84, 58, 138, 0.95), rgba(56, 38, 96, 0.95));
     color: #fff; font-weight: 700; font-size: 13px; cursor: pointer; transition: 0.18s;
   }
-  button:hover { transform: translateY(-1px); border-color: #be8dff; }
+  button.primary-btn:hover { transform: translateY(-1px); border-color: #be8dff; background: linear-gradient(135deg, rgba(104, 72, 168, 0.98), rgba(72, 48, 120, 0.98)); }
   .hint { font-size: 11px; color: #8c84a8; margin-top: 14px; line-height: 1.45; }
   .locked-badge {
     display: inline-block; padding: 6px 12px; border-radius: 999px;
     background: rgba(255, 95, 110, 0.14); border: 1px solid rgba(255, 95, 110, 0.4);
     color: #ff6b7b; font-size: 11px; font-weight: 700; margin-bottom: 14px;
   }
+  .creator-link {
+    font-size: 11px; color: #6b5f8c; margin-top: 16px; cursor: pointer; text-decoration: underline;
+    transition: 0.15s;
+  }
+  .creator-link:hover { color: #be8dff; }
+
+  /* Creator Panel Controls */
+  .pill-group {
+    display: flex; gap: 8px; margin-bottom: 14px;
+  }
+  .pill-btn {
+    flex: 1; padding: 10px 4px; border-radius: 12px; font-size: 12px; font-weight: 700;
+    background: rgba(30, 24, 48, 0.85); border: 1px solid rgba(190, 141, 255, 0.22);
+    color: #c4b8e5; cursor: pointer; transition: 0.15s;
+  }
+  .pill-btn.active {
+    background: rgba(140, 85, 255, 0.32); border-color: #be8dff; color: #ffffff;
+    box-shadow: 0 0 12px rgba(190, 141, 255, 0.3);
+  }
+  .input-field {
+    width: 100%; padding: 11px 14px; border-radius: 12px;
+    background: rgba(18, 14, 29, 0.9); border: 1px solid rgba(190, 141, 255, 0.25);
+    color: #ffffff; font-size: 13px; font-weight: 600; outline: none; margin-bottom: 14px;
+    transition: 0.18s;
+  }
+  .input-field:focus { border-color: #be8dff; box-shadow: 0 0 10px rgba(190, 141, 255, 0.25); }
+  .field-label {
+    text-align: left; font-size: 11px; font-weight: 700; color: #a59abf; margin-bottom: 5px;
+    display: block;
+  }
+  .back-link {
+    font-size: 11px; color: #a59abf; cursor: pointer; text-decoration: none; margin-top: 12px; display: inline-block;
+  }
+  .back-link:hover { color: #ffffff; }
 </style>
 </head>
 <body>
-  <!-- Unlocked View: Instant 1-Click Key (Zero Typing Required) -->
+  <!-- Standard Unlocked View: 24h key from Work.ink -->
   <div class="card" id="unlockedCard" style="display:none;">
-    <h1>moondlc</h1>
+    <h1 onclick="toggleCreator()">moondlc</h1>
     <div class="sub">24-hour license authentication</div>
     <div class="keybox" id="kbox">GENERATING...</div>
-    <button id="copyBtn" onclick="copyKey()">copy license key</button>
+    <button class="primary-btn" id="copyBtn" onclick="copyKey()">copy license key</button>
     <div class="hint">Redeem in-game within 15 minutes to activate your 24-hour HWID license.</div>
+    <div class="creator-link" onclick="showCreatorCard()">Creator / Streamer Rewards Portal</div>
   </div>
 
   <!-- Locked View: Shown when opened from a bookmark without completing Work.ink -->
   <div class="card" id="lockedCard" style="display:none;">
-    <h1>moondlc</h1>
+    <h1 onclick="toggleCreator()">moondlc</h1>
     <div class="sub">license session protection</div>
     <div class="locked-badge">session expired / bookmark blocked</div>
     <p style="font-size:12px; color:#c8c2de; line-height:1.5; margin-bottom:18px;">
       Your one-time key session has expired or you opened this page directly from a bookmark. Complete the Work.ink link to generate a fresh key.
     </p>
-    <button onclick="window.location.href=WORKINK_URL">complete work.ink to unlock</button>
+    <button class="primary-btn" onclick="window.location.href=WORKINK_URL">complete work.ink to unlock</button>
     <div class="hint">Single-use session protection active</div>
+    <div class="creator-link" onclick="showCreatorCard()">Creator / Streamer Rewards Portal</div>
+  </div>
+
+  <!-- Creator / Admin Panel: Generate 7D, 30D, and Lifetime Keys -->
+  <div class="card" id="creatorCard" style="display:none;">
+    <h1>creator portal</h1>
+    <div class="sub">generate 7d, 30d & lifetime streamer rewards</div>
+
+    <label class="field-label">LICENSE DURATION</label>
+    <div class="pill-group">
+      <button type="button" class="pill-btn active" id="btn7D" onclick="selectTier('7D')">7 Days</button>
+      <button type="button" class="pill-btn" id="btn30D" onclick="selectTier('30D')">30 Days</button>
+      <button type="button" class="pill-btn" id="btnLIFE" onclick="selectTier('LIFE')">Lifetime</button>
+    </div>
+
+    <label class="field-label">TARGET STREAMER USERNAME (OPTIONAL)</label>
+    <input type="text" class="input-field" id="targetUser" placeholder="e.g. StreamerName (empty = 1st device lock)" autocomplete="off" />
+
+    <label class="field-label">QUANTITY</label>
+    <div class="pill-group">
+      <button type="button" class="pill-btn active" id="qty1" onclick="selectQty(1)">1 Key</button>
+      <button type="button" class="pill-btn" id="qty5" onclick="selectQty(5)">5 Keys</button>
+      <button type="button" class="pill-btn" id="qty10" onclick="selectQty(10)">10 Keys</button>
+    </div>
+
+    <button class="primary-btn" id="genBtn" onclick="onGenerateCreatorKeys()">generate license key(s)</button>
+
+    <div class="keybox" id="creatorKeyBox" style="margin-top:14px; display:none;"></div>
+    <button class="primary-btn" id="copyCreatorBtn" style="display:none; margin-top:8px;" onclick="copyCreatorKeys()">copy all keys</button>
+
+    <div class="hint" style="margin-top:12px;">
+      Anti-Abuse Active: Each key can only be activated once. Upon activation, it binds permanently to the user's device HWID.
+    </div>
+    <a class="back-link" onclick="initPage()">← Back to standard key page</a>
   </div>
 
 <script>
@@ -67,6 +139,9 @@ const SALT = "mndlc_2026_x9";
 const CHARS = "ABCDEFGHJKLMNPQRSTUVWXYZ23456789";
 
 let currentKey = "";
+let selectedTier = "7D";
+let selectedQty = 1;
+let generatedCreatorKeys = [];
 
 function u32(x) { return (x >>> 0); }
 
@@ -87,7 +162,7 @@ function hashMixPair(seed) {
 }
 
 function generateActivationKey(workinkTok) {
-  const slot = Math.floor(Date.now() / 300000); // 5-minute time slot
+  const slot = Math.floor(Date.now() / 300000);
   let nonce = "";
   for (let i = 0; i < 4; i++) {
     nonce += CHARS[Math.floor(Math.random() * CHARS.length)];
@@ -106,17 +181,103 @@ function generateActivationKey(workinkTok) {
   return k;
 }
 
+function generateSingleTierKey(tier, username) {
+  let nonce = "";
+  for (let i = 0; i < 6; i++) {
+    nonce += CHARS[Math.floor(Math.random() * CHARS.length)];
+  }
+  const cleanUser = (username || "").trim().toUpperCase().replace(/[^A-Z0-9_]/g, "");
+  let seed = "";
+  if (cleanUser && cleanUser.length >= 3) {
+    seed = `${SALT}:tier:${tier}:${cleanUser}:${nonce}`;
+  } else {
+    seed = `${SALT}:tier:${tier}:${nonce}`;
+  }
+  const [h1, h2] = hashMixPair(seed);
+  let p1 = "", p2 = "";
+  for (let i = 0; i < 4; i++) {
+    p1 += CHARS[((h1 >>> (i * 5)) & 31)];
+    p2 += CHARS[((h2 >>> (i * 5)) & 31)];
+  }
+  const sig = `${p1}${p2}`;
+  if (cleanUser && cleanUser.length >= 3) {
+    return `MOONDLC-${tier}-${cleanUser}-${nonce}-${sig}`;
+  }
+  return `MOONDLC-${tier}-${nonce}-${sig}`;
+}
+
+function selectTier(t) {
+  selectedTier = t;
+  ["7D", "30D", "LIFE"].forEach(x => {
+    const el = document.getElementById("btn" + x);
+    if (el) el.classList.toggle("active", x === t);
+  });
+}
+
+function selectQty(q) {
+  selectedQty = q;
+  [1, 5, 10].forEach(x => {
+    const el = document.getElementById("qty" + x);
+    if (el) el.classList.toggle("active", x === q);
+  });
+}
+
+function onGenerateCreatorKeys() {
+  const user = document.getElementById("targetUser").value;
+  generatedCreatorKeys = [];
+  for (let i = 0; i < selectedQty; i++) {
+    generatedCreatorKeys.push(generateSingleTierKey(selectedTier, user));
+  }
+  const box = document.getElementById("creatorKeyBox");
+  box.textContent = generatedCreatorKeys.join("\n");
+  box.style.display = "block";
+  const copyBtn = document.getElementById("copyCreatorBtn");
+  copyBtn.style.display = "block";
+  copyBtn.textContent = selectedQty === 1 ? "copy license key" : `copy ${selectedQty} license keys`;
+}
+
+function copyCreatorKeys() {
+  if (!generatedCreatorKeys.length) return;
+  const txt = generatedCreatorKeys.join("\n");
+  navigator.clipboard.writeText(txt).catch(() => {});
+  const btn = document.getElementById("copyCreatorBtn");
+  const prev = btn.textContent;
+  btn.textContent = "copied to clipboard!";
+  setTimeout(() => { btn.textContent = prev; }, 1600);
+}
+
+function showCreatorCard() {
+  document.getElementById("unlockedCard").style.display = "none";
+  document.getElementById("lockedCard").style.display = "none";
+  document.getElementById("creatorCard").style.display = "block";
+}
+
+let titleClickCount = 0;
+function toggleCreator() {
+  titleClickCount++;
+  if (titleClickCount >= 3) {
+    titleClickCount = 0;
+    showCreatorCard();
+  }
+}
+
 function initPage() {
+  document.getElementById("creatorCard").style.display = "none";
   const params = new URLSearchParams(window.location.search);
   const token = (params.get("token") || params.get("t") || "").trim();
-  const isOwner = params.get("owner") === "1";
+  const isOwner = params.get("owner") === "1" || params.get("admin") === "1" || params.get("gen") === "1";
   const ref = (document.referrer || "").toLowerCase();
+
+  if (isOwner) {
+    showCreatorCard();
+    return;
+  }
 
   if (window.location.search) {
     window.history.replaceState({}, document.title, window.location.pathname);
   }
 
-  const cameFromWorkink = ref.includes("work.ink") || ref.includes("loot") || token.length >= 6 || isOwner;
+  const cameFromWorkink = ref.includes("work.ink") || ref.includes("loot") || token.length >= 6;
   const lastIssued = parseInt(localStorage.getItem("moondlc_last_issued") || "0", 10);
   const now = Date.now();
 
@@ -129,7 +290,6 @@ function initPage() {
     return;
   }
 
-  // Allow 90 seconds of grace if they accidentally refreshed right after arriving from Work.ink, then lock bookmarks!
   const cachedKey = localStorage.getItem("moondlc_cached_key") || "";
   if (cachedKey && (now - lastIssued) < 90000) {
     currentKey = cachedKey;
