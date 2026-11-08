@@ -1,5130 +1,5175 @@
 do
-local _0x4624b2,_0xea489d,_0xfaf96b,_0x4f8aff,_0xa81147,_0x869415,_0x40b209,_0xc96c19;
-local _0x93dcfe={};
-local function _0xe8ebea(a,b,c)
-local idx=_0xea489d(a,b)-18649;
-local hit=_0x93dcfe[11][idx];
+local _0xa72073,_0xfc82ca,_0x6bafdb,_0x8f729a,_0x95b3ae,_0x39d9d1,_0xc84f9e,_0xcca467;
+local _0x8a59d8={};
+local function _0x248f80(a,b,c)
+local idx=_0xfc82ca(a,b)-30311;
+local hit=_0x8a59d8[11][idx];
 if hit~=nil then return hit end;
-local sec=_0xea489d(_0xea489d(b,c),183262);
-local st=_0xea489d(_0x93dcfe[7][idx],sec);
-local pm=_0xfaf96b(_0xea489d(st*0x1B,_0x869415(st,3)),0x3FFFFFFF);
-local pk=_0xea489d(_0x93dcfe[6][idx],pm);
-local ln=_0xfaf96b(pk,0x7FF);
-local p=_0x869415(pk,11);
-local buf=_0x93dcfe[5](ln);
-local bl=_0x93dcfe[9];local nm=_0x93dcfe[8];local by=_0x93dcfe[2];local ch=_0x93dcfe[1];
+local sec=_0xfc82ca(_0xfc82ca(b,c),350862);
+local st=_0xfc82ca(_0x8a59d8[7][idx],sec);
+local pm=_0x6bafdb(_0xfc82ca(st*0x1B,_0x39d9d1(st,3)),0x3FFFFFFF);
+local pk=_0xfc82ca(_0x8a59d8[6][idx],pm);
+local ln=_0x6bafdb(pk,0x7FF);
+local p=_0x39d9d1(pk,11);
+local buf=_0x8a59d8[5](ln);
+local bl=_0x8a59d8[9];local nm=_0x8a59d8[8];local by=_0x8a59d8[2];local ch=_0x8a59d8[1];
 for i=1,ln do
 local cb=nm[by(bl,p)]*16+nm[by(bl,p+1)];
 p=p+2;
-st=_0xfaf96b(st+_0xfaf96b(i*17881,0xFFFF),0xFFFFFFFF);
-st=_0xea489d(st,_0xfaf96b(_0xa81147(st,13),0xFFFFFFFF));
-st=_0xea489d(st,_0x869415(st,17));
-st=_0xfaf96b(_0xea489d(st,_0xfaf96b(_0xa81147(st,5),0xFFFFFFFF)),0xFFFFFFFF);
-local ks=_0xfaf96b(_0xea489d(_0xea489d(st,_0x869415(st,8)),_0x869415(st,16)),0xFF);
-buf[i]=ch(_0xea489d(_0x40b209[cb+1],ks));
+st=_0x6bafdb(st+_0x6bafdb(i*14773,0xFFFF),0xFFFFFFFF);
+st=_0xfc82ca(st,_0x6bafdb(_0x95b3ae(st,13),0xFFFFFFFF));
+st=_0xfc82ca(st,_0x39d9d1(st,17));
+st=_0x6bafdb(_0xfc82ca(st,_0x6bafdb(_0x95b3ae(st,5),0xFFFFFFFF)),0xFFFFFFFF);
+local ks=_0x6bafdb(_0xfc82ca(_0xfc82ca(st,_0x39d9d1(st,8)),_0x39d9d1(st,16)),0xFF);
+buf[i]=ch(_0xfc82ca(_0xc84f9e[cb+1],ks));
 end;
-local res=_0x93dcfe[4](buf);
-_0x93dcfe[11][idx]=res;
+local res=_0x8a59d8[4](buf);
+_0x8a59d8[11][idx]=res;
 return res;
 end;
-local function _0x848d34(a,b,c)
-return _0xe8ebea(_0xea489d(b,_0xea489d(b,c)-17399+18649),b,_0xea489d(_0xea489d(a,511006),183262));
+local function _0x2b4f7f(a,b,c)
+return _0x248f80(_0xfc82ca(b,_0xfc82ca(b,c)-12055+30311),b,_0xfc82ca(_0xfc82ca(a,84002),350862));
 end;
-local function _0xd44ced(a,b,c)
-return _0xe8ebea(_0xea489d(a,_0xea489d(a,c)-17812+18649),a,_0xea489d(_0xea489d(b,479484),183262));
+local function _0x3f0d21(a,b,c)
+return _0x248f80(_0xfc82ca(a,_0xfc82ca(a,c)-4384+30311),a,_0xfc82ca(_0xfc82ca(b,455792),350862));
 end;
-local _0xa3aecd=387;
-local _0xcff440=185;
-while _0xa3aecd~=0 do
-if _0xa3aecd<601 then if _0xa3aecd<467 then if _0xa3aecd<387 then _0xcff440=_0xcff440+34;_0xc96c19[17]=_0x4624b2[_0xe8ebea(394425,412755,209680)];_0xc96c19[25]=_0x4624b2[_0xd44ced(174301,687905,191818)];_0xc96c19[33]=_0x4624b2[_0xe8ebea(291724,277353,615039)];_0xc96c19[3]=_0x4624b2[_0xd44ced(360720,543200,378020)];_0xc96c19[20]=_0x4624b2[_0xd44ced(412260,800549,397254)];_0xc96c19[32]=_0x4624b2[_0xe8ebea(307138,321329,266438)];_0xc96c19[30]=_0x4624b2[_0xe8ebea(249767,231241,725979)];_0xc96c19[11]=_0x4624b2[_0xe8ebea(122363,103711,264964)];_0xc96c19[31]=_0x4624b2[_0xd44ced(292320,383919,274515)];_0xc96c19[34]=_0x4624b2[_0xd44ced(211237,472337,228543)];_0xc96c19[9]=_0x4624b2[_0xd44ced(148645,442288,131389)];_0xc96c19[27]=_0x4624b2[_0xd44ced(153694,393840,138691)];_0xc96c19[29]=_0x4624b2[_0xe8ebea(221041,202629,861662)];_0xc96c19[23]=_0x4624b2[_0xd44ced(270222,465932,285219)];_0xc96c19[13]=_0x4624b2[_0xe8ebea(161951,143479,490150)];_0xc96c19[4]=_0x4624b2[_0xe8ebea(117818,99545,28242)];_0xc96c19[16]=_0x4624b2[_0x848d34(28602,426083,443502)];_0xa3aecd=_0xa3aecd+(-207)+_0xcff440; else _0xcff440=_0xcff440+54;local _sm="";local _fc=_sm["\99\104\97\114"];_0x93dcfe[1]=_fc;_0x93dcfe[2]=_sm["\98\121\116\101"];_0x93dcfe[3]=_sm["\115\117\98"];local _b={216,6,40,98,128,192,228,254,53,96,123,164,212,8,240,24,136,158,200,251,29,67,135,167,211,236,20,74,110,149,203,247,26,74,109,151,189,244,27,69,104,146,184,239,7,60,100,135,174,234,2,58,86,128,188,214};local _l={4,4,3,5,5,4,4,3,6,6,6,6};local _w={};local _p=1;local _k=76;for _i=1,#_l do local _ln=_l[_i];local _s="";for _j=1,_ln do _k=(_k+41)%251;_s=_s.._fc((_b[_p]-_k)%256);_p=_p+1;end;_w[_i]=_s;end;_0x93dcfe[10]=_w;_0xa3aecd=_0xa3aecd+(18)+_0xcff440; end; else if _0xa3aecd<548 then _0xcff440=_0xcff440+60;_0xc96c19[7]=_0x4624b2[_0x848d34(496342,82691,65789)];_0xc96c19[5]=_0x4624b2[_0xd44ced(359831,942172,342067)];_0xc96c19[14]=_0x4624b2[_0xe8ebea(112276,130661,557739)];_0xc96c19[1]=_0x4624b2[_0xe8ebea(113236,127650,420049)];_0xc96c19[6]=_0x4624b2[_0x848d34(728955,313290,295990)];_0xc96c19[18]=_0x4624b2[_0xe8ebea(434910,453166,492676)];_0xc96c19[15]=_0x4624b2[_0xd44ced(183715,62405,165893)];_0xc96c19[8]=_0x4624b2[_0xd44ced(105198,242123,122744)];_0xc96c19[24]=_0x4624b2[_0xd44ced(473838,1021629,491337)];_0xc96c19[26]=_0x4624b2[_0xe8ebea(142981,157279,281534)];_0xc96c19[22]=_0x4624b2[_0xe8ebea(220533,202136,840825)];_0xc96c19[19]=_0x4624b2[_0xd44ced(506266,351349,523311)];_0xc96c19[28]=_0x4624b2[_0xd44ced(258315,862424,242877)];_0xc96c19[2]=_0x4624b2[_0xd44ced(477171,167625,459331)];_0xc96c19[12]=_0x4624b2[_0xe8ebea(271998,290456,177000)];_0xc96c19[10]=_0x4624b2[_0xe8ebea(241874,260133,228229)];_0xc96c19[21]=_0x4624b2[_0x848d34(225967,101965,118194)];_0xa3aecd=_0xa3aecd-969+_0xcff440; else _0xcff440=_0xea489d(_0xcff440,0x3F);_0xc96c19[1]=_0x40b209[(_0xcff440%255)+1];_0xa3aecd=803; end; end; else if _0xa3aecd<646 then if _0xa3aecd<644 then _0xcff440=_0xcff440+41;_0x93dcfe[9]=_0x93dcfe[4]({"_<ry_2br<f2swNw<f<?p2><Wr__pfby?sf<bypfpf<>_wsws_yy?Nb2W?WrZbW<<pHpybrr?NNHfWNbp>_2>H<Wbw>yrWHbysWZypfs<2HH2sWw2?rbwp<<2wf>?f_b2W_<HswN_Z??>b<f_?sy>Z22rfZHp<WZ22frwr_WbNbZNfp_<2w<wW2<ry?2py?f>b?bWrr>sf?wypHZbf?b2w2pf2WNHfswf>Zsyw_?ywp_bf<bfpp<_s2_fbWsyw_Zpy>NWwN?_HW>yW<WNyWw_N_<_2wWrrWr2s2>fNyrfZ_w?rNyyfb_fpr_ss_ppp?<bbZr>ZNr>>wyZwsHN>Z?pH<>b>ZfpwN??H?yHrs2Ww_wNHN_f22_bbb?>w?yZNw<byw>p2rZ>2W?22rssw>?f_Zb?r>>W>rH>Zr<sprwbr<<<Wps2rWsyN>rsw<ssN>2r_N_?f?by2y<prHWwZfb_bp<pWHNf<<?pNw?Wwp?sf2<f?2Nys<_ZrZbZy>?pZ2ZN_bWyZWspwww>pH?ysrZs>b?<2<bWp2HwN>>ZsfNZ<HrZHwW<NybHysw<wbbpWy<wfHs?<Z_Z<b?rsHb>Zbs?NZHNyN>yHsy2w?ywfZs<W_wbHH>Zffssyss>2pyN>?fWr?W<Z?by>Z?srfw>fy_WH?fy?pb<bwN?NH2Hf_bZp?2pfs2_HZNy_2NWppZ<HbsNfNwWWH_y?_Nf_ppZWwWsf<2_sZ<Hy?>Wb2bH>r<Ny>?f_Wr?<f_rHN_2?s<_f2?_fp<wN?yN?b__pf>fW2_yZ?NyZ>Hfy2Z?bssZH>_2W<yrppNyb?s2wfHWpwNNbZw<rHfHyWw2<fWWH>H_HsZ?<wWf>ys<b>yywZ2>f_r>Nb?Hp?Z_w<r?y22bf?ZrwwwZpHW<<fbrfZWrpNHwZZw?2W<bwHrNypyNbN<?spypsf_>w>NZ<r2ysb22>>NHspfyZWp2_yWr2W<prZs_>s?W_w2b>>NsfWbWyH2p<>2>f?>>bWHWyWsHsWwrsyZ>?>Wy?Nbs2Z<rbZrN>s?fy2sbbryrHr_?2yH<_r2?_NyNf<rWsf_fs_bHywZ?fWHsNbyH>?HZZ?w?fN2>fss?swNwH_Z<r?2NZ_ZbZpw_NprZ?wy<_ssb_?<fb_sZyWr_wy_Wr_?ybHpHfpW>b<Z2fHfy<WNWrZrN?wpWbyw<wZWNwW>s<ybbs_N>NZ<ZypN>fN<fwfpfw<Ws><ssf<<>bZfZyHN?b22W<rNZwZNZw>r_NbWWwNN2HpH><N<?bbspW?rsNwWfZwwpHw<2bfbwW>N>_ZZ2WbrZ_swb>y<2?bZ?WZHs_f2bs_>N<HsWwyWybrbr?22y<wNZs__?>ZpsfH_ZpNp>bHbwwr?HZ>yZN>?NyZswpN_HfyWp?<H?Z_Z<Zr?>NZpbWZfWrwfr<y>ybf?NN<rW2HNZ<sb?Wp2b<y2yp2fbWHHffN?w2N_?p_bHb_<_WHHb<wb_?N?Wf<bsr>w<Hwb?rHpp>?Zw?Wrss?2yN>rZW>HWHfWsbZHpNfr2yHWbyp>?HWs<ZNZ2ry<w_?f?H2>wZ>sW>pNp?HWZwwpfZpp?ZfwNrp?WWffWN2b?sbr_psWwZWHrbWNyr>ybsf_<<f<bf>ryNspZ<Hw_y?_<wHWfwp<Hr<NZw2bH?W<ZyNfyZ?ZW2_f>Ww>pr<ZNW<__wWffW>2wpWZfNZW?p<H<2yfWHsZ_>pZ_p2WZNH<<>ZpZZ?yWWsWfWp?p??s_ypy?rrH>N>pwrrWfwWWfy>ZZWwysWWZrH2pZr_bNZ_Npp<?NH>_yrZ?yWp_wsbyff_?HwNHrfHsbsW<rsbsp>fbbyZsp>?_Wp2NrpWppsybHry?ffy>b??r2rZsHrfy_pp?WN?ZZysf<sbZ>>WZ2rf<Z2?Wr?yb>?>b2_2Z2<WbZrywfpZH?p_bsW?2bsbpNZZH??W_2r<<HN_fb_bpWbbN<Hf_HswbWWHbNbrrfr<2ZrbZHrwH2yH2><<NHbyNWWwrf_b<_NwHfy?HpZywHWHwbwWf?r_2?prwH<Z2_frb?y?NrHN>HpNfHWfZbsbf<?bH??yp2<_NsNbw<yyfy___WZws<s2ZZH_by2H>?f?Zsrr>NHNyZbHsWNwN<s2<2Nf_wb>>?N2Zf_>pb_W2srbrwspZf_2<wZNwrNZfrWN2pNW2Zbwr>srZ?bZ>yZW>HZZrww2Hrp<<_<fyb?wW<Z_b2?b<WH>>pHyW?2y>ybs>fNZyZ_wrZp2_2swNyfsf<s>Hpf?HH2f?_s2Zp<sy?pwfb>r2bbWf><?ZbwWy>_H_Zw>>WWry?>Nfbppy_WW?wr?H2NrZ_N>?y>Z<WZ_b2bHrr_Hwb_<_bZWWHp_rs2sw>?fWprfyy<wHNH?Zf_ZprHry_WpW?>2w2>b<N_Wr<H<syZ<_Nff2Z>HNsyws2br>>bZf<>bw_f2pHbWN>rwNf_b<Hpr?NWwwswypWwZZ<Wr?swZ>ryyf>_s2s?>rw?N>__2rs2r2?W?sWHsswsW2y2p<?N>?>>py2Wfrf?>b><H?r<Hr_2ffy<fryZ?f?22W2N><H<fWwr>rwf2>>y>_s?w2yyN?sN>Hp2r<?w22_>>bHfZ<?yNffZb_>W_?NH><Wf_NHrbwrZHHssyH?pp2fy_2pZNwH?pbrpZ>pwf>b?syrrH_Nf?rZ_r<spsy<Zy_fN?>sWff_ZfH2pfZNp_?wpy_frZsfZZWbZpy>ywNbbbHfyZZbWfb_fpbfHwbs>_r<fyNWbb2?b2pHNrbbpH_WN2?ZW?WpHyN2s>rrbr_?H>rsWp2yw_H>rb?bZW<_wWW<Hy<?>NWrsp2Z<?fwNWsbr_fWbHw2sZf>_bHZ_2wNs_s>><ry2wp?NNswy_pp2_pwfW<sfs_b_pspr2Nwpr2sH?NWyy?s_?Z_sfb>yHHWy2HWy?prW<HH<fW?f?W>wy2bbwHybZ??pWy_ZrZNWy>sZbpNf<2b_<ZwrZfsHNNbN>_fNfb_rpNZbZfrrs?wbfH2NwfH>ffN<2y?rZWpNbr_NbpH2_f2Hr>wZ>WpNWWs>rWZH_<<HHH>N<pHb>Z>y_<<rHw<_ywys>NWypssy2<>fHw<WwNw>w?yHfbNppfrwH_ZWNf<bW?rsrfrH2wbHyHN>Z<yfW2bpWsWZWNHpWw>2ff_ZW?ysrHHWbb>>HpHbpy>H<Hr_b22<>_w_ZbwNpW?by2NHpf<b<wyWfZbNNWHw2ywZfsZHp2<HrWbp<y2><s<<Zr_ZN<WyHpZb2>sb_N?<NpH>>fypysW<N2?ZwrpHf_NW<wWN>rswsbwsr<?NWypW>_wZrf_bbffrb2wb>>Wbp_?r2fysHw>r>yN_WpwZb<HwZ<2W2?WrfN?f>p<Wp2WfHwWryNsWp>W?HpwspH2f<Wsp_2brsWwsHWNbN_Z><w??H2rWHWHZbrf2sN_WsZb2<p2Ws2fNsN?yZr>yw>b?rbsy<brfW>p>?>Nb?>_rZysNsZy<WHyrHwN<HZ?>>wNNH?s?wZwpfyZ<f<wZby_rH>bb?H?N?>sZfZ>NbwbWN_pWsW>fWsHyNN<NwsrW?fNH2NfyZpwNyNWbwy<bW<2yp?2ff?f2W<2>HWyr2fbywpZry?bbWbpr2p_f>w>wrwss>?ZWppsZ>pNs2WZZ>rH_HZw?bs<syWyw><bWWH><rwsr?Hy_bNrpNr_ZyHsr_s2rZ_w_f>2b<fHNW_bfNrsy_WZH?N22WHrHyZysw<HH_sr<s<?<sW2HHfWwNy?ZpZ?w<HN_Hpys2<>W?>2sZ<NwysWNs>2N2prfNwWs<Hb22WpbywWr?pspZpZHy?ssfb>p_syy>wsWrpWN2p22NyZZw<ZbWw<<bpHZ?WZN<p_f2N<fw_fWr2p>b?s>?<wssrZWrb_ypfyfHwpp<bNWZfrrs<<_fW<NWZbZ___yr>?Hf?2<swsywwpH2Zb?2WfpsfWWpWyyW<NWwwWfHN<2rwZp<Nsp>_s?_fb2pN2>Z<srN_HyZZwbrw<HNrffyfp<<WrwH<W2w>Hbws2_?2f>r<HrW_pb>bw?y<>wr>Z2yWbfWWf2>r><s_WZ?y>bZZZfpwb_?yf>ZbfsHfbfWssyp_Zs?_s","<?yfb<yb_b_w?NyN<Zp2H2N_NfpZfb2Zw2ssH?222yb><<bw>yrrp?WHNw<Z??f2swsZy_NWyb2psrZrWZb_spHWN_>>rH_f_?NWZ2yHH2fwZZfNp?HHw<w_rbZHNWfN2rsyWWHrHZ>_?H?HW?ZN?brbZyNbwZrw_>ybpNHp<2HNNwNsbZpWbHywsNbbW2Zw>s<Nb?Nb_ppZWZbfwZpbZW?ybprN?rZWfHp>ry2?fNW_fWHr2WH<NrrrN?H?bNbryry>H_rrsfb?>?2?ysHN>WrWHrN?yN_yZZW<2>N_w?bp>rppWs2HNryW_ypH?HyysNfWHr<?s>HW?psrp<wWppWHwNrbw<>ff?NNbp_pfpr2s?w_p2yw?pH?WWZy?>HHWyr?HwsHw<s_bpH?Wypys2?2H2w2rb2y_yWW?yHw_fsyH?r>yps>wfZZf>pNHpsp<pN?bb<_<fp?W_W?2y>W2fb?<yrys?Wypb_b?pwr>N>Zpwbw2H_N>Wr?r_?<ypyw<>s?>w_yyNW2?2Nysr>sryfNwb_pHwprHpwpWbs<Wb<fNbpHWrb2>ys>2_W_rWyHyb_<HWbHHbNW??r2>fWb>sbbp>bf<bw2py2bp_W>?H>sZN?sfHHf?fN>2>2Hsr_Nrwbb2ffH2yHbZH>w<sy?Zy?pHZwp?y_2bwsspw?sfW??><?w>2<>rs>y2?<sWwyffrpWZwwb>Z<f<Wy<?fy_N2wsH_?2pbrywZ>wpy_W?HHZH_p>r_bys2sH<H?fZpH>brHWHsH_wr_r?2spfrpwW<HrZ2Hr>2Zr2<rrwywW<wwHwHN>2Nb<2w<?2wb<?<W>__yZf>_Zp2?sfspbyH<wZ2yHrfrwHb?wyfr<?__rbsbr_HW_W<HsNsyr<bZNNHZWbfbrNwf<ZNpWNwHZ_y_?<_HwNrbyHHffwW><N?>_HHrWbpfH<HNrW2<WbwbpbZH2wHwH_ryrW2_Nryb<wrsWrb<w<<2?fWH_bZNHp_sHy2ZHHpbsf_>y<<HbN<?NryW<H<Zp?w_brZb2W_p?2ZywW2s>WrrN?NNfprNwbw<spb_>>>syHrp<NWrHf_2p_ryNZf?_rZ<_r<Hy_yp?><Nr?w2s<rWs>bW_ZbwrWwWwWyWH<swZsNZsHyyHwNN2<>sHN2Nws<_ZNW2Hw_yNws<p<_H<sw_b2_sN<r2HsfypWZsry>HN2byrN_rW2ZpZNbrpffN>??psWwf?>bWHZwyyZ?NwrwsHN>WNH<wr>22Nry?Zb>222>N?sWZw_Z2<?2bW2W>r<wbbp?N__yNfbr_b_H_>fWy2?s?rpHrWr??w2Zfbwspf?Wf_Z?>y_<yy2s<>Hy<_fZ_<<s2pZ_NHZNp>s>rfH_2HHHwZwr>2sbbpf_H?<bwwWbfZHsy??Hbw_<Nsrss_H_b<<_WNH?bsNf<<ff>?sWp?2ZN>>?2N>ZZfZWyWb_>yypyp2b?_2WyN?r2sfyH_s?HHN<spZy_r?syZb2_<fprfsHbypZ>>>WrNs<f<W>HNssbyZpf2_<<b_fybs2NZ2p>rH>Zp<sffpy>ysw<ybW2NwrZfb2bHrHZfNb2?>_wWZbyWssZs_y>Nsby2WNwb>>_2NwWrZy_WNfNp_r>yyr>rHsZ_WwHN<<Zr<WZp<W_s>2<sWfZb?HfwWrZf>2f>?ys_ff<y>y<y>ppZ<?py><prp>Wps>?22N_Z>>?>HbfNZywZs>p<ppWppHr?f_w<>2Ws?N2WWf>?sfsWfNbZ>N<2Hr_yrw<ZWsyyw2ZZ<<pwN2_N2HWwN_W<_ZW?syWHZwfNr>fr<W?wr?ys?p?W<sWw?sHNb_r_W>2pb2>WbNNbZZHpw>>2NHb<sr2?y?_s_2ZfZyrbpbyrbrrssfNysrN>NHrrZr<f?ryby2WZW<f_Z2s?_<>rfHpr2rp_y>swyrZNWrr?<rw2p2WH<ZpNbN?p_<psswWZr<>bWwfNryNrwfH_f_?fywfw<Wpyf<>yp2Wfrb??ys>_s2Wfsrff<wy_<?<f_ZH?sHbN>y>HHyfry?_HWf_>HsrNwpr?WNZs_NZpwHN<yssyNbsr>>H>ZwHbyp>ywWb<2_r_w?bZb??W>rwyZ2<b<Z<HHH>bfy<?yHHrHW>fbNyw?_r?w22bW2_y_p2>ybwffrNws2<2byH_>?yw2>sw?yw>bb<s?rWH?>2bNp_2<psf<?>bff2W<_WZ2<?Ws<yb_?spZWy<WsHsywyHWrr?_?<ssww>2bbf>Z_2Z?<NHHNrf?rp__b<W<y_<?wfw?bH<?<?pH<ys2ys_y_f<HZ__<?WW_<Nrpywp22>sZZpW<NyfsZ<rpyZfwbw_<>b<<b>rW>>HrZw2Wbf<bbN2sWpWb<<rHrZwHp<N?y>2wfrHb<fws?f>N?syZWWr<>b2N_ZWbH2sfs<p<b?ZNw<wbp2Z?f<pNWsHfpyN>r2bwNNN2<wpWNZryZw_Z>Wywf>>_ZwfWfrZWb<<pb2NwN2<p_f<HHp>Zyfpbpb_WfZbNsbZ<_sbrbbbs2Zs_Z_fwN?pbrsW_WWWs<s2y<s?s>W>brfWps?Np?wNsy2ZHsb2wywWrpZsf_wW_p>_Nfy<y?>Z>Zp?fN>Hry>y??H>2>Z>><WW<r>yfbsZ<yNrpN<y>sbHZ?<ysW<><f?NZH<bZZ<sr?2fNywW_srpW<<b?2f?yw2s_W>2bZNww2N<rrwH>bsyy?WZHyysNp_?w<ywbp>wrb<<yrbWWWWswN?2sfpsWw2fw<bZHwpp><2<yHwZZrsZN>s_f>H?NHWf_22r?bf2_bbWZWbp2wywy<w2y>Hp?2ff_f>yyyf?s?wrH2f2ys2_?Z2?ff>??bHWwNbywb>WfZpf2ZZNwrp2ZfHsr?bw>fZ_pprwrs??H>W?w_<2bp?pWHNNW2b?<HWZ<W_<b>_ppZZ>yNwrfNw>ybHwp>Np_ws<__yN2w_fNZf2>2HZ>w<ZwpZH?ZpHprpbZ<W_w?s?pN?HpWZ_s<s_pbWppZr<pNN?pNsZ<yH?NWW2H<>HHNp?sfprwH>Wp<sffN?2w?HfN2Z_brNfsw_y_sNy<yprH?><2WyNsN2>Zrf>>yf>N>ss>psHfr22>b2_w<_HbpNb_s?fN<ZHH>WNN_s<bfN>rpHWNWHs>w?ZbN><<N2rNy_NssW<s<2>Z2r>Np>Nb<Wyb?Zw>_rwZW<swyr>>ZZ?>yf<f_p>frZsH>2<rpsr<p>HyyffpyysHZH2?Nr<>bHsyN_pN2<ppsZw>W>rps?wp<b<N>spWWwrwZs_wfH2wW2fbwrW2ZN_sw_NfZN>fZ_>NW_N_pH?bbwWpb_<?Nw_Z_NfswNrN<H2>s2?HN?2f>HZs?wNsNW?pryW?N>fWrbpWNy<f>sf__bWwfpN_wrfp>HbWs2pNNryWb_y2_Wp2pp<H_Zp2sfrZHr_<<?2Ww2N>WNW>2fWpbrHH<pNyWwsHb2>NWr>w?>pyb?yrr222<rNssr_wr<p_N2pys2NWWbNbp><N?pHNWbbw2W<wf>WwwHr>Hs<sw?<2NNZWpWZpyswfr_p<pr_Wrws_?Z_WW>N><fwfsp<2Z_s_y2<fyNprNfrr2HbHwpfZ2Z<_22HwZNbbr2_2_ZyH?y<y>w2HpWNb>WH2>2Z<Wy2b?2?fyps?rZy?_W_Hf?>N>ZwZ<_wpf?rWp<H<wZWfpyZW2H_Hy_<<pf?_WWy_fr<w<_fN?>rbZrb_ryr?bH2sfNZ?f<wr<ZZrp?sWf_ZwZb>bssy2f_?>rZHN_wss2>>H2<fZs?wHHwZH_wwNy>sr_yp?s_H?N__wfZfHw2bWsrs_<WypfrNr2pssbwfy<yr<>wsw>fy2rZWrN<bspZ2f<Wrr?s2wNwpbb<ZWyp<bHwrs_sN2fw<rp_WNspW2WfsfNNr<bwNW>pyr_f?r>b>wwpw?_Hwsyyw2yf2f<pHW_b>p2_ywf<Ny>2sNZWbwfb2Zs<<>ZbbWWp_2?rW_Nr2<pf<r<rww2sbfrbZZ?f<p2fHrZbH_r2wyN_>r_r?rbZHpf>22sN<pprZWyHy>wbZyN<ppwyyZfH2<bpWyZ2ryf>>bpHr>ZH_rwN><fHZwrss_WZ<fs>r<psy?ry2WZ<","pr>WW_N>bfHW_r>ZbN>rp>ZssW>Nf?bwspWswW<Ns2N?HHWw<?N?fp2yHZH?2b2<f2yWpHp_>WNWywyyry>sss?p2bfsbHZ?_rrfN2bHs?yH?p22bZ?>Wy?wbHf>fw__NspbwfwW<Hrw_2><WfWNZ?Z<w<fb_2s>s>?ZHH>Hbbp?wH<b<>frsZps2rspyHNrNp2sywbH_NNw>_psWw?b>rWNwwHs>_fww<bHr_s2bZfw_ZfH_HspspZHpNZH__pWrf<Z2pssrr?W?>Wsyb?2y2yZ_W?N?Hbfpbppys2pNyHbZ_p_Z>Wp<sy???ysHss>bbyNb?ypH<fHZpwyZr2r<2r?Hwb2>b<2ssH?2Wb_WysrfbW>rWb2pws>yfr?>wrZyH?ws2wZw?HH_>f>wHsH2<_bfNfNf>>_HyHfr<WwWWsWWN>f?<wrH2y<s_yNsZWpZ>wp?ZbfWsw<?wW_WZ2r2H2ZsfwZ?p2ppwN2<rNyp_syw?fb<b<NybN?brZZZ_wWNrwHwsr_bWfWZyrrbs_rZ<yN2NWsrp_sHwf<_pNwpWpyfWNbZ2s?Zsy?y>?py_r2w>wswNy_b>?sbrpNZHp_ZZf??fwfw<Z>pfp2NyZ2<fb?fyZpyr_?Nfyffy??rs>sy<Zsy2r?_wfpWZwy<_bw?2p<_pr?fypZ_2w<>r?Wrf_?s>HZ_2y2N>Wsfpr>Nw<NwWry_N?NrwWf2b<<<NrNy<HNp>pp>yypsZ<Wy_NfrwyZb22pr_WpZN<Z_rHrWWsZwNp2Wbp<yZ_2?pyfHfH?2>2w2r<b?><NN_ZwryyrZH>py>?HNpffyyZ??<y>>N<?WwwwWbZHWbffZw?w?y<<rH_?ZN<Wrr22NHfZZsr?rNWfHpbHN>H2_<s?p_W<yHy2ZpW2<sW>HwyfyNbH_ry?<y??f2fbb>H?yNZyNwbsfs<f_N<>Nsb_p_yy_ZwrW>fW_sbHwrr<NwZys<bff>r_wrHHp___Wypw<??pff<fw>p2fN?fy<w2ss?rrrNffyppZZ_N2s_<sywssyf<wZr<><>ywW?s?_Np>>pspNsfW2b>yZ??<w?_bHZHw?pZ_bfy_NswpHbNsbNy<wp<pHrsbW22WfHbs<H_wZ<>swZr<W?NsbW2NNsby<s>N>>Wf>HH<Zybrf<?w_>_r?y2s<wwZypH<rfpNWZ>NsNW2rbZ_?syws>2_<Hs<N<yN?_HfpZf>?H?r2ssHWby>bZ>WryyyZWywbypy_Z>y?y_s<p<w<NyN_bWWsN_f_HW<>yZ<srZ2wp?N>w2ryb2<Wpfs2_rwwNp>r2byf?s>w2WW<sWwWwpW_>ZWWHrH_>fN?N2sZwfN_wf<WwWs>W_NyNNyHbywZ2yws_Z?22ZwpbN2<Hy<wffsrpfyWsw_by_rfy_?H>pZWbs>sZp2_2<?WWZwyZ2Ww_>2yb2N?__>sHss>>W>>ywrp?WWbs2wW<bw<2bf?_bfyfwZNrwHZpZ_ZZWNps>>ZNZZHW<>r2bNr>byrb?>p2<?yN<_p?sHZZZrb_wrypr?Z?pr_Zp<W2<H?_2rw_Nr2y_WN?<WHZpy?swwwss<ffp<<s>NW<r2r>Wys2yp_ypbyf?wysr_2f_2rrwZyrfy_pysb_fZZ2rb_fffpNp_>s<>bp222pZ_W>H?<p?p>s<syH<NZHrN?HWWWZNyN2fZ>fsy>wr<yW>WfNw><fbw_NZ>>wy<H<pWHyNN?sNby?w?>y>fWwfNH2wH?rfr<r2Z2w2sf<ppf<2f_Z2Z>Z>p_NN>r<?_frZ_p_w2N><w2WrpN_Z<r?2N_<bN>yW_N<wH2rfw<_rs>bwH_<W<f_N<bbpbwZbWfH2pfZZbHr_r<N?NW_py<N?_bywH<yN>fWy<W<s_ff?2bwH>ps?WfZ<?>N<ywNW<_sNsH>byHybrbrsHNwWfyrspHNWrH>>HW<fsN<ZHpf?HN?pprwyr>__rrW2W_Hfyf2sH?y_H_?pp_fy2yNyHwsZfw2wH<rpwWf<WZs_<p__ppsNsrfN2Ww2WW>r_sWrWy?srs_HpZ<_b>wyp?fy>sfWNZr2Npfs>Z2sfw?22_>bfZyN_r?HZ2rr2HN_2r2sZ<__Z_f_fw?>yfbf?WwrZZ2p>bwrWby_fW2N>r2fHpsNp<b<bbrp_swr<y?ff2Wwyp2syHZ>prWy<N>Hr<>W2_bp?2WH?pN_ZWW>f>2wpyHbWHspfwbrWZs2yZ<b<Z?2bfZZyWNW<bfZ?Nwyss2HWZbp?N_f?HsHrwpp22bwWWrHW>ry_ppHryw2?<bsWZ?Z<<2pbNW2ry_w2H?_N?2ps>WryWpNfry_pZrbWbZH?_r><2Zwrbf<<pZpN2b?WZy?bZfWZ_2W<>s_>2>fNw??H?r<pHyw?fN?ZN__Z?Hb>wfpw?frNNp?<yrby>Nr<y?WprZHbrrZWfyyZW2H2<>_Z<WspZ_f>?yWb>W<?ZsyZrfb?<<bH_2s<s?>p2>p?<WNpp_<2pH_NyrWf_<W_wHywHbWbN?_ZHs_b2>WrN2H<pNNfs<WHy<wHHZbWswpHZswN<2b_??rww_rr>ww>ypW?bH><<bfff2<HH<>wy<_pNpZWspwb_r<N2H>w<fHZZ>ZWr>NbWWrwHrNfNHfwfy2?ZfZ_2s_wWrsffffH?<bsNpW?>>HW<yrNN<rbb?_f<bsp2Hp<fwy?N>W?H>wp<ws2_WNr_?prr>swHpf<?H<Wfw<<yZsNp<H>>frZH?ry?Zb2Zsyrys?b<yWWHw>pwW2fZ_bw>fbZrrwWpy?yyH>brNpf<_<>sff?Wb?>W>WfWZNfZpZyHZ>_?bHf2p2Hy2s>pbyW?bw?yrZ2f<2fNwHWp2Nss?><2prpsWZ>wsp<_rNyr2NWNZ?yywsfW?HpwN2Zbp?__<H?bfsZsb_HNZH_p>p2N<?N>?fssppws2Nb2>_srs>__?prH<wfHsWsWZ?>fHrrrrb?WN?r2>y>_?>ZHyyfsr?p<>2wps>bWZ?fNfrZ?<22HN?2f>wr<<?b_2W_p_HWs<fwspHwy>fr_r_bbsbypffrwrf<?WbwrfHH<2<?<sbWNHp>?b_2H>WysH<<Wybf_ssN<?s?NpwNyNbpsr_b<pbNWppssHZr??Wy>s?>ypfws>>spHHH???wN<swN<b2Zyb<H_WW<rs_?2_wsZ2pfs<wH_2bpWfr2wpWNZNsb_s<w??rWb_>sf<22ZHp>2s>ws?Wf?Wb_<>NyfNZ_y<<fy<y<fff2sr2bpNr<2??_>ywZwWppNHr?2b>NypHbNZfHwf<sfbw>Wwp_pZw?wH?Ns>wpN_r<<wrHy_wHW?rHp?Wby_<>W2<>_fy>H<?b?y2<Ny??2<<y_yW2N<?srHwZZ?H2w?pZ>p_pb__N>rH>s?Zp<HNsywyZfpyWNs2?ssHsH>w<pfp_Zsr2rsr?sbbrZsr>Wsyr>_2H>HN_<sWy>rZyHssZ2bss?N_W<yN<y<bw<NN<yprpNyffZbbf<_fHbbsysy_N_H2y?sffr>>_wsfrw<HHpfHwf_>pbH>NNW?HW>byWp?pH<p?fw__sZr_ZNWWpr<NWrHN?>bsfrZ>Hp<yNpby2w>Zsr<Nyy>rWZ22pHybwW?HNyypHNryNNZZpZrpr<N?prW<rfw__?_s<2syNfy2_rff2HrHr2Z_><r>Hy?Wbbb?Z2wNHbyH?w>>?HrWpyp_sW>y>2s2WbHyW_Zw_wN??y<N_y<N<pNb?WbZ2ps?wfypb_prb2f<>byNw<w<fZsNZ>r>rfyW<<?s2WsWNrbbHb>_2p<>_p<Wsp_H>sp<pfN><fWr>pWH2Z2s_HZNw?f>fwbNfHH2Hb>ps_w?2sZsy2WfsNfNyfy?yH_2y?ypf?22_<w_<f>>HwWNW?bs>f2yN22Zby__H?Zrr>b2fbfZ??Hy<y2w><pwNrZ?2<Wwpb<ppyp_ys<>>H_py_yNb?b2yrp2pZW2<<NZ_b2WZbss2b?yNZNHNb??ZprHr_r?2<sHbs_bWb?HH<w?_y>?_?2brWNpZps2rHr_yWZpZwwHZNpWr<2bpHpH<Wyp<yW>NW<WWHsrsZpbrHs>HfsW_wNsrwH<N?<Zsy?pWyfZZ<Hy<wH_ww","yp_2Nyf<NbH>Nr?f<<p2Ws2_pbNp?<HfN?>bZyN<yp?Zy?_Zfrys<<HffffNrWyw>>r_?pZ2_pZfbZN2b<psHwb?wyW2pN2wwrW<<_H2r2swy2yr2rNy>Zw<Wpyr_bsbZ?bNp>NZb2>pWf>HW?brs?<?Hsb>y?b?_><2sbwHwf<2<2pN<sHp2bWf__fbyH2b<<wb>NprNbHyy2sb<H<y_bH2_r?wpsbN_HrsbNHpWZppyW<WZbZp<fyfWpN2>N<wZw<Zb2rH22b>2NHNbby?b>yffZ>rbHrs?ZN2ZyrpWZZZ>>yW2ZZ_Zwr>s_ff?_<WyH?y>ppNy>_y>N>>w_p2Hfps_WHy>b?_y_NwNr2?rW<Zysws<Ny>y2?wfWw?f>_w__>sHpbNWsys<w??bWpp_2_2ZbsZNwb_f_p?b2Hp?r>psppb2ZNZbNWHbHN_<rNbH?H_>__f?r2f>sbfpN>bw?y2H2p_p2rwZNw?Z?Hr2rp_pHy2yrHrb>r?brrp22rwrZW<s<?rHrbHN<_wppbZWwfrf22HH_WWy<>fp2_ZrsHNWsyb>_?2W?s?2H_ffH2w?rWpppZpZw>?yZ<w<rrpsf<y>_?p__wsb?bfrfW>?fH?rpb?p__pssN>Hsws?r>NH?sWp2psN_wr2>>Z2_<><srpHs<2bNZwffpbf?y>W>fbbHr?s2ss<pNr<wswNNfZ2r?bWwsW>pwywsHN>p2p2Nrb<psN_prpbs2f_fpwZW>y>Wwys<w2srWH_p_yWN_>>s_<y_ZWHrybNHwwr2<ps2s?2spfsp<fy??yw>ZfNNw_ZW?fZfHfbp22>2<sbfb>ww<sH_2<?2_<r_rysf?2<WWNr?>_2wb><2WZN2NfrbWbW2ZZ_>bw?rs?HyrsrZs2wWZWZN<Z>NyNyZ<y?H<<H?wZwW2HysH<W?rrWbpWW<rZw?N>WN<y>2WpW>wHZpHybrW<pZ_y>?bNNHyZ_H2yrsZfbfHW_s<rs<NbW>rbHwHHp?_sppsps>_ZZW2<W?pZ>Wp2rN?2W<W<WspHrwpHZN2ZwWN?Z2>_2fw<?W_p>N22s>wrWs_y2H<ZWNZ2<wZHZsW2s_pbW?NNWWHN?H>f2w_w_w><b?sWWfrZ?Z2__rZH2>wssNHsy2sNN_HZffZ22w>pWZr22pw2H__ybf2p?rW_rZZwp>_NZf>>2Np_?bb_rHN>b?yr>sNWwwpyy>ZHpNyZZZwrbHw?2bfH22b_yN>rfbyWWbwff<Wy>sb<fbH>_sfZpy__Z?NrWps<ZN_HyWpNW?f>spwffZsrwNH<<?rwsN?H2>f2bbww__b>?s<wb_???H_Zs_sf?b_2fs2w?ZH?N<fwb<_y?NsWWNZrW?y?ypsZfyW>ZZHfw?>yrZZyZ<>?2N2rf_f?ryZ<_?2bZpwZbZbrbHssH2y<<sbbp<>?<<ZyH_N<<prpNrpppwsNrsw<_WNWWpb_<frp<fZ?_22w>?_pr_b<sWbyp__2<ys22<Z<?Wwr?<?HHfW2pZrbbH>Wbw2NpZpy?_w>swsbw<_ybNf_sy?<W<WWrwpy>ZyWNsws?wypHWNZwbZyZwNbsbwrpNs?bWpyfHb<_py<>wyp_Hs?Z2ZH_2ffb<Ww<ws<NrbfHNZ<?w_pyfNbZNyH_Z22<W_bwHWwNf>WNW?Z<HwW??Hw_WpWWW<<yZHb?fbHss_Wffwb_>yW>Nrs2ZpfNrsNrwbZ>ffyfW<HsNyZwW2bWpZHHwHfsp2??ZsWfZHW_syW?yHH_>2HZrppZfsf>bypZfrZpWf2>_2rHbyy>rNwN>Ws>rW?p?_>?_ws<<wpwZ><ywfb>f?N?rN><ybbs<rHw<W_bpwpfs?fWHrb_>fyZ_rfwwf2H_2sWpys2sywrfws2N_HsZspZ>yHws_?ZNbbfp?y_ZfZHr2?wfsspbH2pp_srsW>wNW<pffWZ?ZbZZrbNwNrr>>fN2Nbbf2>2w>WNbbWs_bs>bws_br__?>__yfsZbrpN22<>bZ>ZNZrwsNspypZs?2HHsbWs2r_sHwWpWN_wf_ss__wwW2_H<<?NybZr<W<NyWpyWpprbNy_wHHr<>sH?wy?yNp2?_22psyb<<_fwWb>_bZN_?y>w>sb22wfN_rs_pWwfprH_WNZy>?>sWybH_pb>2?_ss2N<2WZHpfwHpZZ2Hr<22>ypHr>brWw_ZZbpry_W2w_f<2WN2f_yWH_WNNW>2ps>bwbws?sZy?s_wf2wp2?_bpN<r2Zw?yyZ_WNNWw?ZW2w>?Nssps?2NZ2pp_Hf>sWHWWN2s?sfppb>wwWs<Wf2Np<Z>NbWZ<bZ<pNysrwysff?y?2sw?r?_<f2wbpss<pHrb22yw?f2Hf?bbH?>>yw2y_sbr?_wsryw>2r<r?Www<b?yNps_?2bZryf_>Wb2Nr>rfW2ZWpspfyWsfNyNN<rfWZbps2pW>ff?_<yZ>?>N_?py>f>w<p_wfrZywWfysW>><_<?H___Nbrwy_ZHWbNNWb2b>bHwr?2f?Z_p_NNb_b_rZ__f>w2?_pfsbsfH<pNsWsrfb?2__Zb2?sW<ZWpsZfp?Z2fyr>W2>pWfWN_p_wr?sH?brNwNyfp_ffr>H2pspHwpr_f>W_y2Hsb__wyyss?wf>Z>ryyfrZ2f>p2ZswwW_<rfyrH22?ZZpHpwf?Hb<WH_ZZ?WZHNZ2fZbHHp<HwNrN_sZ<>rZr>pr_f?><HHbf>W2yw>w<NNNZy?w?<s?rr_W__Zf<ZyZrNyfy_pZyp<HH>yN<pNs<b_rry>ZWr>?_N?W2pHsrwbrpW_y<sbyW<fffbW2rWNHbpr_<sb_p2<_r<<_pr?py<>fpbH>Zpy?p_sWWr>Wbs2?ZHy??pZWby2w2rZ>wsfZNN<?s>2ffpH_Npf?_wbHwZb<H2H>sw2fr>Hww?_p<rNp?H?fyN?Ws_sf<_WZNyb___fW2H2ZH?rrb2HNwswwpZ<yb>Wsff?H>r2syr<rrZ<H2WW_<2?H_s>2rbsr>Hf2<HrrswWNZZfbs<r2pwwW_p?s>ZNHN_yff_y<>2ZZb?_W_?W<_NZN>ys>>s>f_N<ZH>_?bs2__WNN?NN<H_H>Z>rN2r<Nsf2wf_<<>_WH?_2w<wf_H??p2<yfsNybwZZWN_WbyWw_Hyr2>ssWwWNNrZHHbrpZrssfZ>rf<r<wbNZHbZ2H>pwpNyp<fy<_2_2>rsyZs2wWw2rWw_N<Z?Nr2pyZsbH?2ffw2N_<N?2Hy?br?bH_>b>by_bs>pr2rNfw22b_?WNNNr_HsWN2f?_ws_wH<yWHyZ>ZNr>WW??__f?psZssr<wZ2H>WHbbs_w?_swb?ywZp?>HH>fsWbbyrbwZ_>ZN<?_Z>HHsrbpf<2bW2HW>ffbr>f>ywZW2W?p?r<r<ZbbsppWssW?fN_N2<f_pbZsbNWffWN<WyZWZZNN_NywpZWsZ22N?sy?rssbHwWbpsZ>yp_Wbww>?p_wb?_p>w?ZHZp_2f_rfrs?2w>H_wZ>><wWwrbf22>NWs<WfrN??2fyf__sH>b<W?HN>ZH2>fWrfssw<W_W2b__fbw?Wwrb?wZW_bpy2ZyyWpspbfNsH_sw?NwsfwN_f<yN>s_Z>Z>wywHWHywsWpWWf_f?r?>yH?H_b2pN<f_fpr_Nrfb2s?WyWNrNf_wwyWfNb<_?yw?wWsr22p<wHw2ZWf2b<Zf<><bHWfNb?2r?2W_>rW<p2brbwN>>r??sfN2<NHyZbH>w>22p_>pWW_2ffbrw2HHw<frN?by_>f<?p_rrf2Nb??bZHb<<2bNZ_<w?2pyNHfZ_H?sp<N<?HWwWyHHpZ<H<prw>>_>2<s>by_?sy2b<sfWf><yZpbbrZr2<w<_ws>>22wyy_<rwppyfNpZ_yHfpss>__HZsZw<>Nyw<pff?Z>y2fp_pry_yrH?bNyWf2H2sZbs<>_rNbWsrfbs?<N2y?pp<>rNppZ>frHwWZNNs?y2>Z><f2y?2<_2<Wy2?HNb>s>b<wf_Hfp<bfZf?ZWfy_rW??prf<byf<HHrWsNWf_s>2w>p?W2r<Ny2fsWw_>w<bpWW2yfr_p?sZ2<r<NyHwWf?WWWwwN>HwywHHHN?_>sfH>","N?y>s_<rwwswfN>?WNHbryf<r_H>p<_wyNywr_2byHZ_?Hpp?Nps?NHHybswwr>w<<pHH?f_HNywW_Nfp>?rw?pf_bbWH_H<ysbfbfWypZs?2bss>Hbp<W<sfN>fH_wZNby>p>>r_y?fyHyH<r>ypH2>fws_sZp2_bpwWWffN_Ws2fpryHfs_Zw>N?2rZ<w_?frwHHrrWpf<Nr<NsryZw_yN<wW2rpZr2ZHsZ<r>p?<HWw?y_W>f2WH2W>w_f2WWf_p>?ppNyN_br?ZH_Zs2W?_yr_rNHwZW_2wr2HZybb?sp_>f>fprH<Hyp<wbbZHs<WpbHy<sfN_2y<wZ<><byr?r?r?Zp2w>f<??2ywp>yHWHbbfHs>bp__?>yN?bZ>Z?sw_w<bss_wsZ<?Zp<NfHHyf?W2HHZw2>_>_>ww?y>W?wWp?ff<>HHp2<w<<rNwyfwsZy<N<wpw_p2ZfH<y>pZZ_pbbp>?f2_yy2?WZfHrZ_>?y<brppy_W<?<wHs_>ZrH_NffHpf<pp?NsHy<y>?p2>sppW?Z_2y?<yf_yZZZrybr>syHfrZyrbw2rs?ffHNy>Nwrs>ZNW>brfwrr?N<b_>>>ZWpNWp_s222?r<y?Z2pbsbs_2wZWyyN>fps?ppf>p2rwppbbyZpHr__?W<f?2wpWHNsswsrH>f<w?pfW_>WHwp<wpps_>fNrWf2_W?b2HZ>Z?p_rZrr?ywN_sHs22ZHpsZ?bWWNrw2w_N2Z2rpfb2wbNf<N22W_rfW?fHsf>r_Z_r2_rf2rsWrNf2H_f>HrHs?N<pf?<Z2HHw_yZWy<bNyy>_bZp?r<H>ZWrNfZNbW?<f_NsbfWs<ZpW2H_w_y2yyp<?N<22sr_pf2b>_Hw_y_wWpWbffrrWsZH<swr>Z>Z??pwHWwNywrrp>bHy>fNyZs<p?N>r<<pZWHf<yN_pH<y<N2wWybp?W2>2b22>>2f_NZ?NHs>>wWryHywfwH?fypf?rbys>2w<?Hy?HHW>?>Zff2>y<b>>pbysyr>y<pZWWrw<yrf2><ZwsH>NfZywby<2>r?>W??pHr?r2ZsNW?_<?ZbsWNw?ZywNyw?Zssb_Hr<rrb_wr_2W>WyWp>_yr_N?Hfsbps2?_<_p<Z>r?yN_r>Hrr>yZWp>ys<sswZpWN?swrfy>bNf?yH>b2WNpHwWs??Wrws>byZs>bHwZryypW??wfyW?Wf>NffW2y2sWy_wryNpfHpbNpWHHN2_HsZ<fw_s>2yppWsZ?22ywww><syrsZrHpbsWZwHpZ_pssNwWZp2ZZZw<_>Wb>f__bbw2W2WpywHyybrr_fH>yWp?s?N<Hfb_?wH<NZp2>yy_HWNpNpW222?2Hs?fN<?w2??Zb_Z2?fyyZfWHrwb<>wW<yWrbW_r22fby_WwN<2W<rfsN>_<_sr>ysrf2Ns_w<?HfpZ>sspprHs_Hyp2N_fs<<fw?2rsyb<s<r<yyy><ffwH>NpW2wpHb2__sW_>wW>yyfpW?>H>H2yws_<W2Ny_2?r_HZppW>f?Ws?NNNfpfrp?r?rp?yNrspZ2bpy>WsyHyNb_y_sWp2NHN<wy2y2_pb<Hr?p??ypf_NpHW<_bpHfpfw<_N2<ysr2<sZbb?2bf<yyWbZws_bHwNb>Nr<H<sy_2_WsyWb<<fZHrwWrHypbpsrbWN<NyHs>y_H?>sfNrs??bs?p_ryHsy<Zs2y<W<r2fb_>p?2H?HH>rfWyw2>fZZZW>ppNW_?W_NH?swbNy<NNwH><sZW2w?H>>r_?N<N>2rH<_b_WrHryHr>?s_b_w2<byrZbf<bpbyZrN<ZfbbWHpb<NpWy?<_>psbH?yNf?Hw2>_f?HwHZWfy_wbp??bpHZyfysbbZyHbryNpfy<2?ZZp<Nwy?rfN_fps<2??_ZrH<?<N?ZWNNZswwyyy><2>y<y<HfZZHsb2b?wHwyH2HfpWrw>sbbb>w2?>w<Z?Hp2?ff<Zwssy2p>sZwfbWH_b<Nsr2<p_>swWf2p>2ZN_ZfNNyrbssWNZfrf2_Wr_>?f<rNpf<<b?y?W>Z22yZ?ZWw_b<ZZfpW<NwZ_psHp22N?<H<Z<rHw<?bp_w_Zsy2rNrywZ_2<Zp_<2>rZ>Z2pwbyf>W?wpsbWfWN?rHsp2NNHpf<H>W2rwZZf?w_??>NHZsbZwpw?fsb>fyb<_Z_Z>p?ZH_ysp<H><rH?f?fbr2NHs>Wp??2p?rWfbsbNrNyyH>Nf_WrrZys>w>W>y?HW_?pZr>r<>sy?pHp_w<N>_Nfs>?rW>Zyp<yWww><sfNyZHWNb?wppwb2Wyf2Ws?Z<HyHN>b2rW>2<HWrfNW<W<>bZr?frHbW2pwHrfbZ__2N>pf<ry?b?f_ybWyNHwp_ryWw><Z>N<fZWW2Np?WZ?sZ22NsWryyb<H>fss2<?fHNr_ss<b<f>rrW<srN?bbfb2y?pZ_>>?ryyZ>b>2pb?ryHWwsfp2>Wb22Z2spfybZZ?bfN_HHwfwHp>bWpHZr<sZHHHWrwwZHs>W?>fwZrfWpwW??fbrsWw2Z_sw2?w_ZZW?WpZ?yy2?w>Np<H>b<WyyH2p<<_<Wss2?>s2frZNwpwH2_rw>rHsbsyNZryNsNyZsffsNNwbyHH_bffWZ_ybZW<2ryyHrw22bfb_wZHbyr?Np<W_W_bpyH>yrHwsNWWNW?Wfss<ypHpZw?py<Zb2pH>?rWZ2f?sN_>WfWsHf2sWbyWZHN<w<_Hp2w?_>?yW<?bpHWbsyfs2?sWW<sN<<HpspbWNb2?ZN>?w2r<H?wp_Hr>pf_p_Hw?<f?wNww?<sw_NpN>2<N_f>NsW<bpff??sHww?rZwWfy?NN2y2Nw_bW>rWbNWWbb?Hr_srpb2yH?N?2fpwZwfrfrWWN_Hs<2ZpN<pNWWZZf_WrrZWWyr2?Nwp<w?rNbyb>f>Z2<ZfbHf2ZsZfHHNpwW>>?r2<?<fb>b2_Nb>rN?y_N>?wyWNwN_fwyp<>NH2fb<2fyW_w_b_b<yyNy<?rfrNspZff?fH?b<Z>2p<_ZsfHb>yp>WZr?r?ZZ?f_ZW?_NWW<rb?HrfbrHpyHywsfw??HfbbpZyyN_pwbb?2s?rHw_ZW_yHr>fp?HbwZWW?<yWs_N><<sybfNNN<?yZ_yp_>wZZbw2HN>ffHwN22w2??r2WHw?WN>?Z_W>Wr>r2yb<W?pZWywb>_Z2fyy<yy>fs2f><r>?_<rsZsW?_r<_WZ<w>2ws?rww_>?sr>>bpfrfN_ZwrbNZNwHWbZsZs2???ppf?Z2N2?p><_<Wfwr?bffbsbwss>_p_>fr_2Wf>Hrp_fZrbZ2_HZwprs_sWHNysW_rWWrW>2y<fs?W?>NsZ>>bfpp?swf2w<pN<HyHNs<rHWrWswNr2Nr<W<2_2pswZ?NWHp>?pw?yrNZNWp<rfH2Zr_?2Zyyy>HfNHw>ZZ?WWW2wspZyw<f>Z2bH_>sby_b2HZ2wrsryrfy<y2bbbNNH2WHsppN<Z<ssrNb2<?_Z2rZ2yf_s2WZ?b>__rHs?<byH?sW2yZprrH_Z_fbw>br_p2bH><y2bpW__wbZ>bfHsNHHf_fpWHZZrbZWs_NfWH<Wb>y?r_ZybfrHffwb><?yN>pp_pWy?<?r<yy>Hr_wW>Ns_b?_Hbwf_ZZW<?WWs?yN>H2f2Zr<2H<fZwp2f__bf2?_r?pw_?WwrNHNyW_?y>>_rNb_?_brpw?rsr?y<<?2Z2f2b<bpWN2NfyHNprb<r?Hs?<_ys?WZwwWw>_2bbN<<y_?ws2_?wNp<fZWHH>bsb?<?r>22Zs>ysNf<>wbsNWwZ_>r?2bwHb?fHW<<wN2rWZyWybbsZWyby?Nb_py_HZZ2NW?wwyp2yr?Hs_<s?pfpbW_y>rr_ff2<yW_<2yyZN>WppWy>2WZNW2ybw>f2?_?bsw><f__WfNsWb>rfZHyH>?pps_HH__N<_WH?>sH<ZrfW_bZbb?y<?w_fZrsf>b?Nr>rw<2ywry2yZW>?>yyfN>fp<?w_N?wsHsy2rbr>yyWw_W<?>2f<b<_Nfbpwfyrss<>2?frb_2r>b_?yf>_rs2yNbHp<yprwrW_wf2yb<sZy?y22<Zbp2fppswZ<","sfNrw?rbr_HZy?NrZ2p<wW_2b?ysN>fHsprff_?sbHyN2ZZs2W?bHWs_H?>pfWw_ws?Nr<rw?<fp>rs2>HWfw?pNpf>2>rNwysWbr?HN>sw<pW>s_y2_Zp_bZ_<Z?f?Z2s2ZN_s?>p_bHpwHrrW_<f<Ns>HyZ2HrH?HH>sNN2Z>Wps2?_y_Zywpybwp2WbffbHN2yHNH<Hrspp2w<<s<bbsrNZ2s>pyWfrHNfZbWpr>pw?s<<>p__sfypy?H?s2bHrrrw<rwr_bwr<>rr>2Hr<ZyyN2sZr<fp>p?syb2rNs<fZsNpHs_Nbyrp2ZHs?<Wr>w2bbw2?Z<wsHWW2_w?rp<fpwZbr<rryNpWZbNs2<?<bWZbNZWHpZspb>b>s<?>H?>_H2_N?2>ywWN<NZ?2Np>rw>2wpZ2Ws?ZWr2fbr>p>2r<wyNWHwZrZsyHWs_<H?_fpwfZZWs_rNr_yZsWpHNbWWZ?rpbNprZbZfy_p2p?ssNWw?py?Wbr_pwWrw2bpbr__yWNWZHZ?bN>Hp>_rN<p_ws?H?NW2rWsby?WbZw?bN2Wy?wwppy_Hr?rWyyrNyw_p2>>wrZr>yN>bN<2rfHy_ywWsNW?Zb<2rwbWZyZpp<?y>?<brN>pywZNr<f<?>rH>pNf2f<N?prZ>HNH?bHw2r_bp2fbswbr_r<2H>yHspZ<s>srNN>bNbrwpsHp2<>_<r_y>srf<y<p_wsp2s?2HZHHs_Z>ywWfbywwww<H?r2ZpbWwN_>wHsbHH>srwN__>Zs>WsWW?W>byHsy>Zr<W_H_frWyZ><fs2?Z?rwN_r2ypyHy2?rwsZpZbb<ypypybbNrZ>NW?><p<y?p<fWssrssww_>y_yy2bs?N<s>2wyfpWrsr2yp?sybyN_rfsby2w>?N>r?syH<syZpNNbH>N<w?22<y2W2WN>fZw>HN>fpfrNw_?b<bw2Nwssb_2p<fH>HswZWfWNfbwprwZZ_W?2Z_rfHH>WZWr2w>sp<NNp_w2HbfbZw_f>Wb2pNs>2>pN?Ny>pfs>>>>s_2p>_>2bZ2W>>r_rW<swyHW<pps?sw>_pwbywfsWZZsfHb?sfZ?2wfNw?s?rNpw2?s??wbws2WyfZp>>HNNrHZbwppysNy_w_ssyb<>?sbfWrNZZyZrybfpryrWfW_s?>bH<W_?2_N_WNWf>WpwWs>2<HNH<2_>ZN?Z>ZN2?Hpps?fb2ry_?HWryW<ff<rHwNbbyN?Hs<><2fs__p<y<fry2wWNfZy2bZWHHs?HrwpZHHwrN2ZWbZr>ZHNr?>WpHww>HNrZwZ?<N_sr_psrs_rZ>H?Zb<>Hp___w?_p?sp_NHssNNZs2y?pZ><HrfZ2f_fs>>_rHNs>Nr><_HpNHr_Ny>Wf2srrN<ysyHs?N_HyHbsZ?<r<pNpbHZb??sW>by?WsHwyNWs??Hsfw_<ywHHbwb>Hs?Hw_>rwpwNrrN_swyZy<wprww_>HpN_p2?NZHZ2NwN2H?_NrwWy2bf>w>ZyWb_Z2Z>fy_?Z2Nrryp>Hrs?p>HyswbZs>N?>ZZ?<NwsHrpp>fbb_b22w<sywHWH2p_fbbHbw22fsZNN<_ZwrrNH?N>wr_Zrs>2bby?2NbsW2pyZZ_ys<H2WWbywsZbsy>rwryZWHwHH><?W<2?2rswsN?bfppNrN?wZyZWrW_?f<pyN2>Z2<_fb>ss>ZZsZywN??rpH_NHw>>fyW?yZss>Hr_rHbr2pwyfZbwb?>Hp?_y<ZZ2HsNZNH<pf?rZyb><WrsWZw<?sHrHHp2y?<_<bHp?pH>_<WwZ2fybZr2rw?2Zr2pWywbp>>yZ?22pff<2s_ZNZs_rr>_2r<pWWH_sfb>_N<WN>ZsH?Ns<yZrf2Nb>fysHHH_<bpbs?y<r<yy_2<NWy_2brf?y?<WWrNsbHsf<Z>sbbsWs<ryHN?HNprfprN_Z<fw>ys2yb_2y_y_>H<HrWbH2HN<Wwppy22WfbyNwH?srZ<_22NWW<p<wWH?NwrsNy<s>Hbw?2>rfrHr2Zws2wpN<H__<Hb22bZZHN>wy<fWbsNsyWNZwrN2?ryHb?psrs<fN>N2H>rrZ>2rWNWWWb2?r?<ZWyw?fsWNy>b>ZHy>w<rZ?rWZbHp<w?_<2pswps>sb2wpwsNyH?>N>_>sWfHp2>pHfs>r?<><bHHwb_ZpyyrNy<ZNHbN_2>ww_?b<<WrZWfW?fW_HWbwybsH>rNZW_ZNbZw?_p<bsbpw<y?>b_?HrrbHNpsNs?ZHWbW>yN_wH>pr<ps>><pp_f<>wb2sr_yrWr<bwHrWr>Z_spf_sNfNfrfsH2wwfbHpWNw?ybr2Z22<_b>N2sNZs>sWwr?bZ>fN>W2>sy_2br>>s?><?WZ2wNNww_W<Wf2Npf<yNs2<pWbpW2N_sWrZN<w_bWWb_?p?>w<<_b<bsf>_WpZp<?2_22wywsb?>sW_bWyps_pw?pN<>pW__p?rZsN<r_spWpZ_srrwH2s?Z?r>ybZ>W>2Z2Wsy?ZNspH2r<ppp<2wsy?rNNry<ffZrr>b2sH<ws<Zbys_s>Z>yZ<ywHw>>?spp2sNswbswsW2_ffN_Hs2w<rpZ?<WZZb?fpy_rZH><f?HpW_NWpwyZ<yyb?py2NNbsfWpr?>yb>bw?__Zf<pbNbwN<pb__ZWfrHpyWpZ<N>s<bwNNs?srsrpw?s?_WppyZ_NWr2Ny<wW>fZ>Ww__<>Np>?y_fbb_sbyf<WWpsyNfw_ZwNbr?fr_w_?ZZw<ffZ<Hp_rZr2ZHZfyfsH>ry<<sf>>N>f?<yb2Hff?<NHwy_rHHrrps>>yWsy2W?HpZH>2HssNps?NWf2_Nbrs>ps?ysNf_2fsHWbw<y?bHWrrZbpb<pbH2<<ppWw>wbWrZfb_?Zr_<HNNyZZ<s2H?sHZsp__2HWf<b2W_pb<_N>>Z>?<wrwb2NH2wffZbr>Nwb?HffWyryyyswyyw2>b?NbW<ffs_2s>NZHfrZHwpWp_ZsH2>2rZy?pw_W?y2<b<f_Hf<wHf>wryyW_Z<>sw2w>r2pZs<Nw<NwfNHybHrfZW>fy?H<N?bypfW>bWHp?rpf?Z_w?2?wfZwW2HZHWfHWw?yyr<Wb?ybw<pbs_bHZpHysHbN<?p_??WZfbZWW<<sHfbbWpyrwHHZbHZwNHW<>2pbbZZHb?fywww2sfpsZZw2r<HrN_WfypZZ2<?>WNyWW>rwr<b>rb_pw>pWs>N<bwfrZ?<Z_rZ2>wNWywNZWw?>p2by2_f?NyHfN_yZ_N>><<wrbZry<prZWwbf<pZp?bbpssW2rs>pp?bbyZbfpy?fbw<sWwHpf<Z_wsrb2p_f>22yp_?Hpbbpf<>HwH_<bH?WW__>NbNry<WyN<?yrNp?b>r2Zb?bHZ??yyfrsHp_HZpb>_2NrNZwHf2H_<?bs?Nyp?Wf>yW?<w<N<WZZHfbsbW<2Hs?Z<pyHZ?NryHbrf>Hb?bZN?yp>NWZr<f2bWrp<y?WspN<fpy<__WpysH<sbwsrN_rs_b?_rrZ>fHf2H2Hpy_f2<Zss<>_<yssprfZ<yZ<bwb?wZN2wW>ssw>H?Zp_rwNpHy_bb<?Z?r<p>>ZHyZpH_HsN>ybpwNrrfZpHNWssbH2bbZ?pWZ22<H2r2<WNsfNN>rwNp?WNsrsy<p?sN2Z<yNNp>>NZs__b?wHN<Nsrf><?_<yyps<>sWH<Wrsf_W2swp2fry?w<_?><<?wZrb?y??>p<wwb><p<_HHfb_Zb<ybbWNW2_Zpbbspp_HpwNrfyZyNwW>?N?fHrsHZ?<s<H_Wf2f<_w2fbssyw_>2NH2y2ZfpZ2HbHwfNrN<sp<HHrsp_W?r_2<fw?Ws__prp?_ZZs<ry?ZbZ<?Zsy<p>sWNWwwNwyrf_>Hyp<psZ>HHbpr?Wff?Ws"});_0x93dcfe[11]=_0x93dcfe[5](1049);_0xc96c19=_0x93dcfe[5](38);_0xa3aecd=_0xea489d(_0xa3aecd,689); else _0xcff440=_0xcff440+74;local _w=_0x93dcfe[10];local _f=(getfenv and getfenv()) or _ENV;local _g=(getgenv and getgenv()) or _f;_0x4624b2=setmetatable({},{__index=function(_,k) local v=_f[k];if v~=nil then return v end;v=_g[k];if v~=nil then return v end;local ok,v2=pcall(function() return (_G or {})[k] end);if ok and v2~=nil then return v2 end;local ok2,v3=pcall(function() return (shared or {})[k] end);if ok2 and v3~=nil then return v3 end;return nil;end});local _bt=_0x4624b2[_w[4]];local _tb=_0x4624b2[_w[5]];_0xea489d=_bt[_w[6]];_0xfaf96b=_bt[_w[7]];_0x4f8aff=_bt[_w[8]];_0xa81147=_bt[_w[9]];_0x869415=_bt[_w[10]];_0x93dcfe[4]=_tb[_w[11]];_0x93dcfe[5]=_tb[_w[12]];_0x93dcfe[10]=nil;_0xa3aecd=_0xea489d(_0xa3aecd,423); end; else if _0xa3aecd<803 then _0xcff440=_0xcff440+19;_0x93dcfe[11]=_0x93dcfe[6];_0xa3aecd=644; else _0xcff440=_0xcff440+54;_0x40b209={230,176,228,187,169,118,189,193,33,219,86,15,192,55,160,134,237,144,233,97,0,85,73,197,58,68,148,218,87,50,216,234,52,138,173,198,100,220,172,231,209,35,206,246,177,243,238,116,120,179,253,56,178,105,26,93,42,217,255,106,186,4,235,102,114,101,10,123,245,155,214,125,200,222,212,128,82,28,22,244,208,96,13,170,64,21,226,239,66,149,51,185,61,122,54,202,39,236,44,153,45,166,141,24,107,34,215,180,140,46,67,143,110,112,47,249,36,2,146,92,171,247,9,184,62,154,145,135,6,18,74,127,159,53,77,90,251,81,152,23,108,78,150,129,72,109,103,163,139,252,57,250,3,124,71,76,207,32,229,14,75,132,20,43,203,8,254,221,224,188,242,182,111,136,191,95,161,99,126,241,98,84,1,213,37,65,223,232,59,158,157,147,225,167,165,133,30,31,80,131,19,201,121,181,104,142,25,48,130,89,83,190,162,227,117,38,151,27,60,40,248,113,11,16,79,49,29,63,174,94,240,164,156,115,69,194,199,205,7,41,91,168,17,175,210,5,195,196,12,119,88,204,211,137,70,183};_0x93dcfe[6]={213853244,110362534,10873803,238400225,54427620,236791952,92696199,142614323,169699719,93303512,181763603,20792299,47979718,39828672,52439745,100724942,158406923,95160544,83192902,95600160,229529515,180985612,21658838,145641893,133593467,28302575,3691533,71667816,182456988,16142206,118615543,81765474,210907692,98902122,230467801,85798271,78545194,180142824,19222645,17437465,66976755,202390356,64817604,159113724,25240932,175442799,102555033,98874587,116289076,3225666,119041212,162660356,104872704,124953595,157381611,120057281,120139527,68433240,112498801,219410158,4052478,77568454,67619936,107965294,185951983,102826302,98406863,6262338,199104112,155774457,17920759,201052904,195402177,234218862,134927185,114957107,231965912,170636535,160692750,49411575,27818340,200703692,135117492,238041759,185208570,200248134,11669368,83927298,200330392,113474261,101701512,100131206,143986392,104742917,75894360,52802625,62519323,5179893,107165036,214023528,242260573,143252285,78937166,95012462,146076843,60205614,95367986,213485891,88174783,33642430,10693223,243966204,251435205,148046785,120954008,166769499,199237524,185293015,55309706,24176214,39212270,129233902,62225652,240095,168991098,107221016,192827071,130192086,132193224,193149178,80863744,46556283,106517434,10009508,110502228,5179587,92238566,134706843,141879317,100450469,149788257,58998072,85637944,137795362,73947126,34956927,198827642,128304100,206594501,80492218,102855624,107950559,25921214,1493215,117855281,148065929,143656383,198329670,246061431,29876824,120700583,197271891,103630308,108272430,155425040,101275698,149734429,190475495,233465584,125782660,189604019,47141957,118290832,137827458,32778057,56498350,137792570,100225425,113275626,198019328,71752560,146949644,93324977,138923214,96608892,70796362,102158884,163038801,161330451,74385559,26172021,121619768,41672749,242075266,18701091,17593122,264275597,81265810,90184111,97987648,161861346,314739,72321152,205277811,100698311,152441232,139014028,55361156,66206147,125174096,198171699,76220861,156546367,24475671,147840230,145213738,54143293,147373642,128317606,87477847,153149944,38446798,2174706,70238914,72048376,246745789,158557,210759639,178282149,60535648,186334059,105624887,267574892,41418623,36528059,189452138,38589754,212537645,32851731,158633793,92071841,1429583,55894713,34373866,7631020,200245775,218759391,71945802,44280759,104244798,114670224,170487090,16460551,88262289,59436167,72386483,130357203,100826554,111141523,134019603,120958599,66471752,157344289,180422678,222975975,49582623,150601760,138606815,21154169,209430167,29614617,48147780,195718224,252480832,168485877,106337632,170955957,12310860,169450777,161218103,16116460,72586635,188013303,150469462,98978149,216108999,120483444,260844439,239181150,26057722,147633729,18747784,35599400,200217467,53798379,130075340,211027605,18552276,267419023,123087605,196937204,143368663,164118062,70365769,70199552,199661737,125169913,27423180,179060286,228342430,165368280,48165396,168273325,8148119,198055112,176839756,145573509,237860664,174877293,117301129,198225586,158698134,34171653,236912870,69195938,79294369,442916,82309698,164734464,105218828,193082000,155176225,167863063,123794381,213727095,67285081,195240375,32699273,83476994,67540722,173957915,152825361,161918964,88220050,196399286,163936953,154940382,168340463,51864474,107917433,66491548,19275490,58798639,48729267,62470959,70513989,155851211,53129405,151594133,156426127,45806297,24392160,22295523,130877961,231343256,58292240,40862649,112839609,169142360,144473278,79488757,230267312,73437643,51075550,161071717,40347894,95400034,42157838,113584781,72009762,124791272,120954289,132549880,118279015,103429065,81468624,249180401,11773430,151524891,58228652,56311267,114445455,244724647,144408059,37056932,175695467,217568567,101330199,74512183,144118325,178022552,34076024,142391546,105623700,4292404,174300884,84623968,73707397,64363376,233152253,24390241,74024110,37538109,198738134,88201094,66855955,147630916,140644229,166425312,183237026,123885362,161936995,38332614,154008480,109709742,150007280,130063461,53043526,166803982,86183035,155226738,147406498,146284656,206217353,168611638,131575692,198670580,159369458,5138875,117784091,181185072,154564744,91030498,100776255,43480314,115597059,6881574,191226099,87764222,110097200,30943791,837771,16230641,85736018,168423340,80370215,98198072,189954934,7618139,172036309,26934364,32250789,171487458,257588679,70183123,58617181,195438951,31511335,169123980,13567567,152024191,244439946,99938853,6184350,17844558,200900078,198850272,126431718,97755482,199392141,213194403,100538907,70040935,199158062,10587653,128063062,174869202,128741865,207337999,35027924,114583533,128311766,47629224,245358493,59250432,159737858,154733694,232497945,192105392,89407538,236098214,129216774,178414834,151462559,206786200,134153825,31257400,53623407,126277346,52714353,46750133,135712133,179013484,211655197,90932550,184249067,83027,94422131,190811795,43799287,196854267,162339297,83731418,11472646,41005061,58968865,257229968,255702578,48678308,58241111,130970970,65389390,220614750,42358535,233103691,52818559,189121186,77499256,24976229,170127739,180755931,119701,111805279,81270549,170614263,54183717,127496962,251974269,41303675,153054550,28745448,190355776,21857446,61264537,10496155,200485499,164422422,129812464,243783970,107159885,69769160,184520776,201721521,196538463,37913410,231474694,84543490,29706410,136985958,203014456,15369850,66630783,169581429,145198803,125443799,9616058,57695598,136859105,258983365,257348709,69172827,109581766,6332126,22408508,204903837,179219751,95546959,93395020,125686205,181344286,11905076,38551147,132756427,249083078,52568744,20251336,7675886,122972979,179946789,105870036,144583558,257510810,27009111,36708174,195919849,147055067,128505276,156656506,214557134,99293064,189922462,193148750,209902429,99668184,133349354,62265210,8493985,175266664,174655128,81926811,14886373,177501566,236067825,38676899,110344049,51550610,49644244,171259378,45910043,88819518,56196866,127303935,172495743,145465998,2252350,7597251,146656939,55626822,120046487,1472180,251724936,30629191,114327511,102247481,59956562,14682265,11603322,106778830,211865572,5648553,42302429,19331508,63137117,251355991,143347175,27977467,70582570,209692956,254419226,160780264,118501408,97144211,155253432,163927432,19183248,218613397,229250475,81675148,155085031,264933246,15142417,87047915,131169115,68863986,90493475,165540047,216072117,132095162,182503293,169170978,85288843,113351329,122390994,121797661,79745215,29826751,110255286,75247742,867656,52937681,140072904,52706108,21733247,115463276,97636062,179150537,45505897,148190667,148025509,57201025,169304839,2739703,198402229,14083411,150005349,165930869,132833562,86735281,92602878,199351854,57093763,199004255,133335245,94602822,4627382,23528584,27876278,147067537,102538091,54473240,88686365,184252563,15947274,27366847,219760561,18058931,97414327,23217507,138374219,166649063,215159015,12483644,57405502,12765527,141611060,45109031,5537636,28998058,38102087,141341826,113546891,231562775,140152046,155225188,58686929,184481133,81854418,147795099,52857098,156056548,92752316,71043720,197440133,68815837,69330419,57387642,107040004,200212087,1059316,176200039,141187362,131939522,139594618,57466891,53721140,121455074,178955815,221132749,51607015,211901794,146051557,23401071,186269253,90004718,183000050,61633050,28906085,33231700,55386616,245372522,145396349,166402394,28452177,107846938,190037945,10405439,140883203,102904899,14123928,7669468,29661946,14105725,164996230,121043244,151562584,11602920,24847411,55185681,108749236,152728911,30381092,16645606,4210678,206134230,35243064,137995226,33787309,70100961,165608259,156107401,150498370,177705555,216927315,191197366,229371627,73745308,173454673,161753398,108979021,125146288,230638496,11100583,9705322,85867150,377238,12802300,227319838,116632689,150584617,159934222,102678432,204941159,206335762,91179853,183131714,170886318,59735813,161395866,68883467,185580934,123409923,166072819,75839327,44641462,21338071,186940690,195346854,236136736,180945287,81751877,229563630,232003922,73447852,142395508,168244565,59064512,93134668,63397592,183007928,95020821,38085275,262037094,175443307,7563710,148408458,30972676,181694722,1016563,133559910,201238597,93600537,139497806,215108635,170086091,191946837,237760676,185875012,176699370,17161654,173536836,2215519,160599171,203206164,46579875,21053093,127342203,87506780,144044941,85199487,47426400,61331387,100460832,119416156,167153079,90142214,163788414,127885706,75391138,162461765,63401578,48222009,15125944,40871758,66189719,28927279,2034028,15461609,54738245,116677654,81352770,123663090,46749220,120058549,24378733,124707709,104478582,53106849,94628136,159584673,3252141,26243204,264912075,26832637,90779957,186581767,137551196,245423476,172653775,45314446,118524056,137373537,208868426,80772089,128033007,29047461,4964678,19559959,144334482,46701674,144150441,57636878,97139311,134241106,84584621,44592262,151317919,11743726,94868839,208741828,207489495,64316257,184076566,233615860,145883435,133231982,228128319,250744440,69834188,50048783,170517374,64099908,150809683,162779684,70134096,81518994,96502599,177411036,63422350,7069445,52084302,253824739,103239770,138459782,43844211,191815673,129671093,8941884,90511999,240688999,235574,71532833,133925108,43522881,118293241,147804327,36336769,135162924,237477741,166813083,24330332,221745296,80015657,142145637,117126094,135939838,21342384,27300735,228888121,136812263,82671518,131877781,119685826,91175086,109448041,165872443,100035762,12273789,118348689,138775255,73211963,155717534,85901574,136560107,134057495,139407629,115767462,77284754,101552615,249672012,60005240,186646415,196233686,94124182,72765328,77603763,185794264,80525230,138017547,209602751,179670587,90440299,67036770,78614260,121722559,140815032,40903141,152624819,202910798,159094766,233696721,56305865,9430822,128113719,114939798,37279773,146099411,50482342,27335667,185350470};_0x93dcfe[7]={7902619,2934483,122424,7721224,1927962,7691830,2638371,6413714,5331924,2965117,5669691,3114854,1852615,1070489,2366833,2456389,7830456,4381044,3330092,4808690,7449469,5223907,177461,6085336,4064848,2358656,1824531,3086520,5739479,232749,5148603,3425767,8086071,5096035,7754559,3133534,3391823,6336764,1046494,1644393,250691,8162973,2751652,7134939,60078,7481734,2295347,2355980,5019846,298773,5178062,4246604,2750160,3460300,5724251,4803822,3868533,4999691,5155204,8181108,1506565,3487494,3562739,5067602,6779023,2214900,2162005,58092,7136248,5562319,1384660,6440581,6528292,7470301,5675979,2683553,7742610,5624546,6352160,590026,2288528,5573140,4862914,7682389,5495011,6644153,1876392,2107286,6587851,2453794,5234712,4006048,5449735,3844353,4998909,1460891,470305,99554,4255726,7966986,8356936,6105374,2099431,4721842,6597130,1383362,4155491,8122579,2147100,1734946,1695005,8231257,7771334,4555986,4817110,5285791,6557226,5867496,1164274,640275,1511990,3329175,2926914,1512497,5579348,3821917,8320216,3975346,3537245,5860992,3403166,362215,5047661,1688741,3264826,1167816,4734678,5833126,5330075,4196274,4286906,768903,3347264,5263580,3474831,1031443,5872899,2375997,8316150,3860525,3477214,2227531,190691,1536415,3243780,5558282,6076518,6289942,7489941,2109598,4540842,5823391,4921827,3106375,6599577,3141071,6800967,5487670,7658739,3263162,6440756,673256,5012502,4233000,1559521,570813,6117502,3749119,5223471,6404020,3454887,6070519,4813023,5909521,5071926,3322543,4102840,7339094,5261069,2470086,30702,4883529,285120,7363092,1780781,1132291,7855112,3844512,2100065,2283638,5668181,443041,3097191,8331485,5198926,6988909,6097664,1895714,1070825,4359838,5735648,4371738,5653870,970768,6157278,4443911,2106705,5340255,4838403,3492873,6803367,2042349,1094362,3110890,3098098,7368383,1874685,7648713,6867135,1859185,7205427,4624967,7824135,44318,147430,5378797,1093473,7594387,938344,5808643,3527176,1285879,1959332,709168,556238,6000431,7954976,3319143,1810756,3239186,3651648,7178803,969680,2403370,1856304,4432073,4820556,3603216,3853874,3468829,3654157,2127224,6201959,5579905,7515980,1113814,4356720,6078269,1011216,7932415,37748,1101046,5598473,7365053,7722873,4762276,5691186,691462,4971733,6809066,2069318,2694971,5974412,6336554,4528107,7709528,4913166,7573852,7639596,743218,6737230,1781538,1850862,5354209,2179170,4341476,7424942,693343,8387034,3412778,7173086,6249083,5774524,3587582,3305569,8383886,3907421,619243,7336169,8077917,4228462,2309695,6137146,1657203,6484760,6891597,5379129,7417791,5339750,5132850,6866024,5311995,2217776,7869275,3297137,3510257,1329679,3544238,5380317,2709397,5905243,6194003,7596966,5192019,7932951,2421612,5754570,1633512,3506851,3711520,6065429,5637931,7416600,5065645,6298422,4932305,5446697,6665927,1755319,4731815,2867312,1174797,1172380,1892984,533180,3227312,6550228,2033525,4921315,6582557,2975002,272921,1047755,3176824,7456291,2069985,1161402,3451106,6401316,5807735,3531429,7651479,3128086,1101044,6609591,1916076,4312055,1179768,4901111,2681879,3528341,4261669,4842727,4530498,4385275,3002848,8097154,540432,8364778,2174284,1056157,3353408,7953589,6537442,2422364,6584003,8225862,2145357,2501214,6347822,5639019,1137801,5867116,3670998,272669,6577950,2967962,4093533,1105649,8372161,459581,4740347,791052,8102984,3541467,1321388,6622426,4930361,6563995,4696781,4788837,5993104,1328838,6525315,3366348,6117477,4576647,1076930,6602371,4357062,5978208,5062725,5694866,8123088,6578437,3272796,5984541,8220911,254276,3349756,7112652,6104346,3018155,3618844,883400,4565268,619290,6839223,3197349,2522779,1134605,1224509,915052,4389935,6546042,2918850,2808849,6008842,752369,7883910,1808288,232528,6314760,7455618,2097778,305118,5546556,623137,6342501,1025646,5265528,7432322,5127916,1677557,89705,7222815,7278762,3586023,4993082,7760937,8244575,3497778,2733264,6365269,1804564,3570299,6781434,4843705,8021392,1724123,3116445,3804617,1117143,7844750,1427638,7118243,5181364,7510017,5536124,4681756,7449824,3683687,6677843,5351353,8284646,4913901,2074128,2579375,4387312,1491246,1943226,5490177,5799132,7434732,2175418,6435109,216381,2374620,7267490,2922668,6224737,4434020,3452522,1258197,2451003,2464632,7694919,7418030,647301,3027817,3538001,2563267,7403426,2576530,7763012,1961903,6327339,2427197,87779,5845204,6507574,892527,4381991,3436899,7264857,1708158,4789281,7924150,779557,6303599,71584,7728190,879902,394444,1535643,5986702,4918160,3998919,7527667,4471230,3190751,4296223,7756324,8086617,1832249,7344685,3669807,1405227,5057537,7554308,1954418,1800320,7039401,5425580,4007301,1609627,2897749,5647233,7418842,7602756,3956441,4480723,1244886,677239,8009200,7028193,3155046,3910433,4288102,6384526,90250,878892,3163961,8027799,1967945,1176115,25771,3441771,4708189,2721439,5472344,8084391,130668,1535519,7232054,7019775,3263319,5394164,7595262,4433139,6551040,6748723,8185443,4792670,3803260,2017195,783555,6302980,6598705,2456805,1951661,6955186,8084188,1536572,2692892,1663468,1377878,7339324,1608741,4006063,1316904,4190108,5901670,5617758,558925,544645,5158267,2375613,4039884,211830,7814309,1757692,2554772,4780462,1982731,969691,215052,4519146,7599990,787861,2701404,2166386,1778057,7867914,5652770,654240,3590208,8354881,7667495,4205845,3225350,4285702,5727179,7130476,1007360,8351639,7892214,2469524,4628456,7512060,742569,3409758,3446118,2858762,3391852,8227268,8310441,4305853,4851354,6539894,4746596,3672153,3217050,5077145,5115039,2298720,2503296,3553261,1416460,2614605,5791866,2558588,1199822,4039139,3672533,7314240,2043334,6959034,6215161,1091154,6341664,780843,6410990,742987,7315278,5884816,3309609,4040561,4804851,5892886,2913133,6717105,4831165,2288208,217936,386043,683608,4366779,4502963,2526570,2964097,7224561,1847274,185620,8029009,579435,3684810,894809,6176533,7483678,7803878,1080785,854610,974586,5356261,1713024,418260,753782,1544563,7190028,2168445,8201698,6791772,7104152,2928114,5522765,3206840,7118106,1297762,6088664,3325742,3549711,5408603,4063780,2290286,1182464,2912267,7087124,1622352,6417497,5769104,4837916,5668989,1800405,1275657,3733415,6091855,8058721,2058794,7718807,6927275,2550341,5449374,2362841,7235120,1700751,937052,200362,1002791,8146798,5605930,5777974,769358,2717539,6693741,1062151,5758628,4355497,1201416,13504,2379073,1629624,4421934,3201810,6283350,196560,1429513,2727737,4336882,7062386,494533,606314,732745,7505646,2949730,6475161,2262937,3112003,5491671,5685512,6584368,7043505,8011836,6489160,8349647,4788108,7188236,5953218,4894342,3308850,7949000,660061,1217269,3311692,1414985,117038,8120092,5096751,7267760,5453451,3376523,8352290,8273752,4727778,6156222,7127202,2645442,5801746,3829443,5362081,4376825,5343500,3538253,502579,2685086,7206625,6795895,8148498,7974817,4835299,7778530,8032569,3490636,6202369,7081726,2459225,4612942,1480959,5679324,5000383,1304637,8290467,5282576,1954565,6771076,1216572,7125916,644213,3347237,7294367,5120361,5692090,7701538,6723939,5600039,7974090,6982746,6608997,536165,5905501,1348925,5881919,7733614,17962,1657149,3953319,2919887,6535416,3874990,1194308,411331,3800590,4601470,5432548,2761361,6545502,4035950,2632257,6205012,2170429,1399216,335497,1294322,1501948,2743402,527137,788865,118658,4130754,3313928,3520504,2843605,5103942,690927,5058136,2817816,1314994,4315397,7010879,406140,756942,7767757,940336,4300503,6183704,5487826,7644661,4843929,2798045,4430863,6176487,7426687,3017187,4992460,956185,685761,2112865,6225764,1456705,5846157,1675932,2658629,5773990,3500477,2712626,4404341,654197,5015302,7557767,7567775,1278347,6978627,7556270,5652919,5030486,7873468,8163986,3270354,1834827,6992534,3023624,5724106,6760870,3208798,4002877,4548704,6307984,1109151,1020133,1631342,7640185,4742695,6364036,2001946,7925660,3659577,598238,2153881,8338913,510708,2957104,3509704,580581,3953714,5462611,1086217,6593973,8281681,4872968,300055,7853233,4096862,6625464,4238831,6291199,2871076,2546506,8006983,5340335,2752800,4315368,4455997,3047140,4231054,7311750,4702992,1989025,4673302,5783568,3741537,7671802,4069222,6979923,3508661,6173224,3778957,3796836,3888024,7565566,2768847,6131840,5692957,2592234,3713226,2743325,6493987,2816895,6408282,8175654,6796129,4372048,1270170,4191176,4536297,5595599,1944666,5689582,7707919,4279267,7346448,1050106,1490945,3557302,2457238,473028,6684940,222644,1311677,5985794};local _al="f_WrwZHbN?yp2s<>";local _nm=_0x93dcfe[5](256);local _by=_0x93dcfe[2];for _i=1,16 do _nm[_by(_al,_i)]=_i-1;end;_0x93dcfe[8]=_nm;_0xa3aecd=_0xa3aecd+(-569)+_0xcff440; end; end; end;
+local _0x5f4aa9=683;
+local _0x4164ac=144;
+while _0x5f4aa9~=0 do
+if _0x5f4aa9<495 then if _0x5f4aa9<237 then if _0x5f4aa9<154 then _0x4164ac=_0x4164ac+15;_0xcca467[9]=_0xa72073[_0x248f80(89066,77186,351221)];_0xcca467[16]=_0xa72073[_0x248f80(195226,167146,550730)];_0xcca467[27]=_0xa72073[_0x2b4f7f(923015,249114,254511)];_0xcca467[8]=_0xa72073[_0x248f80(219394,208749,690331)];_0xcca467[7]=_0xa72073[_0x2b4f7f(891559,512285,523813)];_0xcca467[25]=_0xa72073[_0x248f80(312650,308020,502752)];_0xcca467[26]=_0xa72073[_0x248f80(286710,272781,480167)];_0xcca467[29]=_0xa72073[_0x248f80(435358,447206,538794)];_0xcca467[30]=_0xa72073[_0x248f80(279835,275310,827592)];_0xcca467[18]=_0xa72073[_0x2b4f7f(163478,319050,323962)];_0xcca467[21]=_0xa72073[_0x3f0d21(114326,391970,110517)];_0xcca467[22]=_0xa72073[_0x3f0d21(322947,291947,326830)];_0xcca467[19]=_0xa72073[_0x248f80(356790,329665,734918)];_0xcca467[32]=_0xa72073[_0x3f0d21(117956,142710,122366)];_0xcca467[10]=_0xa72073[_0x3f0d21(180456,621821,184771)];_0xcca467[17]=_0xa72073[_0x3f0d21(233728,623294,229426)];_0xcca467[2]=_0xa72073[_0x2b4f7f(1038196,137697,145095)];_0x5f4aa9=_0x5f4aa9-515+_0x4164ac; else _0x4164ac=_0xfc82ca(_0x4164ac,0x3F);_0xcca467[1]=_0xc84f9e[(_0x4164ac%255)+1];_0x5f4aa9=495; end; else if _0x5f4aa9<433 then _0x4164ac=_0x4164ac+25;_0xcca467[12]=_0xa72073[_0x2b4f7f(149170,466915,471247)];_0xcca467[3]=_0xa72073[_0x2b4f7f(572948,254795,248929)];_0xcca467[13]=_0xa72073[_0x3f0d21(402268,371746,406113)];_0xcca467[4]=_0xa72073[_0x2b4f7f(171085,278899,290384)];_0xcca467[5]=_0xa72073[_0x248f80(136070,156943,595801)];_0xcca467[6]=_0xa72073[_0x248f80(182874,179255,69288)];_0xcca467[14]=_0xa72073[_0x2b4f7f(273251,306080,296082)];_0xcca467[31]=_0xa72073[_0x248f80(168648,189621,798513)];_0xcca467[24]=_0xa72073[_0x248f80(277410,282062,752728)];_0xcca467[28]=_0xa72073[_0x248f80(434404,448149,900121)];_0xcca467[20]=_0xa72073[_0x248f80(255777,233894,540382)];_0xcca467[1]=_0xa72073[_0x248f80(250719,239068,334612)];_0xcca467[15]=_0xa72073[_0x2b4f7f(186714,275733,268812)];_0xcca467[34]=_0xa72073[_0x248f80(184750,174021,145757)];_0xcca467[33]=_0xa72073[_0x3f0d21(401697,822380,405510)];_0xcca467[23]=_0xa72073[_0x2b4f7f(502832,214991,223481)];_0xcca467[11]=_0xa72073[_0x3f0d21(213498,819193,217282)];_0x5f4aa9=_0x5f4aa9+(-497)+_0x4164ac; else _0x4164ac=_0x4164ac+19;_0x8a59d8[9]=_0x8a59d8[4]({"_+5xRcRBc__xy46*6xy*+x5_R46R@4B_B_4+*UDBB4U_BDcD45RA__U5**UD_xJ@cD@x6+U_A_ycB66@R@AU4D*5y_BDJx*Dyc_D45yU4_x5yy+BR5yJ@6yy6cRRc_x+Bc++4**4c@_6*@A_6A*x4_+c6*BJ*Ac+DB@5RAxDy6+46Uy@@@y66R@@DDc*xAc@ARAJ+A_J@*_J@JycA_6c_UB_y5Dx*_@4JRDc+_4*4545BcD_5D__*AA@5c5R@+yccBU_y_*6R+J4c@4*5DAAc5R*c4UJAUcxUyUy@@UAByAJcyR4y+Rx5Ac_RU+5A4+DJJR@6A6*c6__c@Bxc_AURcD5@y+RxBR*B+URJJc@+B6DJ__J_yARyyy@xRBAyAD@BDBDBUJJAARRxDR+_yRc5++_BRR++cyxB5JA6Uy4A+@Rx5DBB__U+AxRcDRx@JB56JUy@@U@+4_x55@U645*AcRR+@5@@c@RA65A@DUyJB6yJy6*+Ac45RB__UUAUxDc5A@DBRRU5+xAARBx*c6ADBA_Jc@cRc64R_AUD+*y@55U*5*R+R_J+UB_4J65A6UBDUcB5_JxDR5@5JRUJAR++AA+xDDU+Uyc*AA_6++A_JABD@_Dy*ccy4+JcRRB45JAxRRAUB@++UR+Bc*6cx5JJDR_U5@DB5+xcBRA5D54xARR_+@_@AAA4UR_A44_DBx55*x5@A@B+ABD4_DRJR*yJxR4R+4545xDx4xc4U+c6B4D*6+456xRDB**cAJJRxD@Ux_JD@DU5RAU5*xAJxD+6RAB5@*@*D_x+*4@DBJcBU_JxUc5JJc5JcRx_xy4y+6R5DA5U++4UUc4*56DD+@5UARABRJ5@4xxx6yU_*AU66@UR@_B@4B6_R_cU6y__ARxBJA6ByBx654R**@RUB_UR@*Uy@DBR+ABU5_UU*xyJ@RJ@xB54@c5+4+54**_xD4*AA@J4R_5UBB@AccA54xD4yAJy*U@D@RJ_@U5+cc+xD+c44R5JDB+5xUx5@c5*@B6_+xABR@AxUy+xyBJ@A*R_x*Bx*Ax*_+66_56*R@J5ycAx*c6_DR@J+45+*RB66Jy6DU_A+6*JBcJ55_D**_4BR_DxDy55U_4+y5D*x4+xR45y*DDJJUR+AU5A@+6RRR4xJ44Uxy+5y5+_DR*6RU+55U*cAU@yAB66UARD@JJc@J5BB*JJBB+4y_4B@c_J5*64*+@4yD+Uy*@*J_@J5*UBJ5BJR+54cBB4c6_x_AyJDy444AJ4@R*xy+AU6RRAcU5@y6cJD_DAAB44@xBA+cyRy4JcBBc4c65@ADA*Ux6A_R4D6AB5y_JRAJ655@4xJ6yB665JxJ*_UyJARyBA_J_RB66B*Rc+*+yR5AD@yRUA_**yJx+c*6D_x_U+6*4BB5*+JRUBB@xyDB5xc6_5_xB5AyA@_++_+c46R@AcccRU4DU6@cc@R@@RAUJ4RJAJxc*4@@y+RDc6DRxDJc44*UxRJR+A+*B_BB6DB@J+4*RUUcycBDAU5R+4+xy5JBy_BB+DcB4RDJ_4+yR5xycU4R_**xBA@D5@cD456*DAUyA4_A_6Jy_JRD6c@+6@+ByyU*BD6AU4xByDRy55RxyA4D66AR@U5x+AJyU@DD5*+BUBxJJy_y45UDcUBRcU__R5JA@_c6*U*4*DB6+J4*DB_66Ax+AA_xDU+*_UxByA+A64_BB6Uy_Ax_5@@5cA4UBxD++xc6*cUx++B_+Dy5BB_RAB_J4*JDB@ADR*yyD_+_5@@c4R4DJJ5R_RJ64A*@5D5DxB*UUJBJ+x6R+@U_U4J@AD@R*5UD5@4R+D5J46_x_+5DAcR5B_RccJyRc6_B+5yU44By@y4U+J_xyBDR+yx@6J4JB4Dx55JAUR4JB*RUBRUyD+yA_*5_U+_**U*_@cc*6xB+RRx6+UAy*xR+DRAJx5D5xUD@@_y@@@RBJyxcU_4D655BxyAx6B*xDc6B6D4@DBB5R+_B*AAR4J*5DDR56@@64xA*BBy_5y6DUDA+@_J6U@U_*B6UB_6DxA_R*cB+y@cU54U4J+6@6RAc4yAc+_RU*DJ+D*D*Dx545D+@JRUcJ464R_*@4yJy6DR*y46xUy+5R+RU4RR*R@**++5+B4yyA@4Ux4RcJABU_R5DBRxDR4+AJ*5_*5R@U4BR6*AJJ_B@yD5UA5yDB4y4AAUU4@4_x45cxB5Ryc6xx4_c_x@5UxU*4@J6__@DJUAyx5_c_DD_By+@@6xxy*DAAD6cAy_6@U+4AA+@Ay4JJJ6B+6*6_D**+55DJ**DAJU+cAxJD65Dy4_@5x*c4R_@xD_*6556_AJUyxB+UxcBR@_R@x4+DUBBDA*c4cRA@5__DBxUxJ4A+Dcx+JcU_5R4_6xByyABJ5DR4UU5y6R_6A4*DDxcB6U*4_J5c5cJ46UA@@D5R_RcDxUc+y*@@@RRycBcU4yB_JBB4AyxxJ46R*c44_BJ_B*y+@54@_cR@B5@B@R__56A6URD6UJUy*y@Byx65yB_x5+U_U@c__**RD+J*ARB__D_4RxU@JDA566x_x46_D**x4*c5JRx_R@yJx*c4JUBJ6BcJDBD+UU+AJU4@+*xB+45__yxDR6c@A6@++UDR@D6x*6@D@4UJJJ_AR*_A64B5*+JDJ@U5DxccDD@A@AD_A_*D@J5R_6B*y++5cUDBAxyy4B6_+R+*UDU6Uy56@*RAyJBJ5yUJx6UB@_y4+@xBA*5@yR4cU554++xAJA+6J@+DyU44cARU*A_cDD@@+6*+R*x6Ac6UU@xxUx*B+@U_A55cyy4D54JD@A6xDDA5A4c5Ac6JU+Uyxx6@+64_D6U_D*4@5AR64x4x6RJU5*AU5JBD+UcABx+JAU4@+AyJ+4*BJR@44JxAAcBDA*45cJJR5RBAB6JJyU**@yxA5xxAy*44@5y*@Rc6c4JJ*c6@JA+@+DA_DR@JJ@RDcxU*4cJ5c_J6*R*5+JRJ66J5x4AA+*R+4@x_4A+B5_+R@_6*B5x5@_6yc4x5JRUDU*@x4BUc446ARy@_A*A+UB@J65xUA*c56*_D4U6D4@DJ++DDU4UxJBc5*D5@c6@cx6x6DA_@Uy*_BcURxBR5Uc_cRUxA_DAJJJ6@AR@*Aycy6DyAc@45B_+4*R*DBBx6BD_JDRRcU45xDR4A+U++c+@_DBy+*cxJyJ4xU4@4A4cy4DxRJ4R5ccA5B+U_A6x5R_AU+5A4+4@+yx5c5+AJyy+A*x@R+4yxU@4c5+U_5*@__yR@BAB_6DD*x4yxRBx5R4@cR@_y+yBA@Rx_yy6U_ARxU*DcBc__cBU@*5yDJB6U4A6+6Dc6*xy_AD+@y@xB6xU@**6cA+44Jc@D4BD4B+J*x65R__JDyU_4cR+JB5D+*xc6xx5*@_B6++5__JJA4yB46J*UBR54J4_c*AcRU@AR_JAx5_xU*6AxU6y4cJyRUBAc56AycBDRxJyU@4A4J@RyJ566UU64y55+RJ_Dc6AUD4J5RxD+65D*x+cDxD6AxJUJ665J4UARAUyRA64U4*c@5Ux5xD6J*RD5cxUAc_U*5x5y5JB@xU*x_5*@B_xxR5ADDRRA@4+BBxDR_x*x@_RyR6x+DcDJD4y*_J@+@6@*xB4@+@*xx5_U@A4D_UA_JJD5*4BU4BxJB+@c4Jc*BR_c*R*5y@x5R*+DBJJ*B_+4*6J*5545*BUDxRc5A5566AJcyUxBxAUy_y6ccB*RR6R45+**xBcy5@*4_+*BRB*5@DxcBB5DyUAJc4***A+5@JRJUJD4B+BcBA_DxyB6A6AAyx5R*xJB4*4U_@B*5*4RDy+@y6x4AR+6R45yBx*@BARAxycc_5y_+4++U5UDy*R546xx665+*cxDU_UyUJyxxA45Dx4J@y6R+4_y@*c*JJ6Jcx_Uy55B456xUc4A5*xB4DyJyU@xyy6*y_c+45+A+D*BDx+5*y*_RAxy4R4cRAc6yR+R*6A+_yJ_xc*4y@U+**y6J@45A@U@_J4*y@Dc+@_4ccJ+x5@*Ac@6J++@6*U5+U4RUUR5J_6D@x@6cA4c5RB4*J*RJ+@BBxJAJ++DDDUyyU_A4*x_@y6DJUD5_56c","*+6_B*JyJB+@c5@DUJxJ+66*@cU6*B_JB*_J@x*5+DBDD*UU@D@J@R__DRUc__+JU6cyRyc+5_Uy5cR+*xDR_6D*D5R@AR_U4AJDcJ_5c_@__yJA6y@4+ADJUA*4J_54U6Ux6A64_*xUyy*+x@+_cU4Ay4D6xyxU**U6DA*A_ARRBDDBD_UA_D6JJ6DU55y*yxAxx**D4RR+ARJy@cR5xJ_@4UJJABy*AJx@RcxAyRBJR_BB*RBUR@J*Axy@+4c_D+yBAUDU___A5+4D55JAUAB45_DB+_@x*yyAyJUB6U5564R@cBJU6c_AcR@R5R_44@UADD6_5@UcDU55c44x5__*RBBJDA+66UAJA*6R_c@J54_JJ4cD5x_D6cx+_AA++6Bx54555cDR4xc+5AA++yJ6*yB46BAA6B564B+*_Rcy**c55x4DJDx454J+66+5B4BJ5yy_A6AyR+B5RyRU56Jy6_*ADc@x4A*c5B*4J*xU_R+JB*++cxJUcJBB+xJ*64xx*ARA*+x@DU@B@@*+@x5B_*6c+66DRDR@UB+R_+D@yDDxRD@5D6_R_5By@AB5y45yc_A_DRUA_*x6UyxAx4JcDDxD_ycB5UJR_6BJ_RUAR*+DJBBDxyycDA4Dxc+JB5D5y5+y4A@@_JRAURRADyJJy6A_cR@J5c4cc*B__*cB_6___U_Rcyc*U66c6xxDJ*B6_45@_JBUx+64@+5R*B5J@6DBDD_5*4c5UJUy44RUBR5_xcR@BRBR+c@RRA+D++yxAD6JDDc*BUAy+_U65U+xJx@4_U*__y4*D6DxAy+x5+c*6__@6_RD_B6_+@yyyDU4xJRA+_cD@4*Jx+5y+RJJDycR_+DU*DUUc@B46cy+U@cc5BRR@cDB6_cRDAA5_DRc+R_J_yx*cc_xc6J4yB4ccAB*Ax6A_*R46ABJ*cR_*5JD5_cy4465+5UD+*JA*+yUyABJc4J5D*J+JJ_6_xc__R*yRJyRx_yAJ@+cA@x5x45A5ByBJ*U_Ay6@@BJcDcBD45cJ44@xU5_@5BJDAUUUyByUUy_U4U*4D@A__A*4BJD____*c4AB4AUy4JD@Jcx5AAJx_*UU_65yR*RBJ@*4_AyDURB6U+JxD*+66ycU*56JAB_Uy*4UyBJD_U55A+J64D_x*Ac@DxJ4@c*xxAADJBRR556*4Ay55@JJ@4R+4y+x++@@J*JUxRyR_JJ4Ax6+UB5_+6BU*4Bx@RAU+_6@cBU_4Ax*U@c5B4x6R*+yR+AB*cy@R**_cR*A6BAyRB44@5ABRA4**y___UDy_@_5BRc_J5B@Ry+5cRU5xx_*4BRcU*5J+@ARRRBRB_6_@@B*AxUR4xcJ+D_6*5B4R@x+*D5*@D64+_xJRAA6DRc4_xx5RRc+xDR5cUJR*6y_yRB5*_Jxc+xR*D5x+__yc6yc+BRc*_4x@By*DJU_R+xyABR6*@BB6_5y5Acc5@yAR__DJxR*B4DAD6*_UUDA@Ux+*y++5BJUcDc@Bc64D6B@_56xJcxAJyc@U@5DAR6JURyA*__+*BU6RyU+RBU@RR_+@ByBBDAAA+6JyyRy*A@cU@D+_B+J4DBy+A*U4B*x4__BD@R@D456Bxxx*xJU@R44x_BDB5*D5D_x@x5JyU+RJ_AByR@+4A*yycJxDAJUR4R6+UBxDDc5xD66Jcc@+J@+DBx_DUR@JA6*5x5yRR6AAc5y_R_DRyUUAUJJ+@RDBc6cy@yJ+Dcc6B5U@R_D_xc5BA+yJ6+yxU*4+yAxA@xABDcB_54URA4y+A@5yBRU+y+R6y*@UyB+*cDR_D@+*cyABB@RyxDD__+D*6D5xJyBB*R*566c+*J*Bc@5+55cJcB*44_J*6+cURJJ44y5RyyxxU*J*yxU@xDx6D*5_BAy5yJxD5D5@cRA4yUA*_***c4_4U6x@x@U5++*Ay*cJycJ_Bc+UBBU+6yDUx+*+R4x_6Rc*DDy4RD66*4x@B6JJAJ*xD5y*y6U*J@R@AyA665_cD+6A+BJJcD@4__BD*A6AUJx5B5BUU6BJUxxA*@A5A5ycBy5c6@B_44_@U+@_yRxUycc6_B@6D_U_cDcURxAxD4__D5x@_6664A_+yJDx5x6JBJ6RyyU66x_UR6@@DJyD4Uc56_+U@BUBUJ_ccy66y5y__x6J6c4J_A5A*BcDx4AU*554RB*R4*UxxU4c4R6@@D4+6B*y4@y5yARyc5_yA_6Rx**AR_+4**Dc66BA**BD**54x*yDA_5JJ*@x_B@6+R6@A++JU@J4xBJx*6UJ+x66+46Byc+A4Dx*BDDxx+U+UcR6BBU_*_AA4J5B5*yx@yBJyRDxxAR*4U+R_R@x+cxy56xAJU*AJB*UB6D_UR_U_B4_*5RycRRUJxBy6_+B*4xx_556cD_5RxU_B5_*x@ByAxD5+R*@RJx*_BJJDyc5y__D*_UARyD+_6xRJ6*y46*6*4_J+_cBcJyAx+**_**UJ+B@4xB+J4yR6R+x_@UyUU@*4xB4446AUxUy+@JUJJ@x*6@y@BU_DRBR+A_4+URJx*U5Jyy_cJAxc5xx6y6ByAy44xJD+6cx+@Jx*@BR+6A+*_xc655D@+cxBx4_6Uc4U_B@R*J*yJB6RBU_J5*Dc+_BU6@5B*D*4RB*4J54x6*xxc+BUJ+x+4BBDcD*_ARAc_@455x4+J_BRDy@c@D+5RBcD46B_cy45AycA_6xcU*Ax4_*c_cy_yDDA44+A4xxDJBy@__6@DRcc4+DxcUy6*4Jy6@JxUU4BcDyR@y+56By4BA_Bc_5BBJyc6yy6R_x6@A+5R@xJ_5c+RD_y6JyRcR4A*R6U@x66_yD55cR6A@5RJR456cc*@AJ4_@445xcAxB5c_cB+64DDJ*UJ@_Ax4++yUB6A4BcAJ__UxcyyxyJJ_B6DJJ5cBc*_*y_565++4+5JJ+@_B5UUAA+_UyRJJ4yR+x4x_6c_5yyD4*c**A@4*5Ay*+*4Bx6*DRA6*+A6cA@y5@4DcA@*+6RAxc5xDUA*DAAJ4+5xc*B6B+_yy44DRcJB*y_xR4*6_R@R+U_@JRA5cc_46xA@UUU+x*c_+cRx@y6BJ5c_U6_5UABcA6*yR+y*yB6J6R6+4yxcyx*x@D6+B*RxyU@_5R+yyBD*J*c+*xB+BU@UUR_DA+@JJ5AA+AD_*c_Jy_AR665@_c_4D46RDU4+@@RB6AU+x4+A6_RU_R4+@_4R@4R6ADJ6@@BU+_5xR54U4DD+xB@R*+UJc4@54@@4DBR@Dx+45c_x5xc4UAxxR__AxRcRD6@+Bxc@RDyJB*A66+45cc5+A664JJ_5RU@U@y*J+J_5JcD5B+R5yJU4BURRU655y@*5xD6B_545A5_JB4+cc6+yU6J6*D+_R4*_U4_+R56x@xU5DDcJ+_+JUBA_xxcyAD*DJ@BRAxc@UB4R5+65yBR@5_DJ_*y6xxRJcByJD+R+y5yB4cy+*6yx+J_5B_B*@D*cJD*A*__4R@4*x+cy_*RJ*RAJ6**6@B@xxUJyc@x4B6A+D++4_6AA6AURcDBA6_Dyy466U_*+4+4_Jxy_Jc465*R@45U_+6B@4*AU5J6xxJ@D5_RxB**B*+_J4@JDDJAU_66U_xRDU6+4R6_J_xRB*JycxA+4x*@*x_6xB*J_A56+Uy4R5Jy*c@_AJUR4yUJxAB6465@U45DRU5UxR+@D_BBB_yJDA_B_5@JJy+*5AB6D6A_66cR@ABBxU*ccy+_U***@D5@y+yBA_x@+c6U5*4Uc@@c+U*@4xyc4A@_xRA5R66ycJAx6DD556J5D@DU*AABy6AJA64BUJJ6*A+55xDBR4R_B66_x6R4+UDRAxA5@R_cAcy+5*AcR4UJABAyA5_*cyRy*D4R*@_BRc4yxxRUJJ56_4U4566A_c+@JB_c4Dc@+B4A*A4*4yR@y4Jy4_BABURB6_465UJxBJyAcRy4*AAy5_4_+cc+UDAcJJBxB4**4J54x@DJy@A_UB6J5yyxJy_U4DxU4BRR5U6_cDxJ+J66R_+R6*6A@J5yARR*4x4y44@D@+y5J@6+JAy_DJxD6U+D*6ADc44+6ADJxAD6y5@BAAy_4RB++4A","J+*y+RxJ6Ax+By6xRcRxAAJU6cR+_xDJ+56RA@cD6R5c_BD5_xAD6@4_+UAc+*6c45ADU@DcR*5B_D5DDyyRB@A@_*D*6446B+xU+6yDRR@A+_RR*Ac*_A_J5*DAU@@UUB@@6D6cB+J*y*J@_yRDJx*JA6cy4UBD_yBDyR5DARBU_UAx4A+yAc@RBAxcDc@4UD4x64Bxy_@*U_*y4J+@+y5*@JBU5*JcDD6UJUBDDAxUJ+@U6R+A_DAB_DU6B+DxycA4+J*c*4RD6UxBARDxRJ6UDcUB4J+c@A_xBBBxD@yD*_A**UDD*5@4cD_4ARB@D@6y_+@yDBAD6cU@Ry6__c_DDxUyA5*D*c_B4RJcc*@*AUDU6RcUDU_B4+U4@+*_4c65R5AR@By*RR_AUAB*xx+RJR_ByARJUycc*yJxR@*_5@DD5c@_R@4DR_x5c6A6cx4@D*y6656@@BBBBxB_5+Jcx6y+RyRxDBDJU5B6DDJB6cR*A45_@c6x*DB6_c+__@+y+c*+BxA44y@xc_+*4D45R*6yUDBUD*BcRBD4RRyUU5*4x4_D4JyAJcR4JBc65UUc@yB5ABBxJ4@xxJD_BR*+x+D4RyURDU_Dy444c6Dxc@5xD@BD@B4Ac+JAcUBJ_*Dy6J5JBc@y+_4Ay6UcBRy@Axc5J6+D6BAAB*5DyJD_J@J5+J56RRcU45_cJc+*45DR6y_ARxUB6B*c+DyR6@RB@@6BAD+4y*y6_y*+5@DUJ65DU@Uc*JxUyR*JUcD64_B+DRA*+5c+xRc5U5J5+@BD@A6cc656*4Bc_@AxUR6yc@*4Bc6RU4UA56*BD_B5DJ*A+4y54A6*R6xx+*@UJ56Jx5@cJ66RAcx@D_c65x+_5Rc5*JcR+*R+_U4ARAJ5D4B*UD56JRJx*x_R+6By4xcURDcAyJ546x6J+x@y_+U+6BRAJ_*+y_5A*c@4xc5J_*D6@c5c4A*4Ax@@__U*6JAJ_R++_@yDxx4*R5*D4y6JR55c46BD+@D+@5R5RU@ADJx_BBUcBDyD+R@+@A65*R44@B5*U5_+B+B@A+J_AJAy_A+Dx6*4xR*_4_**J_JRxAy46c*R++5@AA_x__J544@Uy*66B+Dy4U*J4Jy54Ax6AAA_y5DA54cycccBR+U_B@5x@R_*y+ycyUB5+5@cUB4JU__A6+5UBUcAx*cDAcx*y445A6cx+RB_AyRURy6D+J@DUU_54D_JBJUUAAU_y+UUJ4R+y*46*UAyJR*JAUcDJyJ_DcUB445xc@JJUB*y*4_5J6_c_BU@+@yx_y_RcR_U5*cycB5*yD4_6B4xBx5xccy6yxJ*@_4cc_**4BRJB_JR4cB_A6_6@cD+cDJ6A@4AUU*xyc+B*_4y_55+yy6@x65545_@J5x_4D_c_@@yyy+x+4RJyJ@_D44xU5D*_UA@Bc_ABx6456+@@UcD65R4*+5Ax+_6*A@J4+x4Ux_B_ABUcc6AA556y_D46J5x6c45yxR*4@URyB+*+yc4y+A4DU6DB*ABR6_5AU6_6B6Dc+B+cRUDcDADxy6yD6A@_@B@J+y_+RU++A5U@cB*xcRJ+U+J*ABRx6yx_4yDBx5BccD+@**y5@JBc_URB5@A+B_@U*BJA**DU5U_+U++cDU4@A@46_Jc6U@+ycU+*5*4_B+R_xR@R*yUDJcJUcUyA64*_@46D@*BxR5D_xA4y@JBc6xAUx6*cR6BAU46Jy5UDJ64+y*J5Uyxx*RyB@D4Ax*4y6U66xc_+yyJ6xURDy4x6_Ry4DU6x5+*4U_@4UR6RA+ARUJ4*RyJx_R*@6xJ6xADDB+4AAcB*U6*@6+UJ5_BAxAA4*Dy*x5Jy_+_4xAU5_6*x@5cc6RBD_+JRUJyUD_@J@UD_B*y6J_A+c++64R*4ADR6y6U*Dc+5x_DcAB55xcJcR_B_6c64y6RA*DUxUAUUx@_5R_yD6RB4JA+@+yx6JJB5_y6*ADxJDy4R45c+Dy@cy_JcyJ4B@+5J6cJx@@DB6@U5Ax@c*DcR55B4U6R66_+U+Jyx4Rcc5c@5cyyURR++yUc4*U@D_D@c6@RBRxxJU4c_4ccxc@RB6DJJ_B@B@@DRBJBB4BU+DBx_J4yA*@6UR454R_*6c+yJ45xxAADJD@Jc_R6JxAA+6D_UJDDDRAU@y@JBDA5BRD+cx_A6DB5yDRU_D+6R@R@xU@RJcxD@J_+JxDJ4B*BDcR4_By4U4A++JJ_+4xyR5JxxJRxD*_5UBcx_UxDB5yc@By@ARcAyRy+xyA@+A6@DA_6R*A+c+y*+JJy+*_UA+4*5@RU+Dc5cJJ_6RD@ABABDU4xUU*_c*DBBy_@+JAUU_J6+RR_B5ADy+5A@*D*D@J4Bc_J*@D*6_5+BA4ccD5U*45_*4RD*cD*6B6x6B6*5xx+A_*xyRyU4R*UD_4UcBAyJ6J_@*_56y@@RU*BxBxxB*_65Uy5++x+6DyJDJBR5*_DUJ_yJ5xJA5y_4*x5+@*Ux@@xxcx@DAUAc5cB_45yyxcx**44@JJx5+5BDDy@*UUUR*AAJ_x_xc_c6cUcAU_*55@+4J**DcD6cBA@c@D6x6DDc65+_cU6@J*__yAy+AxxD+4x4**J_5+JD*__5x+c5_AR_JBU5y6D4+x*56Uc6y@+@5@*_4yxJ5D+xcxJR4_yB*+4cxyDx@ADJcJU_cA@JAxcB@DJ@4c54_DDc454x@JAyBxcy5UJ*D45@xD+_B6+c@+JRJJ+yxcyB*6BBR@x5_c4+A*U@DU+AU*xRJ5*AA+x__AU*BR*DA__xD+xyA_JUc+5x6+DB_RRR@yAJBRAJB+4+6U@B+*Jx+4@_B4JUx46yD4DADRxcy@*Rcc_Bc+DBAxRAD4y_JD6*+UA5cDxxUBB+_6y66*6**AA6xUcc**R4xAJ4cAA5@@RyA44A_+46AU4xUR*A5c6A4@DUAx_55U6cJ*J_6_@_*Bx6_+@RA64+*yByU4@44x5B_*5D_6*yJAU6A*6RyUR5DDRJ4++*D@U*+45DyBURAB5A6B4x*4@*yBR_RcBcRJB4RyDA6BxUA@5xc@_6+ByAUJ@*DcDD6*JR@JR*x*U*B*@_UUA@xy6x54xBxU4x*D6+*46R55yBDABx*+A+U_+DDcBA4y*J@yR*4B@AyJRyx6AR__RB+*+D56U_4cJA@65Byy54yy5_6c4JBRJ44R54BJxx55BRD6A4DRA@A+5@B5RR+D@yD64AcUyBc+54D4B+4_R_J@RB@6x5cBJ_4yyyA*+x@xAU4xRBR@4JAB6*UB*xA+6J*4R@yJ45R4+AByJx6xU_D664U@x*DyB6ARy5+AD*c4yRD6xUAJcD6BB6DJJJ5@*64R6*yD5Uc@D4_5RJ*DyA5y_xRcB+yx4BxJ_R_AJ@+JD@RcD6*JcJ*@@Jy@+y@5URU+*yB5@_6*4J*R6*y46UR*5BU@5DJ4+5*@xx@5xyDx+*U+R446xU4DD6@6J6BJ4@x@Dx45R+6@6DJAU_yx6xx4456@Bxc64_JU4Bxy*JcyJ*J**c45xcc*+_xRJB_*5_A6R+xA*Ay@@U*@yxDABDycA_xy+6B64yDD5JDJ*c_x65JJBBAB@xB4JD*44+c4_BDRA*_cR5DycRADBJ+5D6AxA6D++D4+6DcyDUUJ@+JJ*DBUU+y6U+Jx5y*Jy6x5+5AR4@6_JJyxUyRcUA4*y@4x6y*6BDDJUcR+5A@cJJBUAcx__DU+y5@RyxxR6+Bcc@DAyyx@y6@__RDJ6_6Jc4RcDB5@U5+*JJ6x*RBAyA_4Jc4*AcDA55R_Axc4RR4@5JDRBJ*DRBR44R*UD@5yxBJ6++xB_B@Ax6cR4yJ544+BxxUcyJ4+*y*y*_AcDU_Uy_x6B45*A4A6J_@cDBB*yy@5*6xRx5+x5A*A*UJJ_@A5B6@6DJ+xAc_R_x*@xxy4+UyRy_AD@+URR4*@ABxR6+5_54UURJB*@_R4*y*DU+c*x4yxAB_5_+4U4R56_x@+B_DAcc_B4UAAA4_+Jy+Uy56B5xRA*yxJJ5_R4Rx_RA44*xD+6+65*cR++4B65+6A4y+Dc6y+Jx4D_x4x_4JRc*cB5xy66D4++*D@cc5BBcD4@4c@@","5xc5U4DD5Dc+DUR*xJ6R@_UyxJJyRx*A@c_+cBU@@DU6AyDx_4JJDy*c*4RB*B_*B*54+U4U@4U@U6_D6B_6A*A4R**@@+Dx4@6_cy*5B@UDyyU*x_xyc5U+AcU_yUJRU*xD66U*U4Bcx@DcRDB*+R+DDJD+A_AR5B6xBc_c__xy5Ax_AD646xU5BADy+5J6*x54yAyx5DUU*@4@@yA4xU5DDcB++UBD6cxc@JxU+@URBBB5y6B_5Uc6AyB@*ByJ4+cB5x@@RU_yJx+cxDA*BcJ6D5BRJ+_BAU+R656UARx6**R4A@DJx5+UBR4*JcJAy@5J+@x_B@6R5y54cA4*BBAU4_yUUy54*JB5xRU__B_Ay_55JA**B_4RBR+6cD4@RAD6UcJ@y5*RD*_66@cBA6xDA5+B+*cUx66J6yUcUBJUJ@+cD+_A@*4AD45__6J@AcxUA5xUD@R5BJx4UJ_Dcy@_JR4R64+*4U+@RA6A4U5J@4+@5yRBD4+_B5U6cyxyUD+_@UA_DARUAA@6x6xAxRDRJ+cA5A66Byc*D+yBJU@6R4UB@yc@6UxxcyU@++U@y_*JA_A6+*UA+B+BB*5+cJDB@5BAxxxB*cc@BB6U4@6BURBc@5x+DAUA4A+A+_AD*4A_x6*A@4A*U4D_@@*_@5Ry*RyU@*A4J_R6+Ax_xD__JB6J+y_xUA6cDJ6D4RcRA4DU+JJDB4@JJA6yRc_5U*5BBB4@JJyx@DU4DxxUxJ5JBDc6@*D*Dc+U5@A+_5ByJDAJ+_+B5*x+c4U6DxA_c+_*U6RA5A@DJc5+6cUD++45_*yAA5@6U+Jc*U*DDU6U*J_+_5Jy@44+B6+J@xD6yAUA45y+cADBDU_D@Ux4@U6y_56y@+AcyB6BJU6_@_*5R5@@+yDDy4c*RBxUUR@xRJ45B*yD*cy5Jc+JJ5_+xxB4R6ADc@Jc4+cURBR64+UD*U*D+B4_+444B6R6+c5y55UJRRJAJDDU6465@D@cyyc@UUy+_RUyBDJUJc6566xJ_ABUy_x@+BRBAyJ@6JDxU+4U6D6B_*yA@DcD_@56*R6yUx64+_*cx4A4*AJ_y_45UR*Bc*xA*xUU_y+D6+RB5A6BcDyxA4_y+_*y4+yJ_yD5+c6DxAxRx4cyA_AJyc6+_@DR4yy*yU@4yyR4_6DRR*BcD5xUA+DBU_DU@*5**J+B6U6J*Ux@ByJB4JU_*_+J6*5c6Rcc6xJ4_+6yJ_6DBU@cJ+*_xy*Ay_@65UBJyBRxcA5D*D*@A@*+6U+6RUAR_B+_yx+B56AxA6@@J*xJ+5DU+cUU5U_R+6JU*5cx644*_+5yUJyJx_A*A@@U_J@5U@@U_5BxUxy5xJR545cB4xx54_xc*5y@6A6Jx+R5U6@_+xB5xJ6B@4B_U@c*@BRJ45B++B+5RJB+AUy5+*@xA5B4R@Uy_yc4@x+@Ux_*BD66_c_*AR4JA6UJR*x+AAUcJyDD_*Jc+6c5BBRyxJ*6JA_+*xU4_D_x@UyJxUBA+UD+xxx4JBD6_A_+DxD_U45A4*c@+UDU@D+AD46Uc+J66@RJ*UU4UA55Byc*+R56AJU6UcBJyc5@J@yAx46xDA6JUUUB4yR5cU4x46R+RU56x*xycx@@+*65+x4D*xxcxDcx*c5xDyAJx6*R@J+4c5DyxD*B_cxA@+DB_U@J++B5J*DJxyU4@4A+ARcAJAJ+5yU@RDx6cR*RJB_+UxDARcc_6RJ@y@6A_D_+5D6BAcJ@+cUDA6Ux@+AB6y4UD+A*5yyARB4*4y@U_65Ucc5c+Ax+@x+DR*cR@R+x6yy_y4x65_xD6Ay_RAA_y4DABD*6yx6U5Ux_Uc44+x54y_U_6xyAB**AD5AA*_**y@D_D+yJA*BA+6A5JxxJ*5yx6A+y*y@Jx*4UxRJJ*Uy@_*JxJ+4x@cBDc+xDJ4JBxDy@DR6JUxU@B*x6A6+A6RB*+xDARcB@BA6RcBU4B6_y5*4RR@B**@+Dx5y_++@5D6xU+5DUR*+5DARDR*xUUJ*R5x*Ax_Ac_+U5B+yB*J_4D+5JB+cUyRB+4cUc*B+U_5*DAAU5B5*RD6_*4BcADc4_xxDJ5+B6*54U*4+U+4+yU4yBA_5y+c*6y5*J_xcc*x6_y_DBR@_D6UDD@Ax_AcAcAxx5URRBxRR+U5y_RA5D54xJD4U_y4B+cxD6A5B*D6U*6+RB@5R+JAc*6yyy6+444*+_JAJ*x4@Jx+cyx6B4xUxRDy5A@xAD*4cy_5D+@+6*RBRAAA@URx+_6UJ4_A*xx_BA6y5@y+*RccU6+@c*J*+D+*y5+_cByyx*AU+BR4_6@cy5R@*UBxRU_cJc_4@J_RABxyB6UD__R6xR4y5J5U5c66UJc+cJ@D+*_cB@c+6_BBU5yAy4JccR@y5Jx*B*AR55c64y*4AJ_x+5_c*B@AJ+R5+R_+J65ycJ+xARD5B++*JDRyx+*@JA*5_AJ4+xcy_xUBR56URyR_RJR+xRUUJ_4+@y4xA_U6R*@B_yJ6+@+y4+_646R*AD5RB4JRB+5U5*Ry_@A_UcxDJ*@4JD5D_45RxAy@Jx*66cRJ5_*UJ6@D*RBx644A_D44xBAy*6y@5*_UDyRc6*c@_A5*+4xJ44D+xU4+4*cAR@5BD_cy@yRU@J4yJ5_@UA454+AcJ*xx4D**A6*U@6c__cy*ABy6D_B5RB+@__++yU_J6cADyyc**+_4_y5@@6x6B5RAJ4U6*D5ccJ+*4J5A6BARcR4JB@BU46_45y44@DDA4UJ56D54+666A*B6xR56D+4+++A*JxDBAU4xJA*R4R*+D_@66D4xxD6U6*D*U+*BR4AxxUDxA*AcA+ARc@5+5B+RxBxyc@4D5+ADD46*BRDBD_6y@y++AU_AJDDx+JAA*Ucx5xA6xy*xDJxBx5DA6UA+yU566U4UyAx@4+xc44R@@ccJ@5xBRJJ+4RA_5*x@B5*+AccU4BJ+RJU456A4*yBxDJ*URR*JD@66RD_+cDx6x4*UB5cDA5BDxB+64_B4_B4DcAUJ@RA6_4ARU6D+cDA5A565x@cBDBcB+*6R_@DBy5y_y6x6J*ADR*ycy@JxDU+@*Rx4JA5J*cR4Ux4+++Dx@cDUJBBD++BDRJ*R+_5@_+U5+RD+6BJUA+D*B@@A_4x6RU5DJccJJ@J@5cJ__Rc5c5Rx*D+*@_DDx+xy45cB6URR*xcAy6y66DDy*6_y+A645Ax645cDU+4BxD*xyxRB5cy*4y+*+c+Ax+ADR6R4AUy5+ABB6cx@Bc5@_5R6*++UJ+J5x+4cB5c+5_c5R+*yy_4cxB@_cA_cDBxUR+B+_cRxc@RBJDR5+RAJJAUBB6UDAUxJy*UR+DABU5U@JJU4@D@B6DB6BAxJ+54@xBJ6ABy_+6yDy+c65@RA6+_+J_U_@AJcxcUcJAcx@6*_456Bc_+ByAJJJ@ABx@5xx65+*+DcJcJ*yUD_UxBR55U*A46B6cJ_AB+464D_cc@**U@B+xR*yyDDy+UU_5DD54UDyxRRcU6+J@6BBJB**4@@66J6_46cB_UD*_R+4c@U4D*@BxDR_c@ycyJJR_5D6@6JU4RJyyB@U_yx44J+5*J6URy*5xyy4R54ByU@55yR_yA@AR6B4@yADB65_6x_y55yJ6yR+5Uc__J_U@cyR_yA_y+RB4RRBUD@y4UJ*J*UJ5_RccyRJx+4*x+AJJ+xU4cAUD5c4_44BByx_54_RRUA__JJDJ6+D4_A+_xJc_RDD@_RJ@6U4AB@yD_4A4+65A_@4+y*+U_xR_D4JcRRR@55J_@*DJ@Jc_5Byc**BBJA*+5_BB6+R4_6x_DxJ4+6xJAUy@+x_A666y_6AJAycJ+J6yDc*yARB5_A5RcxBRUU5RUJ+J6Ay@4R5JAUA@UDJRcUcx6A_B6RyBxD6xU_BJA_R6Rc*cxBx4Dc*D*xc6___x6B@xBDB+JURDJUD_D46BAAUJy@RyDU@yU+@@cA5x4cUA6@yAy5RxJD4*D*y*@U+*B@Dyc@*D**DD+y6DJ6_yU@x+4ccA5Ac6@x@@c_RD@BxD4_U64AB46xUc6_65y_xBAx6RD6+@@A_B*@4+4_6A*D656*6UxAx+","U5U*BcJ4yRy*BJ_cRU++B_BD66_4@B*+4_@6y6RJ*4DAU6U+B@cURU@Dx6456DJ@cAA5D@*D@+*cx5DDc@B*yy5U4Jc4A4@A5JR+_66*B4RRD6UDU_J+yUU+*+yy_D_4ABDRy4@5D+JB*_yJ4*xRJAyJRB6BxUy+R_5@D+xJ4RUc5RAy4Bx*5*BA6*@_AB5__@x*4AJ*5cJ+5c4ycyBy**55DUB+cR4__4@45D44ARyRcJccyAxDD5*J_@R5URAxc+JB_Uy_yAxUA56*B**R4DUU54@Jxx4@_+cAcc@U+6@BxRU4_y+y5@c4xyUyBDB_xy@BDDyRRUcx@J+4ccD4xD4R4A45646UDR_c5B@6*6cA4@yB++6RA4U5B@J@B_RRDR@4*45_xc@AJR+y6B@c+5UcAUJcB@45AAUABJ5R5c6BcD5DR65_@6Ay_yy*yDxcc5_4D*c@_4_B*D5@5y@+c_*x4cAAc6+5x@5+J+5B*R+4@555D+DJ5xJRJ4A_*@*c_+5xRx@4c*A*xR@xD4D4BxADx4U*+*y@cx5+J@DBDUJ*RB+@AD*_D_5DA4UB@5U4+6JUA5@4@5@R*c_BBBy4Dy*R*AJ@A*BUy6_RB_UD_UUD4U6J5_*@*5R4AAxy*D@_JDy@_5x*x*Uy6U*@@*65J@J_@B@_UR_A+*yJAc@@*BUR@5cUUxB+y5x+xRU5cDD4c+x+65R66y4D5UBRc@U6U_c@@cB44_D@*yA*J@@645AxyU+5xy5B6J@ycU_Ux_AA+cxcAyR5y45*+Bcy*4U4cJR5RRB_xA_R*cADy4A464++x66+JxDx6x_+c5AA__4cDR5@4*AB44UR@c_J6AA@+c5*4U4x6JRcU4xR4RR4U5AUA*y4B6@4x6Ucy4R_@J4_+5c@c_4AJU4cy+_A5ARxAxc+J+*R+@R_5+RRA@cRD+y6BBc*Bx@y4c5cx5*A6*6xy55U6*yxy*cB@@_BBA_y*B6*JJcA6JJAA4J5U6+U*_D+R_6cU@_@D+cBc5ccBy@*DAc4B_4c56c*++@yxA5@6cA5DBcUc4_yJ4yy_J5AJJUBxy_Rx@465B@xJJ4@B4_y@A5BRJBDJ*_J_4@Ryy+JRAB@@+A+*R@4+@yU_D4R*cy5@B+U6+cAUx_JB+AR6B5*@44RR+4+UBDRA*R4RJ+4B6DJ_6cxyDc*cyU_R4JyBJA6RURcx_@AAR_B*5y5y5@yRBDR6U4*_JRR*@_J6+DDcRDA+DB4+UJc5D6*y_J*JRRcABJc4yJ+Dy5B5y+J*yx@*6@RxyDyABU*UDA4J+U46Uy_ABAAU*6_+J+J+J_J@5D5BJ+6JJ_6UyUAJJUA_+U5+JDDx++_Uc4*+4AB56yRUcB4@4yAU**B54*y_x65UUJyA+4U+RR*_R*6_B4yBU@_A5B_RJ4*@6AB_@U+@6+ABAR6@cyx6yy4R_UA55@AJyU_yJ5x@*BUA664xyUJy_D4@cR5RU@6xcxyR4A4yyyRAx4_y+xJ@JDx+cADDR66xBU5**B5_+5+__ByJJ_A*4J6x6xcBA4yxJARycA_xJRAR5B_xy_*4_xB4_U+ARD*R64*U5*6RDyc*y5J5xJR@AJJRcRUcBRBy@_++RxABcc*RB*5cJy@c+Ry@_RyA@6B+@UD@xAAR+66D+*5R+yxRA@y***JAUJB@_D55BJxB*46c_5RD+*yU@RxyxR@J4B@x@6xB64UyRD+A*U@Ux*BUx*R5JU4J*+A_D*_BR_5R4R*y5*5AA@yyBD++4J@D++Uy*y4yxA*6_@_RU6JxJ*JyR_U45_y@U_D+y_J5D+cR_cyJ@*4AcUDcAJDA+U6_c@U*5655J6x+*J_x44DD_6B4D_5xUD*D+x45xB@A*JDD++RJ5cyBU*cAB+Jc5y4_*5*_DB+6+yR_xR+_UU6_AcJ@@DA@_@Rc+x*65**J_4R_y*+6+U+Jyc4RUJUB6Ac*4R*Dxx+5BxJU*x4+Ay@JB+cJ_c_*4DAUyAy_+*_Bc*@c@B5c465c5xyc_yJx@cUDc+xU6DcB*@D*4R+*yc_D+@AD5RBA6xxcRRx55yJ@ARRDR@c_RD_+yR@JyU646AUJ@y*6B4D+5xJ@5ccUD4RDJ_RxyR_RxRy6*J56*@A@c+xABJU*Rc+66AD5_y446454A*+DJBAD**4c+ARyx+AyDy64A56**J_yB6_y6_DA+xyUDc*y_*BDyJ4B4+5y*56+c@6x5+@y@BcRxRcUBU*B6+_B@+4y*6B_UA54x6A@5*_6B@+yARBDJx@4DBcAy+54D4+B6B*R+4+U+5+cJy_xJcRRyyD_DDycB@ycc46UJy*65D5*B45DBR5@yxD@45cAA@@_+cByD5xB5y__U5y6@J*5Jyc46yBJJyU_BAU@cy4+*URc6@@_+c+R4yJDy@y+JByy5ARU456x_+D666AR+JBc6_yyy+c5_cxRxy+_xR6DcJRBxUDR5BD@5*6A*c*cDRR+J*x@U5B*6y4cRD45@Jy+D__@A5646+6_R@6+_@D+*J46y_+BAR+DB**DBcyxx+*4A445J@x46Dc54R*AJJ4A6xUJDc*JB56BU++ABUc+ycUA+@xcRAD+6yA@UR4UAAcR*_4+ccxy6cU_4AD+5x4+6+yxxUARUyA@cRyAU5x*4c+Bc+y+6c@DARBRc5J@44Uxyy5@y44*+_yyx*6UJxcAcD+5x*D6URB+ADA+B@+*c4JB_c4A5+BBcBJxcxR__5+B@D5@cxA_U6@+_5yA4c*6xJRUcy_D_D46c@AUBJ+y*xA4_@*BJD_A+yAUB5+4xDU****_6J64Dyyx5JJB56*_*AAUBDJ4@D*__AyxD_U@4Jxx+6+4*x6@x@@J*44*RcRBBUx+RAxUxU4**yDBU5y+D@++_AAA@y_UB*U*5*xc*Uc_*@cxxRA+x46*6DR*UD+BADcy_y4@U@64JD5R_+45+U5R_Uy4*ByB+B@RyJ@c+45ccD@+6@yy@A6_*5Dyx_@B+6*U4cU_4BDU*@*A+yDUxJRB@_65RxDRR@ByBxR5_xD5xyUU@xJ_R*U_J4JcR+RDBRc_A_6DJ_J+5+JAD*x*UJJcAAJAAA_*A5*_4y@_D+54R+DR6*J5_A_J_*@4@4JR*6B655+6+D_y5_y_U+D*x_4c5D*R4yU@c44B+566D+y_xJAU4x@DUc4J46B6D*_5x5_UU*@U@5DDDDJU*4DcxyUy6D5+6y4_@cc65y_5+4JccB45Dx6@y@5@6*_y4+_56x@ccyxxJcy@A6*J+U_cy6J5BUAA66+4ByJ_U*cBARA*JD6_x_6yJ+*66R6_BDJ_c4A4c4RJ+DRc+5U__y*B65AJy6J54ccx@BJ@xAxxy*U4RU6B+yBR5UU@ADy65c*R+5_6_R+@c56UJU5BJ*UyA4U5R@Ay_+_xJU5y+6RyA_U**4UyRcRBB*UBJ*yxARD@*BDDxJUxJA+xB+DRAB+J6y4yDBycy4AAR_@4*RJB@_R5D5c+5_JcJJ_R**x55_x5y6x**5B5+y6*x5JD_++R*AJ+U5Rc4yy5DR6@c@BxJR4JR@JDx@@4D5*cc5@R_6*5A44U*ARA446R6cR@J+c54*y_UD_4c6_x_65ycR@@AAcR655AU@B4RJ@D+R4U*U*cUy6A5x4+_45cA4Byc*B_x45B54ByA_J_BU4A6@_xA4_x_JUBU55AJ@4B5ABDx4B@RxDBBAD+*U5y5xJ_y5yJ5Bc+yAByA4x6*456U6U5yJJU@c_J_B*+6@4+64_4@*DyRBR54y6644cUJx5yBU4cD@U5J6yc*JRxAURBByycDcJDRcBAy5RD*DRA_4R4DyRDyAyAy_yUyJB@UD+xJ6_+4_+cc54U_yJJ@J+B@*4@6B6D_@5RcDB+_*B6+R4__Bc4@JRyyR6RUy@RRRA6_RcR*_5J@__6xc*yyyJ5@@UAxD+Bc*6c+RR*R5xR@_Bc_c*+6x+y_B_A@RBcc@A455J+yBRR5R*+*AyAxR@B*@6BJ5AAB@DJcyJJ_@5yxD5y_B6yJ4RcDU++RRBDRD@_BAR4*5R*5BDyA5cBBRJJAxB+AAR+Ax6@Jc@5B+@x+DRJ4Jx*6BA4UJ4x__yc+4y@D@+@5cA","@cc_4D4_R+BA_A*cJJ+xy4Ry@5BDyB+@*B@+4yJ4BJ@RU@+x5UD4x@_*Dy*xR@cJ6x@_*5UBU*ycR6*5B6R64R@*A@*D*@@UyyxA+U_c+4A*yy*RJ5BB*y*4_DyUJcB55BByJ6A454RR@_*Ry_J6By_A+@yJx5xcA_DcJ6J*R_xRAJBxxxUUyyDy@@JcRyR_J_@RRA5*Acx@4A_*A5@_44x5+x6U*J5yAyAA+4+6c_5Uc_yc+A@AUc6*5DARc5c6x6y*D_@cxy*__6Dx6A4AR_@BxUyAUcUBUcA_xyyJxc_y6yx+y@Bxy65B*B*cJxxJ5B456D+AycyB5xB6*@BBBDUU@xByRyBAJ4xy_DcD_U4yBx@4@Rx45JJc66J_4y64y**+AUUAx4AxUUR5@44*R5y@xA*+4RJBDA+RB6_5@4cDA4DyUxDR6AA4UR44R_yAB*A65_*BR*U4A_yJ*Ry5_c+@ARy_y+6_ByAUy+5y*+R*x5J4+@+6@y_cRAx@@J6DyDBxADc46UJ@yU_6BBxD_yJJ4cB_6xUJ4cB6c+cJ5c6**++@B6_A+@U*_RU56Bx4A6Dx@44yUAJAUx*RB65+JJc+A+UyxU_D6A+_c+ABABJR4+Jyx4B4Dy+5_@6x6*U454*Bcy_6DJ*65RRxyDBxJDR4U+RU__R6+_@4+DyB_@Jcxx4_R+4c_yBx_*5B*UBDcyDRyB*x__@D@JA+Dx@6Jy45URy5RBcyAccD_x@46RDUUJ6JU6DA+6cU+U6@D*6_JcU4@yc+JA+R+y46xJ4D64U*B5BR6@RB_y@B_B+c_xyUcy@Ac+*@R4_DUyycJyxDxx5+_x__+x_ABJ@+4BRR*54UBcx5_BB4UB4D+44@_Dx_64AJ+4x*xJJ6D+B64xJ@RBAyBAJ6xJR+*4+xxJDRAx564Jy4Uy@@*y6@5_Ax4A*6*B4@+5RyUcyB4RB5+yAyAx@Rx@_5*+c+_R65DD456c64cA+UA+*+AA*D6xBy6@Axy*UJyAAyy_AJ4@JU+c_Dx6J+*5c_5*JcA_UBR64cDyJ_D_R4A*JU46y***U4*@@BJ+65JJ*JB+**44R*_R@xB4cBx5y4JA6U4xcyJ5+RDR45JBAA+_+UA5Ux6y+4x6DD4+A@A__Bx@UxA5UD_y_B+64xD5xJ_+Ay@5*6+B@BDJxJ+@646*+J*@*yAUDA__Uc@@4*yJRAB4+DJ4yBBR__UJ5cB_Bc5@5_A_+D6xJxxBBDRB_xUc@D5JBUxcyJ54JB56_D6BBcBxA4B44B5y*cxUx66c*_J5UJcJ+6RyyA*5y4+cU_AR+UA6DDc*By+c_y4+@Bcx6x45D@+**Bx6ycB5U@@c_x@+*R+4x*+BAD*@@cDyyxJJ@*5*B_RJBDAyJx6R4cUBc*JA+UDUDxyU@6+4JJyc+D6cU6_4RcRRx*6RxU45DBJ_c5A6A*yy*_Dx_4yUxD666Ac+_U464*6U_xRJBBBDRx4B64@UU5RJyDJJ6_U5A*D+5+y*y_D5cyJJx*yJ+JcRR_6J5R+y_U+JR55UADJBUR+JB*RRJc*U**5_y6BR_4*x__AR55Jx@4544@U_@BcA@UU+_+5+*5@*JU**+6y_@+BU*AJ+@4@*BJ*5Uy@5*Ux@cU5cDA*J4DDJ+_yUy*_*U+AA*+AByyA5A+cD@4*cJAxAA*B6xyAABB@BA6AJ6yBcAD_DB+JAU+UD++c@*+xAc6BxU+By+@B4+4J@B@R@6xB6+xJ@A*R_**J64+4AA45BA@4UAAUx4BAy6yBAy+cycyxAD5B6U@DUx6@46x*y4UD*RyB56x*c@@@@44*cxDcA5__+_BAxU*+U4_65+5Jyx+664++UU*xx*J6RJRU6Dxc6D@6y*DRxU4+y6c__c4A4564c+@yxJJ_+J+AxRD_D+5_U_*U_Ux+R+By_@_yc@Ry@D4xRAD4BRBRA@J*DBcD+_UBJ*c6+_B@xA*@xRAc4+J64Jcy@c__J@yJBc@BJURAR4U+yAAADBA_4UxAxUy@+*5_U4A5DRRy_4x*JD4+6BJRA@55xJxB__JAxUU6R_yxDRxAyD4x@*J4_+5@yAAJJ_@_y@xRy4*UD*@+BD4@UyJ6RB4Jy5RBDJ@JyR@B6_4c_+A6Ax_y_yJ+U4_6+DxBU+J*@*UU4*_J*c46c5+Uc*cR5DJ4@xRB@U5c*5c6By4*JRAUyR+5UcyDR*D6x5Byc5xDxB_45_JD@R@5UU*J*UxcyUxRJ_6+J_BD4*@+xcyU6c+*4*xxA_6**UD5JRA4B*DJR*JR6_JD4J@yR+U5+JUBDDJU4*A+*D@URxDc+6y@Rc6UAyB+RJ44ARD+x6y6x*++x@_RR5+46cccA*_xx__6Ay464xyRR__xAx6B4y@*RBx*4JRy@@45@A_ADAyc6UA@@Axc@B6BD*Jx4RyAU@@4JAUJcycAJ*AD5_R@B5+R+ARc_*4A@cDDD@+U6yc6D6RcDUBB*U5_@*R6ARxAycyB6UyR@6yD+_AxcUBUDUc4R___Dx6@@c_6_D46xAJ5*44R*_c44UJB4DU_D+J5U*4AB6JcUcDcc4y*UDD6R4+44UUy4_U@DA_5+@y5xxyxJ6BDBxD_@DxJ4_A+_xxJ_RyJx@J6++x+DR56@6*4+RU+xyxAR@xyRA*Ac5J_R*+6y*UUAcy6c_@_R5*x5B*R4__Dy*6_6@xUx_ccyx*c+cJDxcxByx6_yx+DRU@y+R+4A6U65*c5y6@AyD@65y@6DcJJ@AcBJDR@AyD_+JyR@U@UA6R_ycRJU*A@y_yBccxc@J+JJy44+y6+5cRxB4yJDDcAyB6Jc6*+cBcy6456D4_x@BRA*5@4**Axc6_JxUJU_AB5c+@6A+5y54*UyDJ64RU+cyR_D6A6+4yAyy_B+66y**@UDxx*66_DJxc@+U_@R*54*+U@JR4J5A@6J@4JRcR65cBcxUU4cyy*cJJ5y@@J6x++4yR@@yxJ54yD5*5RRBA@cAU+D@@y@JDA+cxABAUcRxDy4*J5+5*J6U*+5654**65A+5A**5x_J@+66@6JR*y@6J*+U@x5@x@5B4+A@5cR5JUc6yJyRcU_xDyDDxccR**AD_x4x_6BR_45y+c*UAxUUAxJ6+_RUR5U_RU+_*@_cBD6*URJ5U4_DJR_B*6*R+AU@RBU_+A+UcBBc5RRDy4@4JB+44y6+yD+5@JU4**@cAAcU+ccA*UU*_x@yxxyxx6BR@5yc+R6R_@@Rcyc644+5yR*RR5*cBA+4++U6UccB4yxy@B5JRyD*@+Jy6cJ*JUy46A45R*5JU@B4@4+JR+cycDAy@*JU+y@_6+xRAR+J4A_D@DR4cD_6A+*xRAxc__D+c4@*B4J*yA6_DDA@x6_+cAD6R*U5*6Ay4_x+xAA_DcU64DDBR*_AJ4AD+*DDUDBD+cBD_@54445@_R5JRc6J_4_*6DDy@@DR6A**D55RDA6@DDc**55R*cc_c_Uccy66U5RxU*yUxBcB@@A_Uc4UU65*DByABARADA+4BAcy*BJD4c*ycD45++D+c+yyJUBxDUcJ5JxD__5xU_B5B*5U5+6+*UA5D44Ux4@DxBR@_65_D_B65JA6cBRD++B*@4@yJJ+@R@DJy4DyUJJAUR5cx@ByRJUxyJx@xDy4ARRyJ5_*4x_+cBJRA4D+AD@ByJJR4UxJ+@_B6@J4yRycyB_cABy_ADB4AAcRU5*4JxxJUJRDRB*@4_x_xy6D4cDR4yB@xJyxD@6yc+@U5+c@RRA64x4B5ByyR5J*UcBD*@+B_Dx@cyU*JBU54cAR5DxJ4@cABJRAD@RAU5*U+yAA6D54Jy@D_46xBJ5y4JAR*_6AUU**_DR5R_BxBB45DDc6UyxDR5+_JRDAJ_xBBJD64BD4Dx6+xU5444RJJ65@UUU56xA*B_54cBUJBxc_@y@c*4DJ4JD++6y565y5UA_JU+AUyy4y+5B_5yAcRD4_5B_x6y_*xBA6+6B+DR4D+_BxAcy@R4xJx6*DcR@D5+@y@*Dc4_56U4AcUy**URy@*x_By@c*xRJDJA6RR4+*_A*+cU@R*AAB*UJABU_4UyJA*A4B6BRyRB5_6y_yAU6Dc@B+DB4y+@_A4","y@+A55AcDx6*Ry@_+4DAyU64c46+x+*A44cB**U*@U@xcB+66*D*@_xcA6_6B64JR5AAyc@xy__D6U4Dx6@6@By6UxxDA64BDBU++xBJ5BDU@*DBD4R*+6c*46@AR5+xc@c**5*c_cDRBJ*BJxJRJ56c+5_J6J_@y@4@UcB65cJyRc*B5y45A@*Uc+y_BRyUBx_5_xD5"});_0x8a59d8[11]=_0x8a59d8[5](1065);_0xcca467=_0x8a59d8[5](38);_0x5f4aa9=_0xfc82ca(_0x5f4aa9,348); end; end; else if _0x5f4aa9<680 then if _0x5f4aa9<624 then _0x4164ac=_0x4164ac+53;_0xc84f9e={141,103,86,5,110,246,234,70,72,57,115,187,150,127,88,249,248,157,156,17,47,123,40,204,107,55,1,113,225,176,26,32,173,236,231,174,243,196,10,227,59,90,4,164,71,114,63,96,133,77,24,209,213,99,94,229,155,69,61,255,250,215,154,66,210,64,165,119,12,195,190,203,53,62,220,112,135,81,228,163,125,100,179,168,31,58,89,54,131,169,226,219,162,25,9,149,182,116,67,172,95,129,106,134,206,146,0,126,33,198,137,178,2,108,14,247,194,171,51,98,252,199,240,36,39,27,218,251,175,78,49,144,136,104,74,28,3,253,128,85,80,244,23,184,34,200,161,37,140,216,223,138,82,185,52,143,180,8,22,208,202,205,245,73,211,38,118,191,41,16,111,76,239,167,35,130,92,217,235,147,214,158,152,160,238,97,60,87,120,7,132,193,44,183,212,124,188,221,117,21,93,101,79,237,153,43,122,84,166,13,159,230,109,232,241,20,222,121,45,186,50,11,189,48,242,145,30,6,170,46,201,91,15,18,181,68,142,29,177,151,207,139,65,148,197,42,233,254,19,224,56,105,83,75,102,192};_0x8a59d8[6]={90349520,156078359,83932081,92317867,192435361,80654555,80659700,67727931,137812500,135657193,100067654,253711198,167814580,145793731,135717835,93522173,25516319,42137171,136973656,225931840,179914550,7693911,38253811,8079200,80772862,40621839,232587279,53333156,135036711,146066170,207699100,47252113,135673843,39468974,76438628,206923396,24875527,138719038,63215107,136448401,34973896,174490033,37889314,68833861,52902938,151879425,152637341,138936324,66218898,251274432,54133268,171250785,135631965,74370506,10900911,112073767,37089387,149362640,218933296,152926523,187475805,171390368,257503253,135174777,226275184,170046087,220235992,186788621,47173750,26691528,84991783,194466688,86740675,159899885,66203375,119418790,12808110,185599088,96700636,150947461,130400800,51917685,72863994,17284866,161677858,222234416,8137757,158955488,175172693,128679856,76795132,26007648,73110304,40966948,12827944,182705255,38486589,4666032,76142703,130894388,14366852,76589525,89317660,168685576,85992784,164602434,247393268,177206848,111999126,204505583,202455702,137356754,3924802,77631502,64057753,189063591,225324570,139628026,109257700,167301373,81199509,128261947,66655689,99984831,220942844,138928558,115150883,44875457,124347878,116850169,234073262,61887468,65443515,42042847,113173843,127204394,178729627,106839845,195328783,244882170,120081458,83651890,193656450,128011988,69044289,75449725,174555099,181656532,44217066,95525440,98842848,12556920,85732737,38558040,118167532,106887096,107976509,36233923,156595299,95519980,30622328,182936327,28753786,69998748,77980108,33942354,59805910,95613550,11813070,103877377,87967532,22123059,74197699,117845498,103155339,71022891,170467756,171644392,65041915,152653892,163703433,68456039,85213067,41808752,13918535,26315316,214689422,112995855,180648609,67107815,779333,192463369,101638311,5522828,120082258,150307216,79586747,10913878,97630462,47581401,174738426,16619631,161036515,165144277,82454606,122032317,84123313,36316349,40643650,168834785,157063877,176179207,150919620,111357240,184424037,45916207,20875959,95455000,107487131,132837219,64793158,154709114,146817803,116795896,145326834,99241846,124354510,8492423,206431025,162401316,189569241,151521974,46801188,243394128,112938355,117212870,10398115,159520532,88409073,138552022,72587956,129559256,171922065,96068548,130965497,112417760,232243309,10118270,102748757,164286654,101161082,23618048,112918876,5858315,83760784,57795031,140692062,35132300,83104900,222042070,127680747,21719664,12853422,29764979,200384020,118435719,111548905,28775812,131981959,87905199,185091517,210926948,167031061,177754433,187994154,10941282,25412204,56729954,148113570,204304280,18237911,22381980,3675407,123863168,16274160,198164137,144281702,163045775,13381531,193629075,3368479,60684459,167844556,219011932,208030685,102039216,160126570,147600580,148018016,183871224,134537898,110633428,174115050,171233749,35283535,66963740,166420927,47709477,105591545,73030551,197501748,76284621,265588450,88785223,71431155,79927707,103735662,37987059,27041594,240182231,111294896,94696585,232539027,172066714,71152114,85729347,53102626,187907446,172919754,111616088,49490057,157485723,194374612,147805536,35731940,21288307,172053187,19895348,63683536,244640513,110141700,161449168,86930920,165287402,53309168,126280603,115498886,65753559,107109018,61833975,217416321,14275892,27452922,46666967,120613042,160536503,82141701,73669353,183776567,6323295,89894184,54584334,129114290,205941194,118162579,53701190,198350879,89350159,84541469,162057454,61352312,138925682,178851982,134289836,63026772,28900628,41176397,117729181,118293626,165712940,104058242,69729284,130172524,213352258,237030746,76566144,176543582,224535420,113337293,56350627,1171217,72893673,174166131,79580456,51314780,177360269,184591903,15637724,135818080,132281880,100765881,229877052,196717436,151229052,19843127,108375253,21734937,43216263,68648439,57114658,162495285,182324746,21336513,215381985,58087602,165875508,43882295,176435568,172726073,52667775,179743712,198248433,103141902,160740433,136731346,209403334,32487722,97393544,169709092,93177522,78742310,155642462,104025495,125770411,139949807,55268804,10938121,32036343,5976334,111837634,174878840,36204507,138910078,147343970,186119062,223376393,67995059,39320718,58357110,184107870,129364265,144088567,144967596,97206055,92340638,42769100,37313399,3234329,131131792,180240968,14997907,122155571,86702532,174948964,137111562,150172934,46737863,183840997,163935081,114289515,21271176,56599275,212225520,211523707,107552213,142454739,185673240,188604668,229137964,148936735,72863138,67475063,83853595,133718318,45499079,197095987,9488419,65985093,186964435,144239971,36615464,24441976,74513569,217893672,110512575,49884253,37101390,152275843,126321299,148412434,7126964,154433598,80148829,60051562,209099921,63907564,59942770,78028803,56357495,141324477,126482688,93355951,77857864,165043920,260111222,182649300,170325614,145607496,232320503,149472142,32270900,128071894,129788150,156836373,163700055,107801385,178008553,147940778,24526115,185496292,210334475,183632981,193295512,40917133,66643452,37149600,56352893,152695574,152991189,196767297,145950263,189847861,121363832,190303214,155891696,51259515,116017773,187871779,197783408,213239119,93303608,121893902,176395223,216263652,95743813,158869368,191722923,163743546,168604948,190011812,196155304,17283520,84620003,133895413,167544426,145652224,2179789,134845696,33006887,217395834,93484396,21908713,182018463,108857193,50672961,222548610,97927666,147731763,6697221,154266501,73687879,114602869,23707191,36072085,148875825,121878457,158687073,39039038,38574399,70956094,157518695,122860103,186585265,95786301,72714522,102095139,186684215,167609190,34444027,37184192,227820200,61291230,114888357,135972729,189916707,83511936,122701194,132281674,161774833,235022768,186870853,146866998,182526790,75028407,226599247,206491615,90563065,38829919,194149870,76144950,74819030,214192707,111471166,138530232,238756264,126182954,65611564,113578059,178676008,100141372,128652145,86978743,29147099,57422319,138135084,173585569,8005147,181319230,39368249,140563215,127620875,130678314,14928405,178327804,43792477,83757327,104969140,89479176,195838189,178878648,90190226,181512198,31046774,13141674,93477953,35679055,21929211,127098099,58163881,130790732,118912655,41007483,12990873,94461022,167366192,98510054,174352330,42690220,88869190,162946497,30633087,67995032,32062420,79582339,73697130,138780623,158999729,105638954,57687204,203073890,199686683,140106930,64472327,139763393,178595725,62484319,63139688,10465077,240803335,48634445,115664306,12517312,45363192,155167715,96228125,75858665,84461903,158973480,45524244,11574762,38028614,139885646,105131109,144714968,80013035,181220034,187608557,135665699,74483537,17719812,138136453,143127904,14937768,18655674,207637353,193001938,244990242,29524154,247974378,134362955,77881459,76417427,12486098,121201764,120183968,55138617,43106254,81313755,220680810,140157604,134109511,148720321,153221423,1181096,28205622,144377581,64244302,174155491,101872571,143957137,170000469,110368345,143424984,245665506,73925388,15590039,79957425,138568763,22545645,5326745,131122263,204697867,63262587,229100008,113697078,98497361,37632297,239740294,85740512,70808432,21171985,225871667,38693836,54435073,150622928,18704437,165511731,163407248,179388591,91730036,151077936,15007574,187535707,157156512,183212474,25408037,2135237,63685901,105511281,150031211,114854423,84329948,162729564,76311251,170998623,17374406,19532341,172757938,153476610,97791033,205000789,26397499,97951485,232521947,176446603,8997256,175063020,89025385,79147084,203891468,147476401,106510287,68101657,14167015,144681492,205571024,10882696,163993963,101547208,51356117,247812344,128356344,105278629,201150,95053211,15257945,122424413,146050128,117015527,193448271,39502616,202116355,171411227,32887049,178270412,9021316,78353924,181261843,77120491,177220942,25684892,151518305,69982917,199958825,268319313,208493778,11643741,194971220,168506362,69739103,38082284,157173403,200388500,48300988,128011412,217029219,44478065,46579166,187555292,65049911,185768453,180435307,158559493,74128439,19846355,90503194,6607834,29119274,7854132,19073006,136941132,182756363,228497553,12380678,120841502,236288318,151984512,73387693,79446681,159811258,648370,94261855,85595334,81250295,183452390,11967117,49431691,209913650,25900692,129296676,129650164,76960635,126413133,119651650,81208694,91786189,65439731,1026166,37718499,105639101,60873566,9821745,75478990,15522416,55651933,65405786,99645103,179597404,96744435,156631777,144155832,77525671,13952144,26619352,150326490,116956531,75956619,194629811,45393184,153101601,228548149,5021071,181557971,17981224,136981797,65743976,133405822,233275700,1575007,160817310,211589453,16047626,120641932,247451358,67025356,195836079,5012262,21598801,190974990,129476341,138249274,192707737,129237075,20974598,151073231,165287804,9603511,184932228,31326445,131754896,13550941,176707368,78827774,136125332,28142907,165947316,2599734,68901224,138945679,11211907,35754920,229849386,54547129,123437949,233023863,76656700,88942285,27464291,156194624,163717221,181261823,45766189,172912416,183045707,153433805,124098032,122555625,23384416,22519982,138457393,36691960,103975181,14834490,222581342,126483893,183104399,239374117,144181205,202402534,42649381,193801911,103357905,190389798,195478053,88369346,176585370,29839021,201415747,29470572,225558610,266038061,115390238,194572518,71681321,217155235,82863691,223051059,86221469,145020613,43396772,47622450,134337733,117593832,69802628,8507637,154765541,177180169,39681896,55076091,183613060,141414110,52408084,98202399,59070728,169404966,21848150,233718009,171733827,113749513,5815331,95079422,230740878,177681854,27075909,195586492,128572302,71989480,105489436,45086511,105167520,179637467,168180761,194128183,4436320,154782349,16230059,176622305,42270913,239602474,99011374,140490781,107675341,263813035,177684791,211192372,111011414,21606186,65641449,210821100,234736381,23130082,7210550,79251695,157880263,97194772,54541258,31685233,70960577,101801807,62939721,76592107,116700308,50143307,170616402,195869869};_0x8a59d8[7]={3006827,5848185,3150408,3607742,5461852,2723333,4008603,3188672,7259977,5949215,3942858,8012003,6372728,4299732,5925401,4046069,2689095,1787484,5261966,7873154,4918515,819375,1917473,1077756,3540993,488299,7694092,2103219,6609265,6026956,8326022,1646753,5922297,687796,3250372,7713739,1534243,6248903,2778937,6313348,1023781,6908867,1227052,2119863,1015039,6165099,4883126,5296026,1482005,8270155,662509,5623585,5406018,2867187,61759,3060983,2039597,6616305,7650580,6837695,6217960,7305865,7469122,6366885,8174372,5891237,7752812,6813327,1633871,308557,4469017,5442874,3569236,5838193,496672,4730220,1559406,6877136,4170210,6263390,3712392,2517266,3247445,2388975,5987549,8123511,400442,5330358,5398826,4086244,3320568,1977264,2511319,1845320,929836,7287518,1073323,1326593,3099476,3407427,2008176,3555813,4639753,4294674,4700394,6287180,7765698,6322579,2305164,8299068,8318218,5844022,403335,3469761,1276406,7017962,8146941,5287256,3542293,4362171,3719237,2146592,367534,3291424,7914210,6233190,3707884,692656,4006373,2488443,7739181,491235,1876149,1259843,2382689,4040280,6157581,2673559,6651965,8293674,3606143,2203870,6685646,4177703,3769267,2543630,4673935,6580794,2032072,3621978,2706420,2033870,2736349,1606101,5184989,3143085,5063540,631835,5033546,4964007,1654607,7302016,1421843,3497257,3133969,171193,1880831,4145622,272725,2668589,3354023,1328056,4168092,3729081,4816630,3378837,4750466,6239447,2797397,5948138,6127681,4918526,4144013,1910009,26238,3075102,8238744,2735729,4651347,1546588,891071,8328884,5008993,901114,4221787,6522526,4180309,1621538,2259014,1764118,5961686,47751,5547254,5846934,3060080,4217762,3722824,1257682,2892647,6710102,5590214,7167049,6813757,2915383,6044674,3121299,1772290,4235925,5134666,4813342,1772859,5715802,6147988,4915436,5299786,2657459,4343888,52392,8273911,5650034,6452459,6367146,3069861,8118619,3509883,2256130,299223,6777247,3836411,5305499,3273177,5230544,6467091,2613260,4227133,2121037,7703291,659966,2878383,4569120,2267495,715968,3638721,120905,2932567,1079650,6774338,1846774,3803025,8087478,4519289,3068097,257943,8,7319147,3780952,3773930,1149784,4967678,2810898,6569199,7709118,4531283,6576981,6468346,1528134,1021733,728892,6494432,7589875,284872,285088,1333211,4780844,675515,5316541,4325321,6584722,1837048,7744541,1593699,1540499,6293748,8050490,8040037,3937806,4714725,5380407,5459552,7289525,5408411,2946651,7123645,6446929,630760,1282178,6831140,947444,2606448,2885687,5965994,2757753,8326502,4010535,2236078,4190581,4767706,202702,2619286,8198426,3623418,4960914,7931254,6543050,3170437,2737057,1671024,6268942,7175224,2345237,2615523,5314276,6550813,5880327,2545782,902446,7061633,2135777,2140272,7480198,4181105,4945103,4858026,6433493,1157950,4039978,2155179,790555,5205910,1519519,7823725,553751,1165605,474389,4044848,5547892,2729922,3591392,7601617,1984559,3081423,2442367,4589599,7646783,3265045,351462,5764281,3759636,2201221,5197379,1538403,5584557,7989933,6510202,1120741,578689,1347324,3271029,3979362,6296230,4983858,2454716,4628369,8033500,8272812,4970084,4679635,7907238,4318016,1965487,845045,3392934,7309745,4172376,2797020,6579259,5956701,532446,5553767,3453694,2827872,7812286,5330885,4556977,2536673,3177876,2649319,3022455,4233728,1279676,6551925,6352902,899747,7744581,1577760,5781561,2672829,6425404,6328467,1181939,6657078,6668656,5041277,6103031,6100753,7536816,556617,4761978,6959408,4730202,2467503,6979621,4565836,3561770,6280666,1843641,1573282,1046138,666511,2937707,6400651,877993,5574079,6097749,8043781,7791690,5241372,468583,2466571,5743748,3427532,4490421,5436673,2121855,2607459,435176,2758818,341405,3406689,5408440,1380417,4779791,3853129,5583240,6141668,7090477,1451058,6345174,6228571,2184949,71830,1098656,7349557,7582285,4521459,5484661,5624662,7110227,8358214,5808520,2762726,2921190,3233656,3632017,739539,6234451,1199347,2716011,7316856,5629899,294533,2133928,5065579,8294853,3565693,1880461,1901101,5700291,4093457,7076611,1930593,4913655,3770439,2406447,7684358,805021,1079479,2667202,1477317,6567333,4219866,2239790,3106329,5795795,7886037,7307001,4364031,6778608,7996824,5923014,2115865,3242811,3649528,5277643,6176740,2643809,6836047,6476801,63568,5279539,7927192,6528474,5601775,2640262,319224,66529,199711,6062019,5689340,6819956,6287564,7198724,3521118,7717299,6034944,2686751,4067928,6718034,6308202,7457136,5209478,3511027,6362126,7854115,5166979,5885317,5812950,5920280,5998079,5576927,6706118,805453,3033392,4656668,6229283,7009240,1560656,4840469,2146089,7397886,2550655,933229,4600272,3859395,50293,7742790,2480050,5577241,2004020,5032085,2534528,5044781,697283,1409662,5742614,3355181,5472362,127685,1799727,2240966,6316018,3366682,5366275,2518579,2741351,3501724,6092897,7955520,1679100,146559,7477722,1031295,4393587,7018882,6641681,3572685,3988748,3852057,5665963,7856557,5841197,6609930,7730711,3169189,8242593,8386172,4995231,1987373,8275382,2266142,4121870,7484200,3936324,6857416,8322691,4678240,1700245,5109355,4405897,3684636,3295665,3809590,304599,3127623,5678934,6593500,668246,7100617,1311534,4473225,3239355,4773455,310060,7160475,237562,2311389,3767730,2954427,6993988,6357782,2856168,6426844,9889,1408008,2265519,1936331,1289445,3201080,648250,4833570,2806969,2277143,2879483,4451715,6832871,4207059,4219496,1398259,2195418,5493518,476193,2100749,794699,3237839,3842185,5930361,6791890,2186853,1687688,7986810,5531249,6553997,344380,5644133,6258471,1132681,1225043,1303046,7444494,957318,4885632,1435929,1270495,6707606,3615927,2103583,4561649,6112784,2496258,528575,155936,7050933,2177784,5631648,5167763,8279640,6338279,6030726,4157390,435959,6763663,6991349,1344309,753221,7543932,6960841,7778718,2431515,7608045,6461819,3017675,2908160,983927,3171266,4933258,1290153,1089949,3503443,7414628,4303813,3878988,5533158,5420001,377757,844932,6449504,98714,7630532,3515932,5746871,5587197,3577842,4450977,7961896,2200550,1254311,3808451,6100069,2654811,495254,3281853,7710436,1338048,7379181,4587734,2830540,1669675,8382093,4853764,3978981,1538133,7432348,455222,1536746,6341532,77218,5368650,6665438,4743790,4316988,7171372,1405605,5285939,6591752,4304094,832449,1596514,767607,3343457,6993550,4632355,4247061,6597173,3329351,7035652,243791,1036158,7209774,5779319,4805081,7722515,1132948,2145639,7796846,6961792,47973,5527910,4883991,2797832,7595220,4968778,3131262,3519390,1149864,6569766,8165952,1640939,5505937,4196623,2071150,7641632,4521118,3252180,2019070,4018765,1358585,3953102,5883939,3217241,6169626,776049,8180303,6546133,2225324,7261712,897095,3097342,5987341,5045354,7212746,954258,5994242,3604566,6976446,7349459,7449612,1313832,5377083,6714135,3404446,1157591,6569909,6968842,2815105,4092407,8140776,1961890,748057,5783623,2242005,5359746,5102128,7279826,3629329,410753,4795526,459635,535523,1161841,2768403,6158600,5076551,8126440,122435,5238893,7446631,5579469,3714482,4187317,6990978,370517,2485428,2775434,3442606,6940857,1935420,1261177,8069322,907351,3693011,4476094,3620142,3959741,4527796,2511342,4309388,691992,966406,25364,2797259,1790065,1678365,3219485,1310592,1310203,1453206,4747953,6411910,4685655,5345344,6224602,3962964,1037019,327815,5815680,4960805,3530495,7163484,1530098,4802138,7557046,566444,6953234,923003,6032442,312141,4408751,7593873,832502,4623389,7681648,1770176,4718494,8273868,2128966,5292992,157283,202253,6312145,4131361,6181752,6891379,3698218,42249,6007560,6127659,1791054,6272928,838886,2698361,1084460,6971172,3598618,5623196,836239,5904079,1702734,3844422,5512447,1062230,1056358,7831047,1485154,3997705,7544506,3913606,4274300,540354,6961923,8126326,6715588,1510097,5381606,6706299,5678843,3169012,4422197,828194,2423080,5446169,891373,4126837,1176121,7476882,4188431,7525980,8239177,6234158,8149811,1157211,7071810,5240282,6679752,5540706,3579542,6861041,265233,7632279,1159211,7990747,8313187,4367338,5737905,3066319,7910519,4362266,8377566,4167082,4381460,507097,56529,6008764,4687311,3816517,743648,7077253,4257210,754042,1633794,6400821,5918512,1076626,2438194,846265,7309748,983079,7513504,6927841,4778112,722289,3598238,7574507,7194741,2811600,5693650,5201624,3163407,3780564,1814027,4539653,7285314,4563791,6445341,588631,6198570,62821,5381439,2129613,7746080,2843798,7137942,4722592,7456730,5281363,7602178,3064366,323553,1658683,7400560,8339298,2314278,1723922,4140506,6279407,4345551,3076312,3089082,2271671,5223827,1661177,3799022,3779404,1568941,6303018,6818847};local _al="5D@R64cA*xUyBJ_+";local _nm=_0x8a59d8[5](256);local _by=_0x8a59d8[2];for _i=1,16 do _nm[_by(_al,_i)]=_i-1;end;_0x8a59d8[8]=_nm;_0x5f4aa9=_0x5f4aa9+(-398)+_0x4164ac; else _0x4164ac=_0x4164ac+66;local _w=_0x8a59d8[10];local _f=(getfenv and getfenv()) or _ENV;local _g=(getgenv and getgenv()) or _f;_0xa72073=setmetatable({},{__index=function(_,k) local v=_f[k];if v~=nil then return v end;v=_g[k];if v~=nil then return v end;local ok,v2=pcall(function() return (_G or {})[k] end);if ok and v2~=nil then return v2 end;local ok2,v3=pcall(function() return (shared or {})[k] end);if ok2 and v3~=nil then return v3 end;return nil;end});local _bt=_0xa72073[_w[4]];local _tb=_0xa72073[_w[5]];_0xfc82ca=_bt[_w[6]];_0x6bafdb=_bt[_w[7]];_0x8f729a=_bt[_w[8]];_0x95b3ae=_bt[_w[9]];_0x39d9d1=_bt[_w[10]];_0x8a59d8[4]=_tb[_w[11]];_0x8a59d8[5]=_tb[_w[12]];_0x8a59d8[10]=nil;_0x5f4aa9=_0xfc82ca(_0x5f4aa9,927); end; else if _0x5f4aa9<683 then _0x4164ac=_0x4164ac+19;_0x8a59d8[11]=_0x8a59d8[6];_0x5f4aa9=624; else _0x4164ac=_0x4164ac+73;local _sm="";local _fc=_sm["\99\104\97\114"];_0x8a59d8[1]=_fc;_0x8a59d8[2]=_sm["\98\121\116\101"];_0x8a59d8[3]=_sm["\115\117\98"];local _b={250,34,62,119,138,196,226,246,39,76,92,132,174,220,190,224,69,85,126,171,199,231,32,58,96,120,154,202,227,4,52,90,124,166,190,226,2,51,84,125,149,185,217,10,28,75,114,138,171,225,243,37,59,90,149,169};local _l={4,4,3,5,5,4,4,3,6,6,6,6};local _w={};local _p=1;local _k=116;for _i=1,#_l do local _ln=_l[_i];local _s="";for _j=1,_ln do _k=(_k+35)%251;_s=_s.._fc((_b[_p]-_k)%256);_p=_p+1;end;_w[_i]=_s;end;_0x8a59d8[10]=_w;_0x5f4aa9=_0x5f4aa9+(-276)+_0x4164ac; end; end; end;
 end;
 return (function()
-local _0x858c31=_0xc96c19[26][_0xd44ced(141895,475238,159626)](_0xc96c19[26],_0xe8ebea(128144,114051,959242))
-local _0xd89396=_0xc96c19[26][_0xd44ced(332854,32279,348667)](_0xc96c19[26],_0xe8ebea(374183,392371,844173))
-local _0x145900=_0xc96c19[26][_0x848d34(457192,200491,215835)](_0xc96c19[26],_0x848d34(942297,208444,223759))
-local _0x1ceeaf=_0xc96c19[26][_0x848d34(41691,349208,331816)](_0xc96c19[26],_0x848d34(549656,127886,112570))
-local _0x3cf4c8=_0xc96c19[26][_0xe8ebea(143521,162227,166064)](_0xc96c19[26],_0x848d34(706864,290273,272852))
-local _0xb7164b=_0xc96c19[26][_0x848d34(478635,179048,196440)](_0xc96c19[26],_0x848d34(109539,115928,98542))
-local _0x87caf0=_0xc96c19[26][_0xe8ebea(125824,107154,86929)](_0xc96c19[26],_0x848d34(1022501,251767,234304))
-local _0xea24c6=_0xc96c19[26][_0xe8ebea(280431,265853,327550)](_0xc96c19[26],_0x848d34(122105,336805,354205))
-local _0x8785f8=_0xc96c19[26][_0xd44ced(437736,247753,452645)](_0xc96c19[26],_0x848d34(792714,399747,417210))
-local _0x736c63=_0x858c31[_0xd44ced(120109,645056,102650)]
-local _0x3ab0bd={
-[_0x848d34(187088,304055,321420)]=(_0x4624b2[_0xe8ebea(468188,486850,848522)]and _0x4624b2[_0xe8ebea(207071,221633,589449)]()[_0xe8ebea(489094,475033,471049)]==false)and false or true,
-[_0xd44ced(81662,239379,97061)]=_0xe8ebea(181272,167225,483515),
-[_0xe8ebea(486446,468236,81583)]=_0xd44ced(81423,594745,97233),
-[_0xe8ebea(343620,358240,777851)]=_0xe8ebea(344441,329820,292064),
-[_0xd44ced(493682,366645,511379)]=_0xe8ebea(287881,273838,510743),
-[_0x848d34(810334,433010,450356)]=_0x848d34(661648,438566,456033),
-[_0xe8ebea(455769,441715,506758)]={
-[_0xe8ebea(250365,235734,611404)]=true,
-[_0x848d34(435995,365699,381129)]=true,
+local _0x55c511=_0xcca467[9][_0x3f0d21(70653,417746,66213)](_0xcca467[9],_0x248f80(389006,366894,96578))
+local _0xede4c3=_0xcca467[9][_0x3f0d21(262425,216374,266305)](_0xcca467[9],_0x248f80(336054,349719,521362))
+local _0xd9f3b4=_0xcca467[9][_0x3f0d21(122014,430257,118214)](_0xcca467[9],_0x248f80(377225,374571,795361))
+local _0xdbf3be=_0xcca467[9][_0x2b4f7f(280766,309443,300940)](_0xcca467[9],_0x2b4f7f(210049,255890,248001))
+local _0x155c1d=_0xcca467[9][_0x2b4f7f(340328,377109,388698)](_0xcca467[9],_0x3f0d21(432189,782089,428384))
+local _0x6d424a=_0xcca467[9][_0x3f0d21(245552,324383,241256)](_0xcca467[9],_0x3f0d21(370363,466459,374757))
+local _0x92229d=_0xcca467[9][_0x2b4f7f(222413,234672,244735)](_0xcca467[9],_0x248f80(224587,203757,589909))
+local _0x338a3e=_0xcca467[9][_0x248f80(318816,306175,18734)](_0xcca467[9],_0x3f0d21(116873,276677,121321))
+local _0x5e7131=_0xcca467[9][_0x3f0d21(338575,157344,342999)](_0xcca467[9],_0x248f80(368052,387868,709614))
+local _0x7576e4=_0x55c511[_0x248f80(485975,466174,540597)]
+local _0xccbb17={
+[_0x248f80(245032,248706,822844)]=(_0xa72073[_0x2b4f7f(531348,380834,385273)]and _0xa72073[_0x2b4f7f(794422,117504,123995)]()[_0x3f0d21(144185,365119,139868)]==false)and false or true,
+[_0x248f80(148229,144808,1045280)]=_0x2b4f7f(345327,184506,196580),
+[_0x3f0d21(88558,245292,84102)]=_0x248f80(255517,233645,314522),
+[_0x3f0d21(486830,231338,490692)]=_0x3f0d21(321480,987533,325283),
+[_0x2b4f7f(986324,327029,315926)]=_0x2b4f7f(710139,353256,347276),
+[_0x3f0d21(356012,31854,360386)]=_0x3f0d21(119527,546578,115592),
+[_0x2b4f7f(553882,109626,99165)]={
+[_0x3f0d21(506861,1004865,502428)]=true,
+[_0x248f80(198165,225452,72270)]=true,
 },
 }
-local function _0x5b7c70()
-local _0x424f83,_0x4e4347=_0xc96c19[27](function()
-if _0xc96c19[13](_0x4624b2[_0x848d34(888731,484187,468752)])==_0xe8ebea(174458,188500,996637)then return _0x4624b2[_0xd44ced(79380,738870,95228)]()end
-return _0x8785f8[_0xe8ebea(523329,505198,232595)](_0x8785f8)
+local function _0xaa60f4()
+local _0xd29fd5,_0x346c2a=_0xcca467[_0xc84f9e[71]-174](function()
+if _0xcca467[2](_0xa72073[_0x248f80(364222,391172,515544)])==_0x3f0d21(326436,423876,322128)then return _0xa72073[_0x2b4f7f(118482,522658,513736)]()end
+return _0x5e7131[_0x3f0d21(126704,547889,130949)](_0x5e7131)
 end)
-return(_0x424f83 and _0xc96c19[13](_0x4e4347)==_0x848d34(518075,229452,246711)and#_0x4e4347>_0xea489d(631624,631624))and _0x4e4347 or _0xc96c19[20](_0x736c63[_0xd44ced(337047,970744,352636)])
+return(_0xd29fd5 and _0xcca467[2](_0x346c2a)==_0x2b4f7f(191190,419554,412153)and#_0x346c2a>(154+_0x95b3ae(_0x6bafdb(206,84),1)-290))and _0x346c2a or _0xcca467[_0xc84f9e[182]-128](_0x7576e4[_0x248f80(305081,315652,536966)])
 end
-local _0xebebe9=_0xd44ced(90201,586695,75189)
-local function _0x8b5d76(_0xbf7e72)
-local _0xb40cb1,_0xa8cb30=0x811C9DC5,0x9E3779B9
-for _0x85d2fd=_0xea489d(_0x40b209[32],235),#_0xbf7e72 do
-local _0xb6a186=_0xc96c19[_0x40b209[225]-70][_0x848d34(232696,453211,437771)](_0xbf7e72,_0x85d2fd)
-_0xb40cb1=_0xc96c19[_0x40b209[185]-3][_0x848d34(695164,422033,406720)](_0xb40cb1+_0xb6a186,0xFFFFFFFF)
-_0xb40cb1=_0xc96c19[_0x40b209[250]-85][_0xd44ced(369696,643887,385486)](_0xb40cb1+_0xc96c19[34][_0xe8ebea(136652,154872,1014625)](_0xb40cb1,(2850+_0xa81147(_0xfaf96b(455,2789),1)-3234)),0xFFFFFFFF)
-_0xb40cb1=_0xc96c19[34][_0xe8ebea(188695,174114,1015500)](_0xb40cb1,_0xc96c19[34][_0xd44ced(143135,313741,158446)](_0xb40cb1,6))
-_0xa8cb30=_0xc96c19[34][_0xe8ebea(449919,431180,1013857)](_0xa8cb30+_0xc96c19[_0x40b209[208]-14][_0xe8ebea(132696,151405,1022339)](_0xb6a186,_0x85d2fd*(3258+_0xa81147(_0xfaf96b(2336,1434),1)-3733)),0xFFFFFFFF)
-_0xa8cb30=_0xc96c19[34][_0xd44ced(401745,677470,419007)](_0xa8cb30+_0xc96c19[34][_0x848d34(873120,357113,341675)](_0xa8cb30,(408+_0xa81147(_0xfaf96b(796,644),1)-1433)),0xFFFFFFFF)
-_0xa8cb30=_0xc96c19[_0x40b209[161]-41][_0x848d34(773967,204385,219698)](_0xa8cb30,_0xc96c19[34][_0xd44ced(480542,111500,463087)](_0xa8cb30,(167+_0xa81147(_0xfaf96b(1220,1123),1)-2332)))
+local _0xff3a9a=_0x2b4f7f(730434,427791,436321)
+local function _0xe3fbb4(_0x56c732)
+local _0xfcf3bf,_0x1a8d6f=0x811C9DC5,0x9E3779B9
+for _0x98880d=_0xfc82ca(_0xc84f9e[169],40),#_0x56c732 do
+local _0xa1d3dc=_0xcca467[_0xc84f9e[139]-94][_0x248f80(307743,312480,315320)](_0x56c732,_0x98880d)
+_0xfcf3bf=_0xcca467[6][_0x3f0d21(262925,945659,266868)](_0xfcf3bf+_0xa1d3dc,0xFFFFFFFF)
+_0xfcf3bf=_0xcca467[6][_0x3f0d21(468966,870672,472735)](_0xfcf3bf+_0xcca467[6][_0x248f80(155935,137182,550880)](_0xfcf3bf,_0xfc82ca(386442,386432)),0xFFFFFFFF)
+_0xfcf3bf=_0xcca467[6][_0x248f80(132169,160395,358976)](_0xfcf3bf,_0xcca467[6][_0x2b4f7f(830575,106246,110709)](_0xfcf3bf,_0xfc82ca(_0xc84f9e[214],238)))
+_0x1a8d6f=_0xcca467[_0xc84f9e[32]-26][_0x248f80(514392,503704,946064)](_0x1a8d6f+_0xcca467[6][_0x248f80(207281,221043,284600)](_0xa1d3dc,_0x98880d*(892+_0x95b3ae(_0x6bafdb(1031,1915),1)-2909)),0xFFFFFFFF)
+_0x1a8d6f=_0xcca467[6][_0x248f80(285374,273534,912502)](_0x1a8d6f+_0xcca467[_0xc84f9e[61]-244][_0x248f80(216409,211864,609190)](_0x1a8d6f,(_0xc84f9e[129]-168)),0xFFFFFFFF)
+_0x1a8d6f=_0xcca467[6][_0x3f0d21(354228,115073,358095)](_0x1a8d6f,_0xcca467[_0xc84f9e[63]-148][_0x2b4f7f(691084,506085,497558)](_0x1a8d6f,(13+_0x95b3ae(_0x6bafdb(1799,1802),1)-3590)))
 end
-_0xb40cb1=_0xc96c19[34][_0xe8ebea(292279,277636,905385)](_0xb40cb1+_0xc96c19[_0x40b209[230]-60][_0xd44ced(138837,697070,154554)](_0xb40cb1,_0xea489d(190031,190028)),0xFFFFFFFF)
-_0xb40cb1=_0xc96c19[_0x40b209[199]-46][_0xe8ebea(161102,146555,1043093)](_0xb40cb1,_0xc96c19[34][_0x848d34(498635,123323,108015)](_0xb40cb1,_0xea489d(711432,711427)))
-_0xb40cb1=_0xc96c19[34][_0xe8ebea(75342,94077,557904)](_0xb40cb1+_0xc96c19[34][_0xd44ced(420702,972773,405169)](_0xb40cb1,(933+_0xa81147(_0xfaf96b(935,2),1)-922)),0xFFFFFFFF)
-_0xa8cb30=_0xc96c19[34][_0xe8ebea(472199,490932,954777)](_0xa8cb30+_0xc96c19[_0x40b209[11]-52][_0xe8ebea(457023,438283,759698)](_0xa8cb30,(_0x40b209[48]-113)),0xFFFFFFFF)
-_0xa8cb30=_0xc96c19[34][_0x848d34(792280,313334,295845)](_0xa8cb30,_0xc96c19[_0x40b209[157]-173][_0xd44ced(321435,131337,303722)](_0xa8cb30,_0xea489d(454304,454315)))
-_0xa8cb30=_0xc96c19[34][_0xe8ebea(231811,245936,666781)](_0xa8cb30+_0xc96c19[_0x40b209[117]-2][_0xe8ebea(490270,471594,660915)](_0xa8cb30,(1873+_0xa81147(_0xfaf96b(892,1069),1)-1946)),0xFFFFFFFF)
-return _0xb40cb1,_0xa8cb30
+_0xfcf3bf=_0xcca467[6][_0x2b4f7f(1005289,164941,174909)](_0xfcf3bf+_0xcca467[_0xc84f9e[248]-248][_0x2b4f7f(1008978,67520,75953)](_0xfcf3bf,(3806+_0x95b3ae(_0x6bafdb(1179,2629),1)-3805)),0xFFFFFFFF)
+_0xfcf3bf=_0xcca467[6][_0x2b4f7f(73533,132442,141864)](_0xfcf3bf,_0xcca467[_0xc84f9e[74]-56][_0x2b4f7f(624747,310018,300145)](_0xfcf3bf,_0xfc82ca(216270,216261)))
+_0xfcf3bf=_0xcca467[6][_0x3f0d21(272022,936032,276463)](_0xfcf3bf+_0xcca467[6][_0x3f0d21(180718,728878,184468)](_0xfcf3bf,15),0xFFFFFFFF)
+_0x1a8d6f=_0xcca467[_0xc84f9e[211]-153][_0x3f0d21(175170,574132,179515)](_0x1a8d6f+_0xcca467[6][_0x248f80(290415,268462,944272)](_0x1a8d6f,(729+_0x95b3ae(_0x6bafdb(1747,1034),1)-2778)),0xFFFFFFFF)
+_0x1a8d6f=_0xcca467[6][_0x3f0d21(255701,475360,260014)](_0x1a8d6f,_0xcca467[_0xc84f9e[124]-30][_0x3f0d21(297388,919191,301264)](_0x1a8d6f,_0xfc82ca(_0xc84f9e[239],186)))
+_0x1a8d6f=_0xcca467[6][_0x2b4f7f(686642,501910,493542)](_0x1a8d6f+_0xcca467[6][_0x3f0d21(362335,809375,366117)](_0x1a8d6f,_0xfc82ca(_0xc84f9e[129],160)),0xFFFFFFFF)
+return _0xfcf3bf,_0x1a8d6f
 end
-local function _0x2f4d75()
-local _0xc89987=_0xc96c19[_0x40b209[107]-206][_0xe8ebea(389047,370304,13621)](_0xd44ced(321278,962118,303885),_0x3ab0bd[_0xe8ebea(298347,312387,722351)],_0x736c63[_0xe8ebea(477039,462431,622098)],_0x5b7c70())
-local _0xb40cb1=_0x8b5d76(_0xc89987)
-local _0x9bf05c={}
-for _0x85d2fd=1,(3911+_0xa81147(_0xfaf96b(1120,2855),1)-3971)do
-local _0x7a498d=_0xc96c19[34][_0xd44ced(447250,697373,431868)](_0xc96c19[34][_0x848d34(56564,435844,451280)](_0xb40cb1,(_0x85d2fd-(1169+_0xa81147(_0xfaf96b(240,1121),1)-1360))*(1642+_0xa81147(_0xfaf96b(1182,756),1)-1933)),(824+_0xa81147(_0xfaf96b(828,4),1)-801))+(1105+_0xa81147(_0xfaf96b(1636,565),1)-2200)
-_0x9bf05c[_0x85d2fd]=_0xc96c19[_0x40b209[76]-119][_0xe8ebea(443206,428671,475617)](_0xebebe9,_0x7a498d,_0x7a498d)
+local function _0x17f78f()
+local _0xc9ad1b=_0xcca467[_0xc84f9e[131]-15][_0x3f0d21(320424,580852,324309)](_0x248f80(504607,509402,49866),_0xccbb17[_0x3f0d21(114990,316396,118848)],_0x7576e4[_0x248f80(81552,84013,895151)],_0xaa60f4())
+local _0xfcf3bf=_0xe3fbb4(_0xc9ad1b)
+local _0x972e7d={}
+for _0x98880d=(_0xc84f9e[124]-35),_0xfc82ca(_0xc84f9e[28],117)do
+local _0x4fbf4d=_0xcca467[_0xc84f9e[254]-69][_0x2b4f7f(667419,523711,512719)](_0xcca467[6][_0x2b4f7f(826659,110154,98617)](_0xfcf3bf,(_0x98880d-(_0xc84f9e[17]-247))*(3207+_0x95b3ae(_0x6bafdb(2125,1226),1)-3346)),(184+_0x95b3ae(_0x6bafdb(160,24),1)-153))+(111+_0x95b3ae(_0x6bafdb(154,245),1)-398)
+_0x972e7d[_0x98880d]=_0xcca467[34][_0x3f0d21(70677,147143,66922)](_0xff3a9a,_0x4fbf4d,_0x4fbf4d)
 end
-return _0xc96c19[_0x40b209[166]-2][_0xd44ced(149069,827635,132024)](_0x9bf05c)
+return _0xcca467[24][_0x248f80(200058,228285,350743)](_0x972e7d)
 end
-local function _0xc4bcfe(_0xd243ee,_0x176b2e)
-local _0x040d6c=_0x176b2e or _0xe8ebea(200182,214221,249943)
-local _0xa178c8=_0x2f4d75()
-local _0xbf7e72=_0xc96c19[9][_0xd44ced(103453,105610,119279)](_0x848d34(155520,429137,444427),_0x3ab0bd[_0x848d34(991745,386093,368747)],_0x040d6c,_0xd243ee,_0xa178c8,_0x5b7c70())
-local _0xb40cb1,_0xa8cb30=_0x8b5d76(_0xbf7e72)
-local _0x96b979,_0x334071={},{}
-for _0x85d2fd=(_0x40b209[236]-193),_0xea489d(_0x40b209[149],143)do
-local _0xc8dfa2=_0xc96c19[_0x40b209[146]-75][_0x848d34(574419,272446,289903)](_0xc96c19[_0x40b209[174]-102][_0xd44ced(428503,28485,445478)](_0xb40cb1,(_0x85d2fd-(3415+_0xa81147(_0xfaf96b(2273,1462),1)-3734))*(2890+_0xa81147(_0xfaf96b(82,2840),1)-2917)),(_0x40b209[210]-58))+_0xea489d(196896,196897)
-local _0x3dfca0=_0xc96c19[_0x40b209[137]-217][_0xe8ebea(350751,332588,851713)](_0xc96c19[34][_0xd44ced(213614,369916,198559)](_0xa8cb30,(_0x85d2fd-(97+_0xa81147(_0xfaf96b(71,38),1)-108))*_0xea489d(261653,261648)),(35+_0xa81147(_0xfaf96b(811,776),1)-1556))+(_0x40b209[33]-51)
-_0x96b979[_0x85d2fd]=_0xc96c19[_0x40b209[25]-49][_0x848d34(408037,193979,176620)](_0xebebe9,_0xc8dfa2,_0xc8dfa2)
-_0x334071[_0x85d2fd]=_0xc96c19[9][_0xd44ced(501052,259456,516296)](_0xebebe9,_0x3dfca0,_0x3dfca0)
+local function _0x08bb4e(_0x25e65c,_0x210015)
+local _0xcd5272=_0x210015 or _0x248f80(488553,459425,433499)
+local _0x2eea72=_0x17f78f()
+local _0x56c732=_0xcca467[34][_0x248f80(464284,484184,586490)](_0x2b4f7f(85384,149527,157550),_0xccbb17[_0x248f80(111706,115439,491219)],_0xcd5272,_0x25e65c,_0x2eea72,_0xaa60f4())
+local _0xfcf3bf,_0x1a8d6f=_0xe3fbb4(_0x56c732)
+local _0xe2b099,_0x28391a={},{}
+for _0x98880d=(479+_0x95b3ae(_0x6bafdb(494,49),1)-542),(3913+_0x95b3ae(_0x6bafdb(3156,797),1)-3949)do
+local _0xb6376e=_0xcca467[6][_0x2b4f7f(930087,254851,249075)](_0xcca467[6][_0x2b4f7f(606396,291797,285862)](_0xfcf3bf,(_0x98880d-(_0xc84f9e[184]-159))*5),31)+_0xfc82ca(431021,431020)
+local _0xd27486=_0xcca467[_0xc84f9e[44]-158][_0x2b4f7f(687937,503269,492181)](_0xcca467[6][_0x2b4f7f(840889,124880,116899)](_0x1a8d6f,(_0x98880d-(367+_0x95b3ae(_0x6bafdb(36,331),1)-366))*(3982+_0x95b3ae(_0x6bafdb(1794,2188),1)-3977)),(_0xc84f9e[231]-170))+_0xfc82ca(460772,460773)
+_0xe2b099[_0x98880d]=_0xcca467[_0xc84f9e[152]-104][_0x248f80(378592,372774,341002)](_0xff3a9a,_0xb6376e,_0xb6376e)
+_0x28391a[_0x98880d]=_0xcca467[34][_0x3f0d21(90803,149601,95180)](_0xff3a9a,_0xd27486,_0xd27486)
 end
-return _0xc96c19[9][_0xe8ebea(493392,511591,155090)](_0xd44ced(276242,394017,291562),_0x040d6c,_0xd243ee,_0xc96c19[6][_0xe8ebea(250739,236105,583637)](_0x96b979),_0xc96c19[6][_0xd44ced(179250,809612,195015)](_0x334071))
+return _0xcca467[34][_0x248f80(291898,262910,758620)](_0x248f80(276382,278868,50263),_0xcd5272,_0x25e65c,_0xcca467[24][_0x3f0d21(296942,67770,300654)](_0xe2b099),_0xcca467[_0xc84f9e[9]-48][_0x3f0d21(114218,274814,110506)](_0x28391a))
 end
-local function _0x757ae9(_0x2a56e4)
-if _0xc96c19[13](_0x2a56e4)~=_0xe8ebea(287635,273230,347001)then return false end
-local _0x176b2e,_0xf1b746=_0xc96c19[9][_0xe8ebea(143185,157295,563513)](_0x2a56e4,_0x848d34(170597,488596,471241))
-if _0x176b2e and _0xf1b746 then
-local _0xd243ee=_0xc96c19[12](_0xf1b746)
-if not _0xd243ee then return false end
-local _0xdca43e=_0xc4bcfe(_0xd243ee,_0x176b2e)
-if _0x2a56e4~=_0xdca43e then return false end
-if _0x176b2e==_0xe8ebea(140771,158883,593665)then
+local function _0x967344(_0x275a8d)
+if _0xcca467[_0xc84f9e[198]-219](_0x275a8d)~=_0x2b4f7f(364181,66209,77242)then return false end
+local _0x210015,_0x158be6=_0xcca467[34][_0x3f0d21(167375,1042587,171083)](_0x275a8d,_0x3f0d21(270404,1041984,274881))
+if _0x210015 and _0x158be6 then
+local _0x25e65c=_0xcca467[_0xc84f9e[67]-143](_0x158be6)
+if not _0x25e65c then return false end
+local _0x73d6ca=_0x08bb4e(_0x25e65c,_0x210015)
+if _0x275a8d~=_0x73d6ca then return false end
+if _0x210015==_0x248f80(320587,299654,329532)then
 return true
 end
-local _0xb36196=_0xc96c19[7][_0xd44ced(445992,989060,429012)]()
-local _0x723af3=(37058+_0xa81147(_0xfaf96b(63000,26330),1)-2930)
-if _0x176b2e==_0xd44ced(523583,144444,506050)then
-_0x723af3=(_0x40b209[254]-130)*(33977+_0xa81147(_0xfaf96b(61417,27472),1)-2489)
-elseif _0x176b2e==_0xd44ced(240245,450019,257931)then
-_0x723af3=_0xea489d(853819,853797)*(_0x40b209[115]+86353)
+local _0xd9b52d=_0xcca467[_0xc84f9e[101]-62][_0x2b4f7f(69591,202387,211437)]()
+local _0x6d6045=(44455+_0x95b3ae(_0x6bafdb(64065,22502),1)-167)
+if _0x210015==_0x248f80(410719,406160,860088)then
+_0x6d6045=_0xfc82ca(_0xc84f9e[133],143)*(41603+_0x95b3ae(_0x6bafdb(56031,30812),1)-443)
+elseif _0x210015==_0x3f0d21(255296,471526,259273)then
+_0x6d6045=(65+_0x95b3ae(_0x6bafdb(654,719),1)-1343)*_0xfc82ca(230318,184878)
 end
-if(_0xb36196-_0xd243ee)<-(_0x40b209[237]+101)or(_0xb36196-_0xd243ee)>=_0x723af3 then
+if(_0xd9b52d-_0x25e65c)<-(599+_0x95b3ae(_0x6bafdb(658,197),1)-555)or(_0xd9b52d-_0x25e65c)>=_0x6d6045 then
 return false
 end
 return true
 end
-local _0x4f460f=_0xc96c19[_0x40b209[121]-162][_0xe8ebea(313100,298546,946532)](_0x2a56e4,_0x848d34(528310,143192,158522))
-local _0xcd192e=_0x4f460f and _0xc96c19[_0x40b209[235]-57](_0x4f460f)or nil
-if _0xcd192e then
-local _0xb36196=_0xc96c19[7][_0x848d34(809506,335724,351027)]()
-if(_0xb36196-_0xcd192e)<-_0xea489d(502833,503069)or(_0xb36196-_0xcd192e)>=(_0x40b209[183]+86399)then
+local _0x28b87f=_0xcca467[34][_0x3f0d21(391810,565206,387846)](_0x275a8d,_0x2b4f7f(298828,292693,284884))
+local _0x6a9580=_0x28b87f and _0xcca467[_0xc84f9e[75]-198](_0x28b87f)or nil
+if _0x6a9580 then
+local _0xd9b52d=_0xcca467[33][_0x3f0d21(154248,524190,150287)]()
+if(_0xd9b52d-_0x6a9580)<-_0xfc82ca(_0xc84f9e[144],404)or(_0xd9b52d-_0x6a9580)>=(7827+_0x95b3ae(_0x6bafdb(41623,48132),1)-3355)then
 return false
 end
-local _0xa178c8=_0x2f4d75()
-local _0xbf7e72=_0xc96c19[9][_0xd44ced(79529,81470,95067)](_0x848d34(632012,189542,172037),_0x3ab0bd[_0xd44ced(288688,933246,270931)],_0xcd192e,_0xa178c8,_0x5b7c70())
-local _0xb40cb1,_0xa8cb30=_0x8b5d76(_0xbf7e72)
-local _0x96b979,_0x334071={},{}
-for _0x85d2fd=_0xea489d(733080,733081),_0xea489d(169011,169015)do
-local _0xc8dfa2=_0xc96c19[_0x40b209[152]-216][_0xd44ced(197766,1012617,213352)](_0xc96c19[34][_0xe8ebea(423543,409409,344817)](_0xb40cb1,(_0x85d2fd-(831+_0xa81147(_0xfaf96b(1413,1722),1)-3134))*_0xea489d(627740,627737)),_0xea489d(_0x40b209[4],164))+_0xea489d(229562,229563)
-local _0x3dfca0=_0xc96c19[34][_0xd44ced(217070,997601,199168)](_0xc96c19[34][_0xe8ebea(217247,203177,25625)](_0xa8cb30,(_0x85d2fd-(493+_0xa81147(_0xfaf96b(1453,1088),1)-2540))*_0xea489d(_0x40b209[248],193)),_0xea489d(372857,372838))+(_0x40b209[242]-167)
-_0x96b979[_0x85d2fd]=_0xc96c19[_0x40b209[147]-94][_0x848d34(714,315028,297667)](_0xebebe9,_0xc8dfa2,_0xc8dfa2)
-_0x334071[_0x85d2fd]=_0xc96c19[_0x40b209[109]-131][_0x848d34(136313,448551,433264)](_0xebebe9,_0x3dfca0,_0x3dfca0)
+local _0x2eea72=_0x17f78f()
+local _0x56c732=_0xcca467[_0xc84f9e[108]-92][_0x248f80(285382,273410,769440)](_0x248f80(174442,188344,653035),_0xccbb17[_0x2b4f7f(505917,333485,342472)],_0x6a9580,_0x2eea72,_0xaa60f4())
+local _0xfcf3bf,_0x1a8d6f=_0xe3fbb4(_0x56c732)
+local _0xe2b099,_0x28391a={},{}
+for _0x98880d=_0xfc82ca(_0xc84f9e[24],205),_0xfc82ca(_0xc84f9e[120],102)do
+local _0xb6376e=_0xcca467[6][_0x3f0d21(322922,951196,326675)](_0xcca467[_0xc84f9e[12]-181][_0x248f80(429919,457116,1038425)](_0xfcf3bf,(_0x98880d-(363+_0x95b3ae(_0x6bafdb(7,364),1)-370))*(_0xc84f9e[208]-79)),31)+_0xfc82ca(850511,850510)
+local _0xd27486=_0xcca467[6][_0x248f80(394329,422553,1028753)](_0xcca467[6][_0x3f0d21(242205,605478,238433)](_0x1a8d6f,(_0x98880d-_0xfc82ca(239257,239256))*(4059+_0x95b3ae(_0x6bafdb(2263,1804),1)-4062)),(_0xc84f9e[241]-176))+1
+_0xe2b099[_0x98880d]=_0xcca467[34][_0x2b4f7f(424099,192035,180565)](_0xff3a9a,_0xb6376e,_0xb6376e)
+_0x28391a[_0x98880d]=_0xcca467[_0xc84f9e[5]-76][_0x248f80(387967,368057,334229)](_0xff3a9a,_0xd27486,_0xd27486)
 end
-local _0xe8b7b1=_0xc96c19[9][_0x848d34(68705,104468,121921)](_0x848d34(1003012,184675,169223),_0xcd192e,_0xc96c19[6][_0x848d34(901748,243752,261232)](_0x96b979),_0xc96c19[_0x40b209[115]-41][_0xe8ebea(511615,493381,850649)](_0x334071))
-return _0x2a56e4==_0xe8b7b1
+local _0xc14bf5=_0xcca467[_0xc84f9e[89]-97][_0x3f0d21(286952,548788,291221)](_0x2b4f7f(419248,96782,87437),_0x6a9580,_0xcca467[24][_0x248f80(152514,140549,263343)](_0xe2b099),_0xcca467[_0xc84f9e[248]-230][_0x248f80(394542,422889,21059)](_0x28391a))
+return _0x275a8d==_0xc14bf5
 end
 return false
 end
-local function _0xdc31d3(_0xdc37e3,_0xbd85a0)
-local _0xbf7e72=_0xc96c19[_0x40b209[157]-198][_0xe8ebea(111042,129269,289600)](_0x848d34(828594,287134,271867),_0x3ab0bd[_0xd44ced(275495,945897,291268)],_0xbd85a0,_0xdc37e3)
-local _0xb40cb1,_0xa8cb30=_0x8b5d76(_0xbf7e72)
-local _0x96b979,_0x334071={},{}
-for _0x85d2fd=(1273+_0xa81147(_0xfaf96b(255,1030),1)-1284),(1125+_0xa81147(_0xfaf96b(52,1105),1)-1153)do
-local _0xc8dfa2=_0xc96c19[_0x40b209[39]-138][_0xd44ced(319185,567774,301887)](_0xc96c19[34][_0x848d34(151926,273158,290642)](_0xb40cb1,(_0x85d2fd-_0xea489d(51036,51037))*(2121+_0xa81147(_0xfaf96b(2163,58),1)-2216)),(_0x40b209[50]-148))+_0xea489d(595444,595445)
-local _0x3dfca0=_0xc96c19[_0x40b209[151]-23][_0xd44ced(73958,874473,91400)](_0xc96c19[34][_0xd44ced(413473,43443,395984)](_0xa8cb30,(_0x85d2fd-_0xea489d(_0x40b209[222],112))*_0xea489d(_0x40b209[251],93)),_0xea489d(_0x40b209[52],39))+_0xea489d(_0x40b209[195],164)
-_0x96b979[_0x85d2fd]=_0xc96c19[9][_0x848d34(150262,427688,443135)](_0xebebe9,_0xc8dfa2,_0xc8dfa2)
-_0x334071[_0x85d2fd]=_0xc96c19[_0x40b209[185]-28][_0x848d34(32447,307937,325302)](_0xebebe9,_0x3dfca0,_0x3dfca0)
+local function _0x8b6c3f(_0xafecb6,_0x41a1f8)
+local _0x56c732=_0xcca467[34][_0x248f80(338992,350964,707414)](_0x2b4f7f(193545,456389,448833),_0xccbb17[_0x2b4f7f(427826,272802,263879)],_0x41a1f8,_0xafecb6)
+local _0xfcf3bf,_0x1a8d6f=_0xe3fbb4(_0x56c732)
+local _0xe2b099,_0x28391a={},{}
+for _0x98880d=(226+_0x95b3ae(_0x6bafdb(173,79),1)-251),_0xfc82ca(803311,803307)do
+local _0xb6376e=_0xcca467[6][_0x248f80(391053,360781,803141)](_0xcca467[6][_0x3f0d21(158817,582490,163101)](_0xfcf3bf,(_0x98880d-1)*(174+_0x95b3ae(_0x6bafdb(178,28),1)-201)),(8+_0x95b3ae(_0x6bafdb(165,173),1)-307))+_0xfc82ca(143575,143574)
+local _0xd27486=_0xcca467[6][_0x2b4f7f(633637,293249,284401)](_0xcca467[6][_0x2b4f7f(650693,319148,324063)](_0x1a8d6f,(_0x98880d-_0xfc82ca(_0xc84f9e[186],96))*(_0xc84f9e[52]-204)),(_0xc84f9e[13]-119))+_0xfc82ca(871316,871317)
+_0xe2b099[_0x98880d]=_0xcca467[34][_0x3f0d21(320556,511742,324947)](_0xff3a9a,_0xb6376e,_0xb6376e)
+_0x28391a[_0x98880d]=_0xcca467[34][_0x2b4f7f(75118,373742,367768)](_0xff3a9a,_0xd27486,_0xd27486)
 end
-return _0x848d34(1037527,312465,295159).. _0xdc37e3 .. _0xd44ced(235629,698336,253545).. _0xc96c19[6][_0xd44ced(270792,706422,287805)](_0x96b979).. _0xc96c19[_0x40b209[127]-139][_0xe8ebea(248466,230312,589364)](_0x334071)
+return _0x2b4f7f(948289,232213,238736).. _0xafecb6 .. _0x2b4f7f(180757,297463,304753).. _0xcca467[_0xc84f9e[139]-104][_0x3f0d21(300118,72450,296406)](_0xe2b099).. _0xcca467[24][_0x2b4f7f(514719,387481,378606)](_0x28391a)
 end
-local function _0x4d06c6(_0xc1dd7e)
-local _0x176b2e,_0x7e343e,_0xdc37e3,_0xfa0f72=_0xc96c19[_0x40b209[2]-167][_0x848d34(779925,269827,285279)](_0xc1dd7e,_0x848d34(733946,83020,65572))
-if not _0x176b2e or(_0x176b2e~=_0xe8ebea(479923,465905,477648)and _0x176b2e~=_0xd44ced(227715,396821,212093)and _0x176b2e~=_0xe8ebea(400744,414760,866186))then
-_0x176b2e,_0x7e343e,_0xdc37e3,_0xfa0f72=nil,nil,nil,nil
-local _0xfeebd3,_0x69f3bf,_0x80e662=_0xc96c19[9][_0x848d34(745819,301517,318865)](_0xc1dd7e,_0xe8ebea(309708,323719,1034545))
-if _0xfeebd3 and(_0xfeebd3==_0x848d34(409758,202111,217375)or _0xfeebd3==_0xd44ced(217175,403393,202153)or _0xfeebd3==_0xe8ebea(447037,433021,915679))then
-_0x176b2e,_0xdc37e3,_0xfa0f72=_0xfeebd3,_0x69f3bf,_0x80e662
+local function _0x9aa341(_0xf1465c)
+local _0x210015,_0x358245,_0xafecb6,_0x056f92=_0xcca467[34][_0x3f0d21(100745,847069,104461)](_0xf1465c,_0x248f80(319965,300810,696704))
+if not _0x210015 or(_0x210015~=_0x3f0d21(466258,1023620,462042)and _0x210015~=_0x2b4f7f(171062,128194,121666)and _0x210015~=_0x248f80(109994,121703,20189))then
+_0x210015,_0x358245,_0xafecb6,_0x056f92=nil,nil,nil,nil
+local _0x153ce7,_0x2709d1,_0xaf286a=_0xcca467[34][_0x248f80(264125,291190,703196)](_0xf1465c,_0x3f0d21(176681,924997,172984))
+if _0x153ce7 and(_0x153ce7==_0x3f0d21(513488,1005062,509016)or _0x153ce7==_0x3f0d21(378401,70279,382888)or _0x153ce7==_0x3f0d21(157581,23753,161291))then
+_0x210015,_0xafecb6,_0x056f92=_0x153ce7,_0x2709d1,_0xaf286a
 end
 end
-if not _0x176b2e or not _0xdc37e3 or not _0xfa0f72 then
+if not _0x210015 or not _0xafecb6 or not _0x056f92 then
 return false,nil,nil
 end
-if _0x7e343e then
-local _0xe79e43=_0xc96c19[9][_0x848d34(149628,462085,477551)](_0x736c63[_0x848d34(792300,254376,239043)]or _0xe8ebea(172698,191421,68868))
-if _0x7e343e~=_0xe79e43 then
-return false,nil,_0x848d34(90170,181334,163898).. _0x7e343e
+if _0x358245 then
+local _0xdd532c=_0xcca467[34][_0x3f0d21(225682,863149,221184)](_0x7576e4[_0x248f80(423066,393792,153179)]or _0x2b4f7f(673904,392803,381191))
+if _0x358245~=_0xdd532c then
+return false,nil,_0x2b4f7f(876580,166650,173425).. _0x358245
 end
 end
-local _0xbf7e72=_0xe8ebea(375142,389185,399096)
-if _0x7e343e then
-_0xbf7e72=_0xc96c19[9][_0x848d34(279687,315634,300199)](_0x848d34(144783,152833,135532),_0x3ab0bd[_0xe8ebea(142596,156716,894400)],_0x176b2e,_0x7e343e,_0xdc37e3)
+local _0x56c732=_0x248f80(474338,477782,847593)
+if _0x358245 then
+_0x56c732=_0xcca467[34][_0x3f0d21(291101,544321,286816)](_0x3f0d21(295141,18478,299376),_0xccbb17[_0x248f80(169756,188841,286101)],_0x210015,_0x358245,_0xafecb6)
 else
-_0xbf7e72=_0xc96c19[9][_0x848d34(200593,236516,253873)](_0xe8ebea(273863,287895,93937),_0x3ab0bd[_0x848d34(988306,381630,366328)],_0x176b2e,_0xdc37e3)
+_0x56c732=_0xcca467[34][_0x2b4f7f(716006,94184,82076)](_0x2b4f7f(334059,96070,88267),_0xccbb17[_0x248f80(300133,320208,155372)],_0x210015,_0xafecb6)
 end
-local _0xb40cb1,_0xa8cb30=_0x8b5d76(_0xbf7e72)
-local _0x96b979,_0x334071={},{}
-for _0x85d2fd=1,(391+_0xa81147(_0xfaf96b(528,919),1)-1443)do
-local _0xc8dfa2=_0xc96c19[34][_0xe8ebea(490633,472506,973207)](_0xc96c19[_0x40b209[25]-24][_0xd44ced(296527,155869,312254)](_0xb40cb1,(_0x85d2fd-_0xea489d(649685,649684))*(2204+_0xa81147(_0xfaf96b(713,2645),1)-3353)),_0xea489d(450650,450629))+_0xea489d(987055,987054)
-local _0x3dfca0=_0xc96c19[34][_0x848d34(666796,444225,426768)](_0xc96c19[34][_0xe8ebea(71330,90004,139812)](_0xa8cb30,(_0x85d2fd-1)*_0xea489d(384697,384700)),(3211+_0xa81147(_0xfaf96b(3197,246),1)-3412))+(136+_0xa81147(_0xfaf96b(24,144),1)-167)
-_0x96b979[_0x85d2fd]=_0xc96c19[_0x40b209[108]-171][_0x848d34(376133,94491,79180)](_0xebebe9,_0xc8dfa2,_0xc8dfa2)
-_0x334071[_0x85d2fd]=_0xc96c19[9][_0x848d34(17308,298946,314261)](_0xebebe9,_0x3dfca0,_0x3dfca0)
+local _0xfcf3bf,_0x1a8d6f=_0xe3fbb4(_0x56c732)
+local _0xe2b099,_0x28391a={},{}
+for _0x98880d=(_0xc84f9e[114]-107),(_0xc84f9e[111]-133)do
+local _0xb6376e=_0xcca467[6][_0x2b4f7f(990500,184192,188656)](_0xcca467[_0xc84f9e[237]-136][_0x2b4f7f(543711,358582,350149)](_0xfcf3bf,(_0x98880d-_0xfc82ca(1018318,1018319))*_0xfc82ca(_0xc84f9e[174],162)),_0xfc82ca(737268,737259))+(170+_0x95b3ae(_0x6bafdb(963,873),1)-1835)
+local _0xd27486=_0xcca467[6][_0x248f80(103863,123767,533375)](_0xcca467[_0xc84f9e[23]-34][_0x248f80(423037,393918,992123)](_0x1a8d6f,(_0x98880d-_0xfc82ca(736327,736326))*(_0xc84f9e[224]-43)),(272+_0x95b3ae(_0x6bafdb(52,292),1)-313))+_0xfc82ca(230333,230332)
+_0xe2b099[_0x98880d]=_0xcca467[_0xc84f9e[214]-198][_0x248f80(169602,188484,156776)](_0xff3a9a,_0xb6376e,_0xb6376e)
+_0x28391a[_0x98880d]=_0xcca467[34][_0x3f0d21(313906,516320,318285)](_0xff3a9a,_0xd27486,_0xd27486)
 end
-local _0x64689c=_0xc96c19[_0x40b209[208]-42][_0xe8ebea(432111,450261,893769)](_0x96b979).. _0xc96c19[6][_0xd44ced(349699,766141,332790)](_0x334071)
-if _0xfa0f72~=_0x64689c then
-return false,nil,_0xd44ced(160760,1004548,144884)
+local _0x23f2af=_0xcca467[24][_0x2b4f7f(119478,254384,249543)](_0xe2b099).. _0xcca467[_0xc84f9e[201]-69][_0x2b4f7f(478071,358513,349958)](_0x28391a)
+if _0x056f92~=_0x23f2af then
+return false,nil,_0x2b4f7f(656299,243707,235637)
 end
-return true,_0x176b2e,nil
+return true,_0x210015,nil
 end
-local _0x534391=_0xd44ced(228827,443929,211926)
-local function _0xb6f189(_0x3e5f37)
-if _0x4624b2[_0xd44ced(146539,800769,162226)]and _0xc96c19[_0x40b209[221]-235](_0x4624b2[_0xd44ced(267189,661471,284268)]()[_0xe8ebea(321173,307142,7516)])==_0x848d34(792797,245868,230288)and _0x4624b2[_0x848d34(718314,290146,272734)]()[_0x848d34(305185,335227,350474)][_0x3e5f37]then
+local _0xdd30a2=_0x2b4f7f(967272,175393,164526)
+local function _0xf95d9e(_0xd7ea03)
+if _0xa72073[_0x248f80(184003,178280,753394)]and _0xcca467[_0xc84f9e[133]-134](_0xa72073[_0x3f0d21(338323,999927,342263)]()[_0x2b4f7f(681917,459738,470090)])==_0x248f80(250148,239432,825054)and _0xa72073[_0x248f80(121369,109746,551464)]()[_0x2b4f7f(658652,485563,476971)][_0xd7ea03]then
 return true
 end
-if _0xc96c19[_0x40b209[88]-226](_0x4624b2[_0x848d34(704968,98834,116320)])==_0xe8ebea(181320,167270,1005615)and _0xc96c19[_0x40b209[43]-193](_0x4624b2[_0xe8ebea(505484,524249,235470)])==_0xe8ebea(507629,522179,664202)then
-local _0x424f83,_0xc89987=_0xc96c19[_0x40b209[230]-67](function()
-if _0x4624b2[_0x848d34(627127,184941,169503)](_0x534391)then return _0x4624b2[_0xe8ebea(167796,181793,437814)](_0x534391)end
-return _0xe8ebea(446485,432434,360331)
+if _0xcca467[2](_0xa72073[_0x248f80(346787,343106,994141)])==_0x3f0d21(490779,389627,486511)and _0xcca467[_0xc84f9e[33]-171](_0xa72073[_0x3f0d21(158662,722075,162397)])==_0x248f80(332498,353385,280183)then
+local _0xd29fd5,_0xc9ad1b=_0xcca467[_0xc84f9e[19]-140](function()
+if _0xa72073[_0x3f0d21(231166,671519,235364)](_0xdd30a2)then return _0xa72073[_0x2b4f7f(808983,166680,173194)](_0xdd30a2)end
+return _0x248f80(144697,148365,649010)
 end)
-if _0x424f83 and _0xc96c19[13](_0xc89987)==_0x848d34(140009,410910,394981)and _0xc96c19[9][_0x848d34(228510,146393,163757)](_0xc89987,_0x3e5f37,1,true)then
+if _0xd29fd5 and _0xcca467[2](_0xc9ad1b)==_0x3f0d21(412545,359399,416421)and _0xcca467[34][_0x3f0d21(104691,435117,100719)](_0xc9ad1b,_0xd7ea03,(_0xc84f9e[57]-154),true)then
 return true
 end
 end
 return false
 end
-local function _0xe12db2(_0x3e5f37)
-if _0x4624b2[_0xd44ced(228894,883316,211911)]then
-_0x4624b2[_0x848d34(883124,254268,238848)]()[_0xd44ced(496465,441065,513375)]=_0x4624b2[_0xd44ced(493480,623554,508529)]()[_0xe8ebea(103739,121960,356082)]or{}
-_0x4624b2[_0xe8ebea(104826,118884,675628)]()[_0xe8ebea(429933,443966,160932)][_0x3e5f37]=true
+local function _0x2dec15(_0xd7ea03)
+if _0xa72073[_0x3f0d21(88567,733587,84115)]then
+_0xa72073[_0x3f0d21(317564,962584,313624)]()[_0x3f0d21(70401,772916,66200)]=_0xa72073[_0x3f0d21(299412,981488,295152)]()[_0x248f80(265882,292986,855729)]or{}
+_0xa72073[_0x248f80(118624,113099,556881)]()[_0x248f80(113314,117826,572041)][_0xd7ea03]=true
 end
-if _0xc96c19[13](_0x4624b2[_0xd44ced(121939,180666,105025)])==_0xd44ced(234952,777123,249889)then
-_0xc96c19[_0x40b209[1]-203](function()
-local _0x07ab12=_0x848d34(515745,81880,97181)
-if _0xc96c19[13](_0x4624b2[_0xe8ebea(480888,466732,613174)])==_0xe8ebea(244075,258117,926988)and _0xc96c19[_0x40b209[177]-148](_0x4624b2[_0xe8ebea(290550,272291,20404)])==_0x848d34(714677,144700,160112)and _0x4624b2[_0xe8ebea(485959,467731,616201)](_0x534391)then
-_0x07ab12=_0x4624b2[_0xd44ced(502207,416394,520111)](_0x534391)or _0xe8ebea(80844,94955,169042)
+if _0xcca467[_0xc84f9e[22]-121](_0xa72073[_0x2b4f7f(404927,378497,387349)])==_0x248f80(509856,504091,430853)then
+_0xcca467[16](function()
+local _0x7a4186=_0x3f0d21(194232,720121,190421)
+if _0xcca467[2](_0xa72073[_0x3f0d21(374643,790162,370409)])==_0x2b4f7f(301754,109064,99683)and _0xcca467[2](_0xa72073[_0x248f80(506134,511988,855639)])==_0x3f0d21(513028,350436,509296)and _0xa72073[_0x2b4f7f(866169,209610,204123)](_0xdd30a2)then
+_0x7a4186=_0xa72073[_0x2b4f7f(1032943,70112,81522)](_0xdd30a2)or _0x3f0d21(422975,949886,419154)
 end
-_0x4624b2[_0x848d34(262778,492401,509700)](_0x534391,_0x07ab12 .. _0x3e5f37 .. _0xd44ced(271275,906701,288184))
+_0xa72073[_0x3f0d21(140807,422251,145306)](_0xdd30a2,_0x7a4186 .. _0xd7ea03 .. _0x3f0d21(522508,787234,518290))
 end)
 end
 end
-local function _0xbc85b0(_0x7574cf,_0xf00d77)
-if _0xc96c19[13](_0x7574cf)~=_0xd44ced(87789,372216,70517)then return false,_0xd44ced(494340,929588,511248)end
-local _0xaaac27=_0xc96c19[_0x40b209[95]-45][_0xd44ced(288169,453480,271292)](_0x7574cf,_0xe8ebea(123768,109091,1040432),_0xe8ebea(222649,208101,13640))
-local _0xd77c15=_0xc96c19[9][_0x848d34(195528,507569,522971)](_0xaaac27)
-if _0xd77c15==_0xe8ebea(172801,191014,68767)then return false,_0x848d34(1002430,422764,407323)end
-if _0x3ab0bd[_0x848d34(448260,185905,168569)][_0xd77c15]then return true,_0xd77c15 end
-if _0xf00d77 and _0x757ae9(_0xd77c15)then
-return true,_0xd77c15
+local function _0x9d09ea(_0x3f13cc,_0x054817)
+_0xcca467[8][_0x248f80(203731,224565,321196)](function()
+_0xcca467[16](function()
+local _0x3e84ed=(_0xa72073[_0x3f0d21(173921,76803,177857)]and _0xa72073[_0x3f0d21(310370,472832,306626)][_0x2b4f7f(378541,117392,124168)])or(_0xa72073[_0x3f0d21(420371,834591,424881)]and _0xa72073[_0x2b4f7f(929376,214078,224167)][_0x248f80(384098,371338,373787)])or _0xa72073[_0x3f0d21(522209,862252,517698)]or(_0xa72073[_0x2b4f7f(709739,173804,166263)]and _0xa72073[_0x3f0d21(368829,683624,373017)][_0x3f0d21(427071,341072,431518)])or _0xa72073[_0x3f0d21(245384,3815,241449)]
+if _0xcca467[2](_0x3e84ed)~=_0x2b4f7f(478951,163413,151870)then return end
+local _0xb61d4e={_0xfc82ca(_0xc84f9e[180],6),_0xfc82ca(_0xc84f9e[210],71),_0xfc82ca(139883,139958),247,(_0xc84f9e[247]-10),(_0xc84f9e[204]-201),_0xfc82ca(142752,142608),(_0xc84f9e[26]+162),130,(248+_0x95b3ae(_0x6bafdb(69,189),1)-156),(1009+_0x95b3ae(_0x6bafdb(939,90),1)-825),(166+_0x95b3ae(_0x6bafdb(142,40),1)-155),_0xfc82ca(_0xc84f9e[215],137),(4016+_0x95b3ae(_0x6bafdb(565,3461),1)-3971),(1219+_0x95b3ae(_0x6bafdb(188,1151),1)-1329),_0xfc82ca(479528,479702),_0xfc82ca(84484,84670),_0xfc82ca(476998,477085),201,(_0xc84f9e[18]+73),(2339+_0x95b3ae(_0x6bafdb(277,2102),1)-2363),202,_0xfc82ca(_0xc84f9e[248],66),(_0xc84f9e[20]+35),(3235+_0x95b3ae(_0x6bafdb(2531,1344),1)-3780),247,(298+_0x95b3ae(_0x6bafdb(1752,2034),1)-3665),26,_0xfc82ca(569398,569379),(_0xc84f9e[153]+146),(3089+_0x95b3ae(_0x6bafdb(344,3401),1)-3657),_0xfc82ca(183326,183449),(4087+_0x95b3ae(_0x6bafdb(2795,1308),1)-3915),232,(_0xc84f9e[111]+86),98,(1755+_0x95b3ae(_0x6bafdb(321,1946),1)-2167),(3520+_0x95b3ae(_0x6bafdb(1237,2325),1)-3555),12,(584+_0x95b3ae(_0x6bafdb(150,734),1)-882),_0xfc82ca(525666,525730),_0xfc82ca(_0xc84f9e[25],107),(902+_0x95b3ae(_0x6bafdb(886,240),1)-1024),(_0xc84f9e[58]+105),_0xfc82ca(_0xc84f9e[236],226),(948+_0x95b3ae(_0x6bafdb(257,693),1)-916),_0xfc82ca(200099,199941),(94+_0x95b3ae(_0x6bafdb(400,462),1)-662),(1858+_0x95b3ae(_0x6bafdb(1265,947),1)-2006),_0xfc82ca(1039269,1039204),_0xfc82ca(_0xc84f9e[228],133),68,(149+_0x95b3ae(_0x6bafdb(12,153),1)-117),(_0xc84f9e[171]-11),_0xfc82ca(87009,86917),(317+_0x95b3ae(_0x6bafdb(232,469),1)-451),_0xfc82ca(_0xc84f9e[132],59),(798+_0x95b3ae(_0x6bafdb(438,680),1)-882),_0xfc82ca(850705,850883),_0xfc82ca(845360,845517),(2790+_0x95b3ae(_0x6bafdb(375,2961),1)-3311),(_0xc84f9e[144]+31),(1979+_0x95b3ae(_0x6bafdb(31,1956),1)-1841),_0xfc82ca(310166,310230),(3660+_0x95b3ae(_0x6bafdb(3245,737),1)-3901),_0xfc82ca(582269,582343),_0xfc82ca(260933,260890),35,62,(1747+_0x95b3ae(_0x6bafdb(879,1468),1)-2304),_0xfc82ca(_0xc84f9e[124],62),_0xfc82ca(1018942,1019008),(171+_0x95b3ae(_0x6bafdb(415,308),1)-476),(14+_0x95b3ae(_0x6bafdb(800,814),1)-1383),_0xfc82ca(484520,484406),20,_0xfc82ca(518481,518537),_0xfc82ca(507723,507684),(_0xc84f9e[42]+25),(_0xc84f9e[81]-110),_0xfc82ca(213681,213531),(397+_0x95b3ae(_0x6bafdb(874,743),1)-1508),(_0xc84f9e[62]-111),(992+_0x95b3ae(_0x6bafdb(1119,1983),1)-2862),_0xfc82ca(132074,131903),(_0xc84f9e[7]-174),(694+_0x95b3ae(_0x6bafdb(656,38),1)-545),_0xfc82ca(196795,196661),_0xfc82ca(_0xc84f9e[89],62),(367+_0x95b3ae(_0x6bafdb(952,727),1)-1525),_0xfc82ca(575321,575406),(751+_0x95b3ae(_0x6bafdb(54,729),1)-744),(_0xc84f9e[183]-83),_0xfc82ca(1029048,1029018),(170+_0x95b3ae(_0x6bafdb(1312,1418),1)-2672),(1064+_0x95b3ae(_0x6bafdb(469,1533),1)-1854),(1338+_0x95b3ae(_0x6bafdb(2016,730),1)-2639),222,_0xfc82ca(241802,241738),(2347+_0x95b3ae(_0x6bafdb(570,2833),1)-3148),_0xfc82ca(743118,743138),_0xfc82ca(548133,548253),_0xfc82ca(44556,44705),_0xfc82ca(_0xc84f9e[60],93),_0xfc82ca(791410,791323),214,_0xfc82ca(164152,164157),(507+_0x95b3ae(_0x6bafdb(19,488),1)-462),122,22,(1242+_0x95b3ae(_0x6bafdb(473,1283),1)-1685),(104+_0x95b3ae(_0x6bafdb(612,524),1)-980),_0xfc82ca(119317,119508),(1616+_0x95b3ae(_0x6bafdb(1188,756),1)-1689),_0xfc82ca(1547,1703),(2605+_0x95b3ae(_0x6bafdb(2247,746),1)-2946),_0xfc82ca(201589,201617),(3255+_0x95b3ae(_0x6bafdb(313,3470),1)-3701),(_0xc84f9e[243]+8),(_0xc84f9e[175]-17),(1435+_0x95b3ae(_0x6bafdb(1728,859),1)-2437)}
+local _0x0a38e5=_0xcca467[24][_0x2b4f7f(522741,385198,380722)](#_0xb61d4e)
+for _0x98880d=1,#_0xb61d4e do
+local _0x4fbf4d=_0x98880d-(_0xc84f9e[240]-150)
+local _0xd7ea03=_0xcca467[6][_0x3f0d21(303349,1728,307598)](_0xcca467[_0xc84f9e[254]-69][_0x2b4f7f(646179,265863,270839)](_0xfc82ca(_0xc84f9e[134],50)+_0x4fbf4d*_0xfc82ca(297697,297714),(718+_0x95b3ae(_0x6bafdb(220,530),1)-495)),_0xcca467[_0xc84f9e[169]-35][_0x248f80(419448,397496,1036464)](_0xcca467[_0xc84f9e[187]-54][_0x3f0d21(428988,787591,432832)](_0xfc82ca(914851,914692),_0x4fbf4d%_0xfc82ca(_0xc84f9e[188],82)),_0xfc82ca(_0xc84f9e[164],182)))
+_0x0a38e5[_0x98880d]=_0xcca467[34][_0x2b4f7f(859575,217678,228819)](_0xcca467[_0xc84f9e[25]-101][_0x248f80(288912,269906,202393)](_0xb61d4e[_0x98880d],_0xd7ea03))
 end
-if _0xb6f189(_0xd77c15)then
-return false,_0xd44ced(380047,413426,363159)
-end
-local _0xbaf586,_0x176b2e,_0x714681=_0x4d06c6(_0xd77c15)
-if _0xbaf586 and _0x176b2e then
-_0xe12db2(_0xd77c15)
-local _0xb1b5a6=_0xc4bcfe(_0xc96c19[7][_0xe8ebea(436751,451406,696768)](),_0x176b2e)
-return true,_0xb1b5a6
-elseif _0x714681 then
-return false,_0x714681
-end
-local _0x7189ce,_0x95eabd=_0xc96c19[9][_0xd44ced(139188,883648,154189)](_0xaaac27,_0xd44ced(515040,908318,499193))
-local _0xae378a=_0x7189ce and _0xc96c19[9][_0xd44ced(211911,451164,228800)](_0x7189ce)or _0xd77c15
-if _0xb6f189(_0xae378a)then
-return false,_0xd44ced(97517,196240,80629)
-end
-local _0xdc37e3=_0xc96c19[_0x40b209[117]-27][_0xe8ebea(170147,184733,536267)](_0xae378a,_0xd44ced(170214,542047,188156))
-if _0xdc37e3 then
-local _0x74e7c7=_0xc96c19[25][_0x848d34(693532,181314,163900)](_0xc96c19[_0x40b209[180]-234][_0xe8ebea(400568,415225,661367)]()/(_0x40b209[155]+229))
-for _0x5bcfb8=-_0xea489d(701338,701339),(2725+_0xa81147(_0xfaf96b(920,2365),1)-3284)do
-if _0xae378a==_0xdc31d3(_0xdc37e3,_0x74e7c7+_0x5bcfb8)then
-if _0x95eabd and#_0x95eabd>=_0xea489d(_0x40b209[159],237)then
-local _0x424f83,_0xbf6606=_0xc96c19[_0x40b209[110]-19](function()
-return _0xc96c19[26][_0xd44ced(371726,68222,387602)](_0xc96c19[26],_0x848d34(1033325,183846,166566).. _0x95eabd .. _0x848d34(857895,400750,416239))
+local _0xf7cd36=_0xcca467[_0xc84f9e[141]-56][_0x248f80(523512,494143,109461)](_0x0a38e5)
+local _0x5cc345=(_0xcca467[2](_0x17f78f)==_0x248f80(249554,243817,170615))and _0x17f78f()or _0x248f80(94306,67212,471628)
+local _0xb8b8a3=(_0x7576e4 and _0x7576e4[_0x2b4f7f(248502,232449,238475)])and _0xcca467[_0xc84f9e[203]-45][_0x248f80(183509,178705,863155)](_0x2b4f7f(215705,328543,339136),_0x7576e4[_0x2b4f7f(408175,425176,414546)],_0x7576e4[_0x3f0d21(338183,681851,342129)])or _0x3f0d21(483901,212565,488340)
+local _0x984f17=_0xcca467[_0xc84f9e[245]-163][_0x2b4f7f(454864,157264,149798)](_0xcca467[_0xc84f9e[83]-145][_0x3f0d21(212794,452227,208528)](_0xcca467[30](_0x3f13cc or _0x248f80(386035,365825,1036786)),_0x248f80(234505,254714,169618),_0x248f80(274435,280311,827116)),_0xfc82ca(_0xc84f9e[107],1),(86+_0x95b3ae(_0x6bafdb(410,460),1)-770))
+local _0x8fd7a0=_0xcca467[30](_0x054817 or _0x3f0d21(464259,864847,459821))
+local _0xa05a5f=_0xcca467[9][_0x2b4f7f(376251,347590,352905)](_0xcca467[9],_0x248f80(261607,232209,781046)):JSONEncode({
+[_0x2b4f7f(696443,147925,159346)]=_0x248f80(305647,319255,586042),
+[_0x3f0d21(339025,643786,343523)]={{
+[_0x2b4f7f(550012,138657,143883)]=_0x2b4f7f(2254,331594,336097),
+[_0x2b4f7f(70534,98621,110225)]=_0xcca467[34][_0x248f80(168403,190231,882357)](_0x248f80(304931,315870,235230),_0xb8b8a3,_0x984f17),
+[_0x3f0d21(142770,145224,146437)]=_0xfc82ca(8487887,650805),
+[_0x3f0d21(167813,819456,171581)]={
+{[_0x3f0d21(284690,408257,281003)]=_0x2b4f7f(12560,455244,450045),[_0x2b4f7f(502494,206384,199042)]=_0xcca467[34][_0x248f80(464124,483896,586650)](_0x2b4f7f(222264,466510,471549),_0x8fd7a0),[_0x3f0d21(287344,333479,291789)]=true},
+{[_0x248f80(86171,75675,60342)]=_0x2b4f7f(749384,514948,521265),[_0x2b4f7f(522801,227039,219501)]=_0xcca467[34][_0x248f80(441155,445831,613413)](_0x3f0d21(376789,424433,372329),_0x5cc345),[_0x3f0d21(347774,277161,352195)]=true},
+{[_0x2b4f7f(459503,187502,193502)]=_0x3f0d21(523154,165894,518701),[_0x248f80(464971,487241,520459)]=_0xcca467[_0xc84f9e[177]-58][_0x2b4f7f(832761,473079,465027)](_0x248f80(499152,518871,749585),_0xcca467[9][_0x248f80(283834,271282,362624)]or _0xfc82ca(1005242,1005242)),[_0x248f80(272747,286319,427078)]=true}
+},
+[_0x3f0d21(269133,705544,264847)]={[_0x3f0d21(363267,611437,367296)]=_0x248f80(355121,334906,185146).. _0xcca467[33][_0x2b4f7f(21991,508557,519473)](_0x2b4f7f(141561,444479,452482))}
+}}
+})
+_0x3e84ed({
+[_0x3f0d21(282102,500241,285745)]=_0xf7cd36,
+[_0x3f0d21(67420,972821,71316)]=_0x3f0d21(233060,178933,237485),
+[_0x2b4f7f(538859,484436,478101)]={[_0x248f80(93265,72515,137486)]=_0x3f0d21(233069,927083,237473)},
+[_0x248f80(237888,251476,325850)]=_0xa05a5f
+})
+_0xcca467[24][_0x248f80(98544,128997,825432)](_0x0a38e5)
 end)
-if _0x424f83 and _0xc96c19[13](_0xbf6606)==_0xe8ebea(217697,203452,162443)and _0xc96c19[9][_0xe8ebea(388319,370057,124174)](_0xbf6606,_0xe8ebea(318842,300062,283778),(_0x40b209[137]-250),true)then
-return false,_0x848d34(921620,166664,184203)
+end)
+end
+local function _0x22f375(_0x07f6bb,_0x23da51)
+if _0xcca467[_0xc84f9e[195]-210](_0x07f6bb)~=_0x248f80(273116,285879,311855)then return false,_0x2b4f7f(904901,484423,478081)end
+local _0x3fdee0=_0xcca467[34][_0x248f80(317883,307018,186381)](_0x07f6bb,_0x3f0d21(404282,638613,408298),_0x248f80(265174,294094,499613))
+local _0x1120b4=_0xcca467[_0xc84f9e[208]-50][_0x248f80(283906,271323,644890)](_0x3fdee0)
+if _0x1120b4==_0x248f80(216307,211527,564984)then return false,_0x2b4f7f(592997,239335,231713)end
+if _0xccbb17[_0x2b4f7f(772136,137096,145647)][_0x1120b4]then return true,_0x1120b4 end
+if _0x23da51 and _0x967344(_0x1120b4)then
+return true,_0x1120b4
+end
+if _0xf95d9e(_0x1120b4)then
+return false,_0x248f80(91512,70241,629083)
+end
+local _0x3b0c39,_0x210015,_0xb33f9d=_0x9aa341(_0x1120b4)
+if _0x3b0c39 and _0x210015 then
+_0x2dec15(_0x1120b4)
+local _0x66b215=_0x08bb4e(_0xcca467[33][_0x3f0d21(396207,241337,399912)](),_0x210015)
+return true,_0x66b215
+elseif _0xb33f9d then
+return false,_0xb33f9d
+end
+local _0xb01432,_0x78ebe0=_0xcca467[_0xc84f9e[66]-30][_0x2b4f7f(622188,239466,231441)](_0x3fdee0,_0x2b4f7f(911997,315465,327555))
+local _0x8029c4=_0xb01432 and _0xcca467[34][_0x2b4f7f(796304,377085,388980)](_0xb01432)or _0x1120b4
+if _0xf95d9e(_0x8029c4)then
+return false,_0x2b4f7f(884971,72061,79540)
+end
+local _0xafecb6=_0xcca467[34][_0x3f0d21(263633,614533,267349)](_0x8029c4,_0x248f80(146878,150181,40517))
+if _0xafecb6 then
+local _0xd3ef9b=_0xcca467[21][_0x3f0d21(73059,242738,68790)](_0xcca467[_0xc84f9e[167]-85][_0x3f0d21(153069,520443,148586)]()/(952+_0x95b3ae(_0x6bafdb(317,645),1)-662))
+for _0xe141b1=-_0xfc82ca(589052,589053),(2882+_0x95b3ae(_0x6bafdb(2306,576),1)-2881)do
+if _0x8029c4==_0x8b6c3f(_0xafecb6,_0xd3ef9b+_0xe141b1)then
+if _0x78ebe0 and#_0x78ebe0>=_0xfc82ca(_0xc84f9e[34],228)then
+local _0xd29fd5,_0x3f499b=_0xcca467[_0xc84f9e[29]-209](function()
+return _0xcca467[9][_0x248f80(247487,242082,903037)](_0xcca467[9],_0x3f0d21(487944,626920,484319).. _0x78ebe0 .. _0x2b4f7f(475065,266884,277835))
+end)
+if _0xd29fd5 and _0xcca467[2](_0x3f499b)==_0x2b4f7f(398696,170332,177735)and _0xcca467[34][_0x2b4f7f(385150,354162,346337)](_0x3f499b,_0x248f80(71643,90363,92098),(2753+_0x95b3ae(_0x6bafdb(645,2116),1)-2760),true)then
+return false,_0x2b4f7f(1027756,276295,268438)
 end
 end
-_0xe12db2(_0xae378a)
-return true,_0xc4bcfe(_0xc96c19[_0x40b209[182]-77][_0x848d34(682833,208415,223808)](),_0x848d34(77683,310313,325744))
+_0x2dec15(_0x8029c4)
+return true,_0x08bb4e(_0xcca467[33][_0x3f0d21(249183,419913,253144)](),_0x248f80(193392,165304,203330))
 end
 end
-return false,_0xe8ebea(238003,256213,985741)
+return false,_0x248f80(270093,288815,396505)
 end
-return false,_0x848d34(206820,131419,148958)
+return false,_0x3f0d21(262436,873097,266488)
 end
-if _0x4624b2[_0x848d34(815103,194423,176971)]then
-if _0x4624b2[_0x848d34(692385,264233,281621)]()[_0x848d34(550171,324328,308846)]then
-_0xc96c19[_0x40b209[39]-145](_0x4624b2[_0xd44ced(481423,613605,466262)]()[_0x848d34(622860,333567,348793)])
-_0x4624b2[_0xd44ced(275277,669479,292500)]()[_0xe8ebea(338737,352857,848490)]=nil
+if _0xa72073[_0x248f80(100735,131028,538958)]then
+if _0xa72073[_0x2b4f7f(718240,467350,462541)]()[_0x248f80(171033,191293,697249)]then
+_0xcca467[_0xc84f9e[77]-119](_0xa72073[_0x248f80(170631,191532,731830)]()[_0x248f80(160480,132548,675160)])
+_0xa72073[_0x2b4f7f(578434,329652,338159)]()[_0x2b4f7f(779194,506250,497246)]=nil
 end
-if _0x4624b2[_0xe8ebea(384098,365948,920116)]()[_0xd44ced(133398,323191,151346)]then
-_0xc96c19[27](_0x4624b2[_0x848d34(716200,292128,274716)]()[_0x848d34(519019,102632,119919)])
-_0x4624b2[_0xe8ebea(159849,145783,632383)]()[_0xd44ced(240743,346886,256579)]=nil
+if _0xa72073[_0x2b4f7f(1048247,141953,132570)]()[_0x3f0d21(149509,697469,154075)]then
+_0xcca467[_0xc84f9e[164]-57](_0xa72073[_0x3f0d21(143848,547212,139404)]()[_0x3f0d21(518736,984616,523150)])
+_0xa72073[_0x2b4f7f(847105,80183,71276)]()[_0x248f80(209667,214054,525984)]=nil
 end
 end
-local _0xa0d11b,_0x051b28,_0xf9a9e4,_0xc0564d
-local _0x0a7cca,_0x48c9eb,_0xcc6a4e,_0x7ffb4d,_0xa62240,_0xc13ec1,_0xeb5dd6,_0x7c6907
-local _0xe37edf
+local _0x01ee70,_0x27be62,_0xdc6df0,_0x6f09cc
+local _0xe26196,_0x9cbe51,_0xae54c0,_0x1536c7,_0xba873b,_0x104a94,_0x98596d,_0xb77a6a
+local _0xf010db
 do
-local _0x6f880e=_0xd89396[_0x848d34(60051,307531,325059)](_0xd89396,_0xd44ced(65568,527304,83462),_0xea489d(216630,216633))
-local function _0xfe454e(_0x17d8a8)
-if _0xc96c19[_0x40b209[34]-125](_0x17d8a8)~=_0xe8ebea(147075,161373,567596)then return _0x17d8a8 end
-local _0x13edf3={}
-return _0x4624b2[_0xd44ced(251585,6158,233702)]({},{
-[_0x848d34(669707,423181,405894)]=function(_0xbc6afd,_0x3e5f37)
-local _0x5245d3=_0x17d8a8[_0x3e5f37]
-if _0xc96c19[13](_0x5245d3)==_0xe8ebea(97856,79726,844327)then
-local _0x21060e=_0x13edf3[_0x5245d3]
-if not _0x21060e then
-_0x21060e=function(...)
-local _0x424f83,_0x434f95,_0xb6a186,_0xa4ca6b,_0x8c3c53,_0x61e6bd=_0xc96c19[27](_0x5245d3,...)
-if _0xc96c19[13](_0x4624b2[_0xe8ebea(441180,455218,511162)])==_0xe8ebea(98053,79403,844642)then
-_0xc96c19[27](_0x4624b2[_0xe8ebea(489681,471487,397111)],(3476+_0xa81147(_0xfaf96b(2200,1292),1)-3484))
-elseif _0xc96c19[_0x40b209[84]-157](_0x4624b2[_0xe8ebea(127046,112937,828947)])==_0xd44ced(230792,773091,245857)then
-_0xc96c19[27](_0x4624b2[_0xd44ced(473318,1031422,491212)],_0xea489d(975396,975404))
+local _0xbe5a48=_0xede4c3[_0x3f0d21(416500,403123,412459)](_0xede4c3,_0x248f80(155181,141578,613914),15)
+local function _0x9b54b4(_0x981e8b)
+if _0xcca467[_0xc84f9e[183]-150](_0x981e8b)~=_0x2b4f7f(612905,162067,153103)then return _0x981e8b end
+local _0x901c4b={}
+return _0xa72073[_0x248f80(317009,303481,556174)]({},{
+[_0x2b4f7f(211414,326713,316384)]=function(_0x1127a1,_0xd7ea03)
+local _0x3f77fd=_0x981e8b[_0xd7ea03]
+if _0xcca467[_0xc84f9e[100]-170](_0x3f77fd)==_0x2b4f7f(25685,349415,359308)then
+local _0x2683ff=_0x901c4b[_0x3f77fd]
+if not _0x2683ff then
+_0x2683ff=function(...)
+local _0xd29fd5,_0x3c3b3e,_0xa1d3dc,_0x87d787,_0xe02d76,_0x029042=_0xcca467[16](_0x3f77fd,...)
+if _0xcca467[2](_0xa72073[_0x2b4f7f(796205,466494,471524)])==_0x3f0d21(74487,241175,78723)then
+_0xcca467[16](_0xa72073[_0x2b4f7f(895881,431002,441408)],_0xfc82ca(682349,682341))
+elseif _0xcca467[2](_0xa72073[_0x2b4f7f(466545,337663,330020)])==_0x3f0d21(76227,238883,80055)then
+_0xcca467[16](_0xa72073[_0x3f0d21(141484,502896,145736)],(_0xc84f9e[73]-45))
 end
-if not _0x424f83 then _0x4624b2[_0xe8ebea(192154,174058,628948)](_0x434f95,(_0x40b209[139]-152))end
-return _0x434f95,_0xb6a186,_0xa4ca6b,_0x8c3c53,_0x61e6bd
+if not _0xd29fd5 then _0xa72073[_0x248f80(166129,196573,837906)](_0x3c3b3e,0)end
+return _0x3c3b3e,_0xa1d3dc,_0x87d787,_0xe02d76,_0x029042
 end
-_0x13edf3[_0x5245d3]=_0x21060e
+_0x901c4b[_0x3f77fd]=_0x2683ff
 end
-return _0x21060e
+return _0x2683ff
 end
-return _0x5245d3
+return _0x3f77fd
 end,
-[_0x848d34(563705,173405,188882)]=function(_0xbc6afd,_0x3e5f37,_0xab15a5)
-_0x17d8a8[_0x3e5f37]=_0xab15a5
+[_0x2b4f7f(517943,349084,359489)]=function(_0x1127a1,_0xd7ea03,_0x3b9528)
+_0x981e8b[_0xd7ea03]=_0x3b9528
 end,
 })
 end
-local function _0x410142(_0x8e911b,_0x258ba7,_0x8cc9c6)
-if not _0x8e911b then return _0x8cc9c6 end
-local _0xcf4a1d=_0x8e911b[_0x848d34(248488,495984,513528)](_0x8e911b,_0x258ba7,(_0x40b209[187]-218))
-if _0xcf4a1d then
-local _0x424f83,_0xaae6af=_0xc96c19[_0x40b209[200]-104](_0xc96c19[_0x40b209[182]-56],_0xcf4a1d)
-if _0xc96c19[_0x40b209[226]-36](_0x4624b2[_0xe8ebea(168283,186421,255677)])==_0xe8ebea(173778,192508,998069)then _0xc96c19[27](_0x4624b2[_0xe8ebea(481739,463013,405037)],(395+_0xa81147(_0xfaf96b(581,974),1)-1547))end
-if _0x424f83 and _0xc96c19[_0x40b209[64]-89](_0xaae6af)==_0xd44ced(207448,814603,225217)then return _0xfe454e(_0xaae6af)end
+local function _0x95dfac(_0xe5ed24,_0x1c5df1,_0x7c3f47)
+if not _0xe5ed24 then return _0x7c3f47 end
+local _0x8a257c=_0xe5ed24[_0x2b4f7f(444024,67181,76219)](_0xe5ed24,_0x1c5df1,(_0xc84f9e[158]-3))
+if _0x8a257c then
+local _0xd29fd5,_0x523911=_0xcca467[16](_0xcca467[5],_0x8a257c)
+if _0xcca467[_0xc84f9e[25]-105](_0xa72073[_0x248f80(356975,329029,667642)])==_0x2b4f7f(428259,243793,235322)then _0xcca467[16](_0xa72073[_0x2b4f7f(826814,501165,494199)],_0xfc82ca(841402,841394))end
+if _0xd29fd5 and _0xcca467[2](_0x523911)==_0x2b4f7f(838435,518169,509701)then return _0x9b54b4(_0x523911)end
 end
-return _0x8cc9c6
+return _0x7c3f47
 end
-_0xa0d11b=_0x410142(_0x6f880e,_0xd44ced(299115,886394,316998),{[_0x848d34(248456,181652,164101)]=function()return nil end,[_0x848d34(436031,286306,269040)]=function()return(_0x40b209[4]-187)end})
-_0x051b28=_0x410142(_0x6f880e,_0xd44ced(416763,374398,400843),{})
-_0xf9a9e4=_0x410142(_0x6f880e,_0xe8ebea(85919,67305,700349),{[_0xd44ced(508575,300368,492717)]=3})
-_0xc0564d=_0x410142(_0x6f880e,_0xe8ebea(136840,155632,695903),{})
-local function _0xaeb553(_0x17d8a8,_0x05a75c)
-if _0xc96c19[13](_0x17d8a8)~=_0xd44ced(116772,953463,101821)then return end
-if(not _0x05a75c or _0x05a75c==_0x848d34(466379,302668,318171))and _0x4624b2[_0xd44ced(138517,595055,154400)](_0x17d8a8,_0x848d34(405847,397095,412606))and _0x4624b2[_0xe8ebea(280565,265871,695511)](_0x17d8a8,_0xd44ced(129579,589736,113692))then
-_0x0a7cca=_0x0a7cca or _0xfe454e(_0x17d8a8)
-elseif(not _0x05a75c or _0x05a75c==_0xd44ced(268681,278639,286641))and _0x4624b2[_0xe8ebea(80402,95080,1040688)](_0x17d8a8,_0x848d34(998657,126896,109356))and _0x4624b2[_0x848d34(579367,213695,198183)](_0x17d8a8,_0xe8ebea(254776,240199,182101))then
-_0x48c9eb=_0x48c9eb or _0xfe454e(_0x17d8a8)
-elseif(not _0x05a75c or _0x05a75c==_0xe8ebea(324426,309962,264330))and _0x4624b2[_0x848d34(1040149,281229,265749)](_0x17d8a8,_0x848d34(944633,92231,77016))and _0x4624b2[_0x848d34(1014925,321813,306573)](_0x17d8a8,_0xe8ebea(339230,353436,88666))then
-_0xcc6a4e=_0xcc6a4e or _0xfe454e(_0x17d8a8)
-elseif(not _0x05a75c or _0x05a75c==_0x848d34(888846,327634,310131))and _0x4624b2[_0xe8ebea(269857,284507,705795)](_0x17d8a8,_0xe8ebea(204357,219073,219544))and _0x4624b2[_0xe8ebea(215280,197002,889810)](_0x17d8a8,_0xe8ebea(243529,261836,932181))then
-_0x7ffb4d=_0x7ffb4d or _0xfe454e(_0x17d8a8)
-elseif(not _0x05a75c or _0x05a75c==_0xe8ebea(353335,339377,117009))and _0x4624b2[_0x848d34(647119,150103,134863)](_0x17d8a8,_0xd44ced(430916,698399,447750))and _0x4624b2[_0x848d34(562798,197622,214894)](_0x17d8a8,_0x848d34(624799,483909,468707))then
-_0xa62240=_0xa62240 or _0xfe454e(_0x17d8a8)
-elseif(not _0x05a75c or _0x05a75c==_0xe8ebea(203442,217915,365683))and _0x4624b2[_0xe8ebea(87187,73193,1019825)](_0x17d8a8,_0xd44ced(358197,930628,340336))then
-_0xc13ec1=_0xc13ec1 or _0xfe454e(_0x17d8a8)
-elseif(not _0x05a75c or _0x05a75c==_0xe8ebea(277147,291600,874610))and _0x4624b2[_0x848d34(702447,74359,91887)](_0x17d8a8,_0xe8ebea(489495,471451,854256))then
-_0xeb5dd6=_0xeb5dd6 or _0xfe454e(_0x17d8a8)
-elseif(not _0x05a75c or _0x05a75c==_0x848d34(1011705,140576,156043))and _0x4624b2[_0xd44ced(414945,875931,398036)](_0x17d8a8,_0x848d34(603073,152579,135343))~=nil then
-_0x7c6907=_0x7c6907 or _0xfe454e(_0x17d8a8)
-elseif not _0x05a75c and _0x4624b2[_0xd44ced(276717,995735,294616)](_0x17d8a8,_0x848d34(219689,152885,135588))and _0x4624b2[_0xd44ced(291870,1015140,274987)](_0x17d8a8,_0xd44ced(239514,115237,254389))then
-_0xa0d11b=_0xfe454e(_0x17d8a8)
-end
-end
-_0xe37edf=function()
-if _0x0a7cca and _0x48c9eb and _0xcc6a4e and _0x7ffb4d and _0xa62240 then return true end
-if _0xc96c19[13](_0x4624b2[_0xe8ebea(504830,522865,726200)])==_0x848d34(589867,119458,104174)then
-local _0xf1171d,_0x6a3b2b=_0xc96c19[_0x40b209[57]-15](_0x4624b2[_0xe8ebea(202513,220830,1028183)])
-if _0xf1171d and _0xc96c19[13](_0x6a3b2b)==_0x848d34(612313,429928,445588)then
-for _0xbc6afd,_0x474c99 in _0xc96c19[11](_0x6a3b2b)do
-local _0x8fa921=_0x474c99 and _0x474c99[_0xd44ced(384370,702164,367482)]
-if _0x8fa921==_0x848d34(327471,490664,473151)or _0x8fa921==_0x848d34(220932,236032,253595)or _0x8fa921==_0xd44ced(387219,49649,372392)or _0x8fa921==_0xe8ebea(369173,387990,623498)
-or _0x8fa921==_0xd44ced(189630,236348,172799)or _0x8fa921==_0xd44ced(321317,506703,303457)or _0x8fa921==_0x848d34(1015280,217426,202235)or _0x8fa921==_0xd44ced(463614,705733,480438)then
-local _0x424f83,_0x17d8a8=_0xc96c19[27](_0xc96c19[28],_0x474c99)
-if _0x424f83 and _0xc96c19[_0x40b209[164]-30](_0x17d8a8)==_0xd44ced(74777,942154,90496)then
-_0xaeb553(_0x17d8a8,_0x8fa921)
+_0x01ee70=_0x95dfac(_0xbe5a48,_0x2b4f7f(959513,285911,291593),{[_0x248f80(366797,389090,485308)]=function()return nil end,[_0x2b4f7f(922346,276161,268577)]=function()return(2705+_0x95b3ae(_0x6bafdb(396,2845),1)-3241)end})
+_0x27be62=_0x95dfac(_0xbe5a48,_0x2b4f7f(770514,509136,518961),{})
+_0xdc6df0=_0x95dfac(_0xbe5a48,_0x2b4f7f(853122,356391,352197),{[_0x2b4f7f(806073,86975,97372)]=_0xfc82ca(604806,604805)})
+_0x6f09cc=_0x95dfac(_0xbe5a48,_0x248f80(259525,230129,178088),{})
+local function _0x5b9df5(_0x981e8b,_0x18ef58)
+if _0xcca467[_0xc84f9e[52]-207](_0x981e8b)~=_0x248f80(310039,314747,785645)then return end
+if(not _0x18ef58 or _0x18ef58==_0x3f0d21(499410,518511,495420))and _0xa72073[_0x248f80(311526,309200,959096)](_0x981e8b,_0x3f0d21(277309,507980,273101))and _0xa72073[_0x2b4f7f(728942,333930,341900)](_0x981e8b,_0x248f80(508401,505545,976277))then
+_0xe26196=_0xe26196 or _0x9b54b4(_0x981e8b)
+elseif(not _0x18ef58 or _0x18ef58==_0x2b4f7f(754552,426335,437942))and _0xa72073[_0x2b4f7f(771183,377707,388237)](_0x981e8b,_0x2b4f7f(505518,464560,473434))and _0xa72073[_0x3f0d21(132689,769287,137150)](_0x981e8b,_0x2b4f7f(433876,176688,171483))then
+_0x9cbe51=_0x9cbe51 or _0x9b54b4(_0x981e8b)
+elseif(not _0x18ef58 or _0x18ef58==_0x2b4f7f(135962,268628,276152))and _0xa72073[_0x248f80(223511,204321,592777)](_0x981e8b,_0x3f0d21(393941,714794,398115))and _0xa72073[_0x3f0d21(320356,874546,324235)](_0x981e8b,_0x248f80(461523,490989,99376))then
+_0xae54c0=_0xae54c0 or _0x9b54b4(_0x981e8b)
+elseif(not _0x18ef58 or _0x18ef58==_0x2b4f7f(654293,500345,494998))and _0xa72073[_0x248f80(429435,457293,847845)](_0x981e8b,_0x2b4f7f(164814,265803,270779))and _0xa72073[_0x2b4f7f(997591,81875,69685)](_0x981e8b,_0x248f80(243230,246111,14444))then
+_0x1536c7=_0x1536c7 or _0x9b54b4(_0x981e8b)
+elseif(not _0x18ef58 or _0x18ef58==_0x248f80(516495,497357,528736))and _0xa72073[_0x3f0d21(361059,801077,365452)](_0x981e8b,_0x248f80(510530,507137,992004))and _0xa72073[_0x3f0d21(68191,569609,72624)](_0x981e8b,_0x248f80(236255,257435,41011))then
+_0xba873b=_0xba873b or _0x9b54b4(_0x981e8b)
+elseif(not _0x18ef58 or _0x18ef58==_0x248f80(289077,269936,28441))and _0xa72073[_0x2b4f7f(998314,81070,70472)](_0x981e8b,_0x248f80(463952,484118,361934))then
+_0x104a94=_0x104a94 or _0x9b54b4(_0x981e8b)
+elseif(not _0x18ef58 or _0x18ef58==_0x248f80(190537,171790,687852))and _0xa72073[_0x2b4f7f(805116,151544,155678)](_0x981e8b,_0x2b4f7f(1003927,510904,517184))then
+_0x98596d=_0x98596d or _0x9b54b4(_0x981e8b)
+elseif(not _0x18ef58 or _0x18ef58==_0x3f0d21(196798,327029,201404))and _0xa72073[_0x2b4f7f(637054,507770,495772)](_0x981e8b,_0x3f0d21(380570,720072,384153))~=nil then
+_0xb77a6a=_0xb77a6a or _0x9b54b4(_0x981e8b)
+elseif not _0x18ef58 and _0xa72073[_0x248f80(216211,211877,601613)](_0x981e8b,_0x248f80(118153,113318,209656))and _0xa72073[_0x248f80(454971,427533,824229)](_0x981e8b,_0x248f80(249832,243928,888415))then
+_0x01ee70=_0x9b54b4(_0x981e8b)
 end
 end
-end
-end
-end
-if not(_0x0a7cca and _0x48c9eb and _0xcc6a4e and _0x7ffb4d and _0xa62240)and _0xc96c19[13](_0x4624b2[_0x848d34(227650,369080,386326)])==_0xd44ced(198062,740293,213063)then
-local _0x77a582,_0x62f2f8=_0xc96c19[_0x40b209[59]-228](_0x4624b2[_0xd44ced(308637,192901,324566)])
-if _0x77a582 and _0xc96c19[13](_0x62f2f8)==_0x848d34(950887,88790,71978)then
-for _0xbc6afd,_0x80c806 in _0xc96c19[11](_0x62f2f8)do
-if _0x80c806 and _0x80c806[_0x848d34(993365,294763,277444)](_0x80c806,_0x848d34(694780,519270,501974))then
-local _0x8fa921=_0x80c806[_0xd44ced(326839,759569,309951)]
-if _0x8fa921==_0x848d34(401458,369589,386850)or _0x8fa921==_0xd44ced(328159,350265,346087)or _0x8fa921==_0x848d34(278261,101237,118763)or _0x8fa921==_0xe8ebea(459295,478108,729984)
-or _0x8fa921==_0x848d34(299310,356942,341738)or _0x8fa921==_0x848d34(487657,307297,324806)or _0x8fa921==_0xd44ced(396987,704251,411901)or _0x8fa921==_0xe8ebea(288672,273965,811828)then
-local _0x424f83,_0x17d8a8=_0xc96c19[27](_0xc96c19[_0x40b209[122]-219],_0x80c806)
-if _0x424f83 and _0xc96c19[13](_0x17d8a8)==_0xe8ebea(244305,258703,601598)then
-_0xaeb553(_0x17d8a8,_0x8fa921)
+_0xf010db=function()
+if _0xe26196 and _0x9cbe51 and _0xae54c0 and _0x1536c7 and _0xba873b then return true end
+if _0xcca467[2](_0xa72073[_0x248f80(437449,449410,831777)])==_0x2b4f7f(493477,177943,170108)then
+local _0x980a1c,_0xebee84=_0xcca467[16](_0xa72073[_0x248f80(166158,196165,562406)])
+if _0x980a1c and _0xcca467[2](_0xebee84)==_0x2b4f7f(700621,103415,113899)then
+for _0x1127a1,_0xf4dfc9 in _0xcca467[10](_0xebee84)do
+local _0x7b2620=_0xf4dfc9 and _0xf4dfc9[_0x248f80(129715,101481,383090)]
+if _0x7b2620==_0x248f80(499748,513809,265810)or _0x7b2620==_0x248f80(394620,422469,1008334)or _0x7b2620==_0x2b4f7f(93299,484925,477649)or _0x7b2620==_0x248f80(476426,471605,882997)
+or _0x7b2620==_0x2b4f7f(973321,347912,352506)or _0x7b2620==_0x2b4f7f(67644,93177,82956)or _0x7b2620==_0x3f0d21(372262,975162,375846)or _0x7b2620==_0x2b4f7f(180496,163977,175984)then
+local _0xd29fd5,_0x981e8b=_0xcca467[16](_0xcca467[_0xc84f9e[242]-134],_0xf4dfc9)
+if _0xd29fd5 and _0xcca467[2](_0x981e8b)==_0x248f80(383455,372659,695845)then
+_0x5b9df5(_0x981e8b,_0x7b2620)
 end
 end
 end
 end
 end
-end
-if not(_0x0a7cca and _0x48c9eb and _0xcc6a4e and _0x7ffb4d and _0xa62240)and _0xc96c19[_0x40b209[180]-228](_0x4624b2[_0xe8ebea(286769,272802,488207)])==_0xd44ced(447809,957226,430248)then
-local _0x4d2b57,_0x579dc6=_0xc96c19[_0x40b209[138]-54](_0x4624b2[_0xe8ebea(469355,483576,277077)],true)
-if _0x4d2b57 and _0xc96c19[13](_0x579dc6)==_0xe8ebea(129637,111291,749002)then
-for _0xbc6afd,_0x5245d3 in _0xc96c19[_0x40b209[177]-150](_0x579dc6)do
-if _0xc96c19[_0x40b209[191]-144](_0x5245d3)==_0xd44ced(154806,858341,137519)then
-_0xaeb553(_0x5245d3,nil)
-end
-end
-end
-end
-if not(_0x0a7cca and _0x48c9eb and _0xcc6a4e and _0x7ffb4d and _0xa62240)then
-local _0xe8525f=_0x736c63[_0xe8ebea(87471,72763,448094)](_0x736c63,_0xd44ced(397948,494717,414764))
-local _0x65beae=_0xe8525f and _0xe8525f[_0xe8ebea(361644,380218,198332)](_0xe8525f,_0xd44ced(192402,779386,174516))
-if _0x65beae then
-for _0xbc6afd,_0x481df3 in _0xc96c19[11]({_0xe8ebea(158563,139802,304733),_0xe8ebea(165852,183969,461925),_0x848d34(503457,138017,155583),_0xd44ced(117388,539058,101554),_0x848d34(302157,360237,342921),_0xe8ebea(421754,403187,57787),_0xd44ced(103981,861805,118891),_0xd44ced(394429,774790,410357)})do
-local _0x86114e=_0x65beae[_0x848d34(125285,140579,156055)](_0x65beae,_0x481df3)
-if _0x86114e then
-local _0x424f83,_0x17d8a8=_0xc96c19[_0x40b209[252]-177](_0xc96c19[28],_0x86114e)
-if _0x424f83 and _0xc96c19[13](_0x17d8a8)==_0xd44ced(311117,785182,326356)then
-_0xaeb553(_0x17d8a8,_0x481df3)
+if not(_0xe26196 and _0x9cbe51 and _0xae54c0 and _0x1536c7 and _0xba873b)and _0xcca467[_0xc84f9e[231]-199](_0xa72073[_0x3f0d21(360685,1014398,365288)])==_0x3f0d21(70189,237261,66393)then
+local _0xaf0f61,_0xd6c045=_0xcca467[16](_0xa72073[_0x248f80(321703,303083,904070)])
+if _0xaf0f61 and _0xcca467[_0xc84f9e[44]-162](_0xd6c045)==_0x248f80(473666,478254,556472)then
+for _0x1127a1,_0x0d3bba in _0xcca467[10](_0xd6c045)do
+if _0x0d3bba and _0x0d3bba[_0x2b4f7f(100424,234080,245149)](_0x0d3bba,_0x248f80(134331,162805,925911))then
+local _0x7b2620=_0x0d3bba[_0x248f80(135157,162095,404788)]
+if _0x7b2620==_0x248f80(225277,202952,49547)or _0x7b2620==_0x2b4f7f(731973,403810,394891)or _0x7b2620==_0x2b4f7f(499122,104444,112656)or _0x7b2620==_0x2b4f7f(661762,278702,290625)
+or _0x7b2620==_0x248f80(303378,317008,741885)or _0x7b2620==_0x248f80(417777,403636,154077)or _0x7b2620==_0x2b4f7f(528149,326747,316332)or _0x7b2620==_0x2b4f7f(236076,252853,259148)then
+local _0xd29fd5,_0x981e8b=_0xcca467[16](_0xcca467[_0xc84f9e[51]-19],_0x0d3bba)
+if _0xd29fd5 and _0xcca467[2](_0x981e8b)==_0x3f0d21(98812,859796,102617)then
+_0x5b9df5(_0x981e8b,_0x7b2620)
 end
 end
 end
 end
 end
-if _0xc96c19[13](_0x4624b2[_0xd44ced(96436,384286,81565)])==_0xd44ced(191612,696855,174485)then _0xc96c19[_0x40b209[179]-99](_0x4624b2[_0x848d34(436890,168914,186206)],_0xea489d(966208,966216))end
-return(_0x0a7cca and _0x48c9eb and _0xcc6a4e and _0x7ffb4d and _0xa62240)~=nil
+end
+if not(_0xe26196 and _0x9cbe51 and _0xae54c0 and _0x1536c7 and _0xba873b)and _0xcca467[2](_0xa72073[_0x2b4f7f(541660,83852,92275)])==_0x248f80(400595,420456,477302)then
+local _0x6cd6bd,_0xd33364=_0xcca467[_0xc84f9e[56]-213](_0xa72073[_0x3f0d21(394528,572706,399144)],true)
+if _0x6cd6bd and _0xcca467[_0xc84f9e[96]-147](_0xd33364)==_0x248f80(498808,518676,580482)then
+for _0x1127a1,_0x3f77fd in _0xcca467[10](_0xd33364)do
+if _0xcca467[2](_0x3f77fd)==_0x2b4f7f(868977,418123,413271)then
+_0x5b9df5(_0x3f77fd,nil)
 end
 end
-_0xc96c19[27](_0xe37edf)
-local _0xdecf83=_0xf9a9e4[_0x848d34(470854,320619,303358)]or _0xea489d(_0x40b209[254],138)
-local _0x830e93={}
+end
+end
+if not(_0xe26196 and _0x9cbe51 and _0xae54c0 and _0x1536c7 and _0xba873b)then
+local _0xec1a10=_0x7576e4[_0x2b4f7f(826203,129428,117140)](_0x7576e4,_0x248f80(91716,69909,795660))
+local _0xb45484=_0xec1a10 and _0xec1a10[_0x2b4f7f(651239,207360,203266)](_0xec1a10,_0x2b4f7f(622927,451827,445220))
+if _0xb45484 then
+for _0x1127a1,_0x02846f in _0xcca467[10]({_0x3f0d21(111062,116331,106552),_0x3f0d21(440224,788949,435794),_0x3f0d21(425750,510218,421603),_0x248f80(446238,440353,848673),_0x248f80(219055,205037,829248),_0x248f80(496918,516691,234298),_0x248f80(134728,162063,694509),_0x2b4f7f(384310,367791,373590)})do
+local _0x1cd133=_0xb45484[_0x3f0d21(321814,626851,326429)](_0xb45484,_0x02846f)
+if _0x1cd133 then
+local _0xd29fd5,_0x981e8b=_0xcca467[_0xc84f9e[73]-37](_0xcca467[5],_0x1cd133)
+if _0xd29fd5 and _0xcca467[2](_0x981e8b)==_0x2b4f7f(1034514,322088,312628)then
+_0x5b9df5(_0x981e8b,_0x02846f)
+end
+end
+end
+end
+end
+if _0xcca467[2](_0xa72073[_0x248f80(202507,221217,805534)])==_0x2b4f7f(244684,428926,435221)then _0xcca467[16](_0xa72073[_0x248f80(192986,165616,896079)],8)end
+return(_0xe26196 and _0x9cbe51 and _0xae54c0 and _0x1536c7 and _0xba873b)~=nil
+end
+end
+_0xcca467[16](_0xf010db)
+local _0x6634d7=_0xdc6df0[_0x3f0d21(459365,893233,463753)]or(3514+_0x95b3ae(_0x6bafdb(399,3125),1)-3521)
+local _0x35dbd2={}
 do
-local function _0xeebf66(_0x69f3bf)
-return _0xc96c19[9][_0xe8ebea(389875,375652,849035)](
-_0xc96c19[_0x40b209[162]-98][_0xe8ebea(515752,497563,949174)](_0xc96c19[34][_0xd44ced(502084,85974,519349)](_0x69f3bf,(2590+_0xa81147(_0xfaf96b(2542,1008),1)-3526)),255),
-_0xc96c19[_0x40b209[194]-133][_0xe8ebea(198512,216643,696942)](_0xc96c19[34][_0xd44ced(185666,275408,168115)](_0x69f3bf,(_0x40b209[170]-172)),_0xea489d(_0x40b209[115],208)),
-_0xc96c19[34][_0xd44ced(449098,699717,434084)](_0xc96c19[_0x40b209[169]-190][_0x848d34(503425,120049,102565)](_0x69f3bf,_0xea489d(_0x40b209[78],20)),(1091+_0xa81147(_0xfaf96b(1945,986),1)-2676)),
-_0xc96c19[34][_0x848d34(580809,276260,291701)](_0x69f3bf,_0xea489d(_0x40b209[98],19))
+local function _0x7af2cf(_0x2709d1)
+return _0xcca467[_0xc84f9e[210]+21][_0x3f0d21(307461,869038,303267)](
+_0xcca467[_0xc84f9e[231]-195][_0x248f80(262996,292244,898460)](_0xcca467[_0xc84f9e[145]-28][_0x3f0d21(174965,533582,178697)](_0x2709d1,(2177+_0x95b3ae(_0x6bafdb(740,2661),1)-3377)),(_0xc84f9e[76]+143)),
+_0xcca467[6][_0x2b4f7f(969210,203614,209966)](_0xcca467[6][_0x3f0d21(478675,901864,482479)](_0x2709d1,(_0xc84f9e[6]-230)),(3209+_0x95b3ae(_0x6bafdb(3155,218),1)-3118)),
+_0xcca467[6][_0x2b4f7f(757670,417026,422514)](_0xcca467[6][_0x2b4f7f(554852,345101,355198)](_0x2709d1,(_0xc84f9e[145]-26)),_0xfc82ca(814288,814127)),
+_0xcca467[_0xc84f9e[166]-32][_0x2b4f7f(944802,243718,235382)](_0x2709d1,_0xfc82ca(787044,787099))
 )
 end
-local function _0xd5aa91(_0x69f3bf)
-return _0xc96c19[9][_0xd44ced(184929,919212,169011)](_0xc96c19[34][_0x848d34(1024799,215282,199843)](_0x69f3bf,(_0x40b209[222]+142)),_0xc96c19[34][_0xe8ebea(520002,501361,936540)](_0xc96c19[_0x40b209[226]-15][_0xe8ebea(215899,197229,32733)](_0x69f3bf,_0xea489d(698069,698077)),_0xea489d(470473,470326)))
+local function _0xcdbe84(_0x2709d1)
+return _0xcca467[34][_0x2b4f7f(836647,166878,173123)](_0xcca467[6][_0x248f80(278772,276020,915004)](_0x2709d1,_0xfc82ca(188312,188263)),_0xcca467[6][_0x248f80(72727,92887,568031)](_0xcca467[6][_0x2b4f7f(664042,463491,474608)](_0x2709d1,_0xfc82ca(_0xc84f9e[137],11)),(_0xc84f9e[66]+191)))
 end
-local _0x373975={}
-for _0x85d2fd=(_0x40b209[3]-228),_0xea489d(27588,27451)do
-local _0xa4ca6b=_0x85d2fd
-for _0xbc6afd=(1099+_0xa81147(_0xfaf96b(825,1906),1)-2730),_0xea489d(850036,850044)do
-if _0xc96c19[34][_0x848d34(742296,505973,523300)](_0xa4ca6b,_0xea489d(67527,67526))~=(491+_0xa81147(_0xfaf96b(385,106),1)-491)then
-_0xa4ca6b=_0xc96c19[34][_0xd44ced(411474,920222,393890)](0xEDB88320,_0xc96c19[34][_0x848d34(198169,359529,342077)](_0xa4ca6b,1))
+local _0x007b0c={}
+for _0x98880d=_0xfc82ca(_0xc84f9e[167],118),_0xfc82ca(673488,673327)do
+local _0x87d787=_0x98880d
+for _0x1127a1=_0xfc82ca(159210,159211),(223+_0x95b3ae(_0x6bafdb(92,131),1)-215)do
+if _0xcca467[6][_0x248f80(303465,317353,858017)](_0x87d787,_0xfc82ca(702510,702511))~=_0xfc82ca(_0xc84f9e[250],224)then
+_0x87d787=_0xcca467[6][_0x3f0d21(302478,15291,298229)](0xEDB88320,_0xcca467[6][_0x248f80(369161,382154,849167)](_0x87d787,(1565+_0x95b3ae(_0x6bafdb(210,1743),1)-1952)))
 else
-_0xa4ca6b=_0xc96c19[34][_0x848d34(62901,430021,445329)](_0xa4ca6b,1)
+_0x87d787=_0xcca467[6][_0x248f80(326802,297553,895892)](_0x87d787,_0xfc82ca(154285,154284))
 end
 end
-_0x373975[_0x85d2fd]=_0xa4ca6b
+_0x007b0c[_0x98880d]=_0x87d787
 end
-local function _0x3fa744(_0xf69300)
-local _0xa4ca6b=0xFFFFFFFF
-for _0x85d2fd=(3419+_0xa81147(_0xfaf96b(1460,2287),1)-3746),#_0xf69300 do
-local _0xb6a186=_0xc96c19[9][_0xe8ebea(165098,183768,175291)](_0xf69300,_0x85d2fd)
-_0xa4ca6b=_0xc96c19[_0x40b209[150]-218][_0xd44ced(488986,998358,472042)](_0x373975[_0xc96c19[_0x40b209[213]-128][_0xe8ebea(209944,228651,692486)](_0xc96c19[34][_0xd44ced(248559,755491,233247)](_0xa4ca6b,_0xb6a186),_0xea489d(464564,464459))],_0xc96c19[34][_0xd44ced(102834,489248,119875)](_0xa4ca6b,_0xea489d(_0x40b209[198],23)))
+local function _0x417311(_0xb12a3a)
+local _0x87d787=0xFFFFFFFF
+for _0x98880d=_0xfc82ca(574285,574284),#_0xb12a3a do
+local _0xa1d3dc=_0xcca467[34][_0x3f0d21(387135,413145,391495)](_0xb12a3a,_0x98880d)
+_0x87d787=_0xcca467[_0xc84f9e[250]-218][_0x2b4f7f(89468,149275,157801)](_0x007b0c[_0xcca467[_0xc84f9e[28]-107][_0x2b4f7f(721855,446747,458347)](_0xcca467[6][_0x248f80(204022,223796,287487)](_0x87d787,_0xa1d3dc),_0xfc82ca(451669,451754))],_0xcca467[_0xc84f9e[14]-121][_0x3f0d21(302422,922221,298026)](_0x87d787,_0xfc82ca(3860,3868)))
 end
-return _0xc96c19[34][_0xd44ced(343813,881353,359157)](_0xa4ca6b,0xFFFFFFFF)
+return _0xcca467[6][_0x3f0d21(193296,415013,189035)](_0x87d787,0xFFFFFFFF)
 end
-local function _0xeb1a02(_0xf69300)
-local _0xb96ae7,_0xef81e3=(3668+_0xa81147(_0xfaf96b(1580,2168),1)-3747),(488+_0xa81147(_0xfaf96b(813,709),1)-1522)
-for _0x85d2fd=(815+_0xa81147(_0xfaf96b(806,9),1)-814),#_0xf69300 do
-_0xb96ae7=(_0xb96ae7+_0xc96c19[_0x40b209[138]-72][_0xd44ced(258173,395836,243088)](_0xf69300,_0x85d2fd))%65521
-_0xef81e3=(_0xef81e3+_0xb96ae7)%65521
+local function _0x230dea(_0xb12a3a)
+local _0x2a8f47,_0x494740=_0xfc82ca(10972,10973),(_0xc84f9e[8]-70)
+for _0x98880d=_0xfc82ca(_0xc84f9e[161],203),#_0xb12a3a do
+_0x2a8f47=(_0x2a8f47+_0xcca467[_0xc84f9e[240]-117][_0x3f0d21(424783,384681,420407)](_0xb12a3a,_0x98880d))%(65380+_0x95b3ae(_0x6bafdb(10646,55026),1)-151)
+_0x494740=(_0x494740+_0x2a8f47)%_0xfc82ca(329918,390991)
 end
-return _0xc96c19[34][_0xe8ebea(314482,296426,103566)](_0xc96c19[34][_0xe8ebea(286351,268219,602146)](_0xef81e3,(2878+_0xa81147(_0xfaf96b(868,2138),1)-2990)),_0xb96ae7)
+return _0xcca467[6][_0x2b4f7f(920618,259334,247045)](_0xcca467[_0xc84f9e[193]-38][_0x3f0d21(419610,1030618,423520)](_0x494740,_0xfc82ca(515057,515041)),_0x2a8f47)
 end
-local function _0x872b78(_0x2ac2a5,_0x88d07c)
-return _0xeebf66(#_0x88d07c).. _0x2ac2a5 .. _0x88d07c .. _0xeebf66(_0x3fa744(_0x2ac2a5 .. _0x88d07c))
+local function _0x966f4d(_0x904013,_0x9c5efa)
+return _0x7af2cf(#_0x9c5efa).. _0x904013 .. _0x9c5efa .. _0x7af2cf(_0x417311(_0x904013 .. _0x9c5efa))
 end
-local function _0x503c5e(_0x21060e,_0xb27dfb,_0x000292)
-local _0x082b4f=_0xc96c19[6][_0xd44ced(496131,163259,513111)](_0xb27dfb)
-for _0xe63d00=0,_0xb27dfb-(1484+_0xa81147(_0xfaf96b(561,2045),1)-2605)do
-local _0x89b1f4=_0xc96c19[6][_0xe8ebea(270209,284184,270978)](_0x21060e+_0xea489d(_0x40b209[172],183))
-_0x89b1f4[_0xea489d(178267,178266)]=_0x848d34(817193,458135,440623)
-for _0x5a29a9=(605+_0xa81147(_0xfaf96b(217,644),1)-861),_0x21060e-_0xea489d(928645,928644)do
-local _0x421206,_0x341be7,_0xb6a186,_0x434f95=_0x000292(_0x5a29a9+0.5,_0xe63d00+0.5,_0x21060e,_0xb27dfb)
-_0x89b1f4[_0x5a29a9+_0xea489d(346507,346505)]=_0xc96c19[_0x40b209[187]-214][_0xe8ebea(174597,189330,765053)](
-_0xc96c19[25][_0x848d34(355205,433262,448727)](_0xc96c19[25][_0xd44ced(472064,1046972,487963)](_0x421206*(_0x40b209[228]+192)+0.5),(3856+_0xa81147(_0xfaf96b(3906,82),1)-3988),_0xea489d(216780,216627)),
-_0xc96c19[_0x40b209[48]-91][_0xe8ebea(127953,113226,477793)](_0xc96c19[_0x40b209[119]-121][_0xd44ced(492653,1001937,508534)](_0x341be7*(459+_0xa81147(_0xfaf96b(231,300),1)-276)+0.5),_0xea489d(_0x40b209[75],212),255),
-_0xc96c19[_0x40b209[91]-26][_0xd44ced(445988,369965,428146)](_0xc96c19[25][_0xe8ebea(424272,405552,747182)](_0xb6a186*(_0x40b209[22]+170)+0.5),(2142+_0xa81147(_0xfaf96b(280,2374),1)-2654),255),
-_0xc96c19[_0x40b209[253]-186][_0xe8ebea(356077,337782,251741)](_0xc96c19[25][_0x848d34(881347,336797,354275)](_0x434f95*_0xea489d(423104,422975)+0.5),_0xea489d(_0x40b209[90],149),(_0x40b209[9]+222))
+local function _0xd6e4aa(_0x2683ff,_0x42bfb1,_0xba3b86)
+local _0x185b08=_0xcca467[24][_0x3f0d21(497313,144296,493316)](_0x42bfb1)
+for _0x1e3f74=_0xfc82ca(189721,189721),_0x42bfb1-(956+_0x95b3ae(_0x6bafdb(828,128),1)-955)do
+local _0x8a5a45=_0xcca467[_0xc84f9e[124]-12][_0x2b4f7f(261836,124823,116747)](_0x2683ff+(_0xc84f9e[174]-166))
+_0x8a5a45[_0xfc82ca(_0xc84f9e[110],199)]=_0x3f0d21(382776,293785,378165)
+for _0x7145a4=(_0xc84f9e[90]-169),_0x2683ff-(_0xc84f9e[190]-6)do
+local _0xdd2b9c,_0xbc04b2,_0xa1d3dc,_0x3c3b3e=_0xba3b86(_0x7145a4+0.5,_0x1e3f74+0.5,_0x2683ff,_0x42bfb1)
+_0x8a5a45[_0x7145a4+(_0xc84f9e[133]-134)]=_0xcca467[_0xc84f9e[166]-4][_0x3f0d21(308830,869877,305144)](
+_0xcca467[_0xc84f9e[196]-103][_0x248f80(251170,238199,596837)](_0xcca467[21][_0x2b4f7f(50457,380954,393174)](_0xdd2b9c*_0xfc82ca(_0xc84f9e[163],10)+0.5),_0xfc82ca(_0xc84f9e[254],75),(_0xc84f9e[25]+148)),
+_0xcca467[21][_0x2b4f7f(547208,455222,442931)](_0xcca467[_0xc84f9e[209]-145][_0x3f0d21(456701,286380,452136)](_0xbc04b2*_0xfc82ca(_0xc84f9e[178],38)+0.5),(_0xc84f9e[141]-80),_0xfc82ca(518637,518418)),
+_0xcca467[_0xc84f9e[142]-223][_0x2b4f7f(561492,408298,396015)](_0xcca467[_0xc84f9e[40]-206][_0x2b4f7f(273992,80715,70791)](_0xa1d3dc*(25+_0x95b3ae(_0x6bafdb(247,238),1)-230)+0.5),_0xfc82ca(337381,337381),_0xfc82ca(214915,214908)),
+_0xcca467[_0xc84f9e[211]-138][_0x3f0d21(238855,701163,243465)](_0xcca467[_0xc84f9e[184]-139][_0x2b4f7f(33756,366303,375059)](_0x3c3b3e*(3847+_0x95b3ae(_0x6bafdb(3888,55),1)-3688)+0.5),(1466+_0x95b3ae(_0x6bafdb(662,1836),1)-2498),(2850+_0x95b3ae(_0x6bafdb(492,2766),1)-3003))
 )
 end
-_0x082b4f[_0xe63d00+(849+_0xa81147(_0xfaf96b(859,10),1)-868)]=_0xc96c19[6][_0x848d34(529793,421853,404357)](_0x89b1f4)
+_0x185b08[_0x1e3f74+(_0xc84f9e[101]-94)]=_0xcca467[24][_0x248f80(455808,426567,41965)](_0x8a5a45)
 end
-local _0xc89987=_0xc96c19[_0x40b209[223]-5][_0xd44ced(351551,768897,334026)](_0x082b4f)
-local _0x027bb3={_0xd44ced(479228,507054,461227)}
-local _0x8e863f=_0xea489d(690093,690092)
-local _0xb4609f=#_0xc89987
-while _0x8e863f<=_0xb4609f do
-local _0x2653fd=_0xc96c19[_0x40b209[89]-41][_0x848d34(544759,156091,140544)](_0xea489d(_0x40b209[202],32969),_0xb4609f-_0x8e863f+_0xea489d(_0x40b209[24],196))
-local _0xa9fc03=(_0x8e863f+_0x2653fd>_0xb4609f)and(2457+_0xa81147(_0xfaf96b(496,2153),1)-2648)or _0xea489d(209779,209779)
-local _0x3d7e64=_0xc96c19[9][_0xd44ced(322044,47424,306184)](_0xc89987,_0x8e863f,_0x8e863f+_0x2653fd-_0xea489d(560870,560871))
-_0x027bb3[#_0x027bb3+(1995+_0xa81147(_0xfaf96b(1836,231),1)-2066)]=_0xc96c19[9][_0xd44ced(519617,735500,502675)](_0xa9fc03).. _0xd5aa91(_0x2653fd).. _0xd5aa91(_0xc96c19[_0x40b209[251]-54][_0x848d34(870298,366260,381671)](_0x2653fd,_0xea489d(326707,263116))).. _0x3d7e64
-_0x8e863f=_0x8e863f+_0x2653fd
+local _0xc9ad1b=_0xcca467[24][_0x2b4f7f(51481,195103,185704)](_0x185b08)
+local _0x1683fb={_0x3f0d21(236889,1037431,233302)}
+local _0xe08fb0=_0xfc82ca(1046962,1046963)
+local _0xec8822=#_0xc9ad1b
+while _0xe08fb0<=_0xec8822 do
+local _0x27f0df=_0xcca467[21][_0x3f0d21(323144,511535,326744)]((1097+_0x95b3ae(_0x6bafdb(17595,16626),1)-1453),_0xec8822-_0xe08fb0+1)
+local _0x3d6442=(_0xe08fb0+_0x27f0df>_0xec8822)and 1 or _0xfc82ca(900667,900667)
+local _0x66765d=_0xcca467[_0xc84f9e[157]-146][_0x3f0d21(507245,300991,502802)](_0xc9ad1b,_0xe08fb0,_0xe08fb0+_0x27f0df-_0xfc82ca(474938,474939))
+_0x1683fb[#_0x1683fb+_0xfc82ca(_0xc84f9e[53],212)]=_0xcca467[34][_0x248f80(109213,121968,753957)](_0x3d6442).. _0xcdbe84(_0x27f0df).. _0xcdbe84(_0xcca467[6][_0x2b4f7f(302210,493285,502167)](_0x27f0df,_0xfc82ca(364708,356187))).. _0x66765d
+_0xe08fb0=_0xe08fb0+_0x27f0df
 end
-_0x027bb3[#_0x027bb3+(_0x40b209[20]-96)]=_0xeebf66(_0xeb1a02(_0xc89987))
-local _0xf05041=_0xc96c19[_0x40b209[182]-78][_0xe8ebea(317914,299232,1043836)](_0x027bb3)
-return _0xe8ebea(213886,199392,578376)
-.. _0x872b78(_0xd44ced(460920,481666,478754),_0xeebf66(_0x21060e).. _0xeebf66(_0xb27dfb).. _0xd44ced(337177,989471,353090))
-.. _0x872b78(_0xe8ebea(507257,521432,568831),_0xf05041)
-.. _0x872b78(_0xe8ebea(166469,181223,264778),_0x848d34(497224,96049,78708))
+_0x1683fb[#_0x1683fb+1]=_0x7af2cf(_0x230dea(_0xc9ad1b))
+local _0xc7b8ed=_0xcca467[24][_0x3f0d21(262293,102337,266517)](_0x1683fb)
+return _0x248f80(134104,162944,1002108)
+.. _0x966f4d(_0x2b4f7f(625299,508595,520890),_0x7af2cf(_0x2683ff).. _0x7af2cf(_0x42bfb1).. _0x248f80(166581,196079,382895))
+.. _0x966f4d(_0x248f80(267179,287984,541718),_0xc7b8ed)
+.. _0x966f4d(_0x248f80(239980,253488,999065),_0x248f80(520786,492774,794713))
 end
-local function _0x6c8e86(_0xdc03a5,_0xc2bf1a,_0x5a29a9)
-local _0xfeebd3=_0xc96c19[25][_0xe8ebea(311286,325229,132678)]((_0x5a29a9-_0xdc03a5)/(_0xc2bf1a-_0xdc03a5),_0xea489d(452495,452495),_0xea489d(84060,84061))
-return _0xfeebd3*_0xfeebd3*((975+_0xa81147(_0xfaf96b(612,427),1)-1036)-(285+_0xa81147(_0xfaf96b(279,10),1)-287)*_0xfeebd3)
+local function _0x4effc6(_0x130f84,_0xffa1b4,_0x7145a4)
+local _0x153ce7=_0xcca467[21][_0x248f80(107694,119803,748265)]((_0x7145a4-_0x130f84)/(_0xffa1b4-_0x130f84),_0xfc82ca(101330,101330),(_0xc84f9e[135]-73))
+return _0x153ce7*_0x153ce7*((60+_0x95b3ae(_0x6bafdb(25,37),1)-59)-(_0xc84f9e[31]-24)*_0x153ce7)
 end
-local function _0xb0c3e0(_0xa99df1,_0x375f5d,_0x5eadc1,_0x73de35,_0x421206,_0x69f3bf)
-local _0x904b8e=_0xc96c19[25][_0x848d34(179495,471891,489362)](_0xa99df1)-_0x5eadc1+_0x421206
-local _0x23296f=_0xc96c19[25][_0xe8ebea(201561,219898,250702)](_0x375f5d)-_0x73de35+_0x421206
-local _0x32cf29=_0xc96c19[25][_0xe8ebea(258948,244256,534259)](_0x904b8e,_0xea489d(159265,159265))
-local _0x5331e1=_0xc96c19[_0x40b209[221]-223][_0xd44ced(398089,529656,415062)](_0x23296f,_0xea489d(193283,193283))
-local _0xf72ae1=(_0x32cf29^_0x69f3bf+_0x5331e1^_0x69f3bf)^((3281+_0xa81147(_0xfaf96b(347,3466),1)-3812)/_0x69f3bf)
-return _0xc96c19[25][_0xd44ced(156614,577896,140702)](_0xc96c19[25][_0x848d34(825340,134383,149549)](_0x904b8e,_0x23296f),(_0x40b209[151]-57))+_0xf72ae1-_0x421206
+local function _0x44075d(_0x7b4630,_0xd7989e,_0xcabceb,_0x7b259a,_0xdd2b9c,_0x2709d1)
+local _0xb9bd2c=_0xcca467[21][_0x2b4f7f(866148,199607,211898)](_0x7b4630)-_0xcabceb+_0xdd2b9c
+local _0x55512f=_0xcca467[_0xc84f9e[236]-47][_0x3f0d21(195293,752220,190667)](_0xd7989e)-_0x7b259a+_0xdd2b9c
+local _0x8610c6=_0xcca467[21][_0x2b4f7f(854201,476934,489224)](_0xb9bd2c,(2205+_0x95b3ae(_0x6bafdb(123,2278),1)-2401))
+local _0x1d8787=_0xcca467[21][_0x248f80(126081,105439,1033932)](_0x55512f,(975+_0x95b3ae(_0x6bafdb(1821,1234),1)-3055))
+local _0xdf0dd7=(_0x8610c6^_0x2709d1+_0x1d8787^_0x2709d1)^(_0xfc82ca(_0xc84f9e[99],66)/_0x2709d1)
+return _0xcca467[21][_0x248f80(415839,405256,434577)](_0xcca467[21][_0x3f0d21(124253,792240,128842)](_0xb9bd2c,_0x55512f),(86+_0x95b3ae(_0x6bafdb(109,59),1)-168))+_0xdf0dd7-_0xdd2b9c
 end
-local function _0x21545f(_0x1b7e2c,_0x21060e,_0xb27dfb,_0x000292)
-if(_0x1ceeaf[_0x848d34(498234,391790,376493)]and not _0x1ceeaf[_0xd44ced(114652,811850,129469)])or _0xc96c19[13](_0x4624b2[_0xd44ced(169253,41924,185159)])~=_0xe8ebea(480960,466926,707239)then
-return _0xe8ebea(201430,220145,48456)
+local function _0x68bb99(_0xcac51f,_0x2683ff,_0x42bfb1,_0xba3b86)
+if(_0xdbf3be[_0x2b4f7f(3701,190905,186806)]and not _0xdbf3be[_0x3f0d21(419176,200190,423793)])or _0xcca467[_0xc84f9e[11]-113](_0xa72073[_0x2b4f7f(910746,437075,432962)])~=_0x2b4f7f(318081,125491,116056)then
+return _0x3f0d21(105598,628287,101651)
 end
-local _0x424f83,_0x5c1c11=_0xc96c19[27](function()
-if _0xc96c19[13](_0x4624b2[_0xd44ced(372253,946469,387090)])==_0xe8ebea(325690,307476,615517)and _0xc96c19[13](_0x4624b2[_0x848d34(212764,151755,136376)])==_0xe8ebea(324997,310443,616930)and _0x4624b2[_0x848d34(898668,456118,438724)](_0x1b7e2c)then
-local _0x526d71=_0x4624b2[_0xe8ebea(115559,100914,385573)](_0x1b7e2c)
-if _0xc96c19[13](_0x526d71)==_0xe8ebea(436490,451031,492000)and#_0x526d71>_0xea489d(440980,440924)then
-return _0x4624b2[_0xe8ebea(109440,123431,413668)](_0x1b7e2c)
-end
-end
-if _0xc96c19[_0x40b209[18]-131](_0x4624b2[_0xd44ced(485204,293565,467270)])~=_0x848d34(957469,413332,395992)then return _0xd44ced(440309,51822,455191)end
-local _0x47594b=_0x503c5e(_0x21060e,_0xb27dfb,_0x000292)
-_0x4624b2[_0x848d34(285215,514836,499553)](_0x1b7e2c,_0x47594b)
-if _0xc96c19[13](_0x4624b2[_0x848d34(10185,83998,68717)])==_0xe8ebea(339218,353340,569717)then
-local _0xaf6b82=_0x4624b2[_0xe8ebea(424822,406051,154164)](_0x1b7e2c)
-if _0xc96c19[13](_0xaf6b82)~=_0xe8ebea(288968,270357,344098)or#_0xaf6b82<#_0x47594b then
-return _0xe8ebea(450604,436491,348082)
+local _0xd29fd5,_0x62db08=_0xcca467[16](function()
+if _0xcca467[_0xc84f9e[22]-121](_0xa72073[_0x2b4f7f(680038,288213,281156)])==_0x3f0d21(151777,56321,147861)and _0xcca467[2](_0xa72073[_0x248f80(240053,253783,597748)])==_0x3f0d21(427640,264856,431884)and _0xa72073[_0x3f0d21(203823,697806,200117)](_0xcac51f)then
+local _0xa8df24=_0xa72073[_0x2b4f7f(629812,479035,483497)](_0xcac51f)
+if _0xcca467[_0xc84f9e[234]-16](_0xa8df24)==_0x3f0d21(175130,105596,179518)and#_0xa8df24>(_0xc84f9e[124]+164)then
+return _0xa72073[_0x248f80(81796,84197,922752)](_0xcac51f)
 end
 end
-return _0x4624b2[_0xd44ced(487183,350702,469357)](_0x1b7e2c)
+if _0xcca467[_0xc84f9e[184]-158](_0xa72073[_0x2b4f7f(281616,501550,493754)])~=_0x248f80(192318,170373,244635)then return _0x2b4f7f(667818,362169,371165)end
+local _0x07af30=_0xd6e4aa(_0x2683ff,_0x42bfb1,_0xba3b86)
+_0xa72073[_0x2b4f7f(280165,503131,492239)](_0xcac51f,_0x07af30)
+if _0xcca467[2](_0xa72073[_0x2b4f7f(1002557,106290,110752)])==_0x3f0d21(442855,281863,446611)then
+local _0xe59044=_0xa72073[_0x248f80(335823,354605,1026190)](_0xcac51f)
+if _0xcca467[_0xc84f9e[194]-181](_0xe59044)~=_0x2b4f7f(388072,92124,84167)or#_0xe59044<#_0x07af30 then
+return _0x3f0d21(138549,661364,134232)
+end
+end
+return _0xa72073[_0x248f80(436435,450482,623575)](_0xcac51f)
 end)
-return(_0x424f83 and _0xc96c19[13](_0x5c1c11)==_0xd44ced(403466,185119,421266))and _0x5c1c11 or _0xe8ebea(233568,252231,16382)
+return(_0xd29fd5 and _0xcca467[_0xc84f9e[212]-228](_0x62db08)==_0x2b4f7f(115173,347601,352970))and _0x62db08 or _0x2b4f7f(757671,276916,267984)
 end
-local function _0x463775(_0x10f2f4,_0x9e9171,_0x558e86,_0xe48693,_0xf7f2e9,_0x6c7093)
-return function(_0x5a29a9,_0xe63d00,_0x21060e,_0xb27dfb)
-local _0x32cf29,_0x5331e1=_0x21060e*0.5,_0xb27dfb*0.5
-local _0x5eadc1,_0x73de35=_0x32cf29-1.5,_0x5331e1-1.5
-local _0xa99df1,_0x375f5d=_0x5a29a9-_0x32cf29,_0xe63d00-_0x5331e1
-local _0x8c3c53=_0xb0c3e0(_0xa99df1,_0x375f5d,_0x5eadc1,_0x73de35,_0x9e9171,_0x558e86)
-local _0x939463=1.0-_0x6c8e86(-0.65,0.65,_0x8c3c53)
-if _0x939463<=0.001 then return(_0x40b209[164]-42),_0xea489d(423018,423019),(_0x40b209[120]-91),(2536+_0xa81147(_0xfaf96b(2159,391),1)-2550)end
-local _0x27531f=_0xc96c19[_0x40b209[86]+4][_0xd44ced(430229,229891,448203)](_0x8c3c53)
-local _0xb1fba3=_0xc96c19[25][_0x848d34(776480,128876,111575)](_0x5eadc1,_0x73de35)
-local _0x3fbad4=1.0-_0xc96c19[25][_0xe8ebea(394028,412343,47772)](_0x27531f/_0xb1fba3,_0xea489d(732372,732372),(756+_0xa81147(_0xfaf96b(1835,1503),1)-3337))
-local _0xbe82cd=_0xc96c19[25][_0xd44ced(247219,44730,230373)](_0x3fbad4^_0x6c7093,(_0x40b209[202]-201),(1258+_0xa81147(_0xfaf96b(1494,316),1)-1809))
-local _0x742178=_0xc96c19[25][_0xe8ebea(382198,367981,224582)](1.0-((_0x5a29a9/_0x21060e)*0.65+(_0xe63d00/_0xb27dfb)*0.65),_0xea489d(853746,853746),1)*0.16
-local _0xee062b=_0xc96c19[_0x40b209[72]-100][_0xe8ebea(294683,276096,181931)](0.78+_0xbe82cd*0.22+_0x742178,_0xea489d(642232,642232),_0xea489d(62290,62291))
-local _0x95f2a3=(_0xe48693+(_0xf7f2e9-_0xe48693)*_0xbe82cd)*_0x939463
-return _0xee062b,_0xee062b,_0xee062b,_0x95f2a3
-end
-end
-local function _0xa29135(_0x10f2f4,_0x9e9171,_0x558e86,_0x779dbb,_0x55e4d2)
-return function(_0x5a29a9,_0xe63d00,_0x21060e,_0xb27dfb)
-local _0x32cf29,_0x5331e1=_0x21060e*0.5,_0xb27dfb*0.5
-local _0x5eadc1,_0x73de35=_0x32cf29-1.5,_0x5331e1-1.5
-local _0xa99df1,_0x375f5d=_0x5a29a9-_0x32cf29,_0xe63d00-_0x5331e1
-local _0x8c3c53=_0xb0c3e0(_0xa99df1,_0x375f5d,_0x5eadc1,_0x73de35,_0x9e9171,_0x558e86)
-local _0x2053ce=1.0-_0x6c8e86(-0.6,0.6,_0x8c3c53)
-if _0x2053ce<=0.001 then return(2622+_0xa81147(_0xfaf96b(33,2591),1)-2623),(140+_0xa81147(_0xfaf96b(216,84),1)-299),_0xea489d(_0x40b209[61],187),_0xea489d(_0x40b209[250],119)end
-local _0x873587=1.0-_0x6c8e86(-0.6,0.6,_0x8c3c53+_0x779dbb)
-local _0x2b0c95=_0xc96c19[_0x40b209[191]-132][_0xe8ebea(452654,434613,20894)](_0x2053ce-_0x873587,(42+_0xa81147(_0xfaf96b(922,944),1)-1866),(330+_0xa81147(_0xfaf96b(301,103),1)-403))
-local _0xd57ecf=_0xc96c19[_0x40b209[59]-230][_0xe8ebea(415729,400981,885382)]((_0x40b209[63]-235),-_0x8c3c53)
-local _0x4ca56b=_0xc96c19[_0x40b209[238]-180][_0xe8ebea(268942,283413,172862)](1.0-_0xd57ecf/_0x55e4d2,_0xea489d(_0x40b209[115],47),_0xea489d(_0x40b209[90],148))^2.6*0.32*_0x2053ce
-local _0x95f2a3=_0xc96c19[25][_0xe8ebea(315115,296816,161627)](_0x2b0c95*0.95+_0x4ca56b,(2769+_0xa81147(_0xfaf96b(2583,198),1)-2781),(3025+_0xa81147(_0xfaf96b(2106,1003),1)-3108))
-return(_0x40b209[38]-219),_0xea489d(_0x40b209[29],86),_0xea489d(1007481,1007480),_0x95f2a3
+local function _0x6e4e3c(_0x61c98f,_0xa6ff89,_0x126363,_0x1d32b3,_0x849d4a,_0xf3f4d1)
+return function(_0x7145a4,_0x1e3f74,_0x2683ff,_0x42bfb1)
+local _0x8610c6,_0x1d8787=_0x2683ff*0.5,_0x42bfb1*0.5
+local _0xcabceb,_0x7b259a=_0x8610c6-1.5,_0x1d8787-1.5
+local _0x7b4630,_0xd7989e=_0x7145a4-_0x8610c6,_0x1e3f74-_0x1d8787
+local _0xe02d76=_0x44075d(_0x7b4630,_0xd7989e,_0xcabceb,_0x7b259a,_0xa6ff89,_0x126363)
+local _0xe5e2d4=1.0-_0x4effc6(-0.65,0.65,_0xe02d76)
+if _0xe5e2d4<=0.001 then return(670+_0x95b3ae(_0x6bafdb(637,227),1)-863),(3671+_0x95b3ae(_0x6bafdb(2812,1195),1)-4006),_0xfc82ca(_0xc84f9e[234],19),_0xfc82ca(_0xc84f9e[3],86)end
+local _0x72b08c=_0xcca467[21][_0x3f0d21(438418,995347,434820)](_0xe02d76)
+local _0xf0d492=_0xcca467[_0xc84f9e[199]-96][_0x2b4f7f(10251,308286,295993)](_0xcabceb,_0x7b259a)
+local _0x0e25e4=1.0-_0xcca467[21][_0x248f80(440944,445733,816183)](_0x72b08c/_0xf0d492,(_0xc84f9e[146]-200),_0xfc82ca(169228,169229))
+local _0x3a6464=_0xcca467[21][_0x3f0d21(345769,807237,349351)](_0x0e25e4^_0xf3f4d1,(_0xc84f9e[72]-203),(1165+_0x95b3ae(_0x6bafdb(172,1057),1)-1228))
+local _0x98061f=_0xcca467[_0xc84f9e[58]-48][_0x2b4f7f(603192,499590,503683)](1.0-((_0x7145a4/_0x2683ff)*0.65+(_0x1e3f74/_0x42bfb1)*0.65),_0xfc82ca(580647,580647),_0xfc82ca(_0xc84f9e[88],55))*0.16
+local _0xf06e60=_0xcca467[21][_0x2b4f7f(620046,515504,519605)](0.78+_0x3a6464*0.22+_0x98061f,0,_0xfc82ca(681145,681144))
+local _0x945407=(_0x1d32b3+(_0x849d4a-_0x1d32b3)*_0x3a6464)*_0xe5e2d4
+return _0xf06e60,_0xf06e60,_0xf06e60,_0x945407
 end
 end
-local function _0xa81c16(_0x9e9171,_0x558e86)
-return function(_0x5a29a9,_0xe63d00,_0x21060e,_0xb27dfb)
-local _0x32cf29,_0x5331e1=_0x21060e*0.5,_0xb27dfb*0.5
-local _0x5eadc1,_0x73de35=_0x32cf29-1.2,_0x5331e1-1.2
-local _0x8c3c53=_0xb0c3e0(_0x5a29a9-_0x32cf29,_0xe63d00-_0x5331e1,_0x5eadc1,_0x73de35,_0x9e9171,_0x558e86)
-local _0x434f95=1.0-_0x6c8e86(-0.65,0.65,_0x8c3c53)
-return 1,_0xea489d(353736,353737),_0xea489d(_0x40b209[252],205),_0x434f95
+local function _0xf6e318(_0x61c98f,_0xa6ff89,_0x126363,_0x22c379,_0x92742d)
+return function(_0x7145a4,_0x1e3f74,_0x2683ff,_0x42bfb1)
+local _0x8610c6,_0x1d8787=_0x2683ff*0.5,_0x42bfb1*0.5
+local _0xcabceb,_0x7b259a=_0x8610c6-1.5,_0x1d8787-1.5
+local _0x7b4630,_0xd7989e=_0x7145a4-_0x8610c6,_0x1e3f74-_0x1d8787
+local _0xe02d76=_0x44075d(_0x7b4630,_0xd7989e,_0xcabceb,_0x7b259a,_0xa6ff89,_0x126363)
+local _0x9efa3b=1.0-_0x4effc6(-0.6,0.6,_0xe02d76)
+if _0x9efa3b<=0.001 then return _0xfc82ca(794764,794765),_0xfc82ca(614646,614647),_0xfc82ca(385277,385276),_0xfc82ca(_0xc84f9e[53],213)end
+local _0xe48150=1.0-_0x4effc6(-0.6,0.6,_0xe02d76+_0x22c379)
+local _0xa5e43c=_0xcca467[21][_0x248f80(132946,159751,575765)](_0x9efa3b-_0xe48150,(1728+_0x95b3ae(_0x6bafdb(135,1607),1)-1742),(_0xc84f9e[106]-145))
+local _0x74eaa8=_0xcca467[21][_0x3f0d21(249467,933270,253036)]((_0xc84f9e[213]-109),-_0xe02d76)
+local _0x14a85a=_0xcca467[_0xc84f9e[253]-62][_0x3f0d21(412072,1007172,416678)](1.0-_0x74eaa8/_0x92742d,(2080+_0x95b3ae(_0x6bafdb(612,2628),1)-3240),(_0xc84f9e[228]-5))^2.6*0.32*_0x9efa3b
+local _0x945407=_0xcca467[21][_0x248f80(150391,146466,558384)](_0xa5e43c*0.95+_0x14a85a,_0xfc82ca(_0xc84f9e[243],65),_0xfc82ca(_0xc84f9e[214],233))
+return _0xfc82ca(423107,423106),(_0xc84f9e[155]-51),(1695+_0x95b3ae(_0x6bafdb(1138,749),1)-1886),_0x945407
 end
 end
-local function _0x94aac2(_0x9e9171,_0x1fd8e4,_0x558e86)
-return function(_0x5a29a9,_0xe63d00,_0x21060e,_0xb27dfb)
-local _0x32cf29,_0x5331e1=_0x21060e*0.5,_0xb27dfb*0.5
-local _0x5eadc1,_0x73de35=_0x32cf29-_0x1fd8e4,_0x5331e1-_0x1fd8e4
-local _0x8c3c53=_0xb0c3e0(_0x5a29a9-_0x32cf29,_0xe63d00-_0x5331e1,_0x5eadc1,_0x73de35,_0x9e9171,_0x558e86)
-local _0xfeebd3=_0xc96c19[25][_0x848d34(476205,308166,325503)](1.0-_0xc96c19[25][_0x848d34(858695,229716,247190)]((_0x40b209[172]-182),_0x8c3c53)/_0x1fd8e4,_0xea489d(_0x40b209[193],225),(491+_0xa81147(_0xfaf96b(308,223),1)-530))
-local _0x434f95=(_0xfeebd3*_0xfeebd3*((1391+_0xa81147(_0xfaf96b(1120,271),1)-1388)-(_0x40b209[134]-51)*_0xfeebd3))^1.8*0.58
-return(_0x40b209[196]-133),_0xea489d(_0x40b209[233],156),_0xea489d(_0x40b209[15],160),_0x434f95
+local function _0x02c971(_0xa6ff89,_0x126363)
+return function(_0x7145a4,_0x1e3f74,_0x2683ff,_0x42bfb1)
+local _0x8610c6,_0x1d8787=_0x2683ff*0.5,_0x42bfb1*0.5
+local _0xcabceb,_0x7b259a=_0x8610c6-1.2,_0x1d8787-1.2
+local _0xe02d76=_0x44075d(_0x7145a4-_0x8610c6,_0x1e3f74-_0x1d8787,_0xcabceb,_0x7b259a,_0xa6ff89,_0x126363)
+local _0x3c3b3e=1.0-_0x4effc6(-0.65,0.65,_0xe02d76)
+return(838+_0x95b3ae(_0x6bafdb(908,202),1)-1109),_0xfc82ca(545161,545160),(_0xc84f9e[131]-48),_0x3c3b3e
 end
 end
-_0x830e93[_0xe8ebea(447683,433515,19664)]=_0x21545f(_0x848d34(85164,304463,319880),_0xea489d(_0x40b209[47],142),_0xea489d(_0x40b209[193],129),_0x463775((_0x40b209[180]-145),_0xea489d(525732,525758),4.2,0.76,0.94,3.2))
-_0x830e93[_0xd44ced(198523,815273,213278)]=_0x21545f(_0xd44ced(319823,396865,304937),96,(_0x40b209[131]+22),_0xa29135(_0xea489d(468035,468003),(2806+_0xa81147(_0xfaf96b(2574,248),1)-2796),4.2,1.5,9.0))
-_0x830e93[_0xe8ebea(465632,480076,318093)]=_0x21545f(_0xe8ebea(435330,453935,492218),96,_0xea489d(_0x40b209[96],170),_0x94aac2(_0xea489d(463033,463009),_0xea489d(409245,409229),4.0))
-_0x830e93[_0xe8ebea(511011,492941,889079)]=_0x21545f(_0xd44ced(347456,45923,330538),_0xea489d(_0x40b209[112],207),(_0x40b209[234]-51),_0x463775((1450+_0xa81147(_0xfaf96b(1726,788),1)-2450),(1428+_0xa81147(_0xfaf96b(180,1312),1)-1476),4.2,0.68,0.90,3.0))
-_0x830e93[_0x848d34(685968,469459,486685)]=_0x21545f(_0xd44ced(410142,805889,394354),_0xea489d(352801,352865),(2482+_0xa81147(_0xfaf96b(68,2550),1)-2554),_0xa29135(_0xea489d(_0x40b209[122],183),(2707+_0xa81147(_0xfaf96b(2545,866),1)-3395),4.2,1.3,6.5))
-_0x830e93[_0xd44ced(160401,57129,144636)]=_0x21545f(_0xd44ced(179859,235095,194813),_0xea489d(632986,633002),(607+_0xa81147(_0xfaf96b(286,833),1)-1071),_0x463775(_0xea489d(958555,958571),_0xea489d(1034477,1034465),4.2,0.65,0.88,2.8))
-_0x830e93[_0xd44ced(156049,759533,141310)]=_0x21545f(_0x848d34(331516,293077,277510),_0xea489d(378107,378059),48,_0xa29135((_0x40b209[57]+6),(_0x40b209[159]-217),4.2,1.2,4.5))
-_0x830e93[_0xe8ebea(351804,333706,647651)]=_0x21545f(_0xd44ced(338939,767702,355721),_0xea489d(763610,763642),_0xea489d(390263,390231),_0xa81c16(9,4.2))
+local function _0x8c4174(_0xa6ff89,_0x250022,_0x126363)
+return function(_0x7145a4,_0x1e3f74,_0x2683ff,_0x42bfb1)
+local _0x8610c6,_0x1d8787=_0x2683ff*0.5,_0x42bfb1*0.5
+local _0xcabceb,_0x7b259a=_0x8610c6-_0x250022,_0x1d8787-_0x250022
+local _0xe02d76=_0x44075d(_0x7145a4-_0x8610c6,_0x1e3f74-_0x1d8787,_0xcabceb,_0x7b259a,_0xa6ff89,_0x126363)
+local _0x153ce7=_0xcca467[21][_0x3f0d21(511552,973228,515150)](1.0-_0xcca467[_0xc84f9e[5]-89][_0x3f0d21(155672,1020917,160271)](0,_0xe02d76)/_0x250022,0,1)
+local _0x3c3b3e=(_0x153ce7*_0x153ce7*(_0xfc82ca(649055,649052)-_0xfc82ca(1009183,1009181)*_0x153ce7))^1.8*0.58
+return _0xfc82ca(354290,354290),_0xfc82ca(794407,794407),_0xfc82ca(_0xc84f9e[17],248),_0x3c3b3e
 end
-local _0x76c04c={
-[_0x848d34(743530,375094,392672)]={
-[_0x848d34(852318,194074,176753)]=_0xd44ced(507416,639910,522347),
-[_0xd44ced(155453,53900,137545)]=_0xe8ebea(145096,163698,276266),
-[_0xe8ebea(298665,313268,506131)]=false,
-[_0xd44ced(523035,502636,507245)]=_0xc96c19[23][_0xe8ebea(382685,368481,694134)][_0xd44ced(445573,580186,428797)],
-[_0xe8ebea(398714,416964,100033)]=(_0x40b209[161]-74),
-[_0xd44ced(78137,885113,96127)]={
-[_0xd44ced(314291,460826,298441)]={[_0x848d34(11704,192637,177313)]=(_0x40b209[187]-222),[_0xd44ced(290535,722241,272623)]=_0xd44ced(91085,172132,75191),[_0xe8ebea(78682,96922,526461)]=_0xe8ebea(268462,282991,476611),[_0xe8ebea(163397,145287,801876)]=1.0,[_0xd44ced(459368,451928,476182)]=6.0,[_0xe8ebea(115475,101079,496340)]=4.0,[_0xe8ebea(70471,88706,286556)]=_0xea489d(885180,885181)},
-[_0xd44ced(207046,86099,224839)]={[_0xd44ced(264836,412579,281853)]=_0xea489d(765327,765325),[_0x848d34(605060,445632,428203)]=_0xd44ced(502022,381331,520071),[_0x848d34(894726,119329,104191)]=_0xe8ebea(320209,305936,507836),[_0x848d34(964381,375566,393198)]=_0xea489d(510526,510506),[_0x848d34(488594,397120,412577)]=(_0x40b209[119]+214),[_0xd44ced(421442,388451,403517)]=(1340+_0xa81147(_0xfaf96b(1417,181),1)-1508),[_0xe8ebea(234839,253074,448844)]=_0xea489d(_0x40b209[188],232)},
-[_0xd44ced(345838,689907,327788)]={[_0xd44ced(173283,58820,189082)]=_0xea489d(584343,584340),[_0xe8ebea(189369,174836,547440)]=_0xe8ebea(93108,74355,751948),[_0xe8ebea(332849,351729,798486)]=_0xe8ebea(520931,506658,307086),[_0xe8ebea(191608,173498,831081)]=0.5,[_0xd44ced(494027,421627,511925)]=10.0,[_0xe8ebea(322565,304577,179650)]=4.0,[_0xd44ced(207559,242747,224327)]=(2380+_0xa81147(_0xfaf96b(2213,489),1)-2701)},
-[_0xd44ced(476137,460162,460138)]={[_0x848d34(275929,452636,437440)]=(3183+_0xa81147(_0xfaf96b(1398,2329),1)-3723),[_0xe8ebea(96952,78837,770929)]=_0x848d34(524539,141415,158848),[_0xd44ced(490398,758363,474597)]=_0x848d34(50838,447994,430373),[_0xd44ced(81036,699517,97009)]=0.0,[_0xd44ced(111999,21071,127745)]=1.0,[_0xe8ebea(200048,214196,351415)]=0.85,[_0xe8ebea(504977,523604,194698)]=(310+_0xa81147(_0xfaf96b(820,514),1)-1332)},
-[_0xd44ced(196799,52209,214586)]={[_0x848d34(327111,401410,419038)]=_0xea489d(482826,482831),[_0x848d34(924499,125975,108668)]=_0xe8ebea(220984,202482,345758),[_0x848d34(588523,298956,314130)]=_0x848d34(232435,376578,392171),[_0x848d34(43956,248723,233337)]={_0x848d34(397271,348316,332865),_0xd44ced(160355,473010,144619)},[_0x848d34(299825,494834,509968)]=_0xd44ced(351532,433797,334678)},
-[_0xe8ebea(100610,114892,532076)]={[_0xd44ced(337413,485154,352380)]=(1870+_0xa81147(_0xfaf96b(156,2002),1)-2152),[_0x848d34(817642,233134,248517)]=_0x848d34(472791,291180,275841),[_0xd44ced(96946,889719,81097)]=_0xd44ced(309786,167091,326801),[_0xe8ebea(304789,323409,194386)]=false},
-[_0x848d34(98359,344966,329577)]={[_0x848d34(519417,340284,357856)]=(3681+_0xa81147(_0xfaf96b(532,3189),1)-3714),[_0xe8ebea(273390,287395,954919)]=_0x848d34(77287,320805,303573),[_0xe8ebea(266109,280253,865370)]=_0xd44ced(309663,167734,327444),[_0xe8ebea(156603,141951,275068)]=false},
-[_0x848d34(925394,188061,170604)]={[_0xd44ced(398063,283592,414870)]=(_0x40b209[78]-20),[_0xd44ced(440887,643473,457791)]=_0xe8ebea(470848,485012,887937),[_0x848d34(905905,108438,123720)]=_0xe8ebea(186979,168883,81464),[_0xd44ced(186946,88419,171069)]=false},
-[_0xe8ebea(121560,103181,706191)]={[_0x848d34(292974,435627,450935)]=_0xea489d(_0x40b209[92],176),[_0x848d34(748057,302429,317750)]=_0xe8ebea(264641,278548,988566),[_0xd44ced(112937,872684,130898)]=_0x848d34(183237,287118,271712),[_0xe8ebea(356627,342231,205012)]=true},
-[_0xe8ebea(181096,166590,393967)]={[_0xe8ebea(400381,414275,100422)]=_0xea489d(_0x40b209[24],207),[_0x848d34(695321,355165,339766)]=_0xe8ebea(336539,355148,572011),[_0x848d34(956356,189155,173629)]=_0x848d34(213793,387434,372100),[_0x848d34(337932,407503,422701)]=true},
-[_0xd44ced(268055,324535,283012)]={[_0xd44ced(279204,394115,263389)]=(1216+_0xa81147(_0xfaf96b(1422,334),1)-1745),[_0xe8ebea(468021,486776,892412)]=_0xe8ebea(255889,241224,192756),[_0xe8ebea(242885,261381,692194)]=_0xd44ced(441937,35064,456922),[_0x848d34(372616,438347,455849)]=true},
-[_0xe8ebea(319724,305462,274091)]={[_0x848d34(482223,362090,377526)]=(117+_0xa81147(_0xfaf96b(44,89),1)-121),[_0x848d34(676178,370198,385661)]=_0xe8ebea(401092,415519,898141),[_0xe8ebea(88617,70633,549134)]=_0x848d34(300130,146985,162503),[_0xe8ebea(147208,161484,290511)]=false},
-}
-},
-[_0xd44ced(121658,487788,105901)]={
-[_0xd44ced(457281,627175,441417)]=_0xd44ced(343653,234547,358642),
-[_0xd44ced(78812,245357,95656)]=_0x848d34(429201,363942,379229),
-[_0x848d34(497200,126807,109420)]=false,
-[_0xd44ced(435090,455653,452068)]=_0xc96c19[23][_0xd44ced(94330,779087,79373)][_0xd44ced(500358,635993,517374)],
-[_0xd44ced(326747,441724,309794)]=2,
-[_0xe8ebea(247209,232482,698176)]={
-[_0xe8ebea(149581,131475,962267)]={[_0x848d34(3309,184616,169460)]=_0xea489d(_0x40b209[256],182),[_0x848d34(596215,454579,437208)]=_0xd44ced(156719,401475,139957),[_0xe8ebea(95695,80911,544488)]=_0xe8ebea(509904,495121,301757),[_0xd44ced(255488,554737,237693)]=1.0,[_0xe8ebea(298795,313064,47866)]=8.0,[_0xd44ced(153987,121506,139260)]=1.5,[_0xd44ced(215875,251327,200131)]=(3812+_0xa81147(_0xfaf96b(2171,1695),1)-3865)},
-[_0xe8ebea(222859,208747,667750)]={[_0xe8ebea(474333,488803,44902)]=(551+_0xa81147(_0xfaf96b(566,17),1)-581),[_0xd44ced(209061,809731,226989)]=_0xd44ced(260576,63700,245628),[_0x848d34(653591,363568,379118)]=_0xd44ced(442526,20240,427746),[_0xd44ced(240721,539808,256556)]=2.0,[_0xe8ebea(344082,330193,95683)]=4.5,[_0x848d34(151266,86305,71107)]=3.0,[_0xe8ebea(149001,135116,461330)]=_0xea489d(465827,465826)},
-[_0xe8ebea(119660,105102,507647)]={[_0x848d34(361406,482939,465575)]=_0xea489d(_0x40b209[46],240),[_0x848d34(575630,475082,490401)]=_0x848d34(734419,207477,225140),[_0xd44ced(420210,688311,405257)]=_0xd44ced(275898,171433,291644),[_0xd44ced(194072,68317,176287)]={_0xe8ebea(196842,215310,865314),_0x848d34(669078,316006,300901),_0xe8ebea(153172,139186,814223)},[_0xe8ebea(174350,188618,325833)]=_0xd44ced(431059,882141,447820)},
-[_0x848d34(628520,336468,354129)]={[_0xd44ced(265475,412708,281466)]=(1477+_0xa81147(_0xfaf96b(984,1565),1)-2545),[_0xe8ebea(139024,153181,567001)]=_0x848d34(923471,237225,252847),[_0xd44ced(71501,917128,86326)]=_0xd44ced(347309,246563,330449),[_0xd44ced(519052,818045,503281)]=8.0,[_0xd44ced(84910,44190,69072)]=40.0,[_0xd44ced(153727,121694,138752)]=24.0,[_0xd44ced(79554,108606,94274)]=(484+_0xa81147(_0xfaf96b(281,253),1)-534)},
-[_0x848d34(843193,326788,309635)]={[_0xe8ebea(300019,318029,196680)]=_0xea489d(804521,804524),[_0xe8ebea(354752,336013,1036297)]=_0xe8ebea(512843,498337,629500),[_0xe8ebea(68471,82615,536656)]=_0xe8ebea(370642,388610,410505),[_0xd44ced(196217,97624,178182)]=true},
-[_0xe8ebea(359488,341419,541945)]={[_0xe8ebea(99866,118692,398753)]=_0xea489d(250014,250008),[_0xd44ced(483214,537640,465286)]=_0xe8ebea(197926,216266,320036),[_0x848d34(959379,186036,168554)]=_0xd44ced(198835,343578,216632),[_0xd44ced(457031,359014,442168)]=true},
-[_0xe8ebea(471203,489806,779450)]={[_0xe8ebea(181105,166607,348362)]=(1470+_0xa81147(_0xfaf96b(583,2041),1)-2617),[_0x848d34(876837,169569,184842)]=_0xe8ebea(266532,284874,173240),[_0xd44ced(434520,673949,452387)]=_0x848d34(329083,241456,256990),[_0x848d34(151264,86307,71105)]=true},
-[_0xe8ebea(231741,245970,474922)]={[_0x848d34(496781,346440,331156)]=_0xea489d(193788,193780),[_0x848d34(623472,422964,405599)]=_0xe8ebea(298813,313037,168977),[_0xd44ced(476904,765741,458899)]=_0xd44ced(438425,34352,456210),[_0xd44ced(118648,150617,100615)]=true},
-[_0xe8ebea(455249,441248,901024)]={[_0x848d34(98101,238320,255532)]=(666+_0xa81147(_0xfaf96b(1319,1981),1)-3291),[_0x848d34(630499,420263,404940)]=_0xe8ebea(415772,397806,553473),[_0xd44ced(511067,730526,494112)]=_0xe8ebea(320240,305969,507805),[_0xe8ebea(512992,498210,627185)]=0.02,[_0x848d34(213127,146261,163764)]=0.25,[_0x848d34(158269,95742,78108)]=0.05,[_0xe8ebea(212421,226304,422366)]=_0xea489d(498656,498658)},
-}
-},
-[_0xd44ced(77573,183701,92587)]={
-[_0xe8ebea(151273,133028,587552)]=_0xd44ced(160279,102535,144569),
-[_0xe8ebea(180151,194062,385181)]=_0xe8ebea(265447,279827,761096),
-[_0xe8ebea(491518,472803,280644)]=false,
-[_0xe8ebea(247752,233075,410918)]=_0xc96c19[23][_0xd44ced(95847,779602,77840)][_0x848d34(709975,286570,269233)],
-[_0x848d34(376582,484035,468511)]=_0xea489d(_0x40b209[221],251),
-[_0xe8ebea(207955,222680,675514)]={
-[_0x848d34(974519,489023,471747)]={[_0x848d34(76223,259194,241830)]=_0xea489d(908121,908120),[_0xd44ced(383629,700715,367749)]=_0xe8ebea(155736,141703,259785),[_0xe8ebea(148013,134125,751882)]=_0xd44ced(440258,14412,455102),[_0x848d34(636770,179057,196497)]=1.0,[_0x848d34(384574,304620,319757)]=8.0,[_0xe8ebea(110402,124550,523909)]=1.5,[_0xd44ced(119930,84614,103162)]=_0xea489d(1024194,1024195)},
-[_0x848d34(893631,113266,130700)]={[_0xe8ebea(446187,427861,89424)]=_0xea489d(832187,832185),[_0xd44ced(156508,854266,140628)]=_0xd44ced(522738,325830,507758),[_0xd44ced(77467,903006,92384)]=_0xd44ced(239210,338404,253974),[_0xd44ced(385904,947073,369933)]=2.0,[_0x848d34(317982,369100,386349)]=4.5,[_0xd44ced(488315,323674,472324)]=3.0,[_0xe8ebea(490591,472474,143428)]=1},
-[_0xd44ced(74028,304715,92060)]={[_0xd44ced(166855,51936,183742)]=(2491+_0xa81147(_0xfaf96b(2356,143),1)-2496),[_0xd44ced(288867,721861,274027)]=_0xd44ced(322429,176462,306636),[_0x848d34(937862,146081,163455)]=_0xd44ced(500687,76865,517555),[_0x848d34(808872,482235,466779)]=3.0,[_0xe8ebea(377184,362659,128177)]=6.0,[_0x848d34(21635,215872,200610)]=4.2,[_0x848d34(494015,494497,511810)]=1},
-[_0xe8ebea(515023,496168,925844)]={[_0xd44ced(89836,204747,71829)]=(2166+_0xa81147(_0xfaf96b(2900,802),1)-3698),[_0xd44ced(89893,930947,71981)]=_0x848d34(422931,158427,143310),[_0x848d34(630532,387619,372477)]=_0xe8ebea(518407,499910,308330),[_0x848d34(647521,191858,174482)]=5.0,[_0x848d34(22951,74357,91796)]=40.0,[_0xe8ebea(335091,349495,216372)]=24.0,[_0xd44ced(133785,169061,150553)]=_0xea489d(_0x40b209[32],234)},
-[_0xe8ebea(189949,175109,897318)]={[_0xd44ced(229435,114972,247362)]=(_0x40b209[124]-179),[_0xd44ced(252201,832143,237345)]=_0xd44ced(89798,638415,71794),[_0xd44ced(240877,1000744,256662)]=_0xe8ebea(429610,444410,354929),[_0xe8ebea(405780,424144,24787)]=true},
-[_0x848d34(241284,522076,504388)]={[_0x848d34(339248,520437,504873)]=6,[_0xe8ebea(244040,258053,589953)]=_0xd44ced(345561,558725,328559),[_0xe8ebea(284850,266610,877461)]=_0xe8ebea(388197,370101,395326),[_0xe8ebea(107321,125693,520958)]=false},
-[_0xd44ced(225209,133987,207123)]={[_0xe8ebea(146759,161017,372476)]=(1899+_0xa81147(_0xfaf96b(1627,304),1)-1924),[_0x848d34(815043,235655,253164)]=_0xd44ced(211667,62253,228472),[_0xd44ced(277983,578586,293796)]=_0xd44ced(230013,373972,247030),[_0xd44ced(444897,346816,429982)]=true},
-[_0xd44ced(99126,990228,116122)]={[_0xd44ced(440008,325615,454833)]=_0xea489d(903303,903311),[_0xe8ebea(263942,282187,966351)]=_0x848d34(984549,287178,271578),[_0xd44ced(391745,594820,375866)]=_0x848d34(502965,114649,129798),[_0xe8ebea(124171,109769,1025818)]=0.02,[_0x848d34(396187,487497,472232)]=0.30,[_0xd44ced(376263,409318,392120)]=0.07,[_0xd44ced(226479,256595,209455)]=_0xea489d(130436,130438)},
-}
-},
-[_0x848d34(236581,395341,413015)]={
-[_0xe8ebea(197499,215606,637618)]=_0xd44ced(388312,58450,371311),
-[_0x848d34(209737,74266,91853)]=_0xe8ebea(86425,71780,546597),
-[_0xe8ebea(365306,383975,435520)]=false,
-[_0x848d34(429504,409941,394636)]=_0xc96c19[_0x40b209[217]-128][_0xe8ebea(198401,216765,804522)][_0xd44ced(403323,159694,418242)],
-[_0x848d34(506215,353442,335998)]=_0xea489d(_0x40b209[235],65),
-[_0xe8ebea(499902,518453,967255)]={
-[_0xe8ebea(382138,367941,100454)]={[_0xd44ced(347313,462230,330440)]=1,[_0xe8ebea(216985,198356,652880)]=_0x848d34(42620,276219,291813),[_0x848d34(718164,426099,443565)]=_0xe8ebea(489826,471203,271375),[_0xd44ced(86458,704843,71623)]=8.0,[_0xd44ced(198475,188539,213301)]=60.0,[_0xe8ebea(511120,492884,105815)]=30.0,[_0xe8ebea(142373,157152,483390)]=_0xea489d(571943,571943)},
-[_0x848d34(196234,510733,495122)]={[_0x848d34(313953,399268,414584)]=(633+_0xa81147(_0xfaf96b(722,171),1)-891),[_0xd44ced(450243,636261,432331)]=_0xe8ebea(331061,345911,540978),[_0xd44ced(81253,906400,97054)]=_0x848d34(83260,480848,463503),[_0x848d34(711949,119070,103934)]=6.0,[_0xe8ebea(456639,441980,180846)]=25.0,[_0xd44ced(157968,125489,143215)]=10.0,[_0x848d34(91730,91212,73903)]=0},
-[_0xd44ced(240950,168649,256904)]={[_0xe8ebea(381675,367445,147792)]=3,[_0xe8ebea(300181,318936,929116)]=_0x848d34(373166,416427,401289),[_0xe8ebea(274176,288448,857127)]=_0xd44ced(168688,269694,185484),[_0xd44ced(278362,1028011,293159)]=1.2,[_0x848d34(457303,491909,509284)]=5.0,[_0xd44ced(210401,46784,226206)]=2.4,[_0x848d34(396736,397278,412477)]=_0xea489d(282355,282354)},
-[_0xe8ebea(68130,81959,147333)]={[_0xe8ebea(416690,397836,116745)]=_0xea489d(868980,868976),[_0x848d34(574630,472034,489353)]=_0x848d34(762286,97988,80864),[_0xe8ebea(138209,152097,729286)]=_0xe8ebea(91053,76396,147136),[_0xe8ebea(176248,195002,848489)]=3.1,[_0xd44ced(342264,319432,360070)]=6.0,[_0xd44ced(105946,139003,121765)]=4.2,[_0xe8ebea(388993,370244,41882)]=_0xea489d(669813,669812)},
-[_0xe8ebea(366035,384051,836414)]={[_0x848d34(399960,313245,295745)]=(2717+_0xa81147(_0xfaf96b(956,2337),1)-3288),[_0xe8ebea(431162,449911,798195)]=_0xd44ced(487813,290993,472857),[_0xd44ced(375150,610475,392981)]=_0xe8ebea(135587,153698,85198),[_0xe8ebea(305855,320381,714926)]=2.5,[_0x848d34(256935,168053,185492)]=3.8,[_0xd44ced(306480,470545,322383)]=3.0,[_0xd44ced(429622,397514,444598)]=(_0x40b209[80]-243)},
-[_0xd44ced(80750,139074,97708)]={[_0xe8ebea(368130,382908,134585)]=(3701+_0xa81147(_0xfaf96b(1128,2589),1)-3711),[_0xe8ebea(419589,405064,843468)]=_0x848d34(863563,117793,100615),[_0xe8ebea(298877,313021,898138)]=_0x848d34(34947,433135,450352),[_0x848d34(1013259,293400,278264)]=0.25,[_0xe8ebea(228321,209442,478768)]=1.20,[_0xd44ced(227535,64494,212656)]=0.45,[_0x848d34(241662,241120,256259)]=2},
-[_0xd44ced(122043,156648,104998)]={[_0xe8ebea(359448,341414,192419)]=(1268+_0xa81147(_0xfaf96b(1130,158),1)-1281),[_0x848d34(726888,319532,304199)]=_0xe8ebea(226930,212091,530136),[_0xe8ebea(481702,462950,942721)]=_0x848d34(125847,515942,498575),[_0xd44ced(374373,412320,389346)]={_0xd44ced(68420,716106,85467),_0xd44ced(220532,861798,203732)},[_0xd44ced(292377,521528,274534)]=_0x848d34(940363,336807,353957)},
-[_0xe8ebea(358490,340413,819969)]={[_0xd44ced(516639,369464,500838)]=8,[_0xe8ebea(191881,173252,545856)]=_0xd44ced(114284,802099,129193),[_0xd44ced(371884,607593,387799)]=_0xd44ced(481068,120994,463184),[_0xe8ebea(334195,348337,744290)]=4.0,[_0xe8ebea(470909,485054,203436)]=35.0,[_0x848d34(155566,82029,66703)]=16.0,[_0xe8ebea(144911,163786,490004)]=(2600+_0xa81147(_0xfaf96b(383,2903),1)-3286)},
-[_0xd44ced(316695,906177,299967)]={[_0x848d34(457477,272064,287260)]=(3214+_0xa81147(_0xfaf96b(2422,1528),1)-3941),[_0x848d34(559830,490898,473593)]=_0xe8ebea(359596,341314,248112),[_0xd44ced(203807,1045978,219748)]=_0xe8ebea(459832,478696,319587),[_0xd44ced(476725,312596,458826)]=true},
-[_0xe8ebea(514577,496638,224262)]={[_0xe8ebea(129380,110810,420575)]=10,[_0xd44ced(144759,876241,160639)]=_0xd44ced(343310,455920,359333),[_0xd44ced(257924,984641,240127)]=_0xe8ebea(95384,81224,168131),[_0xd44ced(256828,26653,240963)]=true},
-[_0x848d34(662659,185821,168180)]={[_0xd44ced(205564,91099,222341)]=(_0x40b209[163]-9),[_0x848d34(889874,156502,141117)]=_0xe8ebea(89374,71442,28047),[_0xd44ced(464953,782844,482882)]=_0xd44ced(377727,259542,361972),[_0x848d34(38299,232024,249530)]=true},
-}
-},
-[_0xe8ebea(300888,318805,844861)]={
-[_0xe8ebea(126907,108278,743026)]=_0xd44ced(474484,696126,490428),
-[_0xd44ced(193437,32300,177641)]=_0xd44ced(435769,369403,450800),
-[_0xd44ced(395501,60776,412981)]=false,
-[_0x848d34(214996,232257,249752)]=_0xc96c19[23][_0xd44ced(473413,895600,491314)][_0xd44ced(494118,630009,511070)],
-[_0x848d34(261723,74654,91970)]=_0xea489d(695456,695461),
-[_0xe8ebea(394690,412745,1009451)]={
-[_0x848d34(512421,164822,182011)]={[_0xe8ebea(434819,453437,78136)]=(1236+_0xa81147(_0xfaf96b(83,1159),1)-1241),[_0xd44ced(503599,574601,518439)]=_0xe8ebea(374929,389761,712025),[_0xe8ebea(348141,329261,816330)]=_0xd44ced(177587,189892,193477),[_0xe8ebea(345652,331760,202739)]=_0xc96c19[23][_0x848d34(646533,250450,235144)][_0x848d34(99110,67602,85309)]},
-[_0x848d34(411357,213444,197876)]={[_0xe8ebea(324895,310433,222884)]=(2466+_0xa81147(_0xfaf96b(2277,327),1)-2602),[_0xe8ebea(80285,94416,753748)]=_0xe8ebea(257288,239387,242082),[_0xd44ced(102914,883655,119929)]=_0xd44ced(179177,275559,195989),[_0x848d34(1027405,303454,320958)]=3.0,[_0x848d34(458702,492572,508157)]=4.5,[_0xe8ebea(354523,336159,211228)]=4.5,[_0xd44ced(404973,439057,420717)]=_0xea489d(_0x40b209[233],157)},
-[_0xe8ebea(169613,187545,923176)]={[_0xd44ced(82183,196640,67454)]=(1312+_0xa81147(_0xfaf96b(510,1246),1)-1753),[_0xe8ebea(465191,479338,893166)]=_0xe8ebea(219012,204177,770708),[_0xe8ebea(523066,504570,966685)]=_0xe8ebea(193807,179406,108642),[_0xe8ebea(425997,444879,573980)]=20,[_0xe8ebea(247823,229836,523742)]=(_0x40b209[203]+39),[_0xd44ced(355635,454162,338764)]=_0xea489d(32750,32689),[_0xe8ebea(90689,76676,274010)]=(2060+_0xa81147(_0xfaf96b(391,2443),1)-2834)},
-[_0x848d34(705040,209765,226897)]={[_0xe8ebea(446964,432202,82511)]=_0xea489d(683056,683060),[_0x848d34(672979,373655,391164)]=_0xd44ced(115885,825145,98943),[_0x848d34(564944,322551,306985)]=_0xe8ebea(171380,185525,114713),[_0x848d34(562742,236069,253637)]=1,[_0xe8ebea(145952,160739,397297)]=_0xea489d(_0x40b209[200],128),[_0x848d34(262744,466331,481657)]=_0xea489d(541381,541380),[_0xe8ebea(507959,494066,166956)]=_0xea489d(_0x40b209[126],154)},
-[_0x848d34(66003,283423,267817)]={[_0x848d34(98828,221129,203541)]=_0xea489d(115067,115070),[_0xe8ebea(216718,198595,653127)]=_0xd44ced(357708,797863,340888),[_0xe8ebea(233372,247388,701627)]=_0xd44ced(106718,497271,124501),[_0x848d34(18251,219272,203882)]=true},
-[_0x848d34(1032284,171963,187011)]={[_0xd44ced(288806,403713,274015)]=(1134+_0xa81147(_0xfaf96b(164,1226),1)-1384),[_0xd44ced(436095,642265,450935)]=_0x848d34(280003,462848,480569),[_0x848d34(784857,494846,509984)]=_0xd44ced(332466,205851,349241),[_0x848d34(22,204757,219959)]=true},
-[_0x848d34(376871,424570,409408)]={[_0x848d34(4508,183385,166021)]=7,[_0xe8ebea(76875,91398,759170)]=_0x848d34(604019,378957,363894),[_0xe8ebea(105206,119606,565713)]=_0x848d34(244090,332593,350175),[_0xe8ebea(455224,441340,41983)]=true},
-[_0xd44ced(69937,175714,87980)]={[_0xe8ebea(108734,123136,408325)]=_0xea489d(479043,479051),[_0xd44ced(509187,568997,492299)]=_0xe8ebea(322289,303352,1018459),[_0xd44ced(193940,924753,177135)]=_0xe8ebea(140048,158427,88554),[_0xd44ced(144235,118702,161260)]={_0x848d34(712017,108972,126120),_0x848d34(801054,188142,170989)},[_0xd44ced(128871,160838,110872)]=_0xd44ced(240045,541106,257804)},
-[_0xe8ebea(498311,512872,208016)]={[_0x848d34(506962,352663,337227)]=_0xea489d(206576,206585),[_0xe8ebea(156987,142454,580850)]=_0xd44ced(80239,192657,98244),[_0xd44ced(354411,623022,339472)]=_0xd44ced(245010,363451,261017),[_0xe8ebea(442749,428217,37050)]=true},
-}
-},
-[_0xd44ced(430988,823591,447829)]={
-[_0x848d34(975652,70752,86027)]=_0xe8ebea(129399,111465,928480),
-[_0x848d34(375708,502479,519704)]=_0x848d34(256810,393054,375395),
-[_0xd44ced(114450,481943,129738)]=false,
-[_0xd44ced(355115,342876,339293)]=_0xc96c19[23][_0x848d34(644500,252483,237209)][_0x848d34(40615,327281,310095)],
-[_0x848d34(33290,155599,138003)]=_0xea489d(119747,119749),
-[_0xe8ebea(489135,474916,922694)]={
-[_0x848d34(892569,99924,115370)]={[_0xe8ebea(503362,518140,15865)]=_0xea489d(734677,734676),[_0xe8ebea(514023,499370,880174)]=_0xd44ced(140267,74463,157047),[_0xe8ebea(217847,203575,682448)]=_0x848d34(272058,144854,160009),[_0x848d34(708125,115214,100078)]=2.0,[_0x848d34(131724,227678,212415)]=4.2,[_0x848d34(66160,138675,153937)]=3.0,[_0x848d34(378822,378328,360763)]=_0xea489d(337702,337703)},
-[_0xe8ebea(239249,257200,637037)]={[_0x848d34(29194,176079,191251)]=_0xea489d(_0x40b209[70],153),[_0xe8ebea(319752,305221,940225)]=_0x848d34(489476,415748,400708),[_0xd44ced(415610,704191,397569)]=_0xd44ced(95458,523116,78494),[_0xe8ebea(79523,98145,1012914)]=2.5,[_0x848d34(178433,246483,230962)]=6.0,[_0xe8ebea(174197,188849,326066)]=4.2,[_0xe8ebea(504825,522812,196578)]=_0xea489d(316978,316979)},
-[_0xe8ebea(214088,200299,1045527)]={[_0xd44ced(111232,258983,128249)]=(_0x40b209[89]-63),[_0x848d34(770392,275996,291447)]=_0xd44ced(104133,993092,118785),[_0xe8ebea(419327,404543,1007320)]=_0xe8ebea(169169,187674,126507),[_0xd44ced(187302,75619,171297)]={_0xd44ced(349827,962701,331804),_0xe8ebea(419191,404625,548780),_0x848d34(585744,424493,409334)},[_0x848d34(83001,154618,139032)]=_0xe8ebea(383850,365198,782242)},
-[_0xd44ced(156513,936703,140739)]={[_0x848d34(470340,389249,373853)]=4,[_0x848d34(711796,338736,356187)]=_0xd44ced(137184,983780,151875),[_0x848d34(878884,72707,88285)]=_0xe8ebea(416459,398090,329638),[_0xe8ebea(97315,79329,998962)]=5.0,[_0x848d34(42921,121979,104602)]=35.0,[_0x848d34(134292,70487,87989)]=18.0,[_0xe8ebea(346039,331378,2988)]=0},
-[_0xe8ebea(231494,246370,324488)]={[_0xd44ced(192267,44588,174450)]=(_0x40b209[88]-234),[_0x848d34(972725,73969,91290)]=_0xe8ebea(117111,99154,1024837),[_0xd44ced(151210,960367,133329)]=_0xe8ebea(89566,70687,131251),[_0xe8ebea(136955,155449,808170)]=0.50,[_0xe8ebea(388187,370072,121226)]=1.00,[_0xe8ebea(113704,128492,519663)]=0.92,[_0xd44ced(245382,204922,260102)]=_0xea489d(594316,594318)},
-[_0xe8ebea(147671,133873,214889)]={[_0xd44ced(410952,263279,394033)]=_0xea489d(363065,363071),[_0xe8ebea(104329,122564,732736)]=_0xe8ebea(69332,83187,975190),[_0x848d34(577076,310035,327629)]=_0xe8ebea(311390,297358,467973),[_0x848d34(129181,190302,172988)]=true},
-[_0xe8ebea(380104,362208,712438)]={[_0x848d34(321825,406756,421944)]=_0xea489d(_0x40b209[231],247),[_0xe8ebea(305132,323233,925221)]=_0x848d34(579550,259963,242236),[_0xd44ced(518612,720913,503727)]=_0xe8ebea(194593,176625,72826),[_0xd44ced(241002,11851,256789)]=false},
-[_0x848d34(858219,267528,282688)]={[_0xd44ced(133413,18434,151388)]=_0xea489d(_0x40b209[96],194),[_0x848d34(684699,361951,377268)]=_0xd44ced(247249,205100,230199),[_0xe8ebea(358012,343996,806235)]=_0x848d34(317343,189294,173959),[_0x848d34(100668,190747,175601)]={_0xd44ced(182335,980195,167640),_0xd44ced(86436,775183,70762),_0x848d34(783567,263680,279371)},[_0xd44ced(354497,453600,339646)]=_0xe8ebea(379215,361315,795805)},
-}
-},
-[_0xe8ebea(110602,129572,693310)]={
-[_0xd44ced(360081,660791,342169)]=_0xd44ced(189192,792112,173537),
-[_0xe8ebea(161173,146476,338623)]=_0xd44ced(151298,834106,133611),
-[_0xe8ebea(457276,439073,380294)]=false,
-[_0xd44ced(223041,210742,205111)]=_0xc96c19[23][_0xe8ebea(159241,141237,864162)][_0x848d34(840855,155306,137841)],
-[_0x848d34(504349,356312,338692)]=(1980+_0xa81147(_0xfaf96b(616,1492),1)-2101),
-[_0xe8ebea(144023,162588,741502)]={
-[_0xe8ebea(288037,274186,716614)]={[_0xd44ced(465910,350929,482703)]=_0xea489d(_0x40b209[229],175),[_0xe8ebea(234238,252851,600887)]=_0x848d34(170127,499606,514726),[_0xd44ced(283524,571969,267775)]=_0xe8ebea(183988,165749,103385),[_0xd44ced(293970,1043619,277039)]=2.5,[_0xd44ced(140341,246533,156235)]=4.0,[_0x848d34(331155,397904,415410)]=3.0,[_0xd44ced(332967,363099,348711)]=_0xea489d(_0x40b209[73],201)},
-[_0x848d34(515983,387493,371943)]={[_0x848d34(33298,155607,137995)]=_0xea489d(666133,666135),[_0xd44ced(91144,921518,74240)]=_0xe8ebea(249846,230867,894404),[_0xe8ebea(379683,361187,847876)]=_0xd44ced(90712,519638,74788),[_0xd44ced(292449,1042064,274460)]=0.70,[_0xd44ced(123766,1094,107784)]=1.00,[_0x848d34(473514,271977,287371)]=0.92,[_0xd44ced(296994,267998,315042)]=_0xea489d(320568,320570)},
-[_0xd44ced(513529,857805,496410)]={[_0xe8ebea(228890,210852,322977)]=(2992+_0xa81147(_0xfaf96b(560,2432),1)-2989),[_0xe8ebea(324743,310730,937294)]=_0xe8ebea(513637,498764,637737),[_0xe8ebea(69827,88323,535524)]=_0x848d34(307628,138215,155401),[_0xd44ced(397641,365160,415542)]=false},
-}
-},
-[_0x848d34(146593,300598,316280)]={
-[_0x848d34(924890,125854,110581)]=_0xe8ebea(498230,512006,294225),
-[_0xe8ebea(399168,417529,84074)]=_0x848d34(986425,480453,463242),
-[_0x848d34(497397,126866,109481)]=false,
-[_0xd44ced(168903,181168,185777)]=_0xc96c19[_0x40b209[114]-89][_0x848d34(610396,221067,203601)][_0x848d34(798546,173423,188852)],
-[_0x848d34(126691,209702,227322)]=(_0x40b209[20]-89),
-[_0xd44ced(446325,687925,428339)]={
-[_0x848d34(1046365,274641,292252)]={[_0xd44ced(159379,12212,141546)]=(203+_0xa81147(_0xfaf96b(1176,1107),1)-2282),[_0x848d34(535655,514851,499528)]=_0xe8ebea(308165,326122,670118),[_0x848d34(607311,340328,357814)]=_0x848d34(300589,165185,180638),[_0xe8ebea(131155,149905,803394)]=2.0,[_0x848d34(489336,396458,411723)]=4.0,[_0xd44ced(444921,346840,429958)]=3.0,[_0xd44ced(518069,489801,500021)]=1},
-[_0xe8ebea(478865,459939,486322)]={[_0xd44ced(264562,411733,282379)]=(3662+_0xa81147(_0xfaf96b(1229,2691),1)-3918),[_0xd44ced(202631,818209,217487)]=_0xd44ced(97014,54967,80920),[_0xe8ebea(105732,120004,566819)]=_0x848d34(346597,254894,239424),[_0xd44ced(298693,462308,313530)]=true},
-[_0xe8ebea(139390,158097,431721)]={[_0xe8ebea(205954,224572,309049)]=_0xea489d(655696,655699),[_0xd44ced(155674,854972,140818)]=_0x848d34(286334,461666,478828),[_0xe8ebea(213658,199514,686525)]=_0xe8ebea(272964,287636,511519),[_0x848d34(320865,522914,507456)]=true},
-[_0xe8ebea(448952,430988,829356)]={[_0x848d34(104414,215579,200391)]=(2794+_0xa81147(_0xfaf96b(2596,206),1)-2798),[_0x848d34(944872,105900,121287)]=_0xe8ebea(285852,267630,685697),[_0xe8ebea(350632,331880,811663)]=_0xe8ebea(500552,518793,327205),[_0xe8ebea(344244,330102,721573)]=0.03,[_0xd44ced(153973,245317,139019)]=0.25,[_0xd44ced(315693,479756,300882)]=0.08,[_0xd44ced(411541,448873,393493)]=_0xea489d(102256,102258)},
-}
-},
-[_0x848d34(693125,92908,77759)]={
-[_0x848d34(966168,84316,68919)]=_0xd44ced(411686,863661,397014),
-[_0xe8ebea(394076,412389,89206)]=_0xe8ebea(319285,300291,43662),
-[_0xd44ced(374910,220667,392614)]=false,
-[_0xe8ebea(416066,397561,252844)]=_0xc96c19[_0x40b209[138]-58][_0x848d34(936202,280285,262663)][_0xe8ebea(142514,156943,649458)],
-[_0xe8ebea(359151,340817,190804)]=(2942+_0xa81147(_0xfaf96b(2778,420),1)-3189),
-[_0xe8ebea(167578,182033,781427)]={
-[_0xd44ced(232814,337277,248808)]={[_0x848d34(233344,86597,71321)]=(1594+_0xa81147(_0xfaf96b(525,1079),1)-1603),[_0xd44ced(508425,567727,492545)]=_0xd44ced(247630,356189,229832),[_0xd44ced(469276,770265,487271)]=_0xd44ced(434902,2757,451664),[_0xe8ebea(83594,69446,485537)]={_0x848d34(607750,222353,205252),_0xd44ced(107112,942065,124059)},[_0x848d34(5306,199545,216987)]=_0xe8ebea(395040,412951,616512)},
-[_0xd44ced(486052,855603,470096)]={[_0xd44ced(113275,260956,130050)]=2,[_0x848d34(943910,102498,119817)]=_0x848d34(121577,183118,167446),[_0x848d34(1041030,235425,250751)]=_0x848d34(264943,137603,154972),[_0xe8ebea(313053,298783,689356)]=4.0,[_0x848d34(206387,155105,137472)]=20.0,[_0xe8ebea(470073,484861,97790)]=14.0,[_0x848d34(223838,223296,208035)]=_0xea489d(865905,865904)},
-[_0x848d34(550866,396726,411887)]={[_0xd44ced(151048,3887,133233)]=(1937+_0xa81147(_0xfaf96b(1880,201),1)-2078),[_0xd44ced(304901,773283,319757)]=_0x848d34(293198,154848,137658),[_0xd44ced(151457,960100,133594)]=_0xe8ebea(386898,372371,440895),[_0xd44ced(339849,966520,354804)]=0.05,[_0xd44ced(404181,511461,421035)]=0.40,[_0xd44ced(515608,286009,497767)]=0.12,[_0x848d34(94989,94483,79344)]=_0xea489d(_0x40b209[60],104)},
-}
-},
-[_0x848d34(592892,109400,126467)]={
-[_0x848d34(899176,151340,133959)]=_0x848d34(741550,258058,243025),
-[_0xd44ced(435846,273207,450802)]=_0xd44ced(269496,1030818,285249),
-[_0xe8ebea(270420,289097,464878)]=false,
-[_0x848d34(407610,455855,438390)]=_0xc96c19[_0x40b209[5]-146][_0xe8ebea(122461,104417,958454)][_0x848d34(731076,372217,387362)],
-[_0xd44ced(234166,119697,251087)]=(1478+_0xa81147(_0xfaf96b(1765,803),1)-2558),
-[_0x848d34(906121,130859,113538)]={
-[_0xe8ebea(506012,520869,527632)]={[_0xe8ebea(507779,521789,11320)]=_0xea489d(646965,646964),[_0xd44ced(275022,743912,291910)]=_0xd44ced(469300,463724,487374),[_0x848d34(733773,477034,459700)]=_0xd44ced(376654,209088,391474),[_0x848d34(630030,168221,185853)]=4.0,[_0x848d34(60026,102824,120137)]=19.0,[_0x848d34(115103,187996,170686)]=13.0,[_0xe8ebea(317483,299502,103472)]=_0xea489d(838781,838780)},
-[_0x848d34(218236,175172,190793)]={[_0x848d34(520494,339179,354359)]=(1662+_0xa81147(_0xfaf96b(841,1335),1)-2174),[_0xe8ebea(162653,143888,574100)]=_0xd44ced(160573,113347,144790),[_0x848d34(1046931,232628,247914)]=_0xd44ced(167281,310232,183290),[_0xd44ced(483702,320087,468745)]=true},
-}
-},
-[_0xd44ced(520141,347244,502070)]={
-[_0xe8ebea(247257,232596,621584)]=_0x848d34(93807,217388,201842),
-[_0xe8ebea(169950,188007,379124)]=_0x848d34(401345,270466,288220),
-[_0xd44ced(518091,66126,500243)]=false,
-[_0x848d34(242331,228878,211671)]=_0xc96c19[23][_0x848d34(541627,150636,133302)][_0xd44ced(439295,566560,456071)],
-[_0xe8ebea(241811,260397,271144)]=(536+_0xa81147(_0xfaf96b(77,597),1)-663),
-[_0xe8ebea(208986,227793,676531)]={
-[_0xe8ebea(465501,480150,286887)]={[_0xd44ced(351986,466901,333963)]=(_0x40b209[53]-177),[_0xe8ebea(216052,197305,651837)]=_0x848d34(213849,358312,340801),[_0xe8ebea(95658,81002,544397)]=_0xe8ebea(133169,147962,94923),[_0xe8ebea(365104,383996,244763)]={_0xe8ebea(114977,101216,710931),_0xd44ced(314372,657868,297721),_0xd44ced(185212,457257,169346)},[_0xe8ebea(233233,247509,384726)]=_0xe8ebea(402955,420938,867897)},
-[_0xd44ced(202265,602505,217318)]={[_0x848d34(248717,71240,86676)]=(96+_0xa81147(_0xfaf96b(571,603),1)-1172),[_0xe8ebea(233095,247754,603982)]=_0x848d34(60143,144773,159974),[_0x848d34(648883,365460,382794)]=_0xe8ebea(446827,432298,363526),[_0xd44ced(423162,910347,406151)]=_0xea489d(_0x40b209[59],255),[_0x848d34(250367,174637,192204)]=(382+_0xa81147(_0xfaf96b(1454,1232),1)-2586),[_0xe8ebea(335398,350178,217057)]=_0xea489d(603304,603304),[_0x848d34(135777,135295,152732)]=0},
-}
-},
-[_0x848d34(918624,476999,459299)]={
-[_0x848d34(760416,290084,272719)]=_0x848d34(960747,519116,503464),
-[_0xd44ced(447504,285089,430692)]=_0xd44ced(162087,763618,146982),
-[_0xe8ebea(92301,74128,155447)]=true,
-[_0xe8ebea(496230,515037,135304)]=_0xc96c19[_0x40b209[68]-100][_0xd44ced(72542,755819,89385)][_0xe8ebea(133674,148375,642666)],
-[_0xd44ced(279396,393795,263453)]=12,
-[_0x848d34(919362,142304,159561)]={
-[_0xd44ced(202965,128221,221143)]={[_0x848d34(97827,238566,255802)]=(3879+_0xa81147(_0xfaf96b(1865,2158),1)-4022),[_0x848d34(757300,293232,277787)]=_0xd44ced(403272,314176,417866),[_0xd44ced(104436,884273,119183)]=_0xd44ced(139439,297148,157225),[_0xd44ced(188939,73422,173196)]={_0xe8ebea(483876,469100,794954),_0x848d34(525047,339779,354852),_0x848d34(901890,482888,465696),_0xe8ebea(157526,142621,704731),_0xd44ced(147747,459143,132644),_0xd44ced(347197,529982,330549)},[_0xe8ebea(278984,264204,135183)]=_0xe8ebea(445675,427682,961750)},
-[_0x848d34(314084,307963,325554)]={[_0xd44ced(216612,69379,198749)]=(_0x40b209[76]-126),[_0xd44ced(507489,579015,522345)]=_0xe8ebea(81876,95743,264736),[_0x848d34(1009867,204268,219442)]=_0xe8ebea(359366,340493,393532),[_0xe8ebea(343194,357718,201393)]={_0xd44ced(323215,578131,305256),_0xe8ebea(518564,500714,111597),_0xe8ebea(490397,471506,701798)},[_0xe8ebea(372955,391455,254236)]=_0x848d34(970183,159225,141491)},
-[_0xe8ebea(163773,144877,856395)]={[_0xd44ced(331430,479105,346335)]=_0xea489d(919479,919476),[_0xe8ebea(216886,198267,653055)]=_0xe8ebea(340370,359363,121599),[_0xd44ced(347470,631947,330549)]=_0xd44ced(423794,16859,406009),[_0xd44ced(157924,125893,143003)]=true},
-[_0x848d34(58868,226716,209132)]={[_0x848d34(284299,428878,446354)]=(3239+_0xa81147(_0xfaf96b(129,3110),1)-3235),[_0xe8ebea(233566,252179,600471)]=_0x848d34(965734,219022,201471),[_0xd44ced(224102,1016483,208157)]=_0x848d34(273350,164237,181603),[_0xe8ebea(251870,237082,362009)]=false},
-[_0x848d34(1046079,100416,118066)]={[_0xe8ebea(480205,465523,49270)]=5,[_0xd44ced(494735,583465,510599)]=_0xe8ebea(398419,417286,676889),[_0xe8ebea(161419,147275,740780)]=_0xe8ebea(479621,464981,308702),[_0xd44ced(395155,361650,410092)]=false},
-[_0xe8ebea(447601,433703,125867)]={[_0xe8ebea(440985,455463,76066)]=(_0x40b209[182]-78),[_0xe8ebea(455257,441108,805776)]=_0xd44ced(343850,270558,358456),[_0xe8ebea(458102,439478,1033809)]=_0xd44ced(258362,378771,243633),[_0xe8ebea(102101,116497,515858)]=true},
-[_0x848d34(836406,293773,278267)]={[_0xe8ebea(92313,74023,457506)]=(_0x40b209[93]-54),[_0xd44ced(482666,538316,465762)]=_0xe8ebea(520582,506847,436609),[_0xd44ced(475768,764861,459779)]=_0x848d34(272322,144558,159857),[_0x848d34(672702,85933,68429)]=_0xea489d(273381,273381),[_0xe8ebea(312635,298232,61674)]=(329+_0xa81147(_0xfaf96b(883,570),1)-1198),[_0xe8ebea(510190,491818,104745)]=(_0x40b209[122]+8),[_0xe8ebea(322456,303709,108419)]=(_0x40b209[83]-13),[_0x848d34(470540,488569,471297)]=function(_0x80e662)return not _0x80e662[_0xd44ced(472263,383593,488406)][_0xe8ebea(345994,331342,202317)]end},
-[_0x848d34(349632,256161,241112)]={[_0xd44ced(452981,305234,438028)]=(127+_0xa81147(_0xfaf96b(25,102),1)-119),[_0x848d34(769027,281415,266028)]=_0xe8ebea(170234,184998,914492),[_0x848d34(950613,193650,176300)]=_0x848d34(209267,336415,353984),[_0xe8ebea(452455,437925,566646)]=0,[_0xe8ebea(73458,87857,338723)]=(4013+_0xa81147(_0xfaf96b(3141,1000),1)-3886),[_0xe8ebea(417137,398517,3254)]=(501+_0xa81147(_0xfaf96b(44,473),1)-433),[_0xe8ebea(362231,380722,51948)]=(2231+_0xa81147(_0xfaf96b(2491,268),1)-2759),[_0xe8ebea(483961,469027,161174)]=function(_0x80e662)return not _0x80e662[_0xe8ebea(130077,112203,443335)][_0xd44ced(467618,303491,484573)]end},
-[_0x848d34(502559,335861,350862)]={[_0xe8ebea(125294,106704,424661)]=_0xea489d(702313,702304),[_0x848d34(540915,505783,521180)]=_0xe8ebea(209912,227750,923368),[_0xe8ebea(489750,471254,934449)]=_0xd44ced(404935,41545,420795),[_0xe8ebea(315693,301295,693052)]=(1244+_0xa81147(_0xfaf96b(2045,801),1)-2846),[_0xd44ced(269818,391882,285572)]=255,[_0x848d34(151985,85618,68240)]=(_0x40b209[116]-165),[_0x848d34(394303,394785,410306)]=(568+_0xa81147(_0xfaf96b(1722,1154),1)-2876),[_0xd44ced(504741,488754,521392)]=function(_0x80e662)return not _0x80e662[_0x848d34(6402,158542,142906)][_0xe8ebea(404535,419315,32240)]end},
-[_0xd44ced(498932,182961,515054)]={[_0x848d34(47919,157418,139830)]=(3718+_0xa81147(_0xfaf96b(609,3303),1)-3902),[_0xd44ced(491143,529697,473231)]=_0xe8ebea(179181,192946,146645),[_0x848d34(564850,322389,307083)]=_0x848d34(188147,314783,297280),[_0x848d34(610132,148295,133031)]=_0xea489d(536160,536170),[_0xd44ced(339542,313702,354344)]=_0xea489d(865585,865742),[_0x848d34(109951,176828,194142)]=(553+_0xa81147(_0xfaf96b(591,102),1)-528),[_0xe8ebea(341420,359529,31159)]=_0xea489d(1042001,1042001)},
-[_0xe8ebea(264264,279080,8237)]={[_0xe8ebea(177061,195099,335902)]=_0xea489d(260158,260149),[_0x848d34(910971,135487,152916)]=_0xe8ebea(220672,201825,867095),[_0xe8ebea(421195,402571,1005164)]=_0xe8ebea(446870,432215,363771),[_0xd44ced(445509,875700,428600)]=(415+_0xa81147(_0xfaf96b(498,109),1)-602),[_0xd44ced(241083,150155,256965)]=_0xea489d(_0x40b209[9],233),[_0xd44ced(462799,298222,477616)]=_0xea489d(_0x40b209[5],158),[_0x848d34(223543,224041,208842)]=(_0x40b209[235]-69),[_0xd44ced(304547,287540,320182)]=function(_0x80e662)return _0x80e662[_0xd44ced(228418,102474,211776)][_0x848d34(434704,376275,391473)]==_0x848d34(724828,402152,419727)end},
-[_0xe8ebea(121777,102867,993402)]={[_0xd44ced(388213,503122,371212)]=(4020+_0xa81147(_0xfaf96b(3118,922),1)-4028),[_0xd44ced(352362,658380,337506)]=_0xe8ebea(516023,497108,954258),[_0x848d34(614489,333182,348576)]=_0xe8ebea(356589,342316,404864),[_0xd44ced(176711,598710,193594)]=0.0,[_0x848d34(449552,501698,516899)]=5.0,[_0xe8ebea(352495,338219,209192)]=1.5,[_0xd44ced(120176,84876,103408)]=(1514+_0xa81147(_0xfaf96b(743,1805),1)-2547),[_0xd44ced(80081,130630,98244)]=function(_0x80e662)return _0x80e662[_0xd44ced(450390,275294,432212)][_0xd44ced(248539,18938,232612)]==_0x848d34(789887,73931,91564)end},
-[_0xe8ebea(220904,201868,513237)]={[_0xd44ced(425263,277512,408406)]=_0xea489d(_0x40b209[124],181),[_0xd44ced(380043,698157,363139)]=_0xe8ebea(316063,301307,22690),[_0xe8ebea(316468,302580,913171)]=_0x848d34(220004,346120,330967),[_0x848d34(914367,458668,441164)]=_0xea489d(570316,570317),[_0xd44ced(507531,416187,522485)]=(971+_0xa81147(_0xfaf96b(639,436),1)-1072),[_0xd44ced(232993,3328,247902)]=(2655+_0xa81147(_0xfaf96b(2074,581),1)-2654),[_0xe8ebea(247307,233422,428560)]=0,[_0x848d34(198690,217687,202543)]=function(_0x80e662)return _0x80e662[_0xe8ebea(368571,382460,172758)][_0x848d34(281356,480463,462893)]~=_0x848d34(710331,317533,302395)end},
-[_0x848d34(607081,287111,271364)]={[_0xd44ced(369662,516825,386439)]=(_0x40b209[212]-176),[_0xd44ced(504332,580010,521220)]=_0x848d34(11762,344058,359038),[_0xd44ced(458516,661201,440687)]=_0xd44ced(338589,238867,355553),[_0x848d34(720753,127842,112514)]=0.00,[_0xe8ebea(210999,225780,462310)]=1.00,[_0xd44ced(328294,426311,345113)]=0.30,[_0x848d34(376188,376674,392065)]=_0xea489d(750367,750365),[_0xd44ced(297669,281682,314832)]=function(_0x80e662)local _0x5245d3=_0x80e662[_0xd44ced(385015,472063,366837)][_0xe8ebea(360660,379152,250131)]return _0x5245d3==_0x848d34(883856,516570,500914)or _0x5245d3==_0xe8ebea(419545,404626,966996)or _0x5245d3==_0xd44ced(332917,21713,349042)or _0x5245d3==_0xe8ebea(490438,471435,1044650)end},
-[_0xe8ebea(375537,389270,986582)]={[_0xe8ebea(446999,433065,82348)]=(_0x40b209[48]-101),[_0x848d34(683845,366593,384106)]=_0xe8ebea(351075,332043,568948),[_0xd44ced(397634,718983,415545)]=_0xe8ebea(277341,291484,484912),[_0xd44ced(477985,842704,462172)]=0.00,[_0xe8ebea(205062,223429,464087)]=1.00,[_0x848d34(523257,320570,303320)]=0.65,[_0xd44ced(255398,228186,238374)]=_0xea489d(364859,364857),[_0xd44ced(268281,315758,282860)]=function(_0x80e662)local _0x5245d3=_0x80e662[_0x848d34(390500,492942,508139)][_0x848d34(473456,272051,287313)]return _0x5245d3==_0xe8ebea(185359,171589,853199)or _0x5245d3==_0xe8ebea(359485,341622,908208)or _0x5245d3==_0x848d34(324100,77378,92968)or _0x5245d3==_0xd44ced(511714,693473,494058)end},
-[_0xe8ebea(268530,283291,253384)]={[_0x848d34(379143,464066,479262)]=_0xea489d(8460,8476),[_0xd44ced(403411,609397,418267)]=_0xe8ebea(291587,276841,307579),[_0x848d34(526865,294710,277480)]=_0xd44ced(279700,183066,262888),[_0xe8ebea(357169,342771,733472)]=0.000,[_0xe8ebea(340337,358578,66720)]=0.080,[_0x848d34(337428,408023,425269)]=0.024,[_0x848d34(159364,158874,141433)]=(142+_0xa81147(_0xfaf96b(55,185),1)-237),[_0xe8ebea(474584,489346,141879)]=function(_0x80e662)return _0x80e662[_0xd44ced(332758,524254,349396)][_0xd44ced(384103,417606,367128)]==_0x848d34(827229,95579,77874)end},
-[_0xd44ced(295973,92405,312067)]={[_0xd44ced(506374,391969,523391)]=_0xea489d(766378,766395),[_0xe8ebea(275045,293672,953260)]=_0xe8ebea(511213,493185,579733),[_0xd44ced(348978,637687,333129)]=_0x848d34(198315,333255,348440),[_0xe8ebea(109050,122936,1043435)]=0.05,[_0xe8ebea(366180,384935,107445)]=1.00,[_0xe8ebea(512504,497724,98367)]=0.16,[_0xe8ebea(258333,243928,441606)]=(_0x40b209[135]-75),[_0xd44ced(502664,486687,519325)]=function(_0x80e662)return _0x80e662[_0x848d34(348687,467685,485248)][_0xd44ced(448227,349634,430236)]==_0xd44ced(317350,631106,299168)end},
-[_0xd44ced(277627,9405,293715)]={[_0xe8ebea(384629,366539,150990)]=_0xea489d(122583,122565),[_0xe8ebea(220188,202065,648661)]=_0x848d34(641502,380380,362576),[_0xd44ced(384446,603259,367557)]=_0x848d34(488113,90589,75010),[_0xe8ebea(70540,88654,1003933)]=4.0,[_0xe8ebea(461309,475198,212012)]=120.0,[_0x848d34(262304,466787,482177)]=42.0,[_0x848d34(86924,86418,71025)]=(2182+_0xa81147(_0xfaf96b(2061,139),1)-2200),[_0xd44ced(114077,97034,129672)]=function(_0x80e662)return _0x80e662[_0xd44ced(405451,312259,420041)][_0xd44ced(171141,73636,187130)]==_0x848d34(36955,347165,330103)end},
-[_0xd44ced(202573,448786,217191)]={[_0xe8ebea(296681,315223,202066)]=_0xea489d(_0x40b209[11],69),[_0xd44ced(294057,726799,277153)]=_0x848d34(496584,451787,434501),[_0xe8ebea(198190,217070,670985)]=_0xd44ced(470454,107064,486346),[_0xe8ebea(432904,447178,579865)]=2.0,[_0xe8ebea(456267,442248,181146)]=10.0,[_0xe8ebea(303649,322533,193510)]=5.0,[_0xd44ced(427648,399484,442368)]=_0xea489d(_0x40b209[254],137),[_0xd44ced(487419,502124,469230)]=function(_0x80e662)return _0x80e662[_0xe8ebea(254145,240262,318892)][_0xe8ebea(266858,285614,148397)]==_0x848d34(97380,303138,320840)end},
-[_0xe8ebea(275310,293151,167756)]={[_0xd44ced(208107,93644,223890)]=_0xea489d(550219,550239),[_0xd44ced(441383,644993,457263)]=_0xe8ebea(138496,153458,756466),[_0xd44ced(341546,647151,356433)]=_0x848d34(476569,87797,70186),[_0x848d34(595265,137554,155058)]=0.00,[_0xe8ebea(278369,292514,2736)]=2.50,[_0xd44ced(67503,165006,82384)]=0.80,[_0xd44ced(286119,312155,269095)]=(_0x40b209[216]-36),[_0x848d34(321337,310604,325684)]=function(_0x80e662)return _0x80e662[_0xd44ced(514586,341522,498968)][_0x848d34(320139,523592,506282)]==_0xd44ced(359651,15431,343012)end},
-[_0xd44ced(394711,416483,410361)]={[_0xe8ebea(512016,498094,17323)]=_0xea489d(_0x40b209[124],173),[_0x848d34(823716,222944,205451)]=_0x848d34(1033381,186666,171192),[_0x848d34(747474,463605,480811)]=_0xd44ced(397169,33023,411917),[_0x848d34(833949,505230,520558)]=0.50,[_0x848d34(438625,510643,495186)]=2.00,[_0xd44ced(260306,31731,245421)]=1.08,[_0x848d34(143686,144216,161723)]=(_0x40b209[218]-25),[_0xd44ced(483213,497946,465048)]=function(_0x80e662)return _0x80e662[_0xd44ced(497884,357588,516062)][_0x848d34(456263,387460,372070)]==_0x848d34(263204,120930,105736)end},
-[_0x848d34(529828,490840,473291)]={[_0xe8ebea(346644,328618,186799)]=_0xea489d(254036,254018),[_0xd44ced(455258,629244,439378)]=_0xd44ced(248919,9939,232294),[_0xd44ced(338014,639387,355877)]=_0xd44ced(305705,171136,322722),[_0xe8ebea(433004,447144,51883)]=true,[_0x848d34(352231,329106,344298)]=function(_0x80e662)return _0x80e662[_0xd44ced(329617,519065,344211)][_0xd44ced(506809,276632,523718)]==_0x848d34(484562,178324,196094)end},
-[_0x848d34(624709,367512,384525)]={[_0xe8ebea(264587,278581,236080)]=(842+_0xa81147(_0xfaf96b(270,580),1)-827),[_0xd44ced(247219,830997,230331)]=_0xd44ced(227282,85583,209121),[_0x848d34(908747,108780,126002)]=_0xd44ced(138738,299644,154510),[_0x848d34(584994,254257,239057)]=0.10,[_0x848d34(507022,444252,426941)]=3.00,[_0x848d34(36830,233501,251135)]=1.00,[_0xd44ced(510345,481141,495369)]=_0xea489d(318455,318453),[_0xe8ebea(282410,263536,88261)]=function(_0x80e662)return _0x80e662[_0xd44ced(93378,229578,76736)][_0x848d34(352475,425752,408570)]==_0x848d34(825067,86026,71009)end},
-[_0xe8ebea(282194,263211,392135)]={[_0xe8ebea(345881,331431,185506)]=(1014+_0xa81147(_0xfaf96b(664,366),1)-1006),[_0xe8ebea(375975,390634,984430)]=_0xe8ebea(284846,266964,468643),[_0x848d34(1000935,209088,226334)]=_0x848d34(92566,490234,474661),[_0xd44ced(70749,689324,86560)]=0.05,[_0xe8ebea(368181,382966,109540)]=2.00,[_0xe8ebea(364834,383206,245989)]=0.55,[_0xd44ced(74470,113690,91238)]=(3292+_0xa81147(_0xfaf96b(3576,292),1)-3866),[_0xd44ced(268072,315839,282685)]=function(_0x80e662)return _0x80e662[_0x848d34(287243,398049,415620)][_0x848d34(78399,142844,157982)]==_0x848d34(543186,364339,379480)end},
-[_0xd44ced(180230,43474,165680)]={[_0xe8ebea(432587,446581,68208)]=_0xea489d(649318,649343),[_0x848d34(843333,207105,224618)]=_0x848d34(960767,255129,237827),[_0x848d34(530716,289851,272613)]=_0x848d34(388588,214951,197449),[_0xd44ced(166247,68166,184088)]=true},
-}
-},
-}
-local function _0x3571dc()
-local _0xcf4a1d=_0x736c63[_0xe8ebea(195411,176430,660334)]
-return _0xcf4a1d~=nil
-and _0xcf4a1d[_0x848d34(1044086,99307,116343)](_0xcf4a1d,_0x848d34(624802,96430,81203))==true
-and _0x0a7cca~=nil
-and _0x48c9eb~=nil
-and _0x48c9eb[_0x848d34(696698,155939,140672)]~=nil
-and _0xcc6a4e~=nil
-and _0x7ffb4d~=nil
-and _0xa62240~=nil
-and _0xc96c19[8][_0xd44ced(515759,602064,498070)](_0xc96c19[8],_0xe8ebea(335622,349574,895695))~=true
 end
-local function _0x6f26e5()
-local _0xcf4a1d=_0x736c63[_0xd44ced(205987,925121,222107)]
-return(_0xcf4a1d and _0xcf4a1d[_0x848d34(901577,240724,256456)](_0xcf4a1d,_0xd44ced(122235,301226,105459)))or(3641+_0xa81147(_0xfaf96b(2051,1594),1)-3625)
+_0x35dbd2[_0x3f0d21(376086,587291,372493)]=_0x68bb99(_0x3f0d21(190131,242478,193711),96,(_0xc84f9e[216]+76),_0x6e4e3c(96,(_0xc84f9e[154]-159),4.2,0.76,0.94,3.2))
+_0x35dbd2[_0x3f0d21(500587,995009,504182)]=_0x68bb99(_0x248f80(336577,349604,413207),(2276+_0x95b3ae(_0x6bafdb(453,2337),1)-2694),_0xfc82ca(255649,255681),_0xf6e318((30+_0x95b3ae(_0x6bafdb(146,140),1)-190),(1971+_0x95b3ae(_0x6bafdb(595,1504),1)-2073),4.2,1.5,9.0))
+_0x35dbd2[_0x3f0d21(383443,267393,379852)]=_0x68bb99(_0x248f80(127351,99856,798464),(3391+_0x95b3ae(_0x6bafdb(2183,1464),1)-3551),_0xfc82ca(_0xc84f9e[114],12),_0x8c4174((368+_0x95b3ae(_0x6bafdb(1507,1171),1)-2654),16,4.0))
+_0x35dbd2[_0x248f80(228562,199610,82384)]=_0x68bb99(_0x3f0d21(395339,393242,399977),(_0xc84f9e[76]-48),_0xfc82ca(1038126,1038190),_0x6e4e3c(_0xfc82ca(945125,945061),_0xfc82ca(25990,26006),4.2,0.68,0.90,3.0))
+_0x35dbd2[_0x2b4f7f(523484,378373,390687)]=_0x68bb99(_0x248f80(89599,76436,527962),_0xfc82ca(_0xc84f9e[48],32),_0xfc82ca(_0xc84f9e[179],171),_0xf6e318(64,_0xfc82ca(_0xc84f9e[90],185),4.2,1.3,6.5))
+_0x35dbd2[_0x2b4f7f(102708,390817,378557)]=_0x68bb99(_0x3f0d21(324599,981525,319953),(_0xc84f9e[34]-188),(_0xc84f9e[228]+42),_0x6e4e3c((_0xc84f9e[179]-187),_0xfc82ca(968286,968274),4.2,0.65,0.88,2.8))
+_0x35dbd2[_0x248f80(216503,211673,601703)]=_0x68bb99(_0x248f80(359046,331241,341361),_0xfc82ca(_0xc84f9e[33],157),(1147+_0x95b3ae(_0x6bafdb(773,1918),1)-2643),_0xf6e318(48,_0xfc82ca(132017,132029),4.2,1.2,4.5))
+_0x35dbd2[_0x3f0d21(125416,155436,129985)]=_0x68bb99(_0x248f80(219150,208767,361860),_0xfc82ca(32077,32109),_0xfc82ca(_0xc84f9e[136],60),_0x02c971(_0xfc82ca(226821,226828),4.2))
 end
-local function _0xd5a614(_0x0d38a7)
-local _0x3b6bc8=_0x0a7cca[_0xe8ebea(467059,485647,784302)]and _0x0a7cca[_0x848d34(907242,282251,264721)][_0x848d34(741533,326832,309551)]
-if not _0x3b6bc8 then return nil,nil end
-for _0xef410f=(_0x40b209[82]-95),_0xea489d(_0x40b209[76],137)do
-local _0x1f1a45=_0x3b6bc8[_0xef410f]
-if _0x1f1a45 and _0x0d38a7(_0x1f1a45,_0xa0d11b[_0xd44ced(521465,419591,504535)](_0x1f1a45))then
-return _0xef410f,_0x1f1a45
+local _0x63be9c={
+[_0x2b4f7f(348581,155401,159531)]={
+[_0x2b4f7f(431970,446933,458335)]=_0x248f80(521103,492797,301309),
+[_0x248f80(157364,135623,609983)]=_0x248f80(426224,456580,98762),
+[_0x2b4f7f(626171,187113,193971)]=false,
+[_0x3f0d21(514506,888026,510948)]=_0xcca467[_0xc84f9e[20]+1][_0x3f0d21(448860,661998,445299)][_0x248f80(412462,408665,844905)],
+[_0x3f0d21(215582,1007552,219183)]=1,
+[_0x3f0d21(105912,709284,102328)]={
+[_0x3f0d21(436784,654749,440322)]={[_0x2b4f7f(930737,367165,371221)]=_0xfc82ca(267014,267015),[_0x2b4f7f(251241,234462,244820)]=_0x2b4f7f(657580,189267,185210),[_0x248f80(211960,216313,105737)]=_0x2b4f7f(13153,427712,440042),[_0x2b4f7f(815892,414149,418286)]=1.0,[_0x248f80(490501,461689,375822)]=6.0,[_0x3f0d21(263978,505736,267548)]=4.0,[_0x3f0d21(344475,123330,349100)]=(15+_0x95b3ae(_0x6bafdb(348,339),1)-686)},
+[_0x248f80(160892,131843,524489)]={[_0x248f80(119421,107781,925221)]=2,[_0x248f80(87725,73847,357484)]=_0x2b4f7f(987026,73460,77531),[_0x2b4f7f(106271,482371,488434)]=_0x2b4f7f(476420,127141,114831),[_0x248f80(126723,104568,1026053)]=(919+_0x95b3ae(_0x6bafdb(856,207),1)-1043),[_0x3f0d21(137661,196660,134024)]=(1070+_0x95b3ae(_0x6bafdb(499,1501),1)-1640),[_0x2b4f7f(186454,447654,451723)]=_0xfc82ca(822194,822248),[_0x2b4f7f(463941,264270,276576)]=0},
+[_0x2b4f7f(964017,415488,419632)]={[_0x248f80(490805,461389,569709)]=_0xfc82ca(365018,365017),[_0x2b4f7f(240998,256977,246875)]=_0x248f80(138022,158886,957627),[_0x2b4f7f(86044,496448,507121)]=_0x248f80(341989,344223,518034),[_0x3f0d21(370307,538624,373943)]=0.5,[_0x248f80(446652,436160,266423)]=10.0,[_0x3f0d21(130124,150766,126586)]=4.0,[_0x248f80(65993,95927,423952)]=_0xfc82ca(79562,79563)},
+[_0x3f0d21(233502,694491,229924)]={[_0x2b4f7f(860687,428931,441259)]=(1448+_0x95b3ae(_0x6bafdb(1362,250),1)-1608),[_0x248f80(515470,502612,261967)]=_0x2b4f7f(60168,272125,267983),[_0x248f80(180315,178010,26282)]=_0x248f80(71807,93957,247816),[_0x3f0d21(427021,727694,431673)]=0.0,[_0x248f80(223539,204367,108856)]=1.0,[_0x3f0d21(431124,337078,427554)]=0.85,[_0x2b4f7f(196301,123590,119528)]=(3714+_0x95b3ae(_0x6bafdb(1028,2694),1)-3720)},
+[_0x2b4f7f(658685,174286,170237)]={[_0x248f80(454089,432817,598417)]=_0xfc82ca(175782,175779),[_0x248f80(164495,193621,434254)]=_0x2b4f7f(629582,81789,69454),[_0x3f0d21(436506,513556,440480)]=_0x2b4f7f(128231,467678,463594),[_0x248f80(274232,284861,814556)]={_0x2b4f7f(785985,202174,206231),_0x2b4f7f(888288,162617,150287)},[_0x3f0d21(373882,394456,370252)]=_0x248f80(248942,244503,1000004)},
+[_0x248f80(331066,359101,1015860)]={[_0x2b4f7f(530045,245745,233433)]=(1089+_0x95b3ae(_0x6bafdb(1952,993),1)-2939),[_0x3f0d21(280753,242260,284962)]=_0x248f80(424398,396870,779290),[_0x3f0d21(298072,389974,302562)]=_0x3f0d21(329994,306720,334664),[_0x3f0d21(117593,162811,121199)]=false},
+[_0x3f0d21(253961,582641,258634)]={[_0x3f0d21(489010,746476,484355)]=_0xfc82ca(_0xc84f9e[87],94),[_0x2b4f7f(106268,121259,128545)]=_0x2b4f7f(12673,192172,188055),[_0x3f0d21(463131,421397,458913)]=_0x3f0d21(436200,458946,439722),[_0x3f0d21(131885,111503,135451)]=false},
+[_0x2b4f7f(252931,71600,75660)]={[_0x2b4f7f(671592,104164,108236)]=_0xfc82ca(899246,899238),[_0x2b4f7f(132099,148148,159038)]=_0x3f0d21(127846,240839,123168),[_0x3f0d21(470701,414115,474903)]=_0x248f80(313218,307211,440799),[_0x2b4f7f(185923,449203,453278)]=false},
+[_0x248f80(115545,111831,382198)]={[_0x3f0d21(126827,916149,130394)]=_0xfc82ca(223770,223763),[_0x2b4f7f(285736,268959,275733)]=_0x2b4f7f(225291,197254,209592),[_0x2b4f7f(140010,319926,314887)]=_0x2b4f7f(44768,439704,427425),[_0x2b4f7f(495216,230016,242349)]=true},
+[_0x2b4f7f(182984,283047,287128)]={[_0x3f0d21(333763,590365,329202)]=_0xfc82ca(918170,918160),[_0x248f80(171901,190887,441788)]=_0x2b4f7f(613106,186677,190837),[_0x2b4f7f(30238,439618,432883)]=_0x3f0d21(175174,199532,179716),[_0x3f0d21(67906,178656,72564)]=true},
+[_0x248f80(153597,139372,9898)]={[_0x248f80(338116,352188,713884)]=(38+_0x95b3ae(_0x6bafdb(299,269),1)-557),[_0x2b4f7f(225913,210126,203588)]=_0x3f0d21(326574,51625,322021),[_0x2b4f7f(510318,68146,75139)]=_0x248f80(519309,498436,365264),[_0x2b4f7f(217714,482946,487087)]=true},
+[_0x248f80(96751,69244,8806)]={[_0x248f80(415570,401450,629514)]=_0xfc82ca(70164,70168),[_0x3f0d21(282665,240332,278970)]=_0x248f80(192623,165883,967071),[_0x3f0d21(153908,206394,149646)]=_0x248f80(155212,141765,8209),[_0x2b4f7f(138251,397563,401622)]=false},
+}
+},
+[_0x2b4f7f(884848,430242,434407)]={
+[_0x2b4f7f(77679,92632,83538)]=_0x248f80(264878,294203,753477),
+[_0x2b4f7f(908264,169532,173599)]=_0x248f80(312627,307877,870231),
+[_0x248f80(305536,319274,760468)]=false,
+[_0x2b4f7f(599042,314688,327013)]=_0xcca467[18][_0x248f80(340634,345580,666528)][_0x2b4f7f(587845,406233,393982)],
+[_0x2b4f7f(611060,195448,183120)]=(1997+_0x95b3ae(_0x6bafdb(1538,463),1)-1999),
+[_0x248f80(303670,316785,799891)]={
+[_0x248f80(213134,210713,674683)]={[_0x2b4f7f(980286,351410,355482)]=1,[_0x248f80(445322,441680,190795)]=_0x2b4f7f(700658,368099,372139),[_0x248f80(499821,513900,329372)]=_0x3f0d21(494887,427220,499476),[_0x248f80(452499,430312,565397)]=1.0,[_0x3f0d21(447206,510831,442579)]=8.0,[_0x248f80(455063,427754,432310)]=1.5,[_0x248f80(246999,242601,310542)]=(2298+_0x95b3ae(_0x6bafdb(2721,603),1)-3323)},
+[_0x3f0d21(344230,984373,348916)]={[_0x2b4f7f(888979,407839,395575)]=(_0xc84f9e[48]-94),[_0x2b4f7f(150482,134501,140015)]=_0x3f0d21(391742,91343,387181),[_0x2b4f7f(202909,383937,390256)]=_0x248f80(320549,299871,406610),[_0x3f0d21(210497,960706,205941)]=2.0,[_0x3f0d21(148701,220500,153320)]=4.5,[_0x248f80(351843,338206,341826)]=3.0,[_0x248f80(182574,179792,372983)]=_0xfc82ca(173298,173299)},
+[_0x3f0d21(323128,266269,326764)]={[_0x3f0d21(186558,970080,182927)]=(186+_0x95b3ae(_0x6bafdb(142,52),1)-191),[_0x248f80(253772,240022,523661)]=_0x2b4f7f(570001,463552,467596),[_0x248f80(505187,508514,332690)]=_0x2b4f7f(169817,278880,291156),[_0x2b4f7f(629740,375841,363540)]={_0x3f0d21(377094,400649,381776),_0x2b4f7f(1047759,196433,184095),_0x2b4f7f(447043,171595,175620)},[_0x3f0d21(80754,166864,76100)]=_0x2b4f7f(247897,501764,497737)},
+[_0x2b4f7f(475741,271550,267502)]={[_0x248f80(491701,522189,543981)]=(_0xc84f9e[68]-115),[_0x3f0d21(304010,219503,307737)]=_0x2b4f7f(872991,296009,308248),[_0x3f0d21(232761,193079,236675)]=_0x2b4f7f(462920,108009,103875),[_0x248f80(165104,193419,836598)]=8.0,[_0x3f0d21(428969,496160,432540)]=40.0,[_0x2b4f7f(437898,172666,168535)]=24.0,[_0x248f80(73143,92873,418926)]=(_0xc84f9e[28]-113)},
+[_0x2b4f7f(954798,161337,149099)]={[_0x2b4f7f(957982,341906,329658)]=_0xfc82ca(422343,422338),[_0x248f80(155377,141355,425008)]=_0x3f0d21(291544,489426,286852),[_0x3f0d21(104913,59103,100459)]=_0x2b4f7f(341097,208657,204584),[_0x3f0d21(350054,452548,345424)]=true},
+[_0x248f80(385275,366431,667745)]={[_0x2b4f7f(535815,230539,242851)]=(_0xc84f9e[225]-236),[_0x2b4f7f(108253,122986,118752)]=_0x3f0d21(418107,192458,422757),[_0x2b4f7f(334592,251996,260077)]=_0x2b4f7f(21751,413583,425910),[_0x2b4f7f(333985,70737,74876)]=true},
+[_0x248f80(92459,73357,115951)]={[_0x248f80(502953,515025,549105)]=_0xfc82ca(_0xc84f9e[45],64),[_0x2b4f7f(226881,209142,204668)]=_0x3f0d21(358058,529752,353482),[_0x248f80(200113,228016,109376)]=_0x3f0d21(233887,145077,230365),[_0x3f0d21(412933,392615,417587)]=true},
+[_0x3f0d21(416929,583403,413376)]={[_0x3f0d21(271587,536893,276178)]=_0xfc82ca(_0xc84f9e[30],184),[_0x248f80(143169,154011,396672)]=_0x248f80(460073,488064,656356),[_0x248f80(209110,214999,103975)]=_0x248f80(355061,335228,464040),[_0x3f0d21(231495,14565,236145)]=true},
+[_0x3f0d21(426884,790976,430567)]={[_0x2b4f7f(588356,218056,222176)]=_0xfc82ca(1042372,1042381),[_0x2b4f7f(509147,492140,503270)]=_0x248f80(357716,328447,295242),[_0x248f80(104068,123269,209013)]=_0x3f0d21(334477,267134,329918),[_0x3f0d21(516142,687789,520730)]=0.02,[_0x2b4f7f(304143,131540,143864)]=0.25,[_0x248f80(379320,376517,368793)]=0.05,[_0x248f80(357405,328547,134596)]=(868+_0x95b3ae(_0x6bafdb(1020,152),1)-1170)},
+}
+},
+[_0x248f80(162218,134662,786923)]={
+[_0x2b4f7f(134430,150441,156707)]=_0x2b4f7f(803352,417625,421637),
+[_0x3f0d21(201092,778242,197544)]=_0x248f80(205633,218348,528284),
+[_0x3f0d21(454927,662095,450668)]=false,
+[_0x3f0d21(442139,846347,437557)]=_0xcca467[18][_0x2b4f7f(865186,413506,425828)][_0x2b4f7f(765821,353761,349638)],
+[_0x2b4f7f(691788,75712,71656)]=(948+_0x95b3ae(_0x6bafdb(2008,1132),1)-3137),
+[_0x2b4f7f(545389,303395,298708)]={
+[_0x248f80(481447,470832,938834)]={[_0x2b4f7f(608159,192019,187963)]=_0xfc82ca(934410,934411),[_0x3f0d21(216442,309151,220393)]=_0x3f0d21(294722,847361,290067),[_0x248f80(324346,296443,414731)]=_0x2b4f7f(128465,475248,487514),[_0x3f0d21(110902,798645,107266)]=1.0,[_0x2b4f7f(282885,193758,181490)]=8.0,[_0x2b4f7f(385756,126508,122369)]=1.5,[_0x248f80(350021,335931,143004)]=(461+_0x95b3ae(_0x6bafdb(1147,1462),1)-2608)},
+[_0x2b4f7f(784385,393664,405897)]={[_0x2b4f7f(673206,126010,121874)]=(_0xc84f9e[23]-38),[_0x248f80(148399,144757,418158)]=_0x3f0d21(193219,420914,188560),[_0x2b4f7f(80574,522722,513619)]=_0x2b4f7f(171601,273392,269274),[_0x248f80(292893,266086,671515)]=2.0,[_0x3f0d21(506801,434744,502148)]=4.5,[_0x248f80(269009,290220,291824)]=3.0,[_0x2b4f7f(456778,386113,382063)]=1},
+[_0x2b4f7f(295813,422256,409902)]={[_0x3f0d21(133425,924911,137984)]=_0xfc82ca(555156,555159),[_0x3f0d21(253265,272308,249026)]=_0x248f80(449208,437527,673138),[_0x248f80(124626,102867,213027)]=_0x248f80(365866,385616,476509),[_0x2b4f7f(557201,172608,168555)]=3.0,[_0x248f80(286355,272879,433816)]=6.0,[_0x2b4f7f(235401,498553,502612)]=4.2,[_0x248f80(173308,185218,384293)]=_0xfc82ca(195827,195826)},
+[_0x3f0d21(496923,217002,493378)]={[_0x2b4f7f(842447,488259,476011)]=_0xfc82ca(859990,859986),[_0x248f80(275291,279937,4506)]=_0x2b4f7f(997185,223044,218916),[_0x3f0d21(492456,457894,496146)]=_0x3f0d21(201152,137267,197619),[_0x248f80(382361,369378,758431)]=5.0,[_0x3f0d21(459397,400140,463024)]=40.0,[_0x3f0d21(276430,493420,271864)]=24.0,[_0x2b4f7f(299744,495339,507589)]=_0xfc82ca(180966,180966)},
+[_0x3f0d21(518229,391898,522815)]={[_0x248f80(207064,221088,844928)]=_0xfc82ca(913212,913209),[_0x2b4f7f(281719,264896,271690)]=_0x3f0d21(329325,437137,332806),[_0x2b4f7f(154763,303063,307302)]=_0x2b4f7f(471454,76518,72415),[_0x2b4f7f(495238,230006,242267)]=true},
+[_0x2b4f7f(246145,116705,128898)]={[_0x3f0d21(92515,883901,97106)]=_0xfc82ca(423659,423661),[_0x2b4f7f(105086,122057,127811)]=_0x248f80(67255,94467,58276),[_0x2b4f7f(14223,455891,449378)]=_0x2b4f7f(493645,103221,107276),[_0x2b4f7f(486184,223192,219125)]=false},
+[_0x248f80(155447,141471,998443)]={[_0x2b4f7f(658260,107224,103152)]=_0xfc82ca(892796,892795),[_0x3f0d21(463030,59987,459045)]=_0x248f80(154116,142765,1006793),[_0x3f0d21(258160,167806,254410)]=_0x3f0d21(362755,273961,367425),[_0x3f0d21(364449,409347,368023)]=true},
+[_0x3f0d21(472521,894861,468906)]={[_0x3f0d21(183300,973274,187957)]=(_0xc84f9e[192]-185),[_0x2b4f7f(65597,83594,92416)]=_0x2b4f7f(506638,141847,137804),[_0x248f80(479208,473321,387353)]=_0x248f80(311487,309189,397512),[_0x248f80(94614,67309,997008)]=0.02,[_0x3f0d21(460963,397610,465558)]=0.30,[_0x248f80(307741,312672,318268)]=0.07,[_0x2b4f7f(107620,178287,165953)]=(358+_0x95b3ae(_0x6bafdb(106,268),1)-372)},
+}
+},
+[_0x2b4f7f(189971,88994,93127)]={
+[_0x3f0d21(335146,190415,330937)]=_0x248f80(222160,201829,310136),
+[_0x248f80(173394,184865,626009)]=_0x3f0d21(215621,23454,219178),
+[_0x3f0d21(464525,785869,460782)]=false,
+[_0x3f0d21(394031,808511,397569)]=_0xcca467[18][_0x2b4f7f(690482,128466,116212)][_0x3f0d21(426103,310191,430599)],
+[_0x2b4f7f(668431,105091,109227)]=(_0xc84f9e[117]-190),
+[_0x248f80(495442,522261,989687)]={
+[_0x248f80(285095,273951,518407)]={[_0x2b4f7f(1022265,274613,262301)]=1,[_0x248f80(500610,513368,229699)]=_0x3f0d21(163904,412651,168498),[_0x248f80(177166,181007,4863)]=_0x3f0d21(313079,380676,316612),[_0x3f0d21(488007,715972,483443)]=8.0,[_0x2b4f7f(11261,429606,441866)]=60.0,[_0x3f0d21(211251,35217,207621)]=30.0,[_0x3f0d21(366641,79976,363014)]=_0xfc82ca(197612,197612)},
+[_0x3f0d21(279130,90645,282665)]={[_0x248f80(399364,421756,644188)]=(315+_0x95b3ae(_0x6bafdb(1051,1312),1)-2361),[_0x248f80(186868,175918,457525)]=_0x2b4f7f(775915,189566,185365),[_0x248f80(175233,187264,2672)]=_0x248f80(326865,297899,404646),[_0x248f80(188522,169745,829292)]=6.0,[_0x2b4f7f(164481,272218,268150)]=25.0,[_0x2b4f7f(17059,282195,294526)]=10.0,[_0x3f0d21(329154,107931,333813)]=(1802+_0x95b3ae(_0x6bafdb(182,1980),1)-2162)},
+[_0x3f0d21(307995,248592,303470)]={[_0x2b4f7f(675985,129309,117045)]=_0xfc82ca(506098,506097),[_0x3f0d21(245936,277077,250147)]=_0x2b4f7f(144129,338956,334945),[_0x2b4f7f(246295,328011,339706)]=_0x2b4f7f(98946,472867,460553),[_0x248f80(354859,335184,732461)]=1.2,[_0x3f0d21(247775,187990,251370)]=5.0,[_0x2b4f7f(345962,84890,97207)]=2.4,[_0x2b4f7f(279045,482830,486944)]=(_0xc84f9e[142]-243)},
+[_0x248f80(237096,256406,363368)]={[_0x3f0d21(358967,618473,354310)]=_0xfc82ca(_0xc84f9e[73],49),[_0x2b4f7f(355099,339372,328230)]=_0x248f80(223933,204034,681374),[_0x3f0d21(508649,441831,512851)]=_0x3f0d21(290573,354046,294206),[_0x2b4f7f(730641,66752,79083)]=3.1,[_0x248f80(222082,201982,107401)]=6.0,[_0x3f0d21(246509,29263,250075)]=4.2,[_0x2b4f7f(48328,237763,233709)]=(_0xc84f9e[228]-5)},
+[_0x2b4f7f(835515,83578,95795)]={[_0x248f80(490258,461930,571210)]=_0xfc82ca(_0xc84f9e[126],30),[_0x248f80(196258,166008,449635)]=_0x248f80(270268,288806,219177),[_0x3f0d21(168826,257140,164544)]=_0x3f0d21(398599,466164,395060),[_0x248f80(211353,216802,884383)]=2.5,[_0x248f80(284785,274189,432250)]=3.8,[_0x3f0d21(409354,364456,404796)]=3.0,[_0x248f80(300207,320465,257398)]=(3015+_0x95b3ae(_0x6bafdb(695,2416),1)-3110)},
+[_0x248f80(183378,179090,798613)]={[_0x2b4f7f(1017863,270731,266659)]=(663+_0x95b3ae(_0x6bafdb(1876,1475),1)-3345),[_0x3f0d21(157298,367767,161761)]=_0x248f80(104670,126751,1000219),[_0x3f0d21(143094,217592,147276)]=_0x3f0d21(178288,242051,174659),[_0x248f80(232594,261097,904084)]=0.25,[_0x3f0d21(458021,517292,454416)]=1.20,[_0x2b4f7f(249759,508783,521026)]=0.45,[_0x3f0d21(376875,90226,381468)]=2},
+[_0x3f0d21(504969,477868,501469)]={[_0x3f0d21(195125,978923,190468)]=(715+_0x95b3ae(_0x6bafdb(766,53),1)-812),[_0x3f0d21(126273,399268,130258)]=_0x248f80(394626,422464,274435),[_0x2b4f7f(389373,209825,203792)]=_0x2b4f7f(249522,333963,338111),[_0x248f80(398508,418601,939592)]={_0x3f0d21(282779,494740,279245),_0x3f0d21(213485,654881,218042)},[_0x3f0d21(397466,368696,393900)]=_0x2b4f7f(343262,89219,93390)},
+[_0x248f80(369786,381914,173973)]={[_0x2b4f7f(826093,471905,459593)]=(91+_0x95b3ae(_0x6bafdb(74,17),1)-83),[_0x3f0d21(447063,75954,443332)]=_0x248f80(86159,75596,467372),[_0x248f80(395836,425277,306381)]=_0x3f0d21(316575,384364,313004),[_0x3f0d21(274791,634852,271187)]=4.0,[_0x2b4f7f(316348,161383,149067)]=35.0,[_0x3f0d21(102297,147259,105903)]=16.0,[_0x248f80(124966,106328,430591)]=(_0xc84f9e[59]-61)},
+[_0x3f0d21(441017,380453,436454)]={[_0x3f0d21(145185,926463,140560)]=9,[_0x2b4f7f(458234,441165,431303)]=_0x3f0d21(118034,831200,122738),[_0x248f80(459867,488282,369322)]=_0x2b4f7f(496290,100826,113123),[_0x3f0d21(465068,305166,461466)]=true},
+[_0x3f0d21(503838,592468,500351)]={[_0x248f80(132813,160181,903829)]=10,[_0x248f80(78455,83117,331958)]=_0x2b4f7f(856479,291415,279054),[_0x3f0d21(491380,393338,487118)]=_0x248f80(156491,136386,7446),[_0x248f80(451030,431787,428279)]=true},
+[_0x248f80(165814,192626,6104)]={[_0x3f0d21(200158,989184,204783)]=_0xfc82ca(_0xc84f9e[104],141),[_0x248f80(95432,66066,349705)]=_0x2b4f7f(564818,473016,460749),[_0x248f80(518685,498972,347372)]=_0x2b4f7f(72077,459509,471756),[_0x248f80(241914,247687,252379)]=true},
+}
+},
+[_0x2b4f7f(652970,67949,80155)]={
+[_0x248f80(197035,227185,467818)]=_0x2b4f7f(722290,260789,248515),
+[_0x248f80(470620,481583,788055)]=_0x248f80(231004,258459,829015),
+[_0x248f80(333119,353173,665131)]=false,
+[_0x248f80(389672,361821,818867)]=_0xcca467[18][_0x2b4f7f(801550,477166,489416)][_0x2b4f7f(653217,474429,462106)],
+[_0x2b4f7f(989292,307680,295368)]=(1275+_0x95b3ae(_0x6bafdb(1298,489),1)-1782),
+[_0x2b4f7f(857522,124668,117003)]={
+[_0x2b4f7f(435111,326868,314540)]={[_0x3f0d21(175241,964951,179896)]=1,[_0x248f80(495970,518072,242595)]=_0x248f80(405785,411344,75956),[_0x3f0d21(213621,146811,218063)]=_0x3f0d21(144289,550577,139663),[_0x3f0d21(164015,77837,168601)]=_0xcca467[18][_0x248f80(461942,490240,529740)][_0x2b4f7f(321448,181801,194131)]},
+[_0x248f80(86258,75577,243269)]={[_0x3f0d21(123307,914549,127898)]=(1004+_0x95b3ae(_0x6bafdb(348,688),1)-1034),[_0x3f0d21(431154,93911,427425)]=_0x3f0d21(433954,980464,429479),[_0x3f0d21(74861,23395,79319)]=_0x2b4f7f(30089,442408,454658),[_0x2b4f7f(826647,442310,430061)]=3.0,[_0x248f80(156131,136863,41448)]=4.5,[_0x3f0d21(209127,32837,205521)]=4.5,[_0x248f80(244389,249307,312188)]=_0xfc82ca(641045,641044)},
+[_0x248f80(105820,125585,546315)]={[_0x3f0d21(102595,886045,99058)]=(839+_0x95b3ae(_0x6bafdb(84,787),1)-868),[_0x248f80(343892,346510,73109)]=_0x2b4f7f(257800,109649,105519),[_0x2b4f7f(516679,74011,69290)]=_0x3f0d21(331873,268690,328274),[_0x3f0d21(410473,777706,414045)]=_0xfc82ca(9054,9034),[_0x2b4f7f(321238,148237,160545)]=160,[_0x248f80(282802,272335,276883)]=_0xfc82ca(_0xc84f9e[82],59),[_0x3f0d21(252636,490117,248043)]=_0xfc82ca(_0xc84f9e[127],218)},
+[_0x2b4f7f(433180,366661,370746)]={[_0x248f80(517731,495899,535099)]=(_0xc84f9e[186]-93),[_0x2b4f7f(480716,463739,474353)]=_0x2b4f7f(93308,387455,383487),[_0x3f0d21(295617,392655,299899)]=_0x3f0d21(490163,422720,485504),[_0x248f80(317923,306840,696037)]=_0xfc82ca(415330,415331),[_0x3f0d21(231102,171831,234635)]=(122+_0x95b3ae(_0x6bafdb(561,587),1)-1145),[_0x3f0d21(162375,117477,157809)]=_0xfc82ca(437979,437978),[_0x248f80(200734,223072,289223)]=(2225+_0x95b3ae(_0x6bafdb(2587,682),1)-3269)},
+[_0x3f0d21(291159,393033,287709)]={[_0x3f0d21(340622,599888,336063)]=(_0xc84f9e[71]-185),[_0x3f0d21(149137,375924,153346)]=_0x248f80(129390,102076,5776),[_0x3f0d21(176919,248857,172717)]=_0x2b4f7f(181314,319290,323331),[_0x2b4f7f(411915,148987,161238)]=true},
+[_0x248f80(522382,495453,825099)]={[_0x2b4f7f(840214,490394,478130)]=6,[_0x3f0d21(348053,177520,351750)]=_0x2b4f7f(500486,313193,325613),[_0x3f0d21(148105,212359,152371)]=_0x248f80(240942,252583,119667),[_0x2b4f7f(127289,392649,380388)]=true},
+[_0x2b4f7f(948580,117643,129806)]={[_0x248f80(442496,440312,593112)]=_0xfc82ca(530623,530616),[_0x2b4f7f(500608,517431,510653)]=_0x2b4f7f(598679,472137,459983),[_0x248f80(323625,296744,415448)]=_0x2b4f7f(475608,88736,92825),[_0x248f80(488544,459549,466241)]=true},
+[_0x3f0d21(514670,468043,510010)]={[_0x248f80(300018,320650,745386)]=_0xfc82ca(_0xc84f9e[75],212),[_0x3f0d21(224962,300071,229201)]=_0x248f80(502934,514900,366871),[_0x3f0d21(250757,175243,246335)]=_0x248f80(488256,459972,376913),[_0x248f80(132913,159924,673237)]={_0x3f0d21(455394,328376,450746),_0x2b4f7f(590183,262905,275127)},[_0x248f80(385755,365990,363514)]=_0x2b4f7f(216664,459344,471583)},
+[_0x2b4f7f(771184,180840,193072)]={[_0x3f0d21(373072,631950,369505)]=(918+_0x95b3ae(_0x6bafdb(746,380),1)-1117),[_0x3f0d21(148363,375150,152088)]=_0x248f80(338685,351572,535600),[_0x248f80(155225,141656,63656)]=_0x2b4f7f(97364,485164,481045),[_0x2b4f7f(129972,390980,378729)]=true},
+}
+},
+[_0x3f0d21(430069,813328,433509)]={
+[_0x2b4f7f(448314,430477,441863)]=_0x3f0d21(443579,795230,448043),
+[_0x3f0d21(491146,1019660,486566)]=_0x3f0d21(523366,545256,519927),
+[_0x2b4f7f(872151,399813,407199)]=false,
+[_0x3f0d21(402551,815463,407129)]=_0xcca467[18][_0x2b4f7f(578789,239621,235555)][_0x248f80(324279,296302,182224)],
+[_0x3f0d21(110999,894025,107430)]=6,
+[_0x248f80(298185,326542,793196)]={
+[_0x248f80(443415,439182,1005795)]={[_0x3f0d21(246735,1037841,250366)]=(480+_0x95b3ae(_0x6bafdb(457,41),1)-497),[_0x2b4f7f(172654,189657,183123)]=_0x3f0d21(379723,87482,383256),[_0x2b4f7f(110209,486877,475756)]=_0x248f80(214749,209319,104106),[_0x3f0d21(216913,971218,220517)]=2.0,[_0x3f0d21(470413,406532,475064)]=4.2,[_0x3f0d21(384777,421803,380223)]=3.0,[_0x2b4f7f(188490,130113,117871)]=1},
+[_0x2b4f7f(86262,175512,171282)]={[_0x248f80(521431,492463,538767)]=(_0xc84f9e[105]-204),[_0x2b4f7f(309114,324045,319047)]=_0x3f0d21(381214,266534,377738),[_0x248f80(113421,117772,204284)]=_0x2b4f7f(55719,420870,416812),[_0x2b4f7f(559259,174666,170593)]=2.5,[_0x3f0d21(470565,407468,474128)]=6.0,[_0x3f0d21(246618,29688,250220)]=4.2,[_0x248f80(282552,276678,210529)]=(2834+_0x95b3ae(_0x6bafdb(99,2929),1)-3027)},
+[_0x3f0d21(276556,732726,273113)]={[_0x248f80(469566,482630,583270)]=(_0xc84f9e[206]-40),[_0x3f0d21(349619,175958,345120)]=_0x248f80(174568,187946,40041),[_0x248f80(237061,256260,80116)]=_0x248f80(368299,387375,470458),[_0x3f0d21(155881,654198,160471)]={_0x248f80(121106,110223,121982),_0x2b4f7f(51318,296062,308273),_0x248f80(413848,403439,851935)},[_0x248f80(420416,400701,394081)]=_0x2b4f7f(6890,293559,281338)},
+[_0x3f0d21(447256,133545,442689)]={[_0x3f0d21(279304,546518,282937)]=_0xfc82ca(496331,496335),[_0x248f80(454225,432267,183440)]=_0x248f80(417225,404072,781970),[_0x3f0d21(334719,287857,330437)]=_0x2b4f7f(176172,263565,275879),[_0x2b4f7f(798245,396532,408799)]=5.0,[_0x3f0d21(213406,153623,218027)]=35.0,[_0x248f80(131220,161769,158133)]=18.0,[_0x2b4f7f(484302,294853,282603)]=(_0xc84f9e[62]-215)},
+[_0x248f80(116196,111161,248443)]={[_0x2b4f7f(787719,502923,498851)]=5,[_0x3f0d21(158327,364690,162788)]=_0x248f80(175127,187337,441631),[_0x3f0d21(103713,59951,99483)]=_0x3f0d21(449151,512908,444492),[_0x2b4f7f(594475,209146,196817)]=0.50,[_0x2b4f7f(221428,378159,390403)]=1.00,[_0x3f0d21(464954,305304,461324)]=0.92,[_0x2b4f7f(28815,224388,220330)]=_0xfc82ca(_0xc84f9e[255],100)},
+[_0x248f80(402401,414782,987408)]={[_0x2b4f7f(808122,523574,511262)]=_0xfc82ca(531224,531230),[_0x3f0d21(423966,99067,420237)]=_0x3f0d21(450826,777345,455571),[_0x3f0d21(379578,308660,383744)]=_0x248f80(486499,465898,332350),[_0x248f80(292418,262463,270179)]=true},
+[_0x248f80(387526,368167,695041)]={[_0x3f0d21(484703,749697,489326)]=7,[_0x2b4f7f(523633,506822,496716)]=_0x2b4f7f(734338,381901,385887),[_0x3f0d21(77296,21246,80970)]=_0x3f0d21(347442,322072,352112),[_0x2b4f7f(352340,93348,89225)]=false},
+[_0x2b4f7f(829869,95423,82988)]={[_0x248f80(314953,309553,721425)]=(319+_0x95b3ae(_0x6bafdb(412,163),1)-567),[_0x3f0d21(136638,388955,132141)]=_0x3f0d21(245979,606065,250438),[_0x2b4f7f(459279,115027,126690)]=_0x248f80(87067,74655,255754),[_0x3f0d21(244180,533067,240618)]={_0x248f80(222166,201779,338226),_0x2b4f7f(96887,100535,108519),_0x3f0d21(311694,75155,316177)},[_0x2b4f7f(248552,509464,521781)]=_0x2b4f7f(235629,112576,100181)},
+}
+},
+[_0x248f80(97272,68639,239679)]={
+[_0x3f0d21(315979,207022,312280)]=_0x3f0d21(179897,242791,175129),
+[_0x248f80(453112,433803,901619)]=_0x2b4f7f(59619,417391,421624),
+[_0x3f0d21(341070,646926,337197)]=false,
+[_0x3f0d21(472353,876593,468751)]=_0xcca467[_0xc84f9e[254]-57][_0x2b4f7f(667841,85025,97287)][_0x248f80(143937,148790,564486)],
+[_0x3f0d21(346866,614188,350403)]=(165+_0x95b3ae(_0x6bafdb(247,82),1)-322),
+[_0x2b4f7f(893067,86981,97330)]={
+[_0x3f0d21(468900,656573,472325)]={[_0x3f0d21(419546,684804,423147)]=_0xfc82ca(903524,903525),[_0x248f80(144431,148213,399086)]=_0x248f80(244835,248744,88788),[_0x2b4f7f(247584,328828,338893)]=_0x3f0d21(359552,292211,356019),[_0x2b4f7f(999560,352857,348786)]=2.5,[_0x2b4f7f(190287,279188,291512)]=4.0,[_0x2b4f7f(376832,118000,130269)]=3.0,[_0x3f0d21(523406,220375,519865)]=_0xfc82ca(865628,865629)},
+[_0x248f80(132130,160767,3005)]={[_0x3f0d21(88360,871670,84761)]=_0xfc82ca(_0xc84f9e[57],153),[_0x248f80(335220,355246,81845)]=_0x2b4f7f(281516,278486,266072),[_0x3f0d21(152363,207909,148113)]=_0x3f0d21(223324,156079,227951),[_0x248f80(136155,156832,808157)]=0.70,[_0x3f0d21(202554,134835,197903)]=1.00,[_0x248f80(237158,256283,259911)]=0.92,[_0x248f80(204708,223450,288381)]=_0xfc82ca(_0xc84f9e[195],214)},
+[_0x2b4f7f(848874,517216,513265)]={[_0x3f0d21(399029,656235,394372)]=3,[_0x3f0d21(175236,349793,179479)]=_0x3f0d21(306975,914434,310660),[_0x248f80(465268,487029,376709)]=_0x3f0d21(383296,294506,379650),[_0x3f0d21(373706,394088,369148)]=false},
+}
+},
+[_0x248f80(239164,250325,884920)]={
+[_0x2b4f7f(314715,297964,304230)]=_0x248f80(452538,430163,573758),
+[_0x248f80(218022,206037,555949)]=_0x3f0d21(506901,681298,503478),
+[_0x248f80(282267,276529,753039)]=false,
+[_0x248f80(372052,383521,795087)]=_0xcca467[_0xc84f9e[7]-216][_0x248f80(462792,489662,530162)][_0x2b4f7f(993560,123780,119715)],
+[_0x2b4f7f(960139,331527,343855)]=_0xfc82ca(_0xc84f9e[253],91),
+[_0x248f80(323047,301728,817986)]={
+[_0x248f80(303532,316996,678819)]={[_0x3f0d21(251477,1033099,246884)]=_0xfc82ca(268883,268882),[_0x3f0d21(402727,122818,406708)]=_0x3f0d21(469891,657562,473378),[_0x3f0d21(225607,134729,221437)]=_0x3f0d21(156911,224540,161500),[_0x2b4f7f(848952,448233,452290)]=2.0,[_0x3f0d21(80828,8757,76169)]=4.0,[_0x248f80(330272,359773,353025)]=3.0,[_0x3f0d21(386603,83570,390172)]=_0xfc82ca(482354,482355)},
+[_0x248f80(150073,146898,352723)]={[_0x248f80(443512,439040,591904)]=(_0xc84f9e[84]-166),[_0x3f0d21(361021,162008,365486)]=_0x3f0d21(494854,20309,499619),[_0x248f80(150314,146475,60891)]=_0x3f0d21(75783,36653,80453),[_0x248f80(147631,145362,141710)]=true},
+[_0x248f80(448750,438086,769010)]={[_0x3f0d21(474995,731821,470338)]=_0xfc82ca(71903,71900),[_0x248f80(181793,176379,451808)]=_0x2b4f7f(815331,332587,336754),[_0x3f0d21(279753,342983,284019)]=_0x248f80(285524,273629,402697),[_0x3f0d21(102550,139316,98976)]=true},
+[_0x248f80(101967,129442,796001)]={[_0x2b4f7f(870102,454490,450418)]=_0xfc82ca(_0xc84f9e[172],72),[_0x248f80(69627,96545,339258)]=_0x2b4f7f(464267,165010,177353),[_0x3f0d21(458377,491911,454451)]=_0x248f80(503870,509764,352329),[_0x3f0d21(413941,773750,410305)]=0.03,[_0x3f0d21(264203,332162,268862)]=0.25,[_0x2b4f7f(522285,259293,247024)]=0.08,[_0x3f0d21(255458,476603,260053)]=2},
+}
+},
+[_0x3f0d21(393224,975067,397999)]={
+[_0x2b4f7f(84855,69056,74314)]=_0x248f80(332761,353335,928282),
+[_0x3f0d21(73156,650306,69608)]=_0x248f80(284639,270384,155659),
+[_0x248f80(202550,221596,795682)]=false,
+[_0x248f80(448355,434198,1006584)]=_0xcca467[_0xc84f9e[242]-121][_0x248f80(377849,373903,711363)][_0x248f80(231958,261473,599377)],
+[_0x248f80(98508,128948,937108)]=_0xfc82ca(_0xc84f9e[244],157),
+[_0x248f80(417770,403629,969039)]={
+[_0x3f0d21(335755,292320,331190)]={[_0x248f80(493637,524093,541725)]=(1121+_0x95b3ae(_0x6bafdb(132,1253),1)-1384),[_0x248f80(450457,436547,195928)]=_0x2b4f7f(469233,130760,118524),[_0x248f80(126591,104830,215182)]=_0x2b4f7f(380722,203019,207167),[_0x2b4f7f(994939,199094,211331)]={_0x2b4f7f(1014215,290981,278533),_0x248f80(275835,279178,214018)},[_0x3f0d21(70281,172587,65727)]=_0x2b4f7f(659594,72168,76104)},
+[_0x2b4f7f(751124,76823,72885)]={[_0x248f80(449064,437584,595568)]=(_0xc84f9e[178]-215),[_0x3f0d21(81012,444049,77287)]=_0x3f0d21(341122,923210,337454),[_0x2b4f7f(17275,426023,438166)]=_0x248f80(172276,186254,28803),[_0x2b4f7f(977045,313924,326255)]=4.0,[_0x248f80(270989,284145,451206)]=20.0,[_0x248f80(264406,294827,287223)]=14.0,[_0x248f80(319169,305599,239384)]=(_0xc84f9e[239]-176)},
+[_0x3f0d21(426665,792525,430084)]={[_0x3f0d21(286577,543407,281920)]=(3671+_0x95b3ae(_0x6bafdb(2649,1038),1)-3684),[_0x2b4f7f(117054,102281,106499)]=_0x2b4f7f(793650,245123,232742),[_0x2b4f7f(229771,344791,355686)]=_0x248f80(376935,374557,462864),[_0x248f80(123187,104008,1025589)]=0.05,[_0x3f0d21(485932,422821,489497)]=0.40,[_0x3f0d21(329580,440270,333146)]=0.12,[_0x3f0d21(187362,424891,182741)]=(687+_0x95b3ae(_0x6bafdb(936,263),1)-1197)},
+}
+},
+[_0x2b4f7f(97625,215687,227873)]={
+[_0x248f80(510880,507258,256353)]=_0x248f80(474632,477694,93324),
+[_0x3f0d21(111682,607684,108142)]=_0x3f0d21(292641,853998,288145),
+[_0x3f0d21(307858,547282,304113)]=false,
+[_0x2b4f7f(541691,371385,367260)]=_0xcca467[_0xc84f9e[92]-201][_0x3f0d21(217834,1020504,213189)][_0x2b4f7f(549371,437095,432960)],
+[_0x248f80(72236,93524,972404)]=_0xfc82ca(712703,712693),
+[_0x3f0d21(197687,543531,202295)]={
+[_0x248f80(261373,232207,902048)]={[_0x248f80(186676,175692,857452)]=(_0xc84f9e[201]-92),[_0x248f80(306305,318043,36416)]=_0x248f80(274552,280448,364411),[_0x2b4f7f(103154,479662,491039)]=_0x2b4f7f(294801,182832,195098),[_0x3f0d21(487323,717080,490927)]=4.0,[_0x3f0d21(318043,377810,313454)]=19.0,[_0x3f0d21(327348,478742,322690)]=13.0,[_0x2b4f7f(31768,221203,217149)]=(3093+_0x95b3ae(_0x6bafdb(93,3144),1)-3236)},
+[_0x2b4f7f(729461,141165,137013)]={[_0x3f0d21(69409,858879,72976)]=_0xfc82ca(_0xc84f9e[74],60),[_0x3f0d21(504757,18768,500262)]=_0x2b4f7f(868395,271331,267194),[_0x3f0d21(166422,259352,170924)]=_0x3f0d21(311445,354239,316119),[_0x3f0d21(221483,53641,226077)]=true},
+}
+},
+[_0x3f0d21(344117,50960,348807)]={
+[_0x3f0d21(160475,362558,156488)]=_0x2b4f7f(368132,501107,497114),
+[_0x248f80(277137,282082,987802)]=_0x248f80(392730,362979,237624),
+[_0x3f0d21(390311,597991,386500)]=false,
+[_0x248f80(371050,384543,796145)]=_0xcca467[18][_0x3f0d21(122586,859752,118005)][_0x3f0d21(472703,934065,468047)],
+[_0x2b4f7f(593360,173148,169076)]=(2141+_0x95b3ae(_0x6bafdb(2129,12),1)-2130),
+[_0x248f80(74331,87324,636158)]={
+[_0x2b4f7f(118059,465682,469798)]={[_0x248f80(474951,477247,586527)]=_0xfc82ca(640327,640326),[_0x248f80(415509,401871,161236)]=_0x2b4f7f(305292,163509,151169),[_0x248f80(310179,314530,400722)]=_0x3f0d21(504004,449199,500473),[_0x248f80(423309,393736,931689)]={_0x248f80(398411,418737,318326),_0x2b4f7f(697764,226663,214476),_0x3f0d21(84181,165694,88672)},[_0x2b4f7f(200884,465988,470121)]=_0x248f80(135787,157073,56662)},
+[_0x2b4f7f(625921,182560,194957)]={[_0x2b4f7f(632878,131490,143754)]=_0xfc82ca(89552,89554),[_0x3f0d21(379156,144369,383111)]=_0x2b4f7f(747968,82541,94915),[_0x248f80(248938,244587,92827)]=_0x248f80(391211,364369,469084),[_0x3f0d21(103117,789582,98553)]=(2340+_0x95b3ae(_0x6bafdb(395,2223),1)-2618),[_0x2b4f7f(68233,503634,499582)]=_0xfc82ca(_0xc84f9e[33],201),[_0x2b4f7f(232115,493123,505454)]=_0xfc82ca(957100,957100),[_0x2b4f7f(176346,109777,105727)]=(1673+_0x95b3ae(_0x6bafdb(1028,653),1)-1681)},
+}
+},
+[_0x3f0d21(319323,967381,314851)]={
+[_0x248f80(472600,475330,201945)]=_0x248f80(479379,468844,955420),
+[_0x2b4f7f(596833,415413,419478)]=_0x2b4f7f(969543,223899,219700),
+[_0x248f80(121962,109248,978814)]=true,
+[_0x248f80(297416,327357,853331)]=_0xcca467[18][_0x3f0d21(268201,579355,263558)][_0x3f0d21(128629,557243,123973)],
+[_0x2b4f7f(922699,376263,364015)]=(601+_0x95b3ae(_0x6bafdb(1481,1936),1)-3405),
+[_0x2b4f7f(901357,78755,72788)]={
+[_0x248f80(99526,130246,401980)]={[_0x2b4f7f(922273,375597,363269)]=(185+_0x95b3ae(_0x6bafdb(160,25),1)-184),[_0x248f80(337555,348233,66642)]=_0x2b4f7f(315556,466162,470082),[_0x3f0d21(330141,292499,333863)]=_0x3f0d21(284995,340776,281470),[_0x248f80(452276,430385,959568)]={_0x3f0d21(407189,522023,402479),_0x3f0d21(335874,718692,340665),_0x248f80(521801,495178,286662),_0x248f80(201358,223882,307362),_0x3f0d21(87560,756253,83126),_0x248f80(442951,440897,569843)},[_0x3f0d21(188884,86390,193506)]=_0x2b4f7f(598831,83995,96425)},
+[_0x3f0d21(76253,775799,80704)]={[_0x248f80(298966,325806,738190)]=(1315+_0x95b3ae(_0x6bafdb(1512,203),1)-1713),[_0x248f80(254478,234708,508111)]=_0x248f80(311179,313455,891195),[_0x2b4f7f(158562,305214,296847)]=_0x248f80(186183,172227,25686),[_0x2b4f7f(911832,118293,130592)]={_0x2b4f7f(437871,295362,307543),_0x2b4f7f(676286,289846,285825),_0x2b4f7f(540618,369365,365165)},[_0x248f80(341152,345053,351617)]=_0x2b4f7f(365840,506557,494120)},
+[_0x2b4f7f(674067,522551,510350)]={[_0x2b4f7f(941576,391044,378796)]=3,[_0x248f80(261584,232202,515857)]=_0x2b4f7f(705020,237513,241523),[_0x3f0d21(247065,178711,251043)]=_0x3f0d21(127468,22214,123822),[_0x3f0d21(435262,332956,439816)]=true},
+[_0x248f80(438410,444545,50522)]={[_0x248f80(278257,280969,783017)]=_0xfc82ca(_0xc84f9e[166],34),[_0x248f80(253940,239918,523573)]=_0x3f0d21(454004,756625,458673),[_0x248f80(318991,305422,424190)]=_0x3f0d21(110942,5748,107292),[_0x248f80(217403,206406,210970)]=false},
+[_0x2b4f7f(732397,154057,158068)]={[_0x3f0d21(516428,783506,521085)]=(3964+_0x95b3ae(_0x6bafdb(316,3648),1)-3959),[_0x3f0d21(136747,388302,133048)]=_0x248f80(495784,518310,925457),[_0x248f80(187237,175204,32148)]=_0x3f0d21(447059,488825,442385),[_0x3f0d21(284164,517798,279602)]=false},
+[_0x2b4f7f(742422,214599,227064)]={[_0x3f0d21(469844,736906,473445)]=_0xfc82ca(39464,39470),[_0x3f0d21(83240,442317,87227)]=_0x248f80(365703,388247,944356),[_0x248f80(152801,140256,61968)]=_0x248f80(266508,288389,421713),[_0x248f80(493817,524164,516568)]=true},
+[_0x248f80(145038,151199,60906)]={[_0x2b4f7f(944998,377578,389826)]=_0xfc82ca(_0xc84f9e[129],168),[_0x248f80(385137,366251,115376)]=_0x2b4f7f(954202,402025,397995),[_0x3f0d21(261007,164993,256565)]=_0x248f80(92031,69637,243464),[_0x248f80(192794,165473,833052)]=(2204+_0x95b3ae(_0x6bafdb(2738,558),1)-3296),[_0x248f80(514720,503260,334507)]=_0xfc82ca(_0xc84f9e[132],111),[_0x248f80(270657,284220,280672)]=(893+_0x95b3ae(_0x6bafdb(796,97),1)-638),[_0x3f0d21(240478,461575,244073)]=_0xfc82ca(_0xc84f9e[163],245),[_0x3f0d21(522560,39997,519052)]=function(_0xaf286a)return not _0xaf286a[_0x248f80(185710,175457,961948)][_0x2b4f7f(54978,318002,322079)]end},
+[_0x248f80(385898,367486,587856)]={[_0x3f0d21(213845,1005195,217444)]=_0xfc82ca(71217,71225),[_0x2b4f7f(200607,215336,222882)]=_0x2b4f7f(529345,362956,375049),[_0x3f0d21(152398,207936,148212)]=_0x248f80(404188,417190,326315),[_0x248f80(467598,480757,615816)]=_0xfc82ca(_0xc84f9e[183],152),[_0x248f80(329881,360421,510098)]=(_0xc84f9e[229]+85),[_0x248f80(84470,81547,73943)]=_0xfc82ca(_0xc84f9e[251],108),[_0x248f80(71035,90629,421026)]=(3324+_0x95b3ae(_0x6bafdb(2107,1223),1)-3330),[_0x248f80(267272,289819,42904)]=function(_0xaf286a)return not _0xaf286a[_0x2b4f7f(671468,142525,138242)][_0x3f0d21(187712,93666,184182)]end},
+[_0x3f0d21(441776,865728,438143)]={[_0x3f0d21(135794,919468,131139)]=_0xfc82ca(623734,623743),[_0x248f80(466489,485603,212216)]=_0x248f80(240597,250818,149350),[_0x2b4f7f(231495,346907,353450)]=_0x2b4f7f(1548,439213,426887),[_0x2b4f7f(834959,434014,438133)]=(648+_0x95b3ae(_0x6bafdb(751,103),1)-854),[_0x3f0d21(520918,453471,516323)]=_0xfc82ca(_0xc84f9e[1],114),[_0x3f0d21(97228,183150,92666)]=(_0xc84f9e[75]-136),[_0x2b4f7f(288464,490203,477941)]=_0xfc82ca(843673,843673),[_0x2b4f7f(77580,128547,116448)]=function(_0xaf286a)return not _0xaf286a[_0x2b4f7f(677217,149296,161679)][_0x248f80(326153,298356,299816)]end},
+[_0x2b4f7f(390531,369561,365393)]={[_0x3f0d21(90039,871017,85382)]=_0xfc82ca(33721,33715),[_0x3f0d21(184568,338461,180587)]=_0x248f80(501515,515859,236453),[_0x2b4f7f(88255,498659,504914)]=_0x2b4f7f(73645,502284,498214),[_0x248f80(114794,112401,1017708)]=(127+_0x95b3ae(_0x6bafdb(890,773),1)-1653),[_0x2b4f7f(342474,236561,240701)]=_0xfc82ca(537965,538002),[_0x3f0d21(110796,131182,107258)]=(_0xc84f9e[249]+146),[_0x2b4f7f(134859,70336,74478)]=_0xfc82ca(574896,574896)},
+[_0x3f0d21(305000,853666,308666)]={[_0x3f0d21(260786,1044332,256131)]=(_0xc84f9e[65]-199),[_0x248f80(422964,393966,153333)]=_0x2b4f7f(21148,326248,314018),[_0x3f0d21(206547,154077,210793)]=_0x3f0d21(136934,204565,132309),[_0x2b4f7f(993161,329048,341363)]=_0xfc82ca(_0xc84f9e[78],84),[_0x2b4f7f(360058,252833,256909)]=_0xfc82ca(749178,749234),[_0x248f80(499623,518362,521862)]=(_0xc84f9e[161]-147),[_0x3f0d21(77411,364090,80980)]=_0xfc82ca(671038,671038),[_0x3f0d21(151015,338074,155435)]=function(_0xaf286a)return _0xaf286a[_0x3f0d21(520987,230175,516514)][_0x248f80(214290,209519,207923)]==_0x3f0d21(476293,562147,480830)end},
+[_0x2b4f7f(870940,336925,333014)]={[_0x248f80(417905,399113,633897)]=_0xfc82ca(_0xc84f9e[51],20),[_0x2b4f7f(494887,510864,517146)]=_0x2b4f7f(752200,236507,240407),[_0x2b4f7f(354841,239941,231156)]=_0x248f80(236125,257319,84522),[_0x3f0d21(435146,736585,438782)]=0.0,[_0x3f0d21(421518,489223,425147)]=5.0,[_0x248f80(88740,77273,78725)]=1.5,[_0x248f80(256375,237065,299182)]=_0xfc82ca(196361,196360),[_0x248f80(343159,345188,102375)]=function(_0xaf286a)return _0xaf286a[_0x3f0d21(495014,261538,499487)][_0x248f80(255756,233585,233005)]==_0x3f0d21(452154,602460,455809)end},
+[_0x248f80(267889,290412,13641)]={[_0x3f0d21(385725,653155,389260)]=_0xfc82ca(_0xc84f9e[179],230),[_0x248f80(463332,485182,209701)]=_0x2b4f7f(215073,197032,209253),[_0x2b4f7f(136720,316748,326397)]=_0x3f0d21(430033,493090,433634),[_0x248f80(399716,421407,548450)]=(_0xc84f9e[105]-205),[_0x2b4f7f(492275,75560,71428)]=(115+_0x95b3ae(_0x6bafdb(254,141),1)-392),[_0x3f0d21(461639,310245,465265)]=(_0xc84f9e[66]-63),[_0x248f80(504453,509435,52060)]=(865+_0x95b3ae(_0x6bafdb(1755,1466),1)-3221),[_0x2b4f7f(427028,417083,421368)]=function(_0xaf286a)return _0xaf286a[_0x248f80(78338,84482,431352)][_0x2b4f7f(336103,76823,72762)]~=_0x248f80(119813,109572,246600)end},
+[_0x2b4f7f(375345,414824,418982)]={[_0x2b4f7f(658069,107289,103217)]=(_0xc84f9e[4]+9),[_0x248f80(443365,439615,188708)]=_0x248f80(325159,298552,10241),[_0x248f80(360691,391154,468482)]=_0x3f0d21(391285,323974,387654),[_0x248f80(172213,186318,845747)]=0.00,[_0x2b4f7f(75707,492128,504396)]=1.00,[_0x3f0d21(212622,36396,208056)]=0.30,[_0x3f0d21(510674,223883,514277)]=(_0xc84f9e[219]-43),[_0x248f80(112775,114836,330519)]=function(_0xaf286a)local _0x3f77fd=_0xaf286a[_0x3f0d21(168792,451420,164321)][_0x2b4f7f(46306,309266,297023)]return _0x3f77fd==_0x3f0d21(163802,131240,159078)or _0x3f77fd==_0x3f0d21(316732,41450,313217)or _0x3f77fd==_0x248f80(279766,277715,871992)or _0x3f77fd==_0x2b4f7f(564335,165233,177607)end},
+[_0x248f80(72555,90955,355292)]={[_0x3f0d21(317397,573963,312804)]=_0xfc82ca(_0xc84f9e[19],147),[_0x3f0d21(346838,176179,351045)]=_0x2b4f7f(744385,172360,168345),[_0x2b4f7f(357859,243391,235790)]=_0x2b4f7f(15472,428497,440827),[_0x2b4f7f(792471,406854,394605)]=0.00,[_0x2b4f7f(137497,310466,298222)]=1.00,[_0x2b4f7f(153332,416260,420393)]=0.65,[_0x248f80(230461,258883,327140)]=_0xfc82ca(342943,342941),[_0x2b4f7f(115243,72452,76743)]=function(_0xaf286a)local _0x3f77fd=_0xaf286a[_0x2b4f7f(37572,220818,224802)][_0x2b4f7f(158249,419545,415476)]return _0x3f77fd==_0x3f0d21(465628,484782,460896)or _0x3f77fd==_0x248f80(156139,137711,377799)or _0x3f77fd==_0x2b4f7f(705915,501052,497033)or _0x3f77fd==_0x248f80(478670,472520,605818)end},
+[_0x2b4f7f(839577,372617,368475)]={[_0x2b4f7f(630234,144470,132222)]=_0xfc82ca(_0xc84f9e[207],106),[_0x2b4f7f(73794,91893,84351)]=_0x248f80(368821,383126,787130),[_0x3f0d21(462525,422323,466695)]=_0x248f80(181035,177233,4956),[_0x248f80(120766,106693,1020088)]=0.000,[_0x3f0d21(359516,288213,355945)]=0.080,[_0x248f80(78771,83150,88722)]=0.024,[_0x2b4f7f(346201,414802,418940)]=(1670+_0x95b3ae(_0x6bafdb(1672,14),1)-1683),[_0x2b4f7f(137137,183966,196189)]=function(_0xaf286a)return _0xaf286a[_0x3f0d21(400698,159038,397187)][_0x248f80(444815,442098,434350)]==_0x2b4f7f(284114,499030,503266)end},
+[_0x248f80(502556,512824,534502)]={[_0x248f80(181312,176952,854040)]=(3151+_0x95b3ae(_0x6bafdb(316,3443),1)-3742),[_0x2b4f7f(152360,136607,145941)]=_0x248f80(476799,474714,540484),[_0x248f80(412775,408422,322198)]=_0x2b4f7f(486305,122368,126506),[_0x2b4f7f(640246,255527,251404)]=0.05,[_0x3f0d21(220183,148894,216610)]=1.00,[_0x2b4f7f(166095,427071,439314)]=0.16,[_0x248f80(285306,273668,205731)]=2,[_0x3f0d21(225833,268116,221413)]=function(_0xaf286a)return _0xaf286a[_0x2b4f7f(93045,173859,169875)][_0x3f0d21(228664,52634,225038)]==_0x2b4f7f(429072,345236,357408)end},
+[_0x248f80(436537,446751,801533)]={[_0x2b4f7f(1023122,275742,263478)]=(2757+_0x95b3ae(_0x6bafdb(2429,952),1)-3363),[_0x248f80(259043,230713,512290)]=_0x3f0d21(473705,1017903,469129),[_0x3f0d21(231789,194147,235735)]=_0x2b4f7f(510466,98211,85897),[_0x3f0d21(199539,955888,203079)]=4.0,[_0x3f0d21(398056,461665,393437)]=120.0,[_0x3f0d21(179872,69122,175254)]=42.0,[_0x3f0d21(269963,48850,265404)]=_0xfc82ca(498619,498619),[_0x248f80(428152,454763,146408)]=function(_0xaf286a)return _0xaf286a[_0x248f80(166305,192929,339803)][_0x248f80(424290,396831,397379)]==_0x3f0d21(176770,552599,172092)end},
+[_0x2b4f7f(409093,117203,129291)]={[_0x2b4f7f(715736,82516,94844)]=(938+_0x95b3ae(_0x6bafdb(1451,1537),1)-2969),[_0x248f80(418081,399355,148448)]=_0x2b4f7f(979972,418055,414174),[_0x3f0d21(133609,227047,137299)]=_0x2b4f7f(156837,315652,319790),[_0x2b4f7f(826342,440631,428316)]=2.0,[_0x3f0d21(151607,215486,147970)]=10.0,[_0x248f80(176941,181328,186892)]=5.0,[_0x248f80(282134,276840,210895)]=(7+_0x95b3ae(_0x6bafdb(277,274),1)-551),[_0x2b4f7f(347951,366080,370371)]=function(_0xaf286a)return _0xaf286a[_0x248f80(252414,238078,294660)][_0x248f80(515646,502083,505631)]==_0x2b4f7f(710452,505715,493510)end},
+[_0x2b4f7f(994952,143076,138814)]={[_0x248f80(86708,75212,958188)]=(2555+_0x95b3ae(_0x6bafdb(769,2810),1)-3559),[_0x3f0d21(380762,144831,384713)]=_0x248f80(355272,332771,659257),[_0x2b4f7f(128321,472605,465324)]=_0x3f0d21(373538,309969,368913),[_0x2b4f7f(536500,134501,146766)]=0.00,[_0x248f80(150248,146836,35555)]=2.50,[_0x248f80(489289,458804,466536)]=0.80,[_0x248f80(436958,449952,119559)]=(3529+_0x95b3ae(_0x6bafdb(3281,280),1)-3559),[_0x3f0d21(513602,45887,509070)]=function(_0xaf286a)return _0xaf286a[_0x2b4f7f(288555,502653,498637)][_0x3f0d21(174763,72201,178333)]==_0x248f80(283146,272911,874724)end},
+[_0x2b4f7f(519196,90906,86982)]={[_0x3f0d21(160106,943284,156507)]=21,[_0x2b4f7f(519354,502285,492935)]=_0x3f0d21(71796,697475,68242),[_0x3f0d21(410997,473723,414927)]=_0x2b4f7f(139479,300406,304476),[_0x3f0d21(379278,546573,383930)]=0.50,[_0x3f0d21(279698,351515,284327)]=2.00,[_0x3f0d21(488764,312734,485130)]=1.08,[_0x248f80(452401,430159,106216)]=(193+_0x95b3ae(_0x6bafdb(1963,1898),1)-3859),[_0x2b4f7f(188862,145553,133202)]=function(_0xaf286a)return _0xaf286a[_0x248f80(220342,206006,326220)][_0x248f80(403635,417742,410002)]==_0x2b4f7f(1043433,166830,178971)end},
+[_0x2b4f7f(549788,229874,241964)]={[_0x2b4f7f(562328,212244,199996)]=_0xfc82ca(812578,812596),[_0x2b4f7f(101436,117387,124161)]=_0x248f80(245525,247610,368018),[_0x248f80(80977,84816,236192)]=_0x3f0d21(73671,47341,68997),[_0x3f0d21(379908,425126,384562)]=true,[_0x248f80(74291,88608,364963)]=function(_0xaf286a)return _0xaf286a[_0x3f0d21(224714,466382,229235)][_0x3f0d21(336544,430594,340118)]==_0x248f80(161416,134797,752742)end},
+[_0x2b4f7f(934318,111124,99060)]={[_0x248f80(186616,176000,857248)]=_0xfc82ca(_0xc84f9e[256],215),[_0x248f80(397641,419731,144264)]=_0x2b4f7f(990869,170778,175099),[_0x3f0d21(201623,158873,197165)]=_0x3f0d21(85783,18148,89380),[_0x2b4f7f(978491,314602,326849)]=0.10,[_0x3f0d21(71479,3774,66818)]=3.00,[_0x2b4f7f(46612,309988,297673)]=1.00,[_0x248f80(512908,500978,43605)]=(_0xc84f9e[130]-76),[_0x3f0d21(284879,212402,281091)]=function(_0xaf286a)return _0xaf286a[_0x3f0d21(434348,184488,438805)][_0x3f0d21(121846,158548,117184)]==_0x248f80(292636,266010,656552)end},
+[_0x3f0d21(413909,913830,410174)]={[_0x248f80(99456,127992,936152)]=_0xfc82ca(680127,680103),[_0x3f0d21(158840,366237,163307)]=_0x248f80(141093,155414,390113),[_0x248f80(442197,444500,268708)]=_0x248f80(304282,316384,423149),[_0x248f80(460321,487770,606503)]=0.05,[_0x3f0d21(92606,28727,97163)]=2.00,[_0x3f0d21(364523,409417,368093)]=0.55,[_0x248f80(405153,416223,87928)]=_0xfc82ca(470912,470914),[_0x2b4f7f(207106,258093,245998)]=function(_0xaf286a)return _0xaf286a[_0x248f80(109802,120042,395792)][_0x2b4f7f(239922,501186,497135)]==_0x3f0d21(451986,737502,456493)end},
+[_0x3f0d21(204611,836600,200110)]={[_0x3f0d21(222158,1013264,225791)]=_0xfc82ca(_0xc84f9e[147],184),[_0x248f80(478829,473271,224428)]=_0x248f80(447641,437420,757341),[_0x248f80(165120,193025,9201)]=_0x2b4f7f(501150,114406,102111),[_0x248f80(84274,81487,73747)]=true},
+}
+},
+}
+local function _0x103a58()
+local _0x8a257c=_0x7576e4[_0x3f0d21(382014,986834,378577)]
+return _0x8a257c~=nil
+and _0x8a257c[_0x248f80(458435,427764,451108)](_0x8a257c,_0x3f0d21(83599,871441,87166))==true
+and _0xe26196~=nil
+and _0x9cbe51~=nil
+and _0x9cbe51[_0x248f80(392540,363037,422702)]~=nil
+and _0xae54c0~=nil
+and _0x1536c7~=nil
+and _0xba873b~=nil
+and _0xcca467[15][_0x2b4f7f(128271,361331,373652)](_0xcca467[15],_0x248f80(222476,204085,591395))~=true
+end
+local function _0x1b371d()
+local _0x8a257c=_0x7576e4[_0x3f0d21(426792,809412,430535)]
+return(_0x8a257c and _0x8a257c[_0x2b4f7f(508695,243051,230796)](_0x8a257c,_0x3f0d21(465481,1003714,460918)))or(3890+_0x95b3ae(_0x6bafdb(3907,113),1)-4000)
+end
+local function _0x6ac942(_0x1241cd)
+local _0xc66bf3=_0xe26196[_0x248f80(322937,301633,903453)]and _0xe26196[_0x248f80(167610,194946,764638)][_0x248f80(213308,211206,815474)]
+if not _0xc66bf3 then return nil,nil end
+for _0xdcef1c=_0xfc82ca(818694,818695),_0xfc82ca(31103,31094)do
+local _0x98710b=_0xc66bf3[_0xdcef1c]
+if _0x98710b and _0x1241cd(_0x98710b,_0x01ee70[_0x2b4f7f(147493,318167,324872)](_0x98710b))then
+return _0xdcef1c,_0x98710b
 end
 end
 return nil,nil
 end
-local function _0x52ee2b(_0x0d38a7)
-local _0xc90c4e=_0x0a7cca[_0xd44ced(436607,1027324,454472)]and _0x0a7cca[_0xd44ced(431392,1020067,447255)][_0xe8ebea(363297,377251,557001)]
-if not _0xc90c4e then return nil,nil end
-for _0x7a498d=(723+_0xa81147(_0xfaf96b(1253,1590),1)-2842),(3979+_0xa81147(_0xfaf96b(2452,1567),1)-3992)do
-local _0x1f1a45=_0xc90c4e[_0x7a498d]
-if _0x1f1a45 and _0x0d38a7(_0x1f1a45,_0xa0d11b[_0x848d34(444365,510161,494656)](_0x1f1a45))then
-return _0x7a498d,_0x1f1a45
+local function _0x5e389c(_0x1241cd)
+local _0x25052a=_0xe26196[_0x248f80(81368,84704,530876)]and _0xe26196[_0x3f0d21(480094,896764,475823)][_0x2b4f7f(833017,100361,112866)]
+if not _0x25052a then return nil,nil end
+for _0x4fbf4d=1,_0xfc82ca(_0xc84f9e[140],78)do
+local _0x98710b=_0x25052a[_0x4fbf4d]
+if _0x98710b and _0x1241cd(_0x98710b,_0x01ee70[_0x248f80(290611,268316,430146)](_0x98710b))then
+return _0x4fbf4d,_0x98710b
 end
 end
 return nil,nil
 end
-local function _0xbd84fe()
-return _0xd5a614(function(_0x1f1a45,_0x489087)
-return _0x489087 and(_0x489087[_0xe8ebea(402505,421578,483500)]==_0xe8ebea(410482,395766,493599)or _0x489087[_0xd44ced(488342,295806,472278)]==true)
+local function _0xb3868e()
+return _0x6ac942(function(_0x98710b,_0x61c37d)
+return _0x61c37d and(_0x61c37d[_0x248f80(407262,413410,702178)]==_0x248f80(252858,238471,679054)or _0x61c37d[_0x2b4f7f(261153,289829,285899)]==true)
 end)
 end
-local function _0x2dd1a3(_0xc2acdc)
-local _0x879c70,_0xdd14f9
-local _0x3b6bc8=_0x0a7cca[_0xd44ced(259542,716885,242657)]and _0x0a7cca[_0xd44ced(97305,555418,80430)][_0x848d34(904506,155927,140424)]
-if not _0x3b6bc8 then return nil end
-for _0xef410f=(_0x40b209[122]-246),9 do
-local _0x1f1a45=_0x3b6bc8[_0xef410f]
-if _0x1f1a45 then
-local _0x489087=_0xa0d11b[_0xd44ced(221281,193439,206415)](_0x1f1a45)
-if _0x1f1a45[_0xd44ced(118586,527383,100475)]==_0xd44ced(431190,459433,447252)or(_0x489087 and _0x489087[_0x848d34(51644,311322,296379)]==_0xd44ced(457464,486407,441786))then
-_0xdd14f9=_0xdd14f9 or _0xef410f
-if _0xa0d11b[_0xe8ebea(445470,427370,97271)](_0x1f1a45,_0xe8ebea(118594,99786,597940))>_0xea489d(601157,601157)then
-_0x879c70=_0xef410f
+local function _0xae9965(_0xea1955)
+local _0x4a2100,_0x676459
+local _0xc66bf3=_0xe26196[_0x248f80(451236,431516,1033920)]and _0xe26196[_0x3f0d21(436210,809552,439811)][_0x2b4f7f(635125,191021,187079)]
+if not _0xc66bf3 then return nil end
+for _0xdcef1c=_0xfc82ca(340197,340196),_0xfc82ca(59674,59667)do
+local _0x98710b=_0xc66bf3[_0xdcef1c]
+if _0x98710b then
+local _0x61c37d=_0x01ee70[_0x2b4f7f(37058,395824,402927)](_0x98710b)
+if _0x98710b[_0x3f0d21(284271,201221,279703)]==_0x3f0d21(168748,1040308,164309)or(_0x61c37d and _0x61c37d[_0x248f80(104864,123292,858524)]==_0x248f80(220173,205901,902699))then
+_0x676459=_0x676459 or _0xdcef1c
+if _0x01ee70[_0x2b4f7f(860121,474098,463890)](_0x98710b,_0x248f80(290023,267430,1972))>(_0xc84f9e[256]-192)then
+_0x4a2100=_0xdcef1c
 break
 end
 end
 end
 end
-if _0xc2acdc then
-return _0x879c70
+if _0xea1955 then
+return _0x4a2100
 end
-return _0x879c70 or _0xdd14f9
+return _0x4a2100 or _0x676459
 end
-local function _0xa478ad()
-local _0x1f1a45=_0x0a7cca[_0xd44ced(469774,170014,486474)]and _0x0a7cca[_0xe8ebea(265404,280117,290311)]()
-if not _0x1f1a45 then return false end
-local _0x489087=_0xa0d11b[_0x848d34(294079,357283,341810)](_0x1f1a45)
-return _0x489087~=nil and(_0x489087[_0xd44ced(308250,8542,324388)]==_0xd44ced(301174,525115,319283)or _0x489087[_0xe8ebea(146379,160072,229166)]==_0x848d34(165490,393307,411129)or _0x489087[_0xe8ebea(324060,310111,374073)]==_0xd44ced(472031,435488,488605)or _0x489087[_0xe8ebea(227430,209637,146563)]==_0xe8ebea(449924,431887,906901)or _0x489087[_0xe8ebea(284459,269736,332750)]==_0x848d34(904093,517562,499728))
+local function _0xe7ee8b()
+local _0x98710b=_0xe26196[_0x248f80(201759,224349,531596)]and _0xe26196[_0x2b4f7f(546290,472975,460669)]()
+if not _0x98710b then return false end
+local _0x61c37d=_0x01ee70[_0x3f0d21(318471,391847,314863)](_0x98710b)
+return _0x61c37d~=nil and(_0x61c37d[_0x248f80(479812,469624,774776)]==_0x3f0d21(229097,800842,224277)or _0x61c37d[_0x248f80(116852,110664,870472)]==_0x248f80(202725,225240,692433)or _0x61c37d[_0x2b4f7f(929720,443668,456184)]==_0x248f80(514738,500466,606356)or _0x61c37d[_0x248f80(145945,148005,965157)]==_0x248f80(224946,202486,871574)or _0x61c37d[_0x2b4f7f(820179,289151,285075)]==_0x248f80(443906,441927,759229))
 end
-local function _0xccc5fe()
-return _0xd5a614(function(_0x1f1a45,_0x489087)
-return _0x1f1a45[_0xd44ced(163131,769558,146042)]==_0xe8ebea(307323,326390,103318)or(_0x489087 and _0x489087[_0xe8ebea(490882,472833,407911)]==_0xd44ced(200833,254659,219081))
+local function _0x35dfe4()
+return _0x6ac942(function(_0x98710b,_0x61c37d)
+return _0x98710b[_0x248f80(368548,386971,68879)]==_0x248f80(372567,382737,794271)or(_0x61c37d and _0x61c37d[_0x2b4f7f(821680,287516,283632)]==_0x3f0d21(454891,825243,451092))
 end)
 end
-local function _0xe053ad()
-return _0xd5a614(function(_0x1f1a45,_0x489087)
-return _0x489087 and _0x489087[_0x848d34(199312,459574,476823)]==_0xe8ebea(172800,190862,921166)and _0x489087[_0xd44ced(362952,998013,380546)]==_0xe8ebea(118618,99786,815673)and _0x1f1a45[_0x848d34(945972,471291,488799)]~=_0xd44ced(173850,152920,188498)
+local function _0x353bcc()
+return _0x6ac942(function(_0x98710b,_0x61c37d)
+return _0x61c37d and _0x61c37d[_0x3f0d21(294884,731418,290065)]==_0x248f80(483961,465470,929534)and _0x61c37d[_0x248f80(345357,343365,277380)]==_0x3f0d21(522159,16169,517293)and _0x98710b[_0x248f80(108104,122487,341219)]~=_0x2b4f7f(780953,405947,393549)
 end)
 end
-local function _0x73563c()
-return _0xd5a614(function(_0x1f1a45,_0x489087)
-return _0x1f1a45[_0x848d34(788138,350565,335041)]==_0xe8ebea(476694,461959,574469)or(_0x489087 and _0x489087[_0xd44ced(379904,88388,363326)]==_0x848d34(664483,398257,415233))
+local function _0xceed54()
+return _0x6ac942(function(_0x98710b,_0x61c37d)
+return _0x98710b[_0x2b4f7f(237410,223066,219061)]==_0x248f80(445697,439627,597170)or(_0x61c37d and _0x61c37d[_0x3f0d21(171624,903318,167069)]==_0x248f80(499464,517955,207349))
 end)
 end
-local function _0x58f79e()
-return _0xd5a614(function(_0x1f1a45)
-return _0x1f1a45[_0x848d34(865504,289583,274059)]==_0xd44ced(223289,832436,208759)or _0x1f1a45[_0xd44ced(218472,693829,201257)]==_0x848d34(639703,433090,450160)
+local function _0x0fd0c0()
+return _0x6ac942(function(_0x98710b)
+return _0x98710b[_0x248f80(201669,224250,491886)]==_0x248f80(237318,255818,1002784)or _0x98710b[_0x248f80(101024,127647,333835)]==_0x2b4f7f(182581,308894,296547)
 end)
 end
-local function _0xc4dfd9()
-local _0xcf4a1d=_0x736c63[_0x848d34(682510,511886,494101)]
-if _0xcf4a1d and _0xcf4a1d[_0xd44ced(139130,847365,153667)](_0xcf4a1d,_0xe8ebea(434406,453235,654894))==true then
+local function _0xc15659()
+local _0x8a257c=_0x7576e4[_0x2b4f7f(1000961,139455,135257)]
+if _0x8a257c and _0x8a257c[_0x2b4f7f(127805,361793,374182)](_0x8a257c,_0x3f0d21(404808,143913,409167))==true then
 return true
 end
-local _0xf0c8f9=_0x0a7cca[_0xd44ced(456240,1045427,438279)]and _0x0a7cca[_0xd44ced(494323,954224,511172)][_0x848d34(912353,265185,282189)]and _0x0a7cca[_0xd44ced(82888,542283,67071)][_0xd44ced(162176,722274,147145)][_0xe8ebea(99385,118441,801114)]
-return _0xf0c8f9~=nil and _0xf0c8f9[_0xe8ebea(395486,410200,662103)]==_0xd44ced(445273,407835,429073)
+local _0xe5ba62=_0xe26196[_0x3f0d21(373966,1001836,369983)]and _0xe26196[_0x248f80(268278,286926,865170)][_0x3f0d21(484229,915899,487557)]and _0xe26196[_0x248f80(435785,446833,1016365)][_0x248f80(523502,492713,962665)][_0x248f80(82309,80332,352180)]
+return _0xe5ba62~=nil and _0xe5ba62[_0x3f0d21(457491,114553,453099)]==_0x248f80(306772,316946,860060)
 end
-local function _0xc06ffa(_0x0d38a7,_0x45c4ba)
-local _0x7594f8,_0xd92bf1=_0xd5a614(_0x0d38a7)
-if _0x7594f8 then return _0x7594f8,_0xd92bf1 end
-local _0x2cb074,_0xc4c01a=_0x52ee2b(_0x0d38a7)
-if _0x2cb074 then
-local _0x35bd99=_0x45c4ba or 9
-_0x7ffb4d[_0xd44ced(265377,104922,281246)]({[_0x848d34(963498,510692,495440)]=_0xd44ced(223015,680612,205072),[_0xd44ced(156840,69000,140282)]=_0xd44ced(460574,77933,475213),[_0xd44ced(295911,929874,312493)]=_0x2cb074+(_0x40b209[207]-15),[_0x848d34(918475,460837,478610)]=_0x35bd99})
-_0x0a7cca[_0x848d34(525718,105719,120941)][_0xe8ebea(514767,495694,867235)][_0x35bd99],_0x0a7cca[_0xd44ced(315447,906676,300544)][_0xe8ebea(316055,301077,599679)][_0x2cb074]=_0xc4c01a,_0x0a7cca[_0xe8ebea(76618,90678,916631)][_0xe8ebea(236889,251864,621621)][_0x35bd99]
-return _0x35bd99,_0xc4c01a
+local function _0xc53161(_0x1241cd,_0x5ea403)
+local _0xf3effd,_0xae7dac=_0x6ac942(_0x1241cd)
+if _0xf3effd then return _0xf3effd,_0xae7dac end
+local _0xcda6bd,_0x5422e7=_0x5e389c(_0x1241cd)
+if _0xcda6bd then
+local _0x66e0ea=_0x5ea403 or _0xfc82ca(684709,684716)
+_0x1536c7[_0x2b4f7f(36131,393382,405334)]({[_0x3f0d21(267373,978219,264037)]=_0x248f80(127594,99666,579086),[_0x248f80(479472,469152,1043080)]=_0x248f80(390022,363479,205302),[_0x2b4f7f(404153,212692,200236)]=_0xcda6bd+(723+_0x95b3ae(_0x6bafdb(144,579),1)-713),[_0x3f0d21(459590,193393,462925)]=_0x66e0ea})
+_0xe26196[_0x248f80(397189,424125,994273)][_0x3f0d21(435793,671963,439458)][_0x66e0ea],_0xe26196[_0x3f0d21(360168,1016650,356121)][_0x2b4f7f(677302,485446,481453)][_0xcda6bd]=_0x5422e7,_0xe26196[_0x3f0d21(418053,826535,422132)][_0x3f0d21(437253,674447,442102)][_0x66e0ea]
+return _0x66e0ea,_0x5422e7
 end
 return nil,nil
 end
-local function _0xf8b138(_0xef410f,_0xf91ff5)
-local _0x1f1a45=_0x0a7cca[_0xd44ced(276637,867614,294570)]and _0x0a7cca[_0x848d34(930603,502346,519888)][_0x848d34(631457,396940,412435)]and _0x0a7cca[_0xe8ebea(422266,407558,698023)][_0xd44ced(412327,621160,396699)][_0xef410f]
-if not _0x1f1a45 then return false end
-local _0x489087=_0xa0d11b[_0xd44ced(157897,260919,143079)](_0x1f1a45)
-if not _0x489087 or(_0x489087[_0x848d34(48435,308373,323892)]~=_0xd44ced(169471,157629,185015)and _0x489087[_0xd44ced(210507,500495,225653)]~=_0xd44ced(468887,940917,483550))then return false end
-if _0x0a7cca[_0xd44ced(418737,297997,402660)]then
-_0xc96c19[27](_0x0a7cca[_0xe8ebea(501547,519600,555474)],false)
+local function _0x0c1909(_0xdcef1c,_0xfd3b8b)
+local _0x98710b=_0xe26196[_0x3f0d21(468131,907521,472402)]and _0xe26196[_0x2b4f7f(564749,385021,389141)][_0x3f0d21(141927,969965,145556)]and _0xe26196[_0x248f80(471403,476755,922895)][_0x3f0d21(408987,711441,405352)][_0xdcef1c]
+if not _0x98710b then return false end
+local _0x61c37d=_0x01ee70[_0x248f80(231656,262087,96153)](_0x98710b)
+if not _0x61c37d or(_0x61c37d[_0x3f0d21(487755,534453,484286)]~=_0x3f0d21(326296,957928,321639)and _0x61c37d[_0x3f0d21(472673,549023,468116)]~=_0x248f80(516119,497744,961680))then return false end
+if _0xe26196[_0x2b4f7f(90696,142972,139135)]then
+_0xcca467[_0xc84f9e[226]-129](_0xe26196[_0x3f0d21(387384,808199,391733)],false)
 end
-if _0x0a7cca[_0xe8ebea(269025,283549,576828)][_0x848d34(561836,109603,125337)]~=_0xef410f then
-_0x0a7cca[_0x848d34(165736,178456,195969)](_0xef410f)
+if _0xe26196[_0x2b4f7f(579848,366840,374544)][_0x248f80(129248,98485,583655)]~=_0xdcef1c then
+_0xe26196[_0x3f0d21(162101,98884,157893)](_0xdcef1c)
 end
-local _0x7fbd18=_0xf91ff5 or _0x48c9eb[_0xd44ced(455274,572473,439379)]()
-_0x7ffb4d[_0x848d34(266862,72695,89941)]({
-[_0xd44ced(379905,797101,363344)]=_0xe8ebea(91687,76986,445878),
-[_0xd44ced(82485,604386,66924)]=_0xe8ebea(457177,439110,790151),
-[_0xd44ced(114218,1044601,129043)]=_0x7fbd18,
-[_0xe8ebea(301495,316183,576357)]=_0x1f1a45[_0xe8ebea(246115,232421,1037290)],
+local _0xf44998=_0xfd3b8b or _0x9cbe51[_0x2b4f7f(421701,446299,450737)]()
+_0x1536c7[_0x3f0d21(327353,380782,323392)]({
+[_0x248f80(271366,285769,855025)]=_0x248f80(157943,135329,1012687),
+[_0x2b4f7f(839582,389689,377662)]=_0x248f80(523499,492723,344512),
+[_0x248f80(136227,156441,446891)]=_0xf44998,
+[_0x2b4f7f(809214,417521,421880)]=_0x98710b[_0x248f80(149025,146974,447626)],
 })
-_0x0a7cca[_0x848d34(562356,271726,286929)]=_0xc96c19[7][_0xe8ebea(337802,355624,380640)]()
-local _0x69a50f=_0xc96c19[6][_0x848d34(964615,382134,364919)](_0x0a7cca[_0x848d34(570500,77285,92543)][_0x848d34(848049,331953,349469)]or{})
-local _0xd4a097=_0x489087[_0xe8ebea(371352,385047,706688)]or _0x848d34(782996,197287,214793)
-local _0x263b86=_0x69a50f[_0xd4a097]
-_0x69a50f[_0xd4a097]=_0x1f1a45
-_0x0a7cca[_0x848d34(771647,155486,138180)][_0x848d34(961074,477746,462750)]=_0x69a50f
-_0x0a7cca[_0x848d34(894946,278147,293401)][_0xd44ced(518394,579637,503750)][_0xef410f]=_0x263b86
-if _0x0a7cca[_0x848d34(1040030,470881,486051)]then
-for _0xbc6afd,_0x0d0f0a in _0xc96c19[11](_0x0a7cca[_0xd44ced(470836,999977,485483)])do
-_0xc96c19[21][_0xe8ebea(218370,204711,634089)](_0x0d0f0a)
+_0xe26196[_0x3f0d21(475782,351447,479637)]=_0xcca467[_0xc84f9e[115]+19][_0x3f0d21(107678,820794,112522)]()
+local _0xe01eca=_0xcca467[24][_0x2b4f7f(1039078,420617,416261)](_0xe26196[_0x248f80(116360,111024,582380)][_0x2b4f7f(841710,127362,115061)]or{})
+local _0x03b035=_0x61c37d[_0x2b4f7f(315237,121608,125936)]or _0x2b4f7f(383745,372693,368428)
+local _0x2a8505=_0xe01eca[_0x03b035]
+_0xe01eca[_0x03b035]=_0x98710b
+_0xe26196[_0x3f0d21(244060,607486,239789)][_0x248f80(512564,502387,958131)]=_0xe01eca
+_0xe26196[_0x2b4f7f(950965,246597,257197)][_0x3f0d21(380707,600489,384464)][_0xdcef1c]=_0x2a8505
+if _0xe26196[_0x3f0d21(147906,92918,152276)]then
+for _0x1127a1,_0xdb9aa5 in _0xcca467[_0xc84f9e[119]-41](_0xe26196[_0x248f80(178173,184224,150122)])do
+_0xcca467[_0xc84f9e[65]-202][_0x248f80(360333,330091,164594)](_0xdb9aa5)
 end
 end
 return true
 end
-local function _0xe3ba12(_0xef410f,_0xf91ff5)
-local _0x1f1a45=_0x0a7cca[_0x848d34(848233,354312,339090)]and _0x0a7cca[_0x848d34(526333,106140,121350)][_0xd44ced(437535,630224,453155)]and _0x0a7cca[_0x848d34(531922,99507,114729)][_0xe8ebea(355757,337708,1019073)][_0xef410f]
-if not _0x1f1a45 then return false end
-if _0x0a7cca[_0xe8ebea(304495,323573,236395)]then
-_0xc96c19[27](_0x0a7cca[_0xd44ced(148780,543340,131706)],false)
+local function _0xb77759(_0xdcef1c,_0xfd3b8b)
+local _0x98710b=_0xe26196[_0x2b4f7f(587073,373937,367449)]and _0xe26196[_0x2b4f7f(576119,363399,369775)][_0x248f80(195174,164444,903720)]and _0xe26196[_0x3f0d21(424519,821221,420790)][_0x2b4f7f(1048474,304450,300456)][_0xdcef1c]
+if not _0x98710b then return false end
+if _0xe26196[_0x3f0d21(109051,350621,113399)]then
+_0xcca467[16](_0xe26196[_0x2b4f7f(1005481,88004,91840)],false)
 end
-if _0x0a7cca[_0xd44ced(311863,903092,295936)][_0xe8ebea(73741,92817,873438)]~=_0xef410f then
-_0x0a7cca[_0xd44ced(342541,366751,359483)](_0xef410f)
+if _0xe26196[_0x3f0d21(266684,977950,262221)][_0x2b4f7f(1032190,182784,195333)]~=_0xdcef1c then
+_0xe26196[_0x248f80(472382,475657,464774)](_0xdcef1c)
 end
-local _0x7fbd18=_0xf91ff5 or _0x48c9eb[_0xe8ebea(98030,79760,713441)]()
-_0x7ffb4d[_0x848d34(493796,164221,181727)]({
-[_0xe8ebea(67186,85220,864874)]=_0xe8ebea(507363,522110,5746),
-[_0xe8ebea(448297,433591,752706)]=_0xd44ced(78377,922826,95603),
-[_0x848d34(805147,170922,188214)]=_0x7fbd18,
-[_0xd44ced(343417,835113,358946)]=_0x1f1a45[_0xd44ced(69899,578086,87626)],
+local _0xf44998=_0xfd3b8b or _0x9cbe51[_0x3f0d21(476797,23089,481166)]()
+_0x1536c7[_0x3f0d21(154900,224451,150765)]({
+[_0x2b4f7f(611260,267944,271959)]=_0x2b4f7f(587607,99989,112531),
+[_0x248f80(486488,463887,670468)]=_0x2b4f7f(9775,455152,442616),
+[_0x2b4f7f(173099,132149,142303)]=_0xf44998,
+[_0x3f0d21(493718,668363,498564)]=_0x98710b[_0x248f80(192167,169624,424972)],
 })
-_0x0a7cca[_0x848d34(624127,341029,356762)]=_0xc96c19[_0x40b209[110]-39][_0xd44ced(174297,495667,192388)]()
-if _0x1f1a45[_0x848d34(506114,360272,342676)]and _0x1f1a45[_0x848d34(363932,478158,462346)]>(_0x40b209[72]-124)then
-_0x1f1a45[_0x848d34(395915,314585,297245)]=_0x1f1a45[_0x848d34(360559,476733,459769)]-_0xea489d(568652,568653)
+_0xe26196[_0x3f0d21(395996,267405,399823)]=_0xcca467[_0xc84f9e[175]-2][_0x3f0d21(163917,1024745,168793)]()
+if _0x98710b[_0x3f0d21(239345,733702,243174)]and _0x98710b[_0x248f80(72837,91355,679634)]>(_0xc84f9e[218]-120)then
+_0x98710b[_0x248f80(97295,66641,671320)]=_0x98710b[_0x3f0d21(389257,877694,385950)]-_0xfc82ca(560757,560756)
 end
-if _0x0a7cca[_0xe8ebea(93227,75407,839856)]then
-for _0xbc6afd,_0x0d0f0a in _0xc96c19[_0x40b209[17]-226](_0x0a7cca[_0xd44ced(126693,623608,108986)])do
-_0xc96c19[21][_0x848d34(562917,467563,485288)](_0x0d0f0a)
+if _0xe26196[_0x248f80(344013,346000,377434)]then
+for _0x1127a1,_0xdb9aa5 in _0xcca467[10](_0xe26196[_0x3f0d21(256083,50023,260933)])do
+_0xcca467[_0xc84f9e[154]-177][_0x248f80(349171,337173,175756)](_0xdb9aa5)
 end
 end
 return true
 end
-local function _0x271e47(_0x87a12e)
-if not _0x87a12e then return false end
-local _0xde5055=_0x87a12e[_0xd44ced(94392,1016263,79745)](_0x87a12e,_0x848d34(707741,502227,519190))
-if _0xde5055==_0x848d34(446467,211765,229107)then
+local function _0xeae1fd(_0xd2a8f4)
+if not _0xd2a8f4 then return false end
+local _0x83b80b=_0xd2a8f4[_0x3f0d21(104601,152247,100969)](_0xd2a8f4,_0x248f80(180061,182018,150541))
+if _0x83b80b==_0x2b4f7f(757386,383332,387188)then
 return true
 end
-local _0x6fc54a=_0x87a12e[_0xe8ebea(466386,481196,802289)](_0x87a12e,_0xd44ced(181781,1024169,164209))
-local _0x378e19=_0xc96c19[20](_0x87a12e[_0x848d34(614687,461954,477470)](_0x87a12e,_0x848d34(903440,241359,256775))or _0xd44ced(170328,320707,187578))
-local _0x46c348=_0xc96c19[20](_0x87a12e[_0xd44ced(404730,580997,420803)](_0x87a12e,_0xe8ebea(73597,87510,559238))or _0xe8ebea(360982,379697,404872))
-if(_0xde5055~=nil and _0xde5055~=_0xe8ebea(414984,400431,391830)and _0xde5055~=false)or(_0x6fc54a==_0x848d34(689006,342383,359634)or _0x6fc54a==_0xe8ebea(139231,152947,1044940))then
-if _0xc96c19[_0x40b209[5]-160][_0xd44ced(132671,253338,147502)](_0x378e19,_0x848d34(447952,212710,228128),_0xea489d(937311,937310),true)or _0xc96c19[9][_0xd44ced(447982,462411,431103)](_0x46c348,_0xe8ebea(394919,412687,434425),_0xea489d(_0x40b209[230],95),true)then
+local _0xff0eb8=_0xd2a8f4[_0x2b4f7f(455800,164356,176867)](_0xd2a8f4,_0x248f80(207007,217342,305820))
+local _0x0508bd=_0xcca467[30](_0xd2a8f4[_0x2b4f7f(38096,320172,315979)](_0xd2a8f4,_0x248f80(314066,307888,355570))or _0x2b4f7f(682933,384422,389826))
+local _0xaaf0c4=_0xcca467[30](_0xd2a8f4[_0x2b4f7f(44599,317515,321708)](_0xd2a8f4,_0x3f0d21(71172,219869,66840))or _0x248f80(231358,258314,546229))
+if(_0x83b80b~=nil and _0x83b80b~=_0x2b4f7f(782206,285037,292361)and _0x83b80b~=false)or(_0xff0eb8==_0x2b4f7f(194139,270724,266380)or _0xff0eb8==_0x3f0d21(129970,995751,125103))then
+if _0xcca467[34][_0x3f0d21(472692,3370,468968)](_0x0508bd,_0x3f0d21(420029,1016577,424868),_0xfc82ca(_0xc84f9e[29],224),true)or _0xcca467[34][_0x248f80(416239,405260,178860)](_0xaaf0c4,_0x2b4f7f(634039,523097,510537),_0xfc82ca(_0xc84f9e[79],229),true)then
 return true
 end
 end
 return false
 end
-local function _0x48f0cf(_0x93c2ee,_0xadc679)
-if not _0xcc6a4e or _0xc96c19[13](_0xcc6a4e[_0xd44ced(310070,757715,326750)])~=_0xe8ebea(109058,123692,800357)then
+local function _0x33bce7(_0xd01de8,_0xda300b)
+if not _0xae54c0 or _0xcca467[2](_0xae54c0[_0x3f0d21(378750,7816,382048)])~=_0x2b4f7f(120158,321004,313991)then
 return true
 end
-local _0x46c609=_0xadc679-_0x93c2ee
-local _0x9acb78=_0x46c609[_0xd44ced(112631,700923,127134)]
-if _0x9acb78<=0.35 then return true end
-local _0x424f83,_0x92f418=_0xc96c19[27](_0xcc6a4e[_0xd44ced(78952,917645,94976)],_0x93c2ee,_0x46c609[_0xe8ebea(82750,67985,275001)],_0x9acb78-0.18,{_0x848d34(306712,159361,142159)})
-if not _0x424f83 then return true end
-return _0x92f418==nil
+local _0x8c15cb=_0xda300b-_0xd01de8
+local _0x0ee44b=_0x8c15cb[_0x2b4f7f(57174,138790,143152)]
+if _0x0ee44b<=0.35 then return true end
+local _0xd29fd5,_0x4296bc=_0xcca467[_0xc84f9e[34]-220](_0xae54c0[_0x248f80(138628,157153,266985)],_0xd01de8,_0x8c15cb[_0x2b4f7f(268100,164123,176140)],_0x0ee44b-0.18,{_0x3f0d21(508338,476275,512659)})
+if not _0xd29fd5 then return true end
+return _0x4296bc==nil
 end
-local function _0x60d062(_0xd5a2af,_0x939474,_0x7269fd)
-local _0x4acdae=0.3
-local _0xf37c70=1.8
-local _0x32cf29=_0xc96c19[_0x40b209[76]-103][_0xe8ebea(304375,322924,138567)](_0xd5a2af[_0xe8ebea(301989,315668,17197)],_0x939474[_0x848d34(455466,485075,467740)]-_0x4acdae,_0x939474[_0x848d34(310429,338276,355499)]+_0x4acdae)
-local _0x5331e1=_0xc96c19[_0x40b209[222]-88][_0xd44ced(330565,417868,347411)](_0xd5a2af[_0xe8ebea(195752,177690,541351)],_0x939474[_0xd44ced(275492,744379,291657)],_0x939474[_0xd44ced(311725,765490,296640)]+_0xf37c70)
-local _0x5693fb=_0xc96c19[25][_0xd44ced(209019,23410,226861)](_0xd5a2af[_0x848d34(583360,318867,301122)],_0x939474[_0xe8ebea(445860,427799,1031044)]-_0x4acdae,_0x939474[_0xd44ced(269603,572050,285261)]+_0x4acdae)
-local _0x6be084=_0xd5a2af[_0xd44ced(304222,372037,320306)]-_0x32cf29
-local _0xacb1fb=_0xd5a2af[_0x848d34(558889,488532,471428)]-_0x5331e1
-local _0x5e4541=_0xd5a2af[_0x848d34(725271,469572,487317)]-_0x5693fb
-local _0x9acb78=_0xc96c19[25][_0xd44ced(465678,689718,482401)](_0x6be084*_0x6be084+_0xacb1fb*_0xacb1fb+_0x5e4541*_0x5e4541)
-local _0x0057c9,_0x38ef8d=_0xea489d(_0x40b209[145],72),_0xea489d(191484,191484)
-if _0x7269fd and _0x7269fd[_0xd44ced(100279,725285,114887)]then
-local _0x0cd601,_0xaba24a=_0xc96c19[27](function()
-return _0x7269fd[_0xe8ebea(515095,497314,563986)][_0xe8ebea(257995,238973,594720)]
+local function _0x0466a6(_0x648d29,_0x285e0d,_0x416a1c)
+local _0x471754=0.3
+local _0xe098cc=1.8
+local _0x8610c6=_0xcca467[21][_0x248f80(396023,425378,836784)](_0x648d29[_0x3f0d21(349603,123957,345729)],_0x285e0d[_0x248f80(211986,214139,285459)]-_0x471754,_0x285e0d[_0x2b4f7f(413053,344249,356768)]+_0x471754)
+local _0x1d8787=_0xcca467[_0xc84f9e[58]-48][_0x2b4f7f(689657,273991,269890)](_0x648d29[_0x2b4f7f(308298,243667,231113)],_0x285e0d[_0x3f0d21(185419,158592,182120)],_0x285e0d[_0x248f80(421724,399158,329219)]+_0xe098cc)
+local _0xf1f82f=_0xcca467[21][_0x3f0d21(495608,956436,499190)](_0x648d29[_0x2b4f7f(10396,247481,260002)],_0x285e0d[_0x3f0d21(231256,513327,234620)]-_0x471754,_0x285e0d[_0x3f0d21(167217,450374,171541)]+_0x471754)
+local _0xeb669a=_0x648d29[_0x248f80(268310,286847,229143)]-_0x8610c6
+local _0x363b3e=_0x648d29[_0x2b4f7f(18443,478098,490120)]-_0x1d8787
+local _0x78f508=_0x648d29[_0x2b4f7f(372770,417287,421660)]-_0xf1f82f
+local _0x0ee44b=_0xcca467[21][_0x3f0d21(473422,873351,469611)](_0xeb669a*_0xeb669a+_0x363b3e*_0x363b3e+_0x78f508*_0x78f508)
+local _0xc33d43,_0x17dc56=_0xfc82ca(_0xc84f9e[100],172),0
+if _0x416a1c and _0x416a1c[_0x3f0d21(178798,47869,174408)]then
+local _0xe83304,_0x940465=_0xcca467[16](function()
+return _0x416a1c[_0x248f80(240284,250609,162972)][_0x2b4f7f(57493,461013,473547)]
 end)
-if _0x0cd601 and _0xaba24a then
-_0x0057c9=_0xc96c19[25][_0xe8ebea(308777,327602,135065)]((_0xaba24a[_0xd44ced(360258,292441,342062)]/_0xdecf83)*0.032,-0.10,0.10)
-_0x38ef8d=_0xc96c19[25][_0xd44ced(104925,193236,122763)]((_0xaba24a[_0x848d34(1002363,225320,210425)]/_0xdecf83)*0.032,-0.10,0.10)
+if _0xe83304 and _0x940465 then
+_0xc33d43=_0xcca467[21][_0x3f0d21(289064,884420,293670)]((_0x940465[_0x3f0d21(136956,436074,132574)]/_0x6634d7)*0.032,-0.10,0.10)
+_0x17dc56=_0xcca467[21][_0x2b4f7f(616562,508876,521161)]((_0x940465[_0x2b4f7f(324138,465935,470292)]/_0x6634d7)*0.032,-0.10,0.10)
 end
 end
-local _0x89d463=_0x939474[_0x848d34(341029,303580,320531)]+_0x0057c9
-local _0x463b9c=_0xc96c19[25][_0xe8ebea(139020,153239,304828)](_0xd5a2af[_0xd44ced(102047,975104,117234)]-0.12,_0x939474[_0x848d34(838309,211416,228360)]+0.58,_0x939474[_0xe8ebea(382485,367783,1009690)]+1.30)
-local _0x5d84ec=_0x939474[_0xe8ebea(365050,383817,845786)]+_0x38ef8d
-local _0x3bd977=_0xc96c19[7][_0xd44ced(391136,53002,372925)]()
-local _0x5a699d=_0xc96c19[25][_0xe8ebea(345864,331199,70419)](_0x3bd977*4.7)*0.008
-local _0xb9a1bb=_0xc96c19[_0x40b209[174]-111][_0x848d34(347536,361560,377230)](_0x3bd977*3.9)*0.010
-local _0x664101=_0xc96c19[25][_0xd44ced(386350,286880,369244)](_0x3bd977*5.3+1.1)*0.008
-return _0x9acb78,_0xc96c19[_0x40b209[124]-160][_0xd44ced(372611,390082,387319)](_0x89d463+_0x5a699d,_0x463b9c+_0xb9a1bb,_0x5d84ec+_0x664101)
+local _0xc03869=_0x285e0d[_0x3f0d21(183130,424652,186488)]+_0xc33d43
+local _0x2aaf77=_0xcca467[_0xc84f9e[218]-100][_0x2b4f7f(713570,280796,293081)](_0x648d29[_0x3f0d21(154673,189434,151314)]-0.12,_0x285e0d[_0x2b4f7f(421503,93670,89340)]+0.58,_0x285e0d[_0x248f80(98141,67383,136706)]+1.30)
+local _0x478758=_0x285e0d[_0x248f80(222394,203985,319576)]+_0x17dc56
+local _0x46bb6f=_0xcca467[_0xc84f9e[76]-79][_0x248f80(146981,149118,838180)]()
+local _0x83e0e3=_0xcca467[21][_0x248f80(258195,231676,92503)](_0x46bb6f*4.7)*0.008
+local _0x87e145=_0xcca467[21][_0x248f80(125645,103101,508235)](_0x46bb6f*3.9)*0.010
+local _0xb0a413=_0xcca467[_0xc84f9e[210]+8][_0x3f0d21(134504,213565,138816)](_0x46bb6f*5.3+1.1)*0.008
+return _0x0ee44b,_0xcca467[3][_0x2b4f7f(1028905,369427,365106)](_0xc03869+_0x83e0e3,_0x2aaf77+_0x87e145,_0x478758+_0xb0a413)
 end
-local function _0xfe0544(_0x93c2ee,_0xadc679)
-local _0x8c3c53=_0xadc679-_0x93c2ee
-if _0x8c3c53[_0x848d34(693451,69157,84969)]<1e-5 then
-return _0x48c9eb[_0xd44ced(131724,954927,148985)],_0x48c9eb[_0xd44ced(157122,493802,139956)],_0x48c9eb[_0x848d34(884460,240733,256193)]()
+local function _0xcaa641(_0xd01de8,_0xda300b)
+local _0xe02d76=_0xda300b-_0xd01de8
+if _0xe02d76[_0x248f80(105716,124050,472910)]<1e-5 then
+return _0x9cbe51[_0x2b4f7f(956685,194395,181881)],_0x9cbe51[_0x248f80(92249,69674,941945)],_0x9cbe51[_0x248f80(206539,217585,516931)]()
 end
-local _0x519a12=_0x8c3c53[_0xe8ebea(440873,454790,248622)]
-local _0x9c42be=_0xc96c19[25][_0xd44ced(307124,812455,321731)](-_0x519a12[_0xe8ebea(385286,371639,80270)],-_0x519a12[_0xd44ced(283147,587194,267621)])
-local _0xef11c0=_0xc96c19[25][_0x848d34(633257,273238,290445)](_0xc96c19[25][_0x848d34(379662,408805,424028)](_0x519a12[_0x848d34(918631,128794,111306)],-_0xea489d(_0x40b209[44],247),_0xea489d(946339,946338)))
-return _0x9c42be,_0xef11c0,_0x519a12
+local _0x792f70=_0xe02d76[_0x2b4f7f(64423,421368,417007)]
+local _0x984541=_0xcca467[21][_0x3f0d21(314766,34213,319139)](-_0x792f70[_0x3f0d21(480044,254650,475150)],-_0x792f70[_0x3f0d21(105732,380787,101920)])
+local _0x88c1df=_0xcca467[_0xc84f9e[151]-202][_0x248f80(91158,72803,451762)](_0xcca467[_0xc84f9e[34]-215][_0x2b4f7f(686778,315652,319745)](_0x792f70[_0x3f0d21(368686,335845,373517)],-(2837+_0x95b3ae(_0x6bafdb(2525,712),1)-3236),(1753+_0x95b3ae(_0x6bafdb(1435,834),1)-2268)))
+return _0x984541,_0x88c1df,_0x792f70
 end
-local function _0xd7ca1a(_0x217ac4)
-return(_0x217ac4+_0xc96c19[_0x40b209[122]-222][_0xd44ced(127072,851341,112409)])%((3411+_0xa81147(_0xfaf96b(3312,419),1)-3729)*_0xc96c19[25][_0x848d34(1024300,143395,161279)])-_0xc96c19[25][_0xe8ebea(329767,344729,906326)]
+local function _0x16843b(_0x9ee859)
+return(_0x9ee859+_0xcca467[21][_0x248f80(313892,307794,273910)])%(_0xfc82ca(565797,565799)*_0xcca467[21][_0x248f80(484975,466457,491965)])-_0xcca467[21][_0x2b4f7f(207964,500052,495730)]
 end
-local function _0x1190a4(_0x434f95,_0xb6a186,_0xfeebd3)
-local _0xeed4a7=_0xd7ca1a(_0xb6a186-_0x434f95)
-return _0x434f95+_0xeed4a7*_0xc96c19[25][_0xe8ebea(334189,348406,237789)](_0xfeebd3,(23+_0xa81147(_0xfaf96b(829,810),1)-1639),(1067+_0xa81147(_0xfaf96b(1777,730),1)-2506))
+local function _0x5452f0(_0x3c3b3e,_0xa1d3dc,_0x153ce7)
+local _0x5d9c29=_0x16843b(_0xa1d3dc-_0x3c3b3e)
+return _0x3c3b3e+_0x5d9c29*_0xcca467[21][_0x248f80(308420,312209,948867)](_0x153ce7,(_0xc84f9e[36]-174),1)
 end
-local _0xca1d0e={
-[_0x848d34(259730,340284,357601)]=0,
-[_0x848d34(924014,142481,158031)]=_0xea489d(581430,581430),
+local _0x44470f={
+[_0x3f0d21(173856,192259,177168)]=(1725+_0x95b3ae(_0x6bafdb(829,1408),1)-2237),
+[_0x3f0d21(235396,280513,230581)]=(_0xc84f9e[211]-159),
 }
-_0xca1d0e[_0x848d34(742461,89921,72350)]=function(_0xd5a2af,_0xf91ff5,_0x3547ee,_0x405104)
-if not _0xd5a2af or not _0xf91ff5 or not _0x3547ee or not _0x3547ee[_0x848d34(191100,403434,418314)]then
+_0x44470f[_0x2b4f7f(232993,356616,344097)]=function(_0x648d29,_0xfd3b8b,_0x3bdbff,_0xfe2ab1)
+if not _0x648d29 or not _0xfd3b8b or not _0x3bdbff or not _0x3bdbff[_0x3f0d21(474284,949843,470943)]then
 return false
 end
-local _0x9cef92=(_0x405104 or 3.5)+0.35
-if _0xcc6a4e and _0xcc6a4e[_0x848d34(356425,280911,265711)]then
-local _0xcbc345,_0x105e80=_0xc96c19[27](_0xcc6a4e[_0xd44ced(339152,297268,355053)],_0xd5a2af,_0xf91ff5,_0x9cef92)
-if _0xcbc345 and _0x105e80 and _0x105e80[_0xd44ced(73537,580716,88064)]==_0x3547ee[_0x848d34(681183,211728,229044)]then
+local _0xd07e65=(_0xfe2ab1 or 3.5)+0.35
+if _0xae54c0 and _0xae54c0[_0x2b4f7f(476331,372698,360500)]then
+local _0xbf0799,_0xdce2d5=_0xcca467[16](_0xae54c0[_0x2b4f7f(8793,182568,190150)],_0x648d29,_0xfd3b8b,_0xd07e65)
+if _0xbf0799 and _0xdce2d5 and _0xdce2d5[_0x3f0d21(360525,181287,365237)]==_0x3bdbff[_0x2b4f7f(332236,387572,383259)]then
 return true
 end
 end
-if _0xcc6a4e and _0xcc6a4e[_0xe8ebea(132241,151122,141580)]then
-local _0xf9f626,_0xb5da69=_0xc96c19[27](
-_0xcc6a4e[_0xe8ebea(285075,267088,291854)],
-_0xd5a2af,
-_0xf91ff5,
-_0x3547ee[_0xe8ebea(397255,410885,495443)],
-_0x3547ee[_0xe8ebea(324571,309535,1039520)]or 1.8,
+if _0xae54c0 and _0xae54c0[_0x248f80(226791,200092,671369)]then
+local _0x45b4dc,_0xb37cee=_0xcca467[16](
+_0xae54c0[_0x3f0d21(179610,532593,175790)],
+_0x648d29,
+_0xfd3b8b,
+_0x3bdbff[_0x248f80(241259,251409,604688)],
+_0x3bdbff[_0x248f80(264711,291451,651031)]or 1.8,
 0.02,
-_0x3547ee[_0xd44ced(474069,96988,490581)]or 0.6
+_0x3bdbff[_0x3f0d21(208783,825238,212153)]or 0.6
 )
-if _0xf9f626 and _0xb5da69 and _0xb5da69<=_0x9cef92 then
+if _0x45b4dc and _0xb37cee and _0xb37cee<=_0xd07e65 then
 return true
 end
 end
 return false
 end
-local function _0x789b03(_0xce8dc4,_0x2cc3fe,_0x1b9e7f,_0x70535b)
-_0x70535b=_0xc96c19[25][_0xd44ced(373247,449270,391081)](_0x70535b or(_0xea489d(709484,709485)/_0xea489d(112560,112524)),0.001,0.1)
-local _0x1bd6ed=_0xc96c19[_0x40b209[42]-10][_0xd44ced(74145,150184,92151)](_0x2cc3fe,-1.55,1.55)
-local _0x95595d=_0xd7ca1a(_0xce8dc4-_0x48c9eb[_0xe8ebea(265233,280235,871722)])
-local _0x856fb8=_0x1bd6ed-_0x48c9eb[_0xe8ebea(223987,204872,218690)]
-local _0xc747e6=_0xc96c19[25][_0xe8ebea(276246,294541,167590)](_0x1b9e7f*0.90,4.0,34.0)
-local _0xc90c4e=1.0/(1.0+_0xc747e6*_0x70535b+0.48*_0xc747e6*_0xc747e6*_0x70535b*_0x70535b)
-local _0xcb42b6=(_0xca1d0e[_0xd44ced(224575,341619,207429)]+_0xc747e6*_0x95595d*_0x70535b)*_0xc90c4e
-local _0x75788e=(_0xca1d0e[_0xd44ced(215750,1041371,200125)]+_0xc747e6*_0x856fb8*_0x70535b)*_0xc90c4e
-local _0xa70b55=_0xc96c19[_0x40b209[228]-38][_0xe8ebea(204265,218226,369753)](_0x70535b*_0xc96c19[_0x40b209[86]+4][_0xd44ced(199211,24866,216189)](_0x1b9e7f*1.15,8.0,36.0),0.12,0.78)
-local _0x799d54=_0xc96c19[25][_0x848d34(610227,513184,495714)](1.0-_0xc90c4e,_0xa70b55)
-local _0x67c184=_0xc96c19[25][_0xd44ced(473235,643744,491282)](_0xc96c19[_0x40b209[63]-210][_0x848d34(326940,461559,478798)](_0x1b9e7f*22.0,90.0,620.0))
-local _0x117005=_0x95595d*_0x799d54+_0xcb42b6*_0x70535b*0.25
-local _0x0dc3b5=_0x856fb8*_0x799d54+_0x75788e*_0x70535b*0.25
-if _0xc96c19[_0x40b209[184]-188][_0xd44ced(313917,121003,298083)](_0x117005)>_0xc96c19[25][_0x848d34(261086,423338,405867)](_0x95595d)then
-_0x117005=_0x95595d
+local function _0x51b756(_0xa11ca9,_0xa443f9,_0xc36645,_0xdedf8a)
+_0xdedf8a=_0xcca467[_0xc84f9e[236]-47][_0x3f0d21(350449,806685,346879)](_0xdedf8a or((30+_0x95b3ae(_0x6bafdb(194,220),1)-413)/_0xfc82ca(483011,483071)),0.001,0.1)
+local _0x9e230d=_0xcca467[21][_0x3f0d21(330875,793495,335477)](_0xa443f9,-1.55,1.55)
+local _0x3faf51=_0x16843b(_0xa11ca9-_0x9cbe51[_0x248f80(333896,352314,859328)])
+local _0x9f9d73=_0x9e230d-_0x9cbe51[_0x248f80(99332,130167,963364)]
+local _0x222ca6=_0xcca467[21][_0x3f0d21(392680,846340,389094)](_0xc36645*0.90,4.0,34.0)
+local _0x25052a=1.0/(1.0+_0x222ca6*_0xdedf8a+0.48*_0x222ca6*_0x222ca6*_0xdedf8a*_0xdedf8a)
+local _0xf84952=(_0x44470f[_0x3f0d21(394098,412497,397378)]+_0x222ca6*_0x3faf51*_0xdedf8a)*_0x25052a
+local _0x75179a=(_0x44470f[_0x248f80(382981,368765,122566)]+_0x222ca6*_0x9f9d73*_0xdedf8a)*_0x25052a
+local _0x6de0f7=_0xcca467[_0xc84f9e[8]-49][_0x2b4f7f(695410,276428,264137)](_0xdedf8a*_0xcca467[_0xc84f9e[111]-116][_0x2b4f7f(529747,442093,429800)](_0xc36645*1.15,8.0,36.0),0.12,0.78)
+local _0x6dd244=_0xcca467[_0xc84f9e[187]-39][_0x3f0d21(271894,644603,275457)](1.0-_0x25052a,_0x6de0f7)
+local _0xc3fac0=_0xcca467[_0xc84f9e[56]-208][_0x248f80(87660,77330,704069)](_0xcca467[21][_0x248f80(89521,76516,758774)](_0xc36645*22.0,90.0,620.0))
+local _0xae500e=_0x3faf51*_0x6dd244+_0xf84952*_0xdedf8a*0.25
+local _0x6a520d=_0x9f9d73*_0x6dd244+_0x75179a*_0xdedf8a*0.25
+if _0xcca467[_0xc84f9e[161]-181][_0x3f0d21(520245,946356,516643)](_0xae500e)>_0xcca467[21][_0x248f80(71017,90676,740427)](_0x3faf51)then
+_0xae500e=_0x3faf51
 end
-if _0xc96c19[25][_0xd44ced(289359,96473,273425)](_0x0dc3b5)>_0xc96c19[25][_0xe8ebea(201153,219234,250326)](_0x856fb8)then
-_0x0dc3b5=_0x856fb8
+if _0xcca467[_0xc84f9e[114]-87][_0x2b4f7f(679158,286757,282664)](_0x6a520d)>_0xcca467[21][_0x248f80(70448,91245,739858)](_0x9f9d73)then
+_0x6a520d=_0x9f9d73
 end
-local _0x4b7ecd=_0xc96c19[_0x40b209[199]-55][_0xd44ced(174913,114760,191767)](_0x117005,-_0x67c184*_0x70535b,_0x67c184*_0x70535b)
-local _0x576cb7=_0xc96c19[25][_0xd44ced(323744,498601,308982)](_0x0dc3b5,-_0x67c184*_0x70535b,_0x67c184*_0x70535b)
-_0xca1d0e[_0xd44ced(489729,74317,474747)]=_0x4b7ecd/_0x70535b
-_0xca1d0e[_0xd44ced(121096,880661,106099)]=_0x576cb7/_0x70535b
-_0x48c9eb[_0xd44ced(422417,713394,406884)]=_0x48c9eb[_0xe8ebea(337768,355794,812627)]+_0x4b7ecd
-_0x48c9eb[_0xe8ebea(262291,281128,277538)]=_0xc96c19[25][_0xe8ebea(394527,412804,48303)](_0x48c9eb[_0xe8ebea(428832,442779,440209)]+_0x576cb7,-1.55,1.55)
+local _0x46436c=_0xcca467[_0xc84f9e[209]-145][_0x248f80(393485,423512,839498)](_0xae500e,-_0xc3fac0*_0xdedf8a,_0xc3fac0*_0xdedf8a)
+local _0x522d1b=_0xcca467[21][_0x2b4f7f(832820,138890,142991)](_0x6a520d,-_0xc3fac0*_0xdedf8a,_0xc3fac0*_0xdedf8a)
+_0x44470f[_0x2b4f7f(193633,327696,340279)]=_0x46436c/_0xdedf8a
+_0x44470f[_0x3f0d21(85126,433347,90039)]=_0x522d1b/_0xdedf8a
+_0x9cbe51[_0x3f0d21(138713,643037,134898)]=_0x9cbe51[_0x2b4f7f(633256,378878,390876)]+_0x46436c
+_0x9cbe51[_0x2b4f7f(904331,430452,434263)]=_0xcca467[_0xc84f9e[198]-200][_0x248f80(122345,109244,725934)](_0x9cbe51[_0x2b4f7f(966488,385703,381828)]+_0x522d1b,-1.55,1.55)
 end
-local _0x575388={
-[_0xc96c19[_0x40b209[47]-219]]=-(447+_0xa81147(_0xfaf96b(1616,2031),1)-3646),
-[_0x848d34(36754,307013,322208)]=nil,
-[_0xd44ced(483689,740156,468714)]=false,
+local _0xb1d141={
+[_0xcca467[_0xc84f9e[31]-19]]=-_0xfc82ca(97330,97331),
+[_0x3f0d21(511200,371367,516056)]=nil,
+[_0x248f80(198928,225680,825014)]=false,
 }
-local function _0xd6ca4f(_0xef410f)
-if not _0x0a7cca or not _0x0a7cca[_0xe8ebea(345965,331281,626864)]or not _0xef410f or _0xef410f<(2872+_0xa81147(_0xfaf96b(178,2954),1)-3131)or _0xef410f>(197+_0xa81147(_0xfaf96b(1838,2027),1)-3856)then return end
-if _0x0a7cca[_0xd44ced(224105,683754,208222)][_0x848d34(961409,496910,512180)]==_0xef410f then return end
-local _0x83087f=_0x0a7cca[_0xe8ebea(358634,340579,334417)]and _0x0a7cca[_0xe8ebea(496615,514414,520540)]()
-_0x0a7cca[_0xd44ced(323964,283630,309066)](_0xef410f)
-local _0xee7414=_0x0a7cca[_0xe8ebea(478762,459939,470161)]and _0x0a7cca[_0xe8ebea(272790,287519,281389)]()
-if(_0x83087f and _0x83087f[_0x848d34(800684,354403,339399)])~=(_0xee7414 and _0xee7414[_0xe8ebea(275194,292988,532595)])then
-_0x575388[_0xd44ced(315282,404093,297511)]=(_0x48c9eb and _0x48c9eb[_0xe8ebea(439072,457193,433000)])or(863+_0xa81147(_0xfaf96b(1913,1062),1)-2975)
-_0x575388[_0xe8ebea(473144,488191,415208)]=_0x83087f
-_0x575388[_0x848d34(1022853,208178,223444)]=true
+local function _0xd94c4f(_0xdcef1c)
+if not _0xe26196 or not _0xe26196[_0x3f0d21(186792,533514,182361)]or not _0xdcef1c or _0xdcef1c<_0xfc82ca(492517,492516)or _0xdcef1c>_0xfc82ca(547774,547767)then return end
+if _0xe26196[_0x248f80(472189,475973,921625)][_0x3f0d21(446317,788161,449635)]==_0xdcef1c then return end
+local _0x55652e=_0xe26196[_0x248f80(145579,147689,602168)]and _0xe26196[_0x248f80(95280,68722,687267)]()
+_0xe26196[_0x3f0d21(67986,193251,71778)](_0xdcef1c)
+local _0x7820a0=_0xe26196[_0x248f80(177102,183180,637789)]and _0xe26196[_0x248f80(197955,228609,527824)]()
+if(_0x55652e and _0x55652e[_0x3f0d21(250069,300223,246317)])~=(_0x7820a0 and _0x7820a0[_0x248f80(334047,352480,100980)])then
+_0xb1d141[_0x3f0d21(325319,590127,321414)]=(_0x9cbe51 and _0x9cbe51[_0x3f0d21(408349,990827,403495)])or(3062+_0x95b3ae(_0x6bafdb(572,2506),1)-3078)
+_0xb1d141[_0x3f0d21(265409,420486,270329)]=_0x55652e
+_0xb1d141[_0x3f0d21(362796,639220,367125)]=true
 end
 end
-local function _0x8af433()
-if not _0x575388[_0xe8ebea(169066,188066,749525)]then return false end
-local _0x5ab4a2=(_0x48c9eb and _0x48c9eb[_0xd44ced(504116,149655,521904)])or(2244+_0xa81147(_0xfaf96b(2866,1014),1)-3880)
-local _0xb1fe96=_0x5ab4a2-_0x575388[_0xd44ced(226070,104185,210595)]
-if _0xb1fe96==0 then return true end
-if _0xb1fe96>_0xea489d(801004,801004)and _0xb1fe96<=(_0x40b209[199]-76)then
-local _0x489087=_0x0a7cca[_0xd44ced(221511,419706,206530)]and _0x0a7cca[_0xe8ebea(270065,283707,313636)]()
-return _0x489087~=nil and _0x489087[_0xe8ebea(319063,300242,196376)]==true
+local function _0xda37fe()
+if not _0xb1d141[_0x2b4f7f(812338,495800,500104)]then return false end
+local _0x78c750=(_0x9cbe51 and _0x9cbe51[_0x3f0d21(316169,915071,311347)])or(2370+_0x95b3ae(_0x6bafdb(2823,581),1)-3404)
+local _0xda81d0=_0x78c750-_0xb1d141[_0x3f0d21(227794,953914,223379)]
+if _0xda81d0==(_0xc84f9e[111]-137)then return true end
+if _0xda81d0>(_0xc84f9e[167]-118)and _0xda81d0<=4 then
+local _0x61c37d=_0xe26196[_0x2b4f7f(644271,508202,520216)]and _0xe26196[_0x248f80(496863,519261,912244)]()
+return _0x61c37d~=nil and _0x61c37d[_0x2b4f7f(334213,166273,178543)]==true
 end
 return false
 end
-local function _0x80b746(_0xd5a2af,_0x3547ee)
-local _0x87a12e=_0x3547ee and _0x3547ee[_0xe8ebea(152160,137387,534164)]
-if _0x87a12e and _0x87a12e[_0xe8ebea(467392,486334,786915)](_0x87a12e,_0x848d34(634857,314023,298850))==_0xd44ced(460061,160457,475774)and _0x87a12e[_0xd44ced(73496,756106,88168)]then
-local _0xebaddf=_0xd5a2af*_0xdecf83-_0x87a12e[_0x848d34(779945,126169,108810)][_0xd44ced(373836,934042,390091)]
-local _0xf543c1=_0x87a12e[_0x848d34(820583,429847,445124)][_0xd44ced(252203,623592,236675)][_0xe8ebea(392299,374438,665252)]
-if(_0xc96c19[_0x40b209[105]-83][_0xe8ebea(212041,227056,438675)](_0xebaddf[_0x848d34(237186,134011,151220)],(_0x40b209[6]-118),_0xebaddf[_0xd44ced(326556,547885,310514)]):Dot(_0xc96c19[24][_0x848d34(339865,388922,371437)](_0xf543c1[_0x848d34(511421,415812,400779)],(_0x40b209[206]-142),_0xf543c1[_0xe8ebea(441568,456275,1034944)])))>_0xea489d(869437,869437)then
+local function _0x466113(_0x648d29,_0x3bdbff)
+local _0xd2a8f4=_0x3bdbff and _0x3bdbff[_0x3f0d21(114200,903594,109860)]
+if _0xd2a8f4 and _0xd2a8f4[_0x3f0d21(494556,279026,497964)](_0xd2a8f4,_0x3f0d21(523172,319061,518332))==_0x2b4f7f(616465,475135,462575)and _0xd2a8f4[_0x3f0d21(449852,318895,445978)]then
+local _0xd40582=_0x648d29*_0x6634d7-_0xd2a8f4[_0x3f0d21(289286,420501,293152)][_0x3f0d21(159599,644349,162898)]
+local _0xef4018=_0xd2a8f4[_0x248f80(92133,73608,45541)][_0x248f80(361986,389241,428627)][_0x248f80(106797,121256,65406)]
+if(_0xcca467[3][_0x2b4f7f(581473,184155,196218)](_0xd40582[_0x2b4f7f(262987,462479,475030)],(1009+_0x95b3ae(_0x6bafdb(212,805),1)-1017),_0xd40582[_0x248f80(343752,345763,178730)]):Dot(_0xcca467[3][_0x2b4f7f(997902,338484,334613)](_0xef4018[_0x248f80(345159,343086,140102)],(901+_0x95b3ae(_0x6bafdb(225,868),1)-1093),_0xef4018[_0x248f80(230146,260969,264160)])))>(1731+_0x95b3ae(_0x6bafdb(1629,158),1)-1787)then
 return true
 end
 end
 return false
 end
-local _0xa7bea9=-_0xea489d(661330,661331)
-local function _0xb192fa(_0x3547ee,_0x7dc61f,_0xd29fd3)
-local _0x32967b=_0x48c9eb[_0xe8ebea(394854,413667,755834)]
-if not _0x32967b or not _0x3547ee or not _0x3547ee[_0xd44ced(341686,693163,356656)]then return false end
-if _0x3547ee[_0xe8ebea(252094,234101,633930)]:GetAttribute(_0xe8ebea(381072,367343,552227))==false then return false end
-local _0x5ab4a2=(_0x48c9eb and _0x48c9eb[_0xd44ced(400234,254665,417006)])or _0xea489d(_0x40b209[156],76)
-if _0x5ab4a2==_0xa7bea9 then
+local _0xd72435=-(152+_0x95b3ae(_0x6bafdb(1132,1268),1)-2399)
+local function _0xbcbc13(_0x3bdbff,_0x00368d,_0xd910c9)
+local _0x1399f8=_0x9cbe51[_0x3f0d21(283229,263568,279463)]
+if not _0x1399f8 or not _0x3bdbff or not _0x3bdbff[_0x248f80(321584,299187,739839)]then return false end
+if _0x3bdbff[_0x3f0d21(113357,904575,109041)]:GetAttribute(_0x248f80(440648,442736,615696))==false then return false end
+local _0x78c750=(_0x9cbe51 and _0x9cbe51[_0x3f0d21(369049,820463,373411)])or _0xfc82ca(861838,861838)
+if _0x78c750==_0xd72435 then
 return false
 end
-local _0x2ed9ea=_0x48c9eb[_0xe8ebea(210164,228747,135321)]and _0x48c9eb[_0xd44ced(207373,515133,224311)]()
-if _0x2ed9ea and _0x3547ee[_0x848d34(327704,118158,100462)]then
-local _0x8c3c53=_0x60d062(_0x2ed9ea,_0x3547ee[_0xd44ced(253414,494738,236187)])
-if _0x8c3c53>4.55 then return false end
+local _0x9f6209=_0x9cbe51[_0x3f0d21(326958,486808,322778)]and _0x9cbe51[_0x248f80(394862,422229,413469)]()
+if _0x9f6209 and _0x3bdbff[_0x2b4f7f(754615,359706,347184)]then
+local _0xe02d76=_0x0466a6(_0x9f6209,_0x3bdbff[_0x248f80(67602,94312,760937)])
+if _0xe02d76>4.55 then return false end
 end
-if _0x0a7cca[_0xe8ebea(413336,394242,94364)]then
-_0xc96c19[_0x40b209[97]-12](_0x0a7cca[_0xd44ced(79524,735716,94706)],false)
+if _0xe26196[_0x248f80(449833,435578,130018)]then
+_0xcca467[16](_0xe26196[_0x3f0d21(224498,708813,229375)],false)
 end
-local _0x5f019e=nil
-if _0xc96c19[5](_0x7dc61f)==_0xe8ebea(324982,310682,625387)then
-_0x5f019e=_0x7dc61f
-elseif _0xc96c19[_0x40b209[37]-95](_0xd29fd3)==_0xd44ced(285328,849603,270135)then
-_0x5f019e=_0xd29fd3
+local _0x45e5b3=nil
+if _0xcca467[_0xc84f9e[128]-232](_0x00368d)==_0x248f80(489869,462839,540676)then
+_0x45e5b3=_0x00368d
+elseif _0xcca467[_0xc84f9e[177]-73](_0xd910c9)==_0x248f80(447496,434802,650625)then
+_0x45e5b3=_0xd910c9
 end
-local _0xf91ff5=_0x5f019e or _0x48c9eb[_0xd44ced(351025,726370,335112)]()
-local _0xb8ab79=not(_0x2ed9ea and _0x80b746(_0x2ed9ea,_0x3547ee))
-local _0x7ff0de=_0x8af433()
-local _0xd26cf1={
-[_0x848d34(809161,171500,186368)]=_0x32967b[_0x848d34(337804,261976,244405)]or(2671+_0xa81147(_0xfaf96b(2570,101),1)-2671),
-[_0xd44ced(121351,1023143,105868)]=_0x32967b[_0xe8ebea(241991,261014,629826)]==true,
-[_0xd44ced(470036,712268,486297)]=_0x32967b[_0x848d34(938713,344334,328959)]==true,
-[_0x848d34(1005815,430919,448181)]=_0x32967b[_0xd44ced(218839,201298,201031)]==true,
-[_0xe8ebea(273508,288434,957510)]=_0x32967b[_0xe8ebea(275632,294502,951442)]==true,
-[_0x848d34(407101,307634,324679)]=_0x32967b[_0x848d34(416088,319191,301858)]or _0xc96c19[24][_0xe8ebea(295216,314344,869213)],
-[_0x848d34(680959,307534,325074)]=_0xf91ff5,
-[_0xd44ced(314057,53966,298333)]=_0x7ff0de,
-[_0x848d34(857716,424471,409583)]=_0x32967b[_0xd44ced(205605,578468,222384)],
-[_0xe8ebea(173211,192064,620747)]=_0xb8ab79,
+local _0xfd3b8b=_0x45e5b3 or _0x9cbe51[_0x2b4f7f(487027,511597,516487)]()
+local _0xdb9c25=not(_0x9f6209 and _0x466113(_0x9f6209,_0x3bdbff))
+local _0x3458fe=_0xda37fe()
+local _0xc8297e={
+[_0x248f80(132042,162636,430414)]=_0x1399f8[_0x248f80(318070,303857,328691)]or _0xfc82ca(_0xc84f9e[33],173),
+[_0x2b4f7f(214508,209000,196944)]=_0x1399f8[_0x3f0d21(333681,526313,328755)]==true,
+[_0x2b4f7f(109487,493488,505482)]=_0x1399f8[_0x2b4f7f(128505,378319,390388)]==true,
+[_0x248f80(292540,265776,628115)]=_0x1399f8[_0x2b4f7f(865800,441859,429886)]==true,
+[_0x2b4f7f(849963,375164,362562)]=_0x1399f8[_0x248f80(329573,360427,535568)]==true,
+[_0x2b4f7f(416701,129270,117193)]=_0x1399f8[_0x3f0d21(251762,247915,246842)]or _0xcca467[3][_0x248f80(422335,395567,898364)],
+[_0x2b4f7f(500698,459716,470062)]=_0xfd3b8b,
+[_0x2b4f7f(397320,179515,167034)]=_0x3458fe,
+[_0x248f80(427144,457754,375235)]=_0x1399f8[_0x3f0d21(479181,500970,482438)],
+[_0x3f0d21(86647,7909,82235)]=_0xdb9c25,
 }
-_0x7ffb4d[_0x848d34(262032,456201,438955)]({
-[_0xd44ced(226278,693834,210103)]=_0xe8ebea(174731,188503,589875),
-[_0x848d34(902371,315149,297658)]=_0x3547ee[_0xe8ebea(158675,139605,948570)],
-[_0xe8ebea(429596,443585,605597)]=_0xd26cf1,
+_0x1536c7[_0x248f80(390763,360747,466434)]({
+[_0x2b4f7f(708326,494578,506637)]=_0x248f80(257314,234934,335174),
+[_0x248f80(356001,333555,215098)]=_0x3bdbff[_0x2b4f7f(505020,478340,490603)],
+[_0x2b4f7f(385192,441085,428984)]=_0xc8297e,
 })
-_0xa7bea9=_0x5ab4a2
-_0x575388[_0xd44ced(158461,934056,142718)]=false
-_0x0a7cca[_0x848d34(576318,293604,278363)]=_0xc96c19[7][_0xe8ebea(423098,409112,433616)]()
-_0x0a7cca[_0x848d34(699257,131838,149250)]=_0x5ab4a2
-if _0xc13ec1 and _0xb8ab79 then
-_0xc96c19[27](function()
-if _0xc13ec1[_0x848d34(657492,183488,166205)]then _0xc13ec1[_0xd44ced(198616,745390,213058)](_0x3547ee[_0x848d34(1014192,403071,418779)])end
+_0xd72435=_0x78c750
+_0xb1d141[_0x248f80(216038,209766,840768)]=false
+_0xe26196[_0x2b4f7f(486107,182488,195026)]=_0xcca467[_0xc84f9e[68]-86][_0x3f0d21(375999,564763,372651)]()
+_0xe26196[_0x3f0d21(236283,935464,231860)]=_0x78c750
+if _0x104a94 and _0xdb9c25 then
+_0xcca467[16](function()
+if _0x104a94[_0x248f80(295887,326488,994773)]then _0x104a94[_0x3f0d21(218207,732204,214799)](_0x3bdbff[_0x2b4f7f(206432,253528,257719)])end
 end)
 end
 return true
 end
-local function _0x5e5099(_0x0a898c,_0x498716,_0x1cddc2)
-local _0x2ed9ea=_0x48c9eb[_0xd44ced(308723,17347,324553)]()
-if not _0x2ed9ea then return nil end
-local _0xbb6da8,_0x3870f6,_0xf8b9df=nil,_0x0a898c,nil
-for _0xbc6afd,_0xfeebd3 in _0xc96c19[_0x40b209[31]-205](_0xcc6a4e[_0xe8ebea(148994,135043,526845)]())do
-local _0x87a12e=_0xfeebd3[_0x848d34(706695,389496,373905)]
-if _0x87a12e and _0x87a12e[_0xd44ced(319080,667415,301393)](_0x87a12e,_0x848d34(826546,289982,272675))~=false and _0x87a12e[_0xd44ced(518869,596906,503276)](_0x87a12e,_0xe8ebea(417532,398364,460572))~=_0x848d34(541546,426161,443726)and _0x87a12e[_0xd44ced(86656,1025023,71097)](_0x87a12e,_0x848d34(366525,99197,116355))~=_0xe8ebea(95306,81576,722308)then
-local _0x766e45=_0x87a12e[_0xe8ebea(159460,140442,609991)](_0x87a12e,_0xe8ebea(446905,432986,787174))==true or _0x87a12e[_0x848d34(730818,346975,331459)](_0x87a12e,_0x848d34(1034133,454333,436415))==true or _0x87a12e[_0xe8ebea(346956,328193,1045125)]==_0xd44ced(135349,763263,153386)
-local _0xe05106=true
-if _0x498716==_0xe8ebea(236444,250511,838662)and _0x766e45 then
-_0xe05106=false
-elseif _0x498716==_0xe8ebea(101146,114999,734264)and not _0x766e45 then
-_0xe05106=false
+local function _0xc5a650(_0x420174,_0x39db5b,_0x760439)
+local _0x9f6209=_0x9cbe51[_0x3f0d21(209012,41154,205184)]()
+if not _0x9f6209 then return nil end
+local _0xd92b2a,_0xc807e4,_0x72a221=nil,_0x420174,nil
+for _0x1127a1,_0x153ce7 in _0xcca467[10](_0xae54c0[_0x248f80(286058,272983,749142)]())do
+local _0xd2a8f4=_0x153ce7[_0x3f0d21(305907,580929,309711)]
+if _0xd2a8f4 and _0xd2a8f4[_0x3f0d21(378216,397126,382872)](_0xd2a8f4,_0x3f0d21(513023,776545,508174))~=false and _0xd2a8f4[_0x2b4f7f(55286,303498,299373)](_0xd2a8f4,_0x248f80(306118,316254,870493))~=_0x248f80(88194,73755,131014)and _0xd2a8f4[_0x248f80(362052,392819,367267)](_0xd2a8f4,_0x3f0d21(336251,988294,340522))~=_0x2b4f7f(401203,382429,386199)then
+local _0x92609f=_0xd2a8f4[_0x3f0d21(194518,81400,189734)](_0xd2a8f4,_0x3f0d21(109275,551395,113039))==true or _0xd2a8f4[_0x3f0d21(92332,172674,96860)](_0xd2a8f4,_0x248f80(377848,375652,1029479))==true or _0xd2a8f4[_0x2b4f7f(150339,134644,139902)]==_0x2b4f7f(567407,439488,427404)
+local _0x491ac5=true
+if _0x39db5b==_0x248f80(399903,421055,167123)and _0x92609f then
+_0x491ac5=false
+elseif _0x39db5b==_0x248f80(452193,430471,56164)and not _0x92609f then
+_0x491ac5=false
 end
-if _0xe05106 and(not _0x1cddc2 or _0x271e47(_0x87a12e))then
-local _0x9acb78,_0x160936=_0x60d062(_0x2ed9ea,_0xfeebd3[_0xd44ced(161169,402661,144108)],_0x87a12e)
-if _0x9acb78<=_0x3870f6 and _0x48f0cf(_0x2ed9ea,_0x160936)then
-_0x3870f6=_0x9acb78
-_0xbb6da8=_0xfeebd3
-_0xf8b9df=_0x160936
-end
-end
+if _0x491ac5 and(not _0x760439 or _0xeae1fd(_0xd2a8f4))then
+local _0x0ee44b,_0x10fa52=_0x0466a6(_0x9f6209,_0x153ce7[_0x2b4f7f(710160,272573,268695)],_0xd2a8f4)
+if _0x0ee44b<=_0xc807e4 and _0x33bce7(_0x9f6209,_0x10fa52)then
+_0xc807e4=_0x0ee44b
+_0xd92b2a=_0x153ce7
+_0x72a221=_0x10fa52
 end
 end
-return _0xbb6da8,_0x3870f6,_0xf8b9df
-end
-local _0x35baf9=_0xd44ced(343485,696928,358941)
-local _0xe1272d=nil
-local function _0xa15292(_0x50740f)
-_0x35baf9=_0x50740f
-end
-local function _0x0b0364(_0xecbe6b,_0x8e354e,_0x23f44e)
-if _0xe1272d then
-_0xc96c19[27](_0xe1272d,_0xecbe6b,_0x8e354e,_0x23f44e or 2.2)
 end
 end
-local _0x15649e={
-[_0xe8ebea(379761,360855,29692)]=nil,
-[_0xd44ced(436033,489170,450787)]=_0xea489d(74544,74544),
-[_0xe8ebea(507040,521800,891395)]=(600+_0xa81147(_0xfaf96b(592,8),1)-600),
-[_0xd44ced(364858,821799,382622)]=(_0x40b209[90]-149),
-[_0xd44ced(306358,639252,322323)]=_0xc96c19[25][_0x848d34(849272,449489,433624)]()*_0xc96c19[_0x40b209[222]-88][_0x848d34(541300,381819,366247)]*(3931+_0xa81147(_0xfaf96b(3409,522),1)-3929),
-[_0x848d34(587284,371952,387834)]=_0xc96c19[25][_0xe8ebea(363120,376987,715250)]()*_0xc96c19[25][_0xe8ebea(357830,343928,895415)]*(_0x40b209[95]-52),
-[_0xd44ced(316980,314940,299420)]=0.08+_0xc96c19[_0x40b209[19]-208][_0xe8ebea(231120,248891,845138)]()*0.17,
-[_0xe8ebea(223228,208146,955588)]=0.06+_0xc96c19[25][_0xd44ced(356312,1039763,338046)]()*0.14,
-[_0xd44ced(201752,96097,218034)]=2.2,
-[_0x848d34(901324,461364,478266)]=(1704+_0xa81147(_0xfaf96b(419,1803),1)-2222),
-[_0xd44ced(382810,604611,364790)]=1.0,
-[_0xe8ebea(201169,219939,284592)]=_0xea489d(351142,351142),
-[_0xd44ced(362157,643656,377091)]=_0xea489d(468663,468663),
-[_0xd44ced(119977,996404,103174)]=(_0x40b209[41]-209),[_0x848d34(755802,424475,408584)]=_0xea489d(311210,311210),[_0x848d34(615172,233452,248312)]=(713+_0xa81147(_0xfaf96b(1791,1078),1)-2869),
-[_0x848d34(941517,484119,468226)]=(1482+_0xa81147(_0xfaf96b(1079,509),1)-1588),[_0xe8ebea(320073,305329,519498)]=_0xea489d(_0x40b209[99],44),[_0x848d34(125145,231737,249646)]=(279+_0xa81147(_0xfaf96b(1817,1550),1)-3367),
-[_0xd44ced(334177,438361,351956)]=0.04,
-[_0xd44ced(512364,556116,497370)]=_0xea489d(207172,207172),
+return _0xd92b2a,_0xc807e4,_0x72a221
+end
+local _0xed90ac=_0x248f80(171373,189936,740834)
+local _0x87218d=nil
+local function _0xdd7a2f(_0xb32c18)
+_0xed90ac=_0xb32c18
+end
+local function _0x75164e(_0x1a56ad,_0x07c654,_0x31cf22)
+if _0x87218d then
+_0xcca467[16](_0x87218d,_0x1a56ad,_0x07c654,_0x31cf22 or 2.2)
+end
+end
+local _0xf24cc1={
+[_0x248f80(442269,444163,519416)]=nil,
+[_0x248f80(345984,343839,292834)]=_0xfc82ca(_0xc84f9e[90],169),
+[_0x3f0d21(472717,375431,468436)]=(3061+_0x95b3ae(_0x6bafdb(524,2553),1)-3077),
+[_0x248f80(510488,504505,58402)]=0,
+[_0x248f80(354115,335841,654934)]=_0xcca467[_0xc84f9e[73]-32][_0x2b4f7f(172022,117272,129867)]()*_0xcca467[21][_0x2b4f7f(422056,196000,183430)]*_0xfc82ca(_0xc84f9e[93],160),
+[_0x3f0d21(383286,776711,379499)]=_0xcca467[21][_0x248f80(423375,396652,84526)]()*_0xcca467[21][_0x248f80(519777,497175,461235)]*_0xfc82ca(1026601,1026603),
+[_0x3f0d21(286432,389463,282046)]=0.08+_0xcca467[_0xc84f9e[115]+7][_0x248f80(476926,474717,31007)]()*0.17,
+[_0x248f80(496716,519402,794371)]=0.06+_0xcca467[21][_0x248f80(166670,193453,373999)]()*0.14,
+[_0x248f80(486144,463783,944912)]=2.2,
+[_0x2b4f7f(825063,274038,270126)]=(2627+_0x95b3ae(_0x6bafdb(33,2658),1)-2691),
+[_0x2b4f7f(831357,199660,211637)]=1.0,
+[_0x3f0d21(147058,996698,142609)]=0,
+[_0x2b4f7f(170404,143408,131435)]=(2038+_0x95b3ae(_0x6bafdb(2034,4),1)-2038),
+[_0x248f80(256171,233479,496212)]=_0xfc82ca(_0xc84f9e[102],129),[_0x2b4f7f(953978,283603,287374)]=(397+_0x95b3ae(_0x6bafdb(13,384),1)-397),[_0x248f80(313940,307962,409272)]=(328+_0x95b3ae(_0x6bafdb(339,27),1)-366),
+[_0x248f80(264748,291459,191548)]=_0xfc82ca(357355,357355),[_0x248f80(523039,492463,474556)]=0,[_0x2b4f7f(667735,106615,102678)]=_0xfc82ca(368437,368437),
+[_0x248f80(448891,434633,170468)]=0.04,
+[_0x3f0d21(414956,147017,411520)]=0,
 }
-local function _0x2517fa(_0x13077b,_0x33b8d1)
-return _0x13077b+_0xc96c19[25][_0xe8ebea(352690,338777,655920)]()*(_0x33b8d1-_0x13077b)
+local function _0x1da4f9(_0xe6dfc5,_0x884785)
+return _0xe6dfc5+_0xcca467[21][_0x2b4f7f(355153,409279,397292)]()*(_0x884785-_0xe6dfc5)
 end
-local function _0x4a6c51()
-_0x15649e[_0x848d34(997600,182688,167848)]=_0x2517fa(_0xea489d(_0x40b209[81],208),_0xc96c19[_0x40b209[229]-149][_0xe8ebea(251950,234128,722015)]*_0xea489d(558464,558466))
-_0x15649e[_0x848d34(597320,280492,262566)]=_0x2517fa((_0x40b209[69]-245),_0xc96c19[25][_0xd44ced(188779,1043590,173586)]*_0xea489d(_0x40b209[195],167))
-_0x15649e[_0xe8ebea(297450,312071,81965)]=_0x2517fa(0.08,0.25)
-_0x15649e[_0x848d34(606505,130879,112947)]=_0x2517fa(0.06,0.20)
-_0x15649e[_0xe8ebea(398508,417347,108056)]=_0x2517fa(1.8,3.5)
-_0x15649e[_0x848d34(754007,521004,505123)]=_0x2517fa(0.75,1.25)
-_0x15649e[_0xd44ced(447787,820017,430720)]=_0xc96c19[25][_0x848d34(777238,127679,111798)](0,(_0x40b209[71]-212))
-_0x15649e[_0x848d34(480347,352008,334104)]=_0x2517fa(-0.12,0.10)
-_0x15649e[_0x848d34(679215,431400,447289)]=_0xc96c19[7][_0x848d34(130758,285390,270094)]()
-_0x15649e[_0x848d34(805816,357730,340855)]=_0x2517fa(-0.35,0.35)
-_0x15649e[_0x848d34(221884,336007,353937)]=_0x2517fa(-0.12,0.12)
-_0x15649e[_0xd44ced(153541,43719,135281)]=_0x2517fa(-0.35,0.35)
-_0x15649e[_0xd44ced(400561,374153,416516)]=_0x2517fa(0.025,0.065)
-_0x15649e[_0x848d34(569371,491969,509912)]=_0xc96c19[_0x40b209[243]-10][_0xe8ebea(181348,167622,142606)]()+_0x2517fa(0.30,0.90)
+local function _0x7d8e11()
+_0xf24cc1[_0x2b4f7f(732987,252960,257394)]=_0x1da4f9((325+_0x95b3ae(_0x6bafdb(525,840),1)-1365),_0xcca467[_0xc84f9e[152]-117][_0x3f0d21(98925,176951,102722)]*_0xfc82ca(1017151,1017149))
+_0xf24cc1[_0x248f80(236445,254777,937718)]=_0x1da4f9((792+_0x95b3ae(_0x6bafdb(840,80),1)-920),_0xcca467[_0xc84f9e[29]-204][_0x3f0d21(463806,271076,458897)]*_0xfc82ca(619547,619545))
+_0xf24cc1[_0x2b4f7f(78797,466984,463229)]=_0x1da4f9(0.08,0.25)
+_0xf24cc1[_0x248f80(452702,430328,877329)]=_0x1da4f9(0.06,0.20)
+_0xf24cc1[_0x2b4f7f(615771,266048,278039)]=_0x1da4f9(1.8,3.5)
+_0xf24cc1[_0x2b4f7f(798561,232432,244393)]=_0x1da4f9(0.75,1.25)
+_0xf24cc1[_0x3f0d21(481119,545692,476222)]=_0xcca467[21][_0x2b4f7f(450747,374101,361478)]((116+_0x95b3ae(_0x6bafdb(203,191),1)-394),_0xfc82ca(828568,828570))
+_0xf24cc1[_0x3f0d21(149820,999956,154207)]=_0x1da4f9(-0.12,0.10)
+_0xf24cc1[_0x2b4f7f(102979,80855,68236)]=_0xcca467[33][_0x248f80(421542,399101,563879)]()
+_0xf24cc1[_0x2b4f7f(14512,177315,165372)]=_0x1da4f9(-0.35,0.35)
+_0xf24cc1[_0x3f0d21(151120,89789,154937)]=_0x1da4f9(-0.12,0.12)
+_0xf24cc1[_0x2b4f7f(871848,449928,453865)]=_0x1da4f9(-0.35,0.35)
+_0xf24cc1[_0x248f80(497620,520038,251723)]=_0x1da4f9(0.025,0.065)
+_0xf24cc1[_0x248f80(338756,349175,169900)]=_0xcca467[33][_0x248f80(325288,298739,656041)]()+_0x1da4f9(0.30,0.90)
 end
-local function _0x33ecbd(_0xfeebd3,_0x91a11d)
-_0xfeebd3=_0xc96c19[_0x40b209[115]-22][_0x848d34(34692,225391,210134)](_0xfeebd3,_0xea489d(456144,456144),1)
-if _0x91a11d then
-local _0x7a97db=_0x15649e[_0xd44ced(152882,13899,135832)]
-local _0xab15a5
-if _0x15649e[_0xd44ced(129702,765116,113933)]==(1980+_0xa81147(_0xfaf96b(730,1382),1)-2112)then
-_0xab15a5=_0xea489d(_0x40b209[30],51)-((3315+_0xa81147(_0xfaf96b(10,3321),1)-3330)-_0xfeebd3)^_0x7a97db
-elseif _0x15649e[_0xe8ebea(101432,116424,920560)]==(1177+_0xa81147(_0xfaf96b(480,1401),1)-1880)then
-if _0xfeebd3<0.5 then
-_0xab15a5=((_0xea489d(_0x40b209[109],142)*_0xfeebd3)^_0x7a97db)*0.5
+local function _0xc43dd8(_0x153ce7,_0x66b134)
+_0x153ce7=_0xcca467[21][_0x3f0d21(98540,562944,103138)](_0x153ce7,0,_0xfc82ca(_0xc84f9e[114],109))
+if _0x66b134 then
+local _0xc653d0=_0xf24cc1[_0x3f0d21(142714,588595,146970)]
+local _0x3b9528
+if _0xf24cc1[_0x2b4f7f(661626,172267,168371)]==0 then
+_0x3b9528=_0xfc82ca(_0xc84f9e[100],173)-(1-_0x153ce7)^_0xc653d0
+elseif _0xf24cc1[_0x2b4f7f(1047411,476130,488122)]==_0xfc82ca(_0xc84f9e[66],65)then
+if _0x153ce7<0.5 then
+_0x3b9528=(((_0xc84f9e[98]-114)*_0x153ce7)^_0xc653d0)*0.5
 else
-_0xab15a5=(_0x40b209[223]-10)-((_0xea489d(825266,825264)*(_0xea489d(454995,454994)-_0xfeebd3))^_0x7a97db)*0.5
+_0x3b9528=(3205+_0x95b3ae(_0x6bafdb(3551,346),1)-3896)-((2*(_0xfc82ca(809501,809500)-_0x153ce7))^_0xc653d0)*0.5
 end
 else
-_0xab15a5=_0xfeebd3*_0xfeebd3*((_0x40b209[73]-197)-_0xea489d(187231,187229)*_0xfeebd3)
+_0x3b9528=_0x153ce7*_0x153ce7*(_0xfc82ca(138895,138892)-_0xfc82ca(837601,837603)*_0x153ce7)
 end
-return _0xc96c19[25][_0xd44ced(501274,314643,516172)](_0xab15a5*_0x2517fa(0.85,1.15),0.05,1.8)
+return _0xcca467[21][_0x3f0d21(411340,1003808,414914)](_0x3b9528*_0x1da4f9(0.85,1.15),0.05,1.8)
 end
-return _0xea489d(_0x40b209[164],42)-(_0xea489d(152675,152674)-_0xfeebd3)^2.5
+return(658+_0x95b3ae(_0x6bafdb(304,930),1)-1233)-(_0xfc82ca(_0xc84f9e[26],54)-_0x153ce7)^2.5
 end
-local function _0x2aa14b(_0x4275fc)
-local _0x2ed9ea=_0x48c9eb[_0xe8ebea(240324,254907,167593)]()
-local _0x7fbd18=_0x48c9eb[_0x848d34(541693,430412,447952)]()
-if not _0x2ed9ea or not _0x7fbd18 then return nil end
-local _0x405104=_0x4275fc[_0xe8ebea(515663,497648,118651)][_0xd44ced(483295,318718,465312)]
-local _0x9b0820=_0x4275fc[_0xe8ebea(172599,191473,329798)][_0xe8ebea(392525,373897,240778)]*0.5
-local _0xbd24d7=(_0x4275fc[_0xe8ebea(297530,312304,168860)][_0x848d34(484015,294252,276878)]==_0x848d34(418208,243859,261240))
-local _0xbb6da8,_0x9f5aa5=nil,_0xc96c19[_0x40b209[2]-151][_0xd44ced(397001,805359,412030)]
-for _0xbc6afd,_0xfeebd3 in _0xc96c19[11](_0xcc6a4e[_0xe8ebea(313538,295235,952125)]())do
-local _0x87a12e=_0xfeebd3[_0x848d34(930745,68166,85935)]
-if _0x87a12e and _0x87a12e[_0xe8ebea(392736,373854,974339)](_0x87a12e,_0xd44ced(468111,1001569,484277))~=false and _0x87a12e[_0xe8ebea(106456,120230,704507)](_0x87a12e,_0xe8ebea(273044,286836,357236))~=_0x848d34(790534,185309,169506)and _0x87a12e[_0x848d34(578854,440507,458023)](_0x87a12e,_0x848d34(206465,471617,489407))~=_0xe8ebea(389683,374993,1016829)then
-local _0x766e45=_0x87a12e[_0x848d34(1021656,129861,114393)](_0x87a12e,_0xd44ced(522019,587197,503997))==true or _0x87a12e[_0xd44ced(421038,564689,404375)](_0x87a12e,_0x848d34(544300,91908,73990))==true or _0x87a12e[_0xe8ebea(451737,437716,810320)]==_0xd44ced(319902,873556,304641)
-if not(_0x4275fc[_0xd44ced(440885,189798,457913)][_0xe8ebea(407589,422369,27106)]and _0x766e45)then
-local _0x9acb78=_0x60d062(_0x2ed9ea,_0xfeebd3[_0xd44ced(112684,387416,130897)])
-if _0x9acb78<=_0x405104 and _0x9acb78>=0.35 then
-local _0x3e539c=_0xfeebd3[_0xd44ced(351463,69011,334746)]+_0xc96c19[24][_0xd44ced(313338,302011,295054)](_0xea489d(141569,141569),1.8*_0x4275fc[_0xd44ced(496375,513180,513140)][_0x848d34(153113,84442,68920)],(83+_0xa81147(_0xfaf96b(85,6),1)-91))
-local _0xda4477=_0x3e539c-_0x2ed9ea
-local _0x415d67=_0xda4477[_0xe8ebea(170543,184448,518952)]
-local _0xea66eb=_0xc96c19[25][_0xd44ced(475078,283855,489872)](_0x7fbd18[_0x848d34(403730,392037,376190)](_0x7fbd18,_0x415d67),-_0xea489d(826679,826678),1)
-local _0x9281ae=_0xc96c19[_0x40b209[201]+6][_0xd44ced(477673,961940,462416)](_0xc96c19[_0x40b209[215]-92][_0xd44ced(121602,653079,105656)](_0xea66eb))
-if _0x9281ae<=_0x9b0820 then
-local _0x4e5464=false
-if _0x4275fc[_0x848d34(448695,481062,463826)][_0x848d34(269228,459887,475277)]and _0xcc6a4e[_0x848d34(702619,331932,349527)]then
-local _0x92f418=_0xcc6a4e[_0x848d34(764431,262664,280515)](_0x2ed9ea,_0x415d67,_0xda4477[_0x848d34(683248,128542,111570)],{_0xe8ebea(209482,227578,49059)})
-if _0x92f418~=nil then _0x4e5464=true end
+local function _0x3a9c27(_0x883746)
+local _0x9f6209=_0x9cbe51[_0x248f80(255956,233711,241319)]()
+local _0xf44998=_0x9cbe51[_0x3f0d21(302096,229468,298467)]()
+if not _0x9f6209 or not _0xf44998 then return nil end
+local _0xfe2ab1=_0x883746[_0x2b4f7f(896050,346061,358372)][_0x2b4f7f(484150,225222,221163)]
+local _0x00826b=_0x883746[_0x3f0d21(319615,871755,324167)][_0x3f0d21(491845,274919,496499)]*0.5
+local _0x563a16=(_0x883746[_0x2b4f7f(641924,94135,89988)][_0x2b4f7f(204523,463387,467510)]==_0x248f80(206635,217261,570584))
+local _0xd92b2a,_0xf436d0=nil,_0xcca467[21][_0x3f0d21(198481,407261,201788)]
+for _0x1127a1,_0x153ce7 in _0xcca467[10](_0xae54c0[_0x2b4f7f(549919,209586,204127)]())do
+local _0xd2a8f4=_0x153ce7[_0x3f0d21(158554,924904,161894)]
+if _0xd2a8f4 and _0xd2a8f4[_0x2b4f7f(35424,326684,314619)](_0xd2a8f4,_0x248f80(242091,248211,814579))~=false and _0xd2a8f4[_0x2b4f7f(55552,307068,303003)](_0xd2a8f4,_0x248f80(147230,149382,777349))~=_0x248f80(508236,506325,484872)and _0xd2a8f4[_0x2b4f7f(221803,463895,468208)](_0xd2a8f4,_0x248f80(358164,331660,824463))~=_0x3f0d21(314836,47976,319111)then
+local _0x92609f=_0xd2a8f4[_0x3f0d21(197813,52891,202309)](_0xd2a8f4,_0x3f0d21(183840,724248,187764))==true or _0xd2a8f4[_0x3f0d21(397944,383062,393352)](_0xd2a8f4,_0x3f0d21(123466,541367,127263))==true or _0xd2a8f4[_0x2b4f7f(346112,331447,336189)]==_0x2b4f7f(814217,159782,147818)
+if not(_0x883746[_0x248f80(334969,355315,902901)][_0x2b4f7f(257641,516761,512692)]and _0x92609f)then
+local _0x0ee44b=_0x0466a6(_0x9f6209,_0x153ce7[_0x3f0d21(281641,855766,286490)])
+if _0x0ee44b<=_0xfe2ab1 and _0x0ee44b>=0.35 then
+local _0x4f911f=_0x153ce7[_0x2b4f7f(598789,515496,519298)]+_0xcca467[_0xc84f9e[169]-38][_0x248f80(421231,398622,530312)](0,1.8*_0x883746[_0x3f0d21(134700,722665,138262)][_0x2b4f7f(512775,253943,258010)],_0xfc82ca(778308,778308))
+local _0x320a11=_0x4f911f-_0x9f6209
+local _0x99ee57=_0x320a11[_0x3f0d21(424916,479705,420084)]
+local _0x3ab8e8=_0xcca467[_0xc84f9e[137]+18][_0x3f0d21(265481,858853,270087)](_0xf44998[_0x3f0d21(254503,730006,258377)](_0xf44998,_0x99ee57),-(3092+_0x95b3ae(_0x6bafdb(1311,2315),1)-3625),(3354+_0x95b3ae(_0x6bafdb(3545,195),1)-3739))
+local _0xcb5677=_0xcca467[21][_0x2b4f7f(612830,421175,416849)](_0xcca467[21][_0x248f80(107153,121382,555461)](_0x3ab8e8))
+if _0xcb5677<=_0x00826b then
+local _0x61fc8d=false
+if _0x883746[_0x248f80(448398,434177,272834)][_0x248f80(79165,82496,89116)]and _0xae54c0[_0x2b4f7f(326317,433929,437788)]then
+local _0x4296bc=_0xae54c0[_0x2b4f7f(255287,98451,110982)](_0x9f6209,_0x99ee57,_0x320a11[_0x3f0d21(225795,397089,221468)],{_0x2b4f7f(8852,465671,469535)})
+if _0x4296bc~=nil then _0x61fc8d=true end
 end
-if not _0x4e5464 then
-local _0x2b1206=_0xbd24d7 and(_0x87a12e[_0xd44ced(187803,797924,170658)](_0x87a12e,_0x848d34(232905,414970,397329))or _0xea489d(_0x40b209[108],160))or _0x9acb78
-if _0x2b1206<_0x9f5aa5 then
-_0x9f5aa5=_0x2b1206
-_0xbb6da8=_0xfeebd3
-end
-end
+if not _0x61fc8d then
+local _0x7b276b=_0x563a16 and(_0xd2a8f4[_0x3f0d21(149118,101456,152718)](_0xd2a8f4,_0x3f0d21(115010,625609,119677))or(188+_0x95b3ae(_0x6bafdb(104,212),1)-296))or _0x0ee44b
+if _0x7b276b<_0xf436d0 then
+_0xf436d0=_0x7b276b
+_0xd92b2a=_0x153ce7
 end
 end
 end
 end
 end
-return _0xbb6da8
 end
-local _0x1ad5d9
-local function _0x3d014e(_0x70535b,_0x2a1ffb)
-local _0x4275fc=_0x76c04c[_0xd44ced(336732,745186,353583)][_0xd44ced(131329,962881,149319)]
-local _0x32967b=_0x48c9eb[_0x848d34(697278,156647,141124)]
-if not _0x32967b then return end
-if _0x2a1ffb or _0xa62240[_0x848d34(917629,153124,135226)]or(_0x7c6907 and _0x7c6907[_0x848d34(706530,106528,124044)]and _0x7c6907[_0xd44ced(151592,633608,136801)]())then
+end
+return _0xd92b2a
+end
+local _0xafd378
+local function _0x093d77(_0xdedf8a,_0x0d13f3)
+local _0x883746=_0x63be9c[_0x3f0d21(104827,76677,101200)][_0x248f80(129397,101938,618448)]
+local _0x1399f8=_0x9cbe51[_0x3f0d21(97451,76646,93521)]
+if not _0x1399f8 then return end
+if _0x0d13f3 or _0xba873b[_0x3f0d21(235486,700710,230575)]or(_0xb77a6a and _0xb77a6a[_0x248f80(397139,423961,713909)]and _0xb77a6a[_0x2b4f7f(1028524,475052,462934)]())then
 return
 end
-if _0x76c04c[_0xe8ebea(76444,90976,127176)][_0x848d34(459499,97164,81847)]and _0x1ad5d9 and _0x1ad5d9[_0x848d34(497835,355660,338771)]~=_0xe8ebea(413487,394285,586450)then
+if _0x63be9c[_0x2b4f7f(285359,517918,513915)][_0x2b4f7f(922174,345388,354934)]and _0xafd378 and _0xafd378[_0x248f80(123988,105709,683757)]~=_0x2b4f7f(830835,239220,235294)then
 return
 end
-if _0x4275fc[_0x848d34(685959,437991,453131)][_0xe8ebea(254424,239644,372767)]and not _0xa478ad()then
+if _0x883746[_0x3f0d21(212132,682195,208612)][_0x3f0d21(292839,509765,288209)]and not _0xe7ee8b()then
 return
 end
-local _0xb36196=_0xc96c19[7][_0xd44ced(388457,54659,371252)]()
-local _0xddcd90=_0xc96c19[25][_0xe8ebea(293191,274652,180471)](_0x70535b/((_0x40b209[246]-4)/_0xea489d(574511,574483)),0.05,3.0)
-local _0x3547ee=_0x2aa14b(_0x4275fc)
-if not _0x3547ee then
-_0x15649e[_0xe8ebea(403484,418554,233617)]=nil
-_0x15649e[_0xd44ced(327838,718839,345917)]=(113+_0xa81147(_0xfaf96b(190,207),1)-397)
-_0x15649e[_0xe8ebea(468131,486986,781941)]=(2143+_0xa81147(_0xfaf96b(409,2502),1)-2911)
+local _0xd9b52d=_0xcca467[_0xc84f9e[97]-149][_0x2b4f7f(909056,475638,487677)]()
+local _0x8fe5de=_0xcca467[_0xc84f9e[112]-157][_0x3f0d21(264875,859463,268453)](_0xdedf8a/((_0xc84f9e[51]-23)/(2010+_0x95b3ae(_0x6bafdb(1903,181),1)-2024)),0.05,3.0)
+local _0x3bdbff=_0x3a9c27(_0x883746)
+if not _0x3bdbff then
+_0xf24cc1[_0x2b4f7f(285673,90814,87024)]=nil
+_0xf24cc1[_0x2b4f7f(430629,238205,234285)]=_0xfc82ca(_0xc84f9e[193],44)
+_0xf24cc1[_0x3f0d21(267027,60278,262217)]=_0xfc82ca(1011533,1011533)
 return
 end
-if _0x15649e[_0x848d34(296465,291770,275902)]~=_0x3547ee[_0xd44ced(293086,900083,278431)]then
-_0x15649e[_0xd44ced(267139,293578,283682)]=_0x3547ee[_0x848d34(992604,424595,409399)]
-_0x15649e[_0xd44ced(121105,2178,106163)]=_0xb36196
-_0x4a6c51()
+if _0xf24cc1[_0x3f0d21(258199,95634,254912)]~=_0x3bdbff[_0x3f0d21(265516,215366,270292)]then
+_0xf24cc1[_0x3f0d21(394152,296621,397567)]=_0x3bdbff[_0x248f80(134426,161061,434097)]
+_0xf24cc1[_0x2b4f7f(321175,113862,101769)]=_0xd9b52d
+_0x7d8e11()
 end
-local _0x91a11d=_0x4275fc[_0xd44ced(173239,147479,188964)][_0x848d34(302900,491767,508949)]
-if _0x91a11d and(_0xb36196-_0x15649e[_0xe8ebea(158526,139725,781834)])>_0x2517fa(0.18,0.45)then
-_0x15649e[_0xe8ebea(313415,295605,232998)]=_0xc96c19[25][_0xe8ebea(338271,352452,233711)](_0x15649e[_0x848d34(418740,288999,274167)]+_0x2517fa(-0.06,0.06),-0.20,0.15)
-_0x15649e[_0xe8ebea(427059,446144,983303)]=_0xb36196
+local _0x66b134=_0x883746[_0x2b4f7f(57338,445328,457681)][_0x248f80(352852,333097,330613)]
+if _0x66b134 and(_0xd9b52d-_0xf24cc1[_0x2b4f7f(355882,378814,390885)])>_0x1da4f9(0.18,0.45)then
+_0xf24cc1[_0x3f0d21(505409,703849,501026)]=_0xcca467[_0xc84f9e[38]-175][_0x248f80(193457,165092,540150)](_0xf24cc1[_0x3f0d21(504053,703453,500630)]+_0x1da4f9(-0.06,0.06),-0.20,0.15)
+_0xf24cc1[_0x3f0d21(97218,421380,92326)]=_0xd9b52d
 end
-if _0x4275fc[_0xd44ced(244751,881327,260767)][_0xe8ebea(195073,177093,306118)]and _0xb36196>=_0x15649e[_0xd44ced(287461,774109,271699)]then
-_0x15649e[_0xd44ced(86476,586740,71294)]=_0x2517fa(-0.35,0.35)
-_0x15649e[_0xd44ced(373981,223748,389998)]=_0x2517fa(-0.12,0.12)
-_0x15649e[_0xd44ced(131098,64792,149422)]=_0x2517fa(-0.35,0.35)
-_0x15649e[_0x848d34(435080,366162,381002)]=_0x2517fa(0.02,0.07)
-_0x15649e[_0xe8ebea(506034,520777,902227)]=_0xb36196+_0x2517fa(0.30,0.90)
+if _0x883746[_0x2b4f7f(288676,267561,271639)][_0x3f0d21(150697,130059,155295)]and _0xd9b52d>=_0xf24cc1[_0x2b4f7f(304392,488447,475804)]then
+_0xf24cc1[_0x3f0d21(348066,32739,351434)]=_0x1da4f9(-0.35,0.35)
+_0xf24cc1[_0x2b4f7f(4105,310454,298454)]=_0x1da4f9(-0.12,0.12)
+_0xf24cc1[_0x3f0d21(491205,742071,486831)]=_0x1da4f9(-0.35,0.35)
+_0xf24cc1[_0x2b4f7f(366811,373338,361272)]=_0x1da4f9(0.02,0.07)
+_0xf24cc1[_0x2b4f7f(297343,483208,487147)]=_0xd9b52d+_0x1da4f9(0.30,0.90)
 end
-if _0x4275fc[_0xe8ebea(286411,268062,1000092)][_0x848d34(78061,143150,158668)]then
-local _0xc5df7d=_0x15649e[_0x848d34(189220,120574,102630)]+(_0x91a11d and _0x2517fa(-0.008,0.008)or 0)
-_0x15649e[_0xd44ced(217106,897167,202685)]=_0x15649e[_0xe8ebea(300325,319441,1025134)]+(_0x15649e[_0xd44ced(82993,583177,66435)]-_0x15649e[_0xe8ebea(155829,141889,610814)])*_0xc5df7d
-_0x15649e[_0xd44ced(413696,736931,399280)]=_0x15649e[_0xd44ced(298506,647337,313786)]+(_0x15649e[_0xd44ced(304853,161804,319846)]-_0x15649e[_0xe8ebea(398870,416995,960866)])*_0xc5df7d
-_0x15649e[_0xe8ebea(212557,226491,827283)]=_0x15649e[_0x848d34(583515,134067,150951)]+(_0x15649e[_0xd44ced(213612,114542,198104)]-_0x15649e[_0x848d34(1019719,353199,337339)])*_0xc5df7d
+if _0x883746[_0x248f80(255436,234050,520803)][_0x248f80(176204,182065,186733)]then
+local _0xfae187=_0xf24cc1[_0x248f80(460558,491452,214929)]+(_0x66b134 and _0x1da4f9(-0.008,0.008)or(_0xc84f9e[111]-137))
+_0xf24cc1[_0x3f0d21(242877,268304,239576)]=_0xf24cc1[_0x3f0d21(315051,221702,318926)]+(_0xf24cc1[_0x2b4f7f(200065,98706,110797)]-_0xf24cc1[_0x248f80(375962,377910,116325)])*_0xfae187
+_0xf24cc1[_0x2b4f7f(894372,489485,477520)]=_0xf24cc1[_0x3f0d21(215455,927844,219897)]+(_0xf24cc1[_0x2b4f7f(521471,219200,223520)]-_0xf24cc1[_0x3f0d21(168747,1045200,163917)])*_0xfae187
+_0xf24cc1[_0x2b4f7f(204471,360537,372999)]=_0xf24cc1[_0x3f0d21(329441,271453,333190)]+(_0xf24cc1[_0x2b4f7f(533020,242236,230237)]-_0xf24cc1[_0x248f80(443393,441519,274669)])*_0xfae187
 else
-_0x15649e[_0x848d34(904585,242166,260068)],_0x15649e[_0xd44ced(121023,833052,106255)],_0x15649e[_0x848d34(1033691,338227,356135)]=(1513+_0xa81147(_0xfaf96b(1545,992),1)-2537),0,_0xea489d(173792,173792)
+_0xf24cc1[_0x248f80(181254,179370,442105)],_0xf24cc1[_0x2b4f7f(883070,500951,497034)],_0xf24cc1[_0x248f80(469999,480065,384771)]=_0xfc82ca(_0xc84f9e[72],203),_0xfc82ca(477209,477209),(273+_0x95b3ae(_0x6bafdb(56,297),1)-353)
 end
-local _0x0954bd=_0x4275fc[_0xd44ced(479631,464868,464652)][_0x848d34(333210,395865,413371)]+(_0x91a11d and _0x15649e[_0x848d34(4180,137991,154903)]or 0)+_0x15649e[_0x848d34(770909,405788,423695)]
-local _0x208eec=_0xc96c19[_0x40b209[211]-58][_0xe8ebea(384132,365855,222516)](_0x0954bd,0.08,0.95)
-local _0x707733=0.3
-local _0x160936=_0x3547ee[_0x848d34(199371,509789,492221)]+_0xc96c19[_0x40b209[130]+6][_0x848d34(196717,245966,230681)](
-_0x15649e[_0x848d34(878997,202218,218104)]*_0x707733,
-1.8*_0x208eec,
-_0x15649e[_0xe8ebea(364936,383870,667734)]*_0x707733
+local _0xb6243e=_0x883746[_0x2b4f7f(722332,373003,360762)][_0x2b4f7f(16233,275353,263092)]+(_0x66b134 and _0xf24cc1[_0x3f0d21(252325,971405,248518)]or(1721+_0x95b3ae(_0x6bafdb(1111,750),1)-1861))+_0xf24cc1[_0x2b4f7f(880557,504324,492377)]
+local _0xab3054=_0xcca467[21][_0x248f80(241040,252613,615383)](_0xb6243e,0.08,0.95)
+local _0xc368d2=0.3
+local _0x10fa52=_0x3bdbff[_0x2b4f7f(852651,261126,249132)]+_0xcca467[3][_0x248f80(431168,453681,585383)](
+_0xf24cc1[_0x2b4f7f(494504,498519,502283)]*_0xc368d2,
+1.8*_0xab3054,
+_0xf24cc1[_0x2b4f7f(97748,516922,512612)]*_0xc368d2
 )
-local _0x2ed9ea=_0x48c9eb[_0x848d34(252575,503885,521424)]()
-local _0xce8dc4,_0x2cc3fe=_0xfe0544(_0x2ed9ea,_0x160936)
-local _0xa0250c=_0xc96c19[_0x40b209[209]-105][_0x848d34(702988,246419,230543)](_0xd7ca1a(_0xce8dc4-_0x48c9eb[_0x848d34(712570,447291,431843)]))
-local _0xc40f9f=_0xc96c19[_0x40b209[230]-69][_0xe8ebea(87605,72907,877460)](_0x2cc3fe-_0x48c9eb[_0x848d34(406734,214276,196829)])
-local _0x16529f=_0xc40f9f
-if _0x4275fc[_0xe8ebea(206383,225276,698483)][_0xd44ced(217446,53831,202521)]then
-local _0x16c9f1=_0x91a11d and _0x2517fa(8.0,12.0)or 10.0
-if _0xc96c19[_0x40b209[160]+11][_0x848d34(111949,277305,294904)](_0xc40f9f)>_0x16c9f1 then
-local _0x5a7412=_0x91a11d and _0x2517fa(0.06,0.12)or 0.08
-_0x16529f=(_0xc40f9f-_0xc96c19[25][_0x848d34(979983,288648,270761)](_0xc40f9f)*_0x16c9f1)*_0x5a7412
+local _0x9f6209=_0x9cbe51[_0x2b4f7f(407755,136239,146372)]()
+local _0xa11ca9,_0xa443f9=_0xcaa641(_0x9f6209,_0x10fa52)
+local _0xead1e4=_0xcca467[21][_0x3f0d21(116145,609546,120542)](_0x16843b(_0xa11ca9-_0x9cbe51[_0x3f0d21(223819,571471,227680)]))
+local _0xef5f09=_0xcca467[21][_0x2b4f7f(775799,320158,316408)](_0xa443f9-_0x9cbe51[_0x248f80(298479,325020,768719)])
+local _0x1450fb=_0xef5f09
+if _0x883746[_0x3f0d21(131724,488813,135369)][_0x3f0d21(81381,167239,77779)]then
+local _0xafe512=_0x66b134 and _0x1da4f9(8.0,12.0)or 10.0
+if _0xcca467[21][_0x248f80(360821,390696,1038423)](_0xef5f09)>_0xafe512 then
+local _0x1aaf3e=_0x66b134 and _0x1da4f9(0.06,0.12)or 0.08
+_0x1450fb=(_0xef5f09-_0xcca467[21][_0x3f0d21(240280,969448,244204)](_0xef5f09)*_0xafe512)*_0x1aaf3e
 else
-_0x16529f=_0xea489d(66628,66628)
+_0x1450fb=(1742+_0x95b3ae(_0x6bafdb(2018,300),1)-2318)
 end
 end
-local _0x5a10c9=_0x4275fc[_0xe8ebea(312974,298845,870610)][_0x848d34(89045,148502,131316)]and _0xc96c19[_0x40b209[170]-163][_0xd44ced(200232,400574,215158)](_0xa0250c)or _0xc96c19[25][_0xd44ced(92365,849397,77730)](_0xa0250c*_0xa0250c+_0x16529f*_0x16529f)
-if _0x5a10c9<0.05 then return end
-local _0x702233=_0xc96c19[_0x40b209[126]-129][_0x848d34(86208,173867,189330)]((_0xb36196-_0x15649e[_0xd44ced(468793,456362,483483)])/(_0x91a11d and _0x2517fa(0.40,0.60)or 0.35),(49+_0xa81147(_0xfaf96b(54,7),1)-61),1)
-local _0x1d30c9=_0x33ecbd(_0x702233,_0x91a11d)
-if _0x91a11d and _0xc96c19[25][_0x848d34(995830,335711,350550)]()<0.015 then
-_0x15649e[_0x848d34(1026019,251288,234391)]=_0x2517fa(0.70,1.30)
+local _0x1fb518=_0x883746[_0x248f80(442083,444783,4208)][_0x3f0d21(350435,452673,346837)]and _0xcca467[21][_0x248f80(194881,167452,565347)](_0xead1e4)or _0xcca467[_0xc84f9e[68]-98][_0x2b4f7f(720197,469982,465602)](_0xead1e4*_0xead1e4+_0x1450fb*_0x1450fb)
+if _0x1fb518<0.05 then return end
+local _0x8d0836=_0xcca467[_0xc84f9e[35]-210][_0x248f80(512743,501170,859296)]((_0xd9b52d-_0xf24cc1[_0x2b4f7f(164458,514107,518516)])/(_0x66b134 and _0x1da4f9(0.40,0.60)or 0.35),(_0xc84f9e[168]-191),(_0xc84f9e[155]-51))
+local _0xd17e91=_0xc43dd8(_0x8d0836,_0x66b134)
+if _0x66b134 and _0xcca467[21][_0x248f80(353406,335069,154527)]()<0.015 then
+_0xf24cc1[_0x248f80(357431,330910,965283)]=_0x1da4f9(0.70,1.30)
 end
-local _0x8233c0=_0x4275fc[_0x848d34(819236,253147,235582)][_0xd44ced(366062,399055,381841)]*(_0x91a11d and _0x15649e[_0x848d34(539791,282356,264443)]or 1.0)
-local _0x5c7267
-if _0x91a11d then
-if _0x5a10c9<3.0 then _0x5c7267=_0x2517fa(0.35,0.60)
-elseif _0x5a10c9<10.0 then _0x5c7267=_0x2517fa(0.70,1.00)
-elseif _0x5a10c9<25.0 then _0x5c7267=_0x2517fa(0.85,1.15)
-elseif _0x5a10c9<50.0 then _0x5c7267=_0x2517fa(1.15,1.50)
-else _0x5c7267=_0x2517fa(1.40,1.80)end
+local _0xaffa39=_0x883746[_0x2b4f7f(723624,256025,251945)][_0x3f0d21(385246,413820,389864)]*(_0x66b134 and _0xf24cc1[_0x3f0d21(66828,597455,71278)]or 1.0)
+local _0x7c5c4e
+if _0x66b134 then
+if _0x1fb518<3.0 then _0x7c5c4e=_0x1da4f9(0.35,0.60)
+elseif _0x1fb518<10.0 then _0x7c5c4e=_0x1da4f9(0.70,1.00)
+elseif _0x1fb518<25.0 then _0x7c5c4e=_0x1da4f9(0.85,1.15)
+elseif _0x1fb518<50.0 then _0x7c5c4e=_0x1da4f9(1.15,1.50)
+else _0x7c5c4e=_0x1da4f9(1.40,1.80)end
 else
-if _0x5a10c9<3.0 then _0x5c7267=0.45
-elseif _0x5a10c9<10.0 then _0x5c7267=0.85
-elseif _0x5a10c9<25.0 then _0x5c7267=1.00
-elseif _0x5a10c9<50.0 then _0x5c7267=1.30
-else _0x5c7267=1.60 end
+if _0x1fb518<3.0 then _0x7c5c4e=0.45
+elseif _0x1fb518<10.0 then _0x7c5c4e=0.85
+elseif _0x1fb518<25.0 then _0x7c5c4e=1.00
+elseif _0x1fb518<50.0 then _0x7c5c4e=1.30
+else _0x7c5c4e=1.60 end
 end
-local _0xd4e4b4=1.0
-if _0x5a10c9>15.0 then
-local _0x06b05d=_0xc96c19[25][_0xe8ebea(363745,378234,210257)]((_0x5a10c9-15.0)/60.0,_0xea489d(661157,661157),1)
-_0xd4e4b4=1.0+_0x06b05d*(_0x91a11d and _0x2517fa(1.2,1.6)or 1.4)
+local _0x09057e=1.0
+if _0x1fb518>15.0 then
+local _0x76bb2e=_0xcca467[21][_0x248f80(473159,478994,914944)]((_0x1fb518-15.0)/60.0,_0xfc82ca(_0xc84f9e[68],119),(3520+_0x95b3ae(_0x6bafdb(3371,235),1)-3605))
+_0x09057e=1.0+_0x76bb2e*(_0x66b134 and _0x1da4f9(1.2,1.6)or 1.4)
 end
-local _0x33ebcf=_0x8233c0*_0x1d30c9*_0x5c7267*_0xd4e4b4*_0xddcd90
-if(_0x32967b[_0x848d34(358586,237678,255363)]or _0xea489d(1016591,1016591))>_0xea489d(811713,811713)then
-local _0xa84b90=1.0+_0xc96c19[25][_0xd44ced(474060,282821,490906)](_0x32967b[_0xd44ced(273540,157874,289550)]*(_0x91a11d and _0x2517fa(0.12,0.20)or 0.15),_0xea489d(974854,974854),0.7)
-_0x33ebcf=_0x33ebcf*_0xa84b90
+local _0x711549=_0xaffa39*_0xd17e91*_0x7c5c4e*_0x09057e*_0x8fe5de
+if(_0x1399f8[_0x2b4f7f(435762,202140,205995)]or _0xfc82ca(93889,93889))>(541+_0x95b3ae(_0x6bafdb(1925,1432),1)-3357)then
+local _0xa23d2e=1.0+_0xcca467[21][_0x2b4f7f(619487,514145,518244)](_0x1399f8[_0x3f0d21(267762,399886,263858)]*(_0x66b134 and _0x1da4f9(0.12,0.20)or 0.15),_0xfc82ca(131625,131625),0.7)
+_0x711549=_0x711549*_0xa23d2e
 end
-if not _0x32967b[_0x848d34(785778,302438,317577)]and _0x32967b[_0xd44ced(412027,283158,397033)][_0x848d34(631094,414283,399259)]>0.1 then
-_0x33ebcf=_0x33ebcf*(_0x91a11d and _0x2517fa(0.80,0.95)or 0.85)
+if not _0x1399f8[_0x248f80(385797,367500,730602)]and _0x1399f8[_0x248f80(474833,476766,325561)][_0x248f80(403915,414113,344212)]>0.1 then
+_0x711549=_0x711549*(_0x66b134 and _0x1da4f9(0.80,0.95)or 0.85)
 end
-local _0x18770d=_0xc96c19[25][_0x848d34(27597,236582,252063)](_0x33ebcf*0.028+(_0x91a11d and _0x2517fa(-0.003,0.003)or(_0x40b209[98]-236)),0.005,_0x5a10c9>_0xea489d(957814,957800)and 0.96 or 0.92)
-local _0xa1bd43=_0xa0250c*_0x18770d
-local _0x35018b=_0x16529f*_0x18770d*(_0x91a11d and _0x2517fa(0.85,1.15)or 1.0)
-if _0x91a11d then
-local _0xd2dafa=_0x2517fa(0.06,0.16)
-_0x15649e[_0xe8ebea(118038,100348,618876)]=_0x15649e[_0xe8ebea(337738,355744,891680)]+_0x15649e[_0x848d34(316725,283103,268244)]+_0x2517fa(-0.03,0.03)
-_0x15649e[_0xd44ced(335295,580537,350744)]=_0x15649e[_0x848d34(1034057,171437,187303)]+_0x15649e[_0x848d34(642246,94928,79068)]+_0x2517fa(-0.025,0.025)
-_0xa1bd43=_0xa1bd43+_0xc96c19[25][_0xe8ebea(182190,167193,431029)](_0x15649e[_0xd44ced(518458,689304,503455)])*_0xd2dafa*_0x2517fa(0.5,1.3)
-_0x35018b=_0x35018b+_0xc96c19[25][_0x848d34(121263,69735,87473)](_0x15649e[_0x848d34(679548,459928,475794)])*_0xd2dafa*0.55*_0x2517fa(0.4,1.1)
+local _0x5b383c=_0xcca467[_0xc84f9e[14]-106][_0x2b4f7f(765710,328880,341173)](_0x711549*0.028+(_0x66b134 and _0x1da4f9(-0.003,0.003)or _0xfc82ca(_0xc84f9e[35],231)),0.005,_0x1fb518>_0xfc82ca(967605,967595)and 0.96 or 0.92)
+local _0xdfbd5f=_0xead1e4*_0x5b383c
+local _0xbd2858=_0x1450fb*_0x5b383c*(_0x66b134 and _0x1da4f9(0.85,1.15)or 1.0)
+if _0x66b134 then
+local _0x3bd19b=_0x1da4f9(0.06,0.16)
+_0xf24cc1[_0x2b4f7f(827733,283214,287516)]=_0xf24cc1[_0x2b4f7f(596690,125385,120987)]+_0xf24cc1[_0x2b4f7f(24201,413036,425017)]+_0x1da4f9(-0.03,0.03)
+_0xf24cc1[_0x248f80(128408,101692,794867)]=_0xf24cc1[_0x3f0d21(253602,908691,249343)]+_0xf24cc1[_0x3f0d21(386514,899269,390797)]+_0x1da4f9(-0.025,0.025)
+_0xdfbd5f=_0xdfbd5f+_0xcca467[21][_0x248f80(265857,292590,431941)](_0xf24cc1[_0x3f0d21(398334,613559,393381)])*_0x3bd19b*_0x1da4f9(0.5,1.3)
+_0xbd2858=_0xbd2858+_0xcca467[21][_0x248f80(125961,103545,509839)](_0xf24cc1[_0x248f80(254924,236392,931495)])*_0x3bd19b*0.55*_0x1da4f9(0.4,1.1)
 end
-local _0x743ffa=_0x91a11d and _0x2517fa(2.0,3.5)or 3.0
-local _0xcb0eec=_0x91a11d and _0x2517fa(1.5,2.5)or 2.5
-local _0xffc2fb=_0xa1bd43-_0x15649e[_0xe8ebea(458744,439568,842075)]
-local _0x76b089=_0x35018b-_0x15649e[_0x848d34(744967,186872,172031)]
-if _0xc96c19[25][_0xe8ebea(181675,166920,132540)](_0xffc2fb)>_0x743ffa then
-_0xa1bd43=_0x15649e[_0x848d34(656300,354343,339489)]+_0xc96c19[_0x40b209[93]-36][_0xe8ebea(403239,420900,653411)](_0xffc2fb)*_0x743ffa
+local _0xf9ed08=_0x66b134 and _0x1da4f9(2.0,3.5)or 3.0
+local _0x6fe7d7=_0x66b134 and _0x1da4f9(1.5,2.5)or 2.5
+local _0xfd9735=_0xdfbd5f-_0xf24cc1[_0x2b4f7f(445851,261571,248979)]
+local _0x49bd08=_0xbd2858-_0xf24cc1[_0x2b4f7f(190688,109783,105862)]
+if _0xcca467[_0xc84f9e[129]-154][_0x248f80(293480,265525,926538)](_0xfd9735)>_0xf9ed08 then
+_0xdfbd5f=_0xf24cc1[_0x248f80(354509,331885,275097)]+_0xcca467[_0xc84f9e[63]-133][_0x3f0d21(381221,569685,377425)](_0xfd9735)*_0xf9ed08
 end
-if _0xc96c19[_0x40b209[205]-79][_0x848d34(306856,73948,91165)](_0x76b089)>_0xcb0eec then
-_0x35018b=_0x15649e[_0x848d34(1015689,456822,441969)]+_0xc96c19[25][_0xe8ebea(90943,75836,965755)](_0x76b089)*_0xcb0eec
+if _0xcca467[21][_0x2b4f7f(592425,472826,460535)](_0x49bd08)>_0x6fe7d7 then
+_0xbd2858=_0xf24cc1[_0x2b4f7f(332261,415186,418947)]+_0xcca467[21][_0x2b4f7f(1018048,349410,353673)](_0x49bd08)*_0x6fe7d7
 end
-_0x15649e[_0xd44ced(101711,948774,117484)]=_0xa1bd43
-_0x15649e[_0xd44ced(192857,780868,177917)]=_0x35018b
-_0x48c9eb[_0xd44ced(209691,1024952,226414)]=_0x48c9eb[_0xd44ced(353538,652705,336503)]+_0xc96c19[25][_0xd44ced(342521,775114,360056)](_0xa1bd43)
-_0x48c9eb[_0xd44ced(165883,486099,180365)]=_0xc96c19[_0x40b209[82]-71][_0xe8ebea(246273,232346,359345)](_0x48c9eb[_0xd44ced(418232,232592,403150)]+_0xc96c19[25][_0x848d34(832014,181471,164155)](_0x35018b),-1.55,1.55)
+_0xf24cc1[_0x248f80(142323,152403,225703)]=_0xdfbd5f
+_0xf24cc1[_0x3f0d21(326220,553,321814)]=_0xbd2858
+_0x9cbe51[_0x248f80(225034,202616,748418)]=_0x9cbe51[_0x3f0d21(366597,936449,363310)]+_0xcca467[_0xc84f9e[34]-215][_0x2b4f7f(645981,416166,419976)](_0xdfbd5f)
+_0x9cbe51[_0x3f0d21(277013,580536,272697)]=_0xcca467[21][_0x3f0d21(309062,893098,304456)](_0x9cbe51[_0x2b4f7f(828941,523250,510673)]+_0xcca467[21][_0x3f0d21(458549,967068,453634)](_0xbd2858),-1.55,1.55)
 end
-local _0x70e186={
-[_0xd44ced(347679,265697,330144)]=false,
-[_0x848d34(406931,373193,391146)]=(878+_0xa81147(_0xfaf96b(339,573),1)-912),
-[_0xe8ebea(210218,228908,412304)]=-(_0x40b209[227]+70),
-[_0xd44ced(81340,748045,96894)]=-_0xea489d(_0x40b209[3],135),
-[_0xd44ced(374054,438892,389861)]=-(1300+_0xa81147(_0xfaf96b(1483,223),1)-1607),
-[_0xe8ebea(418441,403840,235250)]=nil,
+local _0xb14c40={
+[_0x3f0d21(522858,12955,518431)]=false,
+[_0x248f80(420548,397945,728264)]=(_0xc84f9e[30]-176),
+[_0x2b4f7f(234907,524063,511601)]=-_0xfc82ca(_0xc84f9e[211],252),
+[_0x3f0d21(150771,383887,155531)]=-_0xfc82ca(_0xc84f9e[120],1),
+[_0x248f80(293137,262609,1041801)]=-(1995+_0x95b3ae(_0x6bafdb(243,1848),1)-1992),
+[_0x248f80(326064,295281,146250)]=nil,
 }
-local function _0xe99c15(_0x70535b)
-if _0x76c04c[_0x848d34(441578,206978,224664)]and _0x76c04c[_0x848d34(273398,114590,129668)][_0xd44ced(201643,390702,218739)]and _0x1ad5d9 and _0x1ad5d9[_0xd44ced(223186,69335,204910)]~=_0xd44ced(411145,863188,393652)then
+local function _0xc31c41(_0xdedf8a)
+if _0x63be9c[_0x248f80(429407,457450,87543)]and _0x63be9c[_0x3f0d21(399153,136914,394591)][_0x248f80(201696,222538,794868)]and _0xafd378 and _0xafd378[_0x2b4f7f(550100,492664,505105)]~=_0x2b4f7f(534297,470046,466292)then
 return
 end
-local _0x4275fc=_0x76c04c[_0xd44ced(176520,269278,194335)][_0x848d34(578173,327391,309878)]
-local _0x32967b=_0x48c9eb[_0xd44ced(207475,751304,224307)]
-if not _0x32967b then return end
-if _0x32967b[_0x848d34(900982,188258,170637)]or _0x32967b[_0x848d34(187000,131615,149484)]or _0x32967b[_0xd44ced(277553,383145,293876)]then
-_0x70e186[_0x848d34(291006,372642,387456)]=false
-_0x70e186[_0x848d34(1019941,351094,335187)]=-(_0x40b209[132]-28)
-_0x70e186[_0xe8ebea(317125,302541,131493)]=-99
-_0x70e186[_0x848d34(247491,228977,211030)]=nil
+local _0x883746=_0x63be9c[_0x2b4f7f(691413,105479,109634)][_0x3f0d21(186603,628727,183019)]
+local _0x1399f8=_0x9cbe51[_0x3f0d21(192623,173986,188821)]
+if not _0x1399f8 then return end
+if _0x1399f8[_0x2b4f7f(617050,247440,260009)]or _0x1399f8[_0x248f80(283049,272676,766851)]or _0x1399f8[_0x3f0d21(395923,681772,399848)]then
+_0xb14c40[_0x248f80(155841,137341,425586)]=false
+_0xb14c40[_0x2b4f7f(184371,195357,182898)]=-_0xfc82ca(_0xc84f9e[158],107)
+_0xb14c40[_0x2b4f7f(980483,65783,78215)]=-_0xfc82ca(_0xc84f9e[160],179)
+_0xb14c40[_0x248f80(385978,367483,205120)]=nil
 return
 end
-if _0x32967b[_0xd44ced(312877,449856,295359)]and _0x32967b[_0xd44ced(153958,16907,138996)][_0xd44ced(109866,967349,125511)]>0.22 then
-_0x70e186[_0x848d34(178883,222687,205821)]=false
-_0x70e186[_0xe8ebea(284313,269726,774413)]=-_0xea489d(460800,460899)
+if _0x1399f8[_0x248f80(364367,391104,411175)]and _0x1399f8[_0x2b4f7f(1743,501124,496827)][_0x3f0d21(416252,452151,412383)]>0.22 then
+_0xb14c40[_0x2b4f7f(480512,467363,463055)]=false
+_0xb14c40[_0x248f80(317352,306967,38549)]=-_0xfc82ca(251281,251378)
 end
-local _0xa175d3=_0x32967b[_0x848d34(92893,504329,522212)]or _0xea489d(993436,993436)
-local _0x2ed9ea=_0x48c9eb[_0x848d34(505893,250615,235114)]()
-if not _0x2ed9ea then return end
-local _0x44b558=_0xc4dfd9()
-local _0x28c690=_0x32967b[_0x848d34(883799,164195,181399)]==true
-local _0x2ebb4f=_0x4275fc[_0xe8ebea(419470,405356,2845)]and _0x4275fc[_0xd44ced(286805,515846,272072)][_0xd44ced(286918,517095,272057)]or _0xd44ced(286019,1030989,269276)
-local _0x9ecd6e=_0x4275fc[_0xe8ebea(397989,416578,1042942)]and _0x4275fc[_0x848d34(927454,168866,186023)][_0xe8ebea(71439,89803,476872)]or 20.0
-if _0x2ebb4f==_0x848d34(707788,273212,290367)then
-_0x9ecd6e=38.0
+local _0x886e55=_0x1399f8[_0x248f80(255491,237188,147334)]or(1606+_0x95b3ae(_0x6bafdb(325,1795),1)-2120)
+local _0x9f6209=_0x9cbe51[_0x248f80(457865,428978,439802)]()
+if not _0x9f6209 then return end
+local _0xcb56bc=_0xc15659()
+local _0x648540=_0x1399f8[_0x3f0d21(171658,811919,167373)]==true
+local _0xa8dadd=_0x883746[_0x3f0d21(259711,198746,255019)]and _0x883746[_0x248f80(183996,178471,125436)][_0x3f0d21(344055,429909,339393)]or _0x2b4f7f(100493,387280,383133)
+local _0xb4ca36=_0x883746[_0x2b4f7f(266679,489300,476932)]and _0x883746[_0x3f0d21(80941,386716,77428)][_0x248f80(438176,448733,444033)]or 20.0
+if _0xa8dadd==_0x248f80(199633,228431,683389)then
+_0xb4ca36=38.0
 end
-local _0x3547ee,_0x9acb78,_0x160936=_0x5e5099(_0x4275fc[_0x848d34(861958,81867,97077)][_0xd44ced(180224,82721,165503)]+3.5,_0x848d34(878213,116411,99313),false)
-if _0x3547ee and _0x160936 and _0x2ebb4f~=_0x848d34(612790,142667,157775)then
-local _0xce8dc4,_0x2cc3fe=_0xfe0544(_0x2ed9ea,_0x160936)
-if not _0x70e186[_0x848d34(27988,111176,128106)]and(_0xa175d3>=0.45 or _0x32967b[_0xe8ebea(282525,263498,230661)][_0x848d34(763009,284668,266796)]<-0.08 or _0x28c690)then
-local _0xae5e5c=(_0x9acb78 and _0x9acb78<=(_0x4275fc[_0xd44ced(414524,710419,398759)][_0x848d34(71389,133406,151036)]+1.2))and 1.35 or 1.0
-_0x789b03(_0xce8dc4,_0x2cc3fe,_0x9ecd6e*_0xae5e5c,_0x70535b or((1448+_0xa81147(_0xfaf96b(411,1075),1)-1485)/60))
+local _0x3bdbff,_0x0ee44b,_0x10fa52=_0xc5a650(_0x883746[_0x248f80(283098,271939,904494)][_0x2b4f7f(150041,411369,423620)]+3.5,_0x248f80(106556,120793,518872),false)
+if _0x3bdbff and _0x10fa52 and _0xa8dadd~=_0x2b4f7f(34823,312335,324672)then
+local _0xa11ca9,_0xa443f9=_0xcaa641(_0x9f6209,_0x10fa52)
+if not _0xb14c40[_0x2b4f7f(75188,86295,90235)]and(_0x886e55>=0.45 or _0x1399f8[_0x2b4f7f(178085,333038,337361)][_0x3f0d21(308342,265149,304981)]<-0.08 or _0x648540)then
+local _0x8b42a6=(_0x0ee44b and _0x0ee44b<=(_0x883746[_0x248f80(243510,245935,666562)][_0x2b4f7f(485147,224235,220102)]+1.2))and 1.35 or 1.0
+_0x51b756(_0xa11ca9,_0xa443f9,_0xb4ca36*_0x8b42a6,_0xdedf8a or(_0xfc82ca(_0xc84f9e[136],29)/(1089+_0x95b3ae(_0x6bafdb(1049,88),1)-1077)))
 end
 end
-local _0x5ab4a2=(_0x48c9eb and _0x48c9eb[_0xd44ced(279266,113473,263526)])or(_0x40b209[2]-176)
-if _0x44b558 and(_0x28c690 or _0x32967b[_0x848d34(322828,420483,405366)][_0xd44ced(70309,949562,87496)]<-0.2)and _0x3547ee and _0x9acb78 and _0x9acb78<=(_0x4275fc[_0xe8ebea(483049,464649,919556)][_0x848d34(292689,485522,470128)]+3.0)then
-if _0x4275fc[_0x848d34(888091,371750,387361)][_0x848d34(366962,427697,442963)]then
-local _0xfea694=_0xe053ad()or _0xc06ffa(function(_0x80e662,_0x8c3c53)
-return _0x8c3c53 and _0x8c3c53[_0x848d34(446919,186465,171456)]==_0x848d34(916554,269386,285158)and _0x8c3c53[_0x848d34(584022,181761,164780)]==_0x848d34(708611,139312,157086)and _0x80e662[_0x848d34(667439,225504,210244)]~=_0xe8ebea(228836,210793,417289)
-end,(_0x40b209[180]-232))
-if _0xfea694 and(_0x5ab4a2-_0x70e186[_0xe8ebea(230875,249555,348859)])>_0xea489d(_0x40b209[28],210)then
-_0xf8b138(_0xfea694,_0x48c9eb[_0x848d34(779788,341181,356385)]())
-_0x32967b[_0xd44ced(100110,976600,114847)]=false
-_0x70e186[_0xe8ebea(173485,192165,291533)]=_0x5ab4a2
-_0xa15292(_0xe8ebea(349666,335593,544678))
+local _0x78c750=(_0x9cbe51 and _0x9cbe51[_0x2b4f7f(1034738,86230,90599)])or _0xfc82ca(110012,110012)
+if _0xcb56bc and(_0x648540 or _0x1399f8[_0x3f0d21(341504,338201,337224)][_0x2b4f7f(148766,345735,358301)]<-0.2)and _0x3bdbff and _0x0ee44b and _0x0ee44b<=(_0x883746[_0x2b4f7f(569727,346302,358647)][_0x248f80(508960,504669,503041)]+3.0)then
+if _0x883746[_0x3f0d21(432566,901747,429037)][_0x248f80(143036,154049,149405)]then
+local _0x362fb9=_0x353bcc()or _0xc53161(function(_0xaf286a,_0xe02d76)
+return _0xe02d76 and _0xe02d76[_0x248f80(169512,192020,923156)]==_0x3f0d21(471874,895356,467010)and _0xe02d76[_0x248f80(302387,320891,385978)]==_0x2b4f7f(211798,216962,229243)and _0xaf286a[_0x2b4f7f(141062,188222,192465)]~=_0x3f0d21(238603,639867,243444)
+end,_0xfc82ca(781371,781362))
+if _0x362fb9 and(_0x78c750-_0xb14c40[_0x248f80(491065,460537,844449)])>(157+_0x95b3ae(_0x6bafdb(441,292),1)-725)then
+_0x0c1909(_0x362fb9,_0x9cbe51[_0x3f0d21(331798,134234,328165)]())
+_0x1399f8[_0x248f80(237776,251998,953253)]=false
+_0xb14c40[_0x2b4f7f(642544,408324,395892)]=_0x78c750
+_0xdd7a2f(_0x3f0d21(124780,733016,128016))
 return
 end
 end
 end
-if _0x32967b[_0x848d34(569399,478467,461047)]==true then
-if _0x44b558 and not _0x4275fc[_0x848d34(617274,84487,69376)][_0x848d34(434276,376743,392005)]then
-_0xa15292(_0x848d34(448588,316640,299722))
+if _0x1399f8[_0x3f0d21(353678,759947,358089)]==true then
+if _0xcb56bc and not _0x883746[_0x248f80(384180,371478,876077)][_0x2b4f7f(95229,360205,347936)]then
+_0xdd7a2f(_0x3f0d21(143726,986722,139795))
 end
 return
 end
-if(_0x5ab4a2-_0x70e186[_0xd44ced(117022,183892,102109)])<(2764+_0xa81147(_0xfaf96b(284,3024),1)-3306)then
+if(_0x78c750-_0xb14c40[_0x3f0d21(478203,983389,481410)])<(162+_0x95b3ae(_0x6bafdb(188,30),1)-216)then
 return
 end
-local _0xff2d6f=_0x2dd1a3(false)or _0xc06ffa(function(_0x80e662,_0x8c3c53)
-return _0x80e662[_0xe8ebea(315555,301605,573994)]==_0xe8ebea(452654,434857,175988)or(_0x8c3c53 and _0x8c3c53[_0x848d34(118505,378703,361198)]==_0x848d34(149009,216076,199081))
-end,_0xea489d(664049,664048))
-if _0xff2d6f and _0x3547ee and _0x9acb78 and not _0x70e186[_0xe8ebea(291822,276714,57398)]and(_0xa175d3>=0.20 or(_0x32967b[_0xe8ebea(224524,206811,305044)]and _0x32967b[_0xe8ebea(324856,310831,212576)][_0xd44ced(392046,693489,375811)]<-0.12))and _0x9acb78<=(_0x4275fc[_0x848d34(1037693,249264,231758)][_0xd44ced(171753,73160,186518)]+2.5)then
-if not _0x70e186[_0xe8ebea(202274,220459,451161)]then
-_0x70e186[_0xe8ebea(347733,329052,47662)]=_0x0a7cca[_0xd44ced(351013,810662,335122)][_0x848d34(541389,97346,80376)]
+local _0x6fce2e=_0xae9965(false)or _0xc53161(function(_0xaf286a,_0xe02d76)
+return _0xaf286a[_0x3f0d21(264106,213952,267602)]==_0x248f80(156394,137898,850124)or(_0xe02d76 and _0xe02d76[_0x3f0d21(462525,546883,465992)]==_0x3f0d21(246203,953635,250690))
+end,(1953+_0x95b3ae(_0x6bafdb(1964,13),1)-1976))
+if _0x6fce2e and _0x3bdbff and _0x0ee44b and not _0xb14c40[_0x2b4f7f(332912,352467,348607)]and(_0x886e55>=0.20 or(_0x1399f8[_0x2b4f7f(202541,308326,296281)]and _0x1399f8[_0x2b4f7f(152586,390977,378494)][_0x3f0d21(342038,362461,338741)]<-0.12))and _0x0ee44b<=(_0x883746[_0x3f0d21(344176,984547,348706)][_0x3f0d21(224724,56694,229346)]+2.5)then
+if not _0xb14c40[_0x3f0d21(298056,104589,302898)]then
+_0xb14c40[_0x248f80(294650,263739,179200)]=_0xe26196[_0x3f0d21(104145,748403,100128)][_0x2b4f7f(680211,464109,468456)]
 end
-local _0x4d5dda=_0x271e47(_0x3547ee[_0x848d34(828622,236849,252120)])
-if _0x4275fc[_0xe8ebea(437426,451935,686251)][_0xe8ebea(520195,506311,106948)]and _0x4d5dda then
-local _0xa5fc4b=_0xbd84fe()
-if _0xa5fc4b and _0x0a7cca[_0xd44ced(495684,955847,513651)][_0x848d34(784380,182643,167113)]~=_0xa5fc4b then
-_0xd6ca4f(_0xa5fc4b)
+local _0xcfded6=_0xeae1fd(_0x3bdbff[_0x248f80(238305,252514,787246)])
+if _0x883746[_0x248f80(451737,430911,411997)][_0x2b4f7f(395337,132281,144532)]and _0xcfded6 then
+local _0xbbf3ab=_0xb3868e()
+if _0xbbf3ab and _0xe26196[_0x248f80(184354,173850,783430)][_0x3f0d21(401197,841345,396323)]~=_0xbbf3ab then
+_0xd94c4f(_0xbbf3ab)
 end
-elseif _0x0a7cca[_0xd44ced(245637,702982,260530)][_0xd44ced(268798,899987,286377)]~=_0xff2d6f then
-_0xd6ca4f(_0xff2d6f)
+elseif _0xe26196[_0x2b4f7f(766308,454804,450428)][_0x2b4f7f(602845,280355,292390)]~=_0x6fce2e then
+_0xd94c4f(_0x6fce2e)
 end
 end
-if _0xa175d3<=_0x4275fc[_0xe8ebea(262534,280664,583440)][_0x848d34(12285,208958,226524)]then
+if _0x886e55<=_0x883746[_0x3f0d21(267439,968243,263935)][_0x3f0d21(450279,355909,445649)]then
 return
 end
-local _0xb36196=_0xc96c19[7][_0xd44ced(277316,66478,293913)]()
-if _0x70e186[_0xd44ced(305099,386101,319604)]or(_0xb36196-_0x70e186[_0xd44ced(452206,392918,434606)])<0.38 or(_0x5ab4a2-_0x70e186[_0x848d34(458970,471974,488834)])<_0xea489d(241902,241896)then
+local _0xd9b52d=_0xcca467[33][_0x3f0d21(505305,694141,501453)]()
+if _0xb14c40[_0x248f80(292952,262372,26347)]or(_0xd9b52d-_0xb14c40[_0x2b4f7f(974197,508264,520197)])<0.38 or(_0x78c750-_0xb14c40[_0x3f0d21(88667,167053,84268)])<(1842+_0x95b3ae(_0x6bafdb(778,1080),1)-1852)then
 return
 end
-if not _0x3547ee or not _0x160936 or _0x9acb78>_0x4275fc[_0x848d34(632589,376768,391998)][_0x848d34(408504,337019,352409)]then
+if not _0x3bdbff or not _0x10fa52 or _0x0ee44b>_0x883746[_0x2b4f7f(591943,323974,311759)][_0x2b4f7f(336864,77584,73533)]then
 return
 end
-local _0x8d278f=(_0x160936-_0x2ed9ea)[_0xd44ced(279826,320920,262776)]
-local _0x270d28=_0x48c9eb[_0xd44ced(225552,868163,210729)]()
-if _0x2ebb4f==_0xd44ced(385602,920157,369891)then
-_0x270d28=_0x8d278f
-if not _0xca1d0e[_0x848d34(550367,159395,142204)](_0x2ed9ea,_0x270d28,_0x3547ee,_0x4275fc[_0xe8ebea(233797,252069,706472)][_0x848d34(326946,516833,501251)])then
+local _0x692844=(_0x10fa52-_0x9f6209)[_0x248f80(96624,65815,230884)]
+local _0x8f12f5=_0x9cbe51[_0x248f80(305465,318979,27825)]()
+if _0xa8dadd==_0x248f80(294078,264993,284037)then
+_0x8f12f5=_0x692844
+if not _0x44470f[_0x3f0d21(172173,254966,177087)](_0x9f6209,_0x8f12f5,_0x3bdbff,_0x883746[_0x248f80(84689,81224,579109)][_0x2b4f7f(238341,503797,499672)])then
 return
 end
 else
-local _0xea66eb=_0xc96c19[_0x40b209[190]-133][_0x848d34(379919,408548,425821)](_0x270d28[_0x848d34(7866,249037,232150)](_0x270d28,_0x8d278f),-(2088+_0xa81147(_0xfaf96b(428,2436),1)-2863),1)
-local _0x5e321b=_0xc96c19[25][_0xd44ced(509077,925928,492332)](_0xc96c19[25][_0xe8ebea(435818,453781,744354)](_0xea66eb))
-local _0x9013f9=_0xca1d0e[_0xe8ebea(520580,506693,571385)](_0x2ed9ea,_0x270d28,_0x3547ee,_0x4275fc[_0x848d34(885635,105294,122800)][_0x848d34(414813,347038,331644)])
-if _0x5e321b>6.5 or not _0x9013f9 then
-local _0xce8dc4,_0x2cc3fe=_0xfe0544(_0x2ed9ea,_0x160936)
-_0x789b03(_0xce8dc4,_0x2cc3fe,_0x9ecd6e*1.45,_0x70535b or(1/(1613+_0xa81147(_0xfaf96b(372,1849),1)-2161)))
-_0x270d28=_0x48c9eb[_0xd44ced(411088,527235,394217)]()
-local _0x171a57=_0xc96c19[25][_0xe8ebea(434574,452629,6206)](_0x270d28[_0xe8ebea(371431,385050,210349)](_0x270d28,_0x8d278f),-(3355+_0xa81147(_0xfaf96b(1060,2367),1)-3426),_0xea489d(337350,337351))
-local _0x068738=_0xc96c19[25][_0xe8ebea(305169,320239,564656)](_0xc96c19[_0x40b209[199]-55][_0xe8ebea(145210,163269,1034994)](_0x171a57))
-if _0x068738>6.5 or not _0xca1d0e[_0xd44ced(164825,529479,181413)](_0x2ed9ea,_0x270d28,_0x3547ee,_0x4275fc[_0x848d34(929195,144742,160152)][_0x848d34(490577,287634,272240)])then
+local _0x3ab8e8=_0xcca467[_0xc84f9e[240]-130][_0x248f80(316596,304097,924403)](_0x8f12f5[_0x3f0d21(301608,809881,297286)](_0x8f12f5,_0x692844),-(623+_0x95b3ae(_0x6bafdb(632,23),1)-654),_0xfc82ca(431323,431322))
+local _0x548c9b=_0xcca467[_0xc84f9e[24]-183][_0x248f80(342829,344987,943582)](_0xcca467[21][_0x2b4f7f(842793,93542,89089)](_0x3ab8e8))
+local _0x954cf1=_0x44470f[_0x248f80(299214,321719,394546)](_0x9f6209,_0x8f12f5,_0x3bdbff,_0x883746[_0x248f80(372243,383370,799463)][_0x2b4f7f(508153,248841,261156)])
+if _0x548c9b>6.5 or not _0x954cf1 then
+local _0xa11ca9,_0xa443f9=_0xcaa641(_0x9f6209,_0x10fa52)
+_0x51b756(_0xa11ca9,_0xa443f9,_0xb4ca36*1.45,_0xdedf8a or((_0xc84f9e[155]-51)/(1977+_0x95b3ae(_0x6bafdb(967,1150),1)-2057)))
+_0x8f12f5=_0x9cbe51[_0x2b4f7f(473206,497768,505730)]()
+local _0x53c304=_0xcca467[_0xc84f9e[243]-44][_0x3f0d21(394665,987717,399271)](_0x8f12f5[_0x2b4f7f(941801,74506,70255)](_0x8f12f5,_0x692844),-_0xfc82ca(36976,36977),(2+_0x95b3ae(_0x6bafdb(135,133),1)-267))
+local _0x6884e8=_0xcca467[21][_0x248f80(85689,79375,659530)](_0xcca467[21][_0x3f0d21(511940,901849,515252)](_0x53c304))
+if _0x6884e8>6.5 or not _0x44470f[_0x2b4f7f(179981,278564,291085)](_0x9f6209,_0x8f12f5,_0x3bdbff,_0x883746[_0x2b4f7f(975972,204197,208364)][_0x2b4f7f(248580,509940,522201)])then
 return
 end
 end
 end
-if not _0xff2d6f then
+if not _0x6fce2e then
 return
 end
-if not _0x70e186[_0xd44ced(427041,434289,443365)]then
-_0x70e186[_0xd44ced(388400,379232,371444)]=_0x0a7cca[_0x848d34(530419,102034,117256)][_0xd44ced(299162,865015,317389)]
+if not _0xb14c40[_0x248f80(100498,127059,477800)]then
+_0xb14c40[_0x248f80(316038,305735,135292)]=_0xe26196[_0x2b4f7f(543002,329962,337666)][_0x3f0d21(404284,844432,407602)]
 end
-local _0x835702=_0x70e186[_0xd44ced(173699,164563,188743)]
-local _0x4d5dda=_0x271e47(_0x3547ee[_0xe8ebea(360303,341412,986011)])
-if _0x4275fc[_0xe8ebea(467105,485708,783544)][_0xe8ebea(515079,497091,101824)]and _0x4d5dda and(_0x5ab4a2-_0x70e186[_0xe8ebea(432697,446782,597421)])>8 then
-local _0xa5fc4b=_0xbd84fe()
-if _0xa5fc4b then
-_0xd6ca4f(_0xa5fc4b)
-local _0x4a7457=_0xb192fa(_0x3547ee,_0x270d28)
-if _0x4a7457 then
-_0x70e186[_0xe8ebea(142244,155811,896048)]=_0x5ab4a2
-_0xa15292(_0xc96c19[9][_0xe8ebea(372930,391669,27200)](_0xe8ebea(172247,191450,765574),_0x3547ee[_0x848d34(699300,365147,382898)][_0xd44ced(324906,761484,308002)]))
+local _0xc4de2c=_0xb14c40[_0x248f80(432290,450659,23128)]
+local _0xcfded6=_0xeae1fd(_0x3bdbff[_0x3f0d21(504511,771341,500099)])
+if _0x883746[_0x2b4f7f(112120,359734,347488)][_0x3f0d21(78294,164212,74720)]and _0xcfded6 and(_0x78c750-_0xb14c40[_0x3f0d21(310231,208043,305327)])>_0xfc82ca(_0xc84f9e[94],17)then
+local _0xbbf3ab=_0xb3868e()
+if _0xbbf3ab then
+_0xd94c4f(_0xbbf3ab)
+local _0xe40354=_0xbcbc13(_0x3bdbff,_0x8f12f5)
+if _0xe40354 then
+_0xb14c40[_0x3f0d21(308921,205253,304577)]=_0x78c750
+_0xdd7a2f(_0xcca467[34][_0x3f0d21(260449,1033789,256028)](_0x2b4f7f(296430,243405,231352),_0x3bdbff[_0x248f80(301341,319902,735442)][_0x2b4f7f(121582,105561,111571)]))
 return
 end
 end
 end
-if _0x70e186[_0x848d34(644751,204252,220153)]>_0xea489d(1048037,1048037)and(_0x5ab4a2-_0x70e186[_0xe8ebea(69823,89016,956203)])<_0xea489d(32720,32722)then
+if _0xb14c40[_0x3f0d21(511446,23210,515758)]>_0xfc82ca(307704,307704)and(_0x78c750-_0xb14c40[_0x2b4f7f(149894,156328,152519)])<_0xfc82ca(677454,677452)then
 return
 end
-_0xd6ca4f(_0xff2d6f)
-local _0x908783=_0xb192fa(_0x3547ee,_0x270d28)
-if _0x908783 then
-_0x70e186[_0xe8ebea(490126,471434,256342)]=true
-_0x70e186[_0x848d34(6700,237174,251989)]=_0xb36196
-_0x70e186[_0x848d34(308248,296804,311616)]=_0x5ab4a2
-_0x70e186[_0xd44ced(221324,214236,206664)]=nil
-_0xa15292(_0xc96c19[9][_0x848d34(431234,393463,410786)](_0x848d34(333098,485890,470062),_0x3547ee[_0x848d34(856996,141915,159666)][_0xd44ced(262556,748090,280468)],_0xa175d3))
-_0x0b0364(_0xd44ced(238071,15394,255855),_0xc96c19[9][_0xe8ebea(277202,291813,122960)](_0xd44ced(460630,490152,475292),_0x3547ee[_0x848d34(635122,428301,445668)][_0xd44ced(125907,950389,110043)],_0xa175d3),1.6)
-local _0x5f5155=_0xc96c19[25][_0x848d34(637013,467782,485252)](_0x4275fc[_0xd44ced(500684,605422,517472)][_0x848d34(372361,438602,456104)],0.12)
-_0xc96c19[21][_0x848d34(188214,286516,268570)](_0x5f5155,function()
-if not _0x3571dc()then return end
-if _0x44b558 and _0x4275fc[_0xd44ced(453769,938326,436781)][_0xe8ebea(168658,187158,312085)]and _0x4275fc[_0xd44ced(273947,836715,288957)][_0xe8ebea(356901,343009,205794)]and not _0xc4dfd9()then
-local _0xba453e=_0xccc5fe()or _0xc06ffa(function(_0x80e662,_0x8c3c53)
-return _0x80e662[_0x848d34(702518,255993,238173)]==_0x848d34(507270,512806,497293)or(_0x8c3c53 and _0x8c3c53[_0xe8ebea(231115,248904,180782)]==_0xe8ebea(316923,302966,128534))
-end,_0xea489d(434452,434461))
-if _0xba453e then
-_0xf8b138(_0xba453e,_0x48c9eb[_0xd44ced(265011,673120,281866)]())
+_0xd94c4f(_0x6fce2e)
+local _0x77a205=_0xbcbc13(_0x3bdbff,_0x8f12f5)
+if _0x77a205 then
+_0xb14c40[_0x2b4f7f(262759,292548,280488)]=true
+_0xb14c40[_0x2b4f7f(692570,232775,244778)]=_0xd9b52d
+_0xb14c40[_0x2b4f7f(139734,412498,424508)]=_0x78c750
+_0xb14c40[_0x248f80(69397,96212,511471)]=nil
+_0xdd7a2f(_0xcca467[_0xc84f9e[20]+17][_0x3f0d21(356408,610148,352581)](_0x3f0d21(519747,818911,523580),_0x3bdbff[_0x2b4f7f(852303,445103,457628)][_0x3f0d21(311727,211786,315452)],_0x886e55))
+_0x75164e(_0x248f80(77517,88411,568489),_0xcca467[_0xc84f9e[141]-46][_0x3f0d21(88217,878533,84452)](_0x2b4f7f(840384,348699,353132),_0x3bdbff[_0x3f0d21(341972,606310,337128)][_0x2b4f7f(71141,86866,97496)],_0x886e55),1.6)
+local _0x97db10=_0xcca467[_0xc84f9e[44]-143][_0x3f0d21(374266,542231,370669)](_0x883746[_0x3f0d21(454499,818471,457984)][_0x3f0d21(201125,41223,197523)],0.12)
+_0xcca467[8][_0x3f0d21(300696,552872,296217)](_0x97db10,function()
+if not _0x103a58()then return end
+if _0xcb56bc and _0x883746[_0x2b4f7f(683300,428723,441057)][_0x248f80(176958,181315,186911)]and _0x883746[_0x248f80(125844,105520,932622)][_0x3f0d21(439322,328888,435756)]and not _0xc15659()then
+local _0xa975f7=_0x35dfe4()or _0xc53161(function(_0xaf286a,_0xe02d76)
+return _0xaf286a[_0x2b4f7f(236723,222347,218212)]==_0x2b4f7f(743401,429259,441405)or(_0xe02d76 and _0xe02d76[_0x2b4f7f(744517,243433,230917)]==_0x248f80(435458,449860,988362))
+end,_0xfc82ca(_0xc84f9e[137],10))
+if _0xa975f7 then
+_0x0c1909(_0xa975f7,_0x9cbe51[_0x248f80(312043,308689,1891)]())
 end
 end
-if _0x4275fc[_0xd44ced(111283,54889,128025)][_0x848d34(26674,227313,209683)]and _0x835702 and _0x835702>=(_0x40b209[188]-231)and _0x835702<=9 then
-if _0x0a7cca[_0x848d34(580203,82698,67472)][_0xe8ebea(204957,223745,1004366)]~=_0x835702 then
-_0xd6ca4f(_0x835702)
+if _0x883746[_0x2b4f7f(756634,167298,179674)][_0x3f0d21(261706,20200,257148)]and _0xc4de2c and _0xc4de2c>=_0xfc82ca(_0xc84f9e[150],217)and _0xc4de2c<=_0xfc82ca(_0xc84f9e[16],240)then
+if _0xe26196[_0x2b4f7f(1000648,132408,142032)][_0x3f0d21(162094,569474,158240)]~=_0xc4de2c then
+_0xd94c4f(_0xc4de2c)
 end
 end
 end)
 end
 end
-local function _0xef5ea1(_0x70535b)
-if(_0x76c04c[_0xd44ced(78118,276908,96145)]and _0x76c04c[_0x848d34(221928,456320,439194)][_0xe8ebea(103425,122140,172987)])or(_0x76c04c[_0xd44ced(464955,111213,482988)]and _0x76c04c[_0xe8ebea(218226,204206,11482)][_0xe8ebea(287495,272922,480445)])then return end
-local _0x4275fc=_0x76c04c[_0xe8ebea(186945,168882,322048)][_0xe8ebea(254769,240314,688600)]
-local _0x32967b=_0x48c9eb[_0xe8ebea(186074,171871,1005766)]
-if not _0x32967b then return end
-if _0x32967b[_0xe8ebea(109720,124489,754077)]or _0x32967b[_0x848d34(312384,269351,285140)]or _0x32967b[_0xd44ced(325058,332122,307719)]or(_0x32967b[_0xd44ced(152162,267860,136680)]or _0xea489d(_0x40b209[66],101))<0.5 then
-_0xef7843[_0xd44ced(231310,128158,245826)]=false
-_0xef7843[_0xd44ced(233145,645384,248187)]=-_0xea489d(_0x40b209[151],90)
-_0xef7843[_0xd44ced(111494,104406,128066)]=nil
+local function _0x18b44b(_0xdedf8a)
+if(_0x63be9c[_0x248f80(186171,172174,331667)]and _0x63be9c[_0x3f0d21(488744,226507,485190)][_0x248f80(304789,315455,759169)])or(_0x63be9c[_0x248f80(77803,88190,940544)]and _0x63be9c[_0x248f80(461051,491374,556304)][_0x3f0d21(349689,638649,345242)])then return end
+local _0x883746=_0x63be9c[_0x2b4f7f(607273,219496,223540)][_0x2b4f7f(715922,401372,405547)]
+local _0x1399f8=_0x9cbe51[_0x248f80(87093,74612,186951)]
+if not _0x1399f8 then return end
+if _0x1399f8[_0x248f80(389551,362790,735040)]or _0x1399f8[_0x248f80(426784,457645,614666)]or _0x1399f8[_0x2b4f7f(1011148,310305,298323)]or(_0x1399f8[_0x2b4f7f(273787,106197,110562)]or _0xfc82ca(341595,341595))<0.5 then
+_0x9feb49[_0x3f0d21(307422,952212,303964)]=false
+_0x9feb49[_0x2b4f7f(196148,185626,189557)]=-(_0xc84f9e[175]+64)
+_0x9feb49[_0x2b4f7f(437965,263770,276267)]=nil
 return
 end
-if _0x32967b[_0xd44ced(515279,378786,498525)]and _0x32967b[_0xd44ced(394257,270204,410499)][_0xd44ced(404268,607411,420929)]>0.22 then
-_0xef7843[_0xe8ebea(172862,190511,327709)]=false
-_0xef7843[_0x848d34(532571,191240,175405)]=-_0xea489d(1046553,1046650)
+if _0x1399f8[_0x248f80(225238,202585,42686)]and _0x1399f8[_0x2b4f7f(430609,78170,65637)][_0x3f0d21(472007,494604,467172)]>0.22 then
+_0x9feb49[_0x3f0d21(494217,900547,497931)]=false
+_0x9feb49[_0x248f80(137057,159710,415324)]=-_0xfc82ca(803710,803613)
 end
-if _0x32967b[_0xd44ced(519362,560404,502611)]==true then
+if _0x1399f8[_0x2b4f7f(1034756,428883,440941)]==true then
 return
 end
-local _0xa175d3=_0x32967b[_0xe8ebea(79721,97702,172722)]or _0xea489d(468747,468747)
-if _0xa175d3<=_0x4275fc[_0x848d34(552701,116341,98953)][_0xd44ced(248408,18809,232487)]then return end
-local _0x5ab4a2=(_0x48c9eb and _0x48c9eb[_0x848d34(25599,329406,344921)])or _0xea489d(_0x40b209[137],251)
-if _0xef7843[_0xe8ebea(469367,483942,35412)]or(_0xc96c19[_0x40b209[76]-121][_0xe8ebea(251236,237510,211982)]()-_0xef7843[_0xe8ebea(269973,284039,320832)])<0.38 or(_0x5ab4a2-_0xef7843[_0x848d34(175986,171022,186922)])<_0xea489d(559545,559551)then
+local _0x886e55=_0x1399f8[_0x248f80(500376,514591,424733)]or(962+_0x95b3ae(_0x6bafdb(282,728),1)-1010)
+if _0x886e55<=_0x883746[_0x3f0d21(448742,789114,445110)][_0x2b4f7f(509234,248258,260591)]then return end
+local _0x78c750=(_0x9cbe51 and _0x9cbe51[_0x2b4f7f(986023,103043,107442)])or _0xfc82ca(_0xc84f9e[153],82)
+if _0x9feb49[_0x2b4f7f(1018324,131788,144309)]or(_0xcca467[33][_0x3f0d21(294698,613774,289854)]()-_0x9feb49[_0x3f0d21(356192,304665,359651)])<0.38 or(_0x78c750-_0x9feb49[_0x2b4f7f(455,289603,285229)])<_0xfc82ca(96262,96256)then
 return
 end
-local _0xa5fc4b=_0xbd84fe()
-local _0xff2d6f=_0x2dd1a3(_0x4275fc[_0xe8ebea(173819,192259,913952)][_0x848d34(294033,484178,468912)])
-if not _0xff2d6f then return end
-local _0x917a20=not _0x4275fc[_0xd44ced(371185,93387,388932)][_0x848d34(180543,122620,104990)]
-local _0x3547ee,_0x9acb78,_0x160936=_0x5e5099(_0x4275fc[_0x848d34(441750,239123,254720)][_0x848d34(355977,422218,406952)],_0xe8ebea(362850,377678,812208),_0x917a20)
-if not _0x3547ee or not _0x160936 then return end
-local _0x2ed9ea=_0x48c9eb[_0x848d34(43622,311476,295977)]()
-if not _0x2ed9ea then return end
-local _0xce8dc4,_0x2cc3fe=_0xfe0544(_0x2ed9ea,_0x160936)
-local _0x9ecd6e=_0x4275fc[_0x848d34(724188,506272,523429)]and _0x4275fc[_0x848d34(964461,131601,149268)][_0xd44ced(425554,392563,407597)]or 24.0
-_0x789b03(_0xce8dc4,_0x2cc3fe,_0x9ecd6e*1.25,_0x70535b or((376+_0xa81147(_0xfaf96b(667,995),1)-1661)/60))
-if _0x9acb78<=_0x4275fc[_0xe8ebea(234417,252497,705884)][_0xe8ebea(509863,495203,104032)]then
-local _0x22a97a=_0x48c9eb[_0xe8ebea(79177,97335,698694)]()
-local _0x8d278f=(_0x160936-_0x2ed9ea)[_0xe8ebea(165631,183376,522232)]
-local _0x5e321b=_0xc96c19[25][_0xd44ced(481900,966161,466389)](_0xc96c19[25][_0xe8ebea(316664,302599,600368)](_0xc96c19[25][_0xe8ebea(483428,469503,121300)](_0x22a97a[_0xd44ced(450885,372688,435965)](_0x22a97a,_0x8d278f),-_0xea489d(881195,881194),_0xea489d(_0x40b209[10],218))))
-if _0x5e321b>6.5 or not _0xca1d0e[_0xe8ebea(361323,379306,705814)](_0x2ed9ea,_0x22a97a,_0x3547ee,_0x4275fc[_0xe8ebea(505555,524083,974910)][_0xd44ced(460577,295936,475486)])then
+local _0xbbf3ab=_0xb3868e()
+local _0x6fce2e=_0xae9965(_0x883746[_0x248f80(404620,416573,517964)][_0x3f0d21(399137,370563,394519)])
+if not _0x6fce2e then return end
+local _0x9a73ef=not _0x883746[_0x3f0d21(462041,177899,466613)][_0x3f0d21(76022,170068,80576)]
+local _0x3bdbff,_0x0ee44b,_0x10fa52=_0xc5a650(_0x883746[_0x2b4f7f(307063,417154,421340)][_0x248f80(291882,262999,269579)],_0x3f0d21(118932,279403,115210),_0x9a73ef)
+if not _0x3bdbff or not _0x10fa52 then return end
+local _0x9f6209=_0x9cbe51[_0x3f0d21(152121,115343,148429)]()
+if not _0x9f6209 then return end
+local _0xa11ca9,_0xa443f9=_0xcaa641(_0x9f6209,_0x10fa52)
+local _0xb4ca36=_0x883746[_0x3f0d21(414517,166276,409964)]and _0x883746[_0x2b4f7f(507338,318249,322425)][_0x2b4f7f(8153,267049,271108)]or 24.0
+_0x51b756(_0xa11ca9,_0xa443f9,_0xb4ca36*1.25,_0xdedf8a or(_0xfc82ca(_0xc84f9e[108],127)/_0xfc82ca(608128,608188)))
+if _0x0ee44b<=_0x883746[_0x3f0d21(357565,995630,354031)][_0x248f80(378642,372847,372275)]then
+local _0xf2818f=_0x9cbe51[_0x3f0d21(453702,126986,458165)]()
+local _0x692844=(_0x10fa52-_0x9f6209)[_0x3f0d21(216386,157519,220770)]
+local _0x548c9b=_0xcca467[21][_0x3f0d21(138250,693425,135013)](_0xcca467[21][_0x248f80(177974,184193,748642)](_0xcca467[_0xc84f9e[126]-6][_0x2b4f7f(827454,134016,146309)](_0xf2818f[_0x2b4f7f(944406,70901,75152)](_0xf2818f,_0x692844),-_0xfc82ca(779957,779956),_0xfc82ca(_0xc84f9e[64],67))))
+if _0x548c9b>6.5 or not _0x44470f[_0x3f0d21(456687,504980,451805)](_0x9f6209,_0xf2818f,_0x3bdbff,_0x883746[_0x248f80(516426,497363,949694)][_0x2b4f7f(147524,412852,425113)])then
 return
 end
-local _0x4d5dda=_0x271e47(_0x3547ee[_0xe8ebea(129108,111263,756896)])
-if _0x4d5dda and not _0xa5fc4b then return end
-if not _0xef7843[_0xd44ced(349656,356744,332316)]then
-_0xef7843[_0x848d34(366178,339664,354551)]=_0x0a7cca[_0xe8ebea(197769,216565,1037140)][_0x848d34(1027827,430204,447942)]
+local _0xcfded6=_0xeae1fd(_0x3bdbff[_0x3f0d21(103776,910034,99932)])
+if _0xcfded6 and not _0xbbf3ab then return end
+if not _0x9feb49[_0x248f80(213470,211231,361252)]then
+_0x9feb49[_0x2b4f7f(489805,381402,385195)]=_0xe26196[_0x2b4f7f(546439,333687,342175)][_0x3f0d21(328557,1034945,331875)]
 end
-local _0x835702=_0xef7843[_0xd44ced(303451,296203,321183)]
-if _0x4d5dda and _0xa5fc4b and(_0x5ab4a2-_0xef7843[_0xe8ebea(97319,79648,981939)])>(3925+_0xa81147(_0xfaf96b(1304,2637),1)-3933)then
-_0xd6ca4f(_0xa5fc4b)
-local _0x4a7457=_0xb192fa(_0x3547ee,_0x22a97a)
-if _0x4a7457 then
-_0xef7843[_0xd44ced(483659,866042,468617)]=_0x5ab4a2
-_0xa15292(_0xc96c19[9][_0xe8ebea(186527,168360,459293)](_0xd44ced(472977,374524,487519),_0x3547ee[_0xd44ced(438358,595275,456656)][_0xe8ebea(301505,315532,925704)]))
+local _0xc4de2c=_0x9feb49[_0x248f80(484706,466339,108440)]
+if _0xcfded6 and _0xbbf3ab and(_0x78c750-_0x9feb49[_0x3f0d21(356315,194727,359587)])>_0xfc82ca(1023372,1023364)then
+_0xd94c4f(_0xbbf3ab)
+local _0xe40354=_0xbcbc13(_0x3bdbff,_0xf2818f)
+if _0xe40354 then
+_0x9feb49[_0x248f80(270350,284849,24883)]=_0x78c750
+_0xdd7a2f(_0xcca467[_0xc84f9e[21]-13][_0x248f80(219567,208747,835273)](_0x2b4f7f(448947,80584,68531),_0x3bdbff[_0x2b4f7f(924730,382938,386793)][_0x2b4f7f(154493,138698,143936)]))
 return
 end
 end
-if _0xef7843[_0xd44ced(153023,524814,135805)]>0 and(_0x5ab4a2-_0xef7843[_0xe8ebea(351112,331919,711708)])<_0xea489d(23278,23276)then
+if _0x9feb49[_0x2b4f7f(354282,347332,359851)]>(1629+_0x95b3ae(_0x6bafdb(1555,78),1)-1633)and(_0x78c750-_0x9feb49[_0x248f80(228865,198334,474940)])<_0xfc82ca(1021437,1021439)then
 return
 end
-_0xd6ca4f(_0xff2d6f)
-local _0x908783=_0xb192fa(_0x3547ee,_0x22a97a)
-if _0x908783 then
-_0xef7843[_0xe8ebea(185168,170049,356467)]=true
-_0xef7843[_0xe8ebea(150300,131086,176329)]=_0xc96c19[7][_0xe8ebea(181952,167010,143274)]()
-_0xef7843[_0xe8ebea(355603,337429,4777)]=_0x5ab4a2
-_0xef7843[_0xd44ced(285530,294666,269470)]=nil
-_0xa15292(_0xc96c19[9][_0x848d34(66578,102503,119858)](_0xd44ced(348769,1024655,333230),_0x3547ee[_0xe8ebea(441219,454984,839543)][_0x848d34(722583,324051,308664)],_0xa175d3))
-_0x0b0364(_0xd44ced(337368,1009377,353143),_0xc96c19[9][_0xd44ced(167427,165524,183281)](_0x848d34(747421,106657,124562),_0x3547ee[_0xe8ebea(414158,400133,795962)][_0xe8ebea(402745,420980,826608)],_0xa175d3),1.8)
-if _0x4275fc[_0xd44ced(238990,180564,254756)][_0xd44ced(276787,506386,294732)]and _0x835702 and _0x835702>=(_0x40b209[169]-223)and _0x835702<=_0xea489d(884021,884028)then
-local _0x5f5155=_0xc96c19[_0x40b209[172]-157][_0x848d34(835411,140352,155778)](_0x4275fc[_0xe8ebea(421259,402554,860282)][_0xe8ebea(485567,467323,80248)],0.12)
-_0xc96c19[_0x40b209[67]+11][_0xd44ced(158607,292719,142404)](_0x5f5155,function()
-if _0x3571dc()and _0x0a7cca[_0xd44ced(511229,969086,494282)][_0xd44ced(315790,881635,300761)]==_0xff2d6f then
-_0xd6ca4f(_0x835702)
+_0xd94c4f(_0x6fce2e)
+local _0x77a205=_0xbcbc13(_0x3bdbff,_0xf2818f)
+if _0x77a205 then
+_0x9feb49[_0x248f80(494168,520849,944933)]=true
+_0x9feb49[_0x2b4f7f(232890,391313,379371)]=_0xcca467[33][_0x2b4f7f(1003136,381046,385405)]()
+_0x9feb49[_0x2b4f7f(212086,481010,485276)]=_0x78c750
+_0x9feb49[_0x248f80(301083,319706,154337)]=nil
+_0xdd7a2f(_0xcca467[34][_0x2b4f7f(851418,491220,479648)](_0x2b4f7f(151945,492888,504868),_0x3bdbff[_0x248f80(447986,437617,619581)][_0x248f80(389864,361522,118825)],_0x886e55))
+_0x75164e(_0x2b4f7f(855759,149267,161614),_0xcca467[34][_0x2b4f7f(667791,111489,105717)](_0x3f0d21(414301,687095,410075),_0x3bdbff[_0x248f80(215757,209486,846594)][_0x248f80(353904,331946,83121)],_0x886e55),1.8)
+if _0x883746[_0x248f80(395771,425555,748263)][_0x248f80(479760,468333,473905)]and _0xc4de2c and _0xc4de2c>=(2649+_0x95b3ae(_0x6bafdb(2186,723),1)-2908)and _0xc4de2c<=_0xfc82ca(593952,593961)then
+local _0x97db10=_0xcca467[21][_0x248f80(237872,251502,887677)](_0x883746[_0x248f80(189323,168993,764059)][_0x3f0d21(350295,452853,346721)],0.12)
+_0xcca467[8][_0x2b4f7f(620762,146872,134336)](_0x97db10,function()
+if _0x103a58()and _0xe26196[_0x3f0d21(289170,955440,292963)][_0x3f0d21(373687,1014299,368825)]==_0x6fce2e then
+_0xd94c4f(_0xc4de2c)
 end
 end)
 end
 end
 end
 end
-_0x1ad5d9={
-[_0x848d34(237005,92202,77365)]=_0xd44ced(131456,617565,149053),
-[_0x848d34(420420,447222,431313)]=nil,
-[_0x848d34(702994,242172,259147)]=nil,
-[_0xe8ebea(421147,402957,540909)]=_0xea489d(1013341,1013341),
-[_0xe8ebea(399738,414317,478226)]=(_0x40b209[160]-14),
-[_0xe8ebea(71490,89178,875834)]=0,
-[_0xe8ebea(208290,222907,232577)]=(792+_0xa81147(_0xfaf96b(1028,1820),1)-2848),
-[_0xd44ced(469298,824077,487143)]=(876+_0xa81147(_0xfaf96b(2004,1208),1)-3212),
-[_0x848d34(830665,131595,148530)]=nil,
-[_0x848d34(575166,390060,374166)]=(971+_0xa81147(_0xfaf96b(233,802),1)-1035),
-[_0xe8ebea(381029,367469,198405)]=-_0xea489d(635148,635247),
-[_0x848d34(539531,442719,427876)]=-_0xea489d(259179,259080),
-[_0xe8ebea(383374,365193,679450)]=-(_0x40b209[8]-94),
-[_0x848d34(533766,303577,321509)]=-(_0x40b209[244]-76),
+_0xafd378={
+[_0x3f0d21(418801,933647,422019)]=_0x2b4f7f(803024,216023,228029),
+[_0x248f80(460347,491258,115905)]=nil,
+[_0x248f80(334776,353258,212259)]=nil,
+[_0x248f80(334329,352567,1039974)]=_0xfc82ca(_0xc84f9e[17],248),
+[_0x2b4f7f(728659,186233,189958)]=_0xfc82ca(868582,868582),
+[_0x248f80(221319,202839,7586)]=(1049+_0x95b3ae(_0x6bafdb(538,1539),1)-2077),
+[_0x3f0d21(368872,356123,373602)]=(3658+_0x95b3ae(_0x6bafdb(1736,2178),1)-3914),
+[_0x248f80(398578,420896,811859)]=_0xfc82ca(_0xc84f9e[26],55),
+[_0x248f80(393383,424052,614716)]=nil,
+[_0x2b4f7f(413058,239876,235648)]=_0xfc82ca(442089,442089),
+[_0x248f80(516359,498119,818591)]=-_0xfc82ca(609125,609030),
+[_0x248f80(121518,107131,1011262)]=-(_0xc84f9e[248]-155),
+[_0x248f80(245508,247739,523833)]=-_0xfc82ca(_0xc84f9e[117],161),
+[_0x3f0d21(160359,349603,156136)]=-_0xfc82ca(_0xc84f9e[192],162),
 }
-local function _0x1a91f2(_0xe81c33)
-if _0xa62240 and _0xa62240[_0x848d34(529833,458611,441301)]then
-_0xa62240[_0xd44ced(187299,830875,171488)](_0xe8ebea(417300,398603,577430),false)
-_0xa62240[_0x848d34(583894,393740,411306)](_0xd44ced(89480,268878,72275),false)
+local function _0x43b782(_0x148ed9)
+if _0xba873b and _0xba873b[_0x248f80(133324,163720,78368)]then
+_0xba873b[_0x2b4f7f(142261,357553,351045)](_0x3f0d21(433091,873229,428115),false)
+_0xba873b[_0x3f0d21(383568,342278,379821)](_0x2b4f7f(122100,441993,429825),false)
 end
-if _0xe81c33 and _0x1ad5d9[_0xd44ced(365573,372821,381889)]and _0x0a7cca and _0x0a7cca[_0xd44ced(483400,943563,468607)]and _0x0a7cca[_0xd44ced(446427,1034840,428524)][_0x848d34(950673,507678,522916)]~=_0x1ad5d9[_0xe8ebea(343264,358377,51355)]then
-_0xc96c19[27](_0x0a7cca[_0xd44ced(516959,475597,501097)],_0x1ad5d9[_0xe8ebea(475474,461403,177449)])
+if _0x148ed9 and _0xafd378[_0x2b4f7f(196915,108964,104661)]and _0xe26196 and _0xe26196[_0x2b4f7f(718209,504945,498585)]and _0xe26196[_0x3f0d21(446863,797741,442494)][_0x2b4f7f(699629,514323,518166)]~=_0xafd378[_0x2b4f7f(329940,499779,495922)]then
+_0xcca467[_0xc84f9e[173]-223](_0xe26196[_0x3f0d21(329815,455462,334247)],_0xafd378[_0x248f80(237797,251940,352799)])
 end
-_0x1ad5d9[_0xd44ced(224460,67017,207728)]=_0xe8ebea(139623,158309,826522)
-_0x1ad5d9[_0x848d34(904043,311429,296242)]=nil
-_0x1ad5d9[_0x848d34(657686,200630,215424)]=_0xea489d(262788,262788)
-_0x1ad5d9[_0xd44ced(415302,348428,397701)]=-_0xea489d(231463,231492)
-_0x1ad5d9[_0xe8ebea(486058,467383,842915)]=-_0xea489d(886292,886391)
-_0x1ad5d9[_0xe8ebea(218213,204642,840689)]=-(1327+_0xa81147(_0xfaf96b(41,1286),1)-1228)
-_0x1ad5d9[_0x848d34(930858,176373,194249)]=-99
+_0xafd378[_0x3f0d21(88371,591309,84545)]=_0x248f80(79373,85687,677660)
+_0xafd378[_0x3f0d21(515518,142729,511669)]=nil
+_0xafd378[_0x3f0d21(423991,447292,420798)]=_0xfc82ca(35979,35979)
+_0xafd378[_0x3f0d21(450388,955890,445485)]=-_0xfc82ca(959577,959546)
+_0xafd378[_0x3f0d21(524117,695790,519387)]=-_0xfc82ca(_0xc84f9e[60],156)
+_0xafd378[_0x248f80(384268,370099,105521)]=-_0xfc82ca(_0xc84f9e[114],15)
+_0xafd378[_0x2b4f7f(130114,92116,87634)]=-_0xfc82ca(669033,668938)
 end
-local function _0xd6e1f8(_0x70535b,_0x605bd1)
-local _0x4275fc=_0x76c04c[_0x848d34(172518,472462,487572)][_0xd44ced(164659,930675,181621)]
-local _0x32967b=_0x48c9eb[_0xd44ced(468266,1014161,484202)]
-if not _0x32967b then return end
-local _0xb36196=_0xc96c19[_0x40b209[251]-81][_0xd44ced(353934,24164,336339)]()
-if _0xb36196<_0x1ad5d9[_0xd44ced(289337,639945,273902)]then
+local function _0xcfa527(_0xdedf8a,_0xa19892)
+local _0x883746=_0x63be9c[_0x2b4f7f(267902,502735,498602)][_0x2b4f7f(546897,305951,296168)]
+local _0x1399f8=_0x9cbe51[_0x2b4f7f(295341,223794,214467)]
+if not _0x1399f8 then return end
+local _0xd9b52d=_0xcca467[33][_0x2b4f7f(641940,218466,222313)]()
+if _0xd9b52d<_0xafd378[_0x3f0d21(269938,411302,265727)]then
 return
 end
-local _0x5ab4a2=(_0x48c9eb and _0x48c9eb[_0xd44ced(194862,458893,179882)])or(_0x40b209[95]-54)
-local _0xce4c7f=_0x4275fc[_0xd44ced(220517,1038666,203774)][_0xe8ebea(115508,101104,496371)]
-local _0x3547ee,_0x7a1b1a,_0x160936=_0x5e5099(_0x4275fc[_0x848d34(429534,499517,514592)][_0x848d34(271445,474006,491380)],_0xe8ebea(393201,374237,791075),false)
-if not _0x3547ee then
-if _0x1ad5d9[_0xd44ced(137155,32454,151679)]~=_0xd44ced(207316,541705,224873)then
-_0x1a91f2(_0x4275fc[_0xe8ebea(454376,435975,153855)][_0xd44ced(81612,179693,96435)])
-_0xa15292(_0xd44ced(443763,389350,426671))
+local _0x78c750=(_0x9cbe51 and _0x9cbe51[_0x2b4f7f(866661,237633,233840)])or 0
+local _0x70083f=_0x883746[_0x3f0d21(494832,903523,499362)][_0x3f0d21(123036,151614,127658)]
+local _0x3bdbff,_0xa5bd62,_0x10fa52=_0xc5a650(_0x883746[_0x248f80(456649,426097,345961)][_0x248f80(469155,483294,475522)],_0x2b4f7f(407382,268539,272494),false)
+if not _0x3bdbff then
+if _0xafd378[_0x2b4f7f(949374,105682,110011)]~=_0x3f0d21(396759,965250,401060)then
+_0x43b782(_0x883746[_0x2b4f7f(913414,325150,312902)][_0x248f80(239476,249865,249429)])
+_0xdd7a2f(_0x248f80(503563,514002,365853))
 end
 return
 end
-_0x1ad5d9[_0xe8ebea(175574,190287,977761)]=_0x3547ee
-local _0x2ed9ea=_0x48c9eb[_0x848d34(361982,126764,109489)]()
-if not _0x2ed9ea then return end
-local _0x8e863f=_0x32967b[_0xd44ced(153043,632146,135750)]
-local _0xc602f1=_0x3547ee[_0xe8ebea(145505,160419,243957)]
-local _0x6be084=_0xc602f1[_0xe8ebea(309335,324326,24799)]-_0x8e863f[_0xd44ced(357960,294739,340260)]
-local _0x5e4541=_0xc602f1[_0x848d34(971733,190598,175447)]-_0x8e863f[_0xd44ced(208658,1018019,223356)]
-local _0xbbb0bb=_0xc96c19[25][_0x848d34(967942,247004,229646)](_0x6be084*_0x6be084+_0x5e4541*_0x5e4541)
-local _0x98a627=_0xc96c19[25][_0xe8ebea(504676,522712,698601)](-_0x6be084,-_0x5e4541)
-local _0xc05534=_0x8e863f[_0x848d34(882696,166773,183973)]-_0xc602f1[_0xd44ced(192165,885050,174536)]
-if _0x1ad5d9[_0xd44ced(84333,204904,69329)]~=_0xe8ebea(334817,348387,763420)and(_0xb36196-_0x1ad5d9[_0xd44ced(464976,845202,483201)])>12.0 then
-_0x1a91f2(false)
+_0xafd378[_0x2b4f7f(250446,106027,110377)]=_0x3bdbff
+local _0x9f6209=_0x9cbe51[_0x248f80(496330,517617,515001)]()
+if not _0x9f6209 then return end
+local _0xe08fb0=_0x1399f8[_0x2b4f7f(184387,362294,374388)]
+local _0x7d49aa=_0x3bdbff[_0x248f80(264339,291049,957672)]
+local _0xeb669a=_0x7d49aa[_0x2b4f7f(306189,500169,495824)]-_0xe08fb0[_0x248f80(201784,224337,291641)]
+local _0x78f508=_0x7d49aa[_0x2b4f7f(433080,357789,345222)]-_0xe08fb0[_0x248f80(361095,391916,132709)]
+local _0x797b61=_0xcca467[_0xc84f9e[188]-66][_0x248f80(418200,399860,1039811)](_0xeb669a*_0xeb669a+_0x78f508*_0x78f508)
+local _0x3a8623=_0xcca467[21][_0x3f0d21(246258,494041,250591)](-_0xeb669a,-_0x78f508)
+local _0x2eda36=_0xe08fb0[_0x2b4f7f(422031,94998,82444)]-_0x7d49aa[_0x3f0d21(473566,493077,469757)]
+if _0xafd378[_0x248f80(486869,464236,845676)]~=_0x2b4f7f(605080,405663,393717)and(_0xd9b52d-_0xafd378[_0x3f0d21(358909,813138,354938)])>12.0 then
+_0x43b782(false)
 return
 end
-local _0xf18be0=(_0x4275fc[_0x848d34(146230,71815,89479)]and _0x4275fc[_0xd44ced(224828,53615,207009)][_0xd44ced(169135,71566,185040)]==_0x848d34(825957,163221,145558))
-local _0x5b417c=_0x4275fc[_0x848d34(654881,346973,331352)][_0xd44ced(297087,461662,314880)]
-local function _0x22e9a9(_0x482712,_0x4a4964,_0x8798d1)
-local _0x1bd6ed=_0xc96c19[_0x40b209[256]-158][_0xd44ced(67622,156463,85616)](_0x4a4964,-1.55,1.55)
-if _0xf18be0 then
-_0x48c9eb[_0xe8ebea(98232,79106,540291)]=_0x482712
-_0x48c9eb[_0xd44ced(140650,510018,156188)]=_0x1bd6ed
+local _0x89b674=(_0x883746[_0x248f80(236285,257382,48573)]and _0x883746[_0x248f80(261999,231668,55343)][_0x3f0d21(231464,14474,236062)]==_0x3f0d21(456031,805523,452360))
+local _0xef4378=_0x883746[_0x248f80(232381,261149,297042)][_0x248f80(155883,137110,133578)]
+local function _0x822244(_0xe7143f,_0x5506f6,_0x98de59)
+local _0x9e230d=_0xcca467[21][_0x3f0d21(402975,995827,406545)](_0x5506f6,-1.55,1.55)
+if _0x89b674 then
+_0x9cbe51[_0x2b4f7f(987799,228545,216547)]=_0xe7143f
+_0x9cbe51[_0x248f80(80016,82147,921520)]=_0x9e230d
 else
-local _0xf7d079=_0x5b417c*(_0x8798d1 or 1.0)
-_0x789b03(_0x482712,_0x1bd6ed,_0xc96c19[25][_0xd44ced(176771,121226,193749)](_0xf7d079,8.0,48.0),_0x70535b or((2160+_0xa81147(_0xfaf96b(2459,491),1)-2949)/(3062+_0xa81147(_0xfaf96b(36,3026),1)-3002)))
+local _0xe64600=_0xef4378*(_0x98de59 or 1.0)
+_0x51b756(_0xe7143f,_0x9e230d,_0xcca467[_0xc84f9e[154]-164][_0x3f0d21(467067,931735,471669)](_0xe64600,8.0,48.0),_0xdedf8a or((130+_0x95b3ae(_0x6bafdb(678,548),1)-1225)/(_0xc84f9e[150]-156)))
 end
 end
-local _0x07459d=_0xc96c19[25][_0xe8ebea(318081,299079,1040726)](_0xc96c19[_0x40b209[195]-140][_0xe8ebea(413157,394366,62549)](82.0-_0xbbb0bb*0.5,70.0,85.0))
-if _0x32967b[_0x848d34(912174,166714,184021)]and _0x1ad5d9[_0x848d34(451128,268255,283072)]~=_0xe8ebea(69849,89051,1027364)and _0x1ad5d9[_0x848d34(44418,153701,138874)]~=_0xd44ced(507782,123843,522331)and _0x1ad5d9[_0xd44ced(188943,35594,173491)]~=_0x848d34(508701,242621,259580)and _0x1ad5d9[_0xe8ebea(133220,148325,373058)]~=_0xe8ebea(519691,501039,212033)then
-_0xa62240[_0x848d34(780382,328324,345634)](_0x848d34(163301,501441,516351),false)
-if not _0xc4dfd9()then
-local _0xba453e=_0xccc5fe()or _0xc06ffa(function(_0x80e662,_0x8c3c53)
-return _0x80e662[_0xe8ebea(472467,491285,730906)]==_0xe8ebea(491696,510525,172893)or(_0x8c3c53 and _0x8c3c53[_0xd44ced(98691,332999,116413)]==_0x848d34(88699,79067,94576))
-end,(572+_0xa81147(_0xfaf96b(1530,1990),1)-3511))
-if _0xba453e then _0xf8b138(_0xba453e,_0x48c9eb[_0xd44ced(137936,808067,154857)]())end
+local _0x619337=_0xcca467[_0xc84f9e[191]-111][_0x3f0d21(199629,734564,203002)](_0xcca467[21][_0x2b4f7f(791854,179856,167573)](82.0-_0x797b61*0.5,70.0,85.0))
+if _0x1399f8[_0x248f80(450106,435891,530645)]and _0xafd378[_0x248f80(511857,505800,804296)]~=_0x2b4f7f(866610,143925,131935)and _0xafd378[_0x248f80(523060,492429,815501)]~=_0x3f0d21(139343,473131,144348)and _0xafd378[_0x2b4f7f(829344,214796,226917)]~=_0x2b4f7f(1009952,499869,495894)and _0xafd378[_0x3f0d21(138359,671881,134917)]~=_0x3f0d21(155045,710987,151088)then
+_0xba873b[_0x2b4f7f(19175,464355,473623)](_0x2b4f7f(179645,384960,388680),false)
+if not _0xc15659()then
+local _0xa975f7=_0x35dfe4()or _0xc53161(function(_0xaf286a,_0xe02d76)
+return _0xaf286a[_0x3f0d21(245804,296006,250580)]==_0x2b4f7f(585665,341219,328725)or(_0xe02d76 and _0xe02d76[_0x248f80(379937,373789,609309)]==_0x2b4f7f(771459,401057,405079))
+end,_0xfc82ca(_0xc84f9e[47],54))
+if _0xa975f7 then _0x0c1909(_0xa975f7,_0x9cbe51[_0x3f0d21(381237,183673,377030)]())end
 end
-_0x1ad5d9[_0xd44ced(245296,120629,260492)]=_0xe8ebea(166822,180356,67555)
-_0x1ad5d9[_0xe8ebea(179199,192745,824841)]=_0xb36196
-_0x1ad5d9[_0xd44ced(515793,935059,497922)]=(_0x40b209[21]+0)
-_0xa15292(_0xe8ebea(264041,281676,1004367))
+_0xafd378[_0x248f80(150994,144747,640875)]=_0x248f80(354384,331914,239120)
+_0xafd378[_0x248f80(99674,130452,737989)]=_0xd9b52d
+_0xafd378[_0x2b4f7f(3869,464964,469444)]=0
+_0xdd7a2f(_0x2b4f7f(811952,142628,138409))
 return
 end
-if _0x1ad5d9[_0x848d34(250068,75059,90924)]==_0xe8ebea(481175,466069,649834)then
-local _0xff2d6f=_0x2dd1a3(false)or _0xc06ffa(function(_0x80e662,_0x8c3c53)
-return _0x80e662[_0xe8ebea(521582,507880,780263)]==_0xe8ebea(195621,177826,441215)or(_0x8c3c53 and _0x8c3c53[_0xd44ced(129013,352945,110795)]==_0xe8ebea(366789,381506,122783))
-end,(1929+_0xa81147(_0xfaf96b(1261,868),1)-2128))
-if not _0xff2d6f then
-_0xa15292(_0xd44ced(301760,350593,318753))
+if _0xafd378[_0x3f0d21(509527,1022633,513317)]==_0x2b4f7f(651584,457287,445229)then
+local _0x6fce2e=_0xae9965(false)or _0xc53161(function(_0xaf286a,_0xe02d76)
+return _0xaf286a[_0x2b4f7f(323474,268202,272197)]==_0x2b4f7f(975587,266793,271065)or(_0xe02d76 and _0xe02d76[_0x248f80(522634,491958,752054)]==_0x248f80(368765,383037,735835))
+end,(26+_0x95b3ae(_0x6bafdb(296,306),1)-601))
+if not _0x6fce2e then
+_0xdd7a2f(_0x2b4f7f(973303,372447,368465))
 return
 end
-local _0x7347b0=_0x73563c()or _0xc06ffa(function(_0x80e662,_0x8c3c53)
-return _0x80e662[_0x848d34(741202,135325,152889)]==_0xd44ced(217937,590065,201757)or(_0x8c3c53 and _0x8c3c53[_0xe8ebea(380388,362343,297217)]==_0xd44ced(514917,751509,498728))
-end,(_0x40b209[144]-121))
-if not _0x7347b0 then
-_0xa15292(_0xd44ced(281083,136417,265753))
+local _0x76af77=_0xceed54()or _0xc53161(function(_0xaf286a,_0xe02d76)
+return _0xaf286a[_0x2b4f7f(296938,294866,282429)]==_0x2b4f7f(566827,204158,208260)or(_0xe02d76 and _0xe02d76[_0x3f0d21(106190,968752,101435)]==_0x2b4f7f(503190,487820,475511))
+end,_0xfc82ca(387004,386996))
+if not _0x76af77 then
+_0xdd7a2f(_0x2b4f7f(161259,110459,106228))
 return
 end
-_0x1ad5d9[_0xd44ced(202505,209753,217293)]=_0x0a7cca[_0xd44ced(279819,868488,262972)][_0xd44ced(249017,683732,232430)]
-_0x1ad5d9[_0xd44ced(190903,595061,175718)]=_0xb36196
-_0x1ad5d9[_0xd44ced(337496,957543,352653)]=_0xc602f1[_0xe8ebea(246599,231925,621896)]+_0x4275fc[_0x848d34(491690,177453,192562)][_0xe8ebea(506934,521714,126449)]
-if _0xc4dfd9()then
-_0x1ad5d9[_0xd44ced(472453,351360,487993)]=_0xd44ced(209111,355474,227082)
-_0x1ad5d9[_0x848d34(952762,495386,510252)]=(_0x40b209[60]-106)
-_0xa15292(_0xe8ebea(380081,362393,896087))
+_0xafd378[_0x2b4f7f(31383,184832,189297)]=_0xe26196[_0x248f80(91164,70436,540792)][_0x248f80(320986,302479,916189)]
+_0xafd378[_0x2b4f7f(999434,126455,121993)]=_0xd9b52d
+_0xafd378[_0x248f80(426000,456898,849841)]=_0x7d49aa[_0x248f80(330294,356956,418665)]+_0x883746[_0x2b4f7f(382350,477587,489977)][_0x3f0d21(385904,414674,389446)]
+if _0xc15659()then
+_0xafd378[_0x248f80(196420,165885,620029)]=_0x2b4f7f(452462,279384,291538)
+_0xafd378[_0x3f0d21(264255,303924,269238)]=_0xfc82ca(_0xc84f9e[40],227)
+_0xdd7a2f(_0x2b4f7f(562621,478030,490206))
 else
-local _0x58c624=_0xccc5fe()or _0xc06ffa(function(_0x80e662,_0x8c3c53)
-return _0x80e662[_0xe8ebea(515773,496699,773172)]==_0x848d34(117766,107174,124685)or(_0x8c3c53 and _0x8c3c53[_0xe8ebea(333554,351345,283159)]==_0xd44ced(151109,179207,133389))
+local _0x1a037f=_0x35dfe4()or _0xc53161(function(_0xaf286a,_0xe02d76)
+return _0xaf286a[_0x248f80(492037,522810,200878)]==_0x2b4f7f(646393,264155,276269)or(_0xe02d76 and _0xe02d76[_0x248f80(210576,216748,1029804)]==_0x2b4f7f(667164,521534,509384))
+end,_0xfc82ca(85907,85914))
+if not _0x1a037f then
+_0xdd7a2f(_0x3f0d21(333530,1025584,329024))
+return
+end
+_0x0c1909(_0x1a037f,_0x9cbe51[_0x248f80(281253,277919,36653)]())
+_0xafd378[_0x2b4f7f(934575,107011,103274)]=_0x2b4f7f(705272,133957,146126)
+_0xafd378[_0x2b4f7f(1022574,79763,67309)]=_0xd9b52d
+_0xdd7a2f(_0x3f0d21(506310,717591,502365))
+end
+return
+end
+if _0xafd378[_0x3f0d21(454488,963494,457770)]==_0x2b4f7f(604053,130600,118691)then
+if _0xc15659()or(_0xd9b52d-_0xafd378[_0x2b4f7f(850555,153478,157432)])>=0.10 then
+_0xafd378[_0x3f0d21(279850,793044,284248)]=_0x248f80(360692,391214,216756)
+_0xafd378[_0x2b4f7f(1030429,70880,75166)]=_0xd9b52d
+_0xafd378[_0x2b4f7f(54245,509116,521532)]=_0xfc82ca(531464,531464)
+_0xdd7a2f(_0x248f80(471245,477230,571049))
+end
+return
+end
+if _0xafd378[_0x248f80(122864,108361,677193)]==_0x2b4f7f(62681,151791,156005)then
+_0xba873b[_0x2b4f7f(428813,119817,130045)](_0x248f80(341784,348096,409361),false)
+_0x822244(_0x3a8623,_0x619337,1.4)
+if _0x1399f8[_0x3f0d21(321501,662232,324762)]then
+_0xba873b[_0x2b4f7f(190787,374343,367027)](_0x248f80(439349,445666,961234),false)
+_0xafd378[_0x2b4f7f(681488,362172,374741)]=_0x2b4f7f(614741,485008,481028)
+_0xafd378[_0x248f80(375637,377755,1014986)]=_0xd9b52d
+_0xafd378[_0x3f0d21(485382,969099,490381)]=_0x7d49aa[_0x3f0d21(257034,218049,261929)]+_0x883746[_0x248f80(477127,471165,114380)][_0x3f0d21(130569,151211,126015)]
+_0xdd7a2f(_0x3f0d21(138678,389598,134696))
+return
+end
+if _0x1399f8[_0x2b4f7f(1042093,346727,359262)]then
+if _0xafd378[_0x2b4f7f(139436,342005,329333)]==0 then
+_0xba873b[_0x3f0d21(194644,137986,190889)](_0x248f80(159563,137116,684460),true)
+_0xafd378[_0x248f80(486114,463410,268231)]=_0xfc82ca(_0xc84f9e[78],80)
+_0xafd378[_0x2b4f7f(802046,390612,378027)]=_0xd9b52d
+elseif(_0xd9b52d-_0xafd378[_0x3f0d21(287954,659882,292698)])>0.05 then
+_0xba873b[_0x248f80(263066,292062,473462)](_0x248f80(225357,198810,749226),false)
+_0xafd378[_0x2b4f7f(229759,300582,305062)]=(2489+_0x95b3ae(_0x6bafdb(135,2366),1)-2501)
+end
+else
+if _0xafd378[_0x3f0d21(211654,233933,207183)]<=_0xfc82ca(461588,461589)then
+_0xba873b[_0x2b4f7f(51553,497253,506257)](_0x2b4f7f(729952,481276,484987),false)
+_0xafd378[_0x2b4f7f(235598,298775,310935)]=(2957+_0x95b3ae(_0x6bafdb(2256,861),1)-3115)
+_0xafd378[_0x3f0d21(280235,668627,283939)]=_0xd9b52d
+elseif _0xafd378[_0x3f0d21(285758,325429,282551)]==_0xfc82ca(441506,441504)and(_0xd9b52d-_0xafd378[_0x248f80(436276,446715,723837)])>=0.03 then
+_0xba873b[_0x2b4f7f(225060,274464,270292)](_0x3f0d21(250884,531658,247700),true)
+_0xafd378[_0x248f80(107340,121756,188009)]=3
+_0xafd378[_0x2b4f7f(896512,288554,284245)]=_0xd9b52d
+elseif _0xafd378[_0x248f80(330429,356973,423832)]==(_0xc84f9e[10]-54)and(_0xd9b52d-_0xafd378[_0x2b4f7f(841838,332100,335931)])>=0.03 then
+_0xba873b[_0x3f0d21(338450,379204,343023)](_0x248f80(357492,330915,879251),false)
+_0xafd378[_0x3f0d21(147889,191162,152120)]=(40+_0x95b3ae(_0x6bafdb(1299,1339),1)-2638)
+end
+end
+return
+end
+if _0xafd378[_0x3f0d21(130067,631021,126817)]==_0x3f0d21(80510,557545,76259)then
+_0xba873b[_0x3f0d21(484731,493101,488582)](_0x2b4f7f(5165,489040,477144),false)
+if not _0x1399f8[_0x248f80(308288,314574,630581)]then
+if not _0x1399f8[_0x2b4f7f(1009836,377958,390495)]and _0xc15659()then
+_0xba873b[_0x3f0d21(305407,281513,309506)](_0x2b4f7f(908064,110524,106043),true)
+_0xcca467[8][_0x2b4f7f(706168,99098,111202)](0.03,function()_0xba873b[_0x3f0d21(390393,333743,386308)](_0x248f80(508274,506277,1040277),false)end)
+else
+_0xafd378[_0x3f0d21(314183,825273,317493)]=_0x3f0d21(132011,465871,135224)
+_0xafd378[_0x248f80(182283,176347,111918)]=(_0xc84f9e[197]-188)
+return
+end
+end
+_0x822244(_0x3a8623,_0x619337,1.4)
+local _0x25b443=_0x883746[_0x2b4f7f(801124,442319,430015)][_0x3f0d21(488528,312562,484966)]
+local _0xffc8a9=(_0xd9b52d-_0xafd378[_0x248f80(145316,151413,77432)])>=_0x25b443 and _0x2eda36<(_0x883746[_0x2b4f7f(425869,320400,316410)][_0x3f0d21(136011,107497,131453)]-1.0)
+local _0x655c63=_0x89b674 or(_0x9cbe51[_0x248f80(270221,288766,731309)]>=_0xcca467[21][_0x3f0d21(205283,728906,209620)](_0xfc82ca(_0xc84f9e[118],136)))or((_0xd9b52d-_0xafd378[_0x2b4f7f(1045657,88420,92186)])>=0.10)
+if _0xffc8a9 and _0x655c63 then
+local _0x76af77=_0xc53161(function(_0xaf286a,_0xe02d76)
+return _0xaf286a[_0x3f0d21(193890,373000,190362)]==_0x248f80(318632,304354,724251)or(_0xe02d76 and _0xe02d76[_0x2b4f7f(700462,154242,158318)]==_0x2b4f7f(310355,286793,282802))
+end,_0xfc82ca(873692,873684))
+if _0x76af77 then
+if _0x89b674 then
+_0x9cbe51[_0x3f0d21(285062,571435,281258)]=_0x619337
+_0x9cbe51[_0x3f0d21(77725,720281,81078)]=_0x3a8623
+end
+_0xb77759(_0x76af77,_0x9cbe51[_0x248f80(419769,397443,172593)]())
+_0xafd378[_0x3f0d21(311324,266223,316310)]=_0xd9b52d
+_0xdd7a2f(_0xcca467[_0xc84f9e[76]-78][_0x3f0d21(490930,738030,486607)](_0x3f0d21(251713,596260,247006),_0x2eda36,_0x883746[_0x3f0d21(217993,422854,213498)][_0x248f80(415766,405355,405815)]))
+end
+end
+local _0x4d7192=(_0x2eda36>=(_0x883746[_0x248f80(139098,157920,321105)][_0x2b4f7f(433004,169884,174001)]-1.0))or(_0x797b61<=3.5 and _0x2eda36>=5.0)
+if _0x4d7192 then
+if _0x797b61<=3.5 then
+_0xafd378[_0x2b4f7f(561563,487735,475230)]=_0x2b4f7f(978435,450598,446897)
+_0xdd7a2f(_0x248f80(124579,106059,717020))
+else
+_0xafd378[_0x248f80(498041,516544,791488)]=_0x2b4f7f(525490,501158,496703)
+_0xdd7a2f(_0x2b4f7f(678995,169000,173490))
+end
+_0xafd378[_0x2b4f7f(608770,518143,513665)]=_0xd9b52d
+end
+return
+end
+if _0xafd378[_0x2b4f7f(941991,114443,101986)]==_0x3f0d21(299514,822460,295512)then
+_0xba873b[_0x3f0d21(425704,433598,421653)](_0x3f0d21(140407,195160,145382),false)
+if not _0x1399f8[_0x248f80(282888,272774,621181)]then
+_0xafd378[_0x3f0d21(275772,813506,271950)]=_0x2b4f7f(271350,427968,439882)
+_0xafd378[_0x248f80(296250,327146,522271)]=_0xfc82ca(805359,805359)
+return
+end
+local _0xe1ff30=(_0x7d49aa[_0x248f80(263745,294443,487198)]+_0x883746[_0x2b4f7f(328346,499335,503533)][_0x248f80(312984,307685,307129)])-_0xe08fb0[_0x3f0d21(71194,109009,66873)]
+local _0x967153=_0xcca467[21][_0x248f80(449552,437061,791127)](_0xcca467[21][_0x2b4f7f(875030,186605,190915)](_0xe1ff30*3.5),_0xcca467[21][_0x248f80(171055,189521,619526)](-_0xfc82ca(258222,258209)),_0xcca467[_0xc84f9e[98]-95][_0x248f80(462588,489090,845525)](_0xfc82ca(640742,640754)))
+_0x822244(_0x3a8623,_0x967153,1.35)
+if _0x797b61<=_0xcca467[21][_0x3f0d21(301071,617442,297496)](_0x883746[_0x2b4f7f(439019,423602,411358)][_0x2b4f7f(122583,381479,385546)]*1.4,3.5)or _0xa5bd62<=7.0 then
+_0xafd378[_0x2b4f7f(591320,451956,447517)]=_0x3f0d21(144894,886665,140894)
+_0xafd378[_0x248f80(95077,68523,767226)]=_0xd9b52d
+_0xdd7a2f(_0x248f80(259655,233132,62722))
+return
+end
+local _0x25b443=_0x883746[_0x3f0d21(194466,1035611,189915)][_0x248f80(182929,179692,172976)]
+if(_0xd9b52d-_0xafd378[_0x2b4f7f(274708,213685,226100)])>=_0x25b443 and(_0x797b61>12.0 or _0x2eda36<4.5)then
+local _0x76af77=_0xc53161(function(_0xaf286a,_0xe02d76)
+return _0xaf286a[_0x248f80(488144,461551,254075)]==_0x3f0d21(391566,654985,387725)or(_0xe02d76 and _0xe02d76[_0x248f80(136089,158629,955301)]==_0x248f80(146751,148852,428994))
+end,(1216+_0x95b3ae(_0x6bafdb(247,1079),1)-1318))
+if _0x76af77 then
+_0xb77759(_0x76af77,_0x9cbe51[_0x3f0d21(221757,294513,226254)]())
+_0xafd378[_0x3f0d21(117933,66398,122663)]=_0xd9b52d
+end
+end
+_0xdd7a2f(_0xcca467[34][_0x3f0d21(419377,678253,423756)](_0x3f0d21(215563,134443,219566),_0x797b61))
+return
+end
+if _0xafd378[_0x3f0d21(511001,1020135,515947)]==_0x3f0d21(214989,849338,218221)then
+local _0xa11ca9,_0xa443f9=_0xcaa641(_0x9f6209,_0x10fa52)
+_0x822244(_0xa11ca9,_0xa443f9,2.0)
+_0xba873b[_0x248f80(338130,352150,397886)](_0x3f0d21(339097,389814,343816),false)
+local _0xf2818f=_0x9cbe51[_0x248f80(112500,114766,357116)]()
+local _0x856dc9=(_0xa5bd62<=_0xcca467[21][_0x3f0d21(206692,971913,210291)](_0x883746[_0x3f0d21(127088,277616,123399)][_0x2b4f7f(164784,429888,442221)]+1.5,5.0))
+or(_0x797b61<=3.2 and _0x2eda36<=6.0)
+if _0x856dc9 then
+local _0x362fb9=_0x353bcc()or _0xc53161(function(_0xaf286a,_0xe02d76)
+return _0xe02d76 and _0xe02d76[_0x3f0d21(85765,924155,89584)]==_0x2b4f7f(673960,487108,482867)and _0xe02d76[_0x3f0d21(319916,412051,324269)]==_0x3f0d21(120270,400712,116428)and _0xaf286a[_0x248f80(207068,217315,506487)]~=_0x2b4f7f(836131,71937,76279)
+end,(_0xc84f9e[180]-138))
+if _0x362fb9 then
+_0x0c1909(_0x362fb9,_0xf2818f)
+_0x1399f8[_0x248f80(267285,289947,606048)]=false
+_0xafd378[_0x2b4f7f(875418,175470,171038)]=_0x78c750
+else
+_0x1399f8[_0x248f80(87820,77698,818297)]=false
+end
+_0xafd378[_0x248f80(401693,416164,895908)]=_0x3f0d21(468882,742688,472116)
+_0xafd378[_0x3f0d21(160205,745570,156234)]=_0xd9b52d
+_0xdd7a2f(_0x3f0d21(247887,397610,252904))
+return
+end
+return
+end
+if _0xafd378[_0x248f80(172311,186798,601006)]==_0x248f80(388799,366162,674334)then
+_0xba873b[_0x3f0d21(509993,469887,514516)](_0x2b4f7f(122678,441675,429251),false)
+local _0xa11ca9,_0xa443f9=_0xcaa641(_0x9f6209,_0x10fa52)
+_0x9cbe51[_0x248f80(164619,195449,690051)]=_0xa11ca9
+_0x9cbe51[_0x3f0d21(122933,852376,127769)]=_0xcca467[_0xc84f9e[180]-126][_0x3f0d21(77702,538730,81288)](_0xa443f9,-1.55,1.55)
+local _0xcfded6=_0xeae1fd(_0x3bdbff[_0x2b4f7f(969612,327788,340319)])
+if _0x883746[_0x3f0d21(440103,377787,435576)][_0x2b4f7f(232422,493334,505659)]and _0xcfded6 then
+local _0xbbf3ab=_0xb3868e()
+if _0xbbf3ab and _0xe26196[_0x3f0d21(109777,741747,113952)][_0x2b4f7f(1005857,142559,138714)]~=_0xbbf3ab then
+_0xd94c4f(_0xbbf3ab)
+end
+else
+local _0x6fce2e=_0xae9965(false)or _0xc53161(function(_0xaf286a,_0xe02d76)
+return _0xaf286a[_0x3f0d21(198383,279173,201751)]==_0x2b4f7f(532389,192367,188319)or(_0xe02d76 and _0xe02d76[_0x2b4f7f(876625,363261,375313)]==_0x3f0d21(174883,1042363,178650))
+end,(3605+_0x95b3ae(_0x6bafdb(3082,543),1)-3624))
+if _0x6fce2e and _0xe26196[_0x248f80(283399,271423,882531)][_0x3f0d21(286661,956009,281803)]~=_0x6fce2e then
+_0xd94c4f(_0x6fce2e)
+end
+end
+if _0xa5bd62<=(_0x70083f+0.35)then
+_0xafd378[_0x2b4f7f(524642,516558,512167)]=_0x3f0d21(336916,438045,341948)
+_0xafd378[_0x248f80(393989,424907,836762)]=_0xd9b52d
+return
+end
+if _0x1399f8[_0x3f0d21(496671,689287,493405)]or(_0xd9b52d-_0xafd378[_0x3f0d21(229693,692370,234170)])>2.2 then
+_0xafd378[_0x3f0d21(498636,1034034,493758)]=_0x2b4f7f(699494,365786,370006)
+return
+end
+return
+end
+if _0xafd378[_0x2b4f7f(979459,70319,74694)]==_0x2b4f7f(22340,286751,283008)then
+local _0xa11ca9,_0xa443f9=_0xcaa641(_0x9f6209,_0x10fa52)
+_0x9cbe51[_0x3f0d21(507039,814747,503732)]=_0xa11ca9
+_0x9cbe51[_0x248f80(112680,114779,954120)]=_0xcca467[21][_0x2b4f7f(560444,403074,398983)](_0xa443f9,-1.55,1.55)
+local _0x8f12f5=_0x9cbe51[_0x248f80(353319,332573,106927)]()
+local _0xcfded6=_0xeae1fd(_0x3bdbff[_0x2b4f7f(990325,317333,321190)])
+if _0x883746[_0x2b4f7f(167202,411116,423354)][_0x3f0d21(69857,172099,66263)]and _0xcfded6 and(_0x78c750-(_0xafd378[_0x3f0d21(125647,425395,129463)]or-_0xfc82ca(_0xc84f9e[237],237)))>(1616+_0x95b3ae(_0x6bafdb(328,1816),1)-2138)then
+local _0xbbf3ab=_0xb3868e()
+if _0xbbf3ab then
+_0xd94c4f(_0xbbf3ab)
+local _0xe40354=_0xbcbc13(_0x3bdbff,_0x8f12f5)
+if _0xe40354 then
+_0xafd378[_0x2b4f7f(249982,260944,248383)]=_0x78c750
+_0xdd7a2f(_0xcca467[_0xc84f9e[98]-82][_0x2b4f7f(1035893,281979,287247)](_0x2b4f7f(808701,386706,382770),_0x3bdbff[_0x2b4f7f(561595,219739,224104)][_0x3f0d21(264515,258982,268496)]))
+end
+end
+end
+local _0x6fce2e=_0xae9965(false)or _0xc53161(function(_0xaf286a,_0xe02d76)
+return _0xaf286a[_0x3f0d21(337552,156410,341096)]==_0x3f0d21(401985,749273,405688)or(_0xe02d76 and _0xe02d76[_0x248f80(195371,164631,949015)]==_0x3f0d21(416574,726950,412103))
+end,(2102+_0x95b3ae(_0x6bafdb(446,2440),1)-2885))
+if _0x6fce2e and _0xe26196[_0x3f0d21(297448,947274,301081)][_0x3f0d21(95645,769073,91795)]~=_0x6fce2e then
+_0xd94c4f(_0x6fce2e)
+end
+local _0x77a205=_0xbcbc13(_0x3bdbff,_0x8f12f5)
+if _0x77a205 then
+_0xafd378[_0x248f80(165403,196302,799371)]=_0x78c750
+_0xb14c40[_0x2b4f7f(115654,112485,99849)]=true
+_0xb14c40[_0x3f0d21(67422,1025809,70696)]=_0xd9b52d
+local _0xb205d7=_0xcca467[21][_0x2b4f7f(833445,456730,444436)](_0x1399f8[_0x3f0d21(146907,12839,143003)]or(_0xc84f9e[179]-235),_0x2eda36)
+_0xdd7a2f(_0xcca467[_0xc84f9e[13]-116][_0x248f80(148967,144163,893569)](_0x248f80(187428,173269,279648),_0x3bdbff[_0x2b4f7f(659690,121610,125497)][_0x248f80(317853,307015,64348)],_0xb205d7))
+_0x75164e(_0x3f0d21(190392,128611,194007),_0xcca467[_0xc84f9e[253]-49][_0x2b4f7f(890906,400148,406624)](_0x2b4f7f(722074,164929,177462),_0x3bdbff[_0x248f80(288674,270113,771693)][_0x3f0d21(457804,67241,454111)],_0xb205d7),1.6)
+end
+_0xafd378[_0x3f0d21(348262,855192,344852)]=_0x248f80(503378,513678,851102)
+_0xafd378[_0x2b4f7f(1023687,78650,66116)]=_0xd9b52d
+return
+end
+if _0xafd378[_0x3f0d21(468999,1012985,473973)]==_0x248f80(76825,87237,687829)then
+if _0x883746[_0x2b4f7f(4990,452216,448012)][_0x2b4f7f(197459,462755,475022)]then
+local _0xa975f7=_0x35dfe4()or _0xc53161(function(_0xaf286a,_0xe02d76)
+return _0xaf286a[_0x248f80(310806,312873,11453)]==_0x248f80(242151,248225,655407)or(_0xe02d76 and _0xe02d76[_0x3f0d21(495543,579913,499010)]==_0x3f0d21(429764,846260,433211))
 end,9)
-if not _0x58c624 then
-_0xa15292(_0xe8ebea(361516,380677,219608))
-return
+if _0xa975f7 then
+_0x0c1909(_0xa975f7,_0x9cbe51[_0x3f0d21(67142,399882,71605)]())
 end
-_0xf8b138(_0x58c624,_0x48c9eb[_0xd44ced(212184,881291,228065)]())
-_0x1ad5d9[_0x848d34(461006,392489,375606)]=_0xd44ced(153209,440891,135591)
-_0x1ad5d9[_0xe8ebea(283883,270333,686365)]=_0xb36196
-_0xa15292(_0xd44ced(335814,577768,350243))
-end
-return
-end
-if _0x1ad5d9[_0xd44ced(420212,262257,405192)]==_0xe8ebea(469497,484058,398778)then
-if _0xc4dfd9()or(_0xb36196-_0x1ad5d9[_0xd44ced(373200,936978,390657)])>=0.10 then
-_0x1ad5d9[_0x848d34(342525,511002,494085)]=_0xd44ced(318803,164118,301710)
-_0x1ad5d9[_0x848d34(1023577,327545,309581)]=_0xb36196
-_0x1ad5d9[_0x848d34(659364,198916,216882)]=(_0x40b209[228]-63)
-_0xa15292(_0xe8ebea(114956,100903,808))
-end
-return
-end
-if _0x1ad5d9[_0x848d34(245685,84562,68685)]==_0x848d34(153985,301350,319334)then
-_0xa62240[_0xe8ebea(368509,382709,932847)](_0xd44ced(507143,195265,522972),false)
-_0x22e9a9(_0x98a627,_0x07459d,1.4)
-if _0x32967b[_0xd44ced(425197,597307,408444)]then
-_0xa62240[_0x848d34(822389,157359,139785)](_0x848d34(706814,71075,86942),false)
-_0x1ad5d9[_0x848d34(24849,169206,185065)]=_0xe8ebea(393068,373824,1009032)
-_0x1ad5d9[_0xd44ced(139458,646400,157459)]=_0xb36196
-_0x1ad5d9[_0xe8ebea(406999,425677,548816)]=_0xc602f1[_0x848d34(960575,88898,73362)]+_0x4275fc[_0xe8ebea(136716,154637,159306)][_0x848d34(6830,197997,213391)]
-_0xa15292(_0xe8ebea(132323,151502,846352))
-return
-end
-if _0x32967b[_0xd44ced(150041,898799,134549)]then
-if _0x1ad5d9[_0xd44ced(373496,796858,390443)]==(197+_0xa81147(_0xfaf96b(7,194),1)-201)then
-_0xa62240[_0x848d34(1027791,82965,65715)](_0xd44ced(467670,811881,484620),true)
-_0x1ad5d9[_0xe8ebea(338348,352948,615380)]=_0xea489d(_0x40b209[4],186)
-_0x1ad5d9[_0xd44ced(417212,186593,399982)]=_0xb36196
-elseif(_0xb36196-_0x1ad5d9[_0xd44ced(515460,219353,498262)])>0.05 then
-_0xa62240[_0x848d34(710885,275007,292505)](_0x848d34(616232,178805,195656),false)
-_0x1ad5d9[_0xe8ebea(456313,441697,703489)]=(1994+_0xa81147(_0xfaf96b(1654,444),1)-2098)
-end
-else
-if _0x1ad5d9[_0xe8ebea(272457,287569,549425)]<=_0xea489d(625754,625755)then
-_0xa62240[_0xe8ebea(78194,96506,693728)](_0xd44ced(445942,887881,428588),false)
-_0x1ad5d9[_0xe8ebea(296673,314873,576665)]=(_0x40b209[78]-26)
-_0x1ad5d9[_0x848d34(460757,204394,219231)]=_0xb36196
-elseif _0x1ad5d9[_0xd44ced(264371,889585,282464)]==(1543+_0xa81147(_0xfaf96b(945,1462),1)-2405)and(_0xb36196-_0x1ad5d9[_0xd44ced(508125,214400,493327)])>=0.03 then
-_0xa62240[_0xd44ced(73770,1005074,91753)](_0xe8ebea(214322,200237,906416),true)
-_0x1ad5d9[_0xd44ced(184839,739397,169428)]=(2947+_0xa81147(_0xfaf96b(916,2071),1)-2984)
-_0x1ad5d9[_0xd44ced(450749,157152,436079)]=_0xb36196
-elseif _0x1ad5d9[_0xe8ebea(181482,167922,954002)]==3 and(_0xb36196-_0x1ad5d9[_0xe8ebea(463762,481413,411386)])>=0.03 then
-_0xa62240[_0xd44ced(412151,540623,397236)](_0xe8ebea(94896,80303,1041202),false)
-_0x1ad5d9[_0xd44ced(486478,980492,469917)]=(_0x40b209[99]-44)
-end
-end
-return
-end
-if _0x1ad5d9[_0xd44ced(381028,506209,366552)]==_0x848d34(540058,519058,503256)then
-_0xa62240[_0x848d34(1030120,89394,72084)](_0xe8ebea(325650,308018,290774),false)
-if not _0x32967b[_0x848d34(715578,333326,349178)]then
-if not _0x32967b[_0xd44ced(217446,830864,202474)]and _0xc4dfd9()then
-_0xa62240[_0xe8ebea(277934,291878,1022268)](_0xe8ebea(271976,290167,702442),true)
-_0xc96c19[21][_0x848d34(311511,147669,132859)](0.03,function()_0xa62240[_0xd44ced(462059,621267,477864)](_0xd44ced(269096,1006231,285938),false)end)
-else
-_0x1ad5d9[_0xd44ced(389088,493285,370780)]=_0x848d34(5891,448420,430564)
-_0x1ad5d9[_0x848d34(909147,317947,303053)]=(_0x40b209[19]-233)
-return
-end
-end
-_0x22e9a9(_0x98a627,_0x07459d,1.4)
-local _0x20f5b8=_0x4275fc[_0xe8ebea(324530,309685,132795)][_0xe8ebea(237605,256481,389602)]
-local _0x9d0535=(_0xb36196-_0x1ad5d9[_0x848d34(270194,127624,111807)])>=_0x20f5b8 and _0xc05534<(_0x4275fc[_0x848d34(404998,203649,220830)][_0xd44ced(178665,80584,196502)]-1.0)
-local _0x6ae664=_0xf18be0 or(_0x48c9eb[_0x848d34(444889,243731,261578)]>=_0xc96c19[_0x40b209[9]-8][_0x848d34(559193,458376,441196)](_0xea489d(409834,409801)))or((_0xb36196-_0x1ad5d9[_0x848d34(852507,418619,402703)])>=0.10)
-if _0x9d0535 and _0x6ae664 then
-local _0x7347b0=_0xc06ffa(function(_0x80e662,_0x8c3c53)
-return _0x80e662[_0xe8ebea(202075,221149,985042)]==_0xe8ebea(193716,179749,882343)or(_0x8c3c53 and _0x8c3c53[_0xe8ebea(417664,398595,465765)]==_0x848d34(738641,488771,471283))
-end,(_0x40b209[51]-245))
-if _0x7347b0 then
-if _0xf18be0 then
-_0x48c9eb[_0xd44ced(124655,265159,106905)]=_0x07459d
-_0x48c9eb[_0x848d34(700493,441356,457172)]=_0x98a627
-end
-_0xe3ba12(_0x7347b0,_0x48c9eb[_0x848d34(592180,514949,499481)]())
-_0x1ad5d9[_0x848d34(474372,184574,169673)]=_0xb36196
-_0xa15292(_0xc96c19[9][_0xd44ced(187034,184845,171880)](_0xd44ced(146569,735439,162656),_0xc05534,_0x4275fc[_0x848d34(97746,280661,265546)][_0xe8ebea(340693,359185,221970)]))
-end
-end
-local _0xec1b9d=(_0xc05534>=(_0x4275fc[_0xd44ced(259034,416447,243046)][_0xd44ced(71110,169703,86969)]-1.0))or(_0xbbb0bb<=3.5 and _0xc05534>=5.0)
-if _0xec1b9d then
-if _0xbbb0bb<=3.5 then
-_0x1ad5d9[_0x848d34(517961,332462,349361)]=_0x848d34(265742,151171,133326)
-_0xa15292(_0xd44ced(376463,567000,391524))
-else
-_0x1ad5d9[_0x848d34(79723,246412,230547)]=_0x848d34(282833,82034,67133)
-_0xa15292(_0xd44ced(183696,195403,166525))
-end
-_0x1ad5d9[_0xe8ebea(219127,204001,883201)]=_0xb36196
-end
-return
-end
-if _0x1ad5d9[_0xe8ebea(266830,285007,240488)]==_0xd44ced(203242,431531,220678)then
-_0xa62240[_0xe8ebea(238839,257407,524389)](_0x848d34(457845,206673,221551),false)
-if not _0x32967b[_0x848d34(799225,249037,231737)]then
-_0x1ad5d9[_0xe8ebea(315316,296117,226962)]=_0xe8ebea(448755,431057,349366)
-_0x1ad5d9[_0xd44ced(130193,550611,113474)]=(_0x40b209[19]-233)
-return
-end
-local _0x91bb08=(_0xc602f1[_0x848d34(643025,408748,424316)]+_0x4275fc[_0xd44ced(477837,189416,461873)][_0xe8ebea(313789,295033,170106)])-_0x8e863f[_0x848d34(528330,523447,506215)]
-local _0x189f37=_0xc96c19[_0x40b209[184]-188][_0x848d34(188591,71492,87037)](_0xc96c19[25][_0xe8ebea(460089,479231,802542)](_0x91bb08*3.5),_0xc96c19[25][_0xe8ebea(370417,388151,957734)](-(3611+_0xa81147(_0xfaf96b(117,3694),1)-3796)),_0xc96c19[25][_0x848d34(1046013,99116,116424)](20))
-_0x22e9a9(_0x98a627,_0x189f37,1.35)
-if _0xbbb0bb<=_0xc96c19[_0x40b209[71]-189][_0xe8ebea(323266,304998,998325)](_0x4275fc[_0xd44ced(388235,316276,371253)][_0xe8ebea(306593,320613,195686)]*1.4,3.5)or _0x7a1b1a<=7.0 then
-_0x1ad5d9[_0xe8ebea(419703,404598,122449)]=_0xd44ced(367956,213307,383678)
-_0x1ad5d9[_0x848d34(583937,231457,249365)]=_0xb36196
-_0xa15292(_0xd44ced(309384,263841,327526))
-return
-end
-local _0x20f5b8=_0x4275fc[_0xd44ced(446828,390464,432046)][_0x848d34(382302,445085,429695)]
-if(_0xb36196-_0x1ad5d9[_0xd44ced(373445,50141,390417)])>=_0x20f5b8 and(_0xbbb0bb>12.0 or _0xc05534<4.5)then
-local _0x7347b0=_0xc06ffa(function(_0x80e662,_0x8c3c53)
-return _0x80e662[_0xd44ced(244102,686763,261831)]==_0xd44ced(167756,580844,182272)or(_0x8c3c53 and _0x8c3c53[_0x848d34(346659,82821,67108)]==_0x848d34(672704,422866,407138))
-end,_0xea489d(_0x40b209[97],47))
-if _0x7347b0 then
-_0xe3ba12(_0x7347b0,_0x48c9eb[_0x848d34(781000,342137,359653)]())
-_0x1ad5d9[_0xd44ced(80709,281181,97425)]=_0xb36196
-end
-end
-_0xa15292(_0xc96c19[9][_0xe8ebea(422884,408275,239974)](_0xd44ced(80366,716854,97793),_0xbbb0bb))
-return
-end
-if _0x1ad5d9[_0xd44ced(447861,310384,430793)]==_0x848d34(192852,307673,325524)then
-local _0xce8dc4,_0x2cc3fe=_0xfe0544(_0x2ed9ea,_0x160936)
-_0x22e9a9(_0xce8dc4,_0x2cc3fe,2.0)
-_0xa62240[_0xd44ced(235006,910278,250813)](_0xd44ced(254344,435790,239187),false)
-local _0x22a97a=_0x48c9eb[_0x848d34(711211,264346,281606)]()
-local _0xe2dad8=(_0x7a1b1a<=_0xc96c19[25][_0xd44ced(335367,727542,350296)](_0x4275fc[_0xd44ced(428911,28655,445871)][_0xe8ebea(134702,149482,286697)]+1.5,5.0))
-or(_0xbbb0bb<=3.2 and _0xc05534<=6.0)
-if _0xe2dad8 then
-local _0xfea694=_0xe053ad()or _0xc06ffa(function(_0x80e662,_0x8c3c53)
-return _0x8c3c53 and _0x8c3c53[_0xd44ced(256558,491370,240912)]==_0xd44ced(108134,580228,123183)and _0x8c3c53[_0xd44ced(225462,639747,210940)]==_0xd44ced(504238,1039743,521957)and _0x80e662[_0x848d34(687117,205762,222822)]~=_0xe8ebea(268778,283495,80391)
-end,(641+_0xa81147(_0xfaf96b(1853,1468),1)-3312))
-if _0xfea694 then
-_0xf8b138(_0xfea694,_0x22a97a)
-_0x32967b[_0xd44ced(366802,719108,384835)]=false
-_0x1ad5d9[_0xe8ebea(282801,269241,165841)]=_0x5ab4a2
-else
-_0x32967b[_0xd44ced(239503,837209,253982)]=false
-end
-_0x1ad5d9[_0x848d34(408317,315162,297221)]=_0xe8ebea(160788,147233,746451)
-_0x1ad5d9[_0xe8ebea(348378,334796,752940)]=_0xb36196
-_0xa15292(_0x848d34(33669,399266,414198))
-return
-end
-return
-end
-if _0x1ad5d9[_0xe8ebea(238642,257843,269588)]==_0xe8ebea(362667,377758,827244)then
-_0xa62240[_0x848d34(804590,175156,190610)](_0x848d34(449447,196739,214717),false)
-local _0xce8dc4,_0x2cc3fe=_0xfe0544(_0x2ed9ea,_0x160936)
-_0x48c9eb[_0xe8ebea(437883,451777,1044288)]=_0xce8dc4
-_0x48c9eb[_0x848d34(38334,386164,369069)]=_0xc96c19[25][_0xd44ced(266013,484372,280907)](_0x2cc3fe,-1.55,1.55)
-local _0x4d5dda=_0x271e47(_0x3547ee[_0xe8ebea(478716,460599,866568)])
-if _0x4275fc[_0xe8ebea(184254,165459,924583)][_0xd44ced(368178,400659,383053)]and _0x4d5dda then
-local _0xa5fc4b=_0xbd84fe()
-if _0xa5fc4b and _0x0a7cca[_0xd44ced(97568,555171,80663)][_0xd44ced(500109,918496,517850)]~=_0xa5fc4b then
-_0xd6ca4f(_0xa5fc4b)
-end
-else
-local _0xff2d6f=_0x2dd1a3(false)or _0xc06ffa(function(_0x80e662,_0x8c3c53)
-return _0x80e662[_0xd44ced(273135,911810,290222)]==_0x848d34(277180,340129,357636)or(_0x8c3c53 and _0x8c3c53[_0xd44ced(489987,257863,474429)]==_0x848d34(397843,464910,482731))
-end,_0xea489d(663022,663023))
-if _0xff2d6f and _0x0a7cca[_0xd44ced(348166,808325,333361)][_0x848d34(871352,292151,274573)]~=_0xff2d6f then
-_0xd6ca4f(_0xff2d6f)
-end
-end
-if _0x7a1b1a<=(_0xce4c7f+0.35)then
-_0x1ad5d9[_0xe8ebea(328828,348029,179546)]=_0xe8ebea(410193,395622,957220)
-_0x1ad5d9[_0xe8ebea(254230,240128,904416)]=_0xb36196
-return
-end
-if _0x32967b[_0xe8ebea(74660,92533,724641)]or(_0xb36196-_0x1ad5d9[_0x848d34(920273,355313,339397)])>2.2 then
-_0x1ad5d9[_0x848d34(110825,214286,197393)]=_0x848d34(435968,473518,491500)
-return
-end
-return
-end
-if _0x1ad5d9[_0xd44ced(345356,470025,328368)]==_0x848d34(642647,285653,269696)then
-local _0xce8dc4,_0x2cc3fe=_0xfe0544(_0x2ed9ea,_0x160936)
-_0x48c9eb[_0x848d34(557997,298988,313908)]=_0xce8dc4
-_0x48c9eb[_0xe8ebea(285022,267237,288239)]=_0xc96c19[25][_0xe8ebea(340646,359229,232214)](_0x2cc3fe,-1.55,1.55)
-local _0x270d28=_0x48c9eb[_0x848d34(859463,249846,232298)]()
-local _0x4d5dda=_0x271e47(_0x3547ee[_0xe8ebea(205283,224040,611607)])
-if _0x4275fc[_0xe8ebea(381307,366742,591202)][_0xd44ced(138588,106109,154403)]and _0x4d5dda and(_0x5ab4a2-(_0x1ad5d9[_0xe8ebea(186385,168726,876421)]or-_0xea489d(48323,48288)))>_0xea489d(_0x40b209[44],240)then
-local _0xa5fc4b=_0xbd84fe()
-if _0xa5fc4b then
-_0xd6ca4f(_0xa5fc4b)
-local _0x4a7457=_0xb192fa(_0x3547ee,_0x270d28)
-if _0x4a7457 then
-_0x1ad5d9[_0x848d34(872698,498601,515468)]=_0x5ab4a2
-_0xa15292(_0xc96c19[9][_0x848d34(310219,274366,289771)](_0xe8ebea(81265,95817,163196),_0x3547ee[_0xe8ebea(275136,292875,935476)][_0xd44ced(201575,817345,218479)]))
-end
-end
-end
-local _0xff2d6f=_0x2dd1a3(false)or _0xc06ffa(function(_0x80e662,_0x8c3c53)
-return _0x80e662[_0xd44ced(256307,666142,241266)]==_0xe8ebea(315521,301574,38875)or(_0x8c3c53 and _0x8c3c53[_0xe8ebea(165241,184314,246172)]==_0xd44ced(204617,166326,219147))
-end,_0xea489d(_0x40b209[60],107))
-if _0xff2d6f and _0x0a7cca[_0xd44ced(443765,1032438,426818)][_0xe8ebea(445069,426001,702814)]~=_0xff2d6f then
-_0xd6ca4f(_0xff2d6f)
-end
-local _0x908783=_0xb192fa(_0x3547ee,_0x270d28)
-if _0x908783 then
-_0x1ad5d9[_0x848d34(657140,326688,309787)]=_0x5ab4a2
-_0x70e186[_0xd44ced(187084,235826,171379)]=true
-_0x70e186[_0x848d34(178588,81350,97253)]=_0xb36196
-local _0xb6fe01=_0xc96c19[25][_0xe8ebea(192772,178336,599155)](_0x32967b[_0x848d34(359469,238841,254228)]or(1599+_0xa81147(_0xfaf96b(708,1275),1)-1983),_0xc05534)
-_0xa15292(_0xc96c19[9][_0xe8ebea(142296,156399,520538)](_0xe8ebea(290801,271560,501353),_0x3547ee[_0xe8ebea(330929,345722,1013829)][_0xe8ebea(508328,493797,882785)],_0xb6fe01))
-_0x0b0364(_0x848d34(936580,131589,149278),_0xc96c19[9][_0xe8ebea(516925,502282,145855)](_0xd44ced(446419,438829,428057),_0x3547ee[_0xd44ced(74382,952211,91400)][_0xe8ebea(453518,434883,807495)],_0xb6fe01),1.6)
-end
-_0x1ad5d9[_0xd44ced(176264,55693,194356)]=_0xe8ebea(288015,273963,46917)
-_0x1ad5d9[_0xe8ebea(480970,466396,621372)]=_0xb36196
-return
-end
-if _0x1ad5d9[_0x848d34(21327,173736,188599)]==_0x848d34(21025,117903,101069)then
-if _0x4275fc[_0xe8ebea(441539,456392,735318)][_0x848d34(392051,451760,434258)]then
-local _0xba453e=_0xccc5fe()or _0xc06ffa(function(_0x80e662,_0x8c3c53)
-return _0x80e662[_0xe8ebea(320380,305658,586229)]==_0xd44ced(458388,396502,440796)or(_0x8c3c53 and _0x8c3c53[_0xe8ebea(189637,175686,237600)]==_0x848d34(310094,316910,299077))
-end,(2822+_0xa81147(_0xfaf96b(2147,869),1)-3007))
-if _0xba453e then
-_0xf8b138(_0xba453e,_0x48c9eb[_0xe8ebea(359496,341302,974919)]())
-end
-_0x1ad5d9[_0xd44ced(251550,950126,233801)]=_0xb36196+0.12
-_0x1ad5d9[_0xd44ced(275017,416588,292341)]=_0xd44ced(192755,306358,177966)
-_0x1ad5d9[_0xd44ced(454286,856908,436575)]=_0xb36196
-_0x1ad5d9[_0x848d34(585832,128712,110846)]=_0xea489d(928860,928860)
-_0xa15292(_0xd44ced(207515,949009,224622))
+_0xafd378[_0x3f0d21(246176,104820,250413)]=_0xd9b52d+0.12
+_0xafd378[_0x248f80(464417,487064,826520)]=_0x3f0d21(300321,101701,296626)
+_0xafd378[_0x248f80(316040,305734,922903)]=_0xd9b52d
+_0xafd378[_0x3f0d21(518078,478389,521271)]=(_0xc84f9e[159]-22)
+_0xdd7a2f(_0x3f0d21(381710,163866,376997))
 return
 else
-local _0xe81c33=_0x1ad5d9[_0xe8ebea(496355,514538,157336)]
-if _0x4275fc[_0xd44ced(466014,424068,482036)][_0x848d34(449772,377647,362445)]and _0xe81c33 and _0xe81c33>=(_0x40b209[151]-56)and _0xe81c33<=_0xea489d(343424,343433)then
-_0xc96c19[21][_0x848d34(229550,327852,345730)](0.12,function()
-if _0x3571dc()and not _0x76c04c[_0xe8ebea(521889,507741,470261)][_0x848d34(56543,435640,450947)]then
-_0xd6ca4f(_0xe81c33)
+local _0x148ed9=_0xafd378[_0x3f0d21(101370,302911,104576)]
+if _0x883746[_0x248f80(450592,432008,754492)][_0x2b4f7f(47135,308463,296130)]and _0x148ed9 and _0x148ed9>=_0xfc82ca(_0xc84f9e[150],217)and _0x148ed9<=(2038+_0x95b3ae(_0x6bafdb(1499,557),1)-2047)then
+_0xcca467[8][_0x248f80(324341,297533,777715)](0.12,function()
+if _0x103a58()and not _0x63be9c[_0x3f0d21(464567,202580,459993)][_0x248f80(479099,473553,556143)]then
+_0xd94c4f(_0x148ed9)
 end
 end)
 end
-_0x1ad5d9[_0xe8ebea(361425,379085,915999)]=_0xb36196+0.15
-_0x1a91f2(false)
-_0x76c04c[_0x848d34(452403,226139,210497)][_0xe8ebea(207962,222535,7136)]=false
-if _0x76c04c[_0xd44ced(191173,516687,175218)][_0xd44ced(156171,864653,140797)]then
-_0x76c04c[_0x848d34(138965,494269,511911)][_0x848d34(687054,373930,389875)]()
+_0xafd378[_0x2b4f7f(488718,168328,172044)]=_0xd9b52d+0.15
+_0x43b782(false)
+_0x63be9c[_0x2b4f7f(470190,299295,303482)][_0x3f0d21(395524,713284,399463)]=false
+if _0x63be9c[_0x3f0d21(99244,361039,102850)][_0x248f80(102003,128640,147997)]then
+_0x63be9c[_0x3f0d21(423120,161075,419518)][_0x3f0d21(137100,134639,132128)]()
 end
 return
 end
 end
 end
-local _0x79e57a=_0xc96c19[2][_0x848d34(182293,133302,150881)]()
-_0x79e57a[_0xe8ebea(259347,245295,479514)]=_0xc96c19[23][_0x848d34(812248,351494,334685)][_0xe8ebea(389567,375425,32785)]
-local _0xe931a0={
-[_0xd44ced(388714,851994,371088)]=false,
-[_0xe8ebea(273709,288365,659629)]=_0xea489d(956557,956557),
+local _0xcca38e=_0xcca467[1][_0x248f80(378025,376024,769614)]()
+_0xcca38e[_0x2b4f7f(977988,129388,116936)]=_0xcca467[18][_0x3f0d21(381339,513250,377397)][_0x2b4f7f(982984,414151,417889)]
+local _0xfa6a0f={
+[_0x3f0d21(146505,238963,143353)]=false,
+[_0x3f0d21(375025,71991,371520)]=(3828+_0x95b3ae(_0x6bafdb(1560,2284),1)-3844),
 }
-local function _0xbc223d(_0x3650c9,_0x329434,_0xb8fc06)
-if not _0xcc6a4e or not _0xcc6a4e[_0xe8ebea(514753,496000,928533)]then return{}end
-local _0x6a3b2b={}
-for _0xbc6afd,_0x8fa921 in _0xc96c19[11](_0x329434)do
-local _0x4011cd=_0xcc6a4e[_0xe8ebea(272697,287352,907501)]:FindFirstChild(_0x8fa921)
-if _0x4011cd then
-_0xc96c19[6][_0xd44ced(153480,667225,135285)](_0x6a3b2b,_0x4011cd)
+local function _0x552cb5(_0xa94ffc,_0x7fc58c,_0x30598c)
+if not _0xae54c0 or not _0xae54c0[_0x3f0d21(266471,16616,262997)]then return{}end
+local _0xebee84={}
+for _0x1127a1,_0x7b2620 in _0xcca467[10](_0x7fc58c)do
+local _0x534e0e=_0xae54c0[_0x3f0d21(441455,191584,438237)]:FindFirstChild(_0x7b2620)
+if _0x534e0e then
+_0xcca467[_0xc84f9e[87]-65][_0x2b4f7f(272224,518617,514163)](_0xebee84,_0x534e0e)
 end
 end
-if#_0x6a3b2b==(_0x40b209[206]-142)then return{}end
-_0x79e57a[_0xd44ced(246810,616128,230372)]=_0x6a3b2b
-local _0xd1e184=(_0x3650c9+_0xc96c19[_0x40b209[106]-10][_0x848d34(487327,503612,518891)](0.5,0.5,0.5))*_0xdecf83
-local _0xe7e571=_0xc96c19[_0x40b209[215]-93][_0x848d34(70335,119324,104395)]((3827+_0xa81147(_0xfaf96b(3670,165),1)-3834),_0xea489d(732813,732812),_0xea489d(194687,194686))*_0xdecf83*(_0xb8fc06 or 0.85)
-return _0xea24c6[_0xe8ebea(236627,251671,232327)](_0xea24c6,_0xc96c19[22][_0xd44ced(398650,412027,414286)](_0xd1e184),_0xe7e571,_0x79e57a)
+if#_0xebee84==_0xfc82ca(585023,585023)then return{}end
+_0xcca38e[_0x248f80(270702,285077,14146)]=_0xebee84
+local _0x0b4bfd=(_0xa94ffc+_0xcca467[_0xc84f9e[44]-161][_0x3f0d21(284264,653824,279874)](0.5,0.5,0.5))*_0x6634d7
+local _0x89dae2=_0xcca467[3][_0x3f0d21(344370,585050,348696)]((3249+_0x95b3ae(_0x6bafdb(2213,1044),1)-3256),_0xfc82ca(955458,955459),_0xfc82ca(900311,900310))*_0x6634d7*(_0x30598c or 0.85)
+return _0x338a3e[_0x2b4f7f(186951,437236,432728)](_0x338a3e,_0xcca467[_0xc84f9e[52]-183][_0x2b4f7f(822523,433345,437728)](_0x0b4bfd),_0x89dae2,_0xcca38e)
 end
-local function _0x9919c5(_0x3650c9)
-if not _0xcc6a4e or not _0xcc6a4e[_0xd44ced(275203,529076,292095)]then return false end
-local _0x971b35=_0xcc6a4e[_0x848d34(917274,82511,66576)]:FindFirstChild(_0xe8ebea(437066,450575,779880))
-if not _0x971b35 then return false end
-local _0xa8d1a8=(_0x3650c9+_0xc96c19[24][_0xd44ced(321128,309801,303388)](0.5,0.5,0.5))*_0xdecf83
-for _0xbc6afd,_0x1760ca in _0xc96c19[11](_0x971b35[_0xd44ced(121860,780476,103429)](_0x971b35))do
-if _0x1760ca[_0xd44ced(198739,574351,216607)](_0x1760ca,_0x848d34(929885,149925,135104))and(_0x1760ca[_0xd44ced(384674,928372,366885)]-_0xa8d1a8)[_0x848d34(997641,304103,321067)]<0.45 then
+local function _0x8686c3(_0xa94ffc)
+if not _0xae54c0 or not _0xae54c0[_0x2b4f7f(322260,460425,472864)]then return false end
+local _0x3a39a6=_0xae54c0[_0x2b4f7f(22946,243199,230486)]:FindFirstChild(_0x3f0d21(259436,241194,255706))
+if not _0x3a39a6 then return false end
+local _0x915c91=(_0xa94ffc+_0xcca467[3][_0x3f0d21(384243,553115,380889)](0.5,0.5,0.5))*_0x6634d7
+for _0x1127a1,_0x500656 in _0xcca467[_0xc84f9e[247]-223](_0x3a39a6[_0x2b4f7f(544904,86743,91001)](_0x3a39a6))do
+if _0x500656[_0x248f80(83933,77968,473108)](_0x500656,_0x248f80(204651,223124,889862))and(_0x500656[_0x248f80(390657,364165,891881)]-_0x915c91)[_0x3f0d21(129167,296365,125840)]<0.45 then
 return true
 end
 end
 return false
 end
-local function _0xcfa2db(_0x3650c9)
-return#_0xbc223d(_0x3650c9,{_0xd44ced(87020,334842,72687)},0.80)>(781+_0xa81147(_0xfaf96b(589,320),1)-909)
+local function _0x162466(_0xa94ffc)
+return#_0x552cb5(_0xa94ffc,{_0x2b4f7f(389751,357521,345377)},0.80)>(267+_0x95b3ae(_0x6bafdb(1467,1200),1)-2667)
 end
-local function _0x2979a9(_0x3650c9,_0x2ed9ea,_0x54fba6,_0xc96613,_0x103189)
-local _0xa18806=_0x3650c9+_0xc96c19[_0x40b209[59]-231][_0xe8ebea(379945,362128,16883)](0.5,0.05,0.5)
-local _0x2057a5=_0xa18806-_0x2ed9ea
-local _0x67b01c=_0x2057a5[_0xe8ebea(477629,459539,630333)]
-if _0x67b01c>_0xc96613 or _0x67b01c<0.25 then
+local function _0x9d1822(_0xa94ffc,_0x9f6209,_0xf24718,_0x747a73,_0x7df100)
+local _0xace837=_0xa94ffc+_0xcca467[_0xc84f9e[23]-37][_0x2b4f7f(753098,93680,89297)](0.5,0.05,0.5)
+local _0xcd370e=_0xace837-_0x9f6209
+local _0x138239=_0xcd370e[_0x2b4f7f(359140,506772,494210)]
+if _0x138239>_0x747a73 or _0x138239<0.25 then
 return false
 end
-if not _0x103189 and _0x54fba6 then
-local _0x94d71a=_0xc96c19[25][_0x848d34(723807,395909,413527)]((_0xa18806[_0xd44ced(288637,355942,270353)]-_0x54fba6[_0xd44ced(236537,168674,253077)])^_0xea489d(_0x40b209[107],213)+(_0xa18806[_0x848d34(935553,163282,145411)]-_0x54fba6[_0x848d34(574465,327506,309891)])^(3018+_0xa81147(_0xfaf96b(881,2235),1)-3114))
-if _0x94d71a<0.75 and _0xc96c19[_0x40b209[204]-156][_0x848d34(224466,451238,435815)](_0x3650c9[_0x848d34(647399,398234,415306)]-_0x54fba6[_0x848d34(578449,467180,484668)])<1.5 then
+if not _0x7df100 and _0xf24718 then
+local _0x3a026e=_0xcca467[21][_0x2b4f7f(1041116,144455,132443)]((_0xace837[_0x3f0d21(502629,203507,505927)]-_0xf24718[_0x248f80(252744,238369,310345)])^_0xfc82ca(676979,676977)+(_0xace837[_0x2b4f7f(296794,485759,481380)]-_0xf24718[_0x3f0d21(151559,393840,148259)])^(2781+_0x95b3ae(_0x6bafdb(2494,867),1)-3359))
+if _0x3a026e<0.75 and _0xcca467[_0xc84f9e[55]-73][_0x248f80(139979,152982,556009)](_0xa94ffc[_0x2b4f7f(458658,130107,118049)]-_0xf24718[_0x3f0d21(461783,504860,465140)])<1.5 then
 return false
 end
 end
-local _0x2daf3b=_0x3650c9-_0xc96c19[_0x40b209[245]-186][_0xd44ced(518349,504972,503737)](0,1,(_0x40b209[246]-5))
-if#_0xbc223d(_0x2daf3b,{_0xd44ced(116597,498446,98334)},0.55)==_0xea489d(791273,791273)then
+local _0x897909=_0xa94ffc-_0xcca467[3][_0x3f0d21(139591,1019183,143981)]((2552+_0x95b3ae(_0x6bafdb(2965,621),1)-3586),(689+_0x95b3ae(_0x6bafdb(1806,1471),1)-3276),(53+_0x95b3ae(_0x6bafdb(58,15),1)-73))
+if#_0x552cb5(_0x897909,{_0x248f80(495506,522234,318661)},0.55)==_0xfc82ca(_0xc84f9e[232],91)then
 return false
 end
-if#_0xbc223d(_0x3650c9,{_0xd44ced(394954,23217,410017),_0xe8ebea(502605,516100,919418),_0xe8ebea(106437,119951,167334)},0.85)>_0xea489d(27817,27817)then
+if#_0x552cb5(_0xa94ffc,{_0x2b4f7f(452543,122412,126772),_0x2b4f7f(78783,353502,349551),_0x248f80(407995,409785,1038846)},0.85)>(48+_0x95b3ae(_0x6bafdb(57,9),1)-66)then
 return false
 end
-if _0xcc6a4e[_0xe8ebea(216099,198286,633161)]then
-local _0x8464f9=_0x3650c9+_0xc96c19[_0x40b209[74]-198][_0x848d34(256604,207615,225064)](0.5,0.25,0.5)
-local _0x7fd6b1=_0x8464f9-_0x2ed9ea
-local _0x308c10=_0x7fd6b1[_0xe8ebea(461733,475403,646181)]
-if _0x308c10>0.35 then
-local _0x92f418=_0xcc6a4e[_0xe8ebea(390457,376724,987219)](_0x2ed9ea,_0x7fd6b1[_0xe8ebea(385680,370751,37783)],_0x308c10-0.20,{_0xd44ced(177198,321621,193349)})
-if _0x92f418 and _0x92f418[_0xd44ced(280518,726445,266176)]~=_0x2daf3b and _0x92f418[_0xd44ced(415977,592514,397551)]~=_0x3650c9 then
+if _0xae54c0[_0x3f0d21(352679,47185,357049)]then
+local _0x79f686=_0xa94ffc+_0xcca467[_0xc84f9e[203]-76][_0x2b4f7f(747659,96433,84368)](0.5,0.25,0.5)
+local _0x559a0b=_0x79f686-_0x9f6209
+local _0xa4efc4=_0x559a0b[_0x2b4f7f(104601,219625,223487)]
+if _0xa4efc4>0.35 then
+local _0x4296bc=_0xae54c0[_0x2b4f7f(207983,84427,96478)](_0x9f6209,_0x559a0b[_0x248f80(286020,271651,434640)],_0xa4efc4-0.20,{_0x248f80(523308,492612,307067)})
+if _0x4296bc and _0x4296bc[_0x2b4f7f(561532,118950,123157)]~=_0x897909 and _0x4296bc[_0x3f0d21(163675,819923,158951)]~=_0xa94ffc then
 return false
 end
 end
 end
 return true
 end
-local function _0xe9fb10(_0x2ed9ea,_0x7fbd18,_0x54fba6,_0xc96613,_0xb48d67)
-if _0xcc6a4e[_0xd44ced(145958,855747,163150)]then
-local _0x92f418=_0xcc6a4e[_0x848d34(978209,83238,65773)](_0x2ed9ea,_0x7fbd18,_0xc96613,{_0xd44ced(492149,122382,509214),_0x848d34(88896,364468,379346)})
-if _0x92f418 then
-local _0x19381e=_0x92f418[_0xe8ebea(174229,189401,567477)]and _0x92f418[_0xd44ced(486541,572611,468106)]:GetAttribute(_0x848d34(855818,159817,144930))
-if _0x19381e==_0x848d34(1022201,384414,367602)then
-if _0x2979a9(_0x92f418[_0xd44ced(146658,880265,160996)],_0x2ed9ea,_0x54fba6,_0xc96613,true)then
-return _0x92f418[_0xe8ebea(353273,338098,1040891)],_0xe8ebea(392922,374165,799343)
+local function _0x8c6b93(_0x9f6209,_0xf44998,_0xf24718,_0x747a73,_0x3e680b)
+if _0xae54c0[_0x248f80(420675,398118,25646)]then
+local _0x4296bc=_0xae54c0[_0x3f0d21(116590,269976,119920)](_0x9f6209,_0xf44998,_0x747a73,{_0x3f0d21(114314,80715,109995),_0x3f0d21(242623,297227,237574)})
+if _0x4296bc then
+local _0xa8e277=_0x4296bc[_0x248f80(409949,407641,711812)]and _0x4296bc[_0x248f80(170746,189438,919331)]:GetAttribute(_0x2b4f7f(706803,340866,328247))
+if _0xa8e277==_0x248f80(245469,247771,143738)then
+if _0x9d1822(_0x4296bc[_0x2b4f7f(897109,323983,311356)],_0x9f6209,_0xf24718,_0x747a73,true)then
+return _0x4296bc[_0x2b4f7f(572653,130359,117892)],_0x248f80(88844,74251,886894)
 end
-elseif _0x92f418[_0x848d34(181174,271851,287621)][_0xe8ebea(367308,381054,992451)]>=0.5 then
-local _0x5d887f=_0x92f418[_0xe8ebea(403587,418760,830081)]+_0xc96c19[_0x40b209[160]+10][_0xe8ebea(282663,268958,122365)](_0xea489d(_0x40b209[132],127),(_0x40b209[173]-110),(1960+_0xa81147(_0xfaf96b(929,1033),1)-1962))
-if _0x2979a9(_0x5d887f,_0x2ed9ea,_0x54fba6,_0xc96613,true)then
-return _0x5d887f,_0xe8ebea(419565,404898,1026648)
+elseif _0x4296bc[_0x3f0d21(74617,909565,78008)][_0x2b4f7f(57256,515121,519467)]>=0.5 then
+local _0xc3b07d=_0x4296bc[_0x2b4f7f(1039369,433619,437344)]+_0xcca467[3][_0x3f0d21(119435,818915,115105)](_0xfc82ca(396970,396970),1,_0xfc82ca(620489,620489))
+if _0x9d1822(_0xc3b07d,_0x9f6209,_0xf24718,_0x747a73,true)then
+return _0xc3b07d,_0x248f80(422734,395849,696364)
 end
 else
-local _0xf95034=_0x92f418[_0xe8ebea(193396,178239,553334)]+_0xc96c19[_0x40b209[153]+21][_0xd44ced(440000,453249,455092)](_0xea489d(388638,388638),(109+_0xa81147(_0xfaf96b(101,8),1)-108),(546+_0xa81147(_0xfaf96b(117,599),1)-716))
-if _0x2979a9(_0xf95034,_0x2ed9ea,_0x54fba6,_0xc96613,true)then
-return _0xf95034,_0xd44ced(255092,688779,240760)
+local _0x5a8dcd=_0x4296bc[_0x248f80(296418,326881,634775)]+_0xcca467[_0xc84f9e[51]-21][_0x2b4f7f(876774,487644,475645)](_0xfc82ca(501620,501620),_0xfc82ca(205029,205028),_0xfc82ca(_0xc84f9e[141],80))
+if _0x9d1822(_0x5a8dcd,_0x9f6209,_0xf24718,_0x747a73,true)then
+return _0x5a8dcd,_0x2b4f7f(885564,514634,519155)
 end
-local _0x130a49=_0x92f418[_0xe8ebea(236242,250265,596176)]+_0xc96c19[24][_0xe8ebea(302954,316883,70320)](
-_0xc96c19[_0x40b209[76]-103][_0xe8ebea(72008,86554,714176)](_0x92f418[_0xd44ced(468953,89446,487378)][_0x848d34(363250,270091,285380)]),
-_0xc96c19[_0x40b209[143]-125][_0xe8ebea(507699,521313,803771)](_0x92f418[_0xe8ebea(117545,98425,156132)][_0xe8ebea(433764,447702,794731)]),
-_0xc96c19[_0x40b209[193]-200][_0xe8ebea(403600,418754,906264)](_0x92f418[_0x848d34(476198,107131,123925)][_0x848d34(975867,186536,171385)])
+local _0x3a7b30=_0x4296bc[_0x248f80(325991,295012,643858)]+_0xcca467[_0xc84f9e[190]-4][_0x3f0d21(261194,938018,257888)](
+_0xcca467[_0xc84f9e[178]-196][_0x2b4f7f(572294,364428,376374)](_0x4296bc[_0x3f0d21(299575,545203,295414)][_0x2b4f7f(102314,164462,177015)]),
+_0xcca467[_0xc84f9e[180]-126][_0x2b4f7f(959334,235372,239318)](_0x4296bc[_0x2b4f7f(708679,110481,106025)][_0x2b4f7f(108625,437192,432850)]),
+_0xcca467[21][_0x2b4f7f(739515,425137,412939)](_0x4296bc[_0x3f0d21(400234,710894,395435)][_0x2b4f7f(481564,309049,296482)])
 )
-if _0x2979a9(_0x130a49,_0x2ed9ea,_0x54fba6,_0xc96613,true)then
-return _0x130a49,_0xe8ebea(203125,217638,35038)
+if _0x9d1822(_0x3a7b30,_0x9f6209,_0xf24718,_0x747a73,true)then
+return _0x3a7b30,_0x248f80(307734,314141,973891)
 end
 end
 end
 end
-local _0x3a80ed=_0xcc6a4e[_0xe8ebea(168418,187215,554120)]and _0xcc6a4e[_0x848d34(551776,508775,493228)](_0x2ed9ea,_0x7fbd18,32.0,{_0xd44ced(216849,332650,198778),_0x848d34(122606,330266,347260)})or nil
-local _0x36e8e4=_0xc96c19[24][_0xd44ced(302299,311450,318383)](_0x7fbd18[_0xe8ebea(205140,224229,522716)],(561+_0xa81147(_0xfaf96b(136,697),1)-833),_0x7fbd18[_0xd44ced(122942,870287,108368)])
-if _0x36e8e4[_0xe8ebea(384289,366479,723617)]>1e-4 then
-_0x36e8e4=_0x36e8e4[_0xe8ebea(218996,204251,403059)]
+local _0xddbe65=_0xae54c0[_0x3f0d21(297952,86550,301310)]and _0xae54c0[_0x2b4f7f(15109,155297,159668)](_0x9f6209,_0xf44998,32.0,{_0x2b4f7f(162738,344609,357177),_0x3f0d21(299451,240399,295426)})or nil
+local _0x1c9a51=_0xcca467[3][_0x248f80(436987,447114,577564)](_0xf44998[_0x248f80(509175,507038,41974)],(2136+_0x95b3ae(_0x6bafdb(114,2090),1)-2204),_0xf44998[_0x2b4f7f(319655,462466,475033)])
+if _0x1c9a51[_0x248f80(160251,133533,318017)]>1e-4 then
+_0x1c9a51=_0x1c9a51[_0x2b4f7f(512107,83508,96035)]
 else
-_0x36e8e4=_0xc96c19[_0x40b209[139]-128][_0xd44ced(297619,317138,314855)](-_0xc96c19[_0x40b209[2]-151][_0x848d34(323181,390913,373460)](_0x48c9eb[_0xd44ced(272007,570916,287218)]),_0xea489d(_0x40b209[96],202),-_0xc96c19[25][_0xd44ced(478701,465095,461470)](_0x48c9eb[_0xe8ebea(413873,399883,987530)]))
+_0x1c9a51=_0xcca467[3][_0x3f0d21(395667,763387,400057)](-_0xcca467[21][_0x2b4f7f(325223,132448,144511)](_0x9cbe51[_0x248f80(466723,485201,990123)]),(1769+_0x95b3ae(_0x6bafdb(831,1494),1)-2325),-_0xcca467[21][_0x2b4f7f(200036,85054,97566)](_0x9cbe51[_0x248f80(275322,281352,800754)]))
 end
-local _0x9c32d9
-if _0x3a80ed then
-_0x9c32d9=_0x3a80ed[_0x848d34(986698,287273,272337)]
+local _0xbc693f
+if _0xddbe65 then
+_0xbc693f=_0xddbe65[_0x2b4f7f(250195,296486,309092)]
 else
-_0x9c32d9=_0xc96c19[24][_0xe8ebea(84658,65547,313192)](
-_0x54fba6[_0x848d34(446264,481985,466702)]+_0x36e8e4[_0xe8ebea(237647,256766,489671)]*_0xc96613,
-_0x54fba6[_0xd44ced(370451,706700,385150)],
-_0x54fba6[_0xd44ced(104634,868107,122836)]+_0x36e8e4[_0xd44ced(363729,600928,379839)]*_0xc96613
+_0xbc693f=_0xcca467[3][_0x2b4f7f(874589,477287,489798)](
+_0xf24718[_0x2b4f7f(166554,100190,112199)]+_0x1c9a51[_0x3f0d21(193778,410980,190416)]*_0x747a73,
+_0xf24718[_0x248f80(360357,329679,399098)],
+_0xf24718[_0x248f80(450525,436150,88895)]+_0x1c9a51[_0x248f80(365384,387875,137130)]*_0x747a73
 )
 end
-local _0x41e125=_0xc96c19[_0x40b209[142]-53][_0xd44ced(263556,655989,279515)](_0xb48d67*0.5,_0xea489d(842988,842979))
-local _0x6427b7=_0xc96c19[25][_0xe8ebea(496392,514664,691446)](_0x2ed9ea[_0xd44ced(125045,57710,110361)]+0.5)
-local _0xb12f34=_0xc96c19[25][_0xd44ced(183582,655522,166661)](_0x54fba6[_0xe8ebea(452681,434939,808518)]+0.5)
-local _0x46c018=_0xc96c19[25][_0x848d34(850832,305870,323248)](_0x2ed9ea[_0x848d34(1019968,240403,257730)]+0.5)
-local _0xc73216,_0x9f5aa5=nil,_0xc96c19[25][_0xe8ebea(431836,449568,589860)]
-for _0x6be084=-5,5 do
-for _0x5e4541=-(1803+_0xa81147(_0xfaf96b(1388,615),1)-1998),_0xea489d(_0x40b209[160],11)do
-for _0xacb1fb=-(_0x40b209[34]-135),(_0x40b209[26]-66)do
-local _0x2e763b=_0xc96c19[24][_0xe8ebea(268764,283493,103430)](_0x6427b7+_0x6be084,_0xb12f34+_0xacb1fb,_0x46c018+_0x5e4541)
-if _0x2979a9(_0x2e763b,_0x2ed9ea,_0x54fba6,_0xc96613,false)then
-local _0xb8def2=_0x2e763b+_0xc96c19[24][_0x848d34(183673,134618,149517)](0.5,0.05,0.5)
-local _0x05f473=_0xb8def2-_0x2ed9ea
-local _0x4f5570=_0x05f473[_0xd44ced(87156,128254,70430)]
-local _0x483641=_0xc96c19[_0x40b209[155]-46][_0x848d34(881372,264771,281695)](_0xc96c19[_0x40b209[200]-106][_0xd44ced(193372,712521,177382)](_0xc96c19[25][_0xe8ebea(489642,471345,114970)](_0x7fbd18[_0xe8ebea(422645,407560,60863)](_0x7fbd18,_0x4f5570),-(_0x40b209[220]-39),(3722+_0xa81147(_0xfaf96b(1593,2227),1)-3819))))
-local _0xb01706=_0xc96c19[24][_0xd44ced(372354,389827,387574)](_0xb8def2[_0xd44ced(480291,417080,463695)]-_0x2ed9ea[_0xd44ced(71781,4478,89865)],0,_0xb8def2[_0x848d34(948014,150653,133548)]-_0x2ed9ea[_0xd44ced(305688,527785,322934)])
-local _0xa301a4=(_0x40b209[51]-253)
-if _0xb01706[_0xe8ebea(457129,439047,536105)]>0.05 then
-_0xa301a4=_0xc96c19[25][_0xd44ced(395660,1043953,413237)](_0xc96c19[25][_0xd44ced(330054,861523,347900)](_0xc96c19[25][_0xd44ced(83484,142613,65610)](_0x36e8e4[_0x848d34(450206,330985,346866)](_0x36e8e4,_0xb01706[_0xd44ced(73279,114357,88405)]),-(_0x40b209[209]-129),_0xea489d(931472,931473))))
+local _0x96913f=_0xcca467[21][_0x248f80(471183,477137,596674)](_0x3e680b*0.5,(2230+_0x95b3ae(_0x6bafdb(365,2523),1)-2873))
+local _0xca22a0=_0xcca467[_0xc84f9e[197]-167][_0x3f0d21(373765,466260,370128)](_0x9f6209[_0x3f0d21(337787,104173,341081)]+0.5)
+local _0x7896ee=_0xcca467[21][_0x248f80(501516,512016,448447)](_0xf24718[_0x3f0d21(323271,282892,327140)]+0.5)
+local _0xa1cf2f=_0xcca467[21][_0x3f0d21(150799,58462,154842)](_0x9f6209[_0x2b4f7f(373137,417716,421551)]+0.5)
+local _0x3fcccd,_0xf436d0=nil,_0xcca467[_0xc84f9e[222]+10][_0x3f0d21(371745,40365,376652)]
+for _0xeb669a=-(431+_0x95b3ae(_0x6bafdb(457,102),1)-554),_0xfc82ca(1000802,1000807)do
+for _0x78f508=-(820+_0x95b3ae(_0x6bafdb(970,254),1)-1219),(2172+_0x95b3ae(_0x6bafdb(620,2576),1)-3191)do
+for _0x363b3e=-(_0xc84f9e[207]-119),_0xfc82ca(411211,411209)do
+local _0x4119a0=_0xcca467[3][_0x2b4f7f(907199,509829,521892)](_0xca22a0+_0xeb669a,_0x7896ee+_0x363b3e,_0xa1cf2f+_0x78f508)
+if _0x9d1822(_0x4119a0,_0x9f6209,_0xf24718,_0x747a73,false)then
+local _0x8e8e76=_0x4119a0+_0xcca467[3][_0x2b4f7f(531899,134529,146592)](0.5,0.05,0.5)
+local _0x16604f=_0x8e8e76-_0x9f6209
+local _0xa02778=_0x16604f[_0x248f80(109535,119736,218955)]
+local _0xe3f77d=_0xcca467[21][_0x3f0d21(173876,667535,177243)](_0xcca467[21][_0x3f0d21(218405,612408,214613)](_0xcca467[_0xc84f9e[81]-104][_0x248f80(513078,500579,858737)](_0xf44998[_0x248f80(77239,87298,670285)](_0xf44998,_0xa02778),-_0xfc82ca(_0xc84f9e[205],152),_0xfc82ca(_0xc84f9e[71],191))))
+local _0x1ec9c6=_0xcca467[3][_0x248f80(415585,405264,535942)](_0x8e8e76[_0x3f0d21(269058,43668,264224)]-_0x9f6209[_0x3f0d21(140741,431187,145127)],_0xfc82ca(739551,739551),_0x8e8e76[_0x248f80(478960,472731,51730)]-_0x9f6209[_0x2b4f7f(473394,317207,321036)])
+local _0x592a1c=_0xfc82ca(564172,564172)
+if _0x1ec9c6[_0x248f80(347288,341246,255778)]>0.05 then
+_0x592a1c=_0xcca467[_0xc84f9e[57]-134][_0x3f0d21(430980,924479,426219)](_0xcca467[21][_0x2b4f7f(1007166,192369,187926)](_0xcca467[21][_0x3f0d21(501261,963041,504835)](_0x1c9a51[_0x248f80(392620,361753,977494)](_0x1c9a51,_0x1ec9c6[_0x248f80(334850,353381,516246)]),-(_0xc84f9e[203]-78),(3014+_0x95b3ae(_0x6bafdb(2261,787),1)-3047))))
 end
-if _0xa301a4<=_0x41e125 and _0x483641<=_0xc96c19[_0x40b209[12]+10][_0xe8ebea(457540,439008,863795)](_0x41e125+(685+_0xa81147(_0xfaf96b(39,650),1)-661),_0xea489d(454128,454068))then
-local _0x94d71a=_0xb01706[_0xd44ced(517866,844006,500099)]
-local _0x678e5d=_0xb01706[_0xe8ebea(237613,256720,343911)](_0xb01706,_0x36e8e4)
-local _0x3760c5=_0xc96c19[_0x40b209[187]-198][_0x848d34(638584,311202,326256)](_0xc96c19[25][_0xe8ebea(226743,211987,565440)](_0xea489d(358130,358130),_0x94d71a*_0x94d71a-_0x678e5d*_0x678e5d))
-local _0x1617ca=(_0xb8def2-_0x9c32d9)[_0xd44ced(346757,937097,331244)]
-local _0xc35de9=_0xc96c19[25][_0xe8ebea(479586,465089,495989)](_0x2e763b[_0xd44ced(98210,921661,80079)]-_0xc96c19[25][_0xd44ced(508784,986828,492907)](_0x54fba6[_0xe8ebea(297071,312029,931424)]+0.2))
-local _0x2b1206=(_0xa301a4*0.42)+(_0x3760c5*3.2)+(_0x1617ca*1.15)+(_0xc35de9*0.65)
-if _0x2b1206<_0x9f5aa5 then
-_0x9f5aa5=_0x2b1206
-_0xc73216=_0x2e763b
-end
-end
+if _0x592a1c<=_0x96913f and _0xe3f77d<=_0xcca467[_0xc84f9e[121]-231][_0x2b4f7f(528269,147506,159804)](_0x96913f+_0xfc82ca(326399,326371),(1697+_0x95b3ae(_0x6bafdb(723,1138),1)-1793))then
+local _0x3a026e=_0x1ec9c6[_0x248f80(227755,197069,381457)]
+local _0x1934ed=_0x1ec9c6[_0x248f80(149863,143826,614045)](_0x1ec9c6,_0x1c9a51)
+local _0x23318d=_0xcca467[21][_0x3f0d21(254204,625205,259033)](_0xcca467[21][_0x248f80(497693,520003,635472)]((3477+_0x95b3ae(_0x6bafdb(2241,1364),1)-3605),_0x3a026e*_0x3a026e-_0x1934ed*_0x1934ed))
+local _0x0b696c=(_0x8e8e76-_0xbc693f)[_0x2b4f7f(408494,326366,314312)]
+local _0xd6d2a3=_0xcca467[21][_0x3f0d21(138136,760601,133518)](_0x4119a0[_0x2b4f7f(260624,326025,313491)]-_0xcca467[_0xc84f9e[99]-46][_0x2b4f7f(319628,128399,121411)](_0xf24718[_0x248f80(496327,518829,326552)]+0.2))
+local _0x7b276b=(_0x592a1c*0.42)+(_0x23318d*3.2)+(_0x0b696c*1.15)+(_0xd6d2a3*0.65)
+if _0x7b276b<_0xf436d0 then
+_0xf436d0=_0x7b276b
+_0x3fcccd=_0x4119a0
 end
 end
 end
 end
-if _0xc73216 then
-return _0xc73216,_0xd44ced(366598,838037,384713)
+end
+end
+if _0x3fcccd then
+return _0x3fcccd,_0x248f80(486106,466199,958861)
 end
 return nil,nil
 end
-local function _0xc1c877(_0x06f1bd,_0x162c97)
-local _0x3b6bc8=_0x0a7cca[_0xd44ced(443388,1033855,427467)]and _0x0a7cca[_0xd44ced(324296,915275,308479)][_0xe8ebea(383048,365257,997668)]
-if _0x3b6bc8 and _0x3b6bc8[_0x162c97]and _0x3b6bc8[_0x162c97][_0x848d34(708577,233518,251274)]==_0x06f1bd then
-return _0x162c97
+local function _0xfd8700(_0x6cb689,_0x5d4721)
+local _0xc66bf3=_0xe26196[_0x2b4f7f(749100,405468,393268)]and _0xe26196[_0x2b4f7f(816597,78885,72653)][_0x2b4f7f(794936,490464,477962)]
+if _0xc66bf3 and _0xc66bf3[_0x5d4721]and _0xc66bf3[_0x5d4721][_0x2b4f7f(122951,71807,75920)]==_0x6cb689 then
+return _0x5d4721
 end
-local _0x2cb074,_0xc4c01a=_0x52ee2b(function(_0x80e662)
-return _0x80e662[_0x848d34(1018779,447572,430576)]==_0x06f1bd
+local _0xcda6bd,_0x5422e7=_0x5e389c(function(_0xaf286a)
+return _0xaf286a[_0x3f0d21(366687,187445,363175)]==_0x6cb689
 end)
-if _0x2cb074 then
-_0x7ffb4d[_0x848d34(127909,326204,310942)]({[_0xe8ebea(473134,488120,724022)]=_0x848d34(985210,430363,447873),[_0x848d34(398394,385528,369741)]=_0xe8ebea(240733,255685,19092),[_0x848d34(648804,248115,232606)]=_0x2cb074+_0xea489d(853108,853118),[_0xd44ced(82857,578725,66813)]=_0x162c97})
-_0x0a7cca[_0xe8ebea(491908,510200,743001)][_0xd44ced(116090,980405,98886)][_0x162c97],_0x0a7cca[_0x848d34(867645,304220,319686)][_0x848d34(855396,373966,389486)][_0x2cb074]=_0xc4c01a,_0x0a7cca[_0xd44ced(389661,849822,373802)][_0xd44ced(269660,732563,285280)][_0x162c97]
-return _0x162c97
+if _0xcda6bd then
+_0x1536c7[_0x248f80(97815,67927,235134)]({[_0x248f80(451094,432729,1035745)]=_0x248f80(175691,186739,756271),[_0x3f0d21(178229,644323,174908)]=_0x3f0d21(398677,201098,394847),[_0x248f80(242354,248570,183355)]=_0xcda6bd+(3387+_0x95b3ae(_0x6bafdb(1086,2309),1)-3385),[_0x2b4f7f(503888,392245,380215)]=_0x5d4721})
+_0xe26196[_0x248f80(443841,439033,1040805)][_0x2b4f7f(667341,95253,83199)][_0x5d4721],_0xe26196[_0x3f0d21(217147,634265,213450)][_0x248f80(459369,490066,939278)][_0xcda6bd]=_0x5422e7,_0xe26196[_0x2b4f7f(983698,148322,158858)][_0x2b4f7f(926951,359999,347861)][_0x5d4721]
+return _0x5d4721
 end
 return nil
 end
-local function _0x4a25c2()
-if not _0x3571dc()then return end
-local _0xb36196=_0xc96c19[7][_0xe8ebea(78822,96580,121484)]()
-if _0xe931a0[_0xe8ebea(154998,136777,1008411)]or(_0xb36196-_0xe931a0[_0xd44ced(312390,993700,295869)])<0.18 then
+local function _0xcc3c78()
+if not _0x103a58()then return end
+local _0xd9b52d=_0xcca467[33][_0x3f0d21(519496,708588,523868)]()
+if _0xfa6a0f[_0x248f80(215980,209755,66719)]or(_0xd9b52d-_0xfa6a0f[_0x3f0d21(320382,17080,323791)])<0.18 then
 return
 end
-local _0x4275fc=_0x76c04c[_0xe8ebea(278956,265121,799433)][_0xd44ced(225946,1032922,210140)]
-local _0x32967b=_0x48c9eb[_0xd44ced(427787,973744,442699)]
-local _0x2ed9ea=_0x48c9eb[_0x848d34(8285,281231,265746)]()
-local _0x7fbd18=_0x48c9eb[_0xd44ced(274260,680199,289133)]()
-if not _0x32967b or not _0x2ed9ea or not _0x7fbd18 then return end
-local _0xc96613=_0x4275fc[_0xe8ebea(400444,415278,415479)][_0xd44ced(337426,435507,352365)]
-local _0x7f345d,_0xaa6f41=_0xe9fb10(_0x2ed9ea,_0x7fbd18,_0x32967b[_0xd44ced(403618,907299,421687)],_0xc96613,_0x4275fc[_0xd44ced(423682,992913,405965)][_0xd44ced(74684,172189,91587)])
-if not _0x7f345d then
-_0xa15292(_0xd44ced(67101,56573,85522))
-_0x0b0364(_0x848d34(34593,204545,219693),_0x848d34(672080,503277,519070),1.5)
+local _0x883746=_0x63be9c[_0x3f0d21(278499,752758,273820)][_0x2b4f7f(1004541,237747,233284)]
+local _0x1399f8=_0x9cbe51[_0x2b4f7f(240920,280199,289142)]
+local _0x9f6209=_0x9cbe51[_0x3f0d21(97666,191796,93302)]()
+local _0xf44998=_0x9cbe51[_0x2b4f7f(116953,92359,83757)]()
+if not _0x1399f8 or not _0x9f6209 or not _0xf44998 then return end
+local _0x747a73=_0x883746[_0x248f80(431822,450821,290937)][_0x2b4f7f(432829,169549,173664)]
+local _0x84169d,_0xdbf6f9=_0x8c6b93(_0x9f6209,_0xf44998,_0x1399f8[_0x2b4f7f(440693,126464,122690)],_0x747a73,_0x883746[_0x2b4f7f(1023200,144086,131755)][_0x2b4f7f(445008,181920,194189)])
+if not _0x84169d then
+_0xdd7a2f(_0x248f80(160593,133725,534001))
+_0x75164e(_0x2b4f7f(950974,378846,391081),_0x3f0d21(79621,902243,74947),1.5)
 return
 end
-local _0x3e5d34=_0xcfa2db(_0x7f345d)
-local _0x1208f1=_0x9919c5(_0x7f345d)
-local _0xa761e9=_0xc06ffa(function(_0x80e662,_0x8c3c53)
-return _0x80e662[_0x848d34(945568,471663,489419)]==_0xd44ced(145793,512936,160144)or(_0x8c3c53 and _0x8c3c53[_0xe8ebea(131001,111930,47964)]==_0xd44ced(389968,6521,375617))
+local _0x1494c7=_0x162466(_0x84169d)
+local _0x1ae165=_0x8686c3(_0x84169d)
+local _0xd56f89=_0xc53161(function(_0xaf286a,_0xe02d76)
+return _0xaf286a[_0x3f0d21(178570,392672,174962)]==_0x248f80(381830,371336,557207)or(_0xe02d76 and _0xe02d76[_0x2b4f7f(961436,409904,422364)]==_0x248f80(123142,104456,832023))
 end,5)
-if not _0x3e5d34 and not _0xa761e9 then
-_0xa15292(_0xd44ced(103880,83878,122330))
-_0x0b0364(_0xe8ebea(103447,122393,475641),_0xd44ced(437923,219501,452272),1.6)
+if not _0x1494c7 and not _0xd56f89 then
+_0xdd7a2f(_0x3f0d21(95176,911053,90112))
+_0x75164e(_0x248f80(423911,393248,612332),_0x2b4f7f(999554,490816,478336),1.6)
 return
 end
-local _0x80fb5c=_0xc06ffa(function(_0x80e662,_0x8c3c53)
-return _0x80e662[_0xe8ebea(291715,276741,549130)]==_0xe8ebea(306789,320828,988447)or(_0x8c3c53 and _0x8c3c53[_0xd44ced(250466,476966,234844)]==_0xd44ced(159043,791750,140630))
-end,(_0x40b209[82]-94))
-if not _0x80fb5c then
-_0xa15292(_0x848d34(158772,238650,254531))
-_0x0b0364(_0xe8ebea(425392,407486,43102),_0xd44ced(138763,632399,153116),1.6)
+local _0xccfb3e=_0xc53161(function(_0xaf286a,_0xe02d76)
+return _0xaf286a[_0x3f0d21(421638,76652,425470)]==_0x3f0d21(482026,138952,477472)or(_0xe02d76 and _0xe02d76[_0x2b4f7f(599824,118204,130384)]==_0x248f80(80648,82458,586152))
+end,(_0xc84f9e[148]-35))
+if not _0xccfb3e then
+_0xdd7a2f(_0x248f80(512782,502301,232618))
+_0x75164e(_0x248f80(207375,220616,788996),_0x2b4f7f(681541,470931,466519),1.6)
 return
 end
-local _0x7f5954=nil
-if _0x4275fc[_0xd44ced(415621,235947,397654)][_0xe8ebea(494731,509263,122188)]and not _0x1208f1 then
-_0x7f5954=_0xc06ffa(function(_0x80e662,_0x8c3c53)
-return _0x80e662[_0xd44ced(263296,903085,279489)]==_0x848d34(989453,437026,453977)or(_0x8c3c53 and _0x8c3c53[_0x848d34(95669,359443,342450)]==_0x848d34(380282,226170,210182))
-end,(2121+_0xa81147(_0xfaf96b(2618,627),1)-3238))
+local _0x96b722=nil
+if _0x883746[_0x248f80(189008,169345,46433)][_0x3f0d21(136852,108086,132258)]and not _0x1ae165 then
+_0x96b722=_0xc53161(function(_0xaf286a,_0xe02d76)
+return _0xaf286a[_0x2b4f7f(158878,169126,173129)]==_0x248f80(192502,169699,388338)or(_0xe02d76 and _0xe02d76[_0x248f80(517784,499364,747172)]==_0x248f80(441140,442914,129105))
+end,(263+_0x95b3ae(_0x6bafdb(870,609),1)-1472))
 end
-local _0xa35b3f,_0x3995bf=_0xd5a614(function(_0x80e662,_0x8c3c53)
-return(_0x80e662[_0x848d34(950588,515827,498519)]==_0x848d34(811535,160713,144820)or(_0x8c3c53 and _0x8c3c53[_0xd44ced(393928,169868,411126)]==_0x848d34(767447,369681,385644)))and _0x80e662[_0xd44ced(332293,1016451,350750)]==true
+local _0x16c482,_0xa718b7=_0x6ac942(function(_0xaf286a,_0xe02d76)
+return(_0xaf286a[_0x248f80(317789,303458,19446)]==_0x248f80(266975,289736,299774)or(_0xe02d76 and _0xe02d76[_0x2b4f7f(773313,206445,202369)]==_0x3f0d21(373477,451885,368949)))and _0xaf286a[_0x248f80(233705,256497,377796)]==true
 end)
-if not _0xa35b3f then
-_0xa35b3f,_0x3995bf=_0xc06ffa(function(_0x80e662,_0x8c3c53)
-return _0x80e662[_0x848d34(916385,304238,319946)]==_0xd44ced(286261,709393,267823)or(_0x8c3c53 and _0x8c3c53[_0xd44ced(92168,392524,77622)]==_0xd44ced(284715,709903,266289))
+if not _0x16c482 then
+_0x16c482,_0xa718b7=_0xc53161(function(_0xaf286a,_0xe02d76)
+return _0xaf286a[_0x248f80(399860,418251,166751)]==_0x2b4f7f(49925,272543,268632)or(_0xe02d76 and _0xe02d76[_0x248f80(153509,143257,972697)]==_0x248f80(105912,124079,73113))
 end,4)
 end
-local _0xba2032,_0x63a5f9=_0xd5a614(function(_0x80e662,_0x8c3c53)
-return _0x80e662[_0x848d34(989718,411097,393341)]==_0xd44ced(105252,207230,119608)or(_0x8c3c53 and _0x8c3c53[_0xe8ebea(402587,421400,483454)]==_0xd44ced(383705,485507,365253))
+local _0x5c565c,_0xb645f5=_0x6ac942(function(_0xaf286a,_0xe02d76)
+return _0xaf286a[_0x3f0d21(392977,179067,388585)]==_0x2b4f7f(1001728,98900,111517)or(_0xe02d76 and _0xe02d76[_0x3f0d21(465759,544161,461226)]==_0x248f80(439695,445590,791918))
 end)
-if not _0xa35b3f and not _0xba2032 then
-_0xa15292(_0xd44ced(333409,909552,351868))
-_0x0b0364(_0xd44ced(97950,162396,79959),_0xd44ced(483761,960247,469423),1.6)
+if not _0x16c482 and not _0x5c565c then
+_0xdd7a2f(_0x3f0d21(120254,932965,116333))
+_0x75164e(_0x3f0d21(511583,735085,515295),_0x3f0d21(85937,783156,89189),1.6)
 return
 end
-_0xe931a0[_0xd44ced(336359,905111,353821)]=true
-_0xe931a0[_0xd44ced(442211,873089,456856)]=_0xb36196
-_0xc96c19[21][_0xe8ebea(307654,326499,935981)](function()
-local _0x424f83,_0x41ea9d=_0xc96c19[27](function()
-local _0x835702=_0x0a7cca[_0xd44ced(328852,786711,344739)][_0xe8ebea(367194,381126,649609)]
-if _0x0a7cca[_0xe8ebea(124386,110456,449510)]then
-_0xc96c19[27](_0x0a7cca[_0xe8ebea(261345,243322,795160)],false)
+_0xfa6a0f[_0x2b4f7f(459522,75370,71629)]=true
+_0xfa6a0f[_0x3f0d21(371698,68148,374851)]=_0xd9b52d
+_0xcca467[8][_0x2b4f7f(419829,392896,381270)](function()
+local _0xd29fd5,_0x9509fa=_0xcca467[16](function()
+local _0xc4de2c=_0xe26196[_0x2b4f7f(790338,85682,90458)][_0x3f0d21(94409,768357,91079)]
+if _0xe26196[_0x2b4f7f(437937,385669,381830)]then
+_0xcca467[_0xc84f9e[120]-82](_0xe26196[_0x248f80(460337,491109,879780)],false)
 end
-local _0x53c68e=_0x48c9eb[_0x848d34(513357,245663,260866)]()or _0x2ed9ea
-local _0xcb659c=_0x7f345d+_0xc96c19[24][_0x848d34(179671,163188,145571)](0.5,0.05,0.5)
-local _0x6e128c=_0x7f345d+_0xc96c19[24][_0x848d34(370711,354484,339299)](0.5,0.35,0.5)
-local _0xc37bc2,_0xef7f4b,_0xa16416=_0xfe0544(_0x53c68e,_0xcb659c)
-local _0x916586,_0xb8d479,_0xf90f66=_0xfe0544(_0x53c68e,_0x6e128c)
-if _0x4275fc[_0xd44ced(388077,414910,372080)][_0xd44ced(360292,457797,342299)]==_0xd44ced(238002,907936,255762)then
-_0x48c9eb[_0xe8ebea(254327,240589,696396)]=_0x916586
-_0x48c9eb[_0xd44ced(154622,505558,138376)]=_0xc96c19[_0x40b209[182]-59][_0xe8ebea(464047,482612,109855)](_0xb8d479,-1.55,1.55)
+local _0xfbc84c=_0x9cbe51[_0x2b4f7f(492928,239972,231055)]()or _0x9f6209
+local _0x6ed2ad=_0x84169d+_0xcca467[_0xc84f9e[84]-165][_0x2b4f7f(535886,146804,134229)](0.5,0.05,0.5)
+local _0x80ca5a=_0x84169d+_0xcca467[3][_0x2b4f7f(722853,71583,75454)](0.5,0.35,0.5)
+local _0x883480,_0x9535d6,_0x060dd3=_0xcaa641(_0xfbc84c,_0x6ed2ad)
+local _0xcf5865,_0x773ba9,_0xa2e037=_0xcaa641(_0xfbc84c,_0x80ca5a)
+if _0x883746[_0x3f0d21(241851,216734,238319)][_0x3f0d21(326140,477534,322506)]==_0x3f0d21(67725,767809,72410)then
+_0x9cbe51[_0x3f0d21(246929,530069,251834)]=_0xcf5865
+_0x9cbe51[_0x2b4f7f(892892,442915,455424)]=_0xcca467[_0xc84f9e[225]-221][_0x3f0d21(183120,777404,186718)](_0x773ba9,-1.55,1.55)
 end
-if _0x4275fc[_0x848d34(58513,374365,389995)][_0x848d34(339208,406219,423465)]and not _0x1208f1 and _0x7f5954 then
-if _0x0a7cca[_0xe8ebea(456917,438697,667400)][_0x848d34(820863,375024,392522)]~=_0x7f5954 then
-_0x0a7cca[_0x848d34(297864,308728,323937)](_0x7f5954)
+if _0x883746[_0x248f80(522890,494939,372155)][_0x3f0d21(483052,323150,478426)]and not _0x1ae165 and _0x96b722 then
+if _0xe26196[_0x3f0d21(120016,731506,116001)][_0x2b4f7f(1030399,183553,195588)]~=_0x96b722 then
+_0xe26196[_0x3f0d21(84440,176809,88104)](_0x96b722)
 end
-_0x7ffb4d[_0xd44ced(232636,399815,248451)]({
-[_0xd44ced(489885,957489,474828)]=_0xd44ced(371043,512845,388667),
-[_0x848d34(928184,446349,428593)]=_0x848d34(695544,337657,353092),
-[_0xd44ced(215253,853638,200428)]=_0xa16416,
-[_0xd44ced(151573,774981,137038)]=_0x848d34(658825,245670,260573),
-[_0x848d34(870644,165501,180244)]=_0x7f345d,
-[_0xe8ebea(388564,370308,411417)]=_0xc96c19[_0x40b209[143]-126][_0xd44ced(498639,509838,515259)]((1197+_0xa81147(_0xfaf96b(501,1368),1)-1869),_0xea489d(_0x40b209[93],60),_0xea489d(723845,723845)),
-[_0xe8ebea(81592,95708,941654)]=(1669+_0xa81147(_0xfaf96b(352,2021),1)-2372),
+_0x1536c7[_0x2b4f7f(275873,178212,169940)]({
+[_0x2b4f7f(977664,241172,237291)]=_0x248f80(132909,163707,990229),
+[_0x248f80(270791,285072,620187)]=_0x248f80(391829,361165,477118),
+[_0x248f80(483409,464747,239065)]=_0x060dd3,
+[_0x3f0d21(228229,967128,223383)]=_0x248f80(357634,330775,161286),
+[_0x3f0d21(274170,709490,277830)]=_0x84169d,
+[_0x248f80(425885,394901,617455)]=_0xcca467[3][_0x3f0d21(466959,691303,471845)]((3690+_0x95b3ae(_0x6bafdb(170,3776),1)-3946),(2524+_0x95b3ae(_0x6bafdb(868,2744),1)-3611),(738+_0x95b3ae(_0x6bafdb(149,631),1)-780)),
+[_0x2b4f7f(777286,346217,358821)]=_0xfc82ca(211648,211649),
 })
 end
-if not _0x3e5d34 and _0xa761e9 then
-if _0x0a7cca[_0xe8ebea(358208,343612,630941)][_0x848d34(923881,468582,484316)]~=_0xa761e9 then
-_0x0a7cca[_0xd44ced(168664,143434,185582)](_0xa761e9)
+if not _0x1494c7 and _0xd56f89 then
+if _0xe26196[_0x248f80(374593,376953,824101)][_0x3f0d21(86944,760332,82094)]~=_0xd56f89 then
+_0xe26196[_0x2b4f7f(414080,136867,145732)](_0xd56f89)
 end
-_0x7ffb4d[_0xe8ebea(116951,98643,102154)]({
-[_0xd44ced(207976,707012,224057)]=_0x848d34(380889,469269,486574),
-[_0xd44ced(473744,999495,490953)]=_0xd44ced(218075,816440,201857),
-[_0xe8ebea(402909,421027,899538)]=_0xa16416,
-[_0xe8ebea(264381,279069,547439)]=_0xe8ebea(471453,490187,461760),
-[_0xd44ced(519359,573140,500921)]=_0x7f345d,
+_0x1536c7[_0x3f0d21(116243,63428,120810)]({
+[_0x2b4f7f(815444,78912,66751)]=_0x248f80(451940,433458,786012),
+[_0x248f80(199228,225899,941408)]=_0x3f0d21(409380,480425,404533),
+[_0x248f80(246947,242585,459051)]=_0x060dd3,
+[_0x3f0d21(184582,1010523,180756)]=_0x2b4f7f(907560,319899,315429),
+[_0x248f80(154394,139801,1012079)]=_0x84169d,
 })
 end
-local _0xd3ff9b=_0xc96c19[_0x40b209[26]-43][_0xd44ced(313398,500543,298592)](_0xc96c19[_0x40b209[93]-36][_0xd44ced(349134,892530,333269)](_0x4275fc[_0x848d34(780372,137505,154645)][_0xe8ebea(169729,188101,313030)]+0.5),_0xea489d(650928,650929),_0xea489d(_0x40b209[196],134))
-local _0xfee0f1=_0xea489d(10130,10130)
-local _0xe9b299=_0x80fb5c
-for _0x85d2fd=(_0x40b209[22]-84),_0xd3ff9b do
-local _0x45bc2c=(_0x85d2fd==(_0x40b209[210]-88))and _0x80fb5c or _0xd5a614(function(_0x80e662,_0x8c3c53)
-return _0x80e662[_0xe8ebea(291825,276855,549240)]==_0xe8ebea(192281,173120,611427)or(_0x8c3c53 and _0x8c3c53[_0xe8ebea(184641,170946,234916)]==_0xd44ced(200296,882669,214653))
+local _0x96b495=_0xcca467[_0xc84f9e[194]-162][_0x248f80(277392,281797,980439)](_0xcca467[21][_0x248f80(519880,498132,433787)](_0x883746[_0x3f0d21(167598,407205,171046)][_0x248f80(398674,418351,425075)]+0.5),_0xfc82ca(887474,887475),3)
+local _0xb70263=_0xfc82ca(_0xc84f9e[91],226)
+local _0x12ac0c=_0xccfb3e
+for _0x98880d=(604+_0x95b3ae(_0x6bafdb(723,143),1)-865),_0x96b495 do
+local _0xd5d92d=(_0x98880d==_0xfc82ca(199249,199248))and _0xccfb3e or _0x6ac942(function(_0xaf286a,_0xe02d76)
+return _0xaf286a[_0x2b4f7f(213007,243767,231640)]==_0x3f0d21(216660,395894,220574)or(_0xe02d76 and _0xe02d76[_0x3f0d21(390548,697194,386913)]==_0x2b4f7f(729901,426547,439281))
 end)
-if not _0x45bc2c and _0xe9b299 then
-_0x45bc2c=_0xc1c877(_0xd44ced(487854,596655,473530),_0xe9b299)
+if not _0xd5d92d and _0x12ac0c then
+_0xd5d92d=_0xfd8700(_0x2b4f7f(10741,184709,188484),_0x12ac0c)
 end
-if not _0x45bc2c then break end
-_0xe9b299=_0x45bc2c
-if _0x0a7cca[_0x848d34(900761,272376,287586)][_0x848d34(830394,365877,381071)]~=_0x45bc2c then
-_0x0a7cca[_0xd44ced(72873,114235,88735)](_0x45bc2c)
+if not _0xd5d92d then break end
+_0x12ac0c=_0xd5d92d
+if _0xe26196[_0x2b4f7f(735890,424802,414858)][_0x248f80(209910,215971,666865)]~=_0xd5d92d then
+_0xe26196[_0x3f0d21(486562,301011,490834)](_0xd5d92d)
 end
-_0x7ffb4d[_0x848d34(263079,68158,85660)]({
-[_0x848d34(660511,224593,207077)]=_0x848d34(66929,254909,239110),
-[_0x848d34(903568,339877,354841)]=_0xe8ebea(383456,365439,995006),
-[_0xd44ced(88867,988528,72986)]=_0xa16416,
-[_0x848d34(553852,93390,76144)]=_0x848d34(755524,356519,341712),
-[_0xd44ced(96995,927880,78565)]=_0x7f345d,
+_0x1536c7[_0x3f0d21(457837,511418,454036)]({
+[_0x2b4f7f(1002618,133486,145809)]=_0x2b4f7f(866643,280721,293271),
+[_0x3f0d21(167201,789716,171569)]=_0x248f80(72062,90406,238677),
+[_0x2b4f7f(67793,108751,100133)]=_0x060dd3,
+[_0x2b4f7f(868041,473286,461263)]=_0x3f0d21(222721,401955,226763),
+[_0x2b4f7f(811906,336472,332779)]=_0x84169d,
 })
-_0x0a7cca[_0x848d34(792977,360688,377962)][_0xe8ebea(215313,197520,632957)][_0x45bc2c]=nil
-_0xfee0f1=_0xfee0f1+(_0x40b209[209]-129)
+_0xe26196[_0x248f80(503262,514790,952762)][_0x2b4f7f(632497,195689,183427)][_0xd5d92d]=nil
+_0xb70263=_0xb70263+_0xfc82ca(_0xc84f9e[9],73)
 end
-if _0x4275fc[_0xd44ced(487407,699626,469306)][_0xd44ced(450442,351403,432629)]and _0xe9b299 then
-_0xc1c877(_0xe8ebea(367009,381688,926427),_0xe9b299)
+if _0x883746[_0x3f0d21(399951,961767,395459)][_0x248f80(414904,402373,408985)]and _0x12ac0c then
+_0xfd8700(_0x3f0d21(249193,428363,253603),_0x12ac0c)
 end
-local _0xe2ce68=false
-if _0xa35b3f and _0x3995bf and _0x3995bf[_0x848d34(1020747,368431,383313)]==true then
-if _0x0a7cca[_0xe8ebea(282883,268415,558814)][_0xe8ebea(341836,359888,607391)]~=_0xa35b3f then
-_0x0a7cca[_0x848d34(136423,141975,159246)](_0xa35b3f)
+local _0x481a67=false
+if _0x16c482 and _0xa718b7 and _0xa718b7[_0x2b4f7f(502131,365034,368674)]==true then
+if _0xe26196[_0x248f80(480955,467331,946911)][_0x3f0d21(191309,533217,194627)]~=_0x16c482 then
+_0xe26196[_0x2b4f7f(108976,388755,377204)](_0x16c482)
 end
-_0x7ffb4d[_0xd44ced(498500,134719,515451)]({
-[_0x848d34(993239,417433,400173)]=_0xd44ced(352811,464901,337267),
-[_0x848d34(809145,310924,326448)]=_0xd44ced(206572,786447,221622),
-[_0xe8ebea(136971,155253,625412)]=_0xf90f66,
-[_0x848d34(543089,87747,70525)]=_0xd44ced(122776,1004220,104322),
+_0x1536c7[_0x3f0d21(211300,133299,207005)]({
+[_0x3f0d21(76947,775637,81819)]=_0x2b4f7f(784879,165933,178475),
+[_0x248f80(244745,246878,977749)]=_0x3f0d21(253129,177988,249816),
+[_0x3f0d21(82952,415812,87547)]=_0xa2e037,
+[_0x248f80(314603,308402,696337)]=_0x248f80(244211,245988,211410),
 })
-_0x3995bf[_0xe8ebea(75987,91059,944151)]=false
-_0xe2ce68=true
-elseif _0xa35b3f and _0x3995bf then
-if _0x0a7cca[_0xd44ced(378150,835749,361233)][_0xe8ebea(115971,102303,898768)]~=_0xa35b3f then
-_0x0a7cca[_0xd44ced(139544,164746,157486)](_0xa35b3f)
+_0xa718b7[_0x3f0d21(73134,301413,69247)]=false
+_0x481a67=true
+elseif _0x16c482 and _0xa718b7 then
+if _0xe26196[_0x248f80(184259,178427,781223)][_0x248f80(235740,254089,690139)]~=_0x16c482 then
+_0xe26196[_0x2b4f7f(186923,433416,439023)](_0x16c482)
 end
-local _0xe42bad=_0xa0d11b[_0x848d34(285422,435123,452385)](_0x3995bf,_0xe8ebea(499218,513399,63785))
-local _0x3431ac=(_0x051b28[_0x848d34(352498,324072,309100)]and _0x051b28[_0x848d34(368784,274826,292622)](_0xe42bad))or _0xc96c19[25][_0x848d34(795950,179773,195327)](_0xea489d(_0x40b209[110],43),_0xea489d(428144,428137)-_0xe42bad*(_0x40b209[190]-153))
-_0x7ffb4d[_0xd44ced(492316,136807,509219)]({[_0xe8ebea(435817,453887,692849)]=_0xd44ced(332134,1040588,350532),[_0xe8ebea(305441,320447,590410)]=_0x848d34(739441,324208,309197),[_0xd44ced(279102,658541,263175)]=_0xf90f66})
-_0xc96c19[_0x40b209[139]-131][_0xd44ced(470591,626628,484892)](_0x3431ac*(_0xf9a9e4[_0x848d34(402737,415955,400980)]or 0.05)+0.04)
-local _0x69048c=_0x48c9eb[_0xd44ced(118022,342838,101180)]()or _0x53c68e
-local _0xbc6afd,_0xbc6afd,_0x5b076a=_0xfe0544(_0x69048c,_0x6e128c)
-_0x7ffb4d[_0x848d34(60820,386061,368815)]({[_0x848d34(877340,268882,286694)]=_0x848d34(162194,490287,474535),[_0xd44ced(504903,764089,523361)]=_0x3431ac,[_0xd44ced(309845,717830,326764)]=_0x5b076a})
-_0x3995bf[_0xe8ebea(288870,271110,731298)]=true
-_0xc96c19[21][_0xe8ebea(169006,188230,648607)](0.03)
-_0x7ffb4d[_0xe8ebea(349349,335137,332664)]({
-[_0xd44ced(510769,929437,494688)]=_0x848d34(384164,473704,491475),
-[_0xe8ebea(288552,273846,642115)]=_0xd44ced(130261,973366,113551),
-[_0xe8ebea(76377,90919,702038)]=_0x5b076a,
-[_0x848d34(715571,259201,241983)]=_0x848d34(664987,275549,291360),
+local _0x66fbcc=_0x01ee70[_0x248f80(165302,193158,836609)](_0xa718b7,_0x3f0d21(311745,1029254,315927))
+local _0xb8d7f7=(_0x27be62[_0x248f80(165034,196020,528153)]and _0x27be62[_0x248f80(189926,171256,552533)](_0x66fbcc))or _0xcca467[21][_0x248f80(122114,109148,1046351)]((1377+_0x95b3ae(_0x6bafdb(1306,123),1)-1424),(587+_0x95b3ae(_0x6bafdb(1272,1715),1)-2962)-_0x66fbcc*(412+_0x95b3ae(_0x6bafdb(68,472),1)-535))
+_0x1536c7[_0x3f0d21(297645,375674,301908)]({[_0x2b4f7f(800452,95184,82735)]=_0x2b4f7f(211100,296006,308617),[_0x3f0d21(157768,846269,162648)]=_0x248f80(147222,149326,33341),[_0x2b4f7f(108122,67140,76206)]=_0xa2e037})
+_0xcca467[8][_0x3f0d21(497307,37961,492866)](_0xb8d7f7*(_0xdc6df0[_0x248f80(466243,484450,1037834)]or 0.05)+0.04)
+local _0xb70d42=_0x9cbe51[_0x2b4f7f(55578,325118,317973)]()or _0xfbc84c
+local _0x1127a1,_0x1127a1,_0xf0cc57=_0xcaa641(_0xb70d42,_0x80ca5a)
+_0x1536c7[_0x2b4f7f(513736,88909,95421)]({[_0x248f80(344293,342186,814866)]=_0x2b4f7f(148232,316948,321478),[_0x2b4f7f(895274,431129,435658)]=_0xb8d7f7,[_0x248f80(397558,419788,185726)]=_0xf0cc57})
+_0xa718b7[_0x2b4f7f(63616,180249,192977)]=true
+_0xcca467[8][_0x248f80(145319,151175,451243)](0.03)
+_0x1536c7[_0x3f0d21(248427,195516,252818)]({
+[_0x3f0d21(173454,548040,177798)]=_0x2b4f7f(708963,237729,233895),
+[_0x248f80(279420,277291,594976)]=_0x3f0d21(421401,460180,425224),
+[_0x2b4f7f(272338,296908,305190)]=_0xf0cc57,
+[_0x248f80(521092,494557,630654)]=_0x248f80(275714,281621,308515),
 })
-_0x3995bf[_0x848d34(929126,270594,288636)]=false
-_0xe2ce68=true
-elseif _0xba2032 then
-if _0x0a7cca[_0x848d34(929775,505486,520724)][_0xd44ced(508879,942498,492696)]~=_0xba2032 then
-_0x0a7cca[_0xd44ced(156525,180735,140635)](_0xba2032)
+_0xa718b7[_0x248f80(268409,287073,150356)]=false
+_0x481a67=true
+elseif _0x5c565c then
+if _0xe26196[_0x2b4f7f(708526,495198,500150)][_0x2b4f7f(545865,336311,331954)]~=_0x5c565c then
+_0xe26196[_0x2b4f7f(173239,451476,445555)](_0x5c565c)
 end
-_0x7ffb4d[_0xe8ebea(500075,518383,517814)]({[_0xe8ebea(484938,470236,741970)]=_0x848d34(898517,514205,499224),[_0x848d34(717327,136250,151942)]=_0xe8ebea(73734,92825,776024),[_0x848d34(558437,415700,398152)]=_0xf90f66})
-_0xc96c19[_0x40b209[18]-123][_0x848d34(1043754,118835,104117)](0.16)
-local _0x69048c=_0x48c9eb[_0x848d34(516467,232353,249660)]()or _0x53c68e
-local _0xbc6afd,_0xbc6afd,_0x5b076a=_0xfe0544(_0x69048c,_0x6e128c)
-_0x7ffb4d[_0x848d34(99970,298779,314297)]({[_0xd44ced(471969,972301,488688)]=_0xd44ced(224184,456167,205725),[_0x848d34(999378,245710,260423)]=(_0x40b209[132]-123),[_0xd44ced(240342,910469,257263)]=_0x5b076a})
-_0xe2ce68=true
+_0x1536c7[_0x3f0d21(352401,282950,356712)]({[_0x3f0d21(262233,981279,267089)]=_0x2b4f7f(362408,146290,133821),[_0x3f0d21(270567,696594,275447)]=_0x248f80(520091,497603,348848),[_0x3f0d21(523663,57795,519292)]=_0xa2e037})
+_0xcca467[8][_0x3f0d21(237616,303842,242665)](0.16)
+local _0xb70d42=_0x9cbe51[_0x2b4f7f(189181,445977,451058)]()or _0xfbc84c
+local _0x1127a1,_0x1127a1,_0xf0cc57=_0xcaa641(_0xb70d42,_0x80ca5a)
+_0x1536c7[_0x3f0d21(470063,400888,474582)]({[_0x248f80(499363,517868,962900)]=_0x248f80(224903,202661,102421),[_0x2b4f7f(713206,122053,126230)]=(523+_0x95b3ae(_0x6bafdb(410,913),1)-1319),[_0x248f80(87271,74717,364911)]=_0xf0cc57})
+_0x481a67=true
 end
-local _0xe72d3e=(_0xcb659c-_0x53c68e)[_0xd44ced(84191,675539,69558)]
-_0xa15292(_0xc96c19[9][_0xd44ced(358426,356493,343528)](_0x848d34(976062,129902,114148),_0xaa6f41 or _0x848d34(1013488,387595,371840),_0xe72d3e))
-_0x0b0364(_0x848d34(438513,338129,355837),_0xc96c19[_0x40b209[9]-24][_0x848d34(68391,106322,121607)](_0xe8ebea(486287,467169,1013822),_0xaa6f41==_0xd44ced(67523,546384,82188)and _0xe8ebea(478169,458934,194305)or _0x848d34(723144,103475,119480),_0xe72d3e,_0xfee0f1,_0xfee0f1>1 and _0xd44ced(306595,594867,320904)or _0xe8ebea(184960,170919,97566)),1.8)
-if _0x4275fc[_0xe8ebea(345872,331020,241809)][_0x848d34(76982,144245,161687)]and _0xa35b3f and _0x3995bf and not _0x3995bf[_0xe8ebea(418921,405257,599213)]and _0x3571dc()then
-if _0x0a7cca[_0xd44ced(387918,847565,372089)][_0x848d34(1011697,414078,398532)]~=_0xa35b3f then
-_0x0a7cca[_0x848d34(432586,436154,451363)](_0xa35b3f)
+local _0x1255db=(_0x6ed2ad-_0xfbc84c)[_0x248f80(297523,324181,139657)]
+_0xdd7a2f(_0xcca467[34][_0x248f80(145430,151250,909168)](_0x3f0d21(210201,1045824,206532),_0xdbf6f9 or _0x2b4f7f(758126,380576,393077),_0x1255db))
+_0x75164e(_0x3f0d21(255217,990659,259697),_0xcca467[34][_0x3f0d21(278387,524335,273934)](_0x248f80(230173,260667,15558),_0xdbf6f9==_0x3f0d21(388418,1048358,393156)and _0x3f0d21(90115,322059,95203)or _0x2b4f7f(800995,157485,153336),_0x1255db,_0xb70263,_0xb70263>_0xfc82ca(760567,760566)and _0x2b4f7f(759962,267003,271139)or _0x2b4f7f(696696,333675,342031)),1.8)
+if _0x883746[_0x248f80(126724,104657,669842)][_0x248f80(395841,425276,418656)]and _0x16c482 and _0xa718b7 and not _0xa718b7[_0x2b4f7f(391164,511845,523949)]and _0x103a58()then
+if _0xe26196[_0x248f80(505844,508108,955280)][_0x3f0d21(85762,755374,89100)]~=_0x16c482 then
+_0xe26196[_0x3f0d21(298586,488747,303018)](_0x16c482)
 end
-local _0xe42bad=_0xa0d11b[_0xe8ebea(324047,309435,214566)](_0x3995bf,_0xe8ebea(169052,188217,389991))
-local _0x3431ac=(_0x051b28[_0xe8ebea(275452,293018,60992)]and _0x051b28[_0x848d34(273546,376208,391956)](_0xe42bad))or _0xc96c19[_0x40b209[208]-23][_0xd44ced(402681,533256,418470)](_0xea489d(_0x40b209[149],142),_0xea489d(279901,279876)-_0xe42bad*(_0x40b209[81]-203))
-_0x7ffb4d[_0x848d34(282694,88543,73085)]({[_0xe8ebea(170412,185146,961972)]=_0x848d34(582713,166257,184308),[_0xe8ebea(282107,264037,648848)]=_0xd44ced(428784,633875,445866),[_0x848d34(685654,304359,319611)]=_0x48c9eb[_0xd44ced(218211,858672,201306)]()})
-_0xc96c19[21][_0xd44ced(201895,898396,220292)](_0x3431ac*(_0xf9a9e4[_0xe8ebea(490450,471227,150169)]or 0.05)+0.04)
-if _0x3571dc()and _0x0a7cca[_0xd44ced(144614,733541,160465)][_0xd44ced(261211,679478,244492)]==_0xa35b3f then
-_0x7ffb4d[_0x848d34(314745,115936,98370)]({[_0x848d34(944863,463761,480805)]=_0x848d34(169616,496685,512677),[_0xe8ebea(419362,404809,1026709)]=_0x3431ac,[_0xe8ebea(334200,348166,951671)]=_0x48c9eb[_0xe8ebea(480472,466342,837847)]()})
-_0x3995bf[_0x848d34(950257,291733,275947)]=true
+local _0x66fbcc=_0x01ee70[_0x2b4f7f(776613,130446,119406)](_0xa718b7,_0x3f0d21(232512,588039,237462))
+local _0xb8d7f7=(_0x27be62[_0x248f80(166405,193307,524726)]and _0x27be62[_0x248f80(142987,153493,566584)](_0x66fbcc))or _0xcca467[21][_0x248f80(435550,446976,560915)](_0xfc82ca(_0xc84f9e[212],227),_0xfc82ca(752425,752432)-_0x66fbcc*(_0xc84f9e[253]-78))
+_0x1536c7[_0x3f0d21(358270,280233,353927)]({[_0x3f0d21(220074,631532,215202)]=_0x248f80(293787,262788,503026),[_0x2b4f7f(580909,123018,119181)]=_0x248f80(499109,517629,336014),[_0x2b4f7f(366439,341881,333971)]=_0x9cbe51[_0x3f0d21(189596,391376,193903)]()})
+_0xcca467[8][_0x248f80(92297,70057,376197)](_0xb8d7f7*(_0xdc6df0[_0x2b4f7f(765313,462149,474260)]or 0.05)+0.04)
+if _0x103a58()and _0xe26196[_0x2b4f7f(533281,352977,347449)][_0x248f80(376837,374864,843522)]==_0x16c482 then
+_0x1536c7[_0x248f80(213450,210570,108963)]({[_0x248f80(438097,448286,1015974)]=_0x2b4f7f(280405,184905,189339),[_0x248f80(129117,98686,962273)]=_0xb8d7f7,[_0x3f0d21(245249,303693,241650)]=_0x9cbe51[_0x2b4f7f(228689,253263,258725)]()})
+_0xa718b7[_0x248f80(313334,311022,169179)]=true
 end
 end
-if _0x4275fc[_0x848d34(194287,200407,216026)][_0x848d34(284153,477754,462552)]and _0x835702 and _0x835702>=_0xea489d(478828,478829)and _0x835702<=(835+_0xa81147(_0xfaf96b(639,316),1)-946)and _0x3571dc()then
-_0xc96c19[_0x40b209[247]-174][_0xd44ced(285765,720318,267366)](0.03)
-if _0x0a7cca[_0x848d34(883075,319714,304248)][_0x848d34(674865,225982,210692)]~=_0x835702 then
-_0x0a7cca[_0xe8ebea(92754,74537,268953)](_0x835702)
+if _0x883746[_0x2b4f7f(686792,228560,216200)][_0x248f80(374352,377133,384881)]and _0xc4de2c and _0xc4de2c>=(783+_0x95b3ae(_0x6bafdb(473,726),1)-1198)and _0xc4de2c<=(422+_0x95b3ae(_0x6bafdb(394,44),1)-429)and _0x103a58()then
+_0xcca467[_0xc84f9e[134]-96][_0x248f80(164795,195227,415415)](0.03)
+if _0xe26196[_0x2b4f7f(963016,258104,253904)][_0x248f80(314931,308838,905524)]~=_0xc4de2c then
+_0xe26196[_0x3f0d21(388173,399164,392637)](_0xc4de2c)
 end
 end
 end)
-if not _0x424f83 then
-_0x4624b2[_0xe8ebea(349340,335853,237147)](_0x848d34(282942,190868,175876).. _0xc96c19[20](_0x41ea9d))
+if not _0xd29fd5 then
+_0xa72073[_0x3f0d21(163501,771116,159055)](_0x2b4f7f(444071,243112,230514).. _0xcca467[30](_0x9509fa))
 end
-_0xe931a0[_0xe8ebea(322114,303485,644143)]=false
+_0xfa6a0f[_0x3f0d21(343704,305058,339240)]=false
 end)
 end
-local _0xd6d13c={
-[_0xd44ced(188477,114694,174099)]=(146+_0xa81147(_0xfaf96b(1202,1056),1)-2258),
-[_0x848d34(840315,126748,108942)]=0.095,
-[_0xe8ebea(388202,370463,591089)]=_0xea489d(_0x40b209[200],131),
+local _0x7a6dbd={
+[_0x2b4f7f(466539,467666,463625)]=_0xfc82ca(239404,239404),
+[_0x2b4f7f(941396,407939,395359)]=0.095,
+[_0x2b4f7f(356462,115259,127974)]=(1833+_0x95b3ae(_0x6bafdb(815,1030),1)-1845),
 }
-local function _0xd8dff0(_0x70535b)
-if _0x76c04c[_0xe8ebea(173419,191639,163647)][_0x848d34(311852,179019,196464)]and _0x1ad5d9[_0xd44ced(464286,359579,479778)]~=_0x848d34(918479,389872,373968)then return end
-if _0x2a1ffb or(_0xa62240 and _0xa62240[_0x848d34(951076,185725,168803)])or(_0x7c6907 and _0x7c6907[_0xe8ebea(214006,199288,879226)]and _0x7c6907[_0xe8ebea(477384,459078,614724)]())then
+local function _0xe21520(_0xdedf8a)
+if _0x63be9c[_0x2b4f7f(383941,419444,415249)][_0x2b4f7f(930908,353102,347156)]and _0xafd378[_0x248f80(386163,367818,945866)]~=_0x248f80(223364,200766,526741)then return end
+if _0x0d13f3 or(_0xba873b and _0xba873b[_0x2b4f7f(881294,256036,252236)])or(_0xb77a6a and _0xb77a6a[_0x3f0d21(366466,697808,361857)]and _0xb77a6a[_0x248f80(230245,259119,1009795)]())then
 return
 end
-local _0x4275fc=_0x76c04c[_0xd44ced(185506,579081,168571)][_0xe8ebea(341049,359858,808656)]
-local _0x32967b=_0x48c9eb[_0x848d34(775393,201912,217115)]
-if not _0x32967b then return end
-local _0x3547ee,_0x9acb78,_0x160936=_0x5e5099(_0x4275fc[_0xd44ced(457578,603285,441782)][_0xe8ebea(468430,486410,95241)],_0x4275fc[_0x848d34(583083,125128,109952)][_0xe8ebea(403023,421771,30600)],false)
-if not _0x3547ee then return end
-local _0x2ed9ea=_0x48c9eb[_0xe8ebea(450340,431707,523081)]()
-local _0xce8dc4,_0x2cc3fe,_0xa66e99=_0xfe0544(_0x2ed9ea,_0x160936)
-if _0x4275fc[_0xe8ebea(329883,344760,637124)][_0xe8ebea(448793,430301,35038)]==_0xd44ced(321800,986886,307095)then
-_0x789b03(_0xce8dc4,_0x2cc3fe,_0x4275fc[_0xd44ced(521294,777680,504556)][_0xe8ebea(483932,469912,78747)]*_0x2517fa(0.92,1.08),_0x70535b)
-elseif _0x4275fc[_0xd44ced(500149,966891,517995)][_0xe8ebea(207596,221992,359211)]==_0x848d34(1047723,297046,314706)and _0x9acb78<=_0x4275fc[_0x848d34(556296,288197,270651)][_0x848d34(409569,335906,353472)]then
-_0x48c9eb[_0x848d34(632983,369878,385294)]=_0xce8dc4
-_0x48c9eb[_0xe8ebea(382513,367754,387712)]=_0xc96c19[25][_0xd44ced(161711,72870,143865)](_0x2cc3fe,-1.55,1.55)
+local _0x883746=_0x63be9c[_0x2b4f7f(831884,125755,121788)][_0x2b4f7f(1021289,222759,215504)]
+local _0x1399f8=_0x9cbe51[_0x248f80(188258,174115,86288)]
+if not _0x1399f8 then return end
+local _0x3bdbff,_0x0ee44b,_0x10fa52=_0xc5a650(_0x883746[_0x2b4f7f(50971,211573,199423)][_0x3f0d21(225636,49606,222034)],_0x883746[_0x248f80(349783,336308,847370)][_0x3f0d21(452975,350669,457561)],false)
+if not _0x3bdbff then return end
+local _0x9f6209=_0x9cbe51[_0x2b4f7f(142859,393967,404740)]()
+local _0xa11ca9,_0xa443f9,_0xe04d2f=_0xcaa641(_0x9f6209,_0x10fa52)
+if _0x883746[_0x2b4f7f(955988,408700,396528)][_0x2b4f7f(25895,289239,285178)]==_0x248f80(399364,421785,400744)then
+_0x51b756(_0xa11ca9,_0xa443f9,_0x883746[_0x3f0d21(130558,337743,126887)][_0x248f80(503111,514618,509030)]*_0x1da4f9(0.92,1.08),_0xdedf8a)
+elseif _0x883746[_0x2b4f7f(1019016,468640,464428)][_0x3f0d21(94411,180329,90877)]==_0x3f0d21(395850,391696,399378)and _0x0ee44b<=_0x883746[_0x2b4f7f(820182,96791,84574)][_0x248f80(74804,86857,85269)]then
+_0x9cbe51[_0x3f0d21(495822,803530,492517)]=_0xa11ca9
+_0x9cbe51[_0x248f80(74942,89293,922526)]=_0xcca467[21][_0x3f0d21(175494,768618,180104)](_0xa443f9,-1.55,1.55)
 end
-if _0x9acb78>_0x4275fc[_0x848d34(857713,69308,84546)][_0xe8ebea(504135,522371,123008)]then return end
-local _0xb36196=_0xc96c19[7][_0xd44ced(213235,423961,198574)]()
-if(_0xb36196-_0xd6d13c[_0xe8ebea(135701,153958,320127)])<_0xd6d13c[_0x848d34(924604,206555,221257)]then return end
-local _0x22a97a=_0x48c9eb[_0x848d34(623062,480103,464891)]()
-local _0x270d28=_0x22a97a
-if _0x4275fc[_0xd44ced(109007,575633,126737)][_0xe8ebea(207880,222668,359887)]==_0xd44ced(138976,653550,153727)then
-local _0x5e321b=_0xc96c19[25][_0x848d34(914761,298454,314314)](_0xc96c19[25][_0x848d34(856276,368675,386622)](_0xc96c19[_0x40b209[23]-48][_0xe8ebea(474515,488456,99363)](_0x22a97a[_0x848d34(490807,307008,321883)](_0x22a97a,_0xa66e99),-_0xea489d(342101,342100),_0xea489d(998599,998598))))
-if _0x5e321b>_0xea489d(326957,326967)then
+if _0x0ee44b>_0x883746[_0x2b4f7f(584620,332397,336420)][_0x2b4f7f(382334,121230,125347)]then return end
+local _0xd9b52d=_0xcca467[33][_0x2b4f7f(581769,163455,151412)]()
+if(_0xd9b52d-_0x7a6dbd[_0x3f0d21(472370,46553,468694)])<_0x7a6dbd[_0x3f0d21(234310,805827,229539)]then return end
+local _0xf2818f=_0x9cbe51[_0x3f0d21(509384,55684,513083)]()
+local _0x8f12f5=_0xf2818f
+if _0x883746[_0x3f0d21(490953,551859,487260)][_0x248f80(137470,159619,160223)]==_0x3f0d21(161200,108991,157670)then
+local _0x548c9b=_0xcca467[21][_0x2b4f7f(779528,315873,319623)](_0xcca467[21][_0x3f0d21(237787,634310,242603)](_0xcca467[21][_0x248f80(516643,497014,863332)](_0xf2818f[_0x248f80(280599,274594,1007597)](_0xf2818f,_0xe04d2f),-(_0xc84f9e[111]-136),(_0xc84f9e[37]-242))))
+if _0x548c9b>_0xfc82ca(477932,477942)then
 return
 end
-local _0x105e80=_0xcc6a4e[_0xd44ced(471472,431188,489357)]and _0xcc6a4e[_0xd44ced(257504,149508,240605)](_0x2ed9ea,_0x22a97a,_0x4275fc[_0x848d34(984639,204530,219660)][_0x848d34(65845,138998,154132)])
-if not(_0x105e80 and _0x105e80[_0xe8ebea(114800,101110,905977)]==_0x3547ee[_0xe8ebea(239013,257827,1029932)])then
-_0x270d28=_0xa66e99
+local _0xdce2d5=_0xae54c0[_0x248f80(297024,327550,132771)]and _0xae54c0[_0x248f80(368161,387359,200898)](_0x9f6209,_0xf2818f,_0x883746[_0x3f0d21(76166,748565,80852)][_0x248f80(472171,475926,482634)])
+if not(_0xdce2d5 and _0xdce2d5[_0x2b4f7f(91211,105587,109724)]==_0x3bdbff[_0x3f0d21(104685,449671,100885)])then
+_0x8f12f5=_0xe04d2f
 end
-elseif _0x4275fc[_0xd44ced(105597,589091,121507)][_0xe8ebea(305829,320353,195426)]==_0xd44ced(508484,797275,492773)then
-_0x270d28=_0xa66e99
+elseif _0x883746[_0x2b4f7f(839842,293514,281094)][_0x248f80(170585,191780,193400)]==_0x2b4f7f(75737,355281,351134)then
+_0x8f12f5=_0xe04d2f
 else
-local _0x105e80=_0xcc6a4e[_0xe8ebea(258657,244707,492837)]and _0xcc6a4e[_0xd44ced(376238,268362,392083)](_0x2ed9ea,_0x22a97a,_0x4275fc[_0x848d34(597864,329637,344923)][_0x848d34(108838,177893,193031)])
-if not(_0x105e80 and _0x105e80[_0xd44ced(410880,1017389,393793)]==_0x3547ee[_0xe8ebea(479962,464988,737363)])then
+local _0xdce2d5=_0xae54c0[_0x248f80(366273,385535,202786)]and _0xae54c0[_0x3f0d21(80341,290550,75810)](_0x9f6209,_0xf2818f,_0x883746[_0x3f0d21(391311,1031452,387805)][_0x3f0d21(265273,507035,269839)])
+if not(_0xdce2d5 and _0xdce2d5[_0x3f0d21(286508,203590,282068)]==_0x3bdbff[_0x3f0d21(241819,324849,238179)])then
 return
 end
-_0x270d28=_0x22a97a
+_0x8f12f5=_0xf2818f
 end
-if _0x4275fc[_0xe8ebea(427281,446265,628527)][_0x848d34(482660,279207,263749)]and(_0x32967b[_0xe8ebea(511504,492737,910101)]or _0x32967b[_0xd44ced(309157,437448,323639)][_0xd44ced(381533,703938,365872)]>=_0xea489d(591697,591697)or _0x32967b[_0x848d34(215245,364569,382452)]<=0.1)then
+if _0x883746[_0x2b4f7f(702463,106613,102628)][_0x248f80(337669,348280,347684)]and(_0x1399f8[_0x3f0d21(397720,721152,393946)]or _0x1399f8[_0x248f80(143956,150235,129852)][_0x2b4f7f(219313,285480,289330)]>=_0xfc82ca(874709,874709)or _0x1399f8[_0x248f80(333253,355650,314432)]<=0.1)then
 return
 end
-if _0x4275fc[_0xd44ced(127996,337222,111901)][_0xd44ced(192454,93415,174521)]and _0x271e47(_0x3547ee[_0x848d34(588488,508727,493278)])then
-local _0xa5fc4b=_0xbd84fe()
-if _0xa5fc4b then
-local _0x835702=_0x0a7cca[_0x848d34(956656,459153,476427)][_0x848d34(711140,255851,238289)]
-if _0x0a7cca[_0xe8ebea(231761,245805,1007244)][_0x848d34(1032374,458297,441219)]~=_0xa5fc4b then
-_0xd6ca4f(_0xa5fc4b)
+if _0x883746[_0x3f0d21(344364,1026812,349108)][_0x248f80(407355,409670,417306)]and _0xeae1fd(_0x3bdbff[_0x248f80(187268,172807,883275)])then
+local _0xbbf3ab=_0xb3868e()
+if _0xbbf3ab then
+local _0xc4de2c=_0xe26196[_0x3f0d21(279869,964767,283852)][_0x248f80(498548,516897,951411)]
+if _0xe26196[_0x2b4f7f(810529,73681,77881)][_0x2b4f7f(840664,108070,104227)]~=_0xbbf3ab then
+_0xd94c4f(_0xbbf3ab)
 end
-_0xb192fa(_0x3547ee,true,_0x270d28)
-_0xd6d13c[_0xd44ced(84134,157853,65672)]=_0xb36196
-_0xd6d13c[_0xd44ced(101665,797860,115982)]=_0x2517fa(0.088,0.135)
-if _0x835702 and _0x835702~=_0xa5fc4b then
-_0xc96c19[21][_0xe8ebea(66284,84476,183870)](_0x2517fa(0.06,0.09),function()
-if _0x3571dc()and _0x0a7cca[_0x848d34(944564,520405,504911)][_0xe8ebea(270365,289409,545742)]==_0xa5fc4b then
-_0xd6ca4f(_0x835702)
+_0xbcbc13(_0x3bdbff,true,_0x8f12f5)
+_0x7a6dbd[_0x2b4f7f(252685,255924,251503)]=_0xd9b52d
+_0x7a6dbd[_0x248f80(434509,448609,699930)]=_0x1da4f9(0.088,0.135)
+if _0xc4de2c and _0xc4de2c~=_0xbbf3ab then
+_0xcca467[_0xc84f9e[74]-54][_0x2b4f7f(845749,500439,496559)](_0x1da4f9(0.06,0.09),function()
+if _0x103a58()and _0xe26196[_0x3f0d21(201114,650296,196715)][_0x2b4f7f(1046922,167028,179569)]==_0xbbf3ab then
+_0xd94c4f(_0xc4de2c)
 end
 end)
 end
 return
 end
 end
-local _0xb1b144=_0x0a7cca[_0xe8ebea(101883,116365,719491)]and _0x0a7cca[_0x848d34(833999,164353,181397)]((1616+_0xa81147(_0xfaf96b(220,1676),1)-1896))or(1497+_0xa81147(_0xfaf96b(528,1993),1)-2520)
-local _0x8f6dd3=_0xc96c19[_0x40b209[192]-122][_0xe8ebea(408006,421981,32886)](_0x4275fc[_0xe8ebea(421358,403402,71200)][_0xd44ced(139949,106892,156882)]+_0xd6d13c[_0xd44ced(206423,663195,224871)],0.50,1.00)
-if _0xb1b144>=_0x8f6dd3 then
-_0xb192fa(_0x3547ee,false,_0x270d28)
-_0xd6d13c[_0xd44ced(205837,1078,224291)]=_0xb36196
-_0xd6d13c[_0x848d34(646086,321185,303155)]=_0x2517fa(0.085,0.132)
-_0xd6d13c[_0x848d34(985388,437506,453521)]=_0x2517fa(-0.025,0.035)
+local _0x9c27f5=_0xe26196[_0x248f80(484712,465990,348022)]and _0xe26196[_0x2b4f7f(183198,297474,310236)]((2154+_0x95b3ae(_0x6bafdb(180,2270),1)-2450))or _0xfc82ca(_0xc84f9e[229],171)
+local _0x056801=_0xcca467[21][_0x3f0d21(73718,526362,69112)](_0x883746[_0x2b4f7f(483159,79289,66868)][_0x3f0d21(95575,181749,92001)]+_0x7a6dbd[_0x3f0d21(357496,424575,354206)],0.50,1.00)
+if _0x9c27f5>=_0x056801 then
+_0xbcbc13(_0x3bdbff,false,_0x8f12f5)
+_0x7a6dbd[_0x248f80(270339,284968,30525)]=_0xd9b52d
+_0x7a6dbd[_0x248f80(378641,376381,641094)]=_0x1da4f9(0.085,0.132)
+_0x7a6dbd[_0x2b4f7f(445388,162201,149572)]=_0x1da4f9(-0.025,0.035)
 end
 end
-local _0xb40b4e={
-[_0x848d34(165410,80635,97386)]=(68+_0xa81147(_0xfaf96b(25,93),1)-118),
-[_0xe8ebea(223472,205700,727331)]=0.095,
-[_0xd44ced(66713,539733,85161)]=(645+_0xa81147(_0xfaf96b(580,193),1)-773),
-[_0x848d34(1032219,487438,472731)]=nil,
-[_0xe8ebea(389131,375667,134253)]=_0xea489d(_0x40b209[253],211),
+local _0x6b8eb7={
+[_0x3f0d21(512433,20826,508501)]=_0xfc82ca(300891,300891),
+[_0x248f80(182939,177079,968140)]=0.095,
+[_0x2b4f7f(16110,298171,310630)]=(_0xc84f9e[120]-98),
+[_0x2b4f7f(548188,281704,294327)]=nil,
+[_0x2b4f7f(3711,254964,250388)]=(_0xc84f9e[43]-4),
 }
-local function _0x52724d()
-if _0x2a1ffb or(_0xa62240 and _0xa62240[_0xd44ced(178326,946733,196397)])or(_0x7c6907 and _0x7c6907[_0xd44ced(195203,590243,179402)]and _0x7c6907[_0xe8ebea(121238,102424,1044506)]())then
+local function _0x7a317c()
+if _0x0d13f3 or(_0xba873b and _0xba873b[_0x3f0d21(223688,675632,228025)])or(_0xb77a6a and _0xb77a6a[_0x248f80(491399,461005,758881)]and _0xb77a6a[_0x2b4f7f(982800,422160,417514)]())then
 return
 end
-local _0x4275fc=_0x76c04c[_0xd44ced(217872,894504,202233)][_0xe8ebea(315180,296615,896453)]
-local _0x32967b=_0x48c9eb[_0xe8ebea(69987,88294,827263)]
-if not _0x32967b then return end
-local _0xb36196=_0xc96c19[7][_0xd44ced(517117,187159,500896)]()
-if(_0xb36196-_0xb40b4e[_0xd44ced(294047,482468,275633)])<_0xb40b4e[_0xd44ced(308172,594505,326627)]then return end
-if _0x4275fc[_0xe8ebea(471288,490192,533190)][_0xd44ced(226246,61671,210361)]and(_0x32967b[_0xe8ebea(117125,99156,779392)]or _0x32967b[_0xd44ced(377852,514193,361582)][_0xd44ced(451127,626088,435546)]>=_0xea489d(_0x40b209[156],76)or _0x32967b[_0xd44ced(414064,5446,399098)]<=0.1)then
+local _0x883746=_0x63be9c[_0x248f80(493868,523979,350955)][_0x3f0d21(466567,807323,461959)]
+local _0x1399f8=_0x9cbe51[_0x2b4f7f(220435,308876,301437)]
+if not _0x1399f8 then return end
+local _0xd9b52d=_0xcca467[33][_0x2b4f7f(961904,275334,262797)]()
+if(_0xd9b52d-_0x6b8eb7[_0x248f80(122922,104705,374548)])<_0x6b8eb7[_0x3f0d21(475677,563864,479736)]then return end
+if _0x883746[_0x2b4f7f(961583,375717,363316)][_0x2b4f7f(455588,196436,184185)]and(_0x1399f8[_0x3f0d21(374200,566560,370426)]or _0x1399f8[_0x2b4f7f(195485,350422,354793)][_0x248f80(347472,341306,402447)]>=0 or _0x1399f8[_0x2b4f7f(79194,296692,309187)]<=0.1)then
 return
 end
-local _0x2ed9ea=_0x48c9eb[_0xd44ced(315263,14671,297285)]()
-local _0x7fbd18=_0x48c9eb[_0xd44ced(148054,789509,132207)]()
-if not _0x2ed9ea or not _0x7fbd18 then return end
-local _0x4dabe5=_0xcc6a4e[_0xe8ebea(295533,314351,62761)](_0x2ed9ea,_0x7fbd18,_0x4275fc[_0xd44ced(460236,810658,475942)][_0xe8ebea(103833,121949,509022)])
-if not(_0x4dabe5 and _0x4dabe5[_0x848d34(571445,491978,508963)]and _0x4dabe5[_0x848d34(879956,152747,135490)]:GetAttribute(_0xe8ebea(377428,362539,557031))~=false)then
-_0xb40b4e[_0x848d34(683711,188074,170047)]=nil
+local _0x9f6209=_0x9cbe51[_0x248f80(166294,196269,180453)]()
+local _0xf44998=_0x9cbe51[_0x248f80(184204,178358,395780)]()
+if not _0x9f6209 or not _0xf44998 then return end
+local _0x6c614b=_0xae54c0[_0x248f80(149916,147106,313215)](_0x9f6209,_0xf44998,_0x883746[_0x3f0d21(299159,635790,295478)][_0x248f80(189999,168274,167694)])
+if not(_0x6c614b and _0x6c614b[_0x3f0d21(371689,646235,374997)]and _0x6c614b[_0x248f80(250093,239726,815394)]:GetAttribute(_0x248f80(317248,307064,723736))~=false)then
+_0x6b8eb7[_0x2b4f7f(542369,284565,288330)]=nil
 return
 end
-if _0xb40b4e[_0xd44ced(242091,761180,260505)]~=_0x4dabe5[_0x848d34(692200,249895,234883)]then
-_0xb40b4e[_0x848d34(690312,145565,163336)]=_0x4dabe5[_0xd44ced(254579,663902,238898)]
-_0xb40b4e[_0xd44ced(462632,336660,476955)]=_0xb36196+_0x2517fa(0.012,0.038)
+if _0x6b8eb7[_0x2b4f7f(921366,138786,143357)]~=_0x6c614b[_0x248f80(181860,179803,414927)]then
+_0x6b8eb7[_0x3f0d21(111423,663129,106711)]=_0x6c614b[_0x3f0d21(199035,281873,203651)]
+_0x6b8eb7[_0x3f0d21(293119,10534,289558)]=_0xd9b52d+_0x1da4f9(0.012,0.038)
 return
 end
-if _0xb36196<_0xb40b4e[_0x848d34(385718,479848,464126)]then return end
-local _0xb1b144=_0x0a7cca[_0x848d34(524640,408238,425018)]and _0x0a7cca[_0x848d34(682857,282791,267827)]((_0x40b209[94]-122))or(933+_0xa81147(_0xfaf96b(512,421),1)-932)
-local _0x8f6dd3=_0xc96c19[25][_0x848d34(402177,382186,364627)](_0x4275fc[_0xd44ced(327758,502406,345745)][_0xd44ced(266693,496356,284602)]+_0xb40b4e[_0xd44ced(257066,709862,238618)],0.70,1.00)
-if _0xb1b144<_0x8f6dd3 then return end
-_0xb192fa(_0x4dabe5,false,_0x7fbd18)
-_0xb40b4e[_0xd44ced(148458,91089,134084)]=_0xb36196
-_0xb40b4e[_0x848d34(619477,282290,264224)]=_0x2517fa(0.085,0.130)
-_0xb40b4e[_0xd44ced(467932,924432,486380)]=_0x2517fa(-0.025,0.030)
+if _0xd9b52d<_0x6b8eb7[_0x3f0d21(198763,481714,203650)]then return end
+local _0x9c27f5=_0xe26196[_0x2b4f7f(198700,346544,358510)]and _0xe26196[_0x3f0d21(199946,192708,204525)](0)or(_0xc84f9e[140]-84)
+local _0x056801=_0xcca467[21][_0x2b4f7f(1035686,91672,87581)](_0x883746[_0x2b4f7f(243482,384500,388473)][_0x3f0d21(224616,56778,229214)]+_0x6b8eb7[_0x2b4f7f(411612,193929,181332)],0.70,1.00)
+if _0x9c27f5<_0x056801 then return end
+_0xbcbc13(_0x6c614b,false,_0xf44998)
+_0x6b8eb7[_0x3f0d21(111654,406733,108482)]=_0xd9b52d
+_0x6b8eb7[_0x3f0d21(192181,865840,195920)]=_0x1da4f9(0.085,0.130)
+_0x6b8eb7[_0x248f80(221431,203226,244003)]=_0x1da4f9(-0.025,0.030)
 end
-local _0x469417={[_0xe8ebea(94183,74910,302354)]=(3048+_0xa81147(_0xfaf96b(595,2491),1)-3086)}
-local function _0x01acbe()
-if(_0xc96c19[7][_0xd44ced(236221,434775,253408)]()-_0x469417[_0x848d34(70717,109169,126182)])<0.35 then return end
-local _0x4275fc=_0x76c04c[_0x848d34(258640,350407,335241)][_0x848d34(855872,74722,91979)]
-local _0xa5fc4b=_0xbd84fe()
-if not _0xa5fc4b then return end
-local _0x3547ee,_0x9acb78,_0x160936=_0x5e5099(_0x4275fc[_0xe8ebea(170468,185291,791431)][_0x848d34(273510,471973,489287)],_0x848d34(551248,313710,298020),true)
-if not _0x3547ee or _0x9acb78>_0x4275fc[_0x848d34(1038499,270127,285282)][_0x848d34(430414,364173,379503)]then return end
-local _0x2ed9ea=_0x48c9eb[_0xe8ebea(136353,155102,209100)]()
-local _0xce8dc4,_0x2cc3fe,_0xa66e99=_0xfe0544(_0x2ed9ea,_0x160936)
-if _0x4275fc[_0x848d34(136202,490715,473483)][_0xd44ced(71968,170497,89951)]then
-_0x48c9eb[_0xd44ced(386953,620330,368892)]=_0xce8dc4
-_0x48c9eb[_0x848d34(214467,406537,422352)]=_0xc96c19[25][_0x848d34(338467,449992,432497)](_0x2cc3fe,-1.55,1.55)
+local _0xd48e56={[_0x2b4f7f(1042177,518367,514366)]=_0xfc82ca(231350,231350)}
+local function _0x296b56()
+if(_0xcca467[33][_0x248f80(257396,234799,858485)]()-_0xd48e56[_0x2b4f7f(740595,213805,225996)])<0.35 then return end
+local _0x883746=_0x63be9c[_0x2b4f7f(933856,293921,281784)][_0x3f0d21(244299,587095,239691)]
+local _0xbbf3ab=_0xb3868e()
+if not _0xbbf3ab then return end
+local _0x3bdbff,_0x0ee44b,_0x10fa52=_0xc5a650(_0x883746[_0x2b4f7f(962408,274467,262331)][_0x248f80(510057,507668,500040)],_0x3f0d21(201530,426181,197028),true)
+if not _0x3bdbff or _0x0ee44b>_0x883746[_0x248f80(502774,515102,610809)][_0x248f80(149289,143444,142856)]then return end
+local _0x9f6209=_0x9cbe51[_0x248f80(184025,178658,165802)]()
+local _0xa11ca9,_0xa443f9,_0xe04d2f=_0xcaa641(_0x9f6209,_0x10fa52)
+if _0x883746[_0x2b4f7f(188125,102512,106731)][_0x248f80(331816,354133,358665)]then
+_0x9cbe51[_0x248f80(207402,217688,732834)]=_0xa11ca9
+_0x9cbe51[_0x2b4f7f(1014792,270839,266452)]=_0xcca467[21][_0x2b4f7f(778790,346520,358813)](_0xa443f9,-1.55,1.55)
 end
-local _0x835702=_0x0a7cca[_0x848d34(537068,108685,125975)][_0xd44ced(440040,988293,455103)]
-if _0x0a7cca[_0x848d34(934673,514672,499434)][_0xd44ced(405715,1020606,423812)]~=_0xa5fc4b then
-_0xd6ca4f(_0xa5fc4b)
+local _0xc4de2c=_0xe26196[_0x2b4f7f(599707,288619,280707)][_0x3f0d21(393424,838012,398302)]
+if _0xe26196[_0x248f80(456477,426021,1037177)][_0x248f80(507364,509361,959203)]~=_0xbbf3ab then
+_0xd94c4f(_0xbbf3ab)
 end
-_0xb192fa(_0x3547ee,true,_0xa66e99)
-_0x469417[_0xe8ebea(82557,67844,307336)]=_0xc96c19[7][_0xd44ced(316419,126185,299870)]()
-if _0x4275fc[_0xd44ced(500381,443975,517175)][_0x848d34(167338,103017,120459)]and _0x835702 and _0x835702~=_0xa5fc4b then
-_0xc96c19[21][_0xe8ebea(394095,411775,380861)](_0x4275fc[_0xd44ced(327685,700167,345834)][_0xd44ced(314709,478836,297770)],function()
-if _0x3571dc()and _0x0a7cca[_0x848d34(848936,355657,338387)][_0xe8ebea(479152,460076,736355)]==_0xa5fc4b then
-_0xd6ca4f(_0x835702)
+_0xbcbc13(_0x3bdbff,true,_0xe04d2f)
+_0xd48e56[_0x3f0d21(390179,673711,387017)]=_0xcca467[33][_0x248f80(219700,205423,896565)]()
+if _0x883746[_0x2b4f7f(661093,200829,204837)][_0x3f0d21(181207,95093,184801)]and _0xc4de2c and _0xc4de2c~=_0xbbf3ab then
+_0xcca467[8][_0x3f0d21(456926,655854,453471)](_0x883746[_0x2b4f7f(746906,175093,170856)][_0x248f80(350062,335891,343631)],function()
+if _0x103a58()and _0xe26196[_0x248f80(268083,286731,865111)][_0x248f80(175211,185406,766828)]==_0xbbf3ab then
+_0xd94c4f(_0xc4de2c)
 end
 end)
 end
 end
-local _0x29523c={[_0x848d34(949279,429866,444850)]=0}
-local function _0x17aed5()
-local _0x4275fc=_0x76c04c[_0xe8ebea(454416,435493,547724)][_0x848d34(565271,298165,313372)]
-if(_0xc96c19[7][_0xd44ced(514772,188990,499081)]()-_0x29523c[_0x848d34(686064,165061,180829)])<_0x4275fc[_0x848d34(868627,207735,224814)][_0xd44ced(327583,490686,309728)]then return end
-local _0x46c348=_0x0a7cca[_0xd44ced(344756,804663,328835)]and _0x0a7cca[_0xd44ced(330591,790236,347496)][_0xd44ced(75895,167913,90177)]
-if _0x46c348 and _0x46c348[_0x848d34(968038,498345,515853)]==_0x848d34(274489,71287,86253)then
+local _0x578489={[_0x248f80(513381,502871,497889)]=0}
+local function _0xabc6b9()
+local _0x883746=_0x63be9c[_0x2b4f7f(723737,284568,288518)][_0x2b4f7f(571461,281355,287996)]
+if(_0xcca467[_0xc84f9e[178]-184][_0x248f80(513543,503388,598534)]()-_0x578489[_0x3f0d21(79461,175149,75150)])<_0x883746[_0x2b4f7f(744212,422434,410246)][_0x3f0d21(413642,393064,417276)]then return end
+local _0xaaf0c4=_0xe26196[_0x248f80(153475,139451,750567)]and _0xe26196[_0x248f80(468539,479491,918111)][_0x2b4f7f(563824,285148,288831)]
+if _0xaaf0c4 and _0xaaf0c4[_0x2b4f7f(89786,108162,104045)]==_0x2b4f7f(218162,447752,451820)then
 return
 end
-if _0x4275fc[_0x848d34(333634,205747,223066)][_0x848d34(120153,182938,167544)]==_0xe8ebea(180335,166487,584940)then
-local _0x404fb9=_0x6f26e5()
-local _0xaaac91=_0x48c9eb[_0x848d34(809887,302022,319333)]and _0x48c9eb[_0x848d34(969529,396128,413635)][_0x848d34(26092,441656,456917)]or 0
-if _0x404fb9>_0x4275fc[_0xe8ebea(187999,169062,879571)][_0xd44ced(288688,517265,270799)]and _0xaaac91<_0xea489d(388583,388578)then
+if _0x883746[_0x2b4f7f(489707,110290,106214)][_0x3f0d21(373824,394466,370294)]==_0x248f80(88884,76997,404045)then
+local _0x2130f7=_0x1b371d()
+local _0x98e0e4=_0x9cbe51[_0x248f80(470289,481872,303971)]and _0x9cbe51[_0x3f0d21(151669,133048,147855)][_0x248f80(235581,254138,147896)]or(1185+_0x95b3ae(_0x6bafdb(79,1262),1)-1341)
+if _0x2130f7>_0x883746[_0x3f0d21(101781,814020,106302)][_0x2b4f7f(79617,343025,330716)]and _0x98e0e4<(257+_0x95b3ae(_0x6bafdb(1365,1108),1)-2468)then
 return
 end
 end
-local _0x2cb074,_0xc4c01a=_0x52ee2b(function(_0x80e662)
-return _0x80e662[_0xd44ced(275190,913883,292279)]==_0xe8ebea(504035,523167,514577)
+local _0xcda6bd,_0x5422e7=_0x5e389c(function(_0xaf286a)
+return _0xaf286a[_0x248f80(456951,426184,158300)]==_0x248f80(514978,500374,405760)
 end)
-if _0x2cb074 then
-_0x7ffb4d[_0xe8ebea(320252,306040,304417)]({[_0xd44ced(182302,732594,167759)]=_0xe8ebea(477579,458999,761430),[_0xd44ced(284056,474296,266954)]=_0xe8ebea(523856,505032,268441),[_0xd44ced(125935,743514,109733)]=_0x2cb074+_0xea489d(324766,324756),[_0x848d34(977958,518088,500351)]=(2231+_0xa81147(_0xfaf96b(877,3034),1)-3901)})
-_0x0a7cca[_0x848d34(698016,212929,228187)][_0xe8ebea(281802,264113,146189)],_0x0a7cca[_0xd44ced(237760,697667,255735)][_0x848d34(703624,132386,147586)][_0x2cb074]=_0xc4c01a,_0x0a7cca[_0x848d34(686080,254305,239099)][_0xe8ebea(351280,333643,207863)]
-_0x29523c[_0x848d34(995150,515195,498403)]=_0xc96c19[_0x40b209[146]-102][_0xd44ced(304971,106401,319510)]()
-_0x0b0364(_0xd44ced(511649,420366,493648),_0xe8ebea(329128,347861,723486),1.5)
+if _0xcda6bd then
+_0x1536c7[_0x248f80(133142,163670,57471)]({[_0x248f80(116749,110658,583674)]=_0x2b4f7f(707451,494219,501091),[_0x3f0d21(318307,1030069,313450)]=_0x2b4f7f(44227,136270,140623),[_0x2b4f7f(465907,135070,147302)]=_0xcda6bd+_0xfc82ca(718297,718291),[_0x2b4f7f(204289,86628,90982)]=(2728+_0x95b3ae(_0x6bafdb(611,2251),1)-2852)})
+_0xe26196[_0x248f80(356283,333955,805855)][_0x248f80(375519,377836,856812)],_0xe26196[_0x248f80(74604,87124,526088)][_0x3f0d21(126344,748586,130940)][_0xcda6bd]=_0x5422e7,_0xe26196[_0x2b4f7f(596947,285219,292299)][_0x3f0d21(75753,677911,78853)]
+_0x578489[_0x3f0d21(487661,322213,484102)]=_0xcca467[_0xc84f9e[227]+3][_0x3f0d21(317821,654297,313961)]()
+_0x75164e(_0x248f80(312637,307922,193257),_0x248f80(312531,310758,457240),1.5)
 return
 end
-local _0x7594f8,_0xd92bf1=_0xd5a614(function(_0x80e662)
-return _0x80e662[_0xe8ebea(509052,495354,775925)]==_0x848d34(102761,309031,324029)
+local _0xf3effd,_0xae7dac=_0x6ac942(function(_0xaf286a)
+return _0xaf286a[_0x248f80(423667,397004,189528)]==_0x248f80(93251,71031,34529)
 end)
-if _0x7594f8 then
-_0x7ffb4d[_0x848d34(143002,468739,484257)]({[_0xe8ebea(391691,372893,642579)]=_0x848d34(987010,431843,447097),[_0xd44ced(103090,195474,120288)]=_0x848d34(380071,223030,205440),[_0xe8ebea(338934,352633,674286)]=_0x7594f8,[_0x848d34(779094,190648,175375)]=(_0x40b209[24]-187)})
-_0x0a7cca[_0xe8ebea(492780,511376,742193)][_0x848d34(436231,365435,382434)],_0x0a7cca[_0x848d34(686432,253953,238747)][_0xe8ebea(486681,468888,887925)][_0x7594f8]=_0xd92bf1,_0x0a7cca[_0xd44ced(501490,959345,516293)][_0xe8ebea(429271,444332,64272)]
-_0x29523c[_0xd44ced(297788,845035,312073)]=_0xc96c19[7][_0x848d34(207728,429944,445112)]()
-_0x0b0364(_0x848d34(150584,226421,209185),_0xd44ced(447474,298538,433099),1.5)
+if _0xf3effd then
+_0x1536c7[_0x3f0d21(325327,378648,321334)]({[_0x2b4f7f(637940,327392,314911)]=_0x2b4f7f(589030,376086,365310),[_0x248f80(279706,277706,851682)]=_0x248f80(139804,154189,323692),[_0x3f0d21(482105,389894,477240)]=_0xf3effd,[_0x3f0d21(394244,259123,399119)]=(209+_0x95b3ae(_0x6bafdb(1832,2041),1)-3863)})
+_0xe26196[_0x3f0d21(423721,821899,419544)][_0x248f80(216952,210507,780107)],_0xe26196[_0x3f0d21(176757,544727,172932)][_0x2b4f7f(946458,338882,334632)][_0xf3effd]=_0xae7dac,_0xe26196[_0x3f0d21(69301,783127,73540)][_0x248f80(130653,100206,611950)]
+_0x578489[_0x248f80(298837,325223,312017)]=_0xcca467[_0xc84f9e[115]+19][_0x2b4f7f(879466,521628,509079)]()
+_0x75164e(_0x3f0d21(336486,52387,340174),_0x2b4f7f(689991,518386,514324),1.5)
 end
 end
-local _0x1fa2a0={[_0xd44ced(303020,509296,317334)]=false,[_0xd44ced(358201,349033,340221)]=nil}
-local function _0xaf1593()
-local _0x4275fc=_0x76c04c[_0x848d34(947616,447748,430175)][_0xd44ced(474456,757016,490270)]
-local _0x404fb9=_0x6f26e5()
-if _0x404fb9<=_0x4275fc[_0xd44ced(354036,983651,335872)][_0xd44ced(216089,53048,199270)]then
-local _0xcdea49=_0x58f79e()
-if not _0xcdea49 then
-if _0x1fa2a0[_0x848d34(455719,340505,357508)]then
-_0xa62240[_0xe8ebea(334520,348976,966186)](_0xe8ebea(298922,312631,205883),false)
-_0x1fa2a0[_0x848d34(289736,503286,519019)]=false
+local _0x24dd57={[_0x248f80(248936,243039,14594)]=false,[_0x3f0d21(260797,454264,256455)]=nil}
+local function _0x5fcda3()
+local _0x883746=_0x63be9c[_0x2b4f7f(36855,178217,166031)][_0x3f0d21(365502,973986,360894)]
+local _0x2130f7=_0x1b371d()
+if _0x2130f7<=_0x883746[_0x3f0d21(348112,567681,351611)][_0x2b4f7f(239837,500781,496640)]then
+local _0x155974=_0x0fd0c0()
+if not _0x155974 then
+if _0x24dd57[_0x3f0d21(486909,479070,491021)]then
+_0xba873b[_0x2b4f7f(202481,281077,288257)](_0x248f80(292136,265598,618000),false)
+_0x24dd57[_0x2b4f7f(446768,85953,97830)]=false
 end
 return
 end
-if not _0x1fa2a0[_0x848d34(41225,223031,205226)]then
-_0x1fa2a0[_0x848d34(391447,344485,329602)]=_0x0a7cca[_0xd44ced(416043,1006760,401180)][_0xd44ced(90064,589245,71815)]
-_0x1fa2a0[_0x848d34(478155,298485,314216)]=true
+if not _0x24dd57[_0x2b4f7f(112605,403756,399563)]then
+_0x24dd57[_0x3f0d21(156162,489159,160120)]=_0xe26196[_0x3f0d21(289853,954783,294348)][_0x2b4f7f(610689,271487,267642)]
+_0x24dd57[_0x248f80(431148,453915,352582)]=true
 end
-if _0x0a7cca[_0xd44ced(499091,956432,514980)][_0xd44ced(153797,785064,139154)]~=_0xcdea49 then
-_0x0a7cca[_0x848d34(420249,415721,398192)](_0xcdea49)
+if _0xe26196[_0x2b4f7f(648678,304150,297982)][_0x2b4f7f(820056,128678,116643)]~=_0x155974 then
+_0xe26196[_0x2b4f7f(247383,491892,503443)](_0x155974)
 end
-_0xa62240[_0xd44ced(303215,710231,321068)](_0x848d34(328761,516853,501582),true)
-elseif _0x1fa2a0[_0xe8ebea(102489,121638,465624)]then
-_0xa62240[_0xd44ced(111748,1032892,127687)](_0xe8ebea(101236,115177,401637),false)
-if _0x0a7cca[_0x848d34(73474,224348,207332)]then
-_0xc96c19[27](_0x0a7cca[_0xe8ebea(301493,316206,739148)],false)
+_0xba873b[_0x3f0d21(225181,232651,228960)](_0x248f80(107387,121645,833603),true)
+elseif _0x24dd57[_0x3f0d21(199169,207010,203249)]then
+_0xba873b[_0x3f0d21(279255,303489,283434)](_0x2b4f7f(683465,203787,208141),false)
+if _0xe26196[_0x2b4f7f(455345,376453,364422)]then
+_0xcca467[16](_0xe26196[_0x248f80(249793,243605,632148)],false)
 end
-if _0x4275fc[_0x848d34(53329,75881,93540)][_0xd44ced(168096,70529,186079)]and _0x1fa2a0[_0xe8ebea(207020,222117,449751)]then
-_0x0a7cca[_0xd44ced(229697,205779,247671)](_0x1fa2a0[_0x848d34(369002,334296,352255)])
+if _0x883746[_0x2b4f7f(902748,311364,323612)][_0x3f0d21(388635,417465,392237)]and _0x24dd57[_0x3f0d21(108971,310638,113361)]then
+_0xe26196[_0x248f80(466723,485396,474523)](_0x24dd57[_0x248f80(122173,108028,466887)])
 end
-_0x1fa2a0[_0xe8ebea(265876,280043,164885)]=false
-_0x1fa2a0[_0xe8ebea(441302,454879,217005)]=nil
+_0x24dd57[_0x248f80(405851,411756,377905)]=false
+_0x24dd57[_0x2b4f7f(471915,367612,371341)]=nil
 end
 end
-local _0x1526f3={[_0xe8ebea(218128,204688,268712)]=(_0x40b209[116]-229)}
-local function _0x71bd0a()
-local _0x32967b=_0x48c9eb[_0xe8ebea(101613,116072,787185)]
-if not _0x32967b then return end
-local _0x4275fc=_0x76c04c[_0xd44ced(169125,14084,184926)][_0xd44ced(320301,545645,304491)]
-local _0x404fb9=_0x6f26e5()
-local _0x861e04=_0x404fb9<_0x1526f3[_0xe8ebea(208027,223003,287011)]
-_0x1526f3[_0xe8ebea(351269,333733,135581)]=_0x404fb9
-if _0x861e04 then
-if _0x4275fc[_0xe8ebea(90982,76461,137628)][_0xe8ebea(479558,465026,65665)]==_0xe8ebea(95408,81649,683138)then
-if _0x32967b[_0xd44ced(524088,525262,506036)]then
-_0xc96c19[_0x40b209[84]-149][_0xe8ebea(387241,369593,402555)](_0x2517fa(0.012,0.032),function()
-if _0x3571dc()and _0x48c9eb[_0xd44ced(310530,844217,326466)]and _0x48c9eb[_0xe8ebea(263484,281785,625440)][_0xe8ebea(116427,101402,781262)]then
-_0xa62240[_0x848d34(887374,221332,205874)](_0xd44ced(471396,815323,489150),true)
-_0xc96c19[21][_0xe8ebea(284395,269819,498233)](_0x2517fa(0.05,0.075),function()
-_0xa62240[_0xe8ebea(518639,499815,806269)](_0xe8ebea(492201,510390,594731),false)
+local _0xa57f27={[_0x3f0d21(139085,25315,134332)]=_0xfc82ca(_0xc84f9e[235],161)}
+local function _0x4aed20()
+local _0x1399f8=_0x9cbe51[_0x3f0d21(284773,266152,280991)]
+if not _0x1399f8 then return end
+local _0x883746=_0x63be9c[_0x248f80(283364,271645,134342)][_0x248f80(215137,212774,777924)]
+local _0x2130f7=_0x1b371d()
+local _0xcd1bcb=_0x2130f7<_0xa57f27[_0x248f80(223563,200819,181027)]
+_0xa57f27[_0x248f80(153645,139541,258629)]=_0x2130f7
+if _0xcd1bcb then
+if _0x883746[_0x248f80(477276,475096,392013)][_0x3f0d21(169059,74945,165461)]==_0x2b4f7f(239440,331067,343441)then
+if _0x1399f8[_0x248f80(406140,412405,586899)]then
+_0xcca467[8][_0x2b4f7f(869356,394894,407542)](_0x1da4f9(0.012,0.032),function()
+if _0x103a58()and _0x9cbe51[_0x248f80(168891,189690,73161)]and _0x9cbe51[_0x2b4f7f(199650,319613,315276)][_0x248f80(220292,205837,891499)]then
+_0xba873b[_0x3f0d21(430499,422645,426078)](_0x2b4f7f(1040011,240151,236432),true)
+_0xcca467[8][_0x2b4f7f(822177,511683,524219)](_0x1da4f9(0.05,0.075),function()
+_0xba873b[_0x248f80(265215,294075,471315)](_0x248f80(497160,519903,1018095),false)
 end)
 end
 end)
 end
-elseif _0x4275fc[_0xe8ebea(227772,209015,838)][_0xd44ced(122342,155335,105369)]==_0xe8ebea(409742,395980,873510)then
-_0x32967b[_0xe8ebea(76664,90543,451040)]=_0xc96c19[24][_0xd44ced(389426,372083,374342)]((_0x40b209[49]-120),_0x32967b[_0x848d34(297256,396967,412498)][_0xd44ced(507123,578412,523166)],_0xea489d(1031498,1031498))
-elseif _0x4275fc[_0xd44ced(269498,177321,285244)][_0xd44ced(202037,38420,217930)]==_0x848d34(189637,414066,398355)then
-local _0x58cf05=(_0x4275fc[_0xe8ebea(356812,342920,689978)][_0xd44ced(164021,66452,181962)]or 0)/(_0x40b209[23]+27)
-_0x32967b[_0xe8ebea(468331,487356,61427)]=_0xc96c19[24][_0xd44ced(190178,178851,172438)](_0x32967b[_0x848d34(27488,191727,174362)][_0xe8ebea(82935,67910,367487)]*_0x58cf05,_0x32967b[_0xe8ebea(391307,373340,143891)][_0xd44ced(520414,565057,505779)],_0x32967b[_0x848d34(22721,188238,170683)][_0x848d34(768583,491796,509125)]*_0x58cf05)
+elseif _0x883746[_0x3f0d21(115613,43510,119200)][_0x248f80(122312,109237,111849)]==_0x248f80(144303,148564,1017403)then
+_0x1399f8[_0x3f0d21(258674,257387,254266)]=_0xcca467[_0xc84f9e[128]-248][_0x3f0d21(371408,526008,375290)]((2006+_0x95b3ae(_0x6bafdb(22,1984),1)-2006),_0x1399f8[_0x2b4f7f(91484,443927,456488)][_0x248f80(263781,294415,487226)],(1471+_0x95b3ae(_0x6bafdb(302,1169),1)-1471))
+elseif _0x883746[_0x3f0d21(455682,499305,452159)][_0x248f80(399202,417823,425539)]==_0x248f80(457216,429564,453865)then
+local _0x9341b7=(_0x883746[_0x2b4f7f(627719,184358,188555)][_0x2b4f7f(351247,86271,90322)]or(1977+_0x95b3ae(_0x6bafdb(778,1203),1)-1981))/(1175+_0x95b3ae(_0x6bafdb(1733,594),1)-2227)
+_0x1399f8[_0x2b4f7f(37231,471588,459547)]=_0xcca467[_0xc84f9e[39]-7][_0x3f0d21(483527,707759,488429)](_0x1399f8[_0x248f80(272208,286687,519736)][_0x248f80(333054,355479,160767)]*_0x9341b7,_0x1399f8[_0x248f80(475348,473179,297404)][_0x3f0d21(456340,411999,452023)],_0x1399f8[_0x3f0d21(483408,491337,488216)][_0x2b4f7f(381,257880,253507)]*_0x9341b7)
 end
 end
 end
-local _0xfa2073=_0x736c63[_0xd44ced(257301,469551,240432)](_0x736c63,_0x848d34(741951,362109,377058))
-local function _0x66c460()
-if _0xc96c19[_0x40b209[242]-155](_0x4624b2[_0xd44ced(121296,623517,102893)])==_0xe8ebea(229333,210683,975794)then
-local _0x424f83,_0xb27dfb=_0xc96c19[27](_0x4624b2[_0xe8ebea(184090,165016,1000951)])
-if _0x424f83 and _0xb27dfb then return _0xb27dfb end
+local _0x6d00a5=_0x7576e4[_0x3f0d21(101874,127413,105517)](_0x7576e4,_0x2b4f7f(300615,155985,151736))
+local function _0x66ff3c()
+if _0xcca467[2](_0xa72073[_0x3f0d21(282863,572026,279324)])==_0x3f0d21(294399,454943,289931)then
+local _0xd29fd5,_0x42bfb1=_0xcca467[16](_0xa72073[_0x248f80(419304,400594,612537)])
+if _0xd29fd5 and _0x42bfb1 then return _0x42bfb1 end
 end
-return _0xfa2073
+return _0x6d00a5
 end
-local _0x517a03=_0x66c460()
-local _0x902982=_0x848d34(232148,393647,411406).. _0xc96c19[20](_0xc96c19[25][_0xd44ced(462243,901096,477701)](_0xea489d(678315,678467),9999))
-local _0x206f2b=_0xd44ced(74997,118019,93386).. _0xc96c19[20](_0xc96c19[25][_0xe8ebea(231634,246329,846672)]((1434+_0xa81147(_0xfaf96b(334,1236),1)-570),(5726+_0xa81147(_0xfaf96b(6438,3960),1)-399)))
-for _0xbc6afd,_0x34ee2f in _0xc96c19[_0x40b209[21]+11]({(_0xc96c19[13](_0x4624b2[_0xd44ced(295201,842604,313628)])==_0xe8ebea(341456,359678,567735)and _0x4624b2[_0x848d34(630006,88665,72953)]())or nil,_0x87caf0,_0xfa2073})do
-if _0x34ee2f then
-_0xc96c19[27](function()
-for _0xbc6afd,_0xcf4a1d in _0xc96c19[_0x40b209[98]-225](_0x34ee2f[_0x848d34(1045092,350782,334938)](_0x34ee2f))do
-if _0xcf4a1d[_0xd44ced(354424,656350,339568)]==_0xd44ced(383757,946823,365389)or _0xcf4a1d[_0xe8ebea(443105,428972,817960)]==_0xd44ced(286720,828480,272449)
-or _0xc96c19[9][_0x848d34(394501,475714,460342)](_0xcf4a1d[_0xe8ebea(271678,289907,957687)],_0xe8ebea(203372,217583,253268),(_0x40b209[87]-225),true)
-or _0xc96c19[_0x40b209[184]-204][_0xe8ebea(515890,497252,251619)](_0xcf4a1d[_0x848d34(734548,311824,296571)],_0xe8ebea(76699,90143,266955),(3675+_0xa81147(_0xfaf96b(3657,18),1)-3674),true)then
-_0xcf4a1d[_0xe8ebea(250506,235789,164152)](_0xcf4a1d)
+local _0x79d0a6=_0x66ff3c()
+local _0x3c097e=_0x248f80(98021,67550,254918).. _0xcca467[_0xc84f9e[224]-18](_0xcca467[21][_0x3f0d21(356460,104912,353072)](_0xfc82ca(_0xc84f9e[217],822),_0xfc82ca(784077,774594)))
+local _0x774164=_0x248f80(276328,282196,774068).. _0xcca467[30](_0xcca467[21][_0x2b4f7f(5586,213052,225647)]((2985+_0x95b3ae(_0x6bafdb(983,2174),1)-2157),(_0xc84f9e[161]+9797)))
+for _0x1127a1,_0xf1bd9b in _0xcca467[10]({(_0xcca467[2](_0xa72073[_0x248f80(410880,408634,620625)])==_0x2b4f7f(250376,451258,445905)and _0xa72073[_0x248f80(80213,82031,918532)]())or nil,_0x92229d,_0x6d00a5})do
+if _0xf1bd9b then
+_0xcca467[16](function()
+for _0x1127a1,_0x8a257c in _0xcca467[10](_0xf1bd9b[_0x3f0d21(410699,588358,415740)](_0xf1bd9b))do
+if _0x8a257c[_0x2b4f7f(229121,211382,202300)]==_0x3f0d21(212240,696752,208614)or _0x8a257c[_0x2b4f7f(487232,469495,460413)]==_0x3f0d21(299535,548592,295416)
+or _0xcca467[34][_0x2b4f7f(485226,516198,511989)](_0x8a257c[_0x248f80(444519,442045,191142)],_0x2b4f7f(72291,519383,515388),_0xfc82ca(_0xc84f9e[118],170),true)
+or _0xcca467[_0xc84f9e[116]-213][_0x2b4f7f(187634,154622,160877)](_0x8a257c[_0x2b4f7f(196517,178450,169624)],_0x248f80(401890,415966,645438),_0xfc82ca(1040499,1040498),true)then
+_0x8a257c[_0x2b4f7f(88784,147571,160156)](_0x8a257c)
 end
 end
 end)
 end
 end
-local _0x4ae589=nil
-local function _0x9f7882()
-if _0x4ae589 and _0x4ae589[_0xe8ebea(460478,478518,873960)]==_0x517a03 then
-return _0x4ae589
+local _0xeb14f9=nil
+local function _0xb67752()
+if _0xeb14f9 and _0xeb14f9[_0x248f80(475658,473930,392790)]==_0x79d0a6 then
+return _0xeb14f9
 end
-local _0x526d71=_0x517a03[_0xd44ced(329726,415578,344495)](_0x517a03,_0x902982)
-if _0x526d71 and _0x526d71[_0x848d34(971776,361278,378769)](_0x526d71,_0xe8ebea(279506,264283,29375))then
-_0x4ae589=_0x526d71
-return _0x4ae589
-elseif _0x526d71 then
-_0xc96c19[_0x40b209[251]-61](function()_0x526d71[_0xe8ebea(288374,273905,341444)](_0x526d71)end)
+local _0xa8df24=_0x79d0a6[_0x2b4f7f(545694,169593,173691)](_0x79d0a6,_0x3c097e)
+if _0xa8df24 and _0xa8df24[_0x2b4f7f(365891,495467,499862)](_0xa8df24,_0x248f80(470431,480478,900267))then
+_0xeb14f9=_0xa8df24
+return _0xeb14f9
+elseif _0xa8df24 then
+_0xcca467[_0xc84f9e[41]-43](function()_0xa8df24[_0x3f0d21(331423,108654,335207)](_0xa8df24)end)
 end
-local _0x317e34=_0xc96c19[_0x40b209[169]-207][_0x848d34(494138,477849,462670)](_0x848d34(461279,423163,406108))
-_0x317e34[_0xd44ced(487431,531361,472591)]=_0x902982
-_0x317e34[_0xe8ebea(445704,427650,162580)]=false
-_0x317e34[_0xd44ced(282108,374261,263610)]=true
-_0x317e34[_0x848d34(149606,289316,273550)]=_0xc96c19[_0x40b209[17]-214][_0xe8ebea(511867,492791,303477)][_0xe8ebea(291586,276623,47285)]
-_0x317e34[_0x848d34(640593,448847,434153)]=_0x517a03
-_0x4ae589=_0x317e34
-return _0x4ae589
+local _0xdfa2c7=_0xcca467[29][_0x2b4f7f(909681,520523,508010)](_0x3f0d21(68729,543474,73603))
+_0xdfa2c7[_0x2b4f7f(83282,66533,76911)]=_0x3c097e
+_0xdfa2c7[_0x2b4f7f(617119,408589,396799)]=false
+_0xdfa2c7[_0x2b4f7f(613541,484882,481249)]=true
+_0xdfa2c7[_0x2b4f7f(297262,453998,449690)]=_0xcca467[_0xc84f9e[151]-205][_0x2b4f7f(259262,102654,106762)][_0x248f80(491461,460416,404907)]
+_0xdfa2c7[_0x3f0d21(370291,314769,374154)]=_0x79d0a6
+_0xeb14f9=_0xdfa2c7
+return _0xeb14f9
 end
-_0x9f7882()
-local _0x30d38f={
-[_0xd44ced(92093,361454,77812)]={},
-[_0xe8ebea(342724,356683,294443)]={},
-[_0xd44ced(162791,830939,144300)]={},
+_0xb67752()
+local _0xae9127={
+[_0x3f0d21(408115,736389,403916)]={},
+[_0x3f0d21(290093,337109,293165)]={},
+[_0x2b4f7f(777252,103999,108487)]={},
 }
-local _0x0f393e={
-[_0x848d34(103466,288116,271323)]=true,
-[_0xe8ebea(241428,255110,256940)]=true,
-[_0x848d34(1027402,280496,262401)]=true,
-[_0xd44ced(133230,327626,147489)]=true,
-[_0xd44ced(322282,703685,303802)]=true,
-[_0x848d34(939886,184023,165987)]=true,
+local _0x121730={
+[_0x2b4f7f(282106,127948,115253)]=true,
+[_0x3f0d21(294112,811530,288995)]=true,
+[_0x248f80(285961,271426,917708)]=true,
+[_0x3f0d21(413496,343359,416573)]=true,
+[_0x3f0d21(214223,649073,217289)]=true,
+[_0x3f0d21(207711,901640,212824)]=true,
 }
-local _0xdf8da3={
-[_0xd44ced(377272,507850,362986)]=true,
-[_0x848d34(505400,67305,82015)]=true,
-[_0x848d34(393498,302289,318054)]=true,
-[_0xd44ced(469342,859378,483595)]=true,
-[_0xe8ebea(123886,108661,490268)]=true,
-[_0x848d34(48621,409701,394975)]=true,
-[_0xd44ced(496521,663983,515025)]=true,
-[_0xd44ced(443136,144632,428889)]=true,
-[_0xe8ebea(389311,375584,587529)]=true,
-[_0x848d34(610785,512215,497257)]=true,
-[_0x848d34(226513,452571,434532)]=true,
-[_0xe8ebea(319499,306089,630889)]=true,
-[_0x848d34(880930,350217,335560)]=true,
-[_0x848d34(271761,73543,88453)]=true,
-[_0x848d34(678062,351107,335168)]=true,
+local _0x0dac75={
+[_0x3f0d21(424596,225281,421532)]=true,
+[_0x3f0d21(300276,610016,295165)]=true,
+[_0x3f0d21(380302,377100,383364)]=true,
+[_0x248f80(112594,118400,221386)]=true,
+[_0x3f0d21(409334,1019177,404218)]=true,
+[_0x3f0d21(230697,964586,233764)]=true,
+[_0x3f0d21(181998,25498,185056)]=true,
+[_0x2b4f7f(964187,283796,288402)]=true,
+[_0x248f80(196416,165399,40336)]=true,
+[_0x3f0d21(317613,442327,314556)]=true,
+[_0x3f0d21(501496,1002103,504554)]=true,
+[_0x248f80(119137,108603,772874)]=true,
+[_0x2b4f7f(99358,73094,77709)]=true,
+[_0x2b4f7f(271083,192447,187827)]=true,
+[_0x2b4f7f(922896,222819,218222)]=true,
 }
-local function _0x1f1323(_0x87a12e)
-local _0xf072de=_0x858c31[_0x848d34(351962,481692,466776)](_0x858c31,_0x87a12e)or _0x858c31[_0xe8ebea(345180,331210,247372)](_0x858c31,_0x87a12e[_0x848d34(775613,271097,288402)])
-if not _0xf072de or _0xf072de==_0x736c63 then return false end
-local _0x254c97=_0xf072de[_0x848d34(942858,332935,348361)]
-if _0x30d38f[_0xe8ebea(422433,407985,881839)][_0x254c97]~=nil then
-return _0x30d38f[_0xe8ebea(389669,375221,980139)][_0x254c97]
+local function _0xdc5455(_0xd2a8f4)
+local _0x277645=_0x55c511[_0x248f80(316672,306270,601458)](_0x55c511,_0xd2a8f4)or _0x55c511[_0x2b4f7f(826407,416192,420290)](_0x55c511,_0xd2a8f4[_0x248f80(363135,392357,108734)])
+if not _0x277645 or _0x277645==_0x7576e4 then return false end
+local _0x67489b=_0x277645[_0x3f0d21(259755,833751,255965)]
+if _0xae9127[_0x3f0d21(162818,1018443,157699)][_0x67489b]~=nil then
+return _0xae9127[_0x2b4f7f(609651,198504,210576)][_0x67489b]
 end
-local _0x424f83,_0xaae6af=_0xc96c19[27](function()
-return _0x736c63[_0xe8ebea(155526,136225,933796)](_0x736c63,_0x254c97)
+local _0xd29fd5,_0x523911=_0xcca467[_0xc84f9e[201]-77](function()
+return _0x7576e4[_0x2b4f7f(1016766,79130,67349)](_0x7576e4,_0x67489b)
 end)
-local _0xae154e=_0x424f83 and _0xaae6af==true or false
-_0x30d38f[_0x848d34(585337,435367,451081)][_0x254c97]=_0xae154e
-return _0xae154e
+local _0xd14a0b=_0xd29fd5 and _0x523911==true or false
+_0xae9127[_0x3f0d21(345218,570059,348291)][_0x67489b]=_0xd14a0b
+return _0xd14a0b
 end
-local function _0x94b22c(_0x159ebd,_0x753147,_0x09c0b8)
-local _0x0ba380=_0x753147[_0x848d34(383553,282552,264823)]*0.5+_0x09c0b8
-local _0xced45d=_0x753147[_0xe8ebea(238334,256076,597233)]*0.5+_0x09c0b8
-local _0x95f1eb=_0x753147[_0xd44ced(367311,605566,384417)]*0.5+_0x09c0b8
-local _0x7782d0=_0xc96c19[9][_0xd44ced(88100,86195,73174)](_0xe8ebea(463637,481469,584202),_0x0ba380,_0xced45d,_0x95f1eb)
-if _0x159ebd[_0xe8ebea(103219,121165,701200)](_0x159ebd,_0xe8ebea(161377,146888,339488))==_0x7782d0 then
+local function _0xf4dafe(_0x8ca7fe,_0x026baa,_0x49a265)
+local _0x696095=_0x026baa[_0x2b4f7f(336076,404744,400401)]*0.5+_0x49a265
+local _0x03fcd4=_0x026baa[_0x3f0d21(224591,250500,228972)]*0.5+_0x49a265
+local _0xd16923=_0x026baa[_0x248f80(97677,67046,457071)]*0.5+_0x49a265
+local _0x4e90ed=_0xcca467[34][_0x3f0d21(446086,717274,450555)](_0x248f80(339431,349319,396207),_0x696095,_0x03fcd4,_0xd16923)
+if _0x8ca7fe[_0x3f0d21(395722,377828,400186)](_0x8ca7fe,_0x2b4f7f(67031,515764,519333))==_0x4e90ed then
 return
 end
-_0x159ebd[_0xe8ebea(199143,213581,325905)](_0x159ebd,_0xe8ebea(349513,335584,134408),_0x7782d0)
-_0x159ebd[_0xe8ebea(478803,460280,154028)](_0x159ebd)
-local _0x7e51ae=_0xc96c19[24][_0x848d34(454987,405992,422975)](-_0x0ba380,-_0xced45d,-_0x95f1eb)
-local _0x2b2478=_0xc96c19[24][_0xe8ebea(81955,68250,314873)](_0x0ba380,-_0xced45d,-_0x95f1eb)
-local _0x64a92c=_0xc96c19[24][_0xe8ebea(310400,325177,78170)](_0x0ba380,-_0xced45d,_0x95f1eb)
-local _0x699e91=_0xc96c19[24][_0x848d34(474599,523588,506003)](-_0x0ba380,-_0xced45d,_0x95f1eb)
-local _0x97bdfc=_0xc96c19[24][_0xd44ced(145229,158476,159801)](-_0x0ba380,_0xced45d,-_0x95f1eb)
-local _0x974553=_0xc96c19[_0x40b209[12]+9][_0xe8ebea(327845,346652,36223)](_0x0ba380,_0xced45d,-_0x95f1eb)
-local _0xf7e351=_0xc96c19[_0x40b209[228]-39][_0xe8ebea(509930,494931,150064)](_0x0ba380,_0xced45d,_0x95f1eb)
-local _0x8ab5d0=_0xc96c19[24][_0x848d34(77672,126923,109084)](-_0x0ba380,_0xced45d,_0x95f1eb)
-_0x159ebd[_0xe8ebea(295688,313508,927557)](_0x159ebd,_0x7e51ae,_0x2b2478)
-_0x159ebd[_0xd44ced(201776,811251,220247)](_0x159ebd,_0x2b2478,_0x64a92c)
-_0x159ebd[_0xe8ebea(222299,208887,638998)](_0x159ebd,_0x64a92c,_0x699e91)
-_0x159ebd[_0xd44ced(222491,791000,208252)](_0x159ebd,_0x699e91,_0x7e51ae)
-_0x159ebd[_0x848d34(908815,144942,159972)](_0x159ebd,_0x97bdfc,_0x974553)
-_0x159ebd[_0x848d34(621262,430831,447525)](_0x159ebd,_0x974553,_0xf7e351)
-_0x159ebd[_0xd44ced(426972,653087,445371)](_0x159ebd,_0xf7e351,_0x8ab5d0)
-_0x159ebd[_0xe8ebea(246992,233340,614557)](_0x159ebd,_0x8ab5d0,_0x97bdfc)
-_0x159ebd[_0xe8ebea(364987,383511,996854)](_0x159ebd,_0x7e51ae,_0x97bdfc)
-_0x159ebd[_0xd44ced(129640,954027,111119)](_0x159ebd,_0x2b2478,_0x974553)
-_0x159ebd[_0x848d34(917149,136892,151670)](_0x159ebd,_0x64a92c,_0xf7e351)
-_0x159ebd[_0x848d34(720308,333205,349023)](_0x159ebd,_0x699e91,_0x8ab5d0)
+_0x8ca7fe[_0x3f0d21(214640,431513,217707)](_0x8ca7fe,_0x3f0d21(360813,321116,365943),_0x4e90ed)
+_0x8ca7fe[_0x2b4f7f(202262,219779,223376)](_0x8ca7fe)
+local _0x1a4ee5=_0xcca467[3][_0x2b4f7f(783997,124487,120678)](-_0x696095,-_0x03fcd4,-_0xd16923)
+local _0x79d4ea=_0xcca467[_0xc84f9e[247]-230][_0x248f80(143586,149651,805381)](_0x696095,-_0x03fcd4,-_0xd16923)
+local _0x72007a=_0xcca467[3][_0x3f0d21(89376,848200,85514)](_0x696095,-_0x03fcd4,_0xd16923)
+local _0x07b12b=_0xcca467[3][_0x248f80(482575,468350,600040)](-_0x696095,-_0x03fcd4,_0xd16923)
+local _0xd61190=_0xcca467[3][_0x2b4f7f(612213,214863,226926)](-_0x696095,_0x03fcd4,-_0xd16923)
+local _0x66ebac=_0xcca467[3][_0x2b4f7f(1026571,375345,363280)](_0x696095,_0x03fcd4,-_0xd16923)
+local _0xce3999=_0xcca467[_0xc84f9e[66]-61][_0x3f0d21(497361,670393,493051)](_0x696095,_0x03fcd4,_0xd16923)
+local _0x8288e2=_0xcca467[_0xc84f9e[82]-97][_0x2b4f7f(818475,421137,416816)](-_0x696095,_0x03fcd4,_0xd16923)
+_0x8ca7fe[_0x2b4f7f(334321,83146,95966)](_0x8ca7fe,_0x1a4ee5,_0x79d4ea)
+_0x8ca7fe[_0x248f80(422503,396035,410772)](_0x8ca7fe,_0x79d4ea,_0x72007a)
+_0x8ca7fe[_0x2b4f7f(444432,169259,173887)](_0x8ca7fe,_0x72007a,_0x07b12b)
+_0x8ca7fe[_0x2b4f7f(86411,330928,343716)](_0x8ca7fe,_0x07b12b,_0x1a4ee5)
+_0x8ca7fe[_0x2b4f7f(136279,412012,424824)](_0x8ca7fe,_0xd61190,_0x66ebac)
+_0x8ca7fe[_0x3f0d21(199822,60903,202899)](_0x8ca7fe,_0x66ebac,_0xce3999)
+_0x8ca7fe[_0x248f80(444055,442355,454756)](_0x8ca7fe,_0xce3999,_0x8288e2)
+_0x8ca7fe[_0x3f0d21(227671,38974,224586)](_0x8ca7fe,_0x8288e2,_0xd61190)
+_0x8ca7fe[_0x2b4f7f(328712,88371,92967)](_0x8ca7fe,_0x1a4ee5,_0xd61190)
+_0x8ca7fe[_0x3f0d21(85841,175672,88908)](_0x8ca7fe,_0x79d4ea,_0x66ebac)
+_0x8ca7fe[_0x248f80(437631,447515,433036)](_0x8ca7fe,_0x72007a,_0xce3999)
+_0x8ca7fe[_0x248f80(470939,481023,465256)](_0x8ca7fe,_0x07b12b,_0x8288e2)
 end
-local function _0xa85c2d(_0x55ed64)
-local _0x63ac89=_0x9f7882()
-local _0x74a665=_0x30d38f[_0xd44ced(500742,213077,519247)][_0x55ed64]
-if _0x74a665 then
-local _0x27dc43=_0x74a665[_0x848d34(162092,131886,148965)][_0xea489d(_0x40b209[54],104)]
-if _0x27dc43 and _0x27dc43[_0x848d34(380404,392911,374787)]and _0x27dc43[_0x848d34(195021,183030,166970)][_0x848d34(710486,378952,364270)]==_0x63ac89 and _0x27dc43[_0xd44ced(86372,185892,71950)]and _0x27dc43[_0x848d34(324544,518242,503471)][_0x848d34(560739,495997,514011)]==_0x63ac89 then
-return _0x74a665
+local function _0x591ca3(_0x4453df)
+local _0xa4cf23=_0xb67752()
+local _0xa556b6=_0xae9127[_0x3f0d21(394496,721846,399103)][_0x4453df]
+if _0xa556b6 then
+local _0x61a01b=_0xa556b6[_0x248f80(138728,156813,944388)][(27+_0x95b3ae(_0x6bafdb(157,134),1)-290)]
+if _0x61a01b and _0x61a01b[_0x248f80(319506,301428,286000)]and _0x61a01b[_0x248f80(305265,315671,267603)][_0x3f0d21(209035,154473,205682)]==_0xa4cf23 and _0x61a01b[_0x248f80(465752,483903,830130)]and _0x61a01b[_0x2b4f7f(525045,514260,518851)][_0x3f0d21(375473,315731,371016)]==_0xa4cf23 then
+return _0xa556b6
 end
-for _0x85d2fd=(_0x40b209[50]-178),_0xea489d(_0x40b209[47],237)do
-local _0x8e162d=_0x74a665[_0xd44ced(258306,202722,244074)][_0x85d2fd]
-if _0x8e162d then
-if _0x8e162d[_0xe8ebea(103064,121142,323021)]then _0xc96c19[_0x40b209[252]-177](function()_0x8e162d[_0xe8ebea(240783,255777,447450)]:Destroy()end)end
-if _0x8e162d[_0xe8ebea(168364,186883,312929)]then _0xc96c19[27](function()_0x8e162d[_0x848d34(368676,441222,458059)]:Destroy()end)end
+for _0x98880d=(_0xc84f9e[239]-176),(_0xc84f9e[99]-64)do
+local _0xcb7c87=_0xa556b6[_0x248f80(111931,117854,901591)][_0x98880d]
+if _0xcb7c87 then
+if _0xcb7c87[_0x248f80(461567,488345,505821)]then _0xcca467[16](function()_0xcb7c87[_0x248f80(505464,511774,461658)]:Destroy()end)end
+if _0xcb7c87[_0x3f0d21(213567,730188,218655)]then _0xcca467[16](function()_0xcb7c87[_0x2b4f7f(743625,295656,307455)]:Destroy()end)end
 end
 end
-if _0x74a665[_0xe8ebea(339263,353935,854925)]then _0xc96c19[_0x40b209[72]-98](function()_0x74a665[_0xd44ced(282390,637238,264061)]:Destroy()end)end
-if _0x74a665[_0xe8ebea(167970,187283,924827)]then _0xc96c19[27](function()_0x74a665[_0xd44ced(332427,806561,350951)]:Destroy()end)end
-_0x30d38f[_0xd44ced(367853,96446,382116)][_0x55ed64]=nil
+if _0xa556b6[_0x248f80(355047,332687,331823)]then _0xcca467[16](function()_0xa556b6[_0x248f80(125801,102913,102817)]:Destroy()end)end
+if _0xa556b6[_0x3f0d21(137017,429627,131867)]then _0xcca467[_0xc84f9e[106]-130](function()_0xa556b6[_0x3f0d21(413899,182729,410857)]:Destroy()end)end
+_0xae9127[_0x248f80(102382,128680,1007328)][_0x4453df]=nil
 end
-local _0xb27dfb=(122+_0xa81147(_0xfaf96b(359,285),1)-644)
-local _0x481df3=_0x55ed64[_0xe8ebea(200299,214822,636834)]
-for _0x85d2fd=(79+_0xa81147(_0xfaf96b(18,93),1)-110),#_0x481df3 do
-_0xb27dfb=(_0xb27dfb*(424+_0xa81147(_0xfaf96b(398,38),1)-405)+_0xc96c19[9][_0xe8ebea(104198,122420,114519)](_0x481df3,_0x85d2fd))%_0xea489d(229514,230242)
+local _0x42bfb1=_0xfc82ca(474937,474937)
+local _0x02846f=_0x4453df[_0x3f0d21(361718,163347,365925)]
+for _0x98880d=(_0xc84f9e[235]-180),#_0x02846f do
+_0x42bfb1=(_0x42bfb1*(2126+_0x95b3ae(_0x6bafdb(831,2929),1)-3729)+_0xcca467[34][_0x2b4f7f(206253,474137,463734)](_0x02846f,_0x98880d))%(3406+_0x95b3ae(_0x6bafdb(517,3915),1)-3432)
 end
-_0x74a665={
-[_0x848d34(311412,309878,326845)]={},
-[_0x848d34(475816,374607,389456)]=(_0xb27dfb/1000)*_0xc96c19[_0x40b209[200]-106][_0xd44ced(110856,834789,128625)]*(2022+_0xa81147(_0xfaf96b(1006,1032),1)-2036),
+_0xa556b6={
+[_0x248f80(319926,301267,562522)]={},
+[_0x248f80(222339,203834,585274)]=(_0x42bfb1/(2121+_0x95b3ae(_0x6bafdb(71,2062),1)-1133))*_0xcca467[21][_0x3f0d21(158710,88748,162009)]*_0xfc82ca(934720,934722),
 }
-for _0x85d2fd=_0xea489d(_0x40b209[128],134),(3986+_0xa81147(_0xfaf96b(912,3074),1)-3983)do
-local _0xe38479=_0xc96c19[17][_0xd44ced(209600,224897,226740)](_0x848d34(281444,139518,157230))
-_0xe38479[_0xe8ebea(433091,447118,795146)]=_0xe8ebea(131789,149886,243913).. _0x85d2fd
-_0xe38479[_0xd44ced(445846,342563,427513)]=_0x55ed64
-_0xe38479[_0xe8ebea(316759,302818,251044)]=(1237+_0xa81147(_0xfaf96b(196,1041),1)-1235)+_0x85d2fd
-_0xe38479[_0xd44ced(519371,485158,500922)]=false
-_0xe38479[_0xd44ced(491670,525162,510165)]=_0x63ac89
-local _0x159ebd=_0xc96c19[17][_0xe8ebea(270023,283774,103197)](_0xd44ced(406142,744815,424460))
-_0x159ebd[_0xd44ced(218792,802062,200864)]=_0x848d34(700741,85615,67769).. _0x85d2fd
-_0x159ebd[_0xd44ced(470137,318412,484374)]=_0x55ed64
-_0x159ebd[_0x848d34(44009,190063,172220)]=(_0x40b209[136]-84)+_0x85d2fd
-_0x159ebd[_0xd44ced(219680,250317,201297)]=false
-_0x159ebd[_0x848d34(578818,510492,494778)]=_0x63ac89
-_0x74a665[_0x848d34(296883,327089,310138)][_0x85d2fd]={[_0x848d34(114028,101975,116891)]=_0xe38479,[_0xd44ced(77899,177931,96289)]=_0x159ebd}
+for _0x98880d=(1782+_0x95b3ae(_0x6bafdb(1269,515),1)-1783),3 do
+local _0x377f94=_0xcca467[29][_0x2b4f7f(767985,108491,104170)](_0x248f80(109921,119819,467232))
+_0x377f94[_0x2b4f7f(240072,257919,246005)]=_0x248f80(519312,497147,360022).. _0x98880d
+_0x377f94[_0x3f0d21(104047,124840,98890)]=_0x4453df
+_0x377f94[_0x2b4f7f(654810,452722,449135)]=_0xfc82ca(83025,83027)+_0x98880d
+_0x377f94[_0x248f80(172922,186900,726545)]=false
+_0x377f94[_0x248f80(488035,461603,380479)]=_0xa4cf23
+local _0x8ca7fe=_0xcca467[29][_0x2b4f7f(631682,242616,230041)](_0x248f80(209299,215292,824756))
+_0x8ca7fe[_0x2b4f7f(242323,259108,252846)]=_0x3f0d21(504175,139876,501062).. _0x98880d
+_0x8ca7fe[_0x3f0d21(247198,242777,250299)]=_0x4453df
+_0x8ca7fe[_0x3f0d21(386860,872150,389898)]=(_0xc84f9e[11]-109)+_0x98880d
+_0x8ca7fe[_0x2b4f7f(573764,335853,339443)]=false
+_0x8ca7fe[_0x3f0d21(325256,367978,320881)]=_0xa4cf23
+_0xa556b6[_0x2b4f7f(755336,235949,240568)][_0x98880d]={[_0x3f0d21(140052,84398,145163)]=_0x377f94,[_0x248f80(287243,269164,1037281)]=_0x8ca7fe}
 end
-local _0xfc11af=_0xc96c19[17][_0xe8ebea(148797,135044,510183)](_0xe8ebea(382214,368308,455406))
-_0xfc11af[_0xe8ebea(177105,195228,526872)]=_0xd44ced(142291,670549,156583)
-_0xfc11af[_0x848d34(278110,480521,463835)]=_0x55ed64
-_0xfc11af[_0xd44ced(513499,328895,499115)]=(703+_0xa81147(_0xfaf96b(756,75),1)-830)
-_0xfc11af[_0xd44ced(262315,593691,279810)]=_0xc96c19[_0x40b209[208]-18][_0xe8ebea(369065,387603,746250)]((408+_0xa81147(_0xfaf96b(1476,1116),1)-2337),_0xea489d(_0x40b209[77],19),_0xea489d(_0x40b209[67],80))
-_0xfc11af[_0x848d34(436735,442096,456740)]=false
-_0xfc11af[_0x848d34(925210,65796,83874)]=_0x63ac89
-local _0x3e0752=_0xc96c19[17][_0x848d34(391877,342630,360369)](_0xd44ced(469966,122038,484259))
-_0x3e0752[_0x848d34(576617,473901,491334)]=_0xd44ced(223888,181882,205542)
-_0x3e0752[_0x848d34(292252,466635,481305)]=_0x55ed64
-_0x3e0752[_0xd44ced(440868,289600,455252)]=_0xea489d(937816,937817)
-_0x3e0752[_0xe8ebea(453331,434749,931503)]=_0xc96c19[_0x40b209[54]-75][_0xe8ebea(161387,146897,832712)](_0xea489d(_0x40b209[95],119),_0xea489d(383492,383702),(3845+_0xa81147(_0xfaf96b(3943,98),1)-3786))
-_0x3e0752[_0x848d34(291231,288400,270404)]=false
-_0x3e0752[_0xe8ebea(179467,194179,585309)]=_0x63ac89
-_0x74a665[_0xd44ced(489396,688532,475103)]=_0xfc11af
-_0x74a665[_0xe8ebea(215362,197363,1033723)]=_0x3e0752
-_0x30d38f[_0xd44ced(338893,118686,353156)][_0x55ed64]=_0x74a665
-return _0x74a665
+local _0x10501e=_0xcca467[_0xc84f9e[1]-112][_0x2b4f7f(895508,506414,494351)](_0x3f0d21(434767,260506,439916))
+_0x10501e[_0x248f80(340672,345114,69633)]=_0x248f80(386681,368392,487181)
+_0x10501e[_0x3f0d21(86424,73823,83389)]=_0x4453df
+_0x10501e[_0x2b4f7f(635441,436121,431492)]=(3081+_0x95b3ae(_0x6bafdb(3099,18),1)-3116)
+_0x10501e[_0x2b4f7f(503713,194288,186844)]=_0xcca467[12][_0x2b4f7f(926998,403992,399418)](_0xfc82ca(674378,674485),(_0xc84f9e[98]-51),(3544+_0x95b3ae(_0x6bafdb(1266,2346),1)-3522))
+_0x10501e[_0x248f80(450961,432383,1004794)]=false
+_0x10501e[_0x2b4f7f(133534,319022,323550)]=_0xa4cf23
+local _0x4f79cb=_0xcca467[29][_0x3f0d21(454784,744680,451498)](_0x248f80(355939,333577,254498))
+_0x4f79cb[_0x248f80(271218,284072,435)]=_0x2b4f7f(528054,238422,233845)
+_0x4f79cb[_0x3f0d21(459323,488444,464414)]=_0x4453df
+_0x4f79cb[_0x2b4f7f(627400,427872,439677)]=(94+_0x95b3ae(_0x6bafdb(526,592),1)-1117)
+_0x4f79cb[_0x3f0d21(145631,56796,141802)]=_0xcca467[_0xc84f9e[34]-224][_0x3f0d21(466898,568462,461817)](_0xfc82ca(1007680,1007617),_0xfc82ca(985969,986019),_0xfc82ca(656061,655938))
+_0x4f79cb[_0x248f80(517492,498714,938015)]=false
+_0x4f79cb[_0x248f80(174571,184491,5559)]=_0xa4cf23
+_0xa556b6[_0x3f0d21(512095,294145,509054)]=_0x10501e
+_0xa556b6[_0x248f80(288339,270138,207046)]=_0x4f79cb
+_0xae9127[_0x2b4f7f(876136,517260,513402)][_0x4453df]=_0xa556b6
+return _0xa556b6
 end
-local function _0xe8f891(_0x55ed64,_0x74a665)
-if not _0x74a665 then return end
-for _0x85d2fd=_0xea489d(706084,706085),3 do
-local _0x8e162d=_0x74a665[_0xe8ebea(424296,406213,216839)][_0x85d2fd]
-if _0x8e162d then
-if _0x8e162d[_0xe8ebea(254577,240095,433444)]then _0xc96c19[27](function()_0x8e162d[_0xd44ced(509813,485548,495388)]:Destroy()end)end
-if _0x8e162d[_0xe8ebea(330100,344795,220857)]then _0xc96c19[_0x40b209[112]-116](function()_0x8e162d[_0xe8ebea(199572,213051,351321)]:Destroy()end)end
+local function _0x552fbf(_0x4453df,_0xa556b6)
+if not _0xa556b6 then return end
+for _0x98880d=_0xfc82ca(767125,767124),_0xfc82ca(719786,719785)do
+local _0xcb7c87=_0xa556b6[_0x2b4f7f(820417,302052,305649)][_0x98880d]
+if _0xcb7c87 then
+if _0xcb7c87[_0x248f80(244824,247102,196986)]then _0xcca467[16](function()_0xcb7c87[_0x3f0d21(470157,280119,473234)]:Destroy()end)end
+if _0xcb7c87[_0x248f80(441793,443558,855083)]then _0xcca467[_0xc84f9e[86]-42](function()_0xcb7c87[_0x2b4f7f(624763,414298,417869)]:Destroy()end)end
 end
 end
-if _0x74a665[_0xe8ebea(403670,418662,921188)]then _0xc96c19[27](function()_0x74a665[_0x848d34(627322,325816,310902)]:Destroy()end)end
-if _0x74a665[_0xd44ced(459588,941934,477992)]then _0xc96c19[27](function()_0x74a665[_0xd44ced(274847,880053,293363)]:Destroy()end)end
-_0x30d38f[_0xe8ebea(231806,246512,179585)][_0x55ed64]=nil
+if _0xa556b6[_0x2b4f7f(453442,195150,182358)]then _0xcca467[_0xc84f9e[164]-57](function()_0xa556b6[_0x3f0d21(250363,31909,247258)]:Destroy()end)end
+if _0xa556b6[_0x3f0d21(488985,257819,483899)]then _0xcca467[_0xc84f9e[184]-144](function()_0xa556b6[_0x2b4f7f(99424,172336,168745)]:Destroy()end)end
+_0xae9127[_0x3f0d21(126315,846813,130708)][_0x4453df]=nil
 end
-local function _0x662977()
-for _0x55ed64,_0x74a665 in _0xc96c19[_0x40b209[52]-52](_0x30d38f[_0xe8ebea(351463,333673,288792)])do
-if not _0x55ed64 or not _0x55ed64[_0x848d34(898190,174992,191798)]then
-_0xe8f891(_0x55ed64,_0x74a665)
+local function _0x1c720d()
+for _0x4453df,_0xa556b6 in _0xcca467[_0xc84f9e[179]-207](_0xae9127[_0x2b4f7f(613425,255701,251683)])do
+if not _0x4453df or not _0x4453df[_0x2b4f7f(206245,389653,377829)]then
+_0x552fbf(_0x4453df,_0xa556b6)
 else
-for _0x85d2fd=_0xea489d(153215,153214),(2154+_0xa81147(_0xfaf96b(2159,5),1)-2161)do
-local _0x8e162d=_0x74a665[_0xd44ced(484281,492889,469969)][_0x85d2fd]
-if _0x8e162d then
-_0x8e162d[_0xd44ced(184858,163267,170611)][_0xe8ebea(520883,506117,174538)]=false
-_0x8e162d[_0x848d34(446170,382328,365493)][_0xe8ebea(478599,460337,136958)]=false
+for _0x98880d=_0xfc82ca(597555,597554),_0xfc82ca(142704,142707)do
+local _0xcb7c87=_0xa556b6[_0x248f80(80401,82804,872189)][_0x98880d]
+if _0xcb7c87 then
+_0xcb7c87[_0x3f0d21(257914,34240,260965)][_0x248f80(501330,515900,922425)]=false
+_0xcb7c87[_0x248f80(240489,250382,531075)][_0x2b4f7f(805463,103678,108256)]=false
 end
 end
-_0x74a665[_0xd44ced(466762,715114,481057)][_0xe8ebea(254476,240058,440693)]=false
-_0x74a665[_0xe8ebea(185287,170102,941950)][_0xe8ebea(490774,472736,140911)]=false
+_0xa556b6[_0x248f80(137849,156433,155825)][_0x2b4f7f(851652,73837,70259)]=false
+_0xa556b6[_0x3f0d21(348405,117239,345303)][_0x3f0d21(243599,644468,238504)]=false
 end
 end
-for _0xaf593e,_0xaed29d in _0xc96c19[4](_0x30d38f[_0xe8ebea(457667,438348,507692)])do
-if not _0xaf593e or not _0xaf593e[_0x848d34(637208,435718,450720)]then
-_0xc96c19[_0x40b209[51]-226](function()_0xaed29d[_0xe8ebea(131690,149997,217560)](_0xaed29d)end)
-_0x30d38f[_0xe8ebea(100617,115334,52710)][_0xaf593e]=nil
+for _0xb7bb98,_0x637044 in _0xcca467[_0xc84f9e[115]+14](_0xae9127[_0x248f80(121247,106712,215006)])do
+if not _0xb7bb98 or not _0xb7bb98[_0x248f80(99084,129612,212816)]then
+_0xcca467[_0xc84f9e[243]-49](function()_0x637044[_0x248f80(77071,87088,416831)](_0x637044)end)
+_0xae9127[_0x248f80(274223,284264,438638)][_0xb7bb98]=nil
 else
-_0xaed29d[_0xd44ced(379861,208464,364045)]=false
+_0x637044[_0x3f0d21(443697,667249,447570)]=false
 end
 end
 end
-local function _0x7d2579(_0xc67307,_0xe7989a,_0xfeebd3)
-local _0xa99df1=2.0*_0xc67307-1.0
-local _0x375f5d=2.0*_0xe7989a-1.0
-for _0x85d2fd=(_0x40b209[126]-153),(1005+_0xa81147(_0xfaf96b(481,524),1)-999)do
-_0xa99df1=_0xa99df1+(0.55/_0x85d2fd)*_0xc96c19[25][_0xe8ebea(470497,485209,174417)](_0x85d2fd*2.4*_0x375f5d+_0xfeebd3)
-_0x375f5d=_0x375f5d+(0.55/_0x85d2fd)*_0xc96c19[25][_0xe8ebea(309798,323742,81558)](_0x85d2fd*1.6*_0xa99df1+_0xfeebd3*0.86)
+local function _0x2913c2(_0x5c8fb7,_0x690aec,_0x153ce7)
+local _0x7b4630=2.0*_0x5c8fb7-1.0
+local _0xd7989e=2.0*_0x690aec-1.0
+for _0x98880d=(3652+_0x95b3ae(_0x6bafdb(3668,16),1)-3683),_0xfc82ca(653341,653339)do
+_0x7b4630=_0x7b4630+(0.55/_0x98880d)*_0xcca467[_0xc84f9e[241]-186][_0x2b4f7f(457191,309437,297373)](_0x98880d*2.4*_0xd7989e+_0x153ce7)
+_0xd7989e=_0xd7989e+(0.55/_0x98880d)*_0xcca467[21][_0x3f0d21(325174,68414,320799)](_0x98880d*1.6*_0x7b4630+_0x153ce7*0.86)
 end
-local _0x6b1b2d=_0xc96c19[_0x40b209[102]-141][_0xd44ced(484667,615114,467812)](_0xc96c19[25][_0xd44ced(150062,481464,134256)](_0xc96c19[25][_0x848d34(265604,333032,348477)](_0xfeebd3-_0x375f5d-_0xa99df1)),0.08)
-local _0x399fed=0.09/_0x6b1b2d
-return _0xc96c19[_0x40b209[16]-109][_0xd44ced(153953,78440,139063)](_0x399fed*0.72,0.0,1.0)
+local _0xf222ff=_0xcca467[21][_0x3f0d21(396456,786245,401087)](_0xcca467[21][_0x248f80(93294,72499,734540)](_0xcca467[_0xc84f9e[93]-141][_0x248f80(194182,167657,28482)](_0x153ce7-_0xd7989e-_0x7b4630)),0.08)
+local _0x1dfdbe=0.09/_0xf222ff
+return _0xcca467[_0xc84f9e[5]-89][_0x2b4f7f(1040251,95429,83136)](_0x1dfdbe*0.72,0.0,1.0)
 end
-local function _0xbb62db(_0x7c7104,_0x4275fc,_0x55ed64,_0xf4c92b,_0x39be1c,_0x8b1cdc,_0xb36196,_0xb36437)
-local _0xe6cfe2=_0x55ed64[_0xd44ced(170853,618419,187618)]
-local _0x8b172c=(_0xe6cfe2-_0x8b1cdc)
-local _0x9acb78=_0x8b172c[_0x848d34(801081,500695,517659)]
-if _0x9acb78>0.001 then
-_0x8b172c=_0x8b172c/_0x9acb78
+local function _0xddc0fd(_0x6add9a,_0x883746,_0x4453df,_0xeca8e8,_0x88fdfe,_0x179ee0,_0xd9b52d,_0x8ce1b5)
+local _0x2c7c0e=_0x4453df[_0x248f80(183975,177699,697167)]
+local _0xd7ce82=(_0x2c7c0e-_0x179ee0)
+local _0x0ee44b=_0xd7ce82[_0x3f0d21(380995,44385,377692)]
+if _0x0ee44b>0.001 then
+_0xd7ce82=_0xd7ce82/_0x0ee44b
 else
-_0x8b172c=_0xc96c19[24][_0xe8ebea(280357,265628,117503)]((1100+_0xa81147(_0xfaf96b(1902,802),1)-2704),(16+_0xa81147(_0xfaf96b(250,234),1)-484),-1)
+_0xd7ce82=_0xcca467[3][_0x248f80(247482,245451,900189)]((1368+_0x95b3ae(_0x6bafdb(1392,40),1)-1432),0,-(210+_0x95b3ae(_0x6bafdb(1138,1184),1)-2321))
 end
-local _0x565f0c=_0xc96c19[25][_0x848d34(67651,196520,178961)](_0x55ed64[_0x848d34(721245,116604,99191)][_0xd44ced(75976,760297,90303)]:Dot(-_0x8b172c)*0.5+0.5,0,_0xea489d(46196,46197))
-local _0x759f12=_0xc96c19[25][_0x848d34(47815,216364,199061)](_0x55ed64[_0x848d34(987627,382922,365505)][_0x848d34(955961,208104,223795)]:Dot(_0x8b172c)*0.5+0.5,(_0x40b209[161]-75),_0xea489d(397439,397438))
-local _0xbe82cd=_0xc96c19[25][_0xe8ebea(336744,355059,236248)](1.0-_0xc96c19[25][_0xe8ebea(412591,393740,428984)](_0x55ed64[_0x848d34(985276,380573,363158)][_0xe8ebea(487691,474054,568260)]:Dot(_0x8b172c)),_0xea489d(495461,495461),(332+_0xa81147(_0xfaf96b(69,265),1)-333))
-local _0xc8706b=0.56+0.28*_0x565f0c+0.10*_0xbe82cd
-local _0x99f220=0.62+0.26*_0x565f0c+0.10*_0xbe82cd
-local _0x6589cf=0.78+0.20*_0x565f0c+0.12*_0xbe82cd
-local _0xc527eb,_0x26448e,_0x97aa70=_0x39be1c[_0xe8ebea(510130,492178,451972)],_0x39be1c[_0xe8ebea(473540,487482,435117)],_0x39be1c[_0xd44ced(404327,948271,418590)]
-local _0x671416=_0x4275fc[_0xe8ebea(473786,487647,1005041)][_0xd44ced(195935,97918,178976)]
-local _0x883b5f=_0x4275fc[_0xe8ebea(406177,424134,820614)][_0xe8ebea(163731,144983,274004)]
-local _0x188c8c=_0xc96c19[22][_0xd44ced(468964,197997,487326)]
-local _0x13bf9e=0.0
-if _0x7c7104==_0x848d34(740349,120503,103391)then
-local _0x421206=_0xc96c19[25][_0xd44ced(154757,79756,137939)]((_0xc8706b^1.12)*0.74,_0xea489d(724012,724012),(_0x40b209[248]-195))
-local _0x341be7=_0xc96c19[_0x40b209[212]-165][_0x848d34(191661,72518,90111)]((_0x99f220^1.12)*0.74,(206+_0xa81147(_0xfaf96b(448,270),1)-718),(1309+_0xa81147(_0xfaf96b(1163,406),1)-1568))
-local _0xb6a186=_0xc96c19[_0x40b209[18]-119][_0xd44ced(346392,401937,331598)]((_0x6589cf^1.12)*0.74,_0xea489d(712456,712456),_0xea489d(537839,537838))
-local _0x1b1da0=_0x421206+(_0xc527eb-_0x421206)*_0x671416
-local _0x77f74f=_0x341be7+(_0x26448e-_0x341be7)*_0x671416
-local _0x4a276d=_0xb6a186+(_0x97aa70-_0xb6a186)*_0x671416
-local _0x1ff945=_0xc96c19[25][_0xd44ced(171029,128796,186947)](_0x421206+(_0x1b1da0-_0x421206)*_0x883b5f+_0xbe82cd*0.16,0,(2912+_0xa81147(_0xfaf96b(2863,79),1)-2941))
-local _0x252c60=_0xc96c19[_0x40b209[195]-140][_0xd44ced(201260,31013,218234)](_0x341be7+(_0x77f74f-_0x341be7)*_0x883b5f+_0xbe82cd*0.16,_0xea489d(61982,61982),_0xea489d(296155,296154))
-local _0xa79d6e=_0xc96c19[_0x40b209[54]-80][_0xe8ebea(75111,93436,498903)](_0xb6a186+(_0x4a276d-_0xb6a186)*_0x883b5f+_0xbe82cd*0.18,(648+_0xa81147(_0xfaf96b(414,790),1)-1204),_0xea489d(_0x40b209[83],12))
-return _0xc96c19[30][_0x848d34(179178,162633,147102)](_0x1ff945,_0x252c60,_0xa79d6e),_0x188c8c,_0x13bf9e
-elseif _0x7c7104==_0xd44ced(276211,606231,291317)then
-local _0xfeebd3=_0xb36196*_0x4275fc[_0x848d34(302069,125895,110158)][_0x848d34(482788,279079,263877)]
-local _0xaaa4f6=_0xfeebd3*3.2
-local _0xc67307=_0x759f12+_0xb36437*0.15
-local _0xe7989a=_0x565f0c+_0xf4c92b*0.25
-local _0x33ffe0=_0xc96c19[_0x40b209[130]+7][_0xd44ced(507758,408288,522268)](_0xe7989a*18.0+_0xaaa4f6)+_0xc96c19[_0x40b209[64]-77][_0x848d34(472188,523700,505954)](_0xe7989a*9.0-_0xaaa4f6*0.6)
-local _0xae5f4e=_0xc96c19[25][_0xe8ebea(261588,243564,424292)](_0xc67307*15.0-_0xaaa4f6*0.8)+_0xc96c19[25][_0xd44ced(284922,384372,270216)]((_0xc67307+_0xe7989a)*8.0+_0xaaa4f6*0.45)
-local _0xf10243=_0xc96c19[_0x40b209[115]-22][_0xd44ced(415216,512126,397954)]((_0xc67307+_0xe7989a)*13.0)*0.8
-local _0x5e7e7a=_0xc96c19[25][_0xe8ebea(82548,67788,313028)]((_0xc67307-_0xe7989a)*11.0)*0.7
-local _0x5c7267=_0x4275fc[_0xe8ebea(282093,264068,231639)][_0xd44ced(441437,343932,457250)]*2.2
-local _0x6be084=(_0x33ffe0*0.55+_0xf10243)*_0x5c7267
-local _0xacb1fb=(_0xae5f4e*0.50+_0x5e7e7a)*_0x5c7267
-_0x188c8c=_0xc96c19[_0x40b209[198]-9][_0xd44ced(176591,191886,194235)](_0x6be084,_0xacb1fb*0.6,-_0x6be084*0.5)
-_0x13bf9e=_0xc96c19[25][_0x848d34(318873,87021,71468)](_0x6be084)*0.35
-local _0xd8d6e8=0.88+0.24*_0xc96c19[25][_0xd44ced(324609,356751,308083)](_0xaaa4f6*1.4+_0xb36437+_0xf4c92b)
-local _0x421206=_0xc96c19[_0x40b209[159]-204][_0x848d34(102896,157211,139938)](((_0xc8706b*_0xd8d6e8)^1.18)*0.64,(_0x40b209[66]-101),_0xea489d(1011634,1011635))
-local _0x341be7=_0xc96c19[_0x40b209[134]-28][_0x848d34(514955,273504,288985)](((_0x99f220*_0xd8d6e8)^1.18)*0.64,_0xea489d(_0x40b209[46],243),_0xea489d(188574,188575))
-local _0xb6a186=_0xc96c19[_0x40b209[237]-174][_0x848d34(378950,409517,424724)](((_0x6589cf*_0xd8d6e8)^1.18)*0.64,(_0x40b209[145]-72),(_0x40b209[109]-139))
-local _0x1b1da0=_0x421206+(_0xc527eb-_0x421206)*_0x671416
-local _0x77f74f=_0x341be7+(_0x26448e-_0x341be7)*_0x671416
-local _0x4a276d=_0xb6a186+(_0x97aa70-_0xb6a186)*_0x671416
-local _0x1ff945=_0xc96c19[25][_0x848d34(287383,497020,512453)](_0x421206+(_0x1b1da0-_0x421206)*_0x883b5f,(2103+_0xa81147(_0xfaf96b(693,2690),1)-3383),_0xea489d(211827,211826))
-local _0x252c60=_0xc96c19[25][_0x848d34(495158,293341,277860)](_0x341be7+(_0x77f74f-_0x341be7)*_0x883b5f,_0xea489d(770822,770822),_0xea489d(469402,469403))
-local _0xa79d6e=_0xc96c19[25][_0xd44ced(435635,380602,451557)](_0xb6a186+(_0x4a276d-_0xb6a186)*_0x883b5f,_0xea489d(122324,122324),_0xea489d(_0x40b209[143],151))
-return _0xc96c19[_0x40b209[191]-127][_0x848d34(178808,162523,147212)](_0x1ff945,_0x252c60,_0xa79d6e),_0x188c8c,_0x13bf9e
-elseif _0x7c7104==_0x848d34(70293,315091,297913)then
-local _0xfeebd3=_0xb36196*_0x4275fc[_0xe8ebea(190114,175305,187195)][_0xe8ebea(503800,517692,130623)]
-local _0x33bf5c=_0x4275fc[_0x848d34(517788,268047,283264)][_0xe8ebea(369113,387101,258078)]
-local _0x7dcec1=_0x4275fc[_0xe8ebea(502975,517836,139994)][_0xe8ebea(441274,455294,60029)]
-local _0x0a1bff=_0xc96c19[25][_0x848d34(123124,136991,152486)](_0x4275fc[_0xe8ebea(364821,383864,284828)][_0xd44ced(188638,91135,173729)]/120.0,_0xea489d(_0x40b209[87],226),(_0x40b209[208]-47))*0.12
-local _0x9f656d=_0xc96c19[25][_0x848d34(287542,359002,343951)](_0x565f0c*18.0+_0xfeebd3*6.5+_0xb36437)*0.018*_0x33bf5c
-local _0xa89e06=_0xc96c19[25][_0xd44ced(482549,461279,465798)](_0x759f12*16.0-_0xfeebd3*5.0+_0xb36437)*0.018*_0x33bf5c
-_0x188c8c=_0xc96c19[22][_0xd44ced(330118,349639,347890)](_0x9f656d,_0xa89e06,_0xea489d(326237,326237))
-local _0x417b95=_0xbe82cd*0.22+_0x0a1bff
-local _0x5b626e=(_0xc96c19[_0x40b209[211]-58][_0xd44ced(337284,303114,353014)](_0xfeebd3*7.0+_0x759f12*12.0+_0x565f0c*6.0+_0xb36437)*0.5+0.5)*0.085
-local _0x421206=_0xc96c19[25][_0x848d34(443823,340548,358141)](_0xc8706b*_0x7dcec1+_0x417b95+_0x5b626e,_0xea489d(344295,344295),(_0x40b209[109]-139))
-local _0x341be7=_0xc96c19[25][_0xe8ebea(112635,130656,462411)](_0x99f220*_0x7dcec1+_0x417b95+_0x5b626e,_0xea489d(965550,965550),(2570+_0xa81147(_0xfaf96b(856,2386),1)-3241))
-local _0xb6a186=_0xc96c19[25][_0x848d34(463545,320850,303595)](_0x6589cf*_0x7dcec1+_0x417b95+_0x5b626e,_0xea489d(_0x40b209[211],83),_0xea489d(_0x40b209[5],168))
-local _0x1b1da0=_0x421206+(_0xc527eb-_0x421206)*_0x671416
-local _0x77f74f=_0x341be7+(_0x26448e-_0x341be7)*_0x671416
-local _0x4a276d=_0xb6a186+(_0x97aa70-_0xb6a186)*_0x671416
-local _0x1ff945=_0xc96c19[25][_0xd44ced(260096,37641,245334)](_0x421206+(_0x1b1da0-_0x421206)*_0x883b5f,_0xea489d(_0x40b209[121],171),1)
-local _0x252c60=_0xc96c19[_0x40b209[174]-111][_0x848d34(501509,282862,267351)](_0x341be7+(_0x77f74f-_0x341be7)*_0x883b5f,(2522+_0xa81147(_0xfaf96b(971,2577),1)-3548),(1344+_0xa81147(_0xfaf96b(1332,116),1)-1447))
-local _0xa79d6e=_0xc96c19[25][_0x848d34(12609,247466,229907)](_0xb6a186+(_0x4a276d-_0xb6a186)*_0x883b5f,_0xea489d(906980,906980),(1445+_0xa81147(_0xfaf96b(886,1747),1)-2632))
-return _0xc96c19[_0x40b209[197]+0][_0xd44ced(487656,470185,472988)](_0x1ff945,_0x252c60,_0xa79d6e),_0x188c8c,_0x13bf9e
-elseif _0x7c7104==_0xe8ebea(295707,313686,788599)then
-local _0xfeebd3=_0xb36196*_0x4275fc[_0xe8ebea(220469,202572,190624)][_0x848d34(493745,300914,316304)]*2.4
-local _0xfe6821=_0x7d2579(_0x759f12+_0xb36437*0.1,_0x565f0c+_0xf4c92b*0.2,_0xfeebd3)*_0x4275fc[_0xd44ced(229191,1044600,211061)][_0x848d34(183120,119955,102513)]
-local _0x3b3cf0=(_0xea489d(_0x40b209[155],220)/255)*_0xfe6821
-local _0x4846d0=((_0x40b209[116]-79)/_0xea489d(520019,520108))*_0xfe6821
-local _0x3c5a87=(180/_0xea489d(_0x40b209[28],37))*_0xfe6821
-local _0xf36d8a=(_0xc8706b*0.35)*0.18+_0x3b3cf0*0.82
-local _0xd3bbcc=(_0x99f220*0.35)*0.18+_0x4846d0*0.82
-local _0x9c5805=(_0x6589cf*0.35)*0.18+_0x3c5a87*0.82
-local _0x6cee63=_0xc96c19[25][_0x848d34(311889,472506,487683)](_0x671416*0.65,0,_0xea489d(429836,429837))
-local _0x1b1da0=_0xf36d8a+(_0xc527eb-_0xf36d8a)*_0x6cee63
-local _0x77f74f=_0xd3bbcc+(_0x26448e-_0xd3bbcc)*_0x6cee63
-local _0x4a276d=_0x9c5805+(_0x97aa70-_0x9c5805)*_0x6cee63
-local _0x1ff945=_0xc96c19[25][_0xd44ced(189944,102129,172974)](_0xf36d8a+(_0x1b1da0-_0xf36d8a)*_0x883b5f,_0xea489d(_0x40b209[94],122),(_0x40b209[118]-1))
-local _0x252c60=_0xc96c19[_0x40b209[37]-75][_0xe8ebea(215688,197395,389944)](_0xd3bbcc+(_0x77f74f-_0xd3bbcc)*_0x883b5f,(659+_0xa81147(_0xfaf96b(1066,1721),1)-2787),(_0x40b209[134]-52))
-local _0xa79d6e=_0xc96c19[25][_0x848d34(448253,336150,353711)](_0x9c5805+(_0x4a276d-_0x9c5805)*_0x883b5f,(67+_0xa81147(_0xfaf96b(164,231),1)-395),(3337+_0xa81147(_0xfaf96b(3130,307),1)-3436))
-local _0xe112a3=_0xc96c19[_0x40b209[51]-228][_0x848d34(355924,292664,275181)](_0xfeebd3*1.3+_0xb36437+_0xf4c92b)*0.018*_0xc96c19[25][_0xe8ebea(182379,164336,291291)](_0x4275fc[_0x848d34(616321,357468,340425)][_0x848d34(72975,131788,149038)],0.2,2.0)
-_0x188c8c=_0xc96c19[22][_0xe8ebea(264889,278528,100195)](_0xe112a3,_0xc96c19[25][_0x848d34(103431,268915,286386)](_0xe112a3)*0.8,(806+_0xa81147(_0xfaf96b(31,825),1)-856))
-return _0xc96c19[30][_0x848d34(242490,226201,210510)](_0x1ff945,_0x252c60,_0xa79d6e),_0x188c8c,_0xc96c19[25][_0x848d34(862837,242022,259492)]((1013+_0xa81147(_0xfaf96b(527,506),1)-1033),_0xe112a3)
+local _0xca4e67=_0xcca467[_0xc84f9e[252]-84][_0x248f80(199160,229037,640959)](_0x4453df[_0x3f0d21(471374,517530,467066)][_0x248f80(237160,255772,729353)]:Dot(-_0xd7ce82)*0.5+0.5,(_0xc84f9e[244]-148),(1243+_0x95b3ae(_0x6bafdb(680,1651),1)-2330))
+local _0x3a5849=_0xcca467[_0xc84f9e[63]-133][_0x2b4f7f(617527,509833,522124)](_0x4453df[_0x248f80(237090,256089,37491)][_0x3f0d21(115032,961733,120182)]:Dot(_0xd7ce82)*0.5+0.5,_0xfc82ca(_0xc84f9e[9],72),_0xfc82ca(601360,601361))
+local _0x3a6464=_0xcca467[21][_0x248f80(306412,318393,942763)](1.0-_0xcca467[_0xc84f9e[232]-70][_0x248f80(89092,76633,722214)](_0x4453df[_0x248f80(336968,348723,403481)][_0x248f80(322209,299556,374002)]:Dot(_0xd7ce82)),_0xfc82ca(309659,309659),_0xfc82ca(492183,492182))
+local _0x02b8ed=0.56+0.28*_0xca4e67+0.10*_0x3a6464
+local _0x54175a=0.62+0.26*_0xca4e67+0.10*_0x3a6464
+local _0x7e848c=0.78+0.20*_0xca4e67+0.12*_0x3a6464
+local _0x6aef21,_0x2620fb,_0x7f1eda=_0x88fdfe[_0x2b4f7f(407265,288499,284282)],_0x88fdfe[_0x248f80(306220,318363,347837)],_0x88fdfe[_0x248f80(135330,158164,606791)]
+local _0xfc9f0f=_0x883746[_0x3f0d21(370272,128107,373943)][_0x3f0d21(350305,452803,346711)]
+local _0xcd3215=_0x883746[_0x2b4f7f(474418,468745,464857)][_0x248f80(138980,158105,161733)]
+local _0x6c8b14=_0xcca467[_0xc84f9e[9]-46][_0x3f0d21(502997,409836,506085)]
+local _0xbd97a8=0.0
+if _0x6add9a==_0x3f0d21(225582,200284,222098)then
+local _0xdd2b9c=_0xcca467[_0xc84f9e[67]-144][_0x3f0d21(357971,811455,353373)]((_0x02b8ed^1.12)*0.74,_0xfc82ca(_0xc84f9e[87],89),(604+_0x95b3ae(_0x6bafdb(468,904),1)-1371))
+local _0xbc04b2=_0xcca467[21][_0x2b4f7f(747331,380157,392440)]((_0x54175a^1.12)*0.74,(3359+_0x95b3ae(_0x6bafdb(1193,2486),1)-3679),_0xfc82ca(299789,299788))
+local _0xa1d3dc=_0xcca467[_0xc84f9e[177]-71][_0x2b4f7f(1017269,77323,73230)]((_0x7e848c^1.12)*0.74,_0xfc82ca(606558,606558),(2271+_0x95b3ae(_0x6bafdb(2226,109),1)-2334))
+local _0xf65c12=_0xdd2b9c+(_0x6aef21-_0xdd2b9c)*_0xfc9f0f
+local _0x33b64b=_0xbc04b2+(_0x2620fb-_0xbc04b2)*_0xfc9f0f
+local _0x5941ed=_0xa1d3dc+(_0x7f1eda-_0xa1d3dc)*_0xfc9f0f
+local _0x724471=_0xcca467[21][_0x3f0d21(452595,1044511,456189)](_0xdd2b9c+(_0xf65c12-_0xdd2b9c)*_0xcd3215+_0x3a6464*0.16,_0xfc82ca(667884,667884),(_0xc84f9e[85]-30))
+local _0x67076c=_0xcca467[21][_0x248f80(259321,230316,604862)](_0xbc04b2+(_0x33b64b-_0xbc04b2)*_0xcd3215+_0x3a6464*0.16,(_0xc84f9e[110]-198),(186+_0x95b3ae(_0x6bafdb(235,81),1)-315))
+local _0x0452a3=_0xcca467[21][_0x248f80(213817,210028,626046)](_0xa1d3dc+(_0x5941ed-_0xa1d3dc)*_0xcd3215+_0x3a6464*0.18,(_0xc84f9e[155]-52),(1674+_0x95b3ae(_0x6bafdb(2002,344),1)-2345))
+return _0xcca467[12][_0x3f0d21(189195,1003363,192545)](_0x724471,_0x67076c,_0x0452a3),_0x6c8b14,_0xbd97a8
+elseif _0x6add9a==_0x2b4f7f(464939,315567,319515)then
+local _0x153ce7=_0xd9b52d*_0x883746[_0x2b4f7f(1009391,295069,307273)][_0x248f80(122542,109011,112527)]
+local _0xc7e7d6=_0x153ce7*3.2
+local _0x5c8fb7=_0x3a5849+_0x8ce1b5*0.15
+local _0x690aec=_0xca4e67+_0xeca8e8*0.25
+local _0x2e9eea=_0xcca467[_0xc84f9e[95]+12][_0x248f80(392921,362166,485149)](_0x690aec*18.0+_0xc7e7d6)+_0xcca467[21][_0x248f80(338596,348884,196898)](_0x690aec*9.0-_0xc7e7d6*0.6)
+local _0x83a7bd=_0xcca467[21][_0x248f80(363979,390587,239181)](_0x5c8fb7*15.0-_0xc7e7d6*0.8)+_0xcca467[21][_0x3f0d21(306008,386061,309360)]((_0x5c8fb7+_0x690aec)*8.0+_0xc7e7d6*0.45)
+local _0x9d4109=_0xcca467[_0xc84f9e[43]+17][_0x248f80(471136,477199,371108)]((_0x5c8fb7+_0x690aec)*13.0)*0.8
+local _0x02d921=_0xcca467[_0xc84f9e[52]-188][_0x248f80(254669,236221,379211)]((_0x5c8fb7-_0x690aec)*11.0)*0.7
+local _0x7c5c4e=_0x883746[_0x2b4f7f(921841,487649,475187)][_0x248f80(327518,296995,300671)]*2.2
+local _0xeb669a=(_0x2e9eea*0.55+_0x9d4109)*_0x7c5c4e
+local _0x363b3e=(_0x83a7bd*0.50+_0x02d921)*_0x7c5c4e
+_0x6c8b14=_0xcca467[_0xc84f9e[249]+7][_0x248f80(164128,194897,850887)](_0xeb669a,_0x363b3e*0.6,-_0xeb669a*0.5)
+_0xbd97a8=_0xcca467[21][_0x248f80(438837,443752,846615)](_0xeb669a)*0.35
+local _0x46018f=0.88+0.24*_0xcca467[_0xc84f9e[211]-138][_0x2b4f7f(312773,145090,133085)](_0xc7e7d6*1.4+_0x8ce1b5+_0xeca8e8)
+local _0xdd2b9c=_0xcca467[21][_0x3f0d21(498004,954040,494426)](((_0x02b8ed*_0x46018f)^1.18)*0.64,_0xfc82ca(734770,734770),1)
+local _0xbc04b2=_0xcca467[_0xc84f9e[195]-191][_0x3f0d21(203683,658511,199085)](((_0x54175a*_0x46018f)^1.18)*0.64,_0xfc82ca(1025373,1025373),1)
+local _0xa1d3dc=_0xcca467[21][_0x248f80(66270,95627,773273)](((_0x7e848c*_0x46018f)^1.18)*0.64,0,_0xfc82ca(996990,996991))
+local _0xf65c12=_0xdd2b9c+(_0x6aef21-_0xdd2b9c)*_0xfc9f0f
+local _0x33b64b=_0xbc04b2+(_0x2620fb-_0xbc04b2)*_0xfc9f0f
+local _0x5941ed=_0xa1d3dc+(_0x7f1eda-_0xa1d3dc)*_0xfc9f0f
+local _0x724471=_0xcca467[_0xc84f9e[181]-193][_0x2b4f7f(850529,152031,156122)](_0xdd2b9c+(_0xf65c12-_0xdd2b9c)*_0xcd3215,(_0xc84f9e[73]-53),(_0xc84f9e[222]-10))
+local _0x67076c=_0xcca467[21][_0x248f80(133003,159966,575948)](_0xbc04b2+(_0x33b64b-_0xbc04b2)*_0xcd3215,_0xfc82ca(_0xc84f9e[9],72),_0xfc82ca(319767,319766))
+local _0x0452a3=_0xcca467[21][_0x3f0d21(394255,988131,398849)](_0xa1d3dc+(_0x5941ed-_0xa1d3dc)*_0xcd3215,(3254+_0x95b3ae(_0x6bafdb(3174,208),1)-3382),(1841+_0x95b3ae(_0x6bafdb(1655,326),1)-1980))
+return _0xcca467[12][_0x248f80(181916,179949,834683)](_0x724471,_0x67076c,_0x0452a3),_0x6c8b14,_0xbd97a8
+elseif _0x6add9a==_0x3f0d21(378896,988165,383662)then
+local _0x153ce7=_0xd9b52d*_0x883746[_0x3f0d21(204756,1000948,199945)][_0x2b4f7f(430729,171641,175700)]
+local _0xd925d5=_0x883746[_0x248f80(372711,382925,836877)][_0x2b4f7f(170413,431453,435568)]
+local _0x306819=_0x883746[_0x2b4f7f(261039,357545,345205)][_0x3f0d21(293244,510430,289610)]
+local _0x635bda=_0xcca467[21][_0x248f80(376655,378906,1011976)](_0x883746[_0x3f0d21(220023,663147,215464)][_0x3f0d21(379319,424213,383873)]/120.0,(_0xc84f9e[63]-154),1)*0.12
+local _0xa39f62=_0xcca467[21][_0x248f80(251196,240979,85240)](_0xca4e67*18.0+_0x153ce7*6.5+_0x8ce1b5)*0.018*_0xd925d5
+local _0xd245af=_0xcca467[_0xc84f9e[249]+2][_0x2b4f7f(255545,108387,104003)](_0x3a5849*16.0-_0x153ce7*5.0+_0x8ce1b5)*0.018*_0xd925d5
+_0x6c8b14=_0xcca467[26][_0x248f80(97278,66447,983321)](_0xa39f62,_0xd245af,(350+_0x95b3ae(_0x6bafdb(887,553),1)-1440))
+local _0x98d4c4=_0x3a6464*0.22+_0x635bda
+local _0xf53ccf=(_0xcca467[_0xc84f9e[29]-204][_0x2b4f7f(1648,456055,443496)](_0x153ce7*7.0+_0x3a5849*12.0+_0xca4e67*6.0+_0x8ce1b5)*0.5+0.5)*0.085
+local _0xdd2b9c=_0xcca467[_0xc84f9e[160]-187][_0x3f0d21(225493,681785,221915)](_0x02b8ed*_0x306819+_0x98d4c4+_0xf53ccf,(2061+_0x95b3ae(_0x6bafdb(2943,882),1)-3825),(3187+_0x95b3ae(_0x6bafdb(3185,2),1)-3186))
+local _0xbc04b2=_0xcca467[_0xc84f9e[167]-97][_0x3f0d21(91640,553492,96246)](_0x54175a*_0x306819+_0x98d4c4+_0xf53ccf,_0xfc82ca(997759,997759),_0xfc82ca(551805,551804))
+local _0xa1d3dc=_0xcca467[21][_0x2b4f7f(837185,159231,155130)](_0x7e848c*_0x306819+_0x98d4c4+_0xf53ccf,(_0xc84f9e[203]-79),_0xfc82ca(923193,923192))
+local _0xf65c12=_0xdd2b9c+(_0x6aef21-_0xdd2b9c)*_0xfc9f0f
+local _0x33b64b=_0xbc04b2+(_0x2620fb-_0xbc04b2)*_0xfc9f0f
+local _0x5941ed=_0xa1d3dc+(_0x7f1eda-_0xa1d3dc)*_0xfc9f0f
+local _0x724471=_0xcca467[21][_0x2b4f7f(748756,378730,391023)](_0xdd2b9c+(_0xf65c12-_0xdd2b9c)*_0xcd3215,(_0xc84f9e[39]-10),_0xfc82ca(242572,242573))
+local _0x67076c=_0xcca467[_0xc84f9e[16]-228][_0x2b4f7f(686473,315959,320050)](_0xbc04b2+(_0x33b64b-_0xbc04b2)*_0xcd3215,(425+_0x95b3ae(_0x6bafdb(21,444),1)-465),_0xfc82ca(_0xc84f9e[92],218))
+local _0x0452a3=_0xcca467[21][_0x3f0d21(182471,778027,187081)](_0xa1d3dc+(_0x5941ed-_0xa1d3dc)*_0xcd3215,(483+_0x95b3ae(_0x6bafdb(939,584),1)-1523),(2593+_0x95b3ae(_0x6bafdb(2663,70),1)-2732))
+return _0xcca467[12][_0x2b4f7f(824643,427385,439384)](_0x724471,_0x67076c,_0x0452a3),_0x6c8b14,_0xbd97a8
+elseif _0x6add9a==_0x248f80(231604,258226,916224)then
+local _0x153ce7=_0xd9b52d*_0x883746[_0x248f80(108710,118932,646937)][_0x3f0d21(70563,172801,65941)]*2.4
+local _0xc116d9=_0x2913c2(_0x3a5849+_0x8ce1b5*0.1,_0xca4e67+_0xeca8e8*0.2,_0x153ce7)*_0x883746[_0x248f80(162540,131804,648138)][_0x248f80(438269,448640,444124)]
+local _0x9cc9fc=(155/(1373+_0x95b3ae(_0x6bafdb(1253,440),1)-1438))*_0xc116d9
+local _0x70b962=((_0xc84f9e[181]-44)/(432+_0x95b3ae(_0x6bafdb(713,889),1)-1347))*_0xc116d9
+local _0x105b87=(_0xfc82ca(_0xc84f9e[238],169)/255)*_0xc116d9
+local _0x33a7ba=(_0x02b8ed*0.35)*0.18+_0x9cc9fc*0.82
+local _0x55e9f7=(_0x54175a*0.35)*0.18+_0x70b962*0.82
+local _0x82441c=(_0x7e848c*0.35)*0.18+_0x105b87*0.82
+local _0x7fd7bd=_0xcca467[21][_0x3f0d21(187247,773251,182625)](_0xfc9f0f*0.65,(981+_0x95b3ae(_0x6bafdb(487,562),1)-1049),_0xfc82ca(907125,907124))
+local _0xf65c12=_0x33a7ba+(_0x6aef21-_0x33a7ba)*_0x7fd7bd
+local _0x33b64b=_0x55e9f7+(_0x2620fb-_0x55e9f7)*_0x7fd7bd
+local _0x5941ed=_0x82441c+(_0x7f1eda-_0x82441c)*_0x7fd7bd
+local _0x724471=_0xcca467[21][_0x2b4f7f(694581,275083,262798)](_0x33a7ba+(_0xf65c12-_0x33a7ba)*_0xcd3215,(1399+_0x95b3ae(_0x6bafdb(949,1730),1)-2679),(105+_0x95b3ae(_0x6bafdb(100,13),1)-112))
+local _0x67076c=_0xcca467[21][_0x2b4f7f(701234,268428,272521)](_0x55e9f7+(_0x33b64b-_0x55e9f7)*_0xcd3215,(2157+_0x95b3ae(_0x6bafdb(863,2866),1)-3729),_0xfc82ca(879436,879437))
+local _0x0452a3=_0xcca467[_0xc84f9e[178]-196][_0x248f80(226306,197463,637509)](_0x82441c+(_0x5941ed-_0x82441c)*_0xcd3215,_0xfc82ca(661812,661812),(2106+_0x95b3ae(_0x6bafdb(2724,670),1)-3393))
+local _0x2bf623=_0xcca467[21][_0x248f80(68367,95072,234187)](_0x153ce7*1.3+_0x8ce1b5+_0xeca8e8)*0.018*_0xcca467[_0xc84f9e[137]+18][_0x248f80(340644,345585,1047779)](_0x883746[_0x2b4f7f(912663,138925,142925)][_0x248f80(466507,485686,489322)],0.2,2.0)
+_0x6c8b14=_0xcca467[26][_0x3f0d21(229464,928816,234354)](_0x2bf623,_0xcca467[21][_0x248f80(453219,433470,832321)](_0x2bf623)*0.8,(_0xc84f9e[145]-34))
+return _0xcca467[_0xc84f9e[161]-190][_0x248f80(487962,461419,592125)](_0x724471,_0x67076c,_0x0452a3),_0x6c8b14,_0xcca467[21][_0x3f0d21(415508,763129,410883)](0,_0x2bf623)
 end
-return _0x39be1c,_0x188c8c,_0x13bf9e
+return _0x88fdfe,_0x6c8b14,_0xbd97a8
 end
-local function _0x10555a()
-if not _0x76c04c[_0xd44ced(179663,745994,195278)][_0xd44ced(428683,28430,446291)]then
-_0x662977()
+local function _0x4b6383()
+if not _0x63be9c[_0x2b4f7f(711162,489510,477321)][_0x2b4f7f(621509,142551,131981)]then
+_0x1c720d()
 return
 end
-local _0x63ac89=_0x9f7882()
-local _0x4275fc=_0x76c04c[_0xe8ebea(135697,153687,924848)][_0xd44ced(292686,575246,274696)]
-local _0x7c7104=_0x4275fc[_0x848d34(12001,155147,138094)][_0x848d34(152049,85554,68304)]
-local _0x383afe=_0x4275fc[_0xd44ced(360223,367586,342521)][_0x848d34(291253,487030,469652)]
-local _0x32ba19=_0x4275fc[_0x848d34(624639,238745,254455)][_0xe8ebea(328748,347624,218603)]
-local _0x384174=_0x4275fc[_0xe8ebea(133971,147713,317097)][_0xd44ced(220492,56941,203571)]
-local _0x8af780=_0x4275fc[_0x848d34(860256,220703,203629)][_0x848d34(4121,200666,215864)]
-local _0x88e031=_0x4275fc[_0xd44ced(255028,101856,238338)][_0xe8ebea(314418,296438,171509)]
-local _0xe48693=_0x4275fc[_0xd44ced(475126,158131,489708)][_0xe8ebea(517746,503734,112565)]
-local _0x2ae019=_0x4275fc[_0xe8ebea(522714,504762,250303)][_0xe8ebea(96176,81524,468599)]
-local _0x9557b3=_0x4275fc[_0xe8ebea(338822,352740,776269)][_0xd44ced(216264,53225,199351)]
-local _0x71084b=(_0x7c7104==_0xd44ced(159762,844310,145169))and _0xea489d(698070,698071)or _0xc96c19[_0x40b209[159]-204][_0xd44ced(365319,456718,382289)](_0xc96c19[25][_0xe8ebea(107634,126226,834444)](_0x4275fc[_0xd44ced(357559,274380,340904)][_0xe8ebea(478792,460684,73615)]+0.5),(1522+_0xa81147(_0xfaf96b(631,1925),1)-2555),(258+_0xa81147(_0xfaf96b(224,482),1)-703))
-local _0xb42675=_0xc96c19[_0x40b209[48]-86][_0xe8ebea(308350,327620,685789)](_0xea489d(389750,389854),(_0x40b209[246]+127),_0xea489d(_0x40b209[228],195))
-local _0x601842=_0xc96c19[30][_0xd44ced(240261,571582,254704)](_0x4275fc[_0x848d34(783135,215972,200402)][_0xd44ced(143381,111412,161386)],_0x4275fc[_0xe8ebea(474153,489074,314579)][_0x848d34(304900,506055,523301)],_0x4275fc[_0xd44ced(219108,98284,200956)][_0xe8ebea(157025,142501,275622)])
-local _0x89eb84=_0xc96c19[_0x40b209[248]-166][_0x848d34(920321,361944,377600)](_0xea489d(612376,612376),_0xea489d(687980,688048),(336+_0xa81147(_0xfaf96b(1895,1591),1)-3406))
-local _0x2de485=_0xea24c6[_0xd44ced(427495,354388,445852)]
-local _0x8b1cdc=_0x2de485 and _0x2de485[_0x848d34(873340,496989,512342)][_0xe8ebea(230002,247998,894794)]or _0xc96c19[_0x40b209[10]-195][_0x848d34(982305,160340,145314)]
-local _0xb36196=_0xc96c19[_0x40b209[88]-232][_0xd44ced(223365,413807,208856)]()
-local _0x19f2f4={}
-local _0xf971bb={}
-local function _0xd57af5(_0x87a12e,_0x7bc007)
-if not _0x87a12e or not _0x87a12e[_0xe8ebea(131960,149744,544814)]then return end
-if _0x87a12e[_0xd44ced(73948,1036707,92133)](_0x87a12e,_0xd44ced(286902,789592,272268))==false then return end
-if _0x7bc007 then
-local _0x343694=_0x87a12e[_0xe8ebea(197578,215644,360922)](_0x87a12e,_0xd44ced(222231,189358,207979))
-if not _0x343694 or(_0x8b1cdc-_0x343694[_0xe8ebea(436497,451549,560169)])[_0xd44ced(95415,684731,78814)]<2.2 then
+local _0xa4cf23=_0xb67752()
+local _0x883746=_0x63be9c[_0x3f0d21(427941,825899,431389)][_0x2b4f7f(754943,489393,481350)]
+local _0x6add9a=_0x883746[_0x2b4f7f(471142,326704,314496)][_0x3f0d21(352869,447175,356435)]
+local _0xc35d73=_0x883746[_0x248f80(314334,310330,912750)][_0x248f80(321146,299271,298843)]
+local _0xe2a78a=_0x883746[_0x2b4f7f(851244,85256,97713)][_0x2b4f7f(366164,105124,109193)]
+local _0x215350=_0x883746[_0x248f80(439297,445450,49617)][_0x2b4f7f(427722,166458,178711)]
+local _0x7b71ce=_0x883746[_0x2b4f7f(1022870,454322,450063)][_0x3f0d21(122760,159530,118206)]
+local _0x72cdf5=_0x883746[_0x248f80(370000,384356,634657)][_0x2b4f7f(208566,467526,463467)]
+local _0x1d32b3=_0x883746[_0x248f80(290150,267646,20936)][_0x248f80(446554,436007,440699)]
+local _0xd85a2d=_0x883746[_0x248f80(426797,457524,848896)][_0x3f0d21(134960,114578,138502)]
+local _0xdc2a40=_0x883746[_0x2b4f7f(806230,271191,267164)][_0x3f0d21(332556,435118,327994)]
+local _0x42c256=(_0x6add9a==_0x3f0d21(382213,267447,378815))and(2785+_0x95b3ae(_0x6bafdb(2990,335),1)-3324)or _0xcca467[21][_0x248f80(446404,440465,786819)](_0xcca467[21][_0x2b4f7f(309476,110055,98859)](_0x883746[_0x3f0d21(515319,10540,511521)][_0x3f0d21(82206,192956,86824)]+0.5),_0xfc82ca(588516,588517),(3461+_0x95b3ae(_0x6bafdb(1511,2146),1)-3654))
+local _0x893241=_0xcca467[12][_0x3f0d21(108899,924223,113992)]((_0xc84f9e[93]+6),_0xfc82ca(_0xc84f9e[23],172),_0xfc82ca(_0xc84f9e[212],26))
+local _0x77cbbc=_0xcca467[12][_0x2b4f7f(756419,230861,243695)](_0x883746[_0x3f0d21(100308,35423,103710)][_0x248f80(183671,178698,173142)],_0x883746[_0x2b4f7f(763247,185581,189481)][_0x3f0d21(242982,1412,239376)],_0x883746[_0x3f0d21(466037,824325,462522)][_0x248f80(504667,508966,514682)])
+local _0x3236ef=_0xcca467[_0xc84f9e[20]-5][_0x3f0d21(122605,945585,117446)](_0xfc82ca(766296,766296),_0xfc82ca(_0xc84f9e[119],239),_0xfc82ca(1007874,1007954))
+local _0x9f067f=_0x338a3e[_0x248f80(104228,126556,433314)]
+local _0x179ee0=_0x9f067f and _0x9f067f[_0x3f0d21(152343,165827,148003)][_0x248f80(107288,121756,642800)]or _0xcca467[3][_0x3f0d21(190525,719568,195444)]
+local _0xd9b52d=_0xcca467[33][_0x2b4f7f(645323,214589,227126)]()
+local _0xbde1e6={}
+local _0xc14e18={}
+local function _0x5bf9b4(_0xd2a8f4,_0x50b5aa)
+if not _0xd2a8f4 or not _0xd2a8f4[_0x248f80(95501,68685,248145)]then return end
+if _0xd2a8f4[_0x2b4f7f(437602,187166,191481)](_0xd2a8f4,_0x2b4f7f(531148,240640,236776))==false then return end
+if _0x50b5aa then
+local _0xac632c=_0xd2a8f4[_0x2b4f7f(751254,111473,99187)](_0xd2a8f4,_0x3f0d21(155950,200078,161052))
+if not _0xac632c or(_0x179ee0-_0xac632c[_0x248f80(301122,319686,849322)])[_0x248f80(248211,242165,352809)]<2.2 then
 return
 end
 end
-local _0x89b66e=(not _0x7bc007)and _0x1f1323(_0x87a12e)or false
-if not _0x7bc007 then
-if _0x383afe==_0x848d34(124530,192949,177369)and _0x89b66e then return end
-if _0x383afe==_0xe8ebea(202520,220503,973283)and not _0x89b66e then return end
+local _0x9432cb=(not _0x50b5aa)and _0xdc5455(_0xd2a8f4)or false
+if not _0x50b5aa then
+if _0xc35d73==_0x248f80(490008,459295,863547)and _0x9432cb then return end
+if _0xc35d73==_0x2b4f7f(575090,351085,355285)and not _0x9432cb then return end
 end
-local _0x964cf3=_0x89b66e and _0x89eb84 or(_0x4275fc[_0x848d34(443276,307648,324788)][_0x848d34(6699,198120,213258)]and _0xb42675 or _0x601842)
-local _0x5a71b2=_0x87a12e[_0xd44ced(459197,282905,477164)](_0x87a12e,_0xe8ebea(227947,209402,247652))~=nil or _0x87a12e[_0xe8ebea(401735,420049,41815)](_0x87a12e,_0x848d34(161940,487550,472782))~=nil
-local _0x42af6f={}
-local _0x05df6c=false
-for _0xbc6afd,_0x1760ca in _0xc96c19[11](_0x87a12e[_0xd44ced(166254,572886,180591)](_0x87a12e))do
-if _0x1760ca[_0xd44ced(475436,822000,460640)](_0x1760ca,_0xd44ced(347771,633697,329337))and _0xc96c19[9][_0x848d34(81044,389322,373917)](_0x1760ca[_0x848d34(584400,466324,481791)],(_0x40b209[26]-67),_0xea489d(_0x40b209[25],60))==_0xd44ced(326487,693646,308010)then
-_0x05df6c=true
-local _0x0865ad=_0x1760ca[_0xe8ebea(485330,470033,181569)][_0x848d34(406918,499839,517552)]*_0x1760ca[_0xd44ced(232699,261769,246917)][_0x848d34(782486,263147,280123)]*_0x1760ca[_0xe8ebea(409467,423096,237032)][_0xe8ebea(445045,426182,1031253)]
-local _0x07ab12=_0x42af6f[_0x1760ca[_0xd44ced(370372,707938,385228)]]
-if not _0x07ab12 or _0x0865ad>_0x07ab12[_0xe8ebea(508458,494062,242930)]then
-_0x42af6f[_0x1760ca[_0x848d34(661913,388829,371382)]]={[_0xe8ebea(149964,131712,543212)]=_0x1760ca,[_0xd44ced(392878,284816,374481)]=_0x0865ad}
+local _0x5dca16=_0x9432cb and _0x3236ef or(_0x883746[_0x3f0d21(414540,654671,409988)][_0x248f80(403887,417490,409742)]and _0x893241 or _0x77cbbc)
+local _0x7392d8=_0xd2a8f4[_0x2b4f7f(602673,260054,247764)](_0xd2a8f4,_0x3f0d21(408785,278197,403667))~=nil or _0xd2a8f4[_0x3f0d21(330756,554417,335375)](_0xd2a8f4,_0x2b4f7f(779169,278809,291043))~=nil
+local _0xe4b682={}
+local _0xa9e01d=false
+for _0x1127a1,_0x500656 in _0xcca467[10](_0xd2a8f4[_0x2b4f7f(576256,117087,129265)](_0xd2a8f4))do
+if _0x500656[_0x2b4f7f(214512,90072,94245)](_0x500656,_0x2b4f7f(791533,455379,443260))and _0xcca467[34][_0x248f80(397884,419066,450774)](_0x500656[_0x248f80(463294,485220,209791)],_0xfc82ca(_0xc84f9e[7],235),6)==_0x248f80(145901,147607,909709)then
+_0xa9e01d=true
+local _0xdddece=_0x500656[_0x2b4f7f(865745,142658,139113)][_0x248f80(173910,188223,376919)]*_0x500656[_0x3f0d21(484712,1032617,487772)][_0x2b4f7f(34275,493178,505696)]*_0x500656[_0x248f80(261360,230795,561076)][_0x3f0d21(322543,47512,325835)]
+local _0x7a4186=_0xe4b682[_0x500656[_0x3f0d21(310505,214540,306554)]]
+if not _0x7a4186 or _0xdddece>_0x7a4186[_0x3f0d21(186560,36164,183541)]then
+_0xe4b682[_0x500656[_0x3f0d21(102051,422982,106288)]]={[_0x248f80(160175,133291,978038)]=_0x500656,[_0x248f80(189968,171884,222230)]=_0xdddece}
 end
 end
 end
-local _0x0c1f04={}
-for _0xbc6afd,_0x6b5a47 in _0xc96c19[_0x40b209[207]-21](_0x42af6f)do
-_0x0c1f04[_0x6b5a47[_0xd44ced(426467,610733,444900)]]=true
+local _0xd160e8={}
+for _0x1127a1,_0xf9392f in _0xcca467[28](_0xe4b682)do
+_0xd160e8[_0xf9392f[_0x2b4f7f(835186,280579,293303)]]=true
 end
-for _0xbc6afd,_0x1760ca in _0xc96c19[11](_0x87a12e[_0xe8ebea(214829,199787,828401)](_0x87a12e))do
-if _0x1760ca[_0xd44ced(98466,674686,116462)](_0x1760ca,_0x848d34(1005053,207877,223840))then
-local _0xe2d54a=_0x1760ca[_0xe8ebea(419738,405207,843347)]
-local _0xa26b02=false
-local _0x0e954a=_0x0c1f04[_0x1760ca]==true
-if _0x5a71b2 then
-_0xa26b02=_0x0f393e[_0xe2d54a]==true
+for _0x1127a1,_0x500656 in _0xcca467[10](_0xd2a8f4[_0x3f0d21(84410,1046455,88589)](_0xd2a8f4))do
+if _0x500656[_0x3f0d21(303268,67294,307874)](_0x500656,_0x2b4f7f(951680,287934,283921))then
+local _0xa67497=_0x500656[_0x3f0d21(216157,308920,220622)]
+local _0xd30459=false
+local _0x1504fb=_0xd160e8[_0x500656]==true
+if _0x7392d8 then
+_0xd30459=_0x121730[_0xa67497]==true
 else
-_0xa26b02=_0xdf8da3[_0xe2d54a]==true
+_0xd30459=_0x0dac75[_0xa67497]==true
 end
-if(_0xa26b02 and _0x32ba19)or(_0x0e954a and _0x384174)then
-_0x19f2f4[_0x1760ca]=true
-local _0x74a665=_0xa85c2d(_0x1760ca)
-local _0x6c8d99=_0x1760ca[_0xd44ced(398587,419465,416901)]
-if _0xa26b02 and not _0x88e031 and not _0x384174 and _0x05df6c then
-_0x6c8d99=_0x6c8d99+_0xc96c19[24][_0xd44ced(296280,317721,311852)](0.29,0.29,0.29)
+if(_0xd30459 and _0xe2a78a)or(_0x1504fb and _0x215350)then
+_0xbde1e6[_0x500656]=true
+local _0xa556b6=_0x591ca3(_0x500656)
+local _0x9f8a3c=_0x500656[_0x248f80(394429,425414,882681)]
+if _0xd30459 and not _0x72cdf5 and not _0x215350 and _0xa9e01d then
+_0x9f8a3c=_0x9f8a3c+_0xcca467[3][_0x248f80(367698,386083,779957)](0.29,0.29,0.29)
 end
-for _0x85d2fd=_0xea489d(14890,14891),(87+_0xa81147(_0xfaf96b(4,83),1)-84)do
-local _0x9b5e06=_0x74a665[_0xd44ced(339990,382710,358526)][_0x85d2fd]
-if _0x85d2fd<=_0x71084b then
-local _0x7a498d=_0x85d2fd-(_0x40b209[42]-34)
-local _0xe38479=_0x9b5e06[_0xd44ced(395058,436459,413531)]
-local _0x159ebd=_0x9b5e06[_0x848d34(492032,301474,319343)]
-if _0x7c7104==_0x848d34(737652,348050,330484)then
-local _0x1c6a7e=_0xc96c19[_0x40b209[235]-44][_0xe8ebea(94060,75511,513756)](_0xe48693/255.0,0.04,0.96)
-_0xe38479[_0xd44ced(174488,975002,188696)]=_0x88e031
-_0xe38479[_0xd44ced(105229,149268,119692)]=_0x88e031 and _0xc96c19[23][_0x848d34(994098,219014,201059)][_0xd44ced(87523,859361,73059)]or _0xc96c19[_0x40b209[203]-98][_0xe8ebea(475676,461275,946863)][_0x848d34(166512,479092,461202)]
-_0xe38479[_0x848d34(334048,390768,372881)]=_0x6c8d99+_0xc96c19[24][_0xe8ebea(495023,509718,131189)](0.01,0.01,0.01)
-_0xe38479[_0x848d34(830215,421158,403757)]=_0xc96c19[22][_0x848d34(474304,230059,246902)]
-_0xe38479[_0xe8ebea(483783,469289,1031611)]=_0x964cf3
-_0xe38479[_0xd44ced(288979,66816,270423)]=1.0-_0x1c6a7e
-_0xe38479[_0x848d34(523732,518875,502799)]=true
-_0x159ebd[_0xe8ebea(163092,145058,468589)]=false
-elseif _0x7c7104==_0x848d34(1024652,167736,182879)then
-local _0x09c0b8=_0x7a498d*0.036+0.008
-local _0x0cce01=_0xc96c19[_0x40b209[12]+10][_0xd44ced(337092,729909,352923)]((578+_0xa81147(_0xfaf96b(1864,1290),1)-3144),_0xc96c19[25][_0x848d34(950938,447428,432058)](_0xe48693/(1.0+_0x7a498d*1.5)+0.5))
-local _0x58ec37=_0xc96c19[_0x40b209[245]-185][_0xd44ced(142320,797697,159151)](_0xea489d(_0x40b209[197],27),_0xc96c19[25][_0x848d34(906482,361900,377298)](_0x2ae019/(1.0+_0x7a498d*1.5)+0.5))
-_0xe38479[_0xd44ced(172849,977459,191409)]=_0x88e031
-_0xe38479[_0xe8ebea(111479,129201,507786)]=_0x88e031 and _0xc96c19[23][_0xd44ced(232508,1010794,246974)][_0xe8ebea(224007,204994,717538)]or _0xc96c19[_0x40b209[248]-173][_0xd44ced(364164,618194,378374)][_0x848d34(59379,237677,255621)]
-_0xe38479[_0xd44ced(375702,379364,390120)]=_0x6c8d99+_0xc96c19[_0x40b209[37]-76][_0x848d34(402960,452275,435044)](_0x09c0b8*2,_0x09c0b8*_0xea489d(_0x40b209[21],2),_0x09c0b8*(271+_0xa81147(_0xfaf96b(17,286),1)-301))
-_0xe38479[_0x848d34(815036,436637,454038)]=_0xc96c19[22][_0xe8ebea(456568,441543,460140)]
-_0xe38479[_0xe8ebea(178181,192747,681081)]=_0x964cf3
-_0xe38479[_0xd44ced(182504,501051,163948)]=1.0-_0xc96c19[25][_0xe8ebea(158440,140147,316248)](_0x58ec37/255.0,0.02,0.95)
-_0xe38479[_0x848d34(89495,84632,68684)]=true
-if _0x9557b3>0.0 then
-_0x94b22c(_0x159ebd,_0x6c8d99,_0x09c0b8+0.004)
-_0x159ebd[_0xd44ced(249787,1017529,231227)]=_0x88e031
-_0x159ebd[_0x848d34(843170,184888,169169)]=_0x9557b3
-_0x159ebd[_0xe8ebea(492750,511008,1005746)]=_0x964cf3
-_0x159ebd[_0xe8ebea(89728,70985,123832)]=1.0-_0xc96c19[25][_0xd44ced(84457,140000,69567)](_0x0cce01/255.0,0.04,0.98)
-_0x159ebd[_0xd44ced(376722,341119,391139)]=true
+for _0x98880d=_0xfc82ca(169947,169946),(350+_0x95b3ae(_0x6bafdb(904,726),1)-1627)do
+local _0x562774=_0xa556b6[_0x2b4f7f(634083,111558,98771)][_0x98880d]
+if _0x98880d<=_0x42c256 then
+local _0x4fbf4d=_0x98880d-_0xfc82ca(_0xc84f9e[23],41)
+local _0x377f94=_0x562774[_0x3f0d21(495152,320650,498223)]
+local _0x8ca7fe=_0x562774[_0x248f80(121016,106975,682322)]
+if _0x6add9a==_0x2b4f7f(310521,180505,192936)then
+local _0x3166d8=_0xcca467[21][_0x3f0d21(325722,913334,322132)](_0x1d32b3/255.0,0.04,0.96)
+_0x377f94[_0x248f80(442415,440658,787468)]=_0x72cdf5
+_0x377f94[_0x248f80(429901,456243,697589)]=_0x72cdf5 and _0xcca467[_0xc84f9e[194]-165][_0x2b4f7f(21399,138998,142553)][_0x248f80(146740,148553,588055)]or _0xcca467[_0xc84f9e[96]-131][_0x2b4f7f(451777,305568,301967)][_0x2b4f7f(1045922,138473,143065)]
+_0x377f94[_0x3f0d21(522674,1006963,519558)]=_0x9f8a3c+_0xcca467[_0xc84f9e[205]-150][_0x248f80(256349,233772,889786)](0.01,0.01,0.01)
+_0x377f94[_0x2b4f7f(161044,335250,340665)]=_0xcca467[26][_0x2b4f7f(66044,479639,484272)]
+_0x377f94[_0x2b4f7f(500248,195401,185445)]=_0x5dca16
+_0x377f94[_0x248f80(479340,469485,439404)]=1.0-_0x3166d8
+_0x377f94[_0x2b4f7f(995891,191642,188036)]=true
+_0x8ca7fe[_0x248f80(365964,388322,794855)]=false
+elseif _0x6add9a==_0x3f0d21(436665,622303,441090)then
+local _0x49a265=_0x4fbf4d*0.036+0.008
+local _0x57781c=_0xcca467[21][_0x3f0d21(291720,622693,287135)](_0xfc82ca(525383,525389),_0xcca467[21][_0x248f80(449492,437448,502631)](_0x1d32b3/(1.0+_0x4fbf4d*1.5)+0.5))
+local _0x22f0ec=_0xcca467[_0xc84f9e[231]-180][_0x3f0d21(348177,566268,344582)]((618+_0x95b3ae(_0x6bafdb(1148,1558),1)-2701),_0xcca467[21][_0x248f80(455169,427293,492210)](_0xd85a2d/(1.0+_0x4fbf4d*1.5)+0.5))
+_0x377f94[_0x2b4f7f(700393,262171,274998)]=_0x72cdf5
+_0x377f94[_0x2b4f7f(969186,428424,441254)]=_0x72cdf5 and _0xcca467[_0xc84f9e[143]-5][_0x3f0d21(476130,176849,481242)][_0x248f80(309285,311640,949254)]or _0xcca467[_0xc84f9e[115]+4][_0x2b4f7f(279464,397001,408806)][_0x248f80(515724,501518,64975)]
+_0x377f94[_0x3f0d21(295052,795725,300216)]=_0x9f8a3c+_0xcca467[3][_0x3f0d21(263582,633334,267956)](_0x49a265*2,_0x49a265*_0xfc82ca(911689,911691),_0x49a265*_0xfc82ca(368972,368974))
+_0x377f94[_0x2b4f7f(445021,107227,101872)]=_0xcca467[26][_0x3f0d21(128299,6418,123163)]
+_0x377f94[_0x2b4f7f(428524,250045,262033)]=_0x5dca16
+_0x377f94[_0x3f0d21(456910,314289,453876)]=1.0-_0xcca467[21][_0x3f0d21(342152,798564,338566)](_0x22f0ec/255.0,0.02,0.95)
+_0x377f94[_0x248f80(246192,243934,685275)]=true
+if _0xdc2a40>0.0 then
+_0xf4dafe(_0x8ca7fe,_0x9f8a3c,_0x49a265+0.004)
+_0x8ca7fe[_0x3f0d21(414631,999431,411537)]=_0x72cdf5
+_0x8ca7fe[_0x2b4f7f(413570,107042,102417)]=_0xdc2a40
+_0x8ca7fe[_0x2b4f7f(177611,519322,508854)]=_0x5dca16
+_0x8ca7fe[_0x248f80(339147,349514,313547)]=1.0-_0xcca467[21][_0x248f80(415145,402172,826350)](_0x57781c/255.0,0.04,0.98)
+_0x8ca7fe[_0x2b4f7f(649881,275504,263726)]=true
 else
-_0x159ebd[_0xe8ebea(111219,129477,321802)]=false
+_0x8ca7fe[_0x248f80(438275,444781,984424)]=false
 end
 else
-local _0x09c0b8=_0x7a498d*0.033+0.010
-local _0xddabf2=_0xc96c19[25][_0x848d34(1018542,70077,87423)](_0xea489d(_0x40b209[66],125),_0xc96c19[25][_0xe8ebea(451377,436817,785615)](_0xe48693/(1.0+_0x7a498d*0.95)+0.5))
-local _0xa8e319,_0x188c8c,_0x84d6a0=_0xbb62db(
-_0x7c7104,_0x4275fc,_0x1760ca,_0x7a498d,_0x964cf3,_0x8b1cdc,_0xb36196,_0x74a665[_0xd44ced(183477,42416,166665)]
+local _0x49a265=_0x4fbf4d*0.033+0.010
+local _0x90ab97=_0xcca467[21][_0x248f80(347733,342283,746520)](24,_0xcca467[21][_0x2b4f7f(197512,398987,407879)](_0x1d32b3/(1.0+_0x4fbf4d*0.95)+0.5))
+local _0xa23e4a,_0x6c8b14,_0x5165ac=_0xddc0fd(
+_0x6add9a,_0x883746,_0x500656,_0x4fbf4d,_0x5dca16,_0x179ee0,_0xd9b52d,_0xa556b6[_0x2b4f7f(711613,342801,330360)]
 )
-local _0xe7d8d0=_0x09c0b8+_0x84d6a0
-_0xe38479[_0x848d34(898928,90768,74867)]=_0x88e031
-_0xe38479[_0xe8ebea(493457,511063,101228)]=_0x88e031 and _0xc96c19[_0x40b209[1]-207][_0x848d34(858803,91655,73954)][_0x848d34(712607,395903,412828)]or _0xc96c19[23][_0xd44ced(383909,605171,365351)][_0x848d34(467974,287640,271728)]
-_0xe38479[_0xe8ebea(93826,75073,314385)]=_0x6c8d99+_0xc96c19[_0x40b209[12]+9][_0xe8ebea(428231,443006,197917)](_0xe7d8d0*_0xea489d(585325,585327),_0xe7d8d0*(118+_0xa81147(_0xfaf96b(46,88),1)-132),_0xe7d8d0*_0xea489d(723114,723112))
-_0xe38479[_0xd44ced(277933,943982,292869)]=_0x188c8c
-_0xe38479[_0xe8ebea(249470,231056,725506)]=_0xa8e319
-_0xe38479[_0xd44ced(488861,137294,474393)]=1.0-_0xc96c19[25][_0xd44ced(268372,488285,286210)](_0xddabf2/255.0,0.08,0.92)
-_0xe38479[_0xe8ebea(464133,482995,151164)]=true
-if _0x7c7104==_0xe8ebea(287642,272854,324176)or _0x7c7104==_0xe8ebea(153787,135921,886907)or _0x7c7104==_0xe8ebea(179327,194100,662514)then
-_0x94b22c(_0x159ebd,_0x6c8d99,_0xe7d8d0+0.004)
-_0x159ebd[_0xe8ebea(87354,73471,576735)]=_0x88e031
-_0x159ebd[_0x848d34(593236,459470,476199)]=(_0x7c7104==_0xe8ebea(153192,138276,182178))and 1.25 or 1.0
-_0x159ebd[_0xd44ced(97226,816250,81507)]=_0xa8e319[_0x848d34(814265,433923,449001)](_0xa8e319,_0xc96c19[30][_0xd44ced(133695,153214,150859)](_0xea489d(763300,763301),_0xea489d(863195,863194),_0xea489d(_0x40b209[181],99)),_0x7c7104==_0xd44ced(201074,414166,218741)and 0.42 or 0.25)
-_0x159ebd[_0xe8ebea(517429,503548,481293)]=1.0-_0xc96c19[25][_0xe8ebea(515546,496705,91242)]((_0xddabf2/255.0)*0.72,0.08,0.85)
-_0x159ebd[_0xd44ced(194098,163295,179779)]=true
+local _0x35836c=_0x49a265+_0x5165ac
+_0x377f94[_0x3f0d21(177664,763296,172598)]=_0x72cdf5
+_0x377f94[_0x248f80(378339,375965,650843)]=_0x72cdf5 and _0xcca467[_0xc84f9e[124]-18][_0x3f0d21(105776,289795,100616)][_0x248f80(429167,455954,804940)]or _0xcca467[18][_0x2b4f7f(96779,210794,197957)][_0x3f0d21(194911,396640,191844)]
+_0x377f94[_0x2b4f7f(931125,77222,73613)]=_0x9f8a3c+_0xcca467[3][_0x248f80(220172,205949,861931)](_0x35836c*2,_0x35836c*_0xfc82ca(_0xc84f9e[200],23),_0x35836c*(_0xc84f9e[226]-143))
+_0x377f94[_0x3f0d21(163854,152794,168250)]=_0x6c8b14
+_0x377f94[_0x248f80(104072,123124,43785)]=_0xa23e4a
+_0x377f94[_0x2b4f7f(502922,140199,135574)]=1.0-_0xcca467[_0xc84f9e[245]-176][_0x248f80(289003,270270,960172)](_0x90ab97/255.0,0.08,0.92)
+_0x377f94[_0x248f80(108808,118886,531555)]=true
+if _0x6add9a==_0x248f80(199011,225638,656269)or _0x6add9a==_0x248f80(440282,446425,335445)or _0x6add9a==_0x248f80(221943,203507,311515)then
+_0xf4dafe(_0x8ca7fe,_0x9f8a3c,_0x35836c+0.004)
+_0x8ca7fe[_0x2b4f7f(750046,384556,388097)]=_0x72cdf5
+_0x8ca7fe[_0x2b4f7f(343466,184330,188985)]=(_0x6add9a==_0x3f0d21(209724,651049,205186))and 1.25 or 1.0
+_0x8ca7fe[_0x2b4f7f(86171,264650,272102)]=_0xa23e4a[_0x3f0d21(231527,5169,236634)](_0xa23e4a,_0xcca467[12][_0x3f0d21(142041,1017521,145907)](_0xfc82ca(672946,672947),_0xfc82ca(767658,767659),_0xfc82ca(112850,112851)),_0x6add9a==_0x248f80(385058,366631,846540)and 0.42 or 0.25)
+_0x8ca7fe[_0x248f80(216565,210036,174581)]=1.0-_0xcca467[21][_0x2b4f7f(1031279,71633,75732)]((_0x90ab97/255.0)*0.72,0.08,0.85)
+_0x8ca7fe[_0x2b4f7f(834333,91572,87978)]=true
 else
-_0x159ebd[_0xe8ebea(523209,503935,172208)]=false
+_0x8ca7fe[_0x2b4f7f(811951,113926,102168)]=false
 end
 end
 else
-_0x9b5e06[_0xd44ced(340319,368262,358710)][_0x848d34(351859,346492,331688)]=false
-_0x9b5e06[_0xe8ebea(505421,523746,123264)][_0xd44ced(293950,325587,275535)]=false
+_0x562774[_0x2b4f7f(35171,286603,290205)][_0x2b4f7f(674705,496952,501542)]=false
+_0x562774[_0x248f80(215146,209165,588160)][_0x248f80(283219,273213,911160)]=false
 end
 end
-if _0x7c7104==_0xe8ebea(432043,450023,394849)and _0x4275fc[_0xe8ebea(492997,511920,893068)][_0xe8ebea(155861,141585,274706)]and _0x4275fc[_0xe8ebea(262482,281379,179568)][_0xe8ebea(176152,195036,319967)]>0.01 then
-local _0x5a6c31=_0xc96c19[_0x40b209[51]-228][_0xd44ced(459573,288828,476515)](0.022*_0x4275fc[_0xd44ced(383632,440289,368060)][_0x848d34(21245,216382,199132)],0.008,0.075)
-local _0x33e9c6=_0xc96c19[25][_0xe8ebea(354928,336875,250816)]((_0xe48693/255.0)*0.34,0.06,0.42)
-_0x74a665[_0x848d34(1041538,167488,182414)][_0xd44ced(79196,883806,97756)]=_0x88e031
-_0x74a665[_0x848d34(780257,429347,445421)][_0x848d34(285668,465695,482811)]=_0x88e031 and _0xc96c19[23][_0x848d34(621654,327906,345607)][_0xd44ced(190786,958528,172482)]or _0xc96c19[23][_0x848d34(1037583,240059,257886)][_0xe8ebea(348875,334081,219487)]
-_0x74a665[_0xe8ebea(250838,235622,783716)][_0xe8ebea(332003,351008,45680)]=_0x6c8d99+_0xc96c19[24][_0xd44ced(453188,439813,437552)](0.02,0.02,0.02)
-_0x74a665[_0x848d34(728938,423336,406374)][_0xd44ced(197685,614134,213405)]=_0xc96c19[22][_0x848d34(391924,342615,360320)](_0x5a6c31,0,_0xea489d(910776,910776))
-_0x74a665[_0x848d34(978032,231090,245884)][_0x848d34(137347,518578,503637)]=1.0-_0x33e9c6
-_0x74a665[_0xe8ebea(264123,281611,794889)][_0xd44ced(273458,305119,287811)]=true
-_0x74a665[_0x848d34(555369,113057,130926)][_0xd44ced(481425,725395,462865)]=_0x88e031
-_0x74a665[_0xe8ebea(218768,204065,1038889)][_0x848d34(377757,426854,443778)]=_0x88e031 and _0xc96c19[23][_0xd44ced(411102,697736,396636)][_0xd44ced(364365,640591,378829)]or _0xc96c19[23][_0xd44ced(509612,730874,495150)][_0xd44ced(420286,373442,401723)]
-_0x74a665[_0x848d34(872705,299465,317190)][_0xd44ced(417514,404632,398996)]=_0x6c8d99+_0xc96c19[24][_0xe8ebea(69065,83824,294931)](0.02,0.02,0.02)
-_0x74a665[_0xd44ced(188118,754428,169658)][_0xd44ced(414027,789384,398563)]=_0xc96c19[22][_0x848d34(465933,515246,498041)](-_0x5a6c31,_0xea489d(_0x40b209[86],21),_0xea489d(899954,899954))
-_0x74a665[_0xd44ced(192029,766519,173681)][_0xe8ebea(172959,190550,138919)]=1.0-_0x33e9c6
-_0x74a665[_0xd44ced(104015,576101,122403)][_0x848d34(369305,374166,389954)]=true
+if _0x6add9a==_0x3f0d21(371739,1011726,376485)and _0x883746[_0x248f80(123619,105165,944655)][_0x248f80(498709,519016,521524)]and _0x883746[_0x3f0d21(511279,880913,516044)][_0x2b4f7f(87768,350760,354821)]>0.01 then
+local _0xc63ffe=_0xcca467[_0xc84f9e[136]-7][_0x248f80(349237,336736,1022578)](0.022*_0x883746[_0x3f0d21(409127,819737,404676)][_0x2b4f7f(58543,321631,317554)],0.008,0.075)
+local _0xd2d293=_0xcca467[21][_0x2b4f7f(728567,374345,362060)]((_0x1d32b3/255.0)*0.34,0.06,0.42)
+_0xa556b6[_0x248f80(119028,108956,109116)][_0x3f0d21(229262,683054,224184)]=_0x72cdf5
+_0xa556b6[_0x2b4f7f(86160,344476,357252)][_0x3f0d21(405908,642476,402851)]=_0x72cdf5 and _0xcca467[18][_0x248f80(255778,237149,377232)][_0x3f0d21(484989,947677,488011)]or _0xcca467[18][_0x248f80(507778,509693,104752)][_0x3f0d21(175821,416498,178934)]
+_0xa556b6[_0x3f0d21(464012,309714,458925)][_0x3f0d21(327686,894151,332850)]=_0x9f8a3c+_0xcca467[3][_0x3f0d21(258761,941729,254435)](0.02,0.02,0.02)
+_0xa556b6[_0x2b4f7f(240319,506803,493995)][_0x3f0d21(349156,362288,344784)]=_0xcca467[26][_0x3f0d21(185326,1015686,180420)](_0xc63ffe,(1154+_0x95b3ae(_0x6bafdb(49,1203),1)-1252),(470+_0x95b3ae(_0x6bafdb(195,277),1)-472))
+_0xa556b6[_0x2b4f7f(20009,286501,290109)][_0x2b4f7f(507476,143737,131912)]=1.0-_0xd2d293
+_0xa556b6[_0x248f80(211429,213133,213805)][_0x248f80(392146,361148,806585)]=true
+_0xa556b6[_0x248f80(391704,361329,177293)][_0x3f0d21(315827,901651,312709)]=_0x72cdf5
+_0xa556b6[_0x3f0d21(423561,192395,418475)][_0x248f80(424240,393294,676488)]=_0x72cdf5 and _0xcca467[_0xc84f9e[84]-150][_0x3f0d21(116686,276221,119798)][_0x3f0d21(269237,854037,266115)]or _0xcca467[18][_0x3f0d21(259540,394471,254444)][_0x248f80(501278,515996,34141)]
+_0xa556b6[_0x3f0d21(459447,236469,464533)][_0x2b4f7f(539740,468175,464612)]=_0x9f8a3c+_0xcca467[_0xc84f9e[130]-75][_0x248f80(308067,314130,706948)](0.02,0.02,0.02)
+_0xa556b6[_0x2b4f7f(125026,183602,196395)][_0x3f0d21(342182,388210,338322)]=_0xcca467[26][_0x3f0d21(215476,976348,219806)](-_0xc63ffe,_0xfc82ca(_0xc84f9e[121],252),(_0xc84f9e[219]-45))
+_0xa556b6[_0x3f0d21(84903,381605,89989)][_0x248f80(241011,251122,149875)]=1.0-_0xd2d293
+_0xa556b6[_0x3f0d21(66849,367651,69891)][_0x248f80(402350,416448,1021637)]=true
 else
-_0x74a665[_0x848d34(748781,394799,409825)][_0xd44ced(288294,323019,274007)]=false
-_0x74a665[_0xe8ebea(418812,403533,716613)][_0xe8ebea(435424,454486,262041)]=false
+_0xa556b6[_0x248f80(282590,276150,275734)][_0x2b4f7f(556467,369434,364804)]=false
+_0xa556b6[_0x2b4f7f(85220,158132,154541)][_0x248f80(253013,238907,682302)]=false
 end
 end
-elseif _0x1760ca[_0xd44ced(458101,865961,441145)](_0x1760ca,_0xd44ced(291649,346463,275533))and _0x8af780 then
-_0xf971bb[_0x1760ca]=true
-local _0xaed29d=_0x30d38f[_0xd44ced(234322,460560,252696)][_0x1760ca]
-if not _0xaed29d or _0xaed29d[_0xe8ebea(91999,77015,734217)]~=_0x63ac89 then
-if _0xaed29d then _0xc96c19[_0x40b209[54]-78](function()_0xaed29d[_0xe8ebea(471561,489870,418235)](_0xaed29d)end)end
-_0xaed29d=_0xc96c19[17][_0xd44ced(72921,82072,89005)](_0xd44ced(471566,971818,490118))
-_0xaed29d[_0xd44ced(110935,973553,128863)]=_0xd44ced(405099,522345,419554)
-_0xaed29d[_0xd44ced(254196,5953,239771)]=_0x1760ca
-_0xaed29d[_0xe8ebea(275024,293336,942342)]=_0x63ac89
-_0x30d38f[_0xd44ced(219521,511427,201163)][_0x1760ca]=_0xaed29d
+elseif _0x500656[_0x2b4f7f(334789,459245,470544)](_0x500656,_0x2b4f7f(722262,154467,158681))and _0x7b71ce then
+_0xc14e18[_0x500656]=true
+local _0x637044=_0xae9127[_0x2b4f7f(483128,109202,105317)][_0x500656]
+if not _0x637044 or _0x637044[_0x3f0d21(323316,361750,326925)]~=_0xa4cf23 then
+if _0x637044 then _0xcca467[16](function()_0x637044[_0x2b4f7f(488040,288971,284964)](_0x637044)end)end
+_0x637044=_0xcca467[_0xc84f9e[135]-45][_0x3f0d21(494242,665290,498056)](_0x3f0d21(507861,984349,502763))
+_0x637044[_0x3f0d21(106221,418824,102270)]=_0x3f0d21(101504,330918,104639)
+_0x637044[_0x3f0d21(244111,247880,241066)]=_0x500656
+_0x637044[_0x2b4f7f(95838,500206,495646)]=_0xa4cf23
+_0xae9127[_0x2b4f7f(68712,522690,510005)][_0x500656]=_0x637044
 end
-local _0x7057cb=_0x964cf3
-if _0x7c7104~=_0xe8ebea(377142,363390,950872)and _0x7c7104~=_0xe8ebea(318234,299347,834343)then
-local _0x03ce6b=_0x1760ca[_0x848d34(902984,309953,326700)](_0x1760ca,_0x848d34(780631,495791,513738))
-if _0x03ce6b then
-_0x7057cb=_0xbb62db(_0x7c7104,_0x4275fc,_0x03ce6b,_0xea489d(635862,635862),_0x964cf3,_0x8b1cdc,_0xb36196,(_0x40b209[232]-164))
+local _0x7bcd10=_0x5dca16
+if _0x6add9a~=_0x2b4f7f(367017,255049,251128)and _0x6add9a~=_0x2b4f7f(1003181,468377,464171)then
+local _0xc9def4=_0x500656[_0x3f0d21(271654,897199,274790)](_0x500656,_0x2b4f7f(749987,102557,106802))
+if _0xc9def4 then
+_0x7bcd10=_0xddc0fd(_0x6add9a,_0x883746,_0xc9def4,(3494+_0x95b3ae(_0x6bafdb(3427,197),1)-3624),_0x5dca16,_0x179ee0,_0xd9b52d,(906+_0x95b3ae(_0x6bafdb(609,491),1)-1100))
 end
 end
-_0xaed29d[_0x848d34(283371,88091,73461)]=_0x88e031 and _0xc96c19[23][_0xd44ced(146334,590533,160530)][_0x848d34(855504,120880,106195)]or _0xc96c19[23][_0x848d34(544313,256896,241007)][_0xd44ced(300617,405191,319172)]
-_0xaed29d[_0x848d34(991098,254816,238993)]=_0x7057cb
-_0xaed29d[_0xd44ced(318477,430327,300162)]=_0x7057cb[_0xd44ced(207752,607440,221967)](_0x7057cb,_0xc96c19[_0x40b209[242]-138][_0xe8ebea(280307,265290,117545)](_0xea489d(822417,822416),(_0x40b209[71]-213),_0xea489d(_0x40b209[28],219)),0.28)
-if _0x7c7104==_0xd44ced(78616,819790,95260)then
-_0xaed29d[_0xe8ebea(461806,475195,242600)]=1.0-_0xc96c19[_0x40b209[197]-5][_0x848d34(136590,123493,108252)](_0x2ae019/255.0,0.05,0.92)
-_0xaed29d[_0xd44ced(157262,783143,143071)]=(_0x9557b3>_0xea489d(_0x40b209[178],99))and(1.0-_0xc96c19[_0x40b209[42]-10][_0x848d34(175098,89105,71848)](_0xe48693/255.0,0.05,0.95))or 1.0
+_0x637044[_0x2b4f7f(15077,515803,519395)]=_0x72cdf5 and _0xcca467[_0xc84f9e[176]-112][_0x2b4f7f(67676,159784,147985)][_0x3f0d21(156964,751236,160018)]or _0xcca467[_0xc84f9e[197]-170][_0x3f0d21(480896,234150,475842)][_0x3f0d21(323738,652663,320729)]
+_0x637044[_0x2b4f7f(976953,391742,378885)]=_0x7bcd10
+_0x637044[_0x3f0d21(92978,220655,98167)]=_0x7bcd10[_0x2b4f7f(381848,127900,115112)](_0x7bcd10,_0xcca467[_0xc84f9e[95]+3][_0x248f80(259665,232992,887990)](_0xfc82ca(914502,914503),_0xfc82ca(1029488,1029489),1),0.28)
+if _0x6add9a==_0x2b4f7f(666504,147644,159758)then
+_0x637044[_0x3f0d21(481053,931629,475995)]=1.0-_0xcca467[_0xc84f9e[221]-29][_0x248f80(482063,470106,890184)](_0xd85a2d/255.0,0.05,0.92)
+_0x637044[_0x3f0d21(263943,762923,267072)]=(_0xdc2a40>(_0xc84f9e[202]-101))and(1.0-_0xcca467[21][_0x2b4f7f(588981,415499,419598)](_0x1d32b3/255.0,0.05,0.95))or 1.0
 else
-_0xaed29d[_0xe8ebea(457139,438886,147957)]=1.0-_0xc96c19[25][_0xe8ebea(438791,457628,2999)](_0xe48693/255.0,0.08,0.92)
-_0xaed29d[_0xd44ced(169864,721633,188185)]=(_0x7c7104==_0xe8ebea(359672,341684,388402)or _0x7c7104==_0xd44ced(301721,957233,318876))and 0.35 or 1.0
+_0x637044[_0x2b4f7f(581190,393764,405529)]=1.0-_0xcca467[_0xc84f9e[38]-175][_0x3f0d21(426078,1021874,430672)](_0x1d32b3/255.0,0.08,0.92)
+_0x637044[_0x3f0d21(225288,840484,222287)]=(_0x6add9a==_0x3f0d21(415071,821578,411617)or _0x6add9a==_0x2b4f7f(355980,175532,171295))and 0.35 or 1.0
 end
-_0xaed29d[_0xd44ced(241983,349370,259303)]=true
-end
-end
-end
-local _0x56d8b1={}
-if _0xcc6a4e and _0xc96c19[_0x40b209[66]-88](_0xcc6a4e[_0x848d34(529763,464093,479298)])==_0x848d34(836726,268031,283315)then
-local _0x424f83,_0xfaca42=_0xc96c19[27](_0xcc6a4e[_0xe8ebea(440955,455674,849284)])
-if _0x424f83 and _0xc96c19[_0x40b209[153]+10](_0xfaca42)==_0xd44ced(162362,867945,147363)then
-for _0xbc6afd,_0xfeebd3 in _0xc96c19[_0x40b209[97]-28](_0xfaca42)do
-if _0xfeebd3 and _0xfeebd3[_0xe8ebea(134053,147822,556881)]and not _0x56d8b1[_0xfeebd3[_0xd44ced(273799,755866,289281)]]then
-_0x56d8b1[_0xfeebd3[_0xe8ebea(114949,101326,767473)]]=true
-_0xd57af5(_0xfeebd3[_0xe8ebea(280077,265414,930553)],false)
+_0x637044[_0x248f80(331004,358998,671720)]=true
 end
 end
 end
+local _0x95b591={}
+if _0xae54c0 and _0xcca467[2](_0xae54c0[_0x3f0d21(145075,973900,141125)])==_0x248f80(135597,157462,214280)then
+local _0xd29fd5,_0x07ce0c=_0xcca467[16](_0xae54c0[_0x2b4f7f(557160,251589,260392)])
+if _0xd29fd5 and _0xcca467[2](_0x07ce0c)==_0x3f0d21(125362,882394,129175)then
+for _0x1127a1,_0x153ce7 in _0xcca467[10](_0x07ce0c)do
+if _0x153ce7 and _0x153ce7[_0x248f80(274518,280789,758169)]and not _0x95b591[_0x153ce7[_0x2b4f7f(709739,73611,77496)]]then
+_0x95b591[_0x153ce7[_0x2b4f7f(636642,163074,150577)]]=true
+_0x5bf9b4(_0x153ce7[_0x248f80(425178,394329,646421)],false)
 end
-for _0xbc6afd,_0x1760ca in _0xc96c19[11](_0xea24c6[_0xe8ebea(504131,522757,546207)](_0xea24c6))do
-if _0x1760ca[_0xd44ced(270554,1043206,288406)](_0x1760ca,_0x848d34(35191,77707,92900))and _0x1760ca~=_0x736c63[_0xe8ebea(219820,200913,766609)]and not _0x56d8b1[_0x1760ca]and _0x1760ca[_0x848d34(273454,516200,500956)](_0x1760ca,_0x848d34(192301,259190,242345))then
-_0x56d8b1[_0x1760ca]=true
-_0xd57af5(_0x1760ca,false)
 end
 end
-if _0x383afe==_0x848d34(1013082,251236,233518)and _0x736c63[_0x848d34(918019,239491,254488)]then
-_0xd57af5(_0x736c63[_0xd44ced(383260,581758,368164)],true)
 end
-for _0x55ed64,_0x74a665 in _0xc96c19[_0x40b209[166]-4](_0x30d38f[_0xe8ebea(188446,174992,251105)])do
-if not _0x19f2f4[_0x55ed64]then
-if not _0x55ed64 or not _0x55ed64[_0xd44ced(110843,930567,129208)]then
-_0xe8f891(_0x55ed64,_0x74a665)
+for _0x1127a1,_0x500656 in _0xcca467[10](_0x338a3e[_0x2b4f7f(687722,228405,216475)](_0x338a3e))do
+if _0x500656[_0x248f80(103766,123419,518815)](_0x500656,_0x2b4f7f(1008023,409506,397080))and _0x500656~=_0x7576e4[_0x2b4f7f(684214,464392,468718)]and not _0x95b591[_0x500656]and _0x500656[_0x3f0d21(235674,975151,232081)](_0x500656,_0x248f80(426920,457425,276623))then
+_0x95b591[_0x500656]=true
+_0x5bf9b4(_0x500656,false)
+end
+end
+if _0xc35d73==_0x248f80(343729,346452,226389)and _0x7576e4[_0x3f0d21(447709,790065,443954)]then
+_0x5bf9b4(_0x7576e4[_0x248f80(284996,270706,873824)],true)
+end
+for _0x4453df,_0xa556b6 in _0xcca467[_0xc84f9e[193]-16](_0xae9127[_0x248f80(464920,483678,641302)])do
+if not _0xbde1e6[_0x4453df]then
+if not _0x4453df or not _0x4453df[_0x3f0d21(491457,398371,486456)]then
+_0x552fbf(_0x4453df,_0xa556b6)
 else
-for _0x85d2fd=_0xea489d(892744,892745),(1590+_0xa81147(_0xfaf96b(603,1133),1)-1733)do
-local _0x8e162d=_0x74a665[_0xe8ebea(115502,100483,324929)][_0x85d2fd]
-if _0x8e162d then
-_0x8e162d[_0xd44ced(334995,373578,349434)][_0xd44ced(75419,109942,93930)]=false
-_0x8e162d[_0xd44ced(500439,271767,518845)][_0xe8ebea(405087,419305,226598)]=false
+for _0x98880d=(_0xc84f9e[129]-174),_0xfc82ca(434145,434146)do
+local _0xcb7c87=_0xa556b6[_0x3f0d21(354958,707065,360080)][_0x98880d]
+if _0xcb7c87 then
+_0xcb7c87[_0x3f0d21(137689,95075,134598)][_0x248f80(97797,67435,576366)]=false
+_0xcb7c87[_0x3f0d21(213244,730767,218332)][_0x2b4f7f(953717,218076,221634)]=false
 end
 end
-_0x74a665[_0x848d34(543551,336381,354099)][_0xd44ced(505837,474112,524188)]=false
-_0x74a665[_0x848d34(756289,150153,134214)][_0xe8ebea(466976,486294,162649)]=false
+_0xa556b6[_0x3f0d21(475968,323102,481121)][_0x3f0d21(431516,849767,426427)]=false
+_0xa556b6[_0x3f0d21(255194,490968,258296)][_0x3f0d21(203226,621345,200189)]=false
 end
 end
 end
-for _0xaf593e,_0xaed29d in _0xc96c19[4](_0x30d38f[_0xd44ced(126249,358763,107875)])do
-if not _0xf971bb[_0xaf593e]then
-if not _0xaf593e or not _0xaf593e[_0x848d34(729753,277895,293665)]then
-_0xc96c19[27](function()_0xaed29d[_0xe8ebea(504015,523080,451453)](_0xaed29d)end)
-_0x30d38f[_0x848d34(85866,346058,328039)][_0xaf593e]=nil
+for _0xb7bb98,_0x637044 in _0xcca467[28](_0xae9127[_0x2b4f7f(162197,298047,310728)])do
+if not _0xc14e18[_0xb7bb98]then
+if not _0xb7bb98 or not _0xb7bb98[_0x2b4f7f(27903,441167,428735)]then
+_0xcca467[16](function()_0x637044[_0x2b4f7f(368168,427147,439652)](_0x637044)end)
+_0xae9127[_0x3f0d21(521617,441449,516497)][_0xb7bb98]=nil
 else
-_0xaed29d[_0xe8ebea(129025,110876,184251)]=false
+_0x637044[_0x2b4f7f(637711,191517,181063)]=false
 end
 end
 end
 end
-local _0x3f3f8e={
-[_0xe8ebea(210923,228412,861645)]=_0xc96c19[_0x40b209[85]-34][_0x848d34(911540,419437,401589)](_0xea489d(467810,467830),_0xea489d(_0x40b209[127],131),(_0x40b209[211]-53)),
-[_0x848d34(769643,125713,110055)]=_0xc96c19[30][_0xe8ebea(335694,349428,777709)](32,_0xea489d(219397,219423),_0xea489d(947021,947069)),
-[_0x848d34(976666,361847,377728)]=_0xc96c19[30][_0xe8ebea(309189,326783,685414)](_0xea489d(257793,257821),(1338+_0xa81147(_0xfaf96b(320,1146),1)-1441),(89+_0xa81147(_0xfaf96b(23,78),1)-59)),
-[_0xd44ced(478900,571494,460321)]=_0xc96c19[30][_0xe8ebea(441630,456356,556989)]((658+_0xa81147(_0xfaf96b(860,462),1)-1276),(_0x40b209[48]-80),(1215+_0xa81147(_0xfaf96b(1206,9),1)-1143)),
-[_0xd44ced(274765,356670,293339)]=_0xc96c19[_0x40b209[109]-110][_0x848d34(590099,167882,182546)](_0xea489d(184824,184814),_0xea489d(191137,191154),(129+_0xa81147(_0xfaf96b(59,186),1)-211)),
-[_0xd44ced(305374,805380,319561)]=_0xc96c19[_0x40b209[159]-199][_0xd44ced(223213,554454,208792)]((3672+_0xa81147(_0xfaf96b(2850,1402),1)-4062),_0xea489d(430567,430442),(1058+_0xa81147(_0xfaf96b(117,1111),1)-973)),
-[_0x848d34(170681,76810,92913)]=_0xc96c19[30][_0xd44ced(235303,558364,253778)](_0xea489d(995968,995880),(1337+_0xa81147(_0xfaf96b(1379,90),1)-1361),255),
-[_0x848d34(766765,404948,420648)]=_0xc96c19[30][_0xd44ced(170734,624853,184987)](_0xea489d(_0x40b209[146],131),_0xea489d(_0x40b209[252],40),(1808+_0xa81147(_0xfaf96b(1387,635),1)-1767)),
-[_0xd44ced(504158,665528,522692)]=_0xc96c19[30][_0xe8ebea(298520,312738,675003)](_0xea489d(1002511,1002615),(_0x40b209[142]+27),(301+_0xa81147(_0xfaf96b(1743,2018),1)-3596)),
-[_0xe8ebea(285550,266382,993863)]=_0xc96c19[30][_0xe8ebea(271355,288833,713048)]((3079+_0xa81147(_0xfaf96b(310,3377),1)-3441),(_0x40b209[212]+54),(_0x40b209[85]+191)),
-[_0xe8ebea(318735,300782,541091)]=_0xc96c19[30][_0xd44ced(117400,710819,99053)]((_0x40b209[23]+109),_0xea489d(_0x40b209[68],213),_0xea489d(427757,427583)),
-[_0x848d34(599179,88020,69844)]=_0xc96c19[30][_0xe8ebea(375245,389751,752494)]((205+_0xa81147(_0xfaf96b(123,182),1)-187),_0xea489d(382458,382356),_0xea489d(686214,686100)),
+local _0x616a6c={
+[_0x3f0d21(266846,1013698,263702)]=_0xcca467[12][_0x2b4f7f(869596,347090,358896)]((441+_0x95b3ae(_0x6bafdb(992,601),1)-1573),(3672+_0x95b3ae(_0x6bafdb(2756,1180),1)-3918),(_0xc84f9e[238]+1)),
+[_0x248f80(389358,362878,411953)]=_0xcca467[_0xc84f9e[34]-224][_0x248f80(83098,81384,860234)]((1053+_0x95b3ae(_0x6bafdb(1796,793),1)-2557),26,(2929+_0x95b3ae(_0x6bafdb(2370,563),1)-2885)),
+[_0x2b4f7f(609720,509990,522855)]=_0xcca467[12][_0x248f80(237930,251928,1033658)](_0xfc82ca(475394,475422),(_0xc84f9e[220]-161),_0xfc82ca(100201,100163)),
+[_0x3f0d21(115370,107810,120545)]=_0xcca467[12][_0x2b4f7f(636562,113052,101310)]((_0xc84f9e[78]-35),_0xfc82ca(839484,839448),(1186+_0x95b3ae(_0x6bafdb(237,1103),1)-1268)),
+[_0x2b4f7f(339111,137569,142114)]=_0xcca467[_0xc84f9e[36]-162][_0x248f80(470205,480719,739437)](_0xfc82ca(739602,739588),_0xfc82ca(123348,123335),(1968+_0x95b3ae(_0x6bafdb(433,1537),1)-1936)),
+[_0x2b4f7f(1047403,250918,255586)]=_0xcca467[12][_0x248f80(501560,515658,771048)]((1579+_0x95b3ae(_0x6bafdb(1002,1473),1)-2285),_0xfc82ca(977180,977297),(2787+_0x95b3ae(_0x6bafdb(2807,20),1)-2572)),
+[_0x248f80(167848,194109,238815)]=_0xcca467[_0xc84f9e[78]-69][_0x3f0d21(208318,827106,211349)](_0xfc82ca(_0xc84f9e[228],174),(_0xc84f9e[58]+39),_0xfc82ca(634615,634376)),
+[_0x248f80(91616,72822,850904)]=_0xcca467[12][_0x248f80(508327,506069,763255)]((2800+_0x95b3ae(_0x6bafdb(2356,964),1)-3082),_0xfc82ca(747890,747926),(_0xc84f9e[27]+254)),
+[_0x3f0d21(285386,889500,282266)]=_0xcca467[_0xc84f9e[55]-82][_0x2b4f7f(928078,403008,398434)](_0xfc82ca(925767,925759),_0xfc82ca(_0xc84f9e[163],156),(_0xc84f9e[130]+87)),
+[_0x2b4f7f(39755,381162,385698)]=_0xcca467[12][_0x2b4f7f(956319,432273,436915)]((2241+_0x95b3ae(_0x6bafdb(2576,721),1)-3051),(2002+_0x95b3ae(_0x6bafdb(1941,71),1)-1768),_0xfc82ca(176700,176835)),
+[_0x2b4f7f(609699,263818,275651)]=_0xcca467[_0xc84f9e[83]-167][_0x248f80(434096,452290,719712)](_0xfc82ca(444778,444892),174,(3456+_0x95b3ae(_0x6bafdb(2402,1250),1)-3442)),
+[_0x2b4f7f(718295,408353,395627)]=_0xcca467[12][_0x2b4f7f(946321,425887,413117)]((_0xc84f9e[11]+3),(_0xc84f9e[256]-82),(2250+_0x95b3ae(_0x6bafdb(2633,643),1)-3130)),
 }
-local _0xaf4fb3=_0xc96c19[14][_0xd44ced(348652,331181,333464)](32,_0xea489d(_0x40b209[42],3),(_0x40b209[237]-135),_0xea489d(744038,743974))
-local _0x1658cb=_0xc96c19[14][_0x848d34(187312,138003,155332)](_0xea489d(47832,47868),(3679+_0xa81147(_0xfaf96b(2123,1556),1)-3643),(_0x40b209[35]-113),60)
-local _0xde517a=_0xc96c19[_0x40b209[255]-56][_0x848d34(214861,231406,246329)]((4067+_0xa81147(_0xfaf96b(1578,2505),1)-4061),22,_0xea489d(_0x40b209[63],193),(3681+_0xa81147(_0xfaf96b(2612,1109),1)-3679))
-local _0xc4250f=_0xc96c19[14][_0x848d34(159476,175703,191360)](16,(_0x40b209[167]-238),_0xea489d(_0x40b209[143],182),_0xea489d(_0x40b209[131],106))
-local _0x11819c=_0xc96c19[_0x40b209[147]-89][_0x848d34(470249,519242,502173)]((_0x40b209[23]-62),_0xea489d(831134,831125),_0xea489d(780003,780022),21)
-local _0x1b3a2b=_0x1ceeaf[_0xd44ced(308385,411671,324289)]and not _0x1ceeaf[_0xd44ced(225854,962216,210015)]
-local function _0x6f36f0(_0x8e911b,_0x8fa921,_0x3cff94,_0x5d9152,_0x7eae0e,_0x8d2e81,_0x440977)
-local _0x49ce14,_0x4f7d6b,_0x0b722f,_0x4be8c7
-if _0x3cff94==_0xe8ebea(452498,437361,776817)then
-_0x49ce14,_0x4f7d6b,_0x0b722f,_0x4be8c7=_0x830e93[_0x848d34(522050,270649,288255)],_0x830e93[_0x848d34(655584,388048,372504)],_0xaf4fb3,(274+_0xa81147(_0xfaf96b(283,9),1)-276)
-elseif _0x3cff94==_0xe8ebea(482603,464591,75129)then
-_0x49ce14,_0x4f7d6b,_0x0b722f,_0x4be8c7=_0x830e93[_0x848d34(643713,442427,427255)],_0x830e93[_0xe8ebea(77032,91480,605403)],_0xde517a,(_0x40b209[79]-11)
-elseif _0x3cff94==_0xe8ebea(276406,293971,957072)then
-_0x49ce14,_0x4f7d6b,_0x0b722f,_0x4be8c7=_0x830e93[_0xd44ced(175152,770427,191041)],nil,_0x11819c,(_0x40b209[70]-150)
+local _0xdeb9dd=_0xcca467[_0xc84f9e[10]-46][_0x248f80(196017,165312,821078)]((3556+_0x95b3ae(_0x6bafdb(1181,2425),1)-3574),_0xfc82ca(_0xc84f9e[155],20),64,_0xfc82ca(_0xc84f9e[44],228))
+local _0xe1bb69=_0xcca467[11][_0x2b4f7f(1036542,377028,389605)]((_0xc84f9e[7]-198),_0xfc82ca(660144,660116),_0xfc82ca(114966,114986),_0xfc82ca(117806,117778))
+local _0x81267d=_0xcca467[11][_0x3f0d21(253403,946611,249585)](_0xfc82ca(792651,792669),(1124+_0x95b3ae(_0x6bafdb(1042,118),1)-1138),(_0xc84f9e[212]-188),(_0xc84f9e[34]-194))
+local _0x7010ee=_0xcca467[11][_0x2b4f7f(861996,472854,460343)](16,(_0xc84f9e[118]-155),(_0xc84f9e[193]-12),_0xfc82ca(_0xc84f9e[116],215))
+local _0xed0cb1=_0xcca467[11][_0x2b4f7f(942156,290934,278871)](_0xfc82ca(331632,331643),_0xfc82ca(713714,713721),(_0xc84f9e[135]-53),_0xfc82ca(_0xc84f9e[201],72))
+local _0x0df478=_0xdbf3be[_0x2b4f7f(269507,457487,445184)]and not _0xdbf3be[_0x2b4f7f(301063,412867,425171)]
+local function _0x45e78c(_0xe5ed24,_0x7b2620,_0xf7b7ac,_0x1a408e,_0x969bc2,_0xdaa0a1,_0x60e8ba)
+local _0xecdc97,_0x2645aa,_0xd94ae7,_0x45601c
+if _0xf7b7ac==_0x2b4f7f(1014646,357215,344340)then
+_0xecdc97,_0x2645aa,_0xd94ae7,_0x45601c=_0x35dbd2[_0x2b4f7f(606652,243427,231153)],_0x35dbd2[_0x248f80(212506,215422,551466)],_0xdeb9dd,(_0xc84f9e[241]-191)
+elseif _0xf7b7ac==_0x248f80(254327,235755,786267)then
+_0xecdc97,_0x2645aa,_0xd94ae7,_0x45601c=_0x35dbd2[_0x2b4f7f(517027,113509,101245)],_0x35dbd2[_0x3f0d21(493748,134719,498327)],_0x81267d,_0xfc82ca(159177,159170)
+elseif _0xf7b7ac==_0x248f80(90886,72347,1019626)then
+_0xecdc97,_0x2645aa,_0xd94ae7,_0x45601c=_0x35dbd2[_0x2b4f7f(339790,75224,71160)],nil,_0xed0cb1,(2709+_0x95b3ae(_0x6bafdb(225,2676),1)-2896)
 else
-_0x49ce14,_0x4f7d6b,_0x0b722f,_0x4be8c7=_0x830e93[_0xe8ebea(335514,349992,156082)],_0x830e93[_0xd44ced(350795,830775,334884)],_0xc4250f,_0xea489d(322259,322266)
+_0xecdc97,_0x2645aa,_0xd94ae7,_0x45601c=_0x35dbd2[_0x3f0d21(401927,391616,405538)],_0x35dbd2[_0x2b4f7f(669322,274584,262278)],_0x7010ee,9
 end
-local _0xed32d9=(_0xc96c19[13](_0x49ce14)==_0xe8ebea(126515,108270,50905)and#_0x49ce14>_0xea489d(23291,23291))
-local _0x420d56=(_0xc96c19[13](_0x4f7d6b)==_0xd44ced(187591,403410,170335)and#_0x4f7d6b>(200+_0xa81147(_0xfaf96b(156,84),1)-240))
-local _0x43d461=_0x5d9152 or _0x3f3f8e[_0xd44ced(273528,1037047,287980)]
-local _0x9b494d=(_0x7eae0e~=nil)and _0x7eae0e or 0.14
-local _0x8c6fb9=_0xc96c19[_0x40b209[31]-199][_0xe8ebea(421608,402513,254770)](_0xd44ced(94355,1014671,79922))
-_0x8c6fb9[_0x848d34(649439,401307,416752)]=_0x8fa921 or _0xd44ced(315774,904666,301532)
-if _0xed32d9 then
-_0x8c6fb9[_0xe8ebea(220556,202340,248263)]=_0xea489d(516674,516675)
-_0x8c6fb9[_0xd44ced(152224,424616,137732)]=_0x49ce14
-_0x8c6fb9[_0xd44ced(444570,758774,426047)]=_0xc96c19[23][_0xd44ced(161334,994650,147091)][_0x848d34(529688,333868,352037)]
-_0x8c6fb9[_0xd44ced(330537,425512,344974)]=_0x0b722f
-_0x8c6fb9[_0xe8ebea(124942,107491,356326)]=_0x43d461
-_0x8c6fb9[_0xe8ebea(338770,352444,401670)]=_0x9b494d
+local _0xbf46e4=(_0xcca467[_0xc84f9e[229]-168](_0xecdc97)==_0x2b4f7f(77314,369206,363821)and#_0xecdc97>_0xfc82ca(_0xc84f9e[62],215))
+local _0x9067e3=(_0xcca467[2](_0x2645aa)==_0x248f80(148151,144604,174660)and#_0x2645aa>(_0xc84f9e[6]-246))
+local _0x32c04f=_0x1a408e or _0x616a6c[_0x3f0d21(441529,1017205,436467)]
+local _0x255f41=(_0x969bc2~=nil)and _0x969bc2 or 0.14
+local _0xa7cefd=_0xcca467[_0xc84f9e[138]-224][_0x3f0d21(447558,751662,444268)](_0x2b4f7f(615662,393315,406061))
+_0xa7cefd[_0x2b4f7f(187814,170769,177307)]=_0x7b2620 or _0x3f0d21(277586,32485,272394)
+if _0xbf46e4 then
+_0xa7cefd[_0x248f80(177215,183711,67866)]=1
+_0xa7cefd[_0x2b4f7f(977093,299404,304093)]=_0xecdc97
+_0xa7cefd[_0x2b4f7f(108734,497610,501144)]=_0xcca467[18][_0x2b4f7f(519482,119374,122908)][_0x248f80(211808,213699,798018)]
+_0xa7cefd[_0x248f80(353904,335828,899668)]=_0xd94ae7
+_0xa7cefd[_0x3f0d21(492185,841775,497351)]=_0x32c04f
+_0xa7cefd[_0x2b4f7f(883807,466549,470051)]=_0x255f41
 else
-_0x8c6fb9[_0xd44ced(366190,549419,384708)]=_0x43d461
-_0x8c6fb9[_0xe8ebea(112820,127836,77055)]=_0x9b494d
-_0x8c6fb9[_0xd44ced(182291,450587,164023)]=_0xe8ebea(388981,370258,409835)
-_0x8c6fb9[_0xe8ebea(107362,125068,174390)]=(42+_0xa81147(_0xfaf96b(2,40),1)-41)
-local _0x6226c6=_0xc96c19[_0x40b209[207]-8][_0xe8ebea(247314,232619,412616)](_0xe8ebea(382157,368445,35243))
-_0x6226c6[_0xe8ebea(66195,84322,766563)]=_0xc96c19[_0x40b209[86]-5][_0x848d34(372902,356357,341458)](_0xea489d(448935,448935),_0x4be8c7)
-_0x6226c6[_0xe8ebea(461405,475605,874763)]=_0x8c6fb9
+_0xa7cefd[_0x2b4f7f(558554,101839,114584)]=_0x32c04f
+_0xa7cefd[_0x248f80(488593,462129,313780)]=_0x255f41
+_0xa7cefd[_0x3f0d21(461715,708232,466889)]=_0x2b4f7f(881114,182217,190637)
+_0xa7cefd[_0x2b4f7f(618175,199829,212675)]=(_0xc84f9e[90]-168)
+local _0x367415=_0xcca467[29][_0x3f0d21(494493,665589,497847)](_0x248f80(304075,318051,507246))
+_0x367415[_0x248f80(298821,325356,597887)]=_0xcca467[31][_0x2b4f7f(792935,395613,407676)](_0xfc82ca(1039078,1039078),_0x45601c)
+_0x367415[_0x248f80(416810,402794,319606)]=_0xa7cefd
 end
-_0x8c6fb9[_0xe8ebea(360563,379777,630777)]=(45+_0xa81147(_0xfaf96b(1011,990),1)-2001)
-_0x8c6fb9[_0x848d34(806750,217152,202470)]=_0x8e911b
-local _0xd435e5=_0xc96c19[17][_0x848d34(317118,267805,283594)](_0xe8ebea(160629,145542,454138))
-_0xd435e5[_0xd44ced(155878,1012015,141385)]=_0xc96c19[1][_0x848d34(340553,389866,374589)]({
-_0xc96c19[_0x40b209[49]-110][_0xe8ebea(438255,451926,205365)](0.0,_0xc96c19[30][_0x848d34(565254,208607,223239)]((830+_0xa81147(_0xfaf96b(111,849),1)-705),_0xea489d(838176,838367),_0xea489d(980436,980267))),
-_0xc96c19[_0x40b209[24]-187][_0xd44ced(260428,238861,245304)](0.5,_0xc96c19[_0x40b209[220]-10][_0xd44ced(437404,900775,451817)]((_0x40b209[36]+34),(_0x40b209[200]+94),_0xea489d(_0x40b209[95],204))),
-_0xc96c19[10][_0x848d34(191208,141899,159644)](1.0,_0xc96c19[30][_0x848d34(965397,341452,357140)]((3204+_0xa81147(_0xfaf96b(107,3311),1)-3213),_0xea489d(_0x40b209[195],102),(1133+_0xa81147(_0xfaf96b(696,1749),1)-2210))),
+_0xa7cefd[_0x3f0d21(87456,683576,82371)]=(_0xc84f9e[145]-34)
+_0xa7cefd[_0x248f80(519250,496914,348174)]=_0xe5ed24
+local _0x6f2fc5=_0xcca467[_0xc84f9e[47]-34][_0x248f80(265102,291839,684393)](_0x248f80(367979,386240,654235))
+_0x6f2fc5[_0x3f0d21(295286,223626,300307)]=_0xcca467[13][_0x248f80(284762,270379,664253)]({
+_0xcca467[27][_0x3f0d21(465440,702024,461066)](0.0,_0xcca467[12][_0x2b4f7f(812279,289785,285147)](255,_0xfc82ca(_0xc84f9e[165],44),_0xfc82ca(800677,800602))),
+_0xcca467[27][_0x248f80(367766,386279,779889)](0.5,_0xcca467[12][_0x2b4f7f(994925,467299,463681)](_0xfc82ca(494739,494715),_0xfc82ca(988868,988709),(269+_0x95b3ae(_0x6bafdb(1832,1573),1)-3155))),
+_0xcca467[27][_0x2b4f7f(952551,301277,305660)](1.0,_0xcca467[12][_0x2b4f7f(1028162,507724,494958)]((_0xc84f9e[209]+39),(_0xc84f9e[249]+176),(1662+_0x95b3ae(_0x6bafdb(1188,730),1)-1683))),
 })
-_0xd435e5[_0xd44ced(506348,591981,524072)]=(_0x40b209[225]-44)
-_0xd435e5[_0xd44ced(338692,698616,353095)]=_0x8c6fb9
-local _0xe20722=nil
-if _0x3cff94~=_0xd44ced(99816,981001,118088)and _0x8d2e81~=nil then
-local _0x99cd18=_0x8d2e81
-local _0x1a1a84=(_0x440977~=nil)and _0x440977 or 0.42
-_0xe20722=_0xc96c19[_0x40b209[79]-5][_0xd44ced(521257,501864,504669)](_0x848d34(740305,384047,367403))
-_0xe20722[_0xd44ced(94582,924368,79742)]=_0xe8ebea(123595,108862,28231)
-_0xe20722[_0x848d34(440121,416169,401224)]=_0xc96c19[18][_0x848d34(79532,249999,235419)](1,(2531+_0xa81147(_0xfaf96b(243,2320),1)-2562))
-_0xe20722[_0xe8ebea(456330,441698,418497)]=1
-_0xe20722[_0x848d34(1013931,404243,420867)]=(644+_0xa81147(_0xfaf96b(105,749),1)-854)
-_0xe20722[_0xe8ebea(294879,275562,228908)]=_0x8c6fb9[_0xe8ebea(137555,152294,333984)]+(_0x40b209[50]-178)
-_0xe20722[_0x848d34(537503,470145,485927)]=_0x8c6fb9
-local _0xb999ea=_0xc96c19[_0x40b209[112]-126][_0x848d34(384748,335439,351128)](_0xe8ebea(319978,305689,32613))
-_0xb999ea[_0xe8ebea(196333,177433,671730)]=_0xc96c19[_0x40b209[248]-195][_0x848d34(342081,391394,376117)]({
-_0xc96c19[10][_0xd44ced(245979,236698,231343)](0.0,_0x3f3f8e[_0xd44ced(492288,688411,510873)]),
-_0xc96c19[10][_0x848d34(498125,481646,466105)](0.45,_0x3f3f8e[_0xe8ebea(75989,90889,793329)]),
-_0xc96c19[10][_0xd44ced(204562,213843,219238)](0.8,_0xc96c19[30][_0xe8ebea(468804,486654,648679)]((32+_0xa81147(_0xfaf96b(81,113),1)-54),_0xea489d(434275,434203),_0xea489d(480313,480391))),
-_0xc96c19[10][_0xe8ebea(263284,282317,100782)](1.0,_0x3f3f8e[_0xd44ced(229873,951274,248168)]),
+_0x6f2fc5[_0x3f0d21(119866,14471,116289)]=_0xfc82ca(_0xc84f9e[4],38)
+_0x6f2fc5[_0x3f0d21(244285,184799,240068)]=_0xa7cefd
+local _0xf901a2=nil
+if _0xf7b7ac~=_0x248f80(508125,506176,601393)and _0xdaa0a1~=nil then
+local _0xc4b559=_0xdaa0a1
+local _0xc9d469=(_0x60e8ba~=nil)and _0x60e8ba or 0.42
+_0xf901a2=_0xcca467[29][_0x248f80(118958,108767,1026633)](_0x3f0d21(136769,708254,131606))
+_0xf901a2[_0x248f80(513670,499804,259143)]=_0x248f80(141634,151791,886754)
+_0xf901a2[_0x2b4f7f(765330,308481,296746)]=_0xcca467[25][_0x2b4f7f(289902,263811,275677)](_0xfc82ca(_0xc84f9e[217],223),(671+_0x95b3ae(_0x6bafdb(41,694),1)-734))
+_0xf901a2[_0x2b4f7f(300140,213573,225301)]=1
+_0xf901a2[_0x2b4f7f(920883,166649,178339)]=(1175+_0x95b3ae(_0x6bafdb(135,1040),1)-1175)
+_0xf901a2[_0x2b4f7f(737758,283766,288363)]=_0xa7cefd[_0x248f80(172640,187149,646153)]+_0xfc82ca(_0xc84f9e[162],204)
+_0xf901a2[_0x3f0d21(183749,239143,187964)]=_0xa7cefd
+local _0x0edf71=_0xcca467[29][_0x3f0d21(458580,742204,453758)](_0x3f0d21(89894,978563,84802))
+_0x0edf71[_0x3f0d21(126488,394980,129661)]=_0xcca467[13][_0x2b4f7f(1010420,359118,347119)]({
+_0xcca467[27][_0x3f0d21(364636,539700,361334)](0.0,_0x616a6c[_0x248f80(225864,199646,978032)]),
+_0xcca467[27][_0x2b4f7f(828934,439868,427805)](0.45,_0x616a6c[_0x3f0d21(418052,913947,423241)]),
+_0xcca467[_0xc84f9e[192]-166][_0x248f80(251715,241458,896420)](0.8,_0xcca467[_0xc84f9e[171]-99][_0x2b4f7f(898884,374858,363112)](_0xfc82ca(_0xc84f9e[191],8),(1670+_0x95b3ae(_0x6bafdb(2006,336),1)-2222),_0xfc82ca(93887,93697))),
+_0xcca467[27][_0x2b4f7f(935094,283788,288173)](1.0,_0x616a6c[_0x3f0d21(345111,724295,348248)]),
 })
-_0xb999ea[_0x848d34(152614,501015,517104)]=_0xc96c19[31][_0xd44ced(356626,339283,341606)]({
-_0xc96c19[3][_0xe8ebea(523365,505564,160191)](0.0,0.0),
-_0xc96c19[3][_0x848d34(109414,93125,77330)](0.5,0.35),
-_0xc96c19[3][_0x848d34(321326,272269,287322)](1.0,0.08),
+_0x0edf71[_0x2b4f7f(79750,309419,297626)]=_0xcca467[23][_0x3f0d21(156357,1035949,160239)]({
+_0xcca467[_0xc84f9e[119]-31][_0x248f80(227816,197017,852751)](0.0,0.0),
+_0xcca467[20][_0x248f80(484383,466030,597752)](0.5,0.35),
+_0xcca467[_0xc84f9e[58]-49][_0x3f0d21(163399,1036847,159085)](1.0,0.08),
 })
-_0xb999ea[_0xd44ced(159782,836007,145122)]=_0xea489d(92054,92094)
-if _0x420d56 then
-_0xe20722[_0x848d34(162383,446117,428450)]=_0x4f7d6b
-_0xe20722[_0x848d34(555443,376381,391477)]=_0xc96c19[23][_0xd44ced(446688,756620,432197)][_0xd44ced(257061,949747,238723)]
-_0xe20722[_0x848d34(396812,387055,368869)]=_0x0b722f
-_0xe20722[_0x848d34(31483,110910,128565)]=_0x99cd18
-_0xe20722[_0xd44ced(318928,132936,300409)]=_0x1a1a84
-_0xb999ea[_0xd44ced(156590,909394,142317)]=_0xe20722
+_0x0edf71[_0x2b4f7f(486146,80877,68511)]=40
+if _0x9067e3 then
+_0xf901a2[_0x3f0d21(512962,661209,509848)]=_0x2645aa
+_0xf901a2[_0x3f0d21(301404,334458,298247)]=_0xcca467[_0xc84f9e[248]-236][_0x2b4f7f(153456,288772,285270)][_0x3f0d21(264714,576373,269910)]
+_0xf901a2[_0x248f80(521480,494764,993580)]=_0xd94ae7
+_0xf901a2[_0x248f80(443672,441533,936181)]=_0xc4b559
+_0xf901a2[_0x3f0d21(480580,691004,475419)]=_0xc9d469
+_0x0edf71[_0x248f80(155303,141287,58107)]=_0xf901a2
 else
-_0xe20722[_0xe8ebea(155429,136396,239590)]=_0x848d34(96797,498532,515873)
-_0xe20722[_0xd44ced(222786,376026,208619)]=_0xea489d(_0x40b209[13],193)
-local _0x614b14=_0xc96c19[17][_0xe8ebea(240706,255739,401816)](_0x848d34(407514,403084,418178))
-_0x614b14[_0xe8ebea(351016,331993,1043416)]=_0xc96c19[16][_0xe8ebea(145809,160552,504907)](0,_0x4be8c7)
-_0x614b14[_0xe8ebea(463495,481551,868817)]=_0xe20722
-local _0x0df750=_0xc96c19[17][_0xe8ebea(483853,469172,192471)](_0x848d34(607915,146859,162494))
-_0x0df750[_0xe8ebea(409772,395745,850277)]=_0xe8ebea(76804,92156,493783)
-_0x0df750[_0xd44ced(259708,976821,245459)]=_0x99cd18
-_0x0df750[_0xe8ebea(120234,106083,92306)]=_0x1a1a84
-_0x0df750[_0xd44ced(358823,781023,340257)]=(_0x3cff94==_0xd44ced(75931,640441,90117))and 1.5 or 1.15
-_0x0df750[_0x848d34(867390,140064,157062)]=_0xe20722
-_0xb999ea[_0x848d34(538052,469722,486524)]=_0x0df750
+_0xf901a2[_0x3f0d21(250961,921930,245771)]=_0x248f80(359830,330530,962461)
+_0xf901a2[_0x3f0d21(167562,1003762,170709)]=_0xfc82ca(252701,252700)
+local _0x83aceb=_0xcca467[29][_0x248f80(107061,121412,1038546)](_0x3f0d21(186208,138899,180993))
+_0x83aceb[_0x248f80(101356,127557,793558)]=_0xcca467[31][_0x3f0d21(399071,768695,394741)]((1369+_0x95b3ae(_0x6bafdb(12,1365),1)-1377),_0x45601c)
+_0x83aceb[_0x248f80(342591,344959,493155)]=_0xf901a2
+local _0x7a5cf6=_0xcca467[29][_0x2b4f7f(1044795,385281,380960)](_0x2b4f7f(482858,136723,140364))
+_0x7a5cf6[_0x3f0d21(273598,251483,277805)]=_0x3f0d21(339158,271769,342207)
+_0x7a5cf6[_0x3f0d21(373960,154676,368813)]=_0xc4b559
+_0x7a5cf6[_0x3f0d21(208947,66380,205833)]=_0xc9d469
+_0x7a5cf6[_0x3f0d21(211513,224203,208389)]=(_0xf7b7ac==_0x3f0d21(121612,814967,118616))and 1.5 or 1.15
+_0x7a5cf6[_0x2b4f7f(524261,75861,72101)]=_0xf901a2
+_0x0edf71[_0x3f0d21(75536,19698,79081)]=_0x7a5cf6
 end
 end
-return _0x8c6fb9,_0xe20722
+return _0xa7cefd,_0xf901a2
 end
-local function _0x03da74(_0x80c806,_0x23f44e,_0x62594b,_0x08fba2,_0x52dbf5)
-if not _0x80c806 then return end
-local _0x6b5a47=_0xc96c19[32][_0xe8ebea(482537,464464,184627)](_0x23f44e or 0.16)
-local _0xc87c53=_0x80c806[_0xd44ced(427132,382168,442925)](_0x80c806,_0xe8ebea(481662,463494,130477))
-if _0xc87c53 and _0xc87c53[_0xd44ced(309646,1012306,327618)](_0xc87c53,_0xd44ced(137534,655068,151948))then
-local _0x2c1f94={}
-if _0x62594b~=nil then _0x2c1f94[_0x848d34(829011,76664,93290)]=_0x62594b end
-if _0x08fba2~=nil then _0x2c1f94[_0xe8ebea(161404,146869,183108)]=_0x08fba2 end
-if _0xc96c19[33](_0x2c1f94)~=nil then
-_0x3cf4c8[_0xe8ebea(336894,354311,304222)](_0x3cf4c8,_0xc87c53,_0x6b5a47,_0x2c1f94):Play()
+local function _0x419d94(_0x0d3bba,_0x31cf22,_0xf91074,_0xb9f34c,_0xbc4933)
+if not _0x0d3bba then return end
+local _0xf9392f=_0xcca467[32][_0x248f80(190781,168268,824282)](_0x31cf22 or 0.16)
+local _0x74055f=_0x0d3bba[_0x2b4f7f(754506,83629,95919)](_0x0d3bba,_0x2b4f7f(100336,471789,458893))
+if _0x74055f and _0x74055f[_0x2b4f7f(451805,327413,315656)](_0x74055f,_0x248f80(492318,522929,434212))then
+local _0x1214d9={}
+if _0xf91074~=nil then _0x1214d9[_0x2b4f7f(100105,119719,123387)]=_0xf91074 end
+if _0xb9f34c~=nil then _0x1214d9[_0x3f0d21(479968,352671,476890)]=_0xb9f34c end
+if _0xcca467[4](_0x1214d9)~=nil then
+_0x155c1d[_0x3f0d21(216026,846104,221104)](_0x155c1d,_0x74055f,_0xf9392f,_0x1214d9):Play()
 end
 return
 end
-local _0x268f51={}
-local _0x51fbf0=(_0xc96c19[13](_0x80c806[_0x848d34(139647,431509,447122)])==_0xd44ced(430337,158228,447641)and#_0x80c806[_0xe8ebea(101709,116388,30094)]>_0xea489d(909119,909119))
-if _0x62594b~=nil then
-if _0x51fbf0 then _0x268f51[_0xd44ced(385643,308556,371395)]=_0x62594b else _0x268f51[_0xd44ced(270702,644395,289220)]=_0x62594b end
+local _0x2de5ed={}
+local _0x366fa9=(_0xcca467[_0xc84f9e[191]-130](_0x0d3bba[_0x3f0d21(442427,722208,447585)])==_0x3f0d21(455676,377754,451288)and#_0x0d3bba[_0x248f80(322715,300346,720607)]>_0xfc82ca(_0xc84f9e[152],138))
+if _0xf91074~=nil then
+if _0x366fa9 then _0x2de5ed[_0x248f80(296171,326990,788742)]=_0xf91074 else _0x2de5ed[_0x2b4f7f(848553,391868,379115)]=_0xf91074 end
 end
-if _0x08fba2~=nil then
-if _0x51fbf0 then _0x268f51[_0x848d34(469970,93608,76452)]=_0x08fba2 else _0x268f51[_0xe8ebea(129496,111152,93587)]=_0x08fba2 end
+if _0xb9f34c~=nil then
+if _0x366fa9 then _0x2de5ed[_0x2b4f7f(773334,110332,105642)]=_0xb9f34c else _0x2de5ed[_0x3f0d21(407749,414398,404636)]=_0xb9f34c end
 end
-if _0x52dbf5~=nil then
-_0x268f51[_0xe8ebea(439545,458293,561601)]=_0x52dbf5
+if _0xbc4933~=nil then
+_0x2de5ed[_0x2b4f7f(644955,381083,385455)]=_0xbc4933
 end
-if _0xc96c19[33](_0x268f51)~=nil then
-_0x3cf4c8[_0x848d34(108549,353180,337035)](_0x3cf4c8,_0x80c806,_0x6b5a47,_0x268f51):Play()
+if _0xcca467[4](_0x2de5ed)~=nil then
+_0x155c1d[_0x2b4f7f(634374,110742,99063)](_0x155c1d,_0x0d3bba,_0xf9392f,_0x2de5ed):Play()
 end
 end
-local function _0x46c73d(_0x90bc47,_0x2e131a)
-local _0x2de485=_0xea24c6[_0xe8ebea(225127,205991,348726)]
-local _0x96e825=_0x2de485 and _0x2de485[_0xd44ced(356180,54089,337889)]or _0xc96c19[15][_0xd44ced(464880,478129,479364)](_0xea489d(689665,688897),(290+_0xa81147(_0xfaf96b(1017,731),1)-1028))
-if _0x96e825[_0xd44ced(275424,744575,291981)]<(_0x2e131a+(1795+_0xa81147(_0xfaf96b(363,1640),1)-1958))or _0x96e825[_0xd44ced(414250,482097,398662)]<(_0x90bc47+_0xea489d(224379,224357))then
-local _0xa610e6=(_0x96e825[_0xd44ced(344086,280845,329594)]-_0xea489d(_0x40b209[15],184))/_0x90bc47
-local _0x3339f1=(_0x96e825[_0xe8ebea(514328,496554,878359)]-(_0x40b209[93]-25))/_0x2e131a
-return _0xc96c19[25][_0x848d34(192429,71750,89343)](_0xc96c19[25][_0xd44ced(419006,841232,402150)](_0xa610e6,_0x3339f1),0.58,1.0)
+local function _0xdb55ac(_0xaed5f1,_0x34fc39)
+local _0x9f067f=_0x338a3e[_0x2b4f7f(139324,82030,94790)]
+local _0x3ffd35=_0x9f067f and _0x9f067f[_0x3f0d21(491734,938590,496829)]or _0xcca467[17][_0x2b4f7f(576040,186898,191283)]((3181+_0x95b3ae(_0x6bafdb(2279,1162),1)-2161),_0xfc82ca(833749,834053))
+if _0x3ffd35[_0x248f80(146268,148278,86531)]<(_0x34fc39+(_0xc84f9e[58]-24))or _0x3ffd35[_0x3f0d21(215038,521832,218332)]<(_0xaed5f1+_0xfc82ca(_0xc84f9e[237],144))then
+local _0xcc541d=(_0x3ffd35[_0x3f0d21(417346,192468,413024)]-(63+_0x95b3ae(_0x6bafdb(50,13),1)-39))/_0xaed5f1
+local _0x56fe81=(_0x3ffd35[_0x248f80(475365,473231,272826)]-_0xfc82ca(602643,602679))/_0x34fc39
+return _0xcca467[21][_0x2b4f7f(1021737,81047,68754)](_0xcca467[21][_0x2b4f7f(223039,523018,510733)](_0xcc541d,_0x56fe81),0.58,1.0)
 end
 return 1.0
 end
-local _0x1568db=_0xb7164b[_0x848d34(119200,138726,153938)](_0xb7164b,_0x848d34(525047,197449,214096))
-if _0x1568db then _0xc96c19[27](function()_0x1568db[_0xe8ebea(176485,195298,254679)](_0x1568db)end)end
-local _0xe52f2e=_0xea24c6[_0xe8ebea(340395,359019,199930)]or _0xb7164b
-local _0x110ff6=_0xc96c19[17][_0x848d34(231940,215719,200560)](_0x848d34(955622,346211,331641))
-_0x110ff6[_0x848d34(586574,459786,475233)]=_0x848d34(993403,111816,127955)
-_0x110ff6[_0x848d34(443546,403978,421099)]=0
-_0x110ff6[_0xd44ced(250010,341279,234818)]=false
-_0x110ff6[_0xd44ced(517733,550297,503334)]=_0xe52f2e
-local _0x7e2de0=_0x517a03
-local _0x0aa327=_0xc96c19[_0x40b209[9]-16][_0x848d34(296426,279881,262302)](_0xe8ebea(302679,316894,44858))
-_0x0aa327[_0xe8ebea(201109,219352,632924)]=_0x206f2b
-_0x0aa327[_0xe8ebea(348242,334808,124494)]=false
-_0x0aa327[_0x848d34(245029,186830,171879)]=true
-_0x0aa327[_0x848d34(521373,120543,102517)]=_0xc96c19[_0x40b209[67]+13][_0xd44ced(103015,470215,121376)][_0xe8ebea(371654,385099,90225)]
-_0x0aa327[_0x848d34(818450,466776,481348)]=(_0x40b209[19]+766)
-_0x0aa327[_0x848d34(936723,87053,70315)]=_0x7e2de0
-local _0x0ee8f4=_0xc96c19[17][_0xe8ebea(138806,152719,496620)](_0x848d34(392300,504010,522199))
-_0x0ee8f4[_0xd44ced(363254,713040,380158)]=_0xe8ebea(380118,360662,73423)
-_0x0ee8f4[_0x848d34(161273,486672,469519)]=_0xc96c19[15][_0x848d34(328192,377507,362356)](0.5,0.5)
-_0x0ee8f4[_0xe8ebea(477965,459201,618037)]=_0xc96c19[_0x40b209[207]-7][_0xe8ebea(275820,294554,237433)](0.5,0.5)
-_0x0ee8f4[_0x848d34(408351,447887,430958)]=_0xc96c19[_0x40b209[237]-181][_0x848d34(684540,487570,473010)](180,(3793+_0xa81147(_0xfaf96b(2192,1601),1)-3613))
-_0x0ee8f4[_0xe8ebea(316131,301323,280232)]=_0xea489d(349359,349358)
-_0x0ee8f4[_0xe8ebea(508008,494558,170769)]=false
-_0x0ee8f4[_0x848d34(532010,459060,477074)]=_0x0aa327
-_0xc96c19[17][_0xe8ebea(253877,234764,414319)](_0x848d34(400863,396425,412551),_0x0ee8f4)[_0xe8ebea(240039,254550,596311)]=_0xc96c19[_0x40b209[201]-3][_0xd44ced(457454,435887,441754)]((3057+_0xa81147(_0xfaf96b(858,2219),1)-3076),0)
-local _0x4bb551=_0xc96c19[17][_0xd44ced(220331,196842,203743)](_0xe8ebea(442729,428702,587358))
-_0x4bb551[_0xe8ebea(455368,440636,930775)]=_0x3f3f8e[_0x848d34(939145,404145,420939)]
-_0x4bb551[_0xe8ebea(384461,366086,958044)]=1.4
-_0x4bb551[_0x848d34(42608,350017,332198)]=0.35
-_0x4bb551[_0xe8ebea(226742,212542,599776)]=_0x0ee8f4
-local _0xa12106=(_0xc96c19[13](_0x830e93[_0x848d34(43895,402806,418236)])==_0xd44ced(432943,155706,450231)and#_0x830e93[_0xe8ebea(232667,247159,19638)]>(3820+_0xa81147(_0xfaf96b(689,3165),1)-3854))
-local _0xde35d4=_0xc96c19[17][_0xe8ebea(331177,345872,32883)](_0x848d34(983769,103719,119331))
-_0xde35d4[_0x848d34(744449,305989,323374)]=_0xe8ebea(313092,297735,508257)
-_0xde35d4[_0xe8ebea(117328,98460,1044328)]=_0xc96c19[_0x40b209[245]-192][_0xd44ced(119363,806863,105214)]((1072+_0xa81147(_0xfaf96b(1059,19),1)-1068),10)
-_0xde35d4[_0x848d34(82560,109584,125681)]=_0xc96c19[18][_0x848d34(714348,517890,499746)](_0xea489d(_0x40b209[224],288),_0xea489d(212114,212152))
-_0xde35d4[_0xe8ebea(432875,446723,396960)]=(1086+_0xa81147(_0xfaf96b(1969,911),1)-2879)
-_0xde35d4[_0xe8ebea(274685,293652,378942)]=_0x830e93[_0xd44ced(87746,476193,69797)]
-_0xde35d4[_0xd44ced(318978,623982,300711)]=_0xc96c19[23][_0xe8ebea(131565,150023,690761)][_0x848d34(732043,403135,418230)]
-_0xde35d4[_0xe8ebea(212734,226578,367409)]=_0x1658cb
-_0xde35d4[_0x848d34(346679,199757,215873)]=0.35
-_0xde35d4[_0xe8ebea(474320,489318,157609)]=_0xa12106
-_0xde35d4[_0x848d34(770390,319048,301294)]=_0x0aa327
-local _0x2a3d2d=_0x6f36f0(_0x0aa327,_0x848d34(277065,104961,122147),_0x848d34(118515,195205,179591),_0x3f3f8e[_0x848d34(948670,337807,352634)],0.14,_0x3f3f8e[_0xd44ced(232095,747589,246280)],0.30)
-_0x2a3d2d[_0xe8ebea(427268,446408,565308)]=_0xc96c19[_0x40b209[56]-75][_0xd44ced(280638,644530,262275)]((3887+_0xa81147(_0xfaf96b(2364,1555),1)-3903),(1021+_0xa81147(_0xfaf96b(785,236),1)-1007))
-_0x2a3d2d[_0x848d34(508527,470271,485918)]=_0xc96c19[18][_0xe8ebea(518409,501003,1024933)]((_0x40b209[11]+206),_0xea489d(_0x40b209[26],90))
-local _0x9d8955=_0x6f36f0(_0x2a3d2d,_0x848d34(676434,480245,464086),_0xe8ebea(371263,385498,984857),_0x3f3f8e[_0xe8ebea(165677,183537,1029385)],0.0,nil,_0xea489d(241297,241296))
-_0x9d8955[_0xe8ebea(425976,406521,404688)]=_0xc96c19[15][_0xe8ebea(316649,302672,88371)]((_0x40b209[203]-121),0.5)
-_0x9d8955[_0xd44ced(486519,825505,470000)]=_0xc96c19[_0x40b209[179]-108][_0xd44ced(69367,86710,84355)](_0xea489d(557293,557293),(_0x40b209[128]-127),0.5,_0xea489d(761697,761697))
-_0x9d8955[_0xe8ebea(413474,394465,257457)]=_0xc96c19[18][_0x848d34(646469,318507,301835)](_0xea489d(_0x40b209[94],126),_0xea489d(681525,681531))
-local _0x17ef85=_0xc96c19[17][_0xd44ced(235357,248604,249897)](_0x848d34(540462,69322,84462))
-_0x17ef85[_0xe8ebea(360295,341419,744031)]=_0xc96c19[_0x40b209[54]-87][_0xd44ced(491952,662588,510221)]((3862+_0xa81147(_0xfaf96b(1069,2875),1)-3926),(3131+_0xa81147(_0xfaf96b(3219,168),1)-3387))
-_0x17ef85[_0xe8ebea(172919,190644,459236)]=_0xc96c19[18][_0x848d34(448591,399596,417083)]((_0x40b209[40]-230),-24,_0xea489d(743768,743769),(1803+_0xa81147(_0xfaf96b(529,1306),1)-1835))
-_0x17ef85[_0xe8ebea(397923,416139,427560)]=(2449+_0xa81147(_0xfaf96b(336,2241),1)-2576)
-_0x17ef85[_0x848d34(511685,266773,283952)]=_0xc96c19[23][_0xe8ebea(470807,484112,112640)][_0xe8ebea(282702,269382,672212)]
-_0x17ef85[_0x848d34(743833,375759,392424)]=12
-_0x17ef85[_0x848d34(686341,375282,392922)]=_0x3f3f8e[_0x848d34(567341,431396,447450)]
-_0x17ef85[_0xd44ced(99946,85414,118444)]=_0xc96c19[_0x40b209[100]-130][_0xe8ebea(105289,120642,296876)][_0x848d34(439520,159078,141900)]
-_0x17ef85[_0xd44ced(197970,616814,216474)]=true
-_0x17ef85[_0xd44ced(76081,260181,90433)]=_0xea489d(265407,265404)
-_0x17ef85[_0x848d34(777821,466127,482275)]=_0x1b3a2b
-and _0x848d34(467471,381664,366029)
-or _0xe8ebea(323892,310564,973140)
-_0x17ef85[_0xd44ced(408945,638605,423218)]=_0x2a3d2d
-local _0x3a1403=_0xc96c19[17][_0xd44ced(96588,75021,81464)](_0xe8ebea(517403,502026,213189))
-_0x3a1403[_0xe8ebea(462889,481636,895456)]=_0xe8ebea(204289,217619,432077)
-_0x3a1403[_0xe8ebea(481069,466158,193982)]=_0xc96c19[18][_0xd44ced(335058,484883,349283)](_0xea489d(649505,649504),(_0x40b209[187]-222))
-_0x3a1403[_0xd44ced(101407,313502,115900)]=(1594+_0xa81147(_0xfaf96b(187,1665),1)-1851)
-_0x3a1403[_0xe8ebea(415562,400196,1039894)]=_0xd44ced(66480,491051,83538)
-_0x3a1403[_0x848d34(523439,373033,391162)]=_0xea489d(840258,840263)
-_0x3a1403[_0xe8ebea(352243,332923,986277)]=_0x2a3d2d
-local _0x4365a1=_0xc96c19[_0x40b209[110]-29][_0xe8ebea(349358,335383,55668)](_0xe8ebea(425426,407085,97611))
-_0x4365a1[_0x848d34(834178,216518,199085)]=_0xd44ced(129476,146632,110858)
-_0x4365a1[_0xd44ced(340123,46224,358439)]=_0xc96c19[_0x40b209[44]-231][_0xe8ebea(121049,103008,283907)]((40+_0xa81147(_0xfaf96b(1,41),1)-41),(3152+_0xa81147(_0xfaf96b(3429,309),1)-3737))
-_0x4365a1[_0xe8ebea(482545,464445,621001)]=_0xc96c19[_0x40b209[116]-231][_0xd44ced(466836,476117,481504)]((924+_0xa81147(_0xfaf96b(852,200),1)-1051),-18,(4091+_0xa81147(_0xfaf96b(1387,2704),1)-4090),-(30+_0xa81147(_0xfaf96b(113,111),1)-206))
-_0x4365a1[_0x848d34(125687,66663,82566)]=_0xc96c19[_0x40b209[132]-109][_0xe8ebea(258984,245674,768260)](_0xea489d(485425,485681),_0xea489d(180697,180491))
-_0x4365a1[_0xe8ebea(194109,179669,156278)]=(473+_0xa81147(_0xfaf96b(214,271),1)-484)
-_0x4365a1[_0xd44ced(89371,974567,71000)]=_0x0aa327
-local _0x498173=_0xc96c19[17][_0xd44ced(353402,342075,336654)](_0xe8ebea(109822,123114,263598))
-_0x498173[_0xd44ced(200944,751221,219168)]=_0xc96c19[23][_0xd44ced(435359,967194,453711)][_0x848d34(1020696,322086,306450)]
-_0x498173[_0xe8ebea(355352,335887,712873)]=_0xc96c19[23][_0x848d34(581093,137859,155062)][_0xe8ebea(431842,449274,786182)]
-_0x498173[_0x848d34(488025,381564,365899)]=_0xc96c19[16][_0xd44ced(214136,202809,197388)]((_0x40b209[180]-241),_0xea489d(371233,371238))
-_0x498173[_0x848d34(762267,310917,325667)]=_0x4365a1
-_0xe1272d=function(_0xecbe6b,_0x8e354e,_0x23f44e)
-local _0xe47f10,_0xe20722=_0x6f36f0(_0x4365a1,_0x848d34(529512,489174,471534),_0xe8ebea(305766,319874,184884),_0x3f3f8e[_0x848d34(1019505,315456,300725)],0.12,_0x3f3f8e[_0xe8ebea(216366,198386,950026)],0.25)
-_0xe47f10[_0xd44ced(521300,493094,506922)]=_0xc96c19[18][_0xe8ebea(269158,283103,104124)](_0xea489d(846338,846339),_0xea489d(_0x40b209[165],203),0,(577+_0xa81147(_0xfaf96b(206,655),1)-817))
-local _0xd56657=_0xc96c19[_0x40b209[10]-202][_0xe8ebea(220017,201160,448171)](_0x848d34(866411,264591,282283))
-_0xd56657[_0xe8ebea(331307,345319,731923)]=_0xc96c19[18][_0x848d34(965708,245026,260610)]((_0x40b209[228]-51),(_0x40b209[240]-36))
-_0xd56657[_0xd44ced(365672,386586,384022)]=_0xc96c19[18][_0x848d34(326719,277660,293195)](_0xea489d(1014465,1014464),-_0xea489d(_0x40b209[138],69),(438+_0xa81147(_0xfaf96b(35,405),1)-440),16)
-_0xd56657[_0xe8ebea(102707,121563,66936)]=(_0x40b209[8]-192)
-_0xd56657[_0xe8ebea(478440,458991,121855)]=_0xc96c19[23][_0x848d34(461484,317052,299353)][_0x848d34(552013,210463,225593)]
-_0xd56657[_0xe8ebea(146235,161586,627364)]=_0xea489d(196217,196213)
-_0xd56657[_0xe8ebea(92960,75562,778269)]=_0x3f3f8e[_0x848d34(1004395,470355,486313)]
-_0xd56657[_0xd44ced(514915,463023,496549)]=_0xc96c19[23][_0x848d34(140003,161229,144100)][_0xe8ebea(355979,336519,326849)]
-_0xd56657[_0xe8ebea(418997,405248,91462)]=_0xea489d(241375,241372)
-_0xd56657[_0xd44ced(424314,665354,405939)]=_0xecbe6b
-_0xd56657[_0x848d34(812725,227755,212749)]=_0xe47f10
-local _0xf85386=_0xc96c19[17][_0xe8ebea(177685,195756,474063)](_0xd44ced(432108,998122,450349))
-_0xf85386[_0xe8ebea(155240,136356,818000)]=_0xc96c19[_0x40b209[6]-100][_0xd44ced(254811,949975,240614)](_0xea489d(446771,446783),(200+_0xa81147(_0xfaf96b(462,262),1)-703))
-_0xf85386[_0x848d34(463845,523637,506772)]=_0xc96c19[18][_0xd44ced(254038,244759,239394)]((350+_0xa81147(_0xfaf96b(989,643),1)-1631),-_0xea489d(132786,132774),(2185+_0xa81147(_0xfaf96b(282,2451),1)-2733),_0xea489d(493945,493929))
-_0xf85386[_0xe8ebea(317882,299602,282097)]=_0xea489d(49070,49071)
-_0xf85386[_0xe8ebea(294531,275076,190868)]=_0xc96c19[_0x40b209[110]-23][_0xe8ebea(296594,314005,135557)][_0xe8ebea(316346,303009,472405)]
-_0xf85386[_0xd44ced(256393,890685,237901)]=(10+_0xa81147(_0xfaf96b(20,30),1)-39)
-_0xf85386[_0xd44ced(485512,537757,467021)]=_0x3f3f8e[_0xe8ebea(431979,449674,658375)]
-_0xf85386[_0xe8ebea(151808,138507,478693)]=_0xc96c19[23][_0xd44ced(169608,154948,187982)][_0xe8ebea(328266,347718,299008)]
-_0xf85386[_0xd44ced(236906,85006,251162)]=(3605+_0xa81147(_0xfaf96b(3696,101),1)-3794)
-_0xf85386[_0xe8ebea(100747,116101,524503)]=_0x8e354e
-_0xf85386[_0xe8ebea(268480,283464,936854)]=_0xe47f10
-_0xc96c19[21][_0x848d34(164422,262724,279658)](_0x23f44e or 2.0,function()
-if _0xe47f10 and _0xe47f10[_0xd44ced(120566,939274,106165)]then
-_0x03da74(_0xe47f10,0.24,nil,1)
-if _0xe20722 then _0x03da74(_0xe20722,0.24,nil,(3887+_0xa81147(_0xfaf96b(1345,2670),1)-4014))end
-_0xc96c19[_0x40b209[203]-100][_0xd44ced(410220,582551,395855)](0.24)
-if _0xe47f10 and _0xe47f10[_0xd44ced(326246,752026,307749)]then _0xe47f10[_0x848d34(334851,66550,83283)](_0xe47f10)end
+local _0xc2dd4d=_0x6d424a[_0x2b4f7f(987268,382307,386401)](_0x6d424a,_0x248f80(325826,295281,555855))
+if _0xc2dd4d then _0xcca467[16](function()_0xc2dd4d[_0x2b4f7f(58061,260206,248193)](_0xc2dd4d)end)end
+local _0x19be1c=_0x338a3e[_0x248f80(459372,490260,2538)]or _0x6d424a
+local _0xcb0aad=_0xcca467[_0xc84f9e[108]-97][_0x2b4f7f(609067,219921,223792)](_0x3f0d21(323842,272620,320879))
+_0xcb0aad[_0x2b4f7f(420528,404487,394125)]=_0x3f0d21(102061,342266,105155)
+_0xcb0aad[_0x2b4f7f(878122,163513,150674)]=(_0xc84f9e[204]-237)
+_0xcb0aad[_0x3f0d21(326005,528949,321558)]=false
+_0xcb0aad[_0x3f0d21(459568,420050,463049)]=_0x19be1c
+local _0x5a99db=_0x79d0a6
+local _0xfc0484=_0xcca467[_0xc84f9e[237]-113][_0x2b4f7f(877365,488207,475694)](_0x2b4f7f(567873,413848,418153))
+_0xfc0484[_0x248f80(515543,502541,261910)]=_0x774164
+_0xfc0484[_0x2b4f7f(698575,392797,380847)]=false
+_0xfc0484[_0x2b4f7f(808046,159449,155434)]=true
+_0xfc0484[_0x2b4f7f(597,157205,153569)]=_0xcca467[_0xc84f9e[116]-229][_0x3f0d21(264303,118909,269202)][_0x3f0d21(74597,239280,77979)]
+_0xfc0484[_0x248f80(390020,363058,694482)]=(4203+_0x95b3ae(_0x6bafdb(492,4487),1)-3980)
+_0xfc0484[_0x248f80(504235,510187,331255)]=_0x5a99db
+local _0x7c1cd4=_0xcca467[_0xc84f9e[215]-212][_0x2b4f7f(906216,508882,520947)](_0x248f80(229868,260187,639334))
+_0x7c1cd4[_0x3f0d21(245780,277233,250247)]=_0x3f0d21(417607,157371,412470)
+_0x7c1cd4[_0x248f80(399538,418059,77087)]=_0xcca467[_0xc84f9e[180]-130][_0x3f0d21(401099,766627,396769)](0.5,0.5)
+_0x7c1cd4[_0x248f80(250501,240129,769901)]=_0xcca467[25][_0x3f0d21(158231,375976,163440)](0.5,0.5)
+_0x7c1cd4[_0x3f0d21(293984,841889,288852)]=_0xcca467[25][_0x2b4f7f(267158,183100,194902)](_0xfc82ca(401154,401334),(1607+_0x95b3ae(_0x6bafdb(1797,322),1)-1939))
+_0x7c1cd4[_0x2b4f7f(347180,170501,174165)]=_0xfc82ca(321088,321089)
+_0x7c1cd4[_0x3f0d21(323361,953818,326406)]=false
+_0x7c1cd4[_0x2b4f7f(188985,275849,263289)]=_0xfc0484
+_0xcca467[29][_0x248f80(405782,412007,543729)](_0x2b4f7f(240045,318476,323156),_0x7c1cd4)[_0x2b4f7f(894328,286279,289822)]=_0xcca467[31][_0x248f80(475391,473230,604696)](_0xfc82ca(19892,19893),(3340+_0x95b3ae(_0x6bafdb(477,3281),1)-3758))
+local _0xb7c506=_0xcca467[29][_0x248f80(160841,134200,790190)](_0x3f0d21(375883,477216,370723))
+_0xb7c506[_0x2b4f7f(435953,455263,442371)]=_0x616a6c[_0x2b4f7f(576852,320025,315485)]
+_0xb7c506[_0x248f80(409347,411264,375180)]=1.4
+_0xb7c506[_0x2b4f7f(198850,428015,439774)]=0.35
+_0xb7c506[_0x248f80(157781,135445,54281)]=_0x7c1cd4
+local _0x2092e9=(_0xcca467[_0xc84f9e[60]-253](_0x35dbd2[_0x248f80(88116,77650,216318)])==_0x248f80(242755,246312,220336)and#_0x35dbd2[_0x2b4f7f(282676,139572,135458)]>(_0xc84f9e[123]-240))
+local _0x8862e6=_0xcca467[_0xc84f9e[202]-72][_0x248f80(422994,396323,528053)](_0x3f0d21(195629,664818,190586))
+_0x8862e6[_0x248f80(522708,495374,252693)]=_0x2b4f7f(372536,487543,475676)
+_0x8862e6[_0x2b4f7f(994100,208116,204224)]=_0xcca467[25][_0x248f80(255269,236703,87705)](_0xfc82ca(487142,487148),10)
+_0x8862e6[_0x3f0d21(474846,1022495,469738)]=_0xcca467[25][_0x3f0d21(454137,493825,457098)](_0xfc82ca(811835,811531),42)
+_0x8862e6[_0x248f80(331190,357398,438419)]=_0xfc82ca(_0xc84f9e[143],22)
+_0x8862e6[_0x3f0d21(386991,533172,390133)]=_0x35dbd2[_0x3f0d21(452904,468090,457527)]
+_0x8862e6[_0x248f80(65824,96386,218458)]=_0xcca467[18][_0x3f0d21(256043,158477,261232)][_0x2b4f7f(992360,284997,289558)]
+_0x8862e6[_0x2b4f7f(684704,443788,456664)]=_0xe1bb69
+_0x8862e6[_0x3f0d21(500899,686811,504060)]=0.35
+_0x8862e6[_0x3f0d21(416098,801689,412997)]=_0x2092e9
+_0x8862e6[_0x3f0d21(271540,347990,276301)]=_0xfc0484
+local _0xb5668d=_0x45e78c(_0xfc0484,_0x2b4f7f(61034,276982,265114),_0x3f0d21(130555,668853,125358),_0x616a6c[_0x2b4f7f(882947,106701,103154)],0.14,_0x616a6c[_0x3f0d21(465088,822239,461965)],0.30)
+_0xb5668d[_0x248f80(331084,357832,876708)]=_0xcca467[25][_0x3f0d21(98027,6675,92824)](_0xfc82ca(_0xc84f9e[35],247),_0xfc82ca(_0xc84f9e[133],134))
+_0xb5668d[_0x3f0d21(115213,616140,120377)]=_0xcca467[_0xc84f9e[130]-53][_0x3f0d21(69887,29703,66700)]((356+_0x95b3ae(_0x6bafdb(258,102),1)-68),_0xfc82ca(233326,233328))
+local _0xb6c85b=_0x45e78c(_0xb5668d,_0x248f80(220507,206054,132807),_0x248f80(495600,521837,614940),_0x616a6c[_0x2b4f7f(636677,366664,371212)],0.0,nil,_0xfc82ca(_0xc84f9e[74],63))
+_0xb6c85b[_0x3f0d21(415995,178705,412809)]=_0xcca467[17][_0x3f0d21(389124,547948,385838)](_0xfc82ca(412226,412226),0.5)
+_0xb6c85b[_0x2b4f7f(859946,71914,76254)]=_0xcca467[25][_0x3f0d21(241011,917787,245337)](_0xfc82ca(636340,636340),_0xfc82ca(_0xc84f9e[23],32),0.5,(3699+_0x95b3ae(_0x6bafdb(156,3823),1)-3979))
+_0xb6c85b[_0x2b4f7f(555141,483350,479805)]=_0xcca467[_0xc84f9e[244]-123][_0x3f0d21(106134,64110,101093)](4,_0xfc82ca(_0xc84f9e[65],220))
+local _0x4e9468=_0xcca467[29][_0x248f80(367316,385701,778291)](_0x3f0d21(180679,11366,185776))
+_0x4e9468[_0x2b4f7f(932494,146766,134266)]=_0xcca467[25][_0x3f0d21(168730,260066,165737)](_0xfc82ca(959530,959544),(855+_0x95b3ae(_0x6bafdb(363,572),1)-935))
+_0x4e9468[_0x3f0d21(507457,989824,502389)]=_0xcca467[25][_0x3f0d21(518070,674782,521372)](1,-(175+_0x95b3ae(_0x6bafdb(125,210),1)-311),(2392+_0x95b3ae(_0x6bafdb(2229,493),1)-2721),_0xfc82ca(14767,14767))
+_0x4e9468[_0x248f80(172135,186823,73026)]=_0xfc82ca(945149,945148)
+_0x4e9468[_0x248f80(493562,523845,939154)]=_0xcca467[18][_0x3f0d21(213089,607304,218137)][_0x248f80(412703,407007,544013)]
+_0x4e9468[_0x3f0d21(370405,786644,373407)]=_0xfc82ca(97061,97065)
+_0x4e9468[_0x248f80(341466,347160,698113)]=_0x616a6c[_0x3f0d21(386765,463166,389788)]
+_0x4e9468[_0x2b4f7f(613214,240402,235873)]=_0xcca467[_0xc84f9e[26]-37][_0x2b4f7f(834918,412970,425817)][_0x2b4f7f(580998,510188,522904)]
+_0x4e9468[_0x2b4f7f(368721,375363,362550)]=true
+_0x4e9468[_0x3f0d21(288403,839529,291509)]=(378+_0x95b3ae(_0x6bafdb(70,316),1)-383)
+_0x4e9468[_0x2b4f7f(658793,145334,132544)]=_0x0df478
+and _0x248f80(275572,282035,678069)
+or _0x248f80(420380,398292,969000)
+_0x4e9468[_0x3f0d21(420540,459102,424261)]=_0xb5668d
+local _0x8d7a09=_0xcca467[29][_0x3f0d21(520325,679149,517039)](_0x2b4f7f(87342,440669,428836))
+_0x8d7a09[_0x2b4f7f(512431,497432,506002)]=_0x3f0d21(197479,279688,202724)
+_0x8d7a09[_0x3f0d21(523440,1005681,518276)]=_0xcca467[25][_0x248f80(316374,305784,53817)]((75+_0x95b3ae(_0x6bafdb(1393,1338),1)-2730),(_0xc84f9e[80]-162))
+_0x8d7a09[_0x2b4f7f(444085,69788,74444)]=(3341+_0x95b3ae(_0x6bafdb(44,3361),1)-3404)
+_0x8d7a09[_0x248f80(318579,304565,560582)]=_0x3f0d21(429467,952282,433398)
+_0x8d7a09[_0x3f0d21(461297,1024011,466391)]=(1943+_0x95b3ae(_0x6bafdb(1737,350),1)-2082)
+_0x8d7a09[_0x248f80(167926,194230,13226)]=_0xb5668d
+local _0xb7113d=_0xcca467[29][_0x3f0d21(366753,537801,363403)](_0x2b4f7f(721474,338387,334772))
+_0xb7113d[_0x2b4f7f(323058,305989,296143)]=_0x248f80(251300,240751,19964)
+_0xb7113d[_0x3f0d21(131089,451323,136291)]=_0xcca467[17][_0x3f0d21(237154,930314,232776)](_0xfc82ca(564645,564644),(2201+_0x95b3ae(_0x6bafdb(2676,749),1)-3424))
+_0xb7113d[_0x2b4f7f(559568,298512,311076)]=_0xcca467[25][_0x248f80(425759,395118,525816)](_0xfc82ca(655816,655817),-_0xfc82ca(756542,756524),1,-_0xfc82ca(669373,669359))
+_0xb7113d[_0x2b4f7f(890090,167033,179794)]=_0xcca467[_0xc84f9e[79]-203][_0x2b4f7f(79257,519475,515929)](256,_0xfc82ca(_0xc84f9e[96],71))
+_0xb7113d[_0x248f80(318619,304443,483774)]=_0xfc82ca(913068,913069)
+_0xb7113d[_0x2b4f7f(259070,336974,333246)]=_0xfc0484
+local _0x034504=_0xcca467[29][_0x3f0d21(410663,780367,415501)](_0x3f0d21(520943,427483,517738))
+_0x034504[_0x3f0d21(393288,513019,398542)]=_0xcca467[_0xc84f9e[54]-81][_0x3f0d21(86730,33145,83532)][_0x248f80(348448,338158,890895)]
+_0x034504[_0x3f0d21(421095,823365,424047)]=_0xcca467[18][_0x248f80(308115,313948,890880)][_0x2b4f7f(271531,218983,222695)]
+_0x034504[_0x248f80(161476,134933,1042211)]=_0xcca467[_0xc84f9e[194]-152][_0x3f0d21(124177,805241,128571)]((989+_0x95b3ae(_0x6bafdb(588,401),1)-989),7)
+_0x034504[_0x2b4f7f(50981,397461,401765)]=_0xb7113d
+_0x87218d=function(_0x1a56ad,_0x07c654,_0x31cf22)
+local _0x2cefa3,_0xf901a2=_0x45e78c(_0xb7113d,_0x3f0d21(519125,32569,524126),_0x2b4f7f(704017,445197,457025),_0x616a6c[_0x248f80(137469,156018,698896)],0.12,_0x616a6c[_0x3f0d21(319593,1012598,324644)],0.25)
+_0x2cefa3[_0x248f80(310907,313088,1035583)]=_0xcca467[25][_0x3f0d21(350571,587011,346689)](1,0,_0xfc82ca(906740,906740),44)
+local _0x5c85ca=_0xcca467[29][_0x3f0d21(266611,638235,262745)](_0x3f0d21(169259,30858,164188))
+_0x5c85ca[_0x3f0d21(98720,670258,103069)]=_0xcca467[25][_0x2b4f7f(522858,74432,69802)]((_0xc84f9e[203]-67),(1651+_0x95b3ae(_0x6bafdb(1866,313),1)-2174))
+_0x5c85ca[_0x248f80(405936,411851,869108)]=_0xcca467[25][_0x248f80(212059,214058,870076)]((1731+_0x95b3ae(_0x6bafdb(705,1026),1)-1730),-_0xfc82ca(258344,258364),(1622+_0x95b3ae(_0x6bafdb(145,1735),1)-1880),_0xfc82ca(_0xc84f9e[139],144))
+_0x5c85ca[_0x2b4f7f(235900,282453,294149)]=1
+_0x5c85ca[_0x2b4f7f(810472,124307,120828)]=_0xcca467[18][_0x248f80(287932,269571,899028)][_0x3f0d21(194716,994992,191717)]
+_0x5c85ca[_0x248f80(248274,241683,637148)]=12
+_0x5c85ca[_0x2b4f7f(575940,209009,197123)]=_0x616a6c[_0x248f80(97514,66942,604319)]
+_0x5c85ca[_0x3f0d21(312678,625016,315674)]=_0xcca467[18][_0x248f80(415891,401744,574384)][_0x248f80(183341,177641,635439)]
+_0x5c85ca[_0x2b4f7f(664157,342005,329192)]=_0xfc82ca(708729,708730)
+_0x5c85ca[_0x2b4f7f(929839,396016,407686)]=_0x1a56ad
+_0x5c85ca[_0x2b4f7f(499281,84449,96273)]=_0x2cefa3
+local _0x9a4c69=_0xcca467[29][_0x248f80(434484,448837,580563)](_0x248f80(494465,520767,438624))
+_0x9a4c69[_0x3f0d21(146050,622864,141759)]=_0xcca467[_0xc84f9e[242]-114][_0x2b4f7f(8925,457335,444445)](12,(_0xc84f9e[24]-183))
+_0x9a4c69[_0x2b4f7f(881200,158371,153736)]=_0xcca467[25][_0x2b4f7f(905550,508276,520277)]((3950+_0x95b3ae(_0x6bafdb(1361,2623),1)-3983),-(2124+_0x95b3ae(_0x6bafdb(126,2098),1)-2204),(613+_0x95b3ae(_0x6bafdb(521,108),1)-629),_0xfc82ca(202325,202309))
+_0x9a4c69[_0x248f80(437708,447596,332009)]=_0xfc82ca(950833,950832)
+_0x9a4c69[_0x2b4f7f(563586,336377,332694)]=_0xcca467[18][_0x248f80(137446,155993,773006)][_0x248f80(106348,124607,1023265)]
+_0x9a4c69[_0x3f0d21(219208,720505,216114)]=(2752+_0x95b3ae(_0x6bafdb(635,2235),1)-2859)
+_0x9a4c69[_0x3f0d21(191309,962218,196406)]=_0x616a6c[_0x2b4f7f(710437,498700,503365)]
+_0x9a4c69[_0x248f80(392340,361815,747447)]=_0xcca467[_0xc84f9e[230]-28][_0x248f80(325866,295209,680905)][_0x3f0d21(357793,908441,352732)]
+_0x9a4c69[_0x3f0d21(409677,977335,414827)]=3
+_0x9a4c69[_0x248f80(454391,431921,704322)]=_0x07c654
+_0x9a4c69[_0x2b4f7f(44191,424751,412383)]=_0x2cefa3
+_0xcca467[8][_0x2b4f7f(586905,242171,229507)](_0x31cf22 or 2.0,function()
+if _0x2cefa3 and _0x2cefa3[_0x248f80(259080,232776,84052)]then
+_0x419d94(_0x2cefa3,0.24,nil,_0xfc82ca(927119,927118))
+if _0xf901a2 then _0x419d94(_0xf901a2,0.24,nil,(_0xc84f9e[101]-94))end
+_0xcca467[_0xc84f9e[88]-46][_0x3f0d21(339094,142916,343887)](0.24)
+if _0x2cefa3 and _0x2cefa3[_0x2b4f7f(4182,444390,456214)]then _0x2cefa3[_0x3f0d21(278774,58887,283406)](_0x2cefa3)end
 end
 end)
 end
-local _0x92b09c=_0xe8ebea(256606,239170,916471)
-local _0xeb63ad=_0xe8ebea(511836,492353,497061)
-local function _0x30384f()
-local _0x26b4eb=false
-if _0xc96c19[_0x40b209[241]-78](_0x4624b2[_0x848d34(676350,70180,87638)])==_0xd44ced(203038,743285,220407)and _0xc96c19[13](_0x4624b2[_0x848d34(516161,429974,445413)])==_0x848d34(852153,381488,366204)then
-local _0x424f83,_0xab15a5=_0xc96c19[_0x40b209[215]-90](function()
-if _0x4624b2[_0x848d34(955354,380928,365682)](_0xeb63ad)then return _0x4624b2[_0x848d34(429386,516765,501486)](_0xeb63ad)end
+local _0x68fc5f=_0x248f80(75634,89766,378590)
+local _0xc32bb7=_0x2b4f7f(151453,431906,435623)
+local function _0xc1f711()
+local _0xc92e6c=false
+if _0xcca467[_0xc84f9e[228]-4](_0xa72073[_0x248f80(506244,511845,907386)])==_0x3f0d21(294657,455649,290421)and _0xcca467[2](_0xa72073[_0x3f0d21(479854,933171,476149)])==_0x3f0d21(478469,377317,482417)then
+local _0xd29fd5,_0x3b9528=_0xcca467[_0xc84f9e[219]-29](function()
+if _0xa72073[_0x3f0d21(429589,997364,434063)](_0xc32bb7)then return _0xa72073[_0x248f80(459429,488519,898532)](_0xc32bb7)end
 return nil
 end)
-if _0x424f83 and _0xab15a5 and _0xc96c19[9][_0xe8ebea(474474,488508,210107)](_0xab15a5,_0x92b09c,1,true)then
-_0x26b4eb=true
+if _0xd29fd5 and _0x3b9528 and _0xcca467[_0xc84f9e[242]-105][_0x2b4f7f(168119,137147,145448)](_0x3b9528,_0x68fc5f,1,true)then
+_0xc92e6c=true
 end
 end
-if _0x4624b2[_0x848d34(747291,393107,375727)]and _0x4624b2[_0x848d34(1009308,130580,113192)]()[_0xe8ebea(330673,346031,709812)]==_0x92b09c then
-_0x26b4eb=true
+if _0xa72073[_0x3f0d21(266570,948526,262190)]and _0xa72073[_0x3f0d21(298777,976765,302717)]()[_0x2b4f7f(143637,486781,483323)]==_0x68fc5f then
+_0xc92e6c=true
 end
-if _0x26b4eb then return end
-if _0x4624b2[_0xe8ebea(368731,387397,947725)]then _0x4624b2[_0xd44ced(181145,837619,165440)]()[_0xd44ced(359421,1012676,340772)]=_0x92b09c end
-local _0xfc6273=_0xc96c19[17][_0xd44ced(418637,409356,402489)](_0xe8ebea(277225,291094,211568))
-_0xfc6273[_0xd44ced(129642,954828,113762)]=_0x848d34(691022,202675,217230)
-_0xfc6273[_0xe8ebea(496225,515680,508233)]=_0xc96c19[15][_0xd44ced(289956,274661,273360)](0.5,0.5)
-_0xfc6273[_0x848d34(1006248,275100,292726)]=_0xc96c19[_0x40b209[104]-6][_0xe8ebea(252314,234092,291727)](0.5,0.5)
-_0xfc6273[_0xe8ebea(382666,367881,29785)]=_0xc96c19[18][_0xe8ebea(139660,159118,682784)](_0xea489d(_0x40b209[26],312),_0xea489d(74806,74997))
-_0xfc6273[_0x848d34(412427,234344,250990)]=(1200+_0xa81147(_0xfaf96b(17,1185),1)-1201)
-_0xfc6273[_0x848d34(426016,314790,297845)]=(395+_0xa81147(_0xfaf96b(441,50),1)-441)
-_0xfc6273[_0x848d34(696495,376753,391447)]=_0x0aa327
-local _0xcf0e76=_0xc96c19[_0x40b209[10]-202][_0x848d34(299193,282650,267725)](_0x848d34(224814,95470,78800))
-_0xcf0e76[_0xe8ebea(484186,470907,641134)]=_0x46c73d((2127+_0xa81147(_0xfaf96b(2453,474),1)-2527),(_0x40b209[51]-33))
-_0xcf0e76[_0xe8ebea(422927,409479,796505)]=_0xfc6273
-local _0xf3453f=_0xc96c19[_0x40b209[104]-7][_0x848d34(79590,128581,111506)](_0xd44ced(122524,1037696,103997))
-_0xf3453f[_0xe8ebea(136052,155509,147548)]=_0xc96c19[15][_0x848d34(500478,483933,468874)](0.5,0.5)
-_0xf3453f[_0xe8ebea(380732,361968,780804)]=_0xc96c19[18][_0xe8ebea(368326,382079,4892)](0.5,(727+_0xa81147(_0xfaf96b(523,220),1)-743),0.5,_0xea489d(381125,381123))
-_0xf3453f[_0xe8ebea(375946,390985,7705)]=_0xc96c19[18][_0xd44ced(517589,506260,500385)](_0xea489d(662890,662891),(475+_0xa81147(_0xfaf96b(860,647),1)-1481),_0xea489d(723779,723778),26)
-_0xf3453f[_0xd44ced(324125,112284,309950)]=_0xea489d(417142,417143)
-_0xf3453f[_0x848d34(126922,351008,334887)]=_0x830e93[_0xe8ebea(104242,122526,153439)]
-_0xf3453f[_0xd44ced(224425,931781,205836)]=_0xc96c19[_0x40b209[21]+23][_0xe8ebea(275484,294902,835512)][_0x848d34(1039452,184680,169569)]
-_0xf3453f[_0xd44ced(117493,180212,98898)]=_0x1658cb
-_0xf3453f[_0xe8ebea(361648,380766,429796)]=0.2
-_0xf3453f[_0x848d34(5282,153892,139255)]=_0xea489d(57566,57581)
-_0xf3453f[_0x848d34(647943,457753,441023)]=_0xfc6273
-local _0x63957b,_0x7cb6bc=_0x6f36f0(_0xfc6273,_0xd44ced(118261,283529,99624),_0xe8ebea(67956,82583,799895),_0x3f3f8e[_0xe8ebea(518051,502900,652677)],0.08,_0x3f3f8e[_0xd44ced(277578,843408,292061)],(413+_0xa81147(_0xfaf96b(334,211),1)-544))
-if _0x7cb6bc then _0x7cb6bc[_0xe8ebea(207757,221194,161855)](_0x7cb6bc)end
-_0x63957b[_0xd44ced(238698,251416,257044)]=_0xc96c19[18][_0xe8ebea(162036,144130,381665)](1,(1237+_0xa81147(_0xfaf96b(1645,696),1)-2340))
-_0x63957b[_0xe8ebea(486744,468717,27819)]=(1567+_0xa81147(_0xfaf96b(7,1560),1)-1515)
-local _0xad790e=_0xc96c19[_0x40b209[237]-182][_0x848d34(366514,349969,332486)](_0xd44ced(109683,228407,124105))
-_0xad790e[_0xd44ced(379888,933670,363639)]=_0xc96c19[18][_0xd44ced(387727,554755,369202)]((_0x40b209[186]-53),_0xea489d(_0x40b209[250],125))
-_0xad790e[_0xe8ebea(311813,297414,90262)]=_0xc96c19[18][_0xd44ced(409368,418649,424044)](_0xea489d(742296,742297),-(1546+_0xa81147(_0xfaf96b(579,1097),1)-1652),(1209+_0xa81147(_0xfaf96b(981,1900),1)-2881),(2078+_0xa81147(_0xfaf96b(504,2534),1)-3002))
-_0xad790e[_0xe8ebea(261259,243555,223424)]=(_0x40b209[65]-113)
-_0xad790e[_0x848d34(6647,152689,135842)]=(_0x40b209[70]-102)
-_0xad790e[_0x848d34(659930,331460,346210)]=_0x63957b
-local _0x23542c=_0xc96c19[17][_0x848d34(364581,348294,333137)](_0x848d34(561308,106872,124508))
-_0x23542c[_0x848d34(924640,357332,341566)]=_0xc96c19[18][_0x848d34(589475,393165,375021)]((3328+_0xa81147(_0xfaf96b(389,3205),1)-3590),(3580+_0xa81147(_0xfaf96b(53,3529),1)-3580))
-_0x23542c[_0xd44ced(179761,183363,194127)]=_0xc96c19[18][_0xd44ced(480179,708159,465678)]((1212+_0xa81147(_0xfaf96b(1937,813),1)-2650),_0xea489d(_0x40b209[180],227))
-_0x23542c[_0xd44ced(214055,393382,199812)]=1
-_0x23542c[_0x848d34(395314,382178,365511)]=_0xc96c19[_0x40b209[212]-167][_0xe8ebea(255450,240093,357069)][_0xd44ced(485477,876840,467131)]
-_0x23542c[_0xe8ebea(143830,163295,628809)]=(1207+_0xa81147(_0xfaf96b(1291,444),1)-1719)
-_0x23542c[_0xd44ced(387880,702269,369645)]=_0x3f3f8e[_0x848d34(831900,167061,182891)]
-_0x23542c[_0xe8ebea(247187,231832,448886)]=_0xc96c19[23][_0xd44ced(99879,85483,118497)][_0x848d34(455648,141926,159052)]
-_0x23542c[_0xd44ced(357342,601518,342807)]=_0xd44ced(165740,514681,184243)
-_0x23542c[_0xe8ebea(187503,169946,384412)]=_0xea489d(240485,240467)
-_0x23542c[_0xe8ebea(389391,375431,1024601)]=_0xad790e
-local _0xc73cf0=_0xc96c19[17][_0x848d34(483271,499556,514739)](_0x848d34(873504,288196,271072))
-_0xc73cf0[_0xd44ced(356035,956949,338244)]=_0xc96c19[_0x40b209[103]-123][_0x848d34(733584,405758,423902)](_0xea489d(33442,33516),4)
-_0xc73cf0[_0xd44ced(387647,366669,369217)]=_0xc96c19[18][_0x848d34(689225,492839,508423)](90,(1138+_0xa81147(_0xfaf96b(871,1813),1)-2669))
-_0xc73cf0[_0x848d34(189571,474336,490470)]=_0xea489d(588427,588426)
-_0xc73cf0[_0xd44ced(102457,184331,121083)]=_0xc96c19[23][_0xe8ebea(501526,518929,77825)][_0x848d34(589227,239609,254175)]
-_0xc73cf0[_0xd44ced(74815,1006219,93435)]=(2782+_0xa81147(_0xfaf96b(220,2562),1)-2772)
-_0xc73cf0[_0x848d34(945454,110041,125681)]=_0x3f3f8e[_0xd44ced(428335,945141,442808)]
-_0xc73cf0[_0x848d34(137806,150880,133705)]=_0xc96c19[23][_0xe8ebea(372947,392408,44086)][_0xe8ebea(351731,332287,315321)]
-_0xc73cf0[_0xe8ebea(326150,308744,881498)]=_0x848d34(775099,261081,244890)
-_0xc73cf0[_0xe8ebea(314382,296891,249341)]=(863+_0xa81147(_0xfaf96b(580,283),1)-809)
-_0xc73cf0[_0x848d34(564873,491927,509745)]=_0xad790e
-local _0xef7d27=_0xc96c19[_0x40b209[243]+0][_0xd44ced(304391,325958,320115)](_0xe8ebea(112881,128247,901843))
-_0xef7d27[_0xd44ced(406407,902993,422912)]=_0xc96c19[_0x40b209[42]-17][_0xd44ced(438727,732235,457082)](_0xea489d(606380,606376),_0xea489d(803569,803557))
-_0xef7d27[_0x848d34(205603,249267,232274)]=_0xc96c19[_0x40b209[208]-30][_0x848d34(976454,255784,237576)](_0xea489d(_0x40b209[166],212),(885+_0xa81147(_0xfaf96b(46,859),1)-891))
-_0xef7d27[_0xd44ced(303787,124458,322056)]=_0xea489d(771213,771212)
-_0xef7d27[_0xe8ebea(509698,494341,86037)]=_0xc96c19[23][_0xe8ebea(478235,458780,121612)][_0xd44ced(106371,503381,120661)]
-_0xef7d27[_0xe8ebea(161045,145692,646282)]=10
-_0xef7d27[_0xd44ced(359485,663592,341240)]=_0x3f3f8e[_0xd44ced(285352,832789,266805)]
-_0xef7d27[_0xe8ebea(390706,375353,60119)]=_0xc96c19[23][_0xd44ced(297345,279117,311623)][_0xe8ebea(232081,247453,137435)]
-_0xef7d27[_0xd44ced(67732,874212,82013)]=_0x848d34(743695,87223,70643)
-_0xef7d27[_0xd44ced(272291,456391,290771)]=(_0x40b209[29]-33)
-_0xef7d27[_0xd44ced(237731,795487,256224)]=_0xad790e
-local _0xd44b53=_0xc96c19[17][_0xe8ebea(461437,475332,165799)](_0xe8ebea(487704,474377,251078))
-_0xd44b53[_0x848d34(629504,193332,177886)]=_0xc96c19[18][_0xe8ebea(162981,144924,520575)]((1500+_0xa81147(_0xfaf96b(979,1551),1)-2529),-_0xea489d(754057,754067),(_0x40b209[169]-224),(_0x40b209[134]-51))
-_0xd44b53[_0xe8ebea(475558,461413,189237)]=_0xc96c19[18][_0xd44ced(362423,531003,380682)]((557+_0xa81147(_0xfaf96b(225,716),1)-917),_0xea489d(840294,840318))
-_0xd44b53[_0xe8ebea(250677,235738,784317)]=_0xc96c19[_0x40b209[163]+10][_0xd44ced(271176,995699,289597)]((_0x40b209[182]-46),(_0x40b209[33]-22),(105+_0xa81147(_0xfaf96b(1457,1496),1)-2895))
-_0xd44b53[_0x848d34(230283,416744,400622)]=0.25
-_0xd44b53[_0x848d34(323412,471940,488609)]=_0xc96c19[_0x40b209[148]-140][_0x848d34(132198,121014,106387)][_0xe8ebea(239839,255191,899397)]
-_0xd44b53[_0xe8ebea(364068,377389,927675)]=_0xea489d(769877,769881)
-_0xd44b53[_0xe8ebea(272694,288060,958987)]=_0xc96c19[30][_0xe8ebea(134561,149019,839426)]((3490+_0xa81147(_0xfaf96b(3082,424),1)-3286),_0xea489d(_0x40b209[91],225),(1182+_0xa81147(_0xfaf96b(1833,951),1)-2539))
-_0xd44b53[_0xd44ced(101758,905998,116151)]=_0xe8ebea(86431,72494,362775)
-_0xd44b53[_0xd44ced(368548,478912,382932)]=(_0x40b209[64]-46)
-_0xd44b53[_0xd44ced(452725,617353,434230)]=_0xad790e
-local _0xfa5627=_0xc96c19[17][_0x848d34(350506,366985,384094)](_0xd44ced(355842,385974,337577))
-_0xfa5627[_0xd44ced(409065,613834,423237)]=_0xc96c19[16][_0xd44ced(376548,385701,391568)]((767+_0xa81147(_0xfaf96b(855,424),1)-1279),_0xea489d(1021911,1021919))
-_0xfa5627[_0xe8ebea(91604,77404,734850)]=_0xd44b53
-local _0xd3b342=_0xc96c19[17][_0xd44ced(182262,170935,163970)](_0xd44ced(380362,928296,361848))
-_0xd3b342[_0xe8ebea(179243,194527,687412)]=_0x3f3f8e[_0xe8ebea(71114,89621,611281)]
-_0xd3b342[_0x848d34(646274,512792,497137)]=(_0x40b209[184]-212)
-_0xd3b342[_0xe8ebea(66458,83986,741580)]=_0xd44b53
-local function _0x646c10()
-if _0xc96c19[13](_0x4624b2[_0xe8ebea(171615,186120,283075)])==_0x848d34(1037237,459068,476528)then
-_0xc96c19[_0x40b209[39]-145](_0x4624b2[_0xd44ced(95480,157969,78570)],_0xeb63ad,_0x92b09c)
+if _0xc92e6c then return end
+if _0xa72073[_0x2b4f7f(921384,252702,259141)]then _0xa72073[_0x3f0d21(522295,888915,518483)]()[_0x248f80(246753,244279,193779)]=_0x68fc5f end
+local _0xdbbf43=_0xcca467[29][_0x3f0d21(233804,933156,229990)](_0x2b4f7f(533655,397062,408929))
+_0xdbbf43[_0x2b4f7f(484350,468297,461507)]=_0x2b4f7f(826669,225465,213566)
+_0xdbbf43[_0x2b4f7f(269570,476090,487891)]=_0xcca467[_0xc84f9e[48]-79][_0x248f80(346385,340320,734198)](0.5,0.5)
+_0xdbbf43[_0x3f0d21(157776,644034,162669)]=_0xcca467[25][_0x3f0d21(510184,7767,515215)](0.5,0.5)
+_0xdbbf43[_0x248f80(126739,104040,695383)]=_0xcca467[_0xc84f9e[168]-166][_0x2b4f7f(338428,258390,246588)](_0xfc82ca(139290,139622),(637+_0x95b3ae(_0x6bafdb(228,665),1)-698))
+_0xdbbf43[_0x2b4f7f(361173,152828,157356)]=(687+_0x95b3ae(_0x6bafdb(956,275),1)-1230)
+_0xdbbf43[_0x3f0d21(487017,1034131,490063)]=_0xfc82ca(265443,265425)
+_0xdbbf43[_0x248f80(264541,290845,439553)]=_0xfc0484
+local _0x5a3870=_0xcca467[_0xc84f9e[220]-157][_0x2b4f7f(865117,467815,463430)](_0x248f80(465985,484761,806375))
+_0x5a3870[_0x3f0d21(131092,967738,136326)]=_0xdb55ac((2042+_0x95b3ae(_0x6bafdb(1284,766),1)-1650),220)
+_0x5a3870[_0x248f80(127969,101025,217021)]=_0xdbbf43
+local _0x34bcca=_0xcca467[_0xc84f9e[256]-163][_0x3f0d21(134773,1024541,138591)](_0x3f0d21(431940,937883,426771))
+_0x34bcca[_0x248f80(252770,238299,323279)]=_0xcca467[17][_0x248f80(103111,125622,1042464)](0.5,0.5)
+_0x34bcca[_0x248f80(298338,325094,843914)]=_0xcca467[25][_0x2b4f7f(597136,199850,212363)](0.5,_0xfc82ca(2415,2415),0.5,(_0xc84f9e[2]-97))
+_0x34bcca[_0x2b4f7f(646550,443653,456494)]=_0xcca467[25][_0x2b4f7f(747865,96611,84034)](1,_0xfc82ca(955285,955279),(751+_0x95b3ae(_0x6bafdb(238,513),1)-750),(_0xc84f9e[111]-111))
+_0x34bcca[_0x2b4f7f(24166,493647,506399)]=(_0xc84f9e[150]-215)
+_0x34bcca[_0x248f80(66579,97714,988759)]=_0x35dbd2[_0x2b4f7f(257253,368101,372211)]
+_0x34bcca[_0x248f80(509406,507004,364964)]=_0xcca467[_0xc84f9e[192]-175][_0x3f0d21(239890,141876,245065)][_0x3f0d21(370660,616091,373688)]
+_0x34bcca[_0x2b4f7f(992434,234398,238026)]=_0xe1bb69
+_0x34bcca[_0x3f0d21(117163,792531,122356)]=0.2
+_0x34bcca[_0x3f0d21(100758,598124,105904)]=_0xfc82ca(72772,72823)
+_0x34bcca[_0x248f80(513892,503332,355128)]=_0xdbbf43
+local _0x474395,_0x7e55b7=_0x45e78c(_0xdbbf43,_0x248f80(423828,396878,835721),_0x2b4f7f(917819,264466,277337),_0x616a6c[_0x2b4f7f(927103,195761,183950)],0.08,_0x616a6c[_0x248f80(111436,117464,653113)],_0xfc82ca(_0xc84f9e[94],24))
+if _0x7e55b7 then _0x7e55b7[_0x2b4f7f(311960,514107,518612)](_0x7e55b7)end
+_0x474395[_0x248f80(175894,185965,646226)]=_0xcca467[25][_0x3f0d21(504469,25642,501490)]((316+_0x95b3ae(_0x6bafdb(502,202),1)-703),_0xfc82ca(_0xc84f9e[222],10))
+_0x474395[_0x248f80(283763,273694,993818)]=(_0xc84f9e[84]-116)
+local _0x3e62f3=_0xcca467[29][_0x248f80(291631,265054,657864)](_0x3f0d21(484075,980264,489115))
+_0x3e62f3[_0x2b4f7f(741375,477247,489739)]=_0xcca467[_0xc84f9e[59]-36][_0x248f80(376244,377870,462344)]((_0xc84f9e[208]-72),_0xfc82ca(_0xc84f9e[169],35))
+_0x3e62f3[_0x2b4f7f(684264,354427,350800)]=_0xcca467[_0xc84f9e[4]+20][_0x248f80(478395,472266,603740)]((1381+_0x95b3ae(_0x6bafdb(1948,761),1)-2708),-_0xfc82ca(_0xc84f9e[57],131),_0xfc82ca(88704,88704),(_0xc84f9e[63]-118))
+_0x3e62f3[_0x3f0d21(138795,160848,133746)]=(1367+_0x95b3ae(_0x6bafdb(1029,338),1)-1366)
+_0x3e62f3[_0x248f80(152513,141996,601512)]=_0xfc82ca(_0xc84f9e[242],190)
+_0x3e62f3[_0x248f80(179238,181606,122)]=_0x474395
+local _0x7bd051=_0xcca467[29][_0x2b4f7f(998503,339037,335228)](_0x248f80(520939,494421,444426))
+_0x7bd051[_0x3f0d21(493437,802031,496704)]=_0xcca467[25][_0x3f0d21(143005,215653,146158)]((_0xc84f9e[77]-131),(1098+_0x95b3ae(_0x6bafdb(1091,9),1)-1098))
+_0x7bd051[_0x248f80(504681,510482,835629)]=_0xcca467[25][_0x248f80(449173,434991,289065)](_0xfc82ca(587479,587443),(250+_0x95b3ae(_0x6bafdb(815,981),1)-1778))
+_0x7bd051[_0x3f0d21(457845,431630,452652)]=(_0xc84f9e[92]-218)
+_0x7bd051[_0x248f80(446944,436319,983688)]=_0xcca467[_0xc84f9e[30]-158][_0x248f80(393450,424277,1037186)][_0x248f80(458048,427163,986288)]
+_0x7bd051[_0x248f80(423327,396382,787601)]=_0xfc82ca(_0xc84f9e[145],50)
+_0x7bd051[_0x248f80(313440,307618,744123)]=_0x616a6c[_0x2b4f7f(450664,240585,235905)]
+_0x7bd051[_0x248f80(162056,131275,844331)]=_0xcca467[_0xc84f9e[76]-94][_0x248f80(195461,164422,811174)][_0x248f80(241237,251793,577623)]
+_0x7bd051[_0x248f80(154412,140010,920217)]=_0x2b4f7f(666632,344254,356914)
+_0x7bd051[_0x248f80(438231,448186,905662)]=_0xfc82ca(635243,635229)
+_0x7bd051[_0x248f80(236684,255436,73936)]=_0x3e62f3
+local _0x701188=_0xcca467[29][_0x3f0d21(306177,589929,311083)](_0x3f0d21(466738,389779,461637))
+_0x701188[_0x2b4f7f(938130,153426,157286)]=_0xcca467[25][_0x2b4f7f(370190,229028,216270)]((_0xc84f9e[147]-83),_0xfc82ca(303107,303111))
+_0x701188[_0x3f0d21(523120,1007537,520004)]=_0xcca467[25][_0x2b4f7f(89324,492614,505388)](90,_0xfc82ca(440325,440330))
+_0x701188[_0x248f80(372368,382768,398261)]=_0xfc82ca(901707,901706)
+_0x701188[_0x248f80(118617,112358,531505)]=_0xcca467[18][_0x248f80(330677,356874,841949)][_0x2b4f7f(950988,321714,318146)]
+_0x701188[_0x2b4f7f(902010,252185,256872)]=_0xfc82ca(499617,499627)
+_0x701188[_0x248f80(133391,159949,891860)]=_0x616a6c[_0x2b4f7f(919672,141109,136561)]
+_0x701188[_0x2b4f7f(594474,254566,249877)]=_0xcca467[18][_0x248f80(171798,190165,787509)][_0x3f0d21(517020,1002148,522209)]
+_0x701188[_0x3f0d21(162192,917277,159215)]=_0x2b4f7f(86779,392905,379972)
+_0x701188[_0x248f80(325837,295328,1017508)]=(3558+_0x95b3ae(_0x6bafdb(2352,1238),1)-3536)
+_0x701188[_0x2b4f7f(117946,465674,469754)]=_0x3e62f3
+local _0x7e9a00=_0xcca467[29][_0x2b4f7f(767017,107539,103730)](_0x2b4f7f(421732,212631,199929))
+_0x7e9a00[_0x3f0d21(472974,822300,468147)]=_0xcca467[_0xc84f9e[20]+8][_0x248f80(259316,232782,83784)](4,_0xfc82ca(574121,574141))
+_0x7e9a00[_0x2b4f7f(642839,448388,452015)]=_0xcca467[25][_0x3f0d21(424946,466698,421761)](220,(470+_0x95b3ae(_0x6bafdb(148,322),1)-456))
+_0x7e9a00[_0x2b4f7f(242424,287953,284289)]=_0xfc82ca(_0xc84f9e[62],214)
+_0x7e9a00[_0x2b4f7f(713064,481555,486268)]=_0xcca467[_0xc84f9e[76]-94][_0x2b4f7f(526056,376467,363772)][_0x2b4f7f(962543,313053,324702)]
+_0x7e9a00[_0x3f0d21(481235,979426,476073)]=(2143+_0x95b3ae(_0x6bafdb(2268,131),1)-2389)
+_0x7e9a00[_0x2b4f7f(1029496,281805,294591)]=_0x616a6c[_0x2b4f7f(785817,471919,459045)]
+_0x7e9a00[_0x3f0d21(75441,813743,78541)]=_0xcca467[18][_0x248f80(366071,388148,724692)][_0x2b4f7f(566704,504026,492206)]
+_0x7e9a00[_0x248f80(235371,257709,1033950)]=_0x248f80(427619,458685,267777)
+_0x7e9a00[_0x248f80(400965,419624,876588)]=_0xfc82ca(421789,421803)
+_0x7e9a00[_0x2b4f7f(125118,474894,462590)]=_0x3e62f3
+local _0x068d71=_0xcca467[29][_0x3f0d21(296094,600310,300980)](_0x3f0d21(379255,366934,384501))
+_0x068d71[_0x2b4f7f(729381,468709,464849)]=_0xcca467[_0xc84f9e[117]-169][_0x3f0d21(352871,577039,356685)]((_0xc84f9e[147]-160),-(2250+_0x95b3ae(_0x6bafdb(85,2207),1)-2266),_0xfc82ca(791918,791918),_0xfc82ca(_0xc84f9e[253],81))
+_0x068d71[_0x3f0d21(96687,646510,93595)]=_0xcca467[25][_0x3f0d21(229161,138193,224090)](24,(770+_0x95b3ae(_0x6bafdb(137,907),1)-1020))
+_0x068d71[_0x2b4f7f(735863,143970,131125)]=_0xcca467[12][_0x248f80(404689,415139,673793)]((_0xc84f9e[137]+35),(_0xc84f9e[88]-24),58)
+_0x068d71[_0x248f80(232273,258801,13940)]=0.25
+_0x068d71[_0x248f80(75996,86371,588724)]=_0xcca467[_0xc84f9e[226]-127][_0x3f0d21(445285,839500,450333)][_0x3f0d21(93196,834080,96373)]
+_0x068d71[_0x2b4f7f(915738,254841,250120)]=(435+_0x95b3ae(_0x6bafdb(482,81),1)-551)
+_0x068d71[_0x248f80(454007,431285,622508)]=_0xcca467[_0xc84f9e[164]-61][_0x3f0d21(85991,982203,89036)]((_0xc84f9e[254]+145),(_0xc84f9e[115]+196),245)
+_0x068d71[_0x248f80(392639,361593,633866)]=_0x3f0d21(434530,135412,438848)
+_0x068d71[_0x3f0d21(497545,999027,492463)]=_0xfc82ca(300071,300063)
+_0x068d71[_0x248f80(123204,104452,220440)]=_0x3e62f3
+local _0x21adc7=_0xcca467[_0xc84f9e[55]-65][_0x2b4f7f(823385,426083,438594)](_0x3f0d21(463965,515502,458812))
+_0x21adc7[_0x2b4f7f(1041631,401376,404921)]=_0xcca467[31][_0x2b4f7f(972424,313010,325523)](_0xfc82ca(755109,755109),_0xfc82ca(728237,728229))
+_0x21adc7[_0x248f80(285061,270533,452057)]=_0x068d71
+local _0x226c35=_0xcca467[29][_0x3f0d21(128918,809982,124092)](_0x3f0d21(330270,523893,335478))
+_0x226c35[_0x248f80(133683,160671,406941)]=_0x616a6c[_0x2b4f7f(704080,313940,325651)]
+_0x226c35[_0x248f80(127500,101263,160899)]=1
+_0x226c35[_0x2b4f7f(87751,491895,503943)]=_0x068d71
+local function _0xf62d6f()
+if _0xcca467[2](_0xa72073[_0x248f80(108876,122792,403002)])==_0x3f0d21(414604,319340,410360)then
+_0xcca467[_0xc84f9e[50]-61](_0xa72073[_0x248f80(239156,250064,272706)],_0xc32bb7,_0x68fc5f)
 end
-if _0xfc6273 and _0xfc6273[_0x848d34(540303,467345,485175)]then
-_0xfc6273[_0xe8ebea(204234,218701,151160)](_0xfc6273)
+if _0xdbbf43 and _0xdbbf43[_0x3f0d21(180476,240414,185093)]then
+_0xdbbf43[_0x2b4f7f(268071,462212,474219)](_0xdbbf43)
 end
 end
-_0xd44b53[_0x848d34(84941,336746,353327)]:Connect(_0x646c10)
-local _0x966c48=_0xc96c19[_0x40b209[84]-153][_0x848d34(426239,409692,394635)](_0x848d34(227294,80760,97381))
-_0x966c48[_0xd44ced(372165,940307,387650)]=_0xc96c19[_0x40b209[17]-219][_0xe8ebea(490801,471347,997277)]((1655+_0xa81147(_0xfaf96b(1309,874),1)-2171),_0xea489d(35512,35468))
-_0x966c48[_0x848d34(445339,402699,418794)]=_0xc96c19[18][_0xd44ced(518324,505077,503744)](_0xea489d(576907,576906),-(_0x40b209[26]-44),_0xea489d(_0x40b209[106],34),92)
-_0x966c48[_0xd44ced(491346,690967,473080)]=_0xc96c19[30][_0xd44ced(297159,1022716,311474)]((_0x40b209[55]-6),(_0x40b209[84]-154),_0xea489d(872642,872674))
-_0x966c48[_0xe8ebea(192824,178896,157043)]=0.35
-_0x966c48[_0xe8ebea(268444,283433,203119)]=_0xea489d(1002707,1002726)
-_0x966c48[_0xe8ebea(177229,196549,583451)]=_0x63957b
-local _0x94d105=_0xc96c19[_0x40b209[164]-26][_0xd44ced(286047,262430,268843)](_0xe8ebea(443543,429927,236017))
-_0x94d105[_0xd44ced(359210,662281,340870)]=_0xc96c19[16][_0x848d34(476268,492751,508184)](_0xea489d(815832,815832),(_0x40b209[198]-19))
-_0x94d105[_0xe8ebea(118471,99663,761233)]=_0x966c48
-local _0x3d0cca=_0xc96c19[_0x40b209[159]-212][_0x848d34(414254,430733,448346)](_0x848d34(600225,152481,136372))
-_0x3d0cca[_0xd44ced(430028,761349,444259)]=_0xc96c19[30][_0xe8ebea(292069,278367,702022)]((710+_0xa81147(_0xfaf96b(1589,1267),1)-2796),_0xea489d(873617,873633),_0xea489d(552534,552458))
-_0x3d0cca[_0xd44ced(327595,683219,309037)]=(977+_0xa81147(_0xfaf96b(196,789),1)-984)
-_0x3d0cca[_0xd44ced(397651,627375,416016)]=_0x966c48
-local _0xefadb7=_0xc96c19[_0x40b209[200]-114][_0xd44ced(212425,221576,228029)](_0xd44ced(438655,990329,457150))
-_0xefadb7[_0xe8ebea(450268,431120,588772)]=_0xc96c19[18][_0x848d34(1008023,155897,141273)]((3648+_0xa81147(_0xfaf96b(3774,254),1)-4016),_0xea489d(204491,204487))
-_0xefadb7[_0xe8ebea(205499,223608,426024)]=_0xc96c19[18][_0x848d34(260521,211210,228573)](_0xea489d(_0x40b209[57],43),-(3129+_0xa81147(_0xfaf96b(191,3206),1)-3373),_0xea489d(_0x40b209[193],224),-(2227+_0xa81147(_0xfaf96b(29,2222),1)-2227))
-_0xefadb7[_0xd44ced(143543,488502,161812)]=_0xea489d(_0x40b209[95],55)
-_0xefadb7[_0xe8ebea(407422,424825,41065)]=_0xc96c19[_0x40b209[132]-104][_0xe8ebea(220736,201287,379223)][_0xe8ebea(248116,230703,12251)]
-_0xefadb7[_0xe8ebea(439754,457155,859221)]=(1969+_0xa81147(_0xfaf96b(602,1515),1)-2105)
-_0xefadb7[_0x848d34(687322,375853,391941)]=_0xc96c19[_0x40b209[112]-113][_0x848d34(675473,114760,99984)]((1126+_0xa81147(_0xfaf96b(612,1538),1)-1910),_0xea489d(510765,510918),(_0x40b209[225]+176))
-_0xefadb7[_0x848d34(338918,359624,343009)]=_0xc96c19[_0x40b209[192]-124][_0xd44ced(357072,375068,342550)][_0xe8ebea(171429,184745,200687)]
-_0xefadb7[_0xd44ced(82018,242864,67713)]=_0xc96c19[_0x40b209[82]-73][_0xd44ced(179718,19156,194277)][_0xd44ced(81415,44446,95971)]
-_0xefadb7[_0x848d34(813183,212957,227477)]=true
-_0xefadb7[_0x848d34(1038430,87554,69963)]=1.35
-_0xefadb7[_0x848d34(248799,99929,114826)]=_0xea489d(512071,512113)
-_0xefadb7[_0xe8ebea(382388,367034,810216)]=_0xd44ced(402488,157786,421087)
-_0xefadb7[_0xd44ced(118433,937309,100066)]=_0x966c48
-local _0x6dbe80=_0xc96c19[_0x40b209[135]-60][_0x848d34(98540,81999,66968)](_0xe8ebea(376999,363702,91513))
-_0x6dbe80[_0x848d34(1045429,301953,319083)]=_0xc96c19[18][_0x848d34(310694,294149,276690)](0.5,-_0xea489d(_0x40b209[139],164),1,-_0xea489d(831823,831849))
-_0x6dbe80[_0x848d34(317277,276941,294700)]=_0xc96c19[18][_0x848d34(680798,483888,468240)](_0xea489d(265595,265475),(2320+_0xa81147(_0xfaf96b(2518,198),1)-2690))
-_0x6dbe80[_0xe8ebea(425845,406682,941053)]=_0xc96c19[30][_0x848d34(664408,109953,125785)]((3822+_0xa81147(_0xfaf96b(2051,1773),1)-3776),38,(1209+_0xa81147(_0xfaf96b(32,1177),1)-1133))
-_0x6dbe80[_0xd44ced(165149,116015,183775)]=_0xc96c19[_0x40b209[215]-94][_0xe8ebea(478465,459014,121366)][_0x848d34(975750,375252,392946)]
-_0x6dbe80[_0xd44ced(146340,804112,160608)]=(2790+_0xa81147(_0xfaf96b(926,2424),1)-3339)
-_0x6dbe80[_0xe8ebea(279613,264247,970496)]=_0x3f3f8e[_0xd44ced(376260,876318,390483)]
-_0x6dbe80[_0x848d34(771196,460526,475586)]=_0xd44ced(313016,299378,298576)
-_0x6dbe80[_0xd44ced(133500,55320,147724)]=(60+_0xa81147(_0xfaf96b(645,697),1)-1287)
-_0x6dbe80[_0xd44ced(408985,638565,423386)]=_0x63957b
-local _0x4a92a4=_0xc96c19[_0x40b209[9]-16][_0xe8ebea(451223,436270,225101)](_0x848d34(288259,292693,274523))
-_0x4a92a4[_0xd44ced(145880,875003,160116)]=_0xc96c19[16][_0xe8ebea(263092,280845,101998)](_0xea489d(304682,304682),(483+_0xa81147(_0xfaf96b(818,721),1)-1531))
-_0x4a92a4[_0xe8ebea(70999,89823,738817)]=_0x6dbe80
-local _0x050f94=_0xc96c19[17][_0xd44ced(455352,438009,439756)](_0xd44ced(451447,853141,437189))
-_0x050f94[_0x848d34(700684,474151,490293)]=_0x3f3f8e[_0xd44ced(397027,977977,411252)]
-_0x050f94[_0x848d34(722935,329837,347780)]=(1253+_0xa81147(_0xfaf96b(1398,403),1)-1800)
-_0x050f94[_0x848d34(458604,200285,215226)]=0.4
-_0x050f94[_0x848d34(800170,207540,224274)]=_0x6dbe80
-_0x6dbe80[_0x848d34(450595,166020,184257)]:Connect(_0x646c10)
+_0x068d71[_0x3f0d21(212661,905108,207405)]:Connect(_0xf62d6f)
+local _0x958da0=_0xcca467[29][_0x248f80(154322,139939,794677)](_0x248f80(421853,398954,798551))
+_0x958da0[_0x248f80(178761,180941,710561)]=_0xcca467[25][_0x248f80(226357,200079,116617)]((2818+_0x95b3ae(_0x6bafdb(658,2448),1)-3094),_0xfc82ca(693837,693881))
+_0x958da0[_0x2b4f7f(577553,510082,522921)]=_0xcca467[_0xc84f9e[26]-30][_0x2b4f7f(872275,483177,486984)]((_0xc84f9e[156]-142),-24,(6+_0x95b3ae(_0x6bafdb(847,841),1)-1688),_0xfc82ca(607588,607544))
+_0x958da0[_0x3f0d21(242135,853392,239031)]=_0xcca467[_0xc84f9e[113]+10][_0x2b4f7f(989604,464554,468104)]((1578+_0x95b3ae(_0x6bafdb(1881,371),1)-2232),(429+_0x95b3ae(_0x6bafdb(136,293),1)-413),32)
+_0x958da0[_0x3f0d21(408823,415372,403630)]=0.35
+_0x958da0[_0x2b4f7f(854302,138422,143019)]=(2248+_0x95b3ae(_0x6bafdb(2274,42),1)-2263)
+_0x958da0[_0x2b4f7f(59319,405511,393719)]=_0x474395
+local _0x812e86=_0xcca467[29][_0x3f0d21(475735,716351,479613)](_0x3f0d21(364421,345718,367588))
+_0x812e86[_0x3f0d21(257396,895513,260374)]=_0xcca467[31][_0x3f0d21(393284,764972,398190)]((_0xc84f9e[166]-38),12)
+_0x812e86[_0x3f0d21(340926,284764,335943)]=_0x958da0
+local _0x3c0702=_0xcca467[_0xc84f9e[89]-102][_0x248f80(326540,295933,688491)](_0x248f80(462290,488573,405224))
+_0x3c0702[_0x3f0d21(319431,210747,314274)]=_0xcca467[_0xc84f9e[4]+7][_0x2b4f7f(886451,362941,375711)]((580+_0x95b3ae(_0x6bafdb(144,724),1)-808),_0xfc82ca(4236,4284),(940+_0x95b3ae(_0x6bafdb(549,393),1)-850))
+_0x3c0702[_0x3f0d21(254493,242671,259617)]=_0xfc82ca(_0xc84f9e[141],81)
+_0x3c0702[_0x248f80(390711,364407,477803)]=_0x958da0
+local _0xa1d885=_0xcca467[29][_0x2b4f7f(810275,412953,425016)](_0x2b4f7f(297285,121014,125656))
+_0xa1d885[_0x2b4f7f(889755,103515,107887)]=_0xcca467[25][_0x3f0d21(384289,309721,379218)]((_0xc84f9e[100]-160),_0xfc82ca(286203,286199))
+_0xa1d885[_0x2b4f7f(695650,361969,374746)]=_0xcca467[25][_0x248f80(190665,168120,823854)]((220+_0x95b3ae(_0x6bafdb(561,749),1)-1309),-_0xfc82ca(904398,904406),(_0xc84f9e[78]-80),-(2358+_0x95b3ae(_0x6bafdb(2751,905),1)-3632))
+_0xa1d885[_0x248f80(150205,144157,128920)]=_0xfc82ca(667306,667307)
+_0xa1d885[_0x2b4f7f(572356,328639,340432)]=_0xcca467[_0xc84f9e[87]-71][_0x2b4f7f(664181,498190,501857)][_0x248f80(420976,398755,552509)]
+_0xa1d885[_0x3f0d21(358858,843771,355760)]=(_0xc84f9e[13]-138)
+_0xa1d885[_0x2b4f7f(589837,195000,183242)]=_0xcca467[12][_0x3f0d21(143116,891984,146215)]((3990+_0x95b3ae(_0x6bafdb(1101,3035),1)-3896),_0xfc82ca(957804,957831),_0xfc82ca(_0xc84f9e[61],5))
+_0xa1d885[_0x2b4f7f(624850,227486,215789)]=_0xcca467[18][_0x2b4f7f(611578,238774,235205)][_0x2b4f7f(602507,402657,398997)]
+_0xa1d885[_0x3f0d21(452298,278861,455251)]=_0xcca467[18][_0x2b4f7f(204771,394294,407206)][_0x3f0d21(400189,132036,397223)]
+_0xa1d885[_0x3f0d21(180956,160693,185927)]=true
+_0xa1d885[_0x248f80(444575,438652,170309)]=1.35
+_0xa1d885[_0x2b4f7f(978406,129102,117331)]=_0xfc82ca(507754,507740)
+_0xa1d885[_0x248f80(342163,344405,616742)]=_0x248f80(199684,226784,150251)
+_0xa1d885[_0x3f0d21(70081,31267,66104)]=_0x958da0
+local _0xf81325=_0xcca467[29][_0x248f80(331681,358352,750918)](_0x2b4f7f(229906,290401,285720))
+_0xf81325[_0x248f80(72840,91148,618848)]=_0xcca467[_0xc84f9e[22]-98][_0x248f80(134028,160765,815467)](0.5,-60,(2142+_0x95b3ae(_0x6bafdb(59,2149),1)-2207),-_0xfc82ca(641002,640972))
+_0xf81325[_0x3f0d21(101815,600438,104835)]=_0xcca467[_0xc84f9e[162]-180][_0x248f80(260249,229667,84773)]((1068+_0x95b3ae(_0x6bafdb(1037,33),1)-950),_0xfc82ca(285789,285767))
+_0xf81325[_0x3f0d21(490002,642645,487026)]=_0xcca467[_0xc84f9e[199]-105][_0x2b4f7f(694841,169271,173845)]((_0xc84f9e[225]-194),(1223+_0x95b3ae(_0x6bafdb(1420,331),1)-1713),(1119+_0x95b3ae(_0x6bafdb(1223,152),1)-1299))
+_0xf81325[_0x248f80(241035,250932,687843)]=_0xcca467[_0xc84f9e[8]-52][_0x248f80(446149,440186,990637)][_0x248f80(177600,183296,832722)]
+_0xf81325[_0x248f80(468779,483050,874021)]=(1750+_0x95b3ae(_0x6bafdb(539,1229),1)-1757)
+_0xf81325[_0x248f80(277364,279222,764335)]=_0x616a6c[_0x3f0d21(345822,972225,348819)]
+_0xf81325[_0x248f80(93086,70232,866859)]=_0x3f0d21(198498,322356,201724)
+_0xf81325[_0x3f0d21(334769,897611,331671)]=_0xfc82ca(471252,471267)
+_0xf81325[_0x248f80(152341,141909,61257)]=_0x474395
+local _0x2baa0b=_0xcca467[_0xc84f9e[178]-188][_0x3f0d21(511464,680320,515778)](_0x248f80(465333,483357,263952))
+_0x2baa0b[_0x2b4f7f(809837,368722,365067)]=_0xcca467[_0xc84f9e[182]-127][_0x2b4f7f(895789,506647,494134)](_0xfc82ca(_0xc84f9e[114],108),8)
+_0x2baa0b[_0x248f80(231159,262071,80555)]=_0xf81325
+local _0x1c2a71=_0xcca467[29][_0x2b4f7f(772367,121141,124948)](_0x248f80(332092,354451,274950))
+_0x1c2a71[_0x248f80(202003,224447,469693)]=_0x616a6c[_0x248f80(463680,486100,1005365)]
+_0x1c2a71[_0x248f80(128500,101495,160635)]=_0xfc82ca(890332,890333)
+_0x1c2a71[_0x248f80(158199,135286,232951)]=0.4
+_0x1c2a71[_0x3f0d21(387160,295866,392097)]=_0xf81325
+_0xf81325[_0x2b4f7f(672995,199056,211743)]:Connect(_0xf62d6f)
 end
-if _0x3ab0bd[_0xd44ced(68292,520001,85788)]then
-local _0xbc9d6a=(_0x4624b2[_0xd44ced(229706,886048,246931)]and _0xc96c19[_0x40b209[75]-199](_0x4624b2[_0xe8ebea(463333,481531,837555)]()[_0xd44ced(318978,5659,300779)])==_0xe8ebea(173310,191523,232468)and _0x4624b2[_0x848d34(713020,293300,277896)]()[_0x848d34(387938,114585,129237)])
-or(_0x4624b2[_0xe8ebea(133734,148344,646192)]and _0xc96c19[13](_0x4624b2[_0x848d34(1013342,126678,109290)]()[_0x848d34(350908,509147,492438)])==_0xd44ced(235044,486705,250812)and _0x4624b2[_0xd44ced(274718,669044,292039)]()[_0xe8ebea(479373,466082,34053)])
+if _0xccbb17[_0x3f0d21(485728,754208,489475)]then
+local _0x1a864f=(_0xa72073[_0x3f0d21(259479,630259,255219)]and _0xcca467[2](_0xa72073[_0x2b4f7f(936891,237453,241878)]()[_0x3f0d21(339685,531058,342650)])==_0x2b4f7f(48323,274679,270316)and _0xa72073[_0x248f80(147753,145282,782616)]()[_0x248f80(411128,408606,566903)])
+or(_0xa72073[_0x3f0d21(430461,850201,426009)]and _0xcca467[_0xc84f9e[83]-177](_0xa72073[_0x248f80(304670,315573,857647)]()[_0x248f80(217910,207569,26583)])==_0x3f0d21(471014,270208,474818)and _0xa72073[_0x2b4f7f(674843,497709,505718)]()[_0x2b4f7f(269876,213406,226057)])
 or nil
-if not _0xbc9d6a and _0xc96c19[_0x40b209[170]-175](_0x4624b2[_0xd44ced(424261,894589,409418)])==_0xd44ced(278982,790445,263215)and _0xc96c19[13](_0x4624b2[_0xd44ced(112809,19356,130745)])==_0xd44ced(429379,967464,444586)then
-local _0x424f83,_0x80ecbb=_0xc96c19[27](function()
-if _0x4624b2[_0xe8ebea(455151,440507,588961)](_0x3ab0bd[_0x848d34(18919,150760,133334)])then
-return _0x4624b2[_0x848d34(326696,365567,382860)](_0x3ab0bd[_0x848d34(378186,507973,492667)])
+if not _0x1a864f and _0xcca467[2](_0xa72073[_0x3f0d21(193998,740399,189524)])==_0x3f0d21(254354,93554,258278)and _0xcca467[_0xc84f9e[248]-252](_0xa72073[_0x2b4f7f(620647,502632,492794)])==_0x248f80(66330,95649,22463)then
+local _0xd29fd5,_0x48f548=_0xcca467[_0xc84f9e[249]-3](function()
+if _0xa72073[_0x248f80(249345,243936,634879)](_0xccbb17[_0x248f80(284451,270734,648966)])then
+return _0xa72073[_0x2b4f7f(605637,519882,508248)](_0xccbb17[_0x248f80(494469,523560,670624)])
 end
 return nil
 end)
-if _0x424f83 and _0x80ecbb then _0xbc9d6a=_0x80ecbb end
+if _0xd29fd5 and _0x48f548 then _0x1a864f=_0x48f548 end
 end
-if not(_0xbc9d6a and _0xbc85b0(_0xbc9d6a,true))then
-_0x2a3d2d[_0xe8ebea(348517,334547,2588)]=false
-_0xde35d4[_0xd44ced(220944,251133,202593)]=false
-_0x110ff6[_0x848d34(4527,420040,404723)]=true
-_0x110ff6[_0xe8ebea(68891,83672,307080)]=_0xea489d(627465,627459)
-if _0xa62240 then
-_0xa62240[_0xe8ebea(124992,107328,586457)]=true
-if _0xa62240[_0xd44ced(288747,447485,274176)]then _0xc96c19[27](_0xa62240[_0xd44ced(493348,340786,511951)],true)end
+if not(_0x1a864f and _0x22f375(_0x1a864f,true))then
+_0xb5668d[_0x2b4f7f(621847,304062,299424)]=false
+_0x8862e6[_0x3f0d21(498292,915599,495187)]=false
+_0xcb0aad[_0x3f0d21(192366,918574,196109)]=true
+_0xcb0aad[_0x2b4f7f(930733,76606,71957)]=(996+_0x95b3ae(_0x6bafdb(193,805),1)-988)
+if _0xba873b then
+_0xba873b[_0x248f80(404760,415136,843174)]=true
+if _0xba873b[_0x3f0d21(216034,771889,220995)]then _0xcca467[16](_0xba873b[_0x3f0d21(316270,810941,313295)],true)end
 end
-_0x1ceeaf[_0xd44ced(281675,477510,263335)]=_0xc96c19[23][_0xe8ebea(253237,233732,331563)][_0xe8ebea(376464,390490,242948)]
-_0x1ceeaf[_0x848d34(650988,203832,220008)]=true
-local _0x866c59=false
-local _0xb74d08=_0xc96c19[_0x40b209[167]-237][_0x848d34(143742,192989,177162)](_0xe8ebea(219086,203825,284503))
-_0xb74d08[_0xd44ced(203420,815418,220308)]=_0x848d34(936949,495617,513872)
-_0xb74d08[_0x848d34(86512,280857,265734)]=_0xc96c19[_0x40b209[27]-133][_0xd44ced(424874,403435,408798)](0.5,0.5)
-_0xb74d08[_0xd44ced(355363,956661,338852)]=_0xc96c19[_0x40b209[84]-152][_0xe8ebea(213771,198909,321822)](0.5,0.5)
-_0xb74d08[_0xe8ebea(367602,380977,14689)]=_0xc96c19[18][_0xd44ced(522196,682584,507753)](_0xea489d(825444,825622),(3156+_0xa81147(_0xfaf96b(1388,2360),1)-3538))
-_0xb74d08[_0xe8ebea(142789,157229,178574)]=(_0x40b209[252]-203)
-_0xb74d08[_0x848d34(944288,96190,78104)]=_0x0aa327
-local _0xfea197=_0xc96c19[_0x40b209[118]+15][_0xe8ebea(213409,199448,445563)](_0x848d34(13156,141732,159386))
-_0xfea197[_0x848d34(842629,473936,490607)]=_0x46c73d(390,230)
-_0xfea197[_0xd44ced(147423,900131,161692)]=_0xb74d08
-local _0x631f60=_0xc96c19[17][_0xe8ebea(395664,410409,230474)](_0x848d34(709635,279549,263417))
-_0x631f60[_0xd44ced(189494,483389,175242)]=_0xc96c19[_0x40b209[7]-174][_0xe8ebea(389883,374850,32545)](0.5,0.5)
-_0x631f60[_0xe8ebea(101869,116513,1026261)]=_0xc96c19[18][_0xe8ebea(417217,399224,249883)](0.5,_0xea489d(506351,506351),0.5,(_0x40b209[70]-149))
-_0x631f60[_0xe8ebea(236785,251698,409186)]=_0xc96c19[_0x40b209[56]-75][_0x848d34(400522,449577,432638)](_0xea489d(_0x40b209[256],182),_0xea489d(_0x40b209[134],41),(487+_0xa81147(_0xfaf96b(137,366),1)-502),(_0x40b209[90]-121))
-_0x631f60[_0x848d34(114068,288247,271089)]=_0xea489d(694272,694273)
-_0x631f60[_0xd44ced(452939,180547,434671)]=_0x830e93[_0xd44ced(493724,105087,511739)]
-_0x631f60[_0xe8ebea(162669,143495,717001)]=_0xc96c19[23][_0x848d34(738961,426271,443927)][_0x848d34(806724,82544,66937)]
-_0x631f60[_0x848d34(46604,221167,202981)]=_0x1658cb
-_0x631f60[_0xd44ced(187828,263980,169245)]=0.18
-_0x631f60[_0xe8ebea(368354,382292,50587)]=_0xa12106
-_0x631f60[_0xe8ebea(211167,226154,276780)]=(3134+_0xa81147(_0xfaf96b(2468,1434),1)-3892)
-_0x631f60[_0xe8ebea(199562,212994,612572)]=_0xb74d08
-local _0x30b083,_0x514d7f=_0x6f36f0(_0xb74d08,_0xd44ced(481349,541897,463018),_0xe8ebea(267238,284677,601605),_0x3f3f8e[_0x848d34(565549,261916,244201)],0.08,_0x3f3f8e[_0xe8ebea(262715,281063,602143)],(1077+_0xa81147(_0xfaf96b(1090,119),1)-1208))
-if _0x514d7f then _0x514d7f[_0xe8ebea(376812,390251,322654)](_0x514d7f)end
-_0x30b083[_0x848d34(282659,310963,325714)]=_0xc96c19[18][_0xe8ebea(463012,482130,47793)]((_0x40b209[134]-52),_0xea489d(_0x40b209[248],197))
-_0x30b083[_0xd44ced(196815,119211,215231)]=11
-local _0x73ef62,_0xc8f516=_0x6f36f0(_0x30b083,_0xe8ebea(277347,292694,866936),_0x848d34(60254,253736,235562),_0x3f3f8e[_0x848d34(887805,515719,497777)],0.20,_0x3f3f8e[_0x848d34(789882,103299,120191)],_0xea489d(888095,888094))
-if _0xc8f516 then _0xc8f516[_0x848d34(333358,68059,85886)](_0xc8f516)end
-_0x73ef62[_0x848d34(599236,150768,133402)]=_0xc96c19[18][_0xe8ebea(409896,396586,920452)](_0xea489d(971671,971677),(12+_0xa81147(_0xfaf96b(1492,1496),1)-2978))
-_0x73ef62[_0xe8ebea(171216,186131,474691)]=_0xc96c19[_0x40b209[235]-51][_0xd44ced(214090,202763,197438)](1,-_0xea489d(128109,128121),(723+_0xa81147(_0xfaf96b(204,543),1)-747),(1689+_0xa81147(_0xfaf96b(617,1264),1)-1833))
-_0x73ef62[_0x848d34(490066,341972,356615)]=_0xea489d(196174,196162)
-local _0x4d5c05,_0xa6a625,_0x521451=false,nil,nil
-_0x73ef62[_0xe8ebea(121513,104095,672418)]:Connect(function(_0xe57301)
-if _0xe57301[_0x848d34(292432,193809,176708)]==_0xc96c19[_0x40b209[30]-27][_0xd44ced(388497,258610,370019)][_0x848d34(461080,114798,100152)]or _0xe57301[_0x848d34(57203,416818,400231)]==_0xc96c19[23][_0xe8ebea(454869,441570,342115)][_0x848d34(111456,180487,165456)]then
-_0x4d5c05=true
-_0xa6a625=_0xe57301[_0xe8ebea(216388,198536,878716)]
-_0x521451=_0xb74d08[_0xd44ced(332222,976232,349753)]
+_0xdbf3be[_0x2b4f7f(84692,423585,410680)]=_0xcca467[18][_0x2b4f7f(441814,98723,111418)][_0x3f0d21(475646,243137,480709)]
+_0xdbf3be[_0x2b4f7f(803324,158673,153931)]=true
+local _0x5487c1=false
+local _0x34d9fa=_0xcca467[_0xc84f9e[43]+25][_0x248f80(88588,74365,991467)](_0x2b4f7f(761933,363484,375227))
+_0x34d9fa[_0x2b4f7f(171769,186446,194500)]=_0x248f80(279101,277462,535022)
+_0x34d9fa[_0x3f0d21(115576,336274,120586)]=_0xcca467[_0xc84f9e[31]-9][_0x248f80(363060,389701,782547)](0.5,0.5)
+_0x34d9fa[_0x3f0d21(172300,596638,176689)]=_0xcca467[25][_0x248f80(344425,342215,82054)](0.5,0.5)
+_0x34d9fa[_0x248f80(444962,439129,899430)]=_0xcca467[_0xc84f9e[93]-137][_0x3f0d21(448633,507009,445450)](_0xfc82ca(878358,878180),(2802+_0x95b3ae(_0x6bafdb(642,2160),1)-2592))
+_0x34d9fa[_0x248f80(347016,340520,456365)]=(4015+_0x95b3ae(_0x6bafdb(3467,548),1)-4014)
+_0x34d9fa[_0x248f80(418535,400295,319163)]=_0xfc0484
+local _0x1b9a20=_0xcca467[29][_0x2b4f7f(899470,502196,497813)](_0x3f0d21(372157,863037,375084))
+_0x1b9a20[_0x2b4f7f(557090,260190,248535)]=_0xdb55ac(_0xfc82ca(656881,656503),(3617+_0x95b3ae(_0x6bafdb(2845,1340),1)-3955))
+_0x1b9a20[_0x2b4f7f(362026,217498,221290)]=_0x34d9fa
+local _0xb9815b=_0xcca467[29][_0x2b4f7f(919332,268062,271935)](_0x248f80(214178,212284,543517))
+_0xb9815b[_0x248f80(295087,325910,242946)]=_0xcca467[17][_0x248f80(384512,370289,763111)](0.5,0.5)
+_0xb9815b[_0x3f0d21(235262,535916,230851)]=_0xcca467[25][_0x248f80(120729,110568,1027454)](0.5,_0xfc82ca(_0xc84f9e[104],134),0.5,_0xfc82ca(313267,313269))
+_0xb9815b[_0x3f0d21(274803,824754,271687)]=_0xcca467[_0xc84f9e[200]+4][_0x3f0d21(318835,618779,314969)]((3476+_0x95b3ae(_0x6bafdb(2225,1317),1)-3541),_0xfc82ca(720379,720359),(_0xc84f9e[59]-60),(_0xc84f9e[110]-170))
+_0xb9815b[_0x248f80(444292,441892,359073)]=(3512+_0x95b3ae(_0x6bafdb(2142,1510),1)-3651)
+_0xb9815b[_0x2b4f7f(572951,182110,193807)]=_0x35dbd2[_0x2b4f7f(490038,68406,80672)]
+_0xb9815b[_0x2b4f7f(383579,255279,251773)]=_0xcca467[18][_0x2b4f7f(299149,176121,171435)][_0x2b4f7f(611001,143252,138695)]
+_0xb9815b[_0x3f0d21(415571,875565,410382)]=_0xe1bb69
+_0xb9815b[_0x248f80(227274,200300,884458)]=0.18
+_0xb9815b[_0x3f0d21(97792,728315,92711)]=_0x2092e9
+_0xb9815b[_0x2b4f7f(805067,220515,225150)]=(_0xc84f9e[229]-160)
+_0xb9815b[_0x3f0d21(229185,136355,224440)]=_0x34d9fa
+local _0xbb7e8c,_0x3bd98b=_0x45e78c(_0x34d9fa,_0x3f0d21(153257,1030454,147980),_0x248f80(89207,75244,999273),_0x616a6c[_0x3f0d21(443921,893837,447065)],0.08,_0x616a6c[_0x2b4f7f(998113,202156,206824)],_0xfc82ca(30308,30309))
+if _0x3bd98b then _0x3bd98b[_0x2b4f7f(136187,67928,80055)](_0x3bd98b)end
+_0xbb7e8c[_0x2b4f7f(836179,252608,256235)]=_0xcca467[25][_0x248f80(301421,319683,39042)]((1148+_0x95b3ae(_0x6bafdb(136,1268),1)-1403),(932+_0x95b3ae(_0x6bafdb(1571,1415),1)-2985))
+_0xbb7e8c[_0x2b4f7f(824437,229853,242624)]=(2075+_0x95b3ae(_0x6bafdb(2266,193),1)-2448)
+local _0x3e5e3f,_0x3847af=_0x45e78c(_0xbb7e8c,_0x3f0d21(144591,810779,139369),_0x248f80(447720,437620,969412),_0x616a6c[_0x248f80(227824,196704,49199)],0.20,_0x616a6c[_0x2b4f7f(971498,468968,464302)],_0xfc82ca(1029321,1029320))
+if _0x3847af then _0x3847af[_0x2b4f7f(390280,454187,450500)](_0x3847af)end
+_0x3e5e3f[_0x3f0d21(349199,978845,345906)]=_0xcca467[_0xc84f9e[56]-204][_0x3f0d21(482165,409485,478982)](_0xfc82ca(521659,521649),(2424+_0x95b3ae(_0x6bafdb(691,3019),1)-3700))
+_0x3e5e3f[_0x2b4f7f(651495,452724,449119)]=_0xcca467[_0xc84f9e[222]+14][_0x2b4f7f(877651,488553,476488)]((2894+_0x95b3ae(_0x6bafdb(2442,708),1)-3149),-(213+_0x95b3ae(_0x6bafdb(1085,1256),1)-2321),(1012+_0x95b3ae(_0x6bafdb(591,443),1)-1034),_0xfc82ca(398973,398925))
+_0x3e5e3f[_0x248f80(441015,443354,902366)]=_0xfc82ca(_0xc84f9e[10],53)
+local _0x353676,_0xbe8a68,_0x676213=false,nil,nil
+_0x3e5e3f[_0x248f80(334595,353005,364871)]:Connect(function(_0x981f92)
+if _0x981f92[_0x2b4f7f(294114,472367,460720)]==_0xcca467[_0xc84f9e[184]-142][_0x2b4f7f(272782,483395,479964)][_0x2b4f7f(621980,196211,183507)]or _0x981f92[_0x248f80(523104,492175,55790)]==_0xcca467[18][_0x248f80(233447,259592,306537)][_0x248f80(414193,403456,135554)]then
+_0x353676=true
+_0xbe8a68=_0x981f92[_0x248f80(247227,245055,763987)]
+_0x676213=_0x34d9fa[_0x248f80(486868,464208,983100)]
 end
 end)
-local _0x6fa022=_0x1ceeaf[_0xd44ced(390442,406992,376287)]:Connect(function(_0xe57301)
-if _0x4d5c05 and(_0xe57301[_0xd44ced(444044,55599,429694)]==_0xc96c19[23][_0xe8ebea(120630,105217,139136)][_0x848d34(915900,466674,481707)]or _0xe57301[_0xe8ebea(426322,445797,346596)]==_0xc96c19[_0x40b209[112]-120][_0xe8ebea(129026,111669,143540)][_0xd44ced(155403,110990,137215)])then
-local _0x46c609=_0xe57301[_0x848d34(675564,75480,90930)]-_0xa6a625
-_0xb74d08[_0xe8ebea(280318,265266,680902)]=_0xc96c19[18][_0xd44ced(267089,282384,283685)](
-_0x521451[_0xd44ced(142806,206029,158394)][_0xe8ebea(76427,91818,1016255)],_0x521451[_0xe8ebea(347734,328935,104158)][_0xd44ced(240895,243853,254984)]+_0x46c609[_0xe8ebea(91208,77561,376000)],
-_0x521451[_0x848d34(732322,319455,301583)][_0xe8ebea(231074,248451,863638)],_0x521451[_0xd44ced(388895,688256,370802)][_0x848d34(403067,437995,453041)]+_0x46c609[_0x848d34(525618,521807,504735)]
+local _0xc8c2e1=_0xdbf3be[_0x2b4f7f(787489,264989,276927)]:Connect(function(_0x981f92)
+if _0x353676 and(_0x981f92[_0x3f0d21(400604,190787,395380)]==_0xcca467[18][_0x2b4f7f(33793,249292,261971)][_0x3f0d21(204754,460430,199550)]or _0x981f92[_0x3f0d21(490134,233225,486974)]==_0xcca467[18][_0x248f80(284523,274052,226789)][_0x2b4f7f(121227,127653,114692)])then
+local _0x8c15cb=_0x981f92[_0x3f0d21(174563,594545,178910)]-_0xbe8a68
+_0x34d9fa[_0x248f80(304984,319452,838320)]=_0xcca467[_0xc84f9e[222]+14][_0x248f80(128014,101503,1019625)](
+_0x676213[_0x248f80(366113,388680,192800)][_0x2b4f7f(587811,229471,242390)],_0x676213[_0x2b4f7f(38474,236430,240279)][_0x2b4f7f(1006626,229695,242587)]+_0x8c15cb[_0x3f0d21(495127,212865,498997)],
+_0x676213[_0x3f0d21(201304,241043,196987)][_0x2b4f7f(1024473,317861,322348)],_0x676213[_0x248f80(228335,197509,4784)][_0x248f80(207928,218572,760445)]+_0x8c15cb[_0x248f80(338301,348439,409634)]
 )
 end
 end)
-local _0x707a7d=_0x1ceeaf[_0x848d34(288924,98253,80022)]:Connect(function(_0xe57301)
-if _0xe57301[_0xe8ebea(271592,288991,519262)]==_0xc96c19[23][_0xe8ebea(364657,384070,415943)][_0xd44ced(270601,160925,289274)]or _0xe57301[_0xd44ced(346698,218601,328376)]==_0xc96c19[23][_0xe8ebea(98253,78842,178043)][_0xd44ced(68059,190302,82223)]then
-_0x4d5c05=false
+local _0x6872d2=_0xdbf3be[_0x3f0d21(105349,100129,102187)]:Connect(function(_0x981f92)
+if _0x981f92[_0x2b4f7f(354028,405281,400830)]==_0xcca467[18][_0x2b4f7f(328679,412202,424117)][_0x3f0d21(150191,947474,155142)]or _0x981f92[_0x3f0d21(398206,190177,395222)]==_0xcca467[18][_0x3f0d21(453443,138972,458731)][_0x2b4f7f(435244,429826,441763)]then
+_0x353676=false
 end
 end)
-local _0x44bd08=_0xc96c19[17][_0xd44ced(384548,361061,366928)](_0xd44ced(303604,855282,321845))
-_0x44bd08[_0xd44ced(447648,860278,430887)]=_0xc96c19[18][_0x848d34(1017948,166194,183826)](14,(1269+_0xa81147(_0xfaf96b(98,1175),1)-1267))
-_0x44bd08[_0x848d34(380848,336160,354241)]=_0xc96c19[18][_0x848d34(559198,362800,380432)](_0xea489d(216360,216544),(49+_0xa81147(_0xfaf96b(64,113),1)-157))
-_0x44bd08[_0x848d34(24709,375014,393184)]=(_0x40b209[146]-108)
-_0x44bd08[_0xd44ced(74812,156686,93438)]=_0xc96c19[23][_0xd44ced(384169,433307,365675)][_0xe8ebea(356830,343549,700306)]
-_0x44bd08[_0xd44ced(432317,583177,446585)]=17
-_0x44bd08[_0xe8ebea(318811,299345,939622)]=_0x3f3f8e[_0xd44ced(277932,695367,292151)]
-_0x44bd08[_0xd44ced(271476,323512,289970)]=_0xc96c19[23][_0xd44ced(111906,98030,130532)][_0xd44ced(300661,54033,319154)]
-_0x44bd08[_0xd44ced(175005,31481,189421)]=14
-_0x44bd08[_0xd44ced(425166,664254,406535)]=_0xe8ebea(472065,489509,507410)
-_0x44bd08[_0x848d34(926224,81166,97192)]=_0x73ef62
-local _0x198ee6=_0xc96c19[17][_0xe8ebea(96572,78725,324838)](_0x848d34(837354,390926,372778))
-_0x198ee6[_0x848d34(945914,329422,344868)]=_0xc96c19[18][_0xe8ebea(434690,454144,977070)](_0xea489d(_0x40b209[94],116),_0xea489d(305334,305327))
-_0x198ee6[_0x848d34(93583,99103,116222)]=_0xc96c19[18][_0x848d34(956844,235714,253922)](_0xea489d(_0x40b209[256],435),(2802+_0xa81147(_0xfaf96b(3062,260),1)-3307))
-_0x198ee6[_0xe8ebea(421498,402834,457265)]=_0xea489d(1021199,1021198)
-_0x198ee6[_0x848d34(92951,178119,192738)]=_0xc96c19[_0x40b209[60]-83][_0xe8ebea(464652,482059,98331)][_0xe8ebea(199987,213288,60380)]
-_0x198ee6[_0xd44ced(115504,1031556,101364)]=(2181+_0xa81147(_0xfaf96b(2560,645),1)-3194)
-_0x198ee6[_0xd44ced(340265,683324,358892)]=_0x3f3f8e[_0xd44ced(85403,634689,66828)]
-_0x198ee6[_0xd44ced(81692,128208,96218)]=_0xc96c19[23][_0xd44ced(69008,116316,83286)][_0xe8ebea(231148,248544,136358)]
-_0x198ee6[_0xe8ebea(406098,424423,78753)]=_0xea489d(_0x40b209[15],174)
-_0x198ee6[_0xe8ebea(502349,517699,926481)]=_0x848d34(186940,256192,241564)
-_0x198ee6[_0x848d34(733001,274519,292593)]=_0x73ef62
-local _0x5db24f,_0x43b888=_0x6f36f0(_0x30b083,_0xe8ebea(372232,385591,726270),_0xd44ced(254901,19233,240426),_0x3f3f8e[_0x848d34(964056,382901,364866)],0.16,_0x3f3f8e[_0xd44ced(108446,799096,126724)],(_0x40b209[179]-125))
-if _0x43b888 then _0x43b888[_0x848d34(166386,431623,446626)](_0x43b888)end
-_0x5db24f[_0xe8ebea(204503,218139,867311)]=_0xc96c19[18][_0xd44ced(457494,747162,439211)]((_0x40b209[123]+5),(_0x40b209[88]-169))
-_0x5db24f[_0xd44ced(341948,345550,360386)]=_0xc96c19[18][_0xe8ebea(205014,223855,437516)]((2630+_0xa81147(_0xfaf96b(898,2500),1)-3397),-_0xea489d(_0x40b209[205],116),_0xea489d(702305,702305),_0xea489d(_0x40b209[81],246))
-_0x5db24f[_0xd44ced(301690,412446,315914)]=(1451+_0xa81147(_0xfaf96b(1435,48),1)-1471)
-local _0xb7bc39=_0xc96c19[_0x40b209[59]-238][_0xe8ebea(133167,148118,493045)](_0x848d34(338091,363976,379542))
-_0xb7bc39[_0xe8ebea(514329,496597,654369)]=_0xc96c19[_0x40b209[71]-196][_0x848d34(1003569,151903,136831)](_0xea489d(_0x40b209[44],250),_0xea489d(373622,373622))
-_0xb7bc39[_0x848d34(152520,179544,195513)]=_0xc96c19[_0x40b209[200]-113][_0xe8ebea(335839,349542,37381)]((656+_0xa81147(_0xfaf96b(845,477),1)-1321),-_0xea489d(_0x40b209[119],138),1,(3455+_0xa81147(_0xfaf96b(2396,1059),1)-3455))
-_0xb7bc39[_0x848d34(302972,83743,65561)]=_0xea489d(_0x40b209[146],108)
-_0xb7bc39[_0x848d34(157868,111740,127833)]=_0xc96c19[23][_0xd44ced(402048,352946,420418)][_0xd44ced(304963,1008115,323456)]
-_0xb7bc39[_0xe8ebea(505695,523094,794304)]=_0xea489d(1009661,1009649)
-_0xb7bc39[_0xd44ced(135393,871668,153636)]=_0x3f3f8e[_0x848d34(814554,151763,136749)]
-_0xb7bc39[_0xe8ebea(71378,88723,542377)]=_0xe8ebea(129378,111904,938841)
-_0xb7bc39[_0xe8ebea(427404,444879,839238)]=_0x3f3f8e[_0xd44ced(450466,929823,431935)]
-_0xb7bc39[_0xe8ebea(513189,497835,941561)]=_0x848d34(18781,436260,453729)
-_0xb7bc39[_0xd44ced(94823,656589,80536)]=false
-_0xb7bc39[_0xd44ced(472680,386828,491032)]=(_0x40b209[255]-56)
-_0xb7bc39[_0xd44ced(449763,614175,431264)]=_0x5db24f
-local _0x2a2932=_0xc96c19[17][_0xd44ced(268996,280197,286128)](_0x848d34(658185,211693,228809))
-_0x2a2932[_0xe8ebea(200411,214039,863203)]=_0xc96c19[18][_0x848d34(672296,475974,459878)](_0xea489d(280455,280471),_0xea489d(_0x40b209[120],46))
-_0x2a2932[_0xe8ebea(445863,427620,225076)]=_0xc96c19[18][_0x848d34(471555,520864,505719)](1,-(494+_0xa81147(_0xfaf96b(1426,1148),1)-2542),_0xea489d(760680,760680),(_0x40b209[3]-210))
-_0x2a2932[_0xd44ced(179705,522616,193882)]=_0xea489d(515630,515631)
-_0x2a2932[_0x848d34(327102,467310,484939)]=_0xc96c19[23][_0xe8ebea(462447,475752,104824)][_0x848d34(472203,104895,122502)]
-_0x2a2932[_0xe8ebea(420279,402878,901160)]=(1062+_0xa81147(_0xfaf96b(1370,380),1)-1739)
-_0x2a2932[_0xd44ced(71945,935196,86476)]=_0x3f3f8e[_0x848d34(712978,209311,227168)]
-_0x2a2932[_0xd44ced(324816,278300,310294)]=_0xc96c19[23][_0x848d34(109059,130349,113156)][_0xe8ebea(275410,294878,369048)]
-_0x2a2932[_0x848d34(484122,339612,354383)]=_0xea489d(927461,927467)
-_0x2a2932[_0x848d34(659255,445861,428681)]=_0xe8ebea(336653,356168,741076)
-_0x2a2932[_0xe8ebea(325272,310544,959950)]=_0x30b083
-local _0x7ac1e8,_0x7608b0=_0x6f36f0(_0x30b083,_0xd44ced(91917,941640,77324),_0xd44ced(224963,50775,206428),_0x3f3f8e[_0xe8ebea(91328,77593,1002164)],0.15,_0x3f3f8e[_0xe8ebea(260985,241830,769378)],(840+_0xa81147(_0xfaf96b(262,590),1)-851))
-if _0x7608b0 then _0x7608b0[_0xe8ebea(512980,497747,426086)](_0x7608b0)end
-_0x7ac1e8[_0xd44ced(513585,795367,496054)]=_0xc96c19[_0x40b209[210]-71][_0xe8ebea(102260,115574,640472)](_0xea489d(1031640,1031638),(2126+_0xa81147(_0xfaf96b(2903,793),1)-3552))
-_0x7ac1e8[_0x848d34(322239,263215,279246)]=_0xc96c19[18][_0x848d34(719813,522923,507275)](108,_0xea489d(744648,744684))
-_0x7ac1e8[_0xe8ebea(255157,241408,320838)]=_0xea489d(_0x40b209[26],72)
-local _0xbfc798=_0xc96c19[_0x40b209[70]-138][_0xe8ebea(98399,117478,265605)](_0xd44ced(352531,267262,338399))
-_0xbfc798[_0x848d34(484559,494175,511166)]=_0xc96c19[18][_0x848d34(524109,334190,351866)](_0xea489d(121468,121469),_0xea489d(_0x40b209[162],133))
-_0xbfc798[_0xe8ebea(341350,360078,368941)]=(_0x40b209[255]-69)
-_0xbfc798[_0xe8ebea(218760,203407,377247)]=_0xc96c19[23][_0x848d34(53194,201498,218175)][_0xd44ced(221994,566682,207849)]
-_0xbfc798[_0x848d34(574885,403443,418004)]=_0xea489d(_0x40b209[71],218)
-_0xbfc798[_0xd44ced(123036,965769,108633)]=_0x3f3f8e[_0xd44ced(374155,726112,392464)]
-_0xbfc798[_0xd44ced(228760,992232,210257)]=_0x848d34(679016,198896,216981)
-_0xbfc798[_0xe8ebea(482470,464659,23893)]=_0xea489d(96916,96922)
-_0xbfc798[_0xd44ced(411087,640563,396684)]=_0x7ac1e8
-local _0x497bbf,_0x7c264f=_0x6f36f0(_0x30b083,_0xe8ebea(188103,168591,289090),_0xe8ebea(138718,153146,288140),_0x3f3f8e[_0x848d34(638904,187861,170786)],0.15,_0x3f3f8e[_0x848d34(841022,122682,104903)],(238+_0xa81147(_0xfaf96b(578,684),1)-1261))
-if _0x7c264f then _0x7c264f[_0xd44ced(108322,336949,126816)](_0x7c264f)end
-_0x497bbf[_0x848d34(927316,347744,330634)]=_0xc96c19[18][_0x848d34(526094,329312,344384)]((2393+_0xa81147(_0xfaf96b(7,2398),1)-2275),(2115+_0xa81147(_0xfaf96b(2800,691),1)-3347))
-_0x497bbf[_0x848d34(419235,428851,445906)]=_0xc96c19[18][_0x848d34(729547,401573,419717)]((367+_0xa81147(_0xfaf96b(223,432),1)-559),_0xea489d(496115,496087))
-_0x497bbf[_0xe8ebea(461066,475839,2297)]=12
-local _0x6ae24b=_0xc96c19[17][_0xe8ebea(145200,163209,506602)](_0xd44ced(104858,60279,119126))
-_0x6ae24b[_0xe8ebea(273960,288235,101563)]=_0xc96c19[_0x40b209[176]-77][_0xd44ced(194220,35949,179741)](_0xea489d(653182,653183),_0xea489d(219340,219341))
-_0x6ae24b[_0xe8ebea(146697,161505,174402)]=(49+_0xa81147(_0xfaf96b(446,399),1)-844)
-_0x6ae24b[_0xe8ebea(376032,389351,207863)]=_0xc96c19[_0x40b209[242]-145][_0x848d34(23432,231256,245885)][_0xd44ced(269439,1039055,283836)]
-_0x6ae24b[_0x848d34(876333,245115,260700)]=_0xea489d(255706,255702)
-_0x6ae24b[_0xe8ebea(237305,250611,595396)]=_0x3f3f8e[_0x848d34(969582,465891,482588)]
-_0x6ae24b[_0xd44ced(136240,936512,154873)]=_0x848d34(793598,242661,259202)
-_0x6ae24b[_0x848d34(244124,128026,111305)]=(143+_0xa81147(_0xfaf96b(152,23),1)-161)
-_0x6ae24b[_0x848d34(727149,264051,278997)]=_0x497bbf
-local _0xf4153d,_0x12cf82=_0x6f36f0(_0x30b083,_0xe8ebea(225721,212467,182560),_0x848d34(133185,80951,97077),_0x3f3f8e[_0xd44ced(231621,818711,245840)],0.06,_0x3f3f8e[_0x848d34(1004152,470080,486074)],_0xea489d(741770,741771))
-if _0x12cf82 then _0x12cf82[_0xd44ced(165480,394623,183850)](_0x12cf82)end
-_0xf4153d[_0xd44ced(338872,974702,355391)]=_0xc96c19[18][_0xe8ebea(158071,140661,664539)]((_0x40b209[141]+126),_0xea489d(_0x40b209[155],215))
-_0xf4153d[_0xd44ced(360024,330794,341542)]=_0xc96c19[_0x40b209[79]-4][_0xe8ebea(373614,393068,915906)](_0xea489d(_0x40b209[55],96),(_0x40b209[255]-34))
-_0xf4153d[_0x848d34(407085,293803,277880)]=12
-local _0x0c080e=_0xc96c19[_0x40b209[70]-138][_0xe8ebea(159549,140676,516839)](_0x848d34(409672,503367,518504))
-_0x0c080e[_0xd44ced(278389,281863,292619)]=_0xc96c19[_0x40b209[166]+10][_0xd44ced(501327,384142,519934)]((532+_0xa81147(_0xfaf96b(804,304),1)-1107),(200+_0xa81147(_0xfaf96b(80,152),1)-231))
-_0x0c080e[_0xd44ced(416008,204169,397739)]=_0xea489d(95150,95151)
-_0x0c080e[_0xe8ebea(133968,149335,302151)]=_0xc96c19[_0x40b209[201]+4][_0xd44ced(262265,475211,280763)][_0xe8ebea(224615,205167,883965)]
-_0x0c080e[_0xd44ced(349372,731656,334968)]=_0xea489d(_0x40b209[117],40)
-_0x0c080e[_0xe8ebea(289071,271653,975378)]=_0x3f3f8e[_0xe8ebea(421400,402884,744508)]
-_0x0c080e[_0x848d34(558896,279970,262798)]=_0x848d34(53628,141379,159530)
-_0x0c080e[_0xe8ebea(140247,157794,336420)]=14
-_0x0c080e[_0x848d34(830880,242366,259096)]=_0xf4153d
-_0xbfc798[_0xe8ebea(239635,255028,166739)]:Connect(function()
-if _0xc96c19[13](_0x4624b2[_0xd44ced(102347,523062,116428)])==_0xe8ebea(428221,442771,726234)then
-_0xc96c19[_0x40b209[159]-202](_0x4624b2[_0xe8ebea(69421,82785,175294)],_0x3ab0bd[_0xe8ebea(175740,190302,326909)])
-_0x2a2932[_0xd44ced(263725,546909,282340)]=_0xd44ced(191632,262600,173464)
-_0x2a2932[_0xe8ebea(158393,140979,582020)]=_0x3f3f8e[_0xd44ced(446186,928816,427645)]
+local _0xd4ee09=_0xcca467[29][_0x3f0d21(99853,797285,103719)](_0x2b4f7f(46539,386104,382550))
+_0xd4ee09[_0x2b4f7f(552087,289623,285283)]=_0xcca467[_0xc84f9e[120]-73][_0x3f0d21(460177,418153,463330)]((1989+_0x95b3ae(_0x6bafdb(1008,1077),1)-2071),_0xfc82ca(200348,200346))
+_0xd4ee09[_0x3f0d21(211459,761538,208439)]=_0xcca467[25][_0x2b4f7f(90921,506755,494057)]((3613+_0x95b3ae(_0x6bafdb(2599,1082),1)-3481),_0xfc82ca(_0xc84f9e[130],90))
+_0xd4ee09[_0x2b4f7f(437672,97153,84433)]=_0xfc82ca(276450,276451)
+_0xd4ee09[_0x248f80(176474,182501,746034)]=_0xcca467[18][_0x3f0d21(416049,810264,413001)][_0x248f80(344983,342604,832103)]
+_0xd4ee09[_0x248f80(99576,130361,783862)]=_0xfc82ca(_0xc84f9e[129],190)
+_0xd4ee09[_0x2b4f7f(1041621,269664,274194)]=_0x616a6c[_0x2b4f7f(40584,382249,386913)]
+_0xd4ee09[_0x2b4f7f(652532,197816,210635)]=_0xcca467[18][_0x248f80(105915,124024,984728)][_0x248f80(445433,438845,898555)]
+_0xd4ee09[_0x2b4f7f(941621,84893,96640)]=_0xfc82ca(_0xc84f9e[94],23)
+_0xd4ee09[_0x3f0d21(68953,953300,71974)]=_0x2b4f7f(858250,160828,149168)
+_0xd4ee09[_0x2b4f7f(500452,95572,83108)]=_0x3e5e3f
+local _0x5689f4=_0xcca467[_0xc84f9e[167]-89][_0x2b4f7f(831329,442203,429690)](_0x248f80(90860,72530,22541))
+_0x5689f4[_0x3f0d21(240894,530284,245699)]=_0xcca467[_0xc84f9e[49]-108][_0x2b4f7f(267789,183975,195789)](_0xfc82ca(399797,399803),(_0xc84f9e[57]-130))
+_0x5689f4[_0x2b4f7f(789481,201594,205137)]=_0xcca467[25][_0x248f80(316488,306674,419828)]((_0xc84f9e[159]+238),(537+_0x95b3ae(_0x6bafdb(618,115),1)-718))
+_0x5689f4[_0x248f80(311800,309336,490717)]=1
+_0x5689f4[_0x3f0d21(291827,948186,288651)]=_0xcca467[_0xc84f9e[83]-161][_0x3f0d21(210157,602308,204949)][_0x2b4f7f(876223,472973,460046)]
+_0x5689f4[_0x3f0d21(83251,582402,86345)]=11
+_0x5689f4[_0x3f0d21(226526,995641,221349)]=_0x616a6c[_0x3f0d21(232879,532144,236002)]
+_0x5689f4[_0x3f0d21(113422,849680,110450)]=_0xcca467[18][_0x3f0d21(134426,999684,137574)][_0x248f80(67646,94714,685628)]
+_0x5689f4[_0x3f0d21(201583,768661,198473)]=(750+_0x95b3ae(_0x6bafdb(24,758),1)-768)
+_0x5689f4[_0x3f0d21(112441,930228,107334)]=_0x248f80(154422,139968,217516)
+_0x5689f4[_0x248f80(255558,237318,88602)]=_0x3e5e3f
+local _0xa5fa30,_0x7d08ea=_0x45e78c(_0xbb7e8c,_0x3f0d21(111784,825630,106520),_0x3f0d21(337752,978454,340749),_0x616a6c[_0x3f0d21(249017,718197,252147)],0.16,_0x616a6c[_0x248f80(333079,355456,985640)],(917+_0x95b3ae(_0x6bafdb(806,179),1)-984))
+if _0x7d08ea then _0x7d08ea[_0x3f0d21(483641,247752,488129)](_0x7d08ea)end
+_0xa5fa30[_0x3f0d21(285049,1041131,281156)]=_0xcca467[25][_0x248f80(501294,515988,333202)]((2207+_0x95b3ae(_0x6bafdb(28,2179),1)-2193),(1253+_0x95b3ae(_0x6bafdb(1110,179),1)-1219))
+_0xa5fa30[_0x3f0d21(178090,660331,172958)]=_0xcca467[_0xc84f9e[32]-7][_0x248f80(303970,318227,711045)](_0xfc82ca(259009,259008),-_0xfc82ca(744336,744332),(32+_0x95b3ae(_0x6bafdb(57,25),1)-82),_0xfc82ca(_0xc84f9e[130],104))
+_0xa5fa30[_0x3f0d21(354695,901245,359841)]=_0xfc82ca(659263,659251)
+local _0x491c82=_0xcca467[29][_0x3f0d21(395056,764760,398362)](_0x248f80(237921,252057,627365))
+_0x491c82[_0x3f0d21(99508,671526,104329)]=_0xcca467[25][_0x3f0d21(158520,200640,163659)]((_0xc84f9e[65]-198),(_0xc84f9e[50]-77))
+_0x491c82[_0x3f0d21(85050,649467,88078)]=_0xcca467[_0xc84f9e[27]+24][_0x3f0d21(255395,936395,259721)]((_0xc84f9e[19]-155),-(181+_0x95b3ae(_0x6bafdb(1043,1190),1)-2209),1,(_0xc84f9e[26]-55))
+_0x491c82[_0x3f0d21(313140,306511,316269)]=(_0xc84f9e[255]-101)
+_0x491c82[_0x2b4f7f(993860,168511,172112)]=_0xcca467[18][_0x248f80(335940,350715,848684)][_0x3f0d21(204891,980599,209954)]
+_0x491c82[_0x3f0d21(222888,704665,226002)]=(99+_0x95b3ae(_0x6bafdb(110,13),1)-111)
+_0x491c82[_0x2b4f7f(793309,516968,512282)]=_0x616a6c[_0x3f0d21(415686,303157,410519)]
+_0x491c82[_0x3f0d21(233327,695859,236509)]=_0x2b4f7f(196112,405860,394190)
+_0x491c82[_0x3f0d21(138087,849760,135123)]=_0x616a6c[_0x248f80(325221,299007,807845)]
+_0x491c82[_0x3f0d21(510803,544222,515884)]=_0x2b4f7f(759612,270639,265803)
+_0x491c82[_0x3f0d21(67153,258074,70372)]=false
+_0x491c82[_0x3f0d21(158026,704688,163180)]=(_0xc84f9e[139]-114)
+_0x491c82[_0x248f80(515599,501583,352851)]=_0xa5fa30
+local _0x36e6b4=_0xcca467[_0xc84f9e[228]+23][_0x2b4f7f(1025669,374463,362398)](_0x3f0d21(192223,894,195240))
+_0x36e6b4[_0x248f80(348574,338202,867446)]=_0xcca467[_0xc84f9e[36]-149][_0x248f80(433754,452576,273894)](_0xfc82ca(672458,672474),114)
+_0x36e6b4[_0x248f80(412151,405644,866995)]=_0xcca467[25][_0x248f80(116779,110682,1028812)]((_0xc84f9e[79]-227),-(_0xc84f9e[215]-209),_0xfc82ca(60150,60150),_0xfc82ca(418260,418246))
+_0x36e6b4[_0x248f80(291474,265010,511927)]=1
+_0x36e6b4[_0x2b4f7f(594084,305375,301744)]=_0xcca467[18][_0x248f80(164936,196087,743200)][_0x248f80(208956,215535,864881)]
+_0x36e6b4[_0x2b4f7f(698600,307851,295162)]=(1736+_0x95b3ae(_0x6bafdb(176,1656),1)-1821)
+_0x36e6b4[_0x248f80(452805,430343,621086)]=_0x616a6c[_0x2b4f7f(592080,279545,291248)]
+_0x36e6b4[_0x2b4f7f(1025476,349576,354299)]=_0xcca467[18][_0x248f80(510671,504588,610796)][_0x3f0d21(137524,700428,134473)]
+_0x36e6b4[_0x248f80(291488,265165,986313)]=(_0xc84f9e[199]-103)
+_0x36e6b4[_0x248f80(457242,426972,699311)]=_0x248f80(331558,358107,912844)
+_0x36e6b4[_0x248f80(77750,87798,234474)]=_0xbb7e8c
+local _0x82b0c6,_0x339f4f=_0x45e78c(_0xbb7e8c,_0x3f0d21(83911,941799,86896),_0x3f0d21(522646,798936,519619),_0x616a6c[_0x3f0d21(467673,924437,472723)],0.15,_0x616a6c[_0x3f0d21(218508,695770,213468)],_0xfc82ca(530285,530284))
+if _0x339f4f then _0x339f4f[_0x2b4f7f(14699,205768,201255)](_0x339f4f)end
+_0x82b0c6[_0x248f80(142155,152527,673443)]=_0xcca467[25][_0x3f0d21(109123,52923,114224)](14,_0xfc82ca(21666,21554))
+_0x82b0c6[_0x248f80(452780,430551,891880)]=_0xcca467[25][_0x2b4f7f(358168,241586,237016)](_0xfc82ca(376849,376957),(1564+_0x95b3ae(_0x6bafdb(4,1560),1)-1528))
+_0x82b0c6[_0x248f80(238370,252495,580939)]=_0xfc82ca(41226,41222)
+local _0x8c06df=_0xcca467[29][_0x2b4f7f(625669,236607,240926)](_0x248f80(152843,142530,119325))
+_0x8c06df[_0x2b4f7f(659605,329734,342573)]=_0xcca467[25][_0x2b4f7f(128323,106414,110064)]((_0xc84f9e[21]-46),(_0xc84f9e[235]-180))
+_0x8c06df[_0x3f0d21(343862,349517,338799)]=(1404+_0x95b3ae(_0x6bafdb(1640,788),1)-2427)
+_0x8c06df[_0x3f0d21(460735,852886,463815)]=_0xcca467[18][_0x3f0d21(398362,790579,393314)][_0x248f80(332356,355204,725846)]
+_0x8c06df[_0x2b4f7f(854969,201178,205739)]=12
+_0x8c06df[_0x2b4f7f(896960,415349,418823)]=_0x616a6c[_0x2b4f7f(144745,491208,478336)]
+_0x8c06df[_0x2b4f7f(786527,277120,264438)]=_0x248f80(195499,164436,837764)
+_0x8c06df[_0x248f80(342202,344535,935635)]=(2627+_0x95b3ae(_0x6bafdb(237,2734),1)-2957)
+_0x8c06df[_0x248f80(473344,475200,361820)]=_0x82b0c6
+local _0xe835fb,_0xe4b5b2=_0x45e78c(_0xbb7e8c,_0x248f80(283400,272648,465907),_0x248f80(413018,406726,938870),_0x616a6c[_0x3f0d21(458000,1033436,452954)],0.15,_0x616a6c[_0x248f80(445615,439608,840592)],(_0xc84f9e[35]-230))
+if _0xe4b5b2 then _0xe4b5b2[_0x248f80(340383,346272,147631)](_0xe4b5b2)end
+_0xe835fb[_0x2b4f7f(1028360,243400,231420)]=_0xcca467[25][_0x248f80(172992,187002,4220)]((1492+_0x95b3ae(_0x6bafdb(984,1548),1)-2402),(156+_0x95b3ae(_0x6bafdb(82,206),1)-144))
+_0xe835fb[_0x3f0d21(414323,980658,411207)]=_0xcca467[25][_0x248f80(472140,478710,362480)]((1464+_0x95b3ae(_0x6bafdb(1893,733),1)-2530),36)
+_0xe835fb[_0x248f80(302887,321098,1040718)]=(_0xc84f9e[185]-226)
+local _0x2fbb99=_0xcca467[29][_0x2b4f7f(770373,119167,122974)](_0x2b4f7f(87544,440715,429042))
+_0x2fbb99[_0x248f80(243118,249045,575210)]=_0xcca467[_0xc84f9e[174]-142][_0x2b4f7f(225199,197954,210716)](_0xfc82ca(_0xc84f9e[235],180),(308+_0x95b3ae(_0x6bafdb(442,142),1)-583))
+_0x2fbb99[_0x248f80(192081,169969,86900)]=1
+_0x2fbb99[_0x2b4f7f(1010827,185584,190111)]=_0xcca467[18][_0x2b4f7f(622287,313012,324827)][_0x2b4f7f(900583,513945,517609)]
+_0x2fbb99[_0x248f80(219700,205813,600890)]=_0xfc82ca(624816,624828)
+_0x2fbb99[_0x3f0d21(326593,572966,323514)]=_0x616a6c[_0x248f80(284127,273478,882115)]
+_0x2fbb99[_0x3f0d21(244509,802192,241506)]=_0x2b4f7f(513518,461039,473694)
+_0x2fbb99[_0x248f80(296217,326772,1047408)]=_0xfc82ca(_0xc84f9e[105],192)
+_0x2fbb99[_0x2b4f7f(201650,377858,390642)]=_0xe835fb
+local _0x083f0c,_0x605a26=_0x45e78c(_0xbb7e8c,_0x248f80(161144,135034,177151),_0x2b4f7f(742835,467119,463587),_0x616a6c[_0x2b4f7f(161843,369641,364971)],0.06,_0x616a6c[_0x2b4f7f(932438,136475,141151)],1)
+if _0x605a26 then _0x605a26[_0x2b4f7f(151080,87179,91492)](_0x605a26)end
+_0x083f0c[_0x2b4f7f(888146,101010,113574)]=_0xcca467[_0xc84f9e[231]-176][_0x3f0d21(176881,251401,173698)]((2828+_0x95b3ae(_0x6bafdb(611,2415),1)-2792),_0xfc82ca(793489,793345))
+_0x083f0c[_0x2b4f7f(689681,368258,371881)]=_0xcca467[25][_0x2b4f7f(375945,222243,218697)](_0xfc82ca(_0xc84f9e[168],197),(813+_0x95b3ae(_0x6bafdb(300,513),1)-777))
+_0x083f0c[_0x248f80(74280,88901,678977)]=(712+_0x95b3ae(_0x6bafdb(355,939),1)-1282)
+local _0x5c2340=_0xcca467[29][_0x3f0d21(352813,577093,356615)](_0x248f80(330378,357187,429468))
+_0x5c2340[_0x2b4f7f(810180,214103,226940)]=_0xcca467[_0xc84f9e[248]-229][_0x248f80(339064,349654,77207)]((2353+_0x95b3ae(_0x6bafdb(2559,206),1)-2764),(_0xc84f9e[228]-5))
+_0x5c2340[_0x3f0d21(379006,369157,384039)]=_0xfc82ca(251158,251159)
+_0x5c2340[_0x248f80(213775,211632,692327)]=_0xcca467[18][_0x3f0d21(516801,911080,521913)][_0x3f0d21(424222,765746,421223)]
+_0x5c2340[_0x248f80(283655,273862,926985)]=_0xfc82ca(418753,418765)
+_0x5c2340[_0x2b4f7f(912314,397839,401533)]=_0x616a6c[_0x248f80(177511,183539,717074)]
+_0x5c2340[_0x2b4f7f(956121,437254,433776)]=_0x3f0d21(505691,850293,500711)
+_0x5c2340[_0x248f80(147954,145567,606107)]=14
+_0x5c2340[_0x3f0d21(223871,131485,227718)]=_0x083f0c
+_0x8c06df[_0x2b4f7f(577680,105955,110444)]:Connect(function()
+if _0xcca467[_0xc84f9e[1]-139](_0xa72073[_0x2b4f7f(474280,464817,468229)])==_0x2b4f7f(454671,245949,258006)then
+_0xcca467[_0xc84f9e[148]-21](_0xa72073[_0x2b4f7f(307889,301480,305948)],_0xccbb17[_0x3f0d21(270683,444057,274483)])
+_0x36e6b4[_0x3f0d21(204912,829181,209935)]=_0x3f0d21(247979,522828,252949)
+_0x36e6b4[_0x248f80(341594,348056,697473)]=_0x616a6c[_0x248f80(100999,127763,642802)]
 else
-_0xb7bc39[_0xe8ebea(380960,367662,809340)]=_0x3ab0bd[_0xe8ebea(355287,336629,211286)]
-_0x2a2932[_0xe8ebea(84151,66745,573931)]=_0x848d34(433347,456684,438400)
+_0x491c82[_0x248f80(427037,458203,710056)]=_0xccbb17[_0x3f0d21(299774,423228,295830)]
+_0x36e6b4[_0x3f0d21(492983,525114,496072)]=_0x3f0d21(506895,862389,501936)
 end
 end)
-_0x6ae24b[_0xe8ebea(486557,467130,413661)]:Connect(function()
-if _0xc96c19[13](_0x4624b2[_0xd44ced(141463,285802,156048)])==_0xd44ced(244213,784286,261148)then
-_0xc96c19[27](_0x4624b2[_0xd44ced(494911,129474,508984)],_0x3ab0bd[_0xe8ebea(167514,182142,814693)])
-_0x2a2932[_0x848d34(861008,123330,108270)]=_0xd44ced(290334,179333,272148)
-_0x2a2932[_0xd44ced(213322,793951,199055)]=_0x3f3f8e[_0xd44ced(192920,660290,178447)]
+_0x2fbb99[_0x2b4f7f(777415,168372,172859)]:Connect(function()
+if _0xcca467[2](_0xa72073[_0x3f0d21(219728,314651,216813)])==_0x2b4f7f(66996,275718,268909)then
+_0xcca467[16](_0xa72073[_0x248f80(432797,450713,186668)],_0xccbb17[_0x248f80(282596,276821,228783)])
+_0x36e6b4[_0x3f0d21(407801,638580,404614)]=_0x3f0d21(369723,336157,372987)
+_0x36e6b4[_0x3f0d21(199220,1003475,204367)]=_0x616a6c[_0x3f0d21(208405,572682,211544)]
 end
 end)
-_0x0c080e[_0xd44ced(427090,159767,445616)]:Connect(function()
-local _0x0efba6=_0xb7bc39[_0x848d34(874091,103673,119765)]
-if(not _0x0efba6 or _0x0efba6==_0xe8ebea(205062,223265,36504))and _0xc96c19[_0x40b209[186]-52](_0x4624b2[_0x848d34(287962,369398,386456)])==_0xd44ced(148860,658199,131221)then
-local _0xdc82ff,_0x2791b6=_0xc96c19[27](_0x4624b2[_0xd44ced(245033,190439,259106)])
-if _0xdc82ff and _0xc96c19[13](_0x2791b6)==_0xd44ced(219962,499759,204450)and _0xc96c19[9][_0xe8ebea(155983,141337,419998)](_0xc96c19[_0x40b209[181]-89][_0x848d34(261145,440672,457994)](_0x2791b6),_0xd44ced(174120,599180,192043),(397+_0xa81147(_0xfaf96b(95,466),1)-560),true)then
-_0x0efba6=_0x2791b6
-_0xb7bc39[_0xe8ebea(183961,164503,739269)]=_0x2791b6
+_0x5c2340[_0x248f80(312271,309776,648655)]:Connect(function()
+local _0x1ec82f=_0x491c82[_0x248f80(439864,446462,714637)]
+if(not _0x1ec82f or _0x1ec82f==_0x2b4f7f(851000,215595,222543))and _0xcca467[2](_0xa72073[_0x2b4f7f(152734,99200,110904)])==_0x3f0d21(250448,89776,246564)then
+local _0x3a9303,_0x8d1ffb=_0xcca467[_0xc84f9e[18]-141](_0xa72073[_0x248f80(452479,433527,88261)])
+if _0x3a9303 and _0xcca467[_0xc84f9e[97]-180](_0x8d1ffb)==_0x3f0d21(151328,98118,155140)and _0xcca467[34][_0x248f80(261586,232241,466577)](_0xcca467[34][_0x248f80(339519,350438,568359)](_0x8d1ffb),_0x2b4f7f(598051,316279,326898),_0xfc82ca(297473,297472),true)then
+_0x1ec82f=_0x8d1ffb
+_0x491c82[_0x3f0d21(150711,903738,153800)]=_0x8d1ffb
 end
 end
-local _0x581001,_0xb66903=_0xbc85b0(_0x0efba6)
-if _0x581001 then
-local _0xa9d922=_0xb66903 or _0x0efba6
-if _0x4624b2[_0x848d34(886760,204640,219996)]then
-_0x4624b2[_0xe8ebea(261141,242955,535107)]()[_0xd44ced(186170,54719,171984)]=_0xa9d922
+local _0x12de84,_0xc21ba8=_0x22f375(_0x1ec82f)
+if _0x12de84 then
+local _0x2277d4=_0xc21ba8 or _0x1ec82f
+if _0xa72073[_0x2b4f7f(935928,234446,244885)]then
+_0xa72073[_0x3f0d21(346873,991901,351133)]()[_0x248f80(247092,244947,61909)]=_0x2277d4
 end
-if _0xc96c19[_0x40b209[108]-167](_0x4624b2[_0xd44ced(421916,355829,407054)])==_0xd44ced(289134,796421,273543)then
-_0xc96c19[_0x40b209[125]-35](_0x4624b2[_0xe8ebea(393074,374309,209134)],_0x3ab0bd[_0xd44ced(356852,518169,341039)],_0xa9d922)
+if _0xcca467[2](_0xa72073[_0x3f0d21(517276,242672,521473)])==_0x2b4f7f(291550,82540,93447)then
+_0xcca467[16](_0xa72073[_0x3f0d21(495264,252364,499517)],_0xccbb17[_0x2b4f7f(959237,489249,481404)],_0x2277d4)
 end
-_0x2a2932[_0xd44ced(127022,896606,112871)]=_0x848d34(10066,269993,285126)
-_0x2a2932[_0xd44ced(240909,848152,255432)]=_0xc96c19[30][_0xe8ebea(114390,128364,1014901)]((1918+_0xa81147(_0xfaf96b(452,1722),1)-2064),_0xea489d(1042717,1042925),(266+_0xa81147(_0xfaf96b(810,544),1)-1204))
-_0x866c59=true
+_0x36e6b4[_0x3f0d21(220198,842411,215129)]=_0x248f80(518656,495625,886068)
+_0x36e6b4[_0x3f0d21(312731,557180,315872)]=_0xcca467[_0xc84f9e[181]-202][_0x3f0d21(365684,665384,360543)](_0xfc82ca(83635,83677),240,_0xfc82ca(134087,133969))
+_0x9d09ea(_0x1ec82f,_0x248f80(411483,408913,196321))
+_0x5487c1=true
 else
-_0x2a2932[_0xe8ebea(452319,436945,1011587)]=_0xb66903 or _0xd44ced(137204,440421,155385)
-_0x2a2932[_0xe8ebea(295934,315380,919747)]=_0xc96c19[30][_0xd44ced(519404,851671,500889)]((_0x40b209[200]+124),(_0x40b209[220]+55),_0xea489d(960508,960402))
+_0x36e6b4[_0x248f80(255252,236754,1029281)]=_0xc21ba8 or _0x2b4f7f(85873,417107,421864)
+_0x36e6b4[_0x2b4f7f(1012745,298428,311246)]=_0xcca467[12][_0x2b4f7f(981578,456004,444262)]((456+_0x95b3ae(_0x6bafdb(1204,1404),1)-2353),_0xfc82ca(_0xc84f9e[126],68),(3696+_0x95b3ae(_0x6bafdb(1267,2691),1)-3848))
 end
 end)
-while not _0x866c59 and _0x0aa327[_0x848d34(755821,300915,315861)]do
-_0xfea197[_0xe8ebea(409547,422890,562431)]=_0x46c73d((702+_0xa81147(_0xfaf96b(1703,1049),1)-2362),(362+_0xa81147(_0xfaf96b(300,70),1)-140))
-_0xc96c19[_0x40b209[218]-6][_0x848d34(733343,331142,346880)](0.05)
+while not _0x5487c1 and _0xfc0484[_0x3f0d21(128837,40103,124092)]do
+_0x1b9a20[_0x248f80(226760,199697,812737)]=_0xdb55ac(_0xfc82ca(755641,755263),(763+_0x95b3ae(_0x6bafdb(220,551),1)-541))
+_0xcca467[8][_0x3f0d21(390528,194386,386649)](0.05)
 end
-_0xc96c19[_0x40b209[193]-198](function()_0x6fa022[_0xe8ebea(257514,238009,463544)](_0x6fa022)end)
-_0xc96c19[27](function()_0x707a7d[_0xe8ebea(318385,301026,9443)](_0x707a7d)end)
-if _0xb74d08 and _0xb74d08[_0x848d34(575317,514123,499437)]then
-_0xb74d08[_0x848d34(426934,171075,187110)](_0xb74d08)
+_0xcca467[16](function()_0xc8c2e1[_0x3f0d21(101543,682769,104546)](_0xc8c2e1)end)
+_0xcca467[16](function()_0x6872d2[_0x3f0d21(492174,812344,497227)](_0x6872d2)end)
+if _0x34d9fa and _0x34d9fa[_0x2b4f7f(242182,353718,349254)]then
+_0x34d9fa[_0x248f80(329732,356667,162100)](_0x34d9fa)
 end
-_0x2a3d2d[_0x848d34(293091,290796,272696)]=true
-_0xde35d4[_0xe8ebea(128522,114108,306547)]=_0xa12106
-_0xc96c19[21][_0x848d34(568174,194133,176423)](_0x30384f)
+_0xb5668d[_0x248f80(173276,187826,725431)]=true
+_0x8862e6[_0x248f80(461915,488757,964912)]=_0x2092e9
+_0xcca467[_0xc84f9e[247]-225][_0x3f0d21(299193,282794,296063)](_0xc1f711)
 else
-_0xc96c19[21][_0x848d34(972002,297433,315051)](_0x30384f)
+_0xcca467[8][_0x248f80(181696,180173,119072)](function()
+_0x9d09ea(_0x1a864f or _0x2b4f7f(168078,405125,400443),_0x248f80(165837,196034,1016888))
+end)
+_0xcca467[8][_0x248f80(423089,396988,352337)](_0xc1f711)
 end
 else
-_0xc96c19[_0x40b209[254]-116][_0xd44ced(487079,896894,468904)](_0x30384f)
+_0xcca467[8][_0x248f80(462493,488592,268925)](_0xc1f711)
 end
-local _0x0379ea=_0xc96c19[_0x40b209[15]-143][_0xe8ebea(238291,256106,405257)](_0xe8ebea(443814,429657,116031))
-_0x0379ea[_0x848d34(666938,383614,368149)]=_0x848d34(779116,208723,223264)
-_0x0379ea[_0xe8ebea(289794,270339,278314)]=_0xc96c19[_0x40b209[214]-212][_0x848d34(479616,495907,513268)](0.5,0.5)
-_0x0379ea[_0x848d34(864710,416242,400408)]=_0xc96c19[_0x40b209[115]-29][_0x848d34(299276,423727,405563)](0.5,0.5)
-_0x0379ea[_0x848d34(460111,519135,503102)]=_0xc96c19[_0x40b209[82]-78][_0x848d34(602977,274959,292143)](_0xea489d(331238,330794),_0xea489d(518568,518165))
-_0x0379ea[_0xe8ebea(93968,75000,129883)]=_0xea489d(_0x40b209[86],20)
-_0x0379ea[_0x848d34(438081,440398,458394)]=false
-_0x0379ea[_0xe8ebea(488434,473210,860324)]=_0x0aa327
-local _0x396cc0=_0xc96c19[_0x40b209[30]-33][_0x848d34(391749,342758,360241)](_0x848d34(417988,293380,277818))
-_0x396cc0[_0xe8ebea(200994,220419,899606)]=_0x46c73d((1865+_0xa81147(_0xfaf96b(293,1644),1)-1457),_0xea489d(_0x40b209[212],320))
-_0x396cc0[_0x848d34(720441,385319,370561)]=_0x0379ea
-local _0x0cb0c2=_0xc96c19[17][_0xd44ced(217568,200097,202388)](_0xd44ced(509175,643051,494678))
-_0x0cb0c2[_0x848d34(877859,168551,185868)]=_0xd44ced(283236,441551,269173)
-_0x0cb0c2[_0x848d34(12226,341803,356404)]=_0xc96c19[15][_0xd44ced(451728,440529,435172)](0.5,0.5)
-_0x0cb0c2[_0xd44ced(130225,657511,113462)]=_0xc96c19[18][_0x848d34(367891,351664,333927)](0.5,0,0.5,(_0x40b209[187]-217))
-_0x0cb0c2[_0x848d34(440039,415863,401046)]=_0xc96c19[_0x40b209[126]-136][_0xe8ebea(512475,498530,154625)]((2037+_0xa81147(_0xfaf96b(1784,269),1)-2052),(1343+_0xa81147(_0xfaf96b(1199,400),1)-1571),(3076+_0xa81147(_0xfaf96b(1489,2517),1)-4005),(175+_0xa81147(_0xfaf96b(45,130),1)-147))
-_0x0cb0c2[_0xd44ced(87305,266632,73130)]=_0xea489d(_0x40b209[88],238)
-_0x0cb0c2[_0xd44ced(367794,111802,381974)]=_0x830e93[_0x848d34(57614,421647,404421)]
-_0x0cb0c2[_0x848d34(542368,360750,378406)]=_0xc96c19[23][_0xd44ced(498074,705270,512319)][_0xe8ebea(165547,183616,706484)]
-_0x0cb0c2[_0xe8ebea(376623,390339,203488)]=_0x1658cb
-_0x0cb0c2[_0x848d34(274119,157885,143281)]=0.18
-_0x0cb0c2[_0xd44ced(140814,175587,159359)]=_0xa12106
-_0x0cb0c2[_0xd44ced(243729,92533,258145)]=_0xea489d(_0x40b209[177],160)
-_0x0cb0c2[_0xd44ced(70353,954669,88722)]=_0x0379ea
-local _0xff0ef9=false
-local _0x010377
+local _0x6b0ddd=_0xcca467[_0xc84f9e[188]-58][_0x3f0d21(497015,669983,493149)](_0x2b4f7f(778561,379600,391351))
+_0x6b0ddd[_0x3f0d21(215122,307895,219585)]=_0x248f80(244919,247463,548895)
+_0x6b0ddd[_0x3f0d21(279864,42962,282954)]=_0xcca467[17][_0x3f0d21(407752,758944,404450)](0.5,0.5)
+_0x6b0ddd[_0x3f0d21(205655,563397,209002)]=_0xcca467[25][_0x2b4f7f(215276,205313,200799)](0.5,0.5)
+_0x6b0ddd[_0x248f80(227771,196800,527103)]=_0xcca467[25][_0x248f80(91276,73014,251696)]((626+_0x95b3ae(_0x6bafdb(467,929),1)-936),_0xfc82ca(61739,61590))
+_0x6b0ddd[_0x3f0d21(77583,83316,80726)]=1
+_0x6b0ddd[_0x2b4f7f(663577,523952,511150)]=false
+_0x6b0ddd[_0x3f0d21(249866,179176,246771)]=_0xfc0484
+local _0x053361=_0xcca467[_0xc84f9e[203]-50][_0x3f0d21(398285,769957,393447)](_0x2b4f7f(765289,300987,304435))
+_0x053361[_0x2b4f7f(837316,507576,494641)]=_0xdb55ac((3842+_0x95b3ae(_0x6bafdb(3585,259),1)-3364),_0xfc82ca(_0xc84f9e[57],357))
+_0x053361[_0x2b4f7f(516705,79313,66593)]=_0x6b0ddd
+local _0x77c0b2=_0xcca467[29][_0x3f0d21(341117,563221,337751)](_0x3f0d21(285611,820084,282620))
+_0x77c0b2[_0x2b4f7f(446652,431627,440705)]=_0x3f0d21(293496,258067,290482)
+_0x77c0b2[_0x248f80(243805,246244,298480)]=_0xcca467[17][_0x2b4f7f(524741,135679,139486)](0.5,0.5)
+_0x77c0b2[_0x2b4f7f(529060,267620,271440)]=_0xcca467[_0xc84f9e[172]-51][_0x3f0d21(217034,975778,220384)](0.5,(3403+_0x95b3ae(_0x6bafdb(3308,423),1)-3731),0.5,(698+_0x95b3ae(_0x6bafdb(559,149),1)-702))
+_0x77c0b2[_0x248f80(91440,72779,661108)]=_0xcca467[_0xc84f9e[176]-105][_0x3f0d21(347368,581760,352194)](_0xfc82ca(_0xc84f9e[200],20),28,_0xfc82ca(_0xc84f9e[84],169),28)
+_0x77c0b2[_0x3f0d21(90983,67868,96062)]=_0xfc82ca(_0xc84f9e[86],59)
+_0x77c0b2[_0x3f0d21(133203,1035592,138249)]=_0x35dbd2[_0x248f80(480799,467321,344789)]
+_0x77c0b2[_0x2b4f7f(486310,87250,91776)]=_0xcca467[_0xc84f9e[142]-226][_0x248f80(330241,357283,482939)][_0x3f0d21(107120,877327,112172)]
+_0x77c0b2[_0x3f0d21(359868,947906,354785)]=_0xe1bb69
+_0x77c0b2[_0x248f80(242748,249242,900380)]=0.18
+_0x77c0b2[_0x2b4f7f(614792,311073,298303)]=_0x2092e9
+_0x77c0b2[_0x2b4f7f(760927,297463,310250)]=(_0xc84f9e[141]-79)
+_0x77c0b2[_0x2b4f7f(189555,275395,262707)]=_0x6b0ddd
+local _0xa5f468=false
+local _0x6c1e70
 do
-local _0x45fdd5=_0xd44ced(150389,905222,131687)
-local _0x903059=_0xea489d(_0x40b209[123],293)
-local _0x65db4b=_0xea489d(619978,619983)
-local function _0xee92e3()
-local _0xb36196=_0xc96c19[7][_0xe8ebea(391426,372803,651981)]()
-local _0x6a3b2b={}
-if _0x4624b2[_0xe8ebea(430425,448583,870159)]and _0xc96c19[13](_0x4624b2[_0x848d34(862216,241792,259260)]()[_0x848d34(117096,194631,180017)])==_0xd44ced(206700,811839,221941)then
-for _0xbc6afd,_0x036d02 in _0xc96c19[_0x40b209[68]-112](_0x4624b2[_0xd44ced(422622,554676,407303)]()[_0xe8ebea(262953,282481,162206)])do
-if _0xc96c19[_0x40b209[176]-82](_0x036d02)==_0xe8ebea(485155,469882,1002567)and(_0xb36196-_0x036d02)<_0xea489d(850853,849333)then
-_0xc96c19[_0x40b209[17]-231][_0xe8ebea(514170,496440,684491)](_0x6a3b2b,_0x036d02)
+local _0x725924=_0x3f0d21(486837,1025107,489854)
+local _0x181339=300
+local _0xd886b2=_0xfc82ca(847766,847763)
+local function _0xaab426()
+local _0xd9b52d=_0xcca467[33][_0x248f80(395301,425707,29955)]()
+local _0xebee84={}
+if _0xa72073[_0x248f80(318582,305885,879687)]and _0xcca467[_0xc84f9e[244]-146](_0xa72073[_0x3f0d21(471871,875355,467547)]()[_0x2b4f7f(9985,411521,423234)])==_0x2b4f7f(896607,429413,434809)then
+for _0x1127a1,_0xf9adeb in _0xcca467[_0xc84f9e[95]+1](_0xa72073[_0x2b4f7f(625936,284966,292477)]()[_0x2b4f7f(85463,470359,466836)])do
+if _0xcca467[_0xc84f9e[97]-180](_0xf9adeb)==_0x3f0d21(221234,26841,226559)and(_0xd9b52d-_0xf9adeb)<(2308+_0x95b3ae(_0x6bafdb(1212,3512),1)-1124)then
+_0xcca467[_0xc84f9e[167]-94][_0x248f80(440485,442463,72778)](_0xebee84,_0xf9adeb)
 end
 end
 end
-if#_0x6a3b2b==(3072+_0xa81147(_0xfaf96b(1046,2070),1)-3116)and _0xc96c19[_0x40b209[104]-11](_0x4624b2[_0xd44ced(427465,875249,443334)])==_0xd44ced(153618,661113,138747)and _0xc96c19[13](_0x4624b2[_0xd44ced(516293,398320,501461)])==_0xe8ebea(409311,423921,762552)then
-_0xc96c19[_0x40b209[53]-151](function()
-if _0x4624b2[_0xe8ebea(120908,102680,1037570)](_0x45fdd5)then
-local _0xc89987=_0x4624b2[_0xe8ebea(274039,288546,3893)](_0x45fdd5)
-for _0xa79d1a in _0xc96c19[_0x40b209[176]-86][_0xe8ebea(389483,376113,1005468)](_0xc89987 or _0xe8ebea(261468,242811,21186),_0x848d34(337235,252509,236836))do
-local _0x036d02=_0xc96c19[_0x40b209[2]-164](_0xa79d1a)
-if _0x036d02 and(_0xb36196-_0x036d02)<(992+_0xa81147(_0xfaf96b(3954,3218),1)-3572)then
-_0xc96c19[_0x40b209[211]-77][_0xe8ebea(102034,116176,796451)](_0x6a3b2b,_0x036d02)
+if#_0xebee84==_0xfc82ca(828454,828454)and _0xcca467[2](_0xa72073[_0x248f80(110913,116640,774335)])==_0x248f80(90559,71428,13594)and _0xcca467[2](_0xa72073[_0x248f80(320897,299875,938688)])==_0x2b4f7f(516757,184871,195916)then
+_0xcca467[_0xc84f9e[181]-198](function()
+if _0xa72073[_0x248f80(249508,243781,634714)](_0x725924)then
+local _0xc9ad1b=_0xa72073[_0x248f80(162957,133743,576460)](_0x725924)
+for _0xb1df0e in _0xcca467[34][_0x2b4f7f(660203,205408,200869)](_0xc9ad1b or _0x3f0d21(293651,815442,289406),_0x248f80(479097,472431,787681))do
+local _0xf9adeb=_0xcca467[22](_0xb1df0e)
+if _0xf9adeb and(_0xd9b52d-_0xf9adeb)<(3715+_0x95b3ae(_0x6bafdb(2344,1963),1)-707)then
+_0xcca467[_0xc84f9e[102]-105][_0x248f80(90487,72077,443800)](_0xebee84,_0xf9adeb)
 end
 end
 end
 end)
 end
-_0xc96c19[6][_0x848d34(962386,508315,493281)](_0x6a3b2b)
-return _0x6a3b2b
+_0xcca467[24][_0x2b4f7f(943120,446547,451220)](_0xebee84)
+return _0xebee84
 end
-local function _0xae7a1a(_0x6a3b2b)
-if _0x4624b2[_0xd44ced(382741,775039,365260)]then
-_0x4624b2[_0x848d34(770663,350959,335571)]()[_0xe8ebea(510929,493449,110950)]=_0x6a3b2b
+local function _0xa262a7(_0xebee84)
+if _0xa72073[_0x3f0d21(275218,940918,270966)]then
+_0xa72073[_0x248f80(399007,417844,1025710)]()[_0x2b4f7f(290241,134465,147330)]=_0xebee84
 end
-if _0xc96c19[_0x40b209[201]-6](_0x4624b2[_0x848d34(488984,325395,308070)])==_0xe8ebea(291921,277887,649270)then
-_0xc96c19[27](function()
-local _0x8d6558={}
-for _0x85d2fd,_0x036d02 in _0xc96c19[11](_0x6a3b2b)do _0x8d6558[_0x85d2fd]=_0xc96c19[20](_0x036d02)end
-_0x4624b2[_0xd44ced(486078,292695,470188)](_0x45fdd5,_0xc96c19[6][_0xd44ced(518058,590100,500319)](_0x8d6558,_0x848d34(438107,137718,155277)))
+if _0xcca467[2](_0xa72073[_0x3f0d21(214455,463579,218154)])==_0x2b4f7f(272716,72190,79509)then
+_0xcca467[_0xc84f9e[256]-176](function()
+local _0x92e99c={}
+for _0x98880d,_0xf9adeb in _0xcca467[10](_0xebee84)do _0x92e99c[_0x98880d]=_0xcca467[30](_0xf9adeb)end
+_0xa72073[_0x2b4f7f(442683,338437,329105)](_0x725924,_0xcca467[24][_0x2b4f7f(106407,240801,230358)](_0x92e99c,_0x248f80(453413,430397,326238)))
 end)
 end
 end
-local function _0x2fe3b7()
-local _0xb36196=_0xc96c19[7][_0xe8ebea(106040,120697,890359)]()
-local _0x6a3b2b=_0xee92e3()
-if#_0x6a3b2b>=_0x65db4b then
-local _0xd543c8=_0x6a3b2b[1]
-local _0xa61611=_0xc96c19[25][_0xe8ebea(254482,240566,538469)](_0xea489d(_0x40b209[212],191),(3220+_0xa81147(_0xfaf96b(3404,472),1)-276)-(_0xb36196-_0xd543c8))
-return false,_0xc96c19[9][_0xe8ebea(107116,125787,293102)](_0x848d34(681536,115905,99261),_0xc96c19[_0x40b209[210]-64][_0x848d34(810064,265486,280944)](_0xa61611/_0xea489d(644657,644621)),_0xa61611%(1516+_0xa81147(_0xfaf96b(854,1722),1)-2516))
+local function _0xe01d06()
+local _0xd9b52d=_0xcca467[33][_0x3f0d21(311290,72428,306813)]()
+local _0xebee84=_0xaab426()
+if#_0xebee84>=_0xd886b2 then
+local _0x407e83=_0xebee84[(_0xc84f9e[64]-65)]
+local _0x64fc99=_0xcca467[21][_0x2b4f7f(578127,171504,175614)](_0xfc82ca(_0xc84f9e[131],48),(1538+_0x95b3ae(_0x6bafdb(3232,2722),1)-2354)-(_0xd9b52d-_0x407e83))
+return false,_0xcca467[_0xc84f9e[209]-132][_0x2b4f7f(564908,204194,209622)](_0x3f0d21(146584,60786,141386),_0xcca467[_0xc84f9e[95]+12][_0x248f80(276588,282480,346335)](_0x64fc99/_0xfc82ca(682391,682411)),_0x64fc99%(2997+_0x95b3ae(_0x6bafdb(472,2669),1)-3081))
 end
-if#_0x6a3b2b>0 then
-local _0x534472=_0x6a3b2b[#_0x6a3b2b]
-local _0x5b9c7c=_0xb36196-_0x534472
-if _0x5b9c7c<_0x903059 then
-local _0xa61611=_0x903059-_0x5b9c7c
-return false,_0xc96c19[9][_0xe8ebea(413668,394963,234854)](_0xe8ebea(443839,428512,771003),_0xc96c19[25][_0xd44ced(391928,866116,376035)](_0xa61611/_0xea489d(255034,254982)),_0xa61611%60)
-end
-end
-return true,_0x6a3b2b
-end
-local function _0x631c3b(_0x433d2d)
-local _0xf6076d=(_0x4624b2[_0x848d34(403263,367483,384005)]and _0x4624b2[_0x848d34(476760,326172,310626)][_0x848d34(943548,182764,167571)])or(_0x4624b2[_0xd44ced(178228,927943,192809)]and _0x4624b2[_0x848d34(1007679,224302,207790)][_0xd44ced(120430,911068,106354)])or _0x4624b2[_0xd44ced(160866,530651,146812)]or(_0x4624b2[_0xe8ebea(448259,432999,719257)]and _0x4624b2[_0xe8ebea(369905,387221,625259)][_0xd44ced(130397,904687,111681)])or _0x4624b2[_0x848d34(1037865,227961,212230)]
-if _0xc96c19[13](_0xf6076d)~=_0x848d34(1035355,466642,481950)then
-return false,_0xe8ebea(350687,333242,835545)
-end
-if _0xc96c19[13](_0x4624b2[_0xd44ced(246239,152188,231678)])==_0xd44ced(344562,855961,328731)and _0x4624b2[_0xd44ced(84354,55841,65699)](_0xf6076d)then
-return false,_0x848d34(554437,430146,448455)
-end
-if _0x4624b2[_0xd44ced(484461,439697,470350)]and _0xc96c19[13](_0x4624b2[_0x848d34(494577,444143,426345)][_0xd44ced(339712,869460,353828)])==_0xd44ced(100199,641292,115342)then
-local _0xdb1b0f,_0x814936=_0xc96c19[27](_0x4624b2[_0x848d34(225390,146800,162550)][_0xd44ced(132219,683823,150879)],_0xf6076d,_0x848d34(845715,116065,99311))
-if _0xdb1b0f and _0xc96c19[_0x40b209[197]-17](_0x814936)==_0xd44ced(444374,146627,426574)and _0x814936~=_0x848d34(955010,196001,178729)then
-return false,_0x848d34(646643,210389,225884)
+if#_0xebee84>_0xfc82ca(744064,744064)then
+local _0x828828=_0xebee84[#_0xebee84]
+local _0x42848f=_0xd9b52d-_0x828828
+if _0x42848f<_0x181339 then
+local _0x64fc99=_0x181339-_0x42848f
+return false,_0xcca467[_0xc84f9e[240]-117][_0x2b4f7f(695654,73320,78108)](_0x248f80(153295,142549,880788),_0xcca467[21][_0x3f0d21(88791,258950,84738)](_0x64fc99/(306+_0x95b3ae(_0x6bafdb(1309,1071),1)-2320)),_0x64fc99%(1564+_0x95b3ae(_0x6bafdb(1777,237),1)-1954))
 end
 end
-local _0x620d82,_0x48f82d=_0x2fe3b7()
-if not _0x620d82 then
-return false,_0x48f82d
+return true,_0xebee84
 end
-local _0x195237={_0xea489d(518825,518716),(2096+_0xa81147(_0xfaf96b(2426,330),1)-2682),_0xea489d(904465,904652),_0xea489d(310861,310970),(14+_0xa81147(_0xfaf96b(891,885),1)-1553),_0xea489d(_0x40b209[15],132),_0xea489d(792336,792480),_0xea489d(856128,856217),_0xea489d(944898,945024),(630+_0xa81147(_0xfaf96b(92,554),1)-544),(493+_0xa81147(_0xfaf96b(1319,1226),1)-2341),_0xea489d(51885,51894),_0xea489d(95540,95564),(3954+_0xa81147(_0xfaf96b(2382,1596),1)-3923),(53+_0xa81147(_0xfaf96b(63,10),1)-63),_0xea489d(_0x40b209[26],186),186,_0xea489d(455519,455556),_0xea489d(35731,35674),(720+_0xa81147(_0xfaf96b(164,628),1)-562),(365+_0xa81147(_0xfaf96b(335,34),1)-353),202,(1722+_0xa81147(_0xfaf96b(1527,845),1)-2184),(1824+_0xa81147(_0xfaf96b(494,1742),1)-2184),_0xea489d(650204,650115),(379+_0xa81147(_0xfaf96b(61,326),1)-140),_0xea489d(_0x40b209[2],201),(_0x40b209[228]-37),_0xea489d(233582,233595),(281+_0xa81147(_0xfaf96b(356,125),1)-253),88,_0xea489d(926398,926265),188,(4049+_0xa81147(_0xfaf96b(2331,1738),1)-3837),(16+_0xa81147(_0xfaf96b(137,153),1)-67),(_0x40b209[104]+74),(4086+_0xa81147(_0xfaf96b(3975,113),1)-3988),(139+_0xa81147(_0xfaf96b(174,37),1)-204),_0xea489d(209034,209030),(1828+_0xa81147(_0xfaf96b(1305,573),1)-1876),_0xea489d(180445,180253),_0xea489d(57351,57351),(2263+_0xa81147(_0xfaf96b(701,2666),1)-3265),174,_0xea489d(_0x40b209[199],246),_0xea489d(132853,132823),(_0x40b209[53]-12),(122+_0xa81147(_0xfaf96b(302,340),1)-442),_0xea489d(965790,965712),(2211+_0xa81147(_0xfaf96b(2377,490),1)-2674),_0xea489d(172727,172596),_0xea489d(_0x40b209[176],27),48,_0xea489d(201672,201644),100,(_0x40b209[18]+106),(3444+_0xa81147(_0xfaf96b(1316,2128),1)-3273),(976+_0xa81147(_0xfaf96b(1973,1125),1)-2862),_0xea489d(_0x40b209[89],144),(1204+_0xa81147(_0xfaf96b(1314,406),1)-1467),_0xea489d(102243,102266),_0xea489d(_0x40b209[98],59),_0xea489d(_0x40b209[42],177),(2708+_0xa81147(_0xfaf96b(216,2636),1)-2788),_0xea489d(493663,493582),(871+_0xa81147(_0xfaf96b(443,732),1)-989),(_0x40b209[179]-31),(145+_0xa81147(_0xfaf96b(599,710),1)-1274),_0xea489d(782480,782510),_0xea489d(387237,387214),(1738+_0xa81147(_0xfaf96b(961,1291),1)-2226),_0xea489d(854672,854574),_0xea489d(673027,673268),(3635+_0xa81147(_0xfaf96b(791,3364),1)-3924),(681+_0xa81147(_0xfaf96b(226,587),1)-655),_0xea489d(952474,952462),(3104+_0xa81147(_0xfaf96b(3663,623),1)-4070),111,115,_0xea489d(114896,114911),_0xea489d(475517,475607),109,(_0x40b209[175]-87),(987+_0xa81147(_0xfaf96b(2011,1024),1)-2795),(1247+_0xa81147(_0xfaf96b(1913,934),1)-2634),_0xea489d(_0x40b209[130],46),(_0x40b209[70]-6),_0xea489d(750920,751046),_0xea489d(_0x40b209[187],98),(_0x40b209[228]+91),_0xea489d(_0x40b209[69],2),(1809+_0xa81147(_0xfaf96b(1083,810),1)-1854),_0xea489d(695176,695245),(1450+_0xa81147(_0xfaf96b(1629,1015),1)-2610),58,_0xea489d(_0x40b209[109],24),_0xea489d(_0x40b209[184],190),_0xea489d(17403,17189),(_0x40b209[184]-21),_0xea489d(496540,496483),_0xea489d(84802,84846),184,_0xea489d(1003790,1003939),(524+_0xa81147(_0xfaf96b(923,407),1)-1168),(_0x40b209[50]-74),_0xea489d(907944,907902),_0xea489d(_0x40b209[4],190),(1664+_0xa81147(_0xfaf96b(637,1277),1)-1869),_0xea489d(760036,759966),22,_0xea489d(524294,524353),(2748+_0xa81147(_0xfaf96b(1007,2387),1)-3238),(3987+_0xa81147(_0xfaf96b(1770,2425),1)-4002),(2324+_0xa81147(_0xfaf96b(10,2334),1)-2089),(_0x40b209[134]+119),_0xea489d(600064,600111),(1384+_0xa81147(_0xfaf96b(634,1810),1)-2216),(1828+_0xa81147(_0xfaf96b(718,1514),1)-2150),(4029+_0xa81147(_0xfaf96b(3522,639),1)-4088),18,_0xea489d(_0x40b209[44],96)}
-local _0xdaef54=_0xc96c19[6][_0xe8ebea(75003,93538,72184)](#_0x195237)
-for _0x85d2fd=(1324+_0xa81147(_0xfaf96b(205,1505),1)-1709),#_0x195237 do
-local _0x7a498d=_0x85d2fd-_0xea489d(641718,641719)
-local _0x3e5f37=_0xc96c19[_0x40b209[173]-77][_0xe8ebea(188258,169559,999609)](_0xc96c19[_0x40b209[256]-149][_0xd44ced(114508,903235,129698)](_0xea489d(_0x40b209[11],12)+_0x7a498d*(1423+_0xa81147(_0xfaf96b(1472,79),1)-1532),(_0x40b209[203]+134)),_0xc96c19[34][_0xe8ebea(230685,248878,663555)](_0xc96c19[34][_0xd44ced(417161,47899,399480)](_0xea489d(794348,794187),_0x7a498d%(2102+_0xa81147(_0xfaf96b(2536,478),1)-3009)),_0xea489d(82152,81943)))
-_0xdaef54[_0x85d2fd]=_0xc96c19[_0x40b209[170]-179][_0xe8ebea(379821,361018,839125)](_0xc96c19[_0x40b209[201]+15][_0x848d34(956588,412034,396753)](_0x195237[_0x85d2fd],_0x3e5f37))
+local function _0x1122cc(_0x8ae7be)
+local _0x3e84ed=(_0xa72073[_0x2b4f7f(439354,164618,175261)]and _0xa72073[_0x248f80(501585,512438,521258)][_0x248f80(493624,523984,516161)])or(_0xa72073[_0x2b4f7f(666237,475171,487354)]and _0xa72073[_0x248f80(169496,188657,759811)][_0x3f0d21(361698,406669,365891)])or _0xa72073[_0x3f0d21(239118,620995,243629)]or(_0xa72073[_0x2b4f7f(1010590,465177,472706)]and _0xa72073[_0x3f0d21(427331,609174,431335)][_0x2b4f7f(13506,276735,268135)])or _0xa72073[_0x2b4f7f(375234,112127,105063)]
+if _0xcca467[_0xc84f9e[138]-251](_0x3e84ed)~=_0x2b4f7f(303804,102926,114021)then
+return false,_0x2b4f7f(855361,124921,120114)
 end
-local _0x209c73=_0xc96c19[_0x40b209[23]-64][_0xd44ced(218591,460131,200747)](_0xc96c19[9][_0xd44ced(110241,204896,125108)](_0x433d2d,_0xe8ebea(211496,226884,418806),_0xe8ebea(182533,165224,67684)),(1650+_0xa81147(_0xfaf96b(1827,337),1)-2163),(_0x40b209[222]+167))
-local _0x6eecaa=(_0xc96c19[_0x40b209[67]+3](_0x2f4d75)==_0xd44ced(176934,720205,194255))and _0x2f4d75()or _0x848d34(956522,284758,270298)
-local _0x71c460=_0xc96c19[26][_0xe8ebea(79913,94523,98360)](_0xc96c19[26],_0xe8ebea(286517,267098,57490)):JSONEncode({
-[_0xd44ced(523681,385916,504970)]=_0x848d34(968362,82127,67392),
-[_0xe8ebea(339800,353066,443854)]={{
-[_0x848d34(581293,383118,368415)]=_0x848d34(695677,363690,379704),
-[_0x848d34(707830,370180,385431)]=_0x209c73,
-[_0x848d34(329134,422515,407015)]=12488191,
-[_0x848d34(141054,435188,451681)]={
-{[_0xe8ebea(248505,231105,911393)]=_0xe8ebea(413340,393957,84147),[_0xd44ced(442364,622172,456393)]=_0xc96c19[9][_0xe8ebea(495284,509827,152630)](_0xd44ced(447027,342302,432901),_0x736c63[_0x848d34(567717,483041,465546)],_0x736c63[_0xe8ebea(418378,404346,547639)]),[_0xd44ced(245902,768400,231865)]=true},
-{[_0x848d34(890304,457952,441206)]=_0x848d34(407623,499778,518105),[_0xe8ebea(323564,304022,981268)]=_0xc96c19[9][_0x848d34(316089,280268,262809)](_0x848d34(636131,517792,500028),_0x6eecaa),[_0xd44ced(383953,893647,365286)]=true},
-{[_0x848d34(921282,354274,335988)]=_0x848d34(104982,147100,162049),[_0xd44ced(234148,807684,252817)]=_0xc96c19[9][_0xd44ced(158172,155979,142382)](_0xe8ebea(117163,99627,1007592),#_0x48f82d+(_0x40b209[131]-73),_0x65db4b),[_0xe8ebea(155822,142546,1036014)]=true},
+if _0xcca467[_0xc84f9e[130]-76](_0xa72073[_0x3f0d21(222934,955779,225795)])==_0x248f80(449682,436777,493623)and _0xa72073[_0x3f0d21(405690,771055,402543)](_0x3e84ed)then
+return false,_0x2b4f7f(194890,440986,428119)
+end
+if _0xa72073[_0x3f0d21(382495,442515,377544)]and _0xcca467[2](_0xa72073[_0x2b4f7f(366867,78797,65795)][_0x3f0d21(144125,356103,140837)])==_0x248f80(451437,431574,505800)then
+local _0x42c334,_0x8f0888=_0xcca467[16](_0xa72073[_0x248f80(320476,301506,270768)][_0x248f80(101852,128963,328903)],_0x3e84ed,_0x3f0d21(516282,1037961,521051))
+if _0x42c334 and _0xcca467[_0xc84f9e[239]-175](_0x8f0888)==_0x2b4f7f(358570,128158,121733)and _0x8f0888~=_0x2b4f7f(621363,233832,238520)then
+return false,_0x2b4f7f(366079,524163,511314)
+end
+end
+local _0x3e875c,_0xcee8ec=_0xe01d06()
+if not _0x3e875c then
+return false,_0xcee8ec
+end
+local _0xb61d4e={(_0xc84f9e[105]-57),(626+_0x95b3ae(_0x6bafdb(360,794),1)-1080),_0xfc82ca(336547,336510),(_0xc84f9e[182]+89),(3015+_0x95b3ae(_0x6bafdb(840,2191),1)-2808),(138+_0x95b3ae(_0x6bafdb(711,589),1)-1264),(1156+_0x95b3ae(_0x6bafdb(1481,333),1)-1638),(2758+_0x95b3ae(_0x6bafdb(2301,571),1)-2655),130,(2491+_0x95b3ae(_0x6bafdb(2395,224),1)-2517),(3876+_0x95b3ae(_0x6bafdb(2311,1571),1)-3678),(_0xc84f9e[4]+22),(_0xc84f9e[194]-63),55,(_0xc84f9e[72]-193),_0xfc82ca(_0xc84f9e[15],166),186,_0xfc82ca(_0xc84f9e[64],153),_0xfc82ca(_0xc84f9e[203],134),(3117+_0x95b3ae(_0x6bafdb(2526,1523),1)-3819),_0xfc82ca(523425,523441),_0xfc82ca(552526,552580),_0xfc82ca(136157,136033),(3980+_0x95b3ae(_0x6bafdb(970,3142),1)-4060),(_0xc84f9e[226]-50),(2648+_0x95b3ae(_0x6bafdb(520,2128),1)-2401),_0xfc82ca(_0xc84f9e[147],216),(4094+_0x95b3ae(_0x6bafdb(2326,1768),1)-4068),_0xfc82ca(_0xc84f9e[81],104),_0xfc82ca(_0xc84f9e[121],24),(1086+_0x95b3ae(_0x6bafdb(1782,712),1)-2406),135,_0xfc82ca(_0xc84f9e[96],41),(1088+_0x95b3ae(_0x6bafdb(661,1749),1)-2178),(2045+_0x95b3ae(_0x6bafdb(1402,647),1)-1826),(2511+_0x95b3ae(_0x6bafdb(2370,141),1)-2413),(710+_0x95b3ae(_0x6bafdb(323,901),1)-1124),7,(485+_0x95b3ae(_0x6bafdb(947,598),1)-1533),2,192,_0xfc82ca(1007508,1007508),(1992+_0x95b3ae(_0x6bafdb(1862,142),1)-1902),(908+_0x95b3ae(_0x6bafdb(2014,1106),1)-2946),_0xfc82ca(1006880,1006982),_0xfc82ca(_0xc84f9e[12],153),_0xfc82ca(44192,44038),(3474+_0x95b3ae(_0x6bafdb(2117,1495),1)-3412),(1305+_0x95b3ae(_0x6bafdb(557,1844),1)-2195),(2454+_0x95b3ae(_0x6bafdb(2877,683),1)-3367),_0xfc82ca(_0xc84f9e[254],200),_0xfc82ca(_0xc84f9e[169],109),(_0xc84f9e[184]-112),_0xfc82ca(771391,771419),(_0xc84f9e[147]-61),_0xfc82ca(873267,873417),(_0xc84f9e[90]+2),_0xfc82ca(434390,434234),(3421+_0x95b3ae(_0x6bafdb(455,3226),1)-3471),253,_0xfc82ca(328570,328547),(3732+_0x95b3ae(_0x6bafdb(1305,2957),1)-4047),(1761+_0x95b3ae(_0x6bafdb(18,1779),1)-1651),(2876+_0x95b3ae(_0x6bafdb(2563,319),1)-2818),(_0xc84f9e[37]-162),(_0xc84f9e[118]+15),_0xfc82ca(_0xc84f9e[224],111),_0xfc82ca(436065,436034),(3767+_0x95b3ae(_0x6bafdb(1112,2799),1)-3849),(1620+_0x95b3ae(_0x6bafdb(495,1979),1)-2431),_0xfc82ca(_0xc84f9e[181],204),190,(2668+_0x95b3ae(_0x6bafdb(202,2726),1)-2681),_0xfc82ca(665611,665836),(74+_0x95b3ae(_0x6bafdb(654,708),1)-1204),(24+_0x95b3ae(_0x6bafdb(80,72),1)-132),_0xfc82ca(18596,18556),(829+_0x95b3ae(_0x6bafdb(411,678),1)-978),(689+_0x95b3ae(_0x6bafdb(180,517),1)-582),_0xfc82ca(136743,136744),_0xfc82ca(177281,177195),(954+_0x95b3ae(_0x6bafdb(1191,1821),1)-2903),_0xfc82ca(689505,689417),240,_0xfc82ca(1005290,1005119),_0xfc82ca(_0xc84f9e[86],6),_0xfc82ca(_0xc84f9e[236],209),_0xfc82ca(150327,150457),(1087+_0x95b3ae(_0x6bafdb(236,1235),1)-1282),154,_0xfc82ca(505379,505556),(1396+_0x95b3ae(_0x6bafdb(1834,606),1)-2401),(1118+_0x95b3ae(_0x6bafdb(1461,491),1)-1883),_0xfc82ca(486845,486815),(_0xc84f9e[251]+2),(_0xc84f9e[205]-5),_0xfc82ca(_0xc84f9e[46],25),_0xfc82ca(_0xc84f9e[224],238),(192+_0x95b3ae(_0x6bafdb(25,217),1)-50),255,_0xfc82ca(_0xc84f9e[153],126),_0xfc82ca(_0xc84f9e[244],44),173,_0xfc82ca(856316,856158),(1247+_0x95b3ae(_0x6bafdb(2036,811),1)-2742),(1616+_0x95b3ae(_0x6bafdb(537,1097),1)-1420),5,_0xfc82ca(392508,392465),(3006+_0x95b3ae(_0x6bafdb(878,2256),1)-3012),(4078+_0x95b3ae(_0x6bafdb(675,3405),1)-4058),(919+_0x95b3ae(_0x6bafdb(408,527),1)-864),156,_0xfc82ca(_0xc84f9e[135],139),_0xfc82ca(242809,242822),(419+_0x95b3ae(_0x6bafdb(153,314),1)-295),_0xfc82ca(727492,727531),(_0xc84f9e[224]+180),_0xfc82ca(795037,795087),_0xfc82ca(_0xc84f9e[167],63),(_0xc84f9e[185]-220),(3182+_0x95b3ae(_0x6bafdb(496,3486),1)-3832)}
+local _0x0a38e5=_0xcca467[_0xc84f9e[64]-42][_0x3f0d21(468115,164250,472374)](#_0xb61d4e)
+for _0x98880d=(_0xc84f9e[186]-96),#_0xb61d4e do
+local _0x4fbf4d=_0x98880d-(941+_0x95b3ae(_0x6bafdb(478,627),1)-1104)
+local _0xd7ea03=_0xcca467[6][_0x248f80(226399,197277,264790)](_0xcca467[6][_0x3f0d21(218006,605536,213743)](_0xfc82ca(564966,564924)+_0x4fbf4d*(228+_0x95b3ae(_0x6bafdb(19,247),1)-247),(2705+_0x95b3ae(_0x6bafdb(913,2304),1)-2962)),_0xcca467[_0xc84f9e[121]-246][_0x3f0d21(72737,750295,68952)](_0xcca467[6][_0x3f0d21(356443,1048416,352551)]((648+_0x95b3ae(_0x6bafdb(179,571),1)-583),_0x4fbf4d%(_0xc84f9e[191]-127)),_0xfc82ca(978010,978085)))
+_0x0a38e5[_0x98880d]=_0xcca467[_0xc84f9e[255]-68][_0x2b4f7f(620759,472878,465075)](_0xcca467[6][_0x248f80(134559,162653,357270)](_0xb61d4e[_0x98880d],_0xd7ea03))
+end
+local _0x64b0b5=_0xcca467[_0xc84f9e[219]-11][_0x3f0d21(72458,143832,68213)](_0xcca467[34][_0x2b4f7f(309436,449879,455414)](_0x8ae7be,_0x3f0d21(177476,28626,173288),_0x2b4f7f(781337,468654,461066)),(102+_0x95b3ae(_0x6bafdb(905,1007),1)-1911),(2977+_0x95b3ae(_0x6bafdb(2927,206),1)-2853))
+local _0x5cc345=(_0xcca467[2](_0x17f78f)==_0x248f80(281103,277684,335530))and _0x17f78f()or _0x2b4f7f(129659,252951,258953)
+local _0xa05a5f=_0xcca467[9][_0x3f0d21(99920,445055,104200)](_0xcca467[9],_0x248f80(294330,265036,813739)):JSONEncode({
+[_0x2b4f7f(976155,394421,404242)]=_0x2b4f7f(756960,507261,495535),
+[_0x248f80(358880,331545,679804)]={{
+[_0x3f0d21(187661,989314,183486)]=_0x248f80(106210,124097,487649),
+[_0x248f80(155129,142085,437010)]=_0x64b0b5,
+[_0x2b4f7f(252525,294085,283499)]=(8428991+_0x95b3ae(_0x6bafdb(10421308,2070915),1)-4032),
+[_0x2b4f7f(571226,66957,76322)]={
+{[_0x3f0d21(305228,445087,309749)]=_0x3f0d21(477365,208440,482408),[_0x248f80(449392,437362,406064)]=_0xcca467[_0xc84f9e[170]+18][_0x248f80(375940,379456,678882)](_0x248f80(298429,326482,434232),_0x7576e4[_0x3f0d21(431312,93749,427331)],_0x7576e4[_0x2b4f7f(883387,362645,370680)]),[_0x3f0d21(376174,313785,371923)]=true},
+{[_0x2b4f7f(480073,167368,172664)]=_0x3f0d21(294272,1013022,289854),[_0x248f80(412412,409086,435132)]=_0xcca467[34][_0x3f0d21(234573,1026833,230704)](_0x3f0d21(258388,14192,254184),_0x5cc345),[_0x248f80(213703,210371,126954)]=true},
+{[_0x3f0d21(523902,367789,520135)]=_0x3f0d21(116940,63650,121874),[_0x248f80(489148,459198,499708)]=_0xcca467[34][_0x248f80(336718,349578,705576)](_0x3f0d21(373848,193095,368775),#_0xcee8ec+(1254+_0x95b3ae(_0x6bafdb(1920,870),1)-2789),_0xd886b2),[_0x2b4f7f(148085,297712,304452)]=true},
 },
 }}
 })
-_0xc96c19[_0x40b209[135]-71][_0xd44ced(375415,902054,392586)](_0x48f82d,_0xc96c19[_0x40b209[120]-85][_0xd44ced(496591,936547,513587)]())
-_0xae7a1a(_0x48f82d)
-_0xc96c19[21][_0x848d34(723598,310784,326595)](function()
-_0xc96c19[_0x40b209[165]-176](_0xf6076d,{
-[_0xe8ebea(279781,264292,681107)]=_0xc96c19[_0x40b209[184]-207][_0x848d34(602900,477512,462096)](_0xdaef54),
-[_0xd44ced(86392,506527,71749)]=_0xe8ebea(286775,273588,745640),
-[_0xd44ced(156573,1022453,141986)]={[_0xe8ebea(493482,510767,1007839)]=_0xd44ced(215795,578636,197554)},
-[_0xe8ebea(315332,295747,485874)]=_0x71c460,
+_0xcca467[24][_0x248f80(211420,213286,302387)](_0xcee8ec,_0xcca467[_0xc84f9e[103]-73][_0x2b4f7f(295338,432366,440208)]())
+_0xa262a7(_0xcee8ec)
+_0xcca467[_0xc84f9e[96]-141][_0x3f0d21(377602,124517,381597)](function()
+_0xcca467[16](_0x3e84ed,{
+[_0x248f80(269388,289602,272987)]=_0xcca467[24][_0x248f80(361721,389694,250772)](_0x0a38e5),
+[_0x3f0d21(281095,759118,285647)]=_0x3f0d21(306806,367335,311231),
+[_0x3f0d21(480696,1029461,476274)]={[_0x2b4f7f(160026,352763,347705)]=_0x3f0d21(337341,560827,341105)},
+[_0x3f0d21(317467,22635,313814)]=_0xa05a5f,
 })
-_0xc96c19[6][_0xd44ced(512660,468996,498647)](_0xdaef54)
+_0xcca467[24][_0x248f80(87381,74304,806397)](_0x0a38e5)
 end)
-return true,_0xe8ebea(482005,464476,311338)
+return true,_0x2b4f7f(804932,414894,419449)
 end
-local _0x2beaed,_0x592b99=_0x6f36f0(
-_0x0379ea,
-_0xe8ebea(350573,333287,702599),
-_0xd44ced(515009,291669,496478),
-_0x3f3f8e[_0xd44ced(146619,654952,160809)],
+local _0x66e5a3,_0x465dd9=_0x45e78c(
+_0x6b0ddd,
+_0x3f0d21(492754,829584,495667),
+_0x3f0d21(214123,560421,217150),
+_0x616a6c[_0x248f80(330270,357265,899315)],
 0.10,
-_0x3f3f8e[_0x848d34(908430,369334,386124)],
+_0x616a6c[_0x248f80(342522,344174,884111)],
 0.24
 )
-_0x2beaed[_0xd44ced(342266,48369,356422)]=_0xc96c19[15][_0xe8ebea(436722,451403,205864)](0.5,_0xea489d(_0x40b209[254],136))
-_0x2beaed[_0xd44ced(301145,1010831,319454)]=_0xc96c19[_0x40b209[188]-214][_0x848d34(268407,317652,302339)](0.5,_0xea489d(40686,40686),_0xea489d(765859,765859),-10)
-_0x2beaed[_0xd44ced(379071,375501,360641)]=_0xc96c19[18][_0xd44ced(432534,721946,446763)](_0xea489d(882654,882516),_0xea489d(26105,26073))
-_0x2beaed[_0xe8ebea(414436,399697,86807)]=_0xea489d(312081,312089)
-_0x592b99[_0x848d34(426449,314455,297604)]=_0xea489d(713673,713664)
-local _0xe53ff6=_0xc96c19[17][_0xd44ced(315985,298512,300325)](_0x848d34(28219,98356,116507))
-_0xe53ff6[_0xd44ced(239412,251206,257866)]=_0xc96c19[18][_0xe8ebea(366508,384090,146873)](_0xea489d(106893,106892),(_0x40b209[142]-77))
-_0xe53ff6[_0x848d34(110937,289082,273980)]=_0xea489d(_0x40b209[116],248)
-_0xe53ff6[_0xe8ebea(288799,271384,196360)]=_0xc96c19[23][_0x848d34(61231,209919,226522)][_0x848d34(624067,188305,170167)]
-_0xe53ff6[_0xd44ced(216041,865629,197421)]=(_0x40b209[235]-57)
-_0xe53ff6[_0xe8ebea(134929,148251,558124)]=_0x3f3f8e[_0xd44ced(102883,619321,121204)]
-_0xe53ff6[_0x848d34(947270,177876,193016)]=_0xd44ced(376338,962812,390996)
-_0xe53ff6[_0xd44ced(331671,515827,346087)]=10
-_0xe53ff6[_0xe8ebea(149313,134345,529431)]=_0x2beaed
-local _0x4383af=_0xc96c19[17][_0x848d34(209452,258703,243544)](_0xd44ced(499555,501474,513944))
-_0x4383af[_0x848d34(1021645,327417,310035)]=_0xc96c19[18][_0xd44ced(384681,541477,366100)]((801+_0xa81147(_0xfaf96b(2047,1246),1)-3281),(1154+_0xa81147(_0xfaf96b(1089,195),1)-1284))
-_0x4383af[_0x848d34(99049,93305,76440)]=_0xc96c19[18][_0x848d34(118096,69107,84004)](_0xea489d(_0x40b209[187],222),-76,_0xea489d(_0x40b209[124],185),0)
-_0x4383af[_0x848d34(142883,521792,504134)]=(_0x40b209[178]-98)
-_0x4383af[_0x848d34(114726,138486,154579)]=_0xc96c19[23][_0x848d34(63085,207549,224664)][_0x848d34(189839,280763,266114)]
-_0x4383af[_0x848d34(648297,460351,475416)]=(2526+_0xa81147(_0xfaf96b(2449,79),1)-2517)
-_0x4383af[_0xe8ebea(467654,487116,895483)]=_0x3f3f8e[_0x848d34(612526,484775,467801)]
-_0x4383af[_0xe8ebea(158084,140741,735743)]=_0xd44ced(503387,216449,517916)
-_0x4383af[_0x848d34(870652,149685,135124)]=_0x3f3f8e[_0x848d34(643930,106501,124677)]
-_0x4383af[_0xd44ced(509178,760458,494643)]=_0xe8ebea(288527,273960,510097)
-_0x4383af[_0xe8ebea(86881,73578,282500)]=_0xc96c19[_0x40b209[46]-220][_0x848d34(66136,87414,70239)][_0xe8ebea(456450,441102,484680)]
-_0x4383af[_0xe8ebea(298192,311444,666908)]=false
-_0x4383af[_0xd44ced(368576,332845,382897)]=false
-_0x4383af[_0xd44ced(280190,431898,265742)]=(1165+_0xa81147(_0xfaf96b(469,1368),1)-1827)
-_0x4383af[_0x848d34(695057,361487,377513)]=_0x2beaed
-local _0x913126=_0x6f36f0(_0x2beaed,_0xd44ced(246496,782626,232360),_0xe8ebea(244909,258083,1000222),_0x3f3f8e[_0xd44ced(432784,617538,446981)],0.08,nil,_0xea489d(754034,754035))
-_0x913126[_0x848d34(413881,215120,200527)]=_0xc96c19[15][_0xe8ebea(130808,111681,291618)](_0xea489d(465435,465434),0.5)
-_0x913126[_0xd44ced(259048,526142,242799)]=_0xc96c19[_0x40b209[45]-159][_0xe8ebea(404804,419837,237726)]((565+_0xa81147(_0xfaf96b(1049,1580),1)-2628),-(2004+_0xa81147(_0xfaf96b(2036,32),1)-2062),0.5,(3356+_0xa81147(_0xfaf96b(2150,1402),1)-3552))
-_0x913126[_0x848d34(293560,300072,316105)]=_0xc96c19[18][_0x848d34(790740,70074,87706)]((_0x40b209[6]-64),22)
-_0x913126[_0xe8ebea(312760,298510,106177)]=false
-_0x913126[_0x848d34(46515,194613,179942)]=_0xea489d(257473,257483)
-local _0x8fbd41=_0xc96c19[17][_0x848d34(331252,380247,362624)](_0xd44ced(192212,236601,173592))
-_0x8fbd41[_0xd44ced(296545,324627,314911)]=_0xc96c19[18][_0x848d34(425192,301771,318943)]((1947+_0xa81147(_0xfaf96b(1401,738),1)-2138),_0xea489d(695241,695240))
-_0x8fbd41[_0x848d34(407549,257950,239768)]=_0xea489d(964827,964826)
-_0x8fbd41[_0xe8ebea(522007,506640,90112)]=_0xc96c19[23][_0xe8ebea(313142,297777,151585)][_0xe8ebea(72534,87902,985804)]
-_0x8fbd41[_0xe8ebea(206267,223666,560164)]=(2499+_0xa81147(_0xfaf96b(755,2864),1)-3608)
-_0x8fbd41[_0xd44ced(114504,975709,128909)]=_0x3f3f8e[_0xd44ced(234754,751576,253333)]
-_0x8fbd41[_0x848d34(941675,171257,187349)]=_0x848d34(482317,152980,135478)
-_0x8fbd41[_0x848d34(100965,247779,229680)]=11
-_0x8fbd41[_0xd44ced(121779,940111,103408)]=_0x913126
-function _0x010377(_0x7a97db)
-_0xff0ef9=_0x7a97db
-if _0x7a97db then
-_0xe53ff6[_0xd44ced(67163,101814,85546)]=false
-_0x3cf4c8[_0x848d34(21061,301532,319179)](_0x3cf4c8,_0x2beaed,_0xc96c19[32][_0x848d34(327502,278509,293434)](0.18,_0xc96c19[23][_0xe8ebea(455705,440470,230227)][_0x848d34(925097,215987,199709)],_0xc96c19[_0x40b209[73]-177][_0x848d34(919145,431269,447242)][_0x848d34(665920,241987,259827)]),{
-[_0xd44ced(266019,294225,280413)]=_0xc96c19[18][_0xd44ced(316495,608707,302322)]((1061+_0xa81147(_0xfaf96b(749,1736),1)-2135),(_0x40b209[154]-90))
+_0x66e5a3[_0x248f80(403195,417602,70486)]=_0xcca467[17][_0x2b4f7f(727973,68511,80574)](0.5,(1691+_0x95b3ae(_0x6bafdb(81,1738),1)-1818))
+_0x66e5a3[_0x2b4f7f(1010076,224860,221032)]=_0xcca467[25][_0x248f80(353924,335605,728163)](0.5,_0xfc82ca(304472,304472),(_0xc84f9e[214]-232),-_0xfc82ca(222954,222944))
+_0x66e5a3[_0x248f80(168462,191349,647498)]=_0xcca467[_0xc84f9e[37]-218][_0x248f80(316463,306581,419731)]((2344+_0x95b3ae(_0x6bafdb(2497,233),1)-2592),_0xfc82ca(620385,620353))
+_0x66e5a3[_0x3f0d21(459903,1027461,462937)]=(2658+_0x95b3ae(_0x6bafdb(509,2975),1)-3476)
+_0x465dd9[_0x3f0d21(388562,869416,391668)]=_0xfc82ca(596382,596375)
+local _0x968287=_0xcca467[29][_0x3f0d21(478249,712769,483075)](_0x2b4f7f(381472,147027,134186))
+_0x968287[_0x3f0d21(488347,1038170,485295)]=_0xcca467[25][_0x248f80(248080,241854,510207)](_0xfc82ca(727065,727064),(_0xc84f9e[118]-170))
+_0x968287[_0x2b4f7f(56192,462249,475129)]=(399+_0x95b3ae(_0x6bafdb(1207,1336),1)-2542)
+_0x968287[_0x248f80(158368,135967,768456)]=_0xcca467[_0xc84f9e[56]-211][_0x2b4f7f(709101,485782,482297)][_0x3f0d21(172189,1013425,177380)]
+_0x968287[_0x248f80(328390,359175,1012680)]=(_0xc84f9e[145]-22)
+_0x968287[_0x248f80(194627,164225,879256)]=_0x616a6c[_0x2b4f7f(546735,293090,281254)]
+_0x968287[_0x248f80(238349,252619,1045176)]=_0x3f0d21(509932,629269,512782)
+_0x968287[_0x248f80(208560,219101,544985)]=_0xfc82ca(_0xc84f9e[251],50)
+_0x968287[_0x248f80(429973,456405,275401)]=_0x66e5a3
+local _0x09407f=_0xcca467[29][_0x3f0d21(345785,584401,349587)](_0x2b4f7f(722332,351500,356260))
+_0x09407f[_0x2b4f7f(628994,368322,372726)]=_0xcca467[25][_0x2b4f7f(82380,498022,502540)](_0xfc82ca(379137,379149),(465+_0x95b3ae(_0x6bafdb(210,259),1)-469))
+_0x09407f[_0x2b4f7f(632070,441749,430014)]=_0xcca467[25][_0x3f0d21(300903,604943,296013)]((3205+_0x95b3ae(_0x6bafdb(3082,143),1)-3224),-(236+_0x95b3ae(_0x6bafdb(152,116),1)-192),_0xfc82ca(_0xc84f9e[18],156),0)
+_0x09407f[_0x248f80(254271,235679,23578)]=_0xfc82ca(615161,615160)
+_0x09407f[_0x2b4f7f(830892,71127,75704)]=_0xcca467[18][_0x248f80(83464,81847,562528)][_0x2b4f7f(732746,83832,95739)]
+_0x09407f[_0x3f0d21(516858,935115,521856)]=_0xfc82ca(869610,869601)
+_0x09407f[_0x2b4f7f(527098,258895,246077)]=_0x616a6c[_0x248f80(74777,89473,1164)]
+_0x09407f[_0x2b4f7f(574998,420632,416177)]=_0x248f80(224422,202380,91683)
+_0x09407f[_0x3f0d21(424302,562537,421338)]=_0x616a6c[_0x248f80(508683,506513,1009355)]
+_0x09407f[_0x2b4f7f(682416,152431,155929)]=_0x3f0d21(86908,612669,82449)
+_0x09407f[_0x3f0d21(449172,759434,446184)]=_0xcca467[18][_0x248f80(278886,276645,711237)][_0x2b4f7f(687628,355174,350482)]
+_0x09407f[_0x2b4f7f(280638,66087,77963)]=false
+_0x09407f[_0x248f80(384790,370296,813693)]=false
+_0x09407f[_0x248f80(284201,274244,993344)]=_0xfc82ca(279586,279592)
+_0x09407f[_0x248f80(463444,486164,372232)]=_0x66e5a3
+local _0xa8ee83=_0x45e78c(_0x66e5a3,_0x3f0d21(159677,212389,162649),_0x2b4f7f(167278,464041,468597),_0x616a6c[_0x3f0d21(376959,370679,382004)],0.08,nil,(2008+_0x95b3ae(_0x6bafdb(918,1102),1)-2019))
+_0xa8ee83[_0x248f80(407241,413552,66404)]=_0xcca467[_0xc84f9e[253]-66][_0x3f0d21(175517,983541,179895)]((_0xc84f9e[205]-152),0.5)
+_0xa8ee83[_0x248f80(95605,69105,596125)]=_0xcca467[_0xc84f9e[44]-139][_0x248f80(126875,104426,1021308)]((_0xc84f9e[248]-253),-(_0xc84f9e[107]+6),0.5,(_0xc84f9e[223]-189))
+_0xa8ee83[_0x3f0d21(249333,747828,252353)]=_0xcca467[25][_0x2b4f7f(482437,99375,112197)](_0xfc82ca(505649,505607),_0xfc82ca(250210,250228))
+_0xa8ee83[_0x248f80(487763,460861,967736)]=false
+_0xa8ee83[_0x2b4f7f(948490,93346,89791)]=_0xfc82ca(531455,531445)
+local _0x790d6c=_0xcca467[29][_0x3f0d21(387324,541844,392150)](_0x248f80(353134,334503,451704))
+_0x790d6c[_0x248f80(508575,506852,831963)]=_0xcca467[25][_0x248f80(240015,249889,501856)](1,_0xfc82ca(726907,726906))
+_0x790d6c[_0x3f0d21(357669,335710,352636)]=1
+_0x790d6c[_0x2b4f7f(794324,108207,103616)]=_0xcca467[18][_0x2b4f7f(1002266,193377,180494)][_0x248f80(130008,98840,1047242)]
+_0x790d6c[_0x2b4f7f(754661,366982,371703)]=(796+_0x95b3ae(_0x6bafdb(180,936),1)-1105)
+_0x790d6c[_0x3f0d21(143234,944741,146425)]=_0x616a6c[_0x248f80(225484,199000,734393)]
+_0x790d6c[_0x2b4f7f(609387,95924,83138)]=_0x2b4f7f(344529,248916,254884)
+_0x790d6c[_0x2b4f7f(598518,406622,394819)]=(245+_0x95b3ae(_0x6bafdb(758,515),1)-1262)
+_0x790d6c[_0x2b4f7f(156497,308449,296209)]=_0xa8ee83
+function _0x6c1e70(_0xc653d0)
+_0xa5f468=_0xc653d0
+if _0xc653d0 then
+_0x968287[_0x2b4f7f(1042946,144555,132789)]=false
+_0x155c1d[_0x2b4f7f(930585,404873,401384)](_0x155c1d,_0x66e5a3,_0xcca467[32][_0x2b4f7f(789195,400113,404432)](0.18,_0xcca467[_0xc84f9e[87]-71][_0x3f0d21(519802,313190,522908)][_0x3f0d21(504456,302338,501359)],_0xcca467[_0xc84f9e[183]-134][_0x3f0d21(320522,201462,323810)][_0x3f0d21(363905,394764,366952)]),{
+[_0x248f80(220560,206059,536276)]=_0xcca467[25][_0x2b4f7f(307039,161781,148895)](350,34)
 }):Play()
-_0x4383af[_0xd44ced(439075,407758,457554)]=true
-_0x913126[_0xe8ebea(501722,519276,195747)]=true
-_0xc96c19[21][_0xd44ced(300116,939405,318811)](function()
-if _0x4383af and _0x4383af[_0xd44ced(234520,792548,253019)]then
-_0x4383af[_0xd44ced(449270,320083,431032)](_0x4383af)
+_0x09407f[_0x2b4f7f(544975,364134,375928)]=true
+_0xa8ee83[_0x3f0d21(510808,895395,515967)]=true
+_0xcca467[_0xc84f9e[192]-185][_0x2b4f7f(279948,211405,199536)](function()
+if _0x09407f and _0x09407f[_0x3f0d21(437408,509762,442201)]then
+_0x09407f[_0x2b4f7f(694464,141111,136662)](_0x09407f)
 end
 end)
 else
-_0x4383af[_0x848d34(403453,405746,423462)]=false
-_0x913126[_0xe8ebea(511605,492995,169228)]=false
-_0x3cf4c8[_0xd44ced(93569,342778,75061)](_0x3cf4c8,_0x2beaed,_0xc96c19[32][_0xe8ebea(169514,187539,465904)](0.18,_0xc96c19[23][_0x848d34(364906,372079,387778)][_0x848d34(928341,228431,211937)],_0xc96c19[_0x40b209[220]-17][_0xe8ebea(229566,248879,940323)][_0xd44ced(491732,951349,510361)]),{
-[_0x848d34(442729,405497,420120)]=_0xc96c19[18][_0xe8ebea(338949,352263,878249)](_0xea489d(_0x40b209[33],190),(149+_0xa81147(_0xfaf96b(198,83),1)-249))
+_0x09407f[_0x3f0d21(184440,569987,181343)]=false
+_0xa8ee83[_0x248f80(471804,478098,952215)]=false
+_0x155c1d[_0x3f0d21(277760,761794,272746)](_0x155c1d,_0x66e5a3,_0xcca467[32][_0x2b4f7f(849314,451992,447673)](0.18,_0xcca467[_0xc84f9e[86]-40][_0x248f80(296235,327430,293092)][_0x248f80(510608,503998,471498)],_0xcca467[18][_0x3f0d21(115545,406949,120753)][_0x2b4f7f(346819,97564,86012)]),{
+[_0x2b4f7f(871126,152133,155758)]=_0xcca467[_0xc84f9e[56]-204][_0x3f0d21(302636,391892,297567)](_0xfc82ca(20098,19976),(1144+_0x95b3ae(_0x6bafdb(1823,871),1)-2662))
 }):Play()
-_0xe53ff6[_0xd44ced(177629,146992,196012)]=true
+_0x968287[_0x2b4f7f(667821,519684,515098)]=true
 end
 end
-local function _0x2b2a91()
-local _0x50740f=_0xc96c19[9][_0x848d34(128505,255962,238498)](_0x4383af[_0xe8ebea(401470,420912,1026402)]or _0xe8ebea(135842,154501,113980),_0xd44ced(505035,812538,520925),_0xe8ebea(495797,514537,311364))
-if#_0x50740f<(_0x40b209[107]-212)then
-_0x0b0364(_0xd44ced(68609,552150,83278),_0xe8ebea(67389,84904,154090),1.8)
-_0x010377(false)
+local function _0x41535f()
+local _0xb32c18=_0xcca467[34][_0x2b4f7f(450972,296055,306134)](_0x09407f[_0x2b4f7f(796287,269472,274134)]or _0x248f80(364601,386701,934450),_0x3f0d21(305119,733808,308751),_0x3f0d21(424428,406593,419901))
+if#_0xb32c18<_0xfc82ca(184862,184861)then
+_0x75164e(_0x3f0d21(181711,838093,184612),_0x3f0d21(380940,442973,378080),1.8)
+_0x6c1e70(false)
 return
 end
-local _0x04572b,_0x51accd=_0x631c3b(_0x50740f)
-_0x4383af[_0x848d34(1001174,230468,246632)]=_0x848d34(348359,242110,259579)
-_0x010377(false)
-_0x0b0364(_0xd44ced(177862,775697,196489),_0x51accd,2.5)
+local _0xd1dd60,_0x363e9f=_0x1122cc(_0xb32c18)
+_0x09407f[_0x3f0d21(456962,622479,454013)]=_0x248f80(319911,300819,996268)
+_0x6c1e70(false)
+_0x75164e(_0x248f80(286537,271739,624519),_0x363e9f,2.5)
 end
-_0xe53ff6[_0xd44ced(121174,339219,102836)]:Connect(function()
-local _0x620d82,_0xcfe875=_0x2fe3b7()
-if not _0x620d82 then
-_0x0b0364(_0xe8ebea(326362,308814,544187),_0xcfe875,2.4)
+_0x968287[_0x248f80(119378,109453,848978)]:Connect(function()
+local _0x3e875c,_0x953720=_0xe01d06()
+if not _0x3e875c then
+_0x75164e(_0x248f80(197551,227741,973665),_0x953720,2.4)
 return
 end
-_0x010377(true)
+_0x6c1e70(true)
 end)
-_0x8fbd41[_0x848d34(522462,233593,251708)]:Connect(_0x2b2a91)
-_0x4383af[_0xe8ebea(313954,296692,142612)]:Connect(function(_0xb21689)
-if _0xb21689 then
-_0x2b2a91()
+_0x790d6c[_0x248f80(117921,111998,846497)]:Connect(_0x41535f)
+_0x09407f[_0x248f80(80306,82822,333787)]:Connect(function(_0x1404ce)
+if _0x1404ce then
+_0x41535f()
 end
 end)
 end
-local _0x0829b6,_0xa527ca=_0x6f36f0(
-_0x0379ea,
-_0x848d34(740622,68978,84679),
-_0xe8ebea(262882,280833,605953),
-_0x3f3f8e[_0xd44ced(293329,1030914,274755)],
+local _0x6de09a,_0x1d368e=_0x45e78c(
+_0x6b0ddd,
+_0x248f80(236317,254248,852116),
+_0x2b4f7f(828023,436830,432149),
+_0x616a6c[_0x248f80(378624,376463,882157)],
 0.10,
-_0x3f3f8e[_0xe8ebea(502998,517898,696050)],
+_0x616a6c[_0x3f0d21(515036,805059,511889)],
 0.22
 )
-_0x0829b6[_0xd44ced(138122,158200,152564)]=_0xc96c19[_0x40b209[127]-127][_0x848d34(227671,106356,120928)](_0xea489d(451207,451206),(1502+_0xa81147(_0xfaf96b(425,1143),1)-1567))
-_0x0829b6[_0xd44ced(273570,458182,287954)]=(3663+_0xa81147(_0xfaf96b(1025,2638),1)-3661)
-_0xa527ca[_0xd44ced(272507,456991,286731)]=(584+_0xa81147(_0xfaf96b(869,301),1)-1167)
-local _0x609f9d=_0x6f36f0(_0x0829b6,_0x848d34(206972,208110,224088),_0x848d34(453863,383121,368531),_0x3f3f8e[_0x848d34(814399,407621,425651)],0.22,nil,(355+_0xa81147(_0xfaf96b(856,571),1)-1426))
-_0x609f9d[_0x848d34(1022683,324335,308997)]=_0xc96c19[_0x40b209[27]-130][_0xe8ebea(390316,374958,900608)](_0xea489d(_0x40b209[111],73),(2238+_0xa81147(_0xfaf96b(3037,867),1)-3894))
-_0x609f9d[_0xd44ced(462254,491484,476624)]=_0xc96c19[_0x40b209[204]-163][_0x848d34(143723,192968,177183)](_0xea489d(963544,963545),-_0xea489d(_0x40b209[238],217),(2774+_0xa81147(_0xfaf96b(989,2315),1)-3304),50)
-_0x609f9d[_0x848d34(410257,266007,281028)]=_0xea489d(_0x40b209[155],68)
-local _0xcd9f58=_0xc96c19[17][_0x848d34(331005,379998,362889)](_0xd44ced(145599,759225,159870))
-_0xcd9f58[_0xe8ebea(396108,409984,536180)]=_0xc96c19[18][_0x848d34(993287,141673,159305)](16,_0xea489d(391596,391595))
-_0xcd9f58[_0x848d34(366807,357959,340134)]=_0xc96c19[18][_0xe8ebea(150219,132809,655463)](_0xea489d(769073,769261),_0xea489d(_0x40b209[20],117))
-_0xcd9f58[_0xd44ced(431491,250114,449824)]=(123+_0xa81147(_0xfaf96b(121,2),1)-122)
-_0xcd9f58[_0x848d34(195751,73847,91986)]=_0xc96c19[_0x40b209[83]+10][_0x848d34(496761,280745,266124)][_0x848d34(558390,135321,153560)]
-_0xcd9f58[_0x848d34(1003462,109968,125623)]=(_0x40b209[56]-75)
-_0xcd9f58[_0xe8ebea(362499,377865,983870)]=_0x3f3f8e[_0x848d34(701917,297172,314922)]
-_0xcd9f58[_0x848d34(218011,197813,213916)]=_0xc96c19[23][_0x848d34(310548,322106,306451)][_0x848d34(7442,312468,295870)]
-_0xcd9f58[_0xd44ced(79465,255757,97817)]=5
-_0xcd9f58[_0x848d34(633633,354739,339615)]=_0x848d34(81251,326804,310230)
-_0xcd9f58[_0xd44ced(297080,723844,311355)]=_0x609f9d
-local _0x794685=_0xc96c19[_0x40b209[155]-54][_0xe8ebea(197193,215280,429971)](_0x848d34(561477,106657,124805))
-_0x794685[_0xe8ebea(105830,120746,1030238)]=_0xc96c19[_0x40b209[194]-149][_0xd44ced(280885,644281,262536)](16,_0xea489d(263510,263500))
-_0x794685[_0xe8ebea(343523,357920,40816)]=_0xc96c19[_0x40b209[183]+17][_0x848d34(1019946,168260,185956)]((2457+_0xa81147(_0xfaf96b(2116,477),1)-2333),(3986+_0xa81147(_0xfaf96b(648,3354),1)-3987))
-_0x794685[_0x848d34(297967,86924,70794)]=(1018+_0xa81147(_0xfaf96b(1018,0),1)-1017)
-_0x794685[_0xe8ebea(245974,232657,350145)]=_0xc96c19[23][_0xe8ebea(271855,289256,176888)][_0x848d34(287192,183532,166869)]
-_0x794685[_0xe8ebea(140460,157861,625971)]=11
-_0x794685[_0x848d34(704883,328068,345772)]=_0x3f3f8e[_0x848d34(696548,188124,170022)]
-_0x794685[_0xd44ced(334353,381405,348887)]=_0xc96c19[23][_0xe8ebea(304729,322130,113340)][_0xd44ced(202928,482772,217207)]
-_0x794685[_0xe8ebea(103799,122562,431236)]=_0xea489d(_0x40b209[92],188)
-_0x794685[_0x848d34(1000343,229637,247337)]=_0x848d34(583661,520314,505805)
-_0x794685[_0xe8ebea(357668,343724,992882)]=_0x609f9d
-local _0xe87736=_0x6f36f0(_0x609f9d,_0xe8ebea(439835,457345,987163),_0x848d34(1000493,454864,440188),_0x3f3f8e[_0xd44ced(283471,332604,269273)],0.18,nil,_0xea489d(_0x40b209[221],249))
-_0xe87736[_0x848d34(214431,417142,399977)]=_0xc96c19[15][_0x848d34(432974,416749,400954)](_0xea489d(35957,35956),0.5)
-_0xe87736[_0xe8ebea(403140,420872,525308)]=_0xc96c19[_0x40b209[156]-58][_0xd44ced(245439,254718,260555)]((943+_0xa81147(_0xfaf96b(620,451),1)-1070),-12,0.5,_0xea489d(_0x40b209[231],240))
-_0xe87736[_0x848d34(504674,482802,465683)]=_0xc96c19[_0x40b209[59]-237][_0x848d34(677735,480777,463145)]((388+_0xa81147(_0xfaf96b(31,411),1)-374),(3804+_0xa81147(_0xfaf96b(3789,17),1)-3781))
-_0xe87736[_0xe8ebea(443232,428245,115347)]=(2011+_0xa81147(_0xfaf96b(1410,601),1)-2006)
-local _0x128f9b=_0xc96c19[17][_0xd44ced(303798,327415,320962)](_0xd44ced(145321,214340,163685))
-_0x128f9b[_0x848d34(244388,218164,201429)]=_0xc96c19[_0x40b209[187]-205][_0xe8ebea(277200,291110,233669)]((829+_0xa81147(_0xfaf96b(255,962),1)-1216),_0xea489d(48044,48045))
-_0x128f9b[_0xe8ebea(330125,344677,368070)]=_0xea489d(_0x40b209[248],197)
-_0x128f9b[_0x848d34(376299,418107,402974)]=_0xc96c19[23][_0x848d34(457093,337237,352880)][_0xd44ced(306221,1010333,320750)]
-_0x128f9b[_0xd44ced(142142,808330,156666)]=(_0x40b209[168]-210)
-_0x128f9b[_0xd44ced(258912,831349,244645)]=_0x3f3f8e[_0xe8ebea(122019,104258,868367)]
-_0x128f9b[_0x848d34(684016,437602,453198)]=_0x1b3a2b and _0x848d34(62826,272929,290200)or _0x848d34(753233,475150,460724)
-_0x128f9b[_0xd44ced(71229,247641,89677)]=_0xea489d(1033863,1033857)
-_0x128f9b[_0xd44ced(99293,917537,117662)]=_0xe87736
-local _0x38db58,_0x9f3dcd,_0x96438b=false,nil,nil
-_0x609f9d[_0xe8ebea(232514,245876,529481)]:Connect(function(_0x6a6360)
-if _0x6a6360[_0xd44ced(204653,327886,219039)]==_0xc96c19[_0x40b209[102]-143][_0x848d34(10057,435208,451421)][_0x848d34(267459,187829,170723)]or _0x6a6360[_0xd44ced(424491,25992,406233)]==_0xc96c19[_0x40b209[133]-136][_0xd44ced(266395,134968,284777)][_0x848d34(20793,205662,222217)]then
-_0x38db58=true
-_0x9f3dcd=_0x6a6360[_0xe8ebea(466609,480381,605065)]
-_0x96438b=_0x0379ea[_0x848d34(1006149,275057,292763)]
+_0x6de09a[_0x248f80(337438,352101,939354)]=_0xcca467[25][_0x248f80(123351,104569,385080)]((_0xc84f9e[213]-108),1)
+_0x6de09a[_0x2b4f7f(981663,126775,122154)]=(1889+_0x95b3ae(_0x6bafdb(542,1407),1)-1947)
+_0x1d368e[_0x248f80(257562,235383,561267)]=_0xfc82ca(245663,245660)
+local _0x83b7ea=_0x45e78c(_0x6de09a,_0x3f0d21(260164,460232,257195),_0x248f80(213662,211714,744626),_0x616a6c[_0x248f80(379552,373552,422783)],0.22,nil,_0xfc82ca(718051,718050))
+_0x83b7ea[_0x3f0d21(389628,936558,385729)]=_0xcca467[25][_0x3f0d21(74999,16399,77956)]((_0xc84f9e[231]-191),_0xfc82ca(586697,586691))
+_0x83b7ea[_0x3f0d21(253008,751761,247908)]=_0xcca467[25][_0x248f80(177797,184052,838754)](_0xfc82ca(_0xc84f9e[206],42),-_0xfc82ca(413196,413208),(_0xc84f9e[32]-32),50)
+_0x83b7ea[_0x3f0d21(467092,1018222,472242)]=_0xfc82ca(744260,744263)
+local _0x4ce245=_0xcca467[29][_0x248f80(119563,109434,1026540)](_0x3f0d21(185854,14431,180617))
+_0x4ce245[_0x248f80(112551,118563,645711)]=_0xcca467[25][_0x248f80(394940,425734,308480)](16,_0xfc82ca(665209,665214))
+_0x4ce245[_0x2b4f7f(796387,212592,199771)]=_0xcca467[25][_0x2b4f7f(165097,285763,290345)](_0xfc82ca(_0xc84f9e[83],111),(993+_0x95b3ae(_0x6bafdb(1129,1928),1)-3037))
+_0x4ce245[_0x2b4f7f(150353,367992,372520)]=_0xfc82ca(675951,675950)
+_0x4ce245[_0x2b4f7f(609012,324239,311520)]=_0xcca467[18][_0x248f80(72095,90144,576247)][_0x3f0d21(276504,925389,273548)]
+_0x4ce245[_0x3f0d21(177267,725570,172041)]=_0xfc82ca(27710,27692)
+_0x4ce245[_0x3f0d21(349141,595506,346030)]=_0x616a6c[_0x3f0d21(127735,197892,124582)]
+_0x4ce245[_0x248f80(94694,67621,1043141)]=_0xcca467[18][_0x3f0d21(519336,696502,522452)][_0x3f0d21(369340,854916,374465)]
+_0x4ce245[_0x3f0d21(158280,705458,163438)]=_0xfc82ca(149672,149677)
+_0x4ce245[_0x248f80(473606,476096,748467)]=_0x3f0d21(496642,1000678,491671)
+_0x4ce245[_0x3f0d21(343904,283778,339097)]=_0x83b7ea
+local _0xb4128f=_0xcca467[_0xc84f9e[254]-46][_0x248f80(185624,175465,831487)](_0x3f0d21(212800,119521,207671))
+_0xb4128f[_0x3f0d21(236035,532881,231742)]=_0xcca467[25][_0x2b4f7f(230102,350844,354326)](_0xfc82ca(1881,1865),_0xfc82ca(33700,33726))
+_0xb4128f[_0x3f0d21(267928,832089,262828)]=_0xcca467[_0xc84f9e[135]-49][_0x2b4f7f(349645,232807,245517)](_0xfc82ca(_0xc84f9e[172],328),_0xfc82ca(50323,50332))
+_0xb4128f[_0x248f80(120884,106900,156945)]=_0xfc82ca(883712,883713)
+_0xb4128f[_0x3f0d21(233612,627877,230644)]=_0xcca467[18][_0x3f0d21(199575,593854,204783)][_0x3f0d21(380278,530454,383482)]
+_0xb4128f[_0x248f80(233453,259628,655075)]=_0xfc82ca(1048121,1048114)
+_0xb4128f[_0x3f0d21(99843,902116,103032)]=_0x616a6c[_0x3f0d21(468881,832654,472028)]
+_0xb4128f[_0x2b4f7f(898262,476314,489193)]=_0xcca467[18][_0x248f80(103182,125645,985133)][_0x3f0d21(453921,934937,457052)]
+_0xb4128f[_0x248f80(481979,467926,795858)]=(555+_0x95b3ae(_0x6bafdb(764,215),1)-974)
+_0xb4128f[_0x248f80(104432,126518,902725)]=_0x2b4f7f(443323,368345,371774)
+_0xb4128f[_0x2b4f7f(219791,363839,376015)]=_0x83b7ea
+local _0x0fd7bb=_0x45e78c(_0x83b7ea,_0x3f0d21(482191,638934,479102),_0x248f80(176080,185852,220823),_0x616a6c[_0x248f80(309833,312282,517296)],0.18,nil,_0xfc82ca(136751,136750))
+_0x0fd7bb[_0x3f0d21(486364,231734,491438)]=_0xcca467[17][_0x248f80(305480,315705,709551)](_0xfc82ca(_0xc84f9e[130],79),0.5)
+_0x0fd7bb[_0x248f80(318221,304009,833253)]=_0xcca467[25][_0x3f0d21(112360,793216,107970)]((_0xc84f9e[43]-3),-(_0xc84f9e[191]-120),0.5,0)
+_0x0fd7bb[_0x248f80(376957,375046,963385)]=_0xcca467[25][_0x2b4f7f(494373,86927,90597)]((1559+_0x95b3ae(_0x6bafdb(1619,68),1)-1619),25)
+_0x0fd7bb[_0x2b4f7f(627489,427657,439444)]=5
+local _0x93307b=_0xcca467[29][_0x2b4f7f(1031699,372265,368392)](_0x248f80(294579,264058,522661))
+_0x93307b[_0x2b4f7f(791214,199229,210966)]=_0xcca467[25][_0x2b4f7f(179570,186271,189889)]((_0xc84f9e[150]-215),(_0xc84f9e[254]-74))
+_0x93307b[_0x2b4f7f(89961,428352,441104)]=_0xfc82ca(497497,497496)
+_0x93307b[_0x3f0d21(415912,810113,412880)]=_0xcca467[_0xc84f9e[141]-62][_0x2b4f7f(732813,431862,435353)][_0x3f0d21(418668,767296,423701)]
+_0x93307b[_0x2b4f7f(801559,139636,135941)]=_0xfc82ca(264988,264983)
+_0x93307b[_0x2b4f7f(536578,248247,261061)]=_0x616a6c[_0x3f0d21(134224,588587,137218)]
+_0x93307b[_0x3f0d21(163019,916038,157876)]=_0x0df478 and _0x3f0d21(88957,792762,85903)or _0x248f80(404225,414011,504122)
+_0x93307b[_0x3f0d21(118144,615546,121254)]=_0xfc82ca(720897,720903)
+_0x93307b[_0x3f0d21(114955,43753,119538)]=_0x0fd7bb
+local _0x7758e1,_0x5240d9,_0x884f63=false,nil,nil
+_0x83b7ea[_0x3f0d21(445843,364743,448820)]:Connect(function(_0x25a174)
+if _0x25a174[_0x248f80(344436,342171,156666)]==_0xcca467[_0xc84f9e[205]-135][_0x248f80(193188,166731,380970)][_0x248f80(479709,469037,571758)]or _0x25a174[_0x3f0d21(269727,59392,264503)]==_0xcca467[18][_0x3f0d21(95881,361238,90657)][_0x248f80(269402,288171,23593)]then
+_0x7758e1=true
+_0x5240d9=_0x25a174[_0x2b4f7f(689769,426409,438429)]
+_0x884f63=_0x6b0ddd[_0x3f0d21(344201,981787,349108)]
 end
 end)
-_0x1ceeaf[_0xe8ebea(174319,189653,311053)]:Connect(function(_0x6a6360)
-if _0x38db58 and(_0x6a6360[_0xe8ebea(423005,407658,376043)]==_0xc96c19[23][_0x848d34(221731,385378,370231)][_0xd44ced(283325,928017,268875)]or _0x6a6360[_0xe8ebea(464673,482070,319383)]==_0xc96c19[23][_0xd44ced(332230,200293,350516)][_0x848d34(517037,299466,317085)])then
-local _0x46c609=_0x6a6360[_0x848d34(847376,493092,508878)]-_0x9f3dcd
-_0x0379ea[_0x848d34(917492,432064,447018)]=_0xc96c19[18][_0x848d34(441354,425129,407934)](
-_0x96438b[_0x848d34(273225,376496,392063)][_0x848d34(632124,148969,131798)],_0x96438b[_0x848d34(359323,323170,306093)][_0xe8ebea(145461,160777,523097)]+_0x46c609[_0xe8ebea(285351,266262,33327)],
-_0x96438b[_0xe8ebea(137898,151576,566437)][_0x848d34(993774,313659,298500)],_0x96438b[_0xe8ebea(125721,106923,742678)][_0x848d34(307396,276564,294670)]+_0x46c609[_0x848d34(862063,185362,168386)]
+_0xdbf3be[_0x2b4f7f(953695,426595,438465)]:Connect(function(_0x25a174)
+if _0x7758e1 and(_0x25a174[_0x3f0d21(313670,15577,318958)]==_0xcca467[18][_0x248f80(255799,237272,312761)][_0x3f0d21(471986,207598,468766)]or _0x25a174[_0x3f0d21(273389,56946,278341)]==_0xcca467[_0xc84f9e[157]-162][_0x2b4f7f(381408,432173,436914)][_0x2b4f7f(337182,331312,343185)])then
+local _0x8c15cb=_0x25a174[_0x248f80(311180,313096,840292)]-_0x5240d9
+_0x6b0ddd[_0x3f0d21(400859,894537,397030)]=_0xcca467[_0xc84f9e[248]-229][_0x248f80(151832,141673,797695)](
+_0x884f63[_0x248f80(214052,212045,271141)][_0x2b4f7f(1039200,303900,299413)],_0x884f63[_0x3f0d21(83130,390444,87960)][_0x2b4f7f(1034663,201914,206366)]+_0x8c15cb[_0x248f80(337047,351486,148374)],
+_0x884f63[_0x3f0d21(109316,70863,112679)][_0x3f0d21(134181,968715,137399)],_0x884f63[_0x3f0d21(131038,81941,126205)][_0x248f80(343541,345089,887728)]+_0x8c15cb[_0x3f0d21(342082,362377,338785)]
 )
 end
 end)
-_0x1ceeaf[_0x848d34(13131,336922,353089)]:Connect(function(_0x6a6360)
-if _0x6a6360[_0xe8ebea(93338,73901,173100)]==_0xc96c19[23][_0xe8ebea(511834,492397,264172)][_0xe8ebea(208574,221830,44080)]or _0x6a6360[_0x848d34(99045,459172,476913)]==_0xc96c19[23][_0xd44ced(81969,483218,67779)][_0xd44ced(307678,483163,325930)]then
-_0x38db58=false
+_0xdbf3be[_0x2b4f7f(229008,319078,322755)]:Connect(function(_0x25a174)
+if _0x25a174[_0x248f80(325983,295088,252881)]==_0xcca467[_0xc84f9e[46]-96][_0x3f0d21(98878,358305,104086)][_0x3f0d21(178168,952389,172881)]or _0x25a174[_0x2b4f7f(343447,423002,411333)]==_0xcca467[18][_0x2b4f7f(398153,350852,354331)][_0x3f0d21(316700,213600,311734)]then
+_0x7758e1=false
 end
 end)
-local _0xaeab56=_0xc96c19[_0x40b209[53]-161][_0x848d34(284911,301132,318875)](_0x848d34(44173,118802,104361))
-_0xaeab56[_0xd44ced(372006,706176,387886)]=_0xe8ebea(372661,385835,612510)
-_0xaeab56[_0x848d34(667493,83793,66235)]=_0xc96c19[18][_0xe8ebea(74534,93988,616842)]((1318+_0xa81147(_0xfaf96b(1815,561),1)-2364),68)
-_0xaeab56[_0xd44ced(112766,117260,126976)]=_0xc96c19[_0x40b209[62]+14][_0x848d34(523513,474202,489869)]((_0x40b209[97]-38),-24,_0xea489d(181553,181552),-_0xea489d(539341,539293))
-_0xaeab56[_0xe8ebea(495082,509442,465313)]=_0xea489d(459887,459886)
-_0xaeab56[_0x848d34(989680,412232,396632)]=(_0x40b209[160]-14)
-_0xaeab56[_0x848d34(463876,160623,144594)]=_0x1b3a2b and _0xea489d(_0x40b209[88],234)or(_0x40b209[239]-4)
-_0xaeab56[_0x848d34(613082,281357,265395)]=_0x3f3f8e[_0xe8ebea(353634,339646,546630)]
-_0xaeab56[_0x848d34(826493,315589,300922)]=_0xc96c19[18][_0xd44ced(498704,507985,514916)]((_0x40b209[221]-248),(2783+_0xa81147(_0xfaf96b(92,2691),1)-2783),_0xea489d(_0x40b209[224],16),_0xea489d(_0x40b209[26],68))
-_0xaeab56[_0x848d34(513706,204920,223160)]=_0xc96c19[_0x40b209[231]-217][_0xe8ebea(298385,311602,867816)][_0xd44ced(138645,881162,154360)]
-_0xaeab56[_0x848d34(341592,490462,474381)]=_0xea489d(_0x40b209[73],204)
-_0xaeab56[_0xe8ebea(403940,418412,817842)]=_0x0829b6
-local _0xa2f341=_0xc96c19[_0x40b209[152]-233][_0xe8ebea(386421,372684,26799)](_0x848d34(109416,84460,69342))
-_0xa2f341[_0x848d34(969178,406461,423054)]=_0xc96c19[_0x40b209[45]-154][_0x848d34(758706,223701,208614)][_0xd44ced(523688,792692,505209)]
-_0xa2f341[_0xd44ced(197397,81874,216001)]=_0xc96c19[16][_0xe8ebea(227830,209743,455724)](_0xea489d(703013,703013),_0xea489d(428781,428778))
-_0xa2f341[_0xe8ebea(419698,404730,799780)]=_0xaeab56
-local _0x3267d2=_0xc96c19[17][_0xe8ebea(269333,284332,102863)](_0x848d34(659302,331729,346131))
-_0x3267d2[_0xd44ced(158663,984985,139943)]=_0xc96c19[16][_0xe8ebea(262249,281296,101811)](_0xea489d(599506,599506),(449+_0xa81147(_0xfaf96b(1737,1800),1)-3527))
-_0x3267d2[_0x848d34(64629,241012,256688)]=_0xc96c19[16][_0x848d34(520993,471938,489045)]((1941+_0xa81147(_0xfaf96b(908,1049),1)-1957),_0xea489d(493497,493500))
-_0x3267d2[_0xe8ebea(277041,291257,944487)]=_0xaeab56
-local _0xd4f42f=nil
+local _0xb0d9aa=_0xcca467[_0xc84f9e[122]-170][_0x2b4f7f(630978,241912,229849)](_0x248f80(425495,394284,1043320))
+_0xb0d9aa[_0x248f80(369183,382149,98526)]=_0x248f80(348900,338136,538538)
+_0xb0d9aa[_0x3f0d21(218916,584886,214041)]=_0xcca467[25][_0x3f0d21(237428,195468,232199)](_0xfc82ca(_0xc84f9e[149],128),(2015+_0x95b3ae(_0x6bafdb(1817,198),1)-1947))
+_0xb0d9aa[_0x3f0d21(439123,923538,436071)]=_0xcca467[_0xc84f9e[60]-230][_0x3f0d21(281170,648762,285048)](_0xfc82ca(724852,724853),-_0xfc82ca(_0xc84f9e[46],106),_0xfc82ca(_0xc84f9e[212],231),-(62+_0x95b3ae(_0x6bafdb(105,87),1)-112))
+_0xb0d9aa[_0x248f80(502850,513506,266599)]=_0xfc82ca(_0xc84f9e[195],213)
+_0xb0d9aa[_0x248f80(219478,205052,767386)]=_0xfc82ca(901330,901330)
+_0xb0d9aa[_0x2b4f7f(951562,311941,323688)]=_0x0df478 and _0xfc82ca(624042,624047)or(1560+_0x95b3ae(_0x6bafdb(1758,198),1)-1953)
+_0xb0d9aa[_0x248f80(477376,471806,1000510)]=_0x616a6c[_0x248f80(501025,515253,1040724)]
+_0xb0d9aa[_0x2b4f7f(685750,335146,339909)]=_0xcca467[_0xc84f9e[155]-27][_0x2b4f7f(924978,265480,277545)]((898+_0x95b3ae(_0x6bafdb(310,692),1)-1002),_0xfc82ca(918818,918818),(439+_0x95b3ae(_0x6bafdb(180,259),1)-439),(378+_0x95b3ae(_0x6bafdb(13,375),1)-388))
+_0xb0d9aa[_0x3f0d21(148832,69674,151961)]=_0xcca467[18][_0x248f80(71929,90808,753833)][_0x248f80(515435,500993,308276)]
+_0xb0d9aa[_0x2b4f7f(844540,259924,247113)]=4
+_0xb0d9aa[_0x248f80(68318,95134,243330)]=_0x6de09a
+local _0x3da048=_0xcca467[_0xc84f9e[216]+9][_0x3f0d21(300575,604791,296245)](_0x2b4f7f(519010,73732,70264))
+_0x3da048[_0x248f80(450904,432277,320984)]=_0xcca467[18][_0x2b4f7f(509852,108669,104960)][_0x3f0d21(381830,970137,378625)]
+_0x3da048[_0x248f80(211810,213683,961157)]=_0xcca467[_0xc84f9e[212]-199][_0x2b4f7f(741294,90004,93877)](_0xfc82ca(918978,918978),_0xfc82ca(109944,109951))
+_0x3da048[_0x2b4f7f(296214,152230,156502)]=_0xb0d9aa
+local _0xa98cb0=_0xcca467[29][_0x248f80(226353,199744,855766)](_0x3f0d21(89410,981763,84409))
+_0xa98cb0[_0x248f80(180738,178241,307427)]=_0xcca467[31][_0x248f80(378402,376403,769221)](_0xfc82ca(383984,383984),_0xfc82ca(634083,634089))
+_0xa98cb0[_0x248f80(130920,99628,693947)]=_0xcca467[31][_0x2b4f7f(627789,230519,243030)](_0xfc82ca(894722,894722),_0xfc82ca(521141,521136))
+_0xa98cb0[_0x2b4f7f(165724,282860,287004)]=_0xb0d9aa
+local _0x5a6686=nil
 ;(function()
-local _0x706227={}
-for _0xbc6afd,_0x474c99 in _0xc96c19[_0x40b209[165]-199](_0x76c04c)do
-_0xc96c19[6][_0xd44ced(436626,970819,454255)](_0x706227,_0x474c99)
+local _0x92c21b={}
+for _0x1127a1,_0xf4dfc9 in _0xcca467[28](_0x63be9c)do
+_0xcca467[_0xc84f9e[72]-179][_0x3f0d21(362681,129618,367370)](_0x92c21b,_0xf4dfc9)
 end
-_0xc96c19[6][_0x848d34(662630,225967,210389)](_0x706227,function(_0x434f95,_0xb6a186)return _0x434f95[_0xd44ced(397082,282173,412003)]<_0xb6a186[_0xe8ebea(450040,431174,85571)]end)
-for _0xbc6afd,_0x17d8a8 in _0xc96c19[11](_0x706227)do
-local _0xe47f10,_0xf1cdf1=_0x6f36f0(
-_0xaeab56,
-_0x17d8a8[_0xe8ebea(481771,463014,909346)],
-_0xe8ebea(433100,446504,58270),
-_0x17d8a8[_0x848d34(134982,292385,274970)]and _0x3f3f8e[_0xe8ebea(362670,377716,1027716)]or _0x3f3f8e[_0x848d34(589876,156249,140462)],
-_0x17d8a8[_0xd44ced(241334,346931,256878)]and 0.08 or 0.20,
-_0x17d8a8[_0xe8ebea(279785,265716,488275)]and _0x3f3f8e[_0x848d34(664515,155131,137985)]or _0x3f3f8e[_0xd44ced(290572,653802,272278)],
-_0x17d8a8[_0x848d34(259792,364471,379788)]and 0.32 or _0xea489d(357066,357067)
+_0xcca467[_0xc84f9e[140]-61][_0x248f80(486917,463890,766717)](_0x92c21b,function(_0x3c3b3e,_0xa1d3dc)return _0x3c3b3e[_0x248f80(425542,395582,635422)]<_0xa1d3dc[_0x3f0d21(460229,725019,464884)]end)
+for _0x1127a1,_0x981e8b in _0xcca467[10](_0x92c21b)do
+local _0x2cefa3,_0xe187e1=_0x45e78c(
+_0xb0d9aa,
+_0x981e8b[_0x2b4f7f(327757,345850,354672)],
+_0x2b4f7f(578664,303476,299832),
+_0x981e8b[_0x3f0d21(472277,778133,468406)]and _0x616a6c[_0x2b4f7f(444140,73014,77684)]or _0x616a6c[_0x248f80(298767,325278,942508)],
+_0x981e8b[_0x2b4f7f(964206,385404,380454)]and 0.08 or 0.20,
+_0x981e8b[_0x2b4f7f(688469,120391,129309)]and _0x616a6c[_0x248f80(267613,289993,807208)]or _0x616a6c[_0x3f0d21(443588,986258,446612)],
+_0x981e8b[_0x2b4f7f(1025808,323586,319320)]and 0.32 or _0xfc82ca(761221,761220)
 )
-_0xe47f10[_0x848d34(848768,494270,511370)]=_0x17d8a8[_0x848d34(310064,419573,401961)]
-_0xe47f10[_0xd44ced(517198,497212,502832)]=_0xc96c19[18][_0xe8ebea(273062,286751,108412)](_0xea489d(669225,669224),_0xea489d(485954,485954),_0xea489d(_0x40b209[21],0),_0xea489d(898534,898510))
-_0xe47f10[_0xe8ebea(512168,498703,132284)]=true
-_0xe47f10[_0xe8ebea(473704,487901,15259)]=(3883+_0xa81147(_0xfaf96b(59,3856),1)-3911)
-if _0xf1cdf1 then _0xf1cdf1[_0xe8ebea(205371,223630,271304)]=_0xea489d(994806,994803)end
-local _0x379faf=_0xc96c19[_0x40b209[140]-6][_0xd44ced(125686,112311,109954)](_0xd44ced(377606,307691,363466))
-_0x379faf[_0xd44ced(414158,402364,399792)]=_0xc96c19[18][_0x848d34(106911,90428,74987)]((1375+_0xa81147(_0xfaf96b(230,1465),1)-1694),0,(_0x40b209[104]-24),(893+_0xa81147(_0xfaf96b(1321,1620),1)-2901))
-_0x379faf[_0xd44ced(329432,16985,347771)]=1
-_0x379faf[_0xe8ebea(210368,227790,703644)]=_0x848d34(77045,511372,494025)
-_0x379faf[_0xd44ced(492419,564663,510688)]=false
-_0x379faf[_0xe8ebea(456113,441860,128066)]=6
-_0x379faf[_0xd44ced(414585,643205,400186)]=_0xe47f10
-local _0xfbad8e=_0x6f36f0(
-_0x379faf,
-_0xe8ebea(115632,102169,720684),
-_0x848d34(573535,467292,484959),
-_0x17d8a8[_0xd44ced(333130,258255,348306)]and _0x3f3f8e[_0x848d34(972073,437009,454123)]or _0x3f3f8e[_0xd44ced(235951,751122,250162)],
-_0x17d8a8[_0x848d34(344559,211080,228531)]and 0.0 or 0.35,
+_0x2cefa3[_0x3f0d21(300194,1018557,294949)]=_0x981e8b[_0x248f80(240254,253190,812582)]
+_0x2cefa3[_0x3f0d21(411374,975407,414426)]=_0xcca467[_0xc84f9e[181]-189][_0x3f0d21(519306,671970,524192)]((125+_0x95b3ae(_0x6bafdb(129,252),1)-380),_0xfc82ca(173174,173174),_0xfc82ca(605516,605516),(877+_0x95b3ae(_0x6bafdb(2019,1166),1)-3145))
+_0x2cefa3[_0x3f0d21(438976,373844,435774)]=true
+_0x2cefa3[_0x2b4f7f(766555,305139,300526)]=(1395+_0x95b3ae(_0x6bafdb(144,1507),1)-1647)
+if _0xe187e1 then _0xe187e1[_0x3f0d21(471194,1022304,468156)]=(810+_0x95b3ae(_0x6bafdb(111,837),1)-943)end
+local _0x5229d5=_0xcca467[29][_0x248f80(449425,435168,565622)](_0x2b4f7f(65481,463802,467395))
+_0x5229d5[_0x3f0d21(454328,936569,457356)]=_0xcca467[25][_0x248f80(68064,94609,1012487)](_0xfc82ca(_0xc84f9e[211],158),_0xfc82ca(_0xc84f9e[127],218),(_0xc84f9e[56]-229),(717+_0x95b3ae(_0x6bafdb(115,702),1)-777))
+_0x5229d5[_0x3f0d21(383159,373452,380142)]=(_0xc84f9e[148]-36)
+_0x5229d5[_0x3f0d21(106972,927569,112035)]=_0x248f80(241998,247802,549701)
+_0x5229d5[_0x248f80(481075,470389,204917)]=false
+_0x5229d5[_0x3f0d21(204388,767902,199234)]=6
+_0x5229d5[_0x248f80(101019,127963,210631)]=_0x2cefa3
+local _0xc33e6d=_0x45e78c(
+_0x5229d5,
+_0x3f0d21(185230,823747,181902),
+_0x3f0d21(284922,615029,281772),
+_0x981e8b[_0x2b4f7f(848117,501735,493757)]and _0x616a6c[_0x248f80(261830,231250,768691)]or _0x616a6c[_0x248f80(213569,211931,780161)],
+_0x981e8b[_0x248f80(446722,436136,647702)]and 0.0 or 0.35,
 nil,
-_0xea489d(_0x40b209[197],31)
+_0xfc82ca(843621,843620)
 )
-_0xfbad8e[_0xd44ced(499691,138208,513879)]=_0xc96c19[15][_0xd44ced(252910,231343,236698)](_0xea489d(_0x40b209[94],122),0.5)
-_0xfbad8e[_0xe8ebea(441563,456215,563683)]=_0xc96c19[18][_0xd44ced(87636,68117,69920)](_0xea489d(_0x40b209[238],205),_0xea489d(754925,754913),0.5,_0xea489d(202913,202913))
-_0xfbad8e[_0xe8ebea(451300,436519,213111)]=_0xc96c19[18][_0xd44ced(182342,1005002,164091)]((_0x40b209[163]-16),_0xea489d(173137,173121))
-_0xfbad8e[_0xd44ced(331278,515946,345726)]=(340+_0xa81147(_0xfaf96b(395,223),1)-611)
-local _0x68877e=_0xc96c19[17][_0x848d34(130726,81413,97234)](_0xd44ced(118221,549067,99596))
-_0x68877e[_0x848d34(650577,165221,180367)]=_0xc96c19[18][_0xd44ced(97259,845415,78678)]((3901+_0xa81147(_0xfaf96b(1601,2428),1)-4005),_0xea489d(_0x40b209[166],8))
-_0x68877e[_0xd44ced(381858,369104,367580)]=_0xc96c19[_0x40b209[37]-82][_0x848d34(463923,513168,495943)](1,-96,_0xea489d(_0x40b209[200],130),_0xea489d(_0x40b209[54],105))
-_0x68877e[_0xe8ebea(79329,97801,106922)]=_0xea489d(_0x40b209[143],151)
-_0x68877e[_0xe8ebea(482671,463208,117368)]=_0xc96c19[23][_0x848d34(167649,86577,70932)][_0xe8ebea(482628,463180,609502)]
-_0x68877e[_0xe8ebea(497817,513168,798982)]=(533+_0xa81147(_0xfaf96b(115,614),1)-716)
-_0x68877e[_0x848d34(845324,206587,221651)]=_0x17d8a8[_0xd44ced(115342,468747,100182)]and _0x3f3f8e[_0x848d34(776578,386187,369269)]or _0x3f3f8e[_0x848d34(538232,124661,106506)]
-_0x68877e[_0xe8ebea(195303,177900,517634)]=_0xc96c19[_0x40b209[152]-227][_0xd44ced(404394,450662,418668)][_0xe8ebea(356936,343620,319490)]
-_0x68877e[_0xd44ced(278796,430184,264572)]=(2078+_0xa81147(_0xfaf96b(2175,97),1)-2265)
-_0x68877e[_0xe8ebea(522167,506809,949995)]=_0x17d8a8[_0xe8ebea(361134,379671,187780)]
-_0x68877e[_0xd44ced(364497,658477,378770)]=_0x379faf
-local _0x578842=_0x6f36f0(_0x379faf,_0x848d34(512194,471238,489230),_0xe8ebea(507385,520567,737866),_0x3f3f8e[_0xd44ced(138225,220034,152423)],0.18,nil,(_0x40b209[100]-152))
-_0x578842[_0xd44ced(451499,223136,437015)]=_0xc96c19[_0x40b209[22]-70][_0x848d34(117327,68332,85819)](_0xea489d(_0x40b209[34],139),0.5)
-_0x578842[_0xd44ced(466170,845868,482173)]=_0xc96c19[18][_0xd44ced(432611,443810,450199)]((3775+_0xa81147(_0xfaf96b(3812,91),1)-3902),-_0xea489d(708516,708526),0.5,0)
-_0x578842[_0x848d34(201031,262103,244022)]=_0xc96c19[18][_0x848d34(585951,389553,374417)]((_0x40b209[132]-69),(937+_0xa81147(_0xfaf96b(435,538),1)-951))
-_0x578842[_0xd44ced(118069,203857,99653)]=(2144+_0xa81147(_0xfaf96b(858,2874),1)-3725)
-local _0x226adf=_0xc96c19[_0x40b209[247]-178][_0xe8ebea(261636,242877,422878)](_0xd44ced(404238,481763,418754))
-_0x226adf[_0x848d34(207656,247224,230233)]=_0xc96c19[18][_0x848d34(394599,320324,304208)](_0xea489d(828065,828064),(2788+_0xa81147(_0xfaf96b(798,2554),1)-3351))
-_0x226adf[_0x848d34(413003,234792,250414)]=(_0x40b209[117]-35)
-_0x226adf[_0xe8ebea(206282,223693,373469)]=_0xc96c19[_0x40b209[50]-156][_0x848d34(191822,78238,95931)][_0xe8ebea(200590,213894,859668)]
-_0x226adf[_0xe8ebea(434897,454360,854862)]=(231+_0xa81147(_0xfaf96b(49,214),1)-253)
-_0x226adf[_0xe8ebea(345432,330066,1035877)]=_0x3f3f8e[_0x848d34(680691,242302,259201)]
-_0x226adf[_0x848d34(555648,309266,327486)]=(_0x17d8a8[_0xe8ebea(136350,154917,497264)]==_0xc96c19[23][_0xe8ebea(433495,447723,646396)][_0xe8ebea(79201,97500,717089)])and _0xd44ced(508974,521697,494920)or _0x17d8a8[_0xd44ced(226757,206258,209843)][_0xe8ebea(213104,198973,653753)]
-_0x226adf[_0xd44ced(130148,208128,111636)]=_0xea489d(_0x40b209[168],213)
-_0x226adf[_0xe8ebea(99437,118757,775995)]=_0x578842
-_0x226adf[_0xe8ebea(458524,439099,515164)]:Connect(function()
-_0xd4f42f={[_0xe8ebea(333742,350978,708704)]=_0x17d8a8,[_0x848d34(925076,359702,342749)]=_0x226adf}
-_0x226adf[_0x848d34(1031919,228477,211793)]=_0xd44ced(83409,814825,68792)
-_0x226adf[_0xd44ced(305493,783680,319888)]=_0x3f3f8e[_0xd44ced(282780,832070,268299)]
+_0xc33e6d[_0x3f0d21(152303,438277,149149)]=_0xcca467[17][_0x248f80(167633,194208,848950)]((68+_0x95b3ae(_0x6bafdb(530,598),1)-1128),0.5)
+_0xc33e6d[_0x3f0d21(505139,790177,501262)]=_0xcca467[25][_0x2b4f7f(864099,474969,462456)](_0xfc82ca(_0xc84f9e[137],3),(_0xc84f9e[155]-40),0.5,(161+_0x95b3ae(_0x6bafdb(26,187),1)-213))
+_0xc33e6d[_0x3f0d21(400589,964620,395513)]=_0xcca467[25][_0x3f0d21(460271,418071,463260)]((933+_0x95b3ae(_0x6bafdb(286,699),1)-981),16)
+_0xc33e6d[_0x3f0d21(155767,706957,160849)]=_0xfc82ca(_0xc84f9e[38],195)
+local _0x79bd7b=_0xcca467[29][_0x248f80(524006,493207,623617)](_0x3f0d21(228955,103418,223788))
+_0x79bd7b[_0x3f0d21(173666,597488,177503)]=_0xcca467[25][_0x3f0d21(162521,204321,159402)]((796+_0x95b3ae(_0x6bafdb(294,570),1)-840),(1244+_0x95b3ae(_0x6bafdb(942,1906),1)-2848))
+_0x79bd7b[_0x248f80(143966,150309,606490)]=_0xcca467[25][_0x3f0d21(66713,829681,71603)]((538+_0x95b3ae(_0x6bafdb(445,935),1)-1379),-_0xfc82ca(_0xc84f9e[90],201),_0xfc82ca(_0xc84f9e[145],35),_0xfc82ca(_0xc84f9e[241],207))
+_0x79bd7b[_0x2b4f7f(160032,370441,365913)]=_0xfc82ca(174164,174165)
+_0x79bd7b[_0x3f0d21(153689,547952,150561)]=_0xcca467[18][_0x3f0d21(195645,587796,190533)][_0x248f80(246861,245133,902495)]
+_0x79bd7b[_0x3f0d21(66583,565798,69741)]=(1271+_0x95b3ae(_0x6bafdb(464,1319),1)-1770)
+_0x79bd7b[_0x2b4f7f(1018302,290827,279161)]=_0x981e8b[_0x248f80(495373,522663,572441)]and _0x616a6c[_0x248f80(142737,152585,199940)]or _0x616a6c[_0x248f80(150057,144304,748085)]
+_0x79bd7b[_0x2b4f7f(614581,233721,238218)]=_0xcca467[18][_0x3f0d21(181074,1019724,186158)][_0x2b4f7f(791547,198289,210149)]
+_0x79bd7b[_0x2b4f7f(650797,457605,444824)]=7
+_0x79bd7b[_0x248f80(458368,427846,700213)]=_0x981e8b[_0x2b4f7f(799970,227638,215317)]
+_0x79bd7b[_0x248f80(426082,456994,277566)]=_0x5229d5
+local _0x110966=_0x45e78c(_0x5229d5,_0x248f80(126642,103674,354979),_0x3f0d21(127977,251516,124684),_0x616a6c[_0x3f0d21(275566,310778,270370)],0.18,nil,(1466+_0x95b3ae(_0x6bafdb(473,1123),1)-1595))
+_0x110966[_0x2b4f7f(357302,404750,401255)]=_0xcca467[17][_0x248f80(256776,234361,889327)](_0xfc82ca(_0xc84f9e[223],188),0.5)
+_0x110966[_0x248f80(383800,369596,898768)]=_0xcca467[25][_0x2b4f7f(797928,408786,396787)](1,-_0xfc82ca(_0xc84f9e[150],210),0.5,0)
+_0x110966[_0x2b4f7f(736263,271508,267967)]=_0xcca467[_0xc84f9e[62]-190][_0x3f0d21(97580,6612,92511)]((_0xc84f9e[203]-21),(188+_0x95b3ae(_0x6bafdb(30,162),1)-170))
+_0x110966[_0x248f80(410858,408967,866947)]=_0xfc82ca(530704,530711)
+local _0x0a9f70=_0xcca467[_0xc84f9e[19]-127][_0x2b4f7f(911788,522646,510135)](_0x3f0d21(252328,231817,249130))
+_0x0a9f70[_0x248f80(155296,141275,601572)]=_0xcca467[_0xc84f9e[24]-179][_0x2b4f7f(394507,421862,417208)](_0xfc82ca(_0xc84f9e[193],45),(203+_0x95b3ae(_0x6bafdb(538,721),1)-1258))
+_0x0a9f70[_0x2b4f7f(266574,247655,259383)]=(12+_0x95b3ae(_0x6bafdb(881,893),1)-1773)
+_0x0a9f70[_0x248f80(206836,220747,717980)]=_0xcca467[18][_0x248f80(467228,481443,979572)][_0x248f80(283364,273188,676854)]
+_0x0a9f70[_0x3f0d21(96443,581258,93377)]=_0xfc82ca(452860,452854)
+_0x0a9f70[_0x248f80(445241,439035,612834)]=_0x616a6c[_0x248f80(137118,159239,735106)]
+_0x0a9f70[_0x2b4f7f(711358,188513,184855)]=(_0x981e8b[_0x2b4f7f(996137,186987,191054)]==_0xcca467[_0xc84f9e[112]-160][_0x3f0d21(87548,890190,83923)][_0x248f80(287168,267959,970375)])and _0x2b4f7f(203977,355432,351889)or _0x981e8b[_0x2b4f7f(1031890,153488,157621)][_0x3f0d21(228997,296032,225046)]
+_0x0a9f70[_0x2b4f7f(679999,357783,345994)]=(_0xc84f9e[212]-222)
+_0x0a9f70[_0x2b4f7f(137541,315125,327429)]=_0x110966
+_0x0a9f70[_0x3f0d21(296132,685541,299100)]:Connect(function()
+_0x5a6686={[_0x3f0d21(111211,42179,108392)]=_0x981e8b,[_0x3f0d21(359159,119481,356339)]=_0x0a9f70}
+_0x0a9f70[_0x3f0d21(476667,574326,479620)]=_0x248f80(450350,435554,750877)
+_0x0a9f70[_0x2b4f7f(941291,370014,366380)]=_0x616a6c[_0x248f80(332254,354378,873899)]
 end)
-local _0xe7ca09=_0xc96c19[17][_0xe8ebea(234925,253716,399479)](_0x848d34(511817,361455,378098))
-_0xe7ca09[_0xe8ebea(227090,212575,642779)]=_0x848d34(243150,108355,123022)
-_0xe7ca09[_0xe8ebea(118089,100229,1042545)]=_0xc96c19[_0x40b209[22]-67][_0xd44ced(216209,971037,197676)]((1792+_0xa81147(_0xfaf96b(1511,743),1)-2254),_0xea489d(453995,453955))
-_0xe7ca09[_0xd44ced(156489,135483,142135)]=_0xc96c19[18][_0x848d34(415963,432248,449967)]((_0x40b209[184]-212),0,(811+_0xa81147(_0xfaf96b(753,474),1)-1227),_0xea489d(966617,966617))
-_0xe7ca09[_0x848d34(314672,70995,86613)]=(309+_0xa81147(_0xfaf96b(263,50),1)-312)
-_0xe7ca09[_0xd44ced(489294,523427,474943)]=false
-_0xe7ca09[_0xe8ebea(456553,441564,128666)]=_0xea489d(534707,534709)
-_0xe7ca09[_0xd44ced(104903,924219,119172)]=_0xe47f10
-local _0xc8eac3=_0xc96c19[17][_0xd44ced(290815,275390,272523)](_0x848d34(457140,400176,416770))
-_0xc8eac3[_0x848d34(934317,441290,457977)]=_0xc96c19[23][_0xe8ebea(68297,83676,834427)][_0xe8ebea(74340,93810,987276)]
-_0xc8eac3[_0xd44ced(278207,393848,292459)]=_0xc96c19[16][_0x848d34(122165,73110,88129)]((_0x40b209[98]-236),5)
-_0xc8eac3[_0x848d34(529410,461596,478650)]=_0xe7ca09
-local _0xb37158=_0xc96c19[_0x40b209[48]-99][_0x848d34(296719,280492,262779)](_0x848d34(885457,164454,181668))
-_0xb37158[_0xe8ebea(436895,452143,536207)]=_0xc96c19[_0x40b209[80]-228][_0xe8ebea(331798,350895,40396)]((_0x40b209[185]-37),_0xea489d(299527,299533))
-_0xb37158[_0xe8ebea(287902,272440,163577)]=_0xc96c19[_0x40b209[224]+0][_0x848d34(331189,380182,362689)](_0xea489d(1033524,1033524),_0xea489d(572281,572275))
-_0xb37158[_0xd44ced(127564,826898,113452)]=_0xc96c19[16][_0xd44ced(340788,356213,357440)](_0xea489d(_0x40b209[245],210),(_0x40b209[163]-10))
-_0xb37158[_0xe8ebea(213082,199915,562505)]=_0xc96c19[16][_0xe8ebea(339268,354301,41118)](0,_0xea489d(688324,688326))
-_0xb37158[_0x848d34(605912,401862,419680)]=_0xe7ca09
-local _0x18f3f3={}
-for _0xbc6afd,_0x80e662 in _0xc96c19[_0x40b209[243]-13](_0x17d8a8[_0xd44ced(280631,587895,265841)])do
-_0xc96c19[_0x40b209[164]-37][_0xe8ebea(519122,499856,672355)](_0x18f3f3,_0x80e662)
+local _0xfcbf84=_0xcca467[29][_0x2b4f7f(601556,212462,199887)](_0x2b4f7f(997420,70589,74202))
+_0xfcbf84[_0x2b4f7f(522868,507075,496457)]=_0x3f0d21(198437,953114,201251)
+_0xfcbf84[_0x3f0d21(270607,1022621,274994)]=_0xcca467[25][_0x248f80(368885,383311,463689)](_0xfc82ca(448950,448950),(1496+_0x95b3ae(_0x6bafdb(92,1412),1)-1464))
+_0xfcbf84[_0x2b4f7f(812426,228633,216882)]=_0xcca467[_0xc84f9e[41]-34][_0x3f0d21(484473,706577,489299)]((_0xc84f9e[252]-104),_0xfc82ca(890007,890007),_0xfc82ca(_0xc84f9e[169],41),0)
+_0xfcbf84[_0x248f80(472655,479215,297834)]=_0xfc82ca(761523,761522)
+_0xfcbf84[_0x248f80(269054,287632,896917)]=false
+_0xfcbf84[_0x3f0d21(181961,683827,185071)]=(3131+_0x95b3ae(_0x6bafdb(2297,1218),1)-3509)
+_0xfcbf84[_0x2b4f7f(201238,378278,390230)]=_0x2cefa3
+local _0x417b5d=_0xcca467[29][_0x3f0d21(512768,687976,507946)](_0x2b4f7f(518153,74607,69907))
+_0x417b5d[_0x3f0d21(310214,354421,307008)]=_0xcca467[18][_0x2b4f7f(61319,426086,438811)][_0x248f80(299289,321751,809014)]
+_0x417b5d[_0x3f0d21(233081,903345,236275)]=_0xcca467[31][_0x2b4f7f(965078,305644,301261)]((1667+_0x95b3ae(_0x6bafdb(200,1611),1)-1811),_0xfc82ca(396763,396766))
+_0x417b5d[_0x2b4f7f(162113,306929,302849)]=_0xfcbf84
+local _0xe6de2a=_0xcca467[29][_0x248f80(158510,136031,790985)](_0x3f0d21(250622,816319,247301))
+_0xe6de2a[_0x2b4f7f(840067,102670,107504)]=_0xcca467[_0xc84f9e[185]-207][_0x2b4f7f(1032409,381155,385474)](0,_0xfc82ca(713638,713644))
+_0xe6de2a[_0x3f0d21(357276,904949,354145)]=_0xcca467[_0xc84f9e[211]-128][_0x3f0d21(73577,832257,68675)](_0xfc82ca(_0xc84f9e[18],157),(_0xc84f9e[236]-58))
+_0xe6de2a[_0x2b4f7f(507961,383543,387268)]=_0xcca467[31][_0x248f80(180162,182195,836901)](_0xfc82ca(800533,800533),_0xfc82ca(_0xc84f9e[142],254))
+_0xe6de2a[_0x3f0d21(524037,220741,518669)]=_0xcca467[31][_0x2b4f7f(808835,411577,423576)](_0xfc82ca(1032368,1032368),(183+_0x95b3ae(_0x6bafdb(466,357),1)-821))
+_0xe6de2a[_0x3f0d21(410910,470780,415463)]=_0xfcbf84
+local _0x30006b={}
+for _0x1127a1,_0xaf286a in _0xcca467[_0xc84f9e[33]-145](_0x981e8b[_0x3f0d21(377570,953854,381154)])do
+_0xcca467[24][_0x2b4f7f(355263,435462,431276)](_0x30006b,_0xaf286a)
 end
-_0xc96c19[6][_0x848d34(748332,132581,148127)](_0x18f3f3,function(_0x434f95,_0xb6a186)return(_0x434f95[_0xe8ebea(107424,125470,405531)]or _0xea489d(161356,161327))<(_0xb6a186[_0xd44ced(492049,377654,509032)]or _0xea489d(244867,244960))end)
-local _0xcafc8a=false
-local _0x0b6b21=_0xea489d(76554,76554)
-local _0x8affdd={}
-local function _0xe75c41()
-local _0x3f2612=_0xea489d(281934,281934)
-for _0xbc6afd,_0x350d0b in _0xc96c19[11](_0x8affdd)do
-if _0x350d0b[_0xe8ebea(516667,503433,774717)][_0x848d34(132065,136430,152122)]then
-_0x3f2612=_0x3f2612+(2455+_0xa81147(_0xfaf96b(504,2159),1)-2662)
+_0xcca467[_0xc84f9e[149]-116][_0x2b4f7f(718204,147775,160760)](_0x30006b,function(_0x3c3b3e,_0xa1d3dc)return(_0x3c3b3e[_0x248f80(66846,94822,969030)]or _0xfc82ca(592181,592214))<(_0xa1d3dc[_0x248f80(311403,309011,724019)]or _0xfc82ca(820415,820444))end)
+local _0x186520=false
+local _0xfca9aa=_0xfc82ca(_0xc84f9e[138],253)
+local _0x7acd6d={}
+local function _0xa46ec8()
+local _0x317fc8=_0xfc82ca(276514,276514)
+for _0x1127a1,_0xd861fe in _0xcca467[10](_0x7acd6d)do
+if _0xd861fe[_0x248f80(426972,457100,490704)][_0x248f80(84005,78155,589134)]then
+_0x317fc8=_0x317fc8+_0xfc82ca(82583,82582)
 end
 end
-if _0x3f2612==(_0x40b209[253]-211)then return _0xea489d(674790,674790)end
-return(_0x3f2612*(_0x40b209[63]-207))+((_0x3f2612-_0xea489d(_0x40b209[162],133))*(1393+_0xa81147(_0xfaf96b(1821,620),1)-2436))+(661+_0xa81147(_0xfaf96b(1233,1604),1)-2825)
+if _0x317fc8==0 then return(_0xc84f9e[123]-240)end
+return(_0x317fc8*_0xfc82ca(861293,861297))+((_0x317fc8-(1535+_0x95b3ae(_0x6bafdb(1212,323),1)-1534))*5)+(1090+_0x95b3ae(_0x6bafdb(1508,422),1)-1918)
 end
-local function _0x573ea0()
-for _0xbc6afd,_0x350d0b in _0xc96c19[11](_0x8affdd)do
-if _0xc96c19[13](_0x350d0b[_0x848d34(670263,115700,99365)][_0xd44ced(371008,356311,388693)])==_0x848d34(794216,314593,297133)then
-local _0x424f83,_0x885769=_0xc96c19[27](_0x350d0b[_0x848d34(610672,174259,192354)][_0xd44ced(410463,427464,394314)],_0x17d8a8[_0xe8ebea(178580,192543,777085)])
-_0x350d0b[_0xe8ebea(285382,267892,551616)][_0xe8ebea(141084,158890,490597)]=(not _0x424f83)or(_0x885769==true)
+local function _0x106f30()
+for _0x1127a1,_0xd861fe in _0xcca467[10](_0x7acd6d)do
+if _0xcca467[2](_0xd861fe[_0x248f80(112072,118681,893332)][_0x2b4f7f(193689,142774,138613)])==_0x248f80(353965,331798,274952)then
+local _0xd29fd5,_0x8acaac=_0xcca467[_0xc84f9e[193]-28](_0xd861fe[_0x248f80(503064,513865,768324)][_0x3f0d21(401526,83211,406202)],_0x981e8b[_0x248f80(332816,353111,885429)])
+_0xd861fe[_0x248f80(77240,88040,53940)][_0x2b4f7f(556480,369513,364919)]=(not _0xd29fd5)or(_0x8acaac==true)
 else
-_0x350d0b[_0x848d34(840903,372659,387171)][_0x848d34(511145,514982,499058)]=true
+_0xd861fe[_0x2b4f7f(55452,348012,359532)][_0x3f0d21(208901,611070,205858)]=true
 end
 end
-local _0x7cbac1=_0xe75c41()
-_0xe7ca09[_0x848d34(343395,381939,365842)]=_0xc96c19[18][_0xd44ced(102529,117952,120821)]((2056+_0xa81147(_0xfaf96b(2880,840),1)-3719),_0xea489d(_0x40b209[17],237),0,_0x7cbac1)
-if _0xcafc8a then
-_0x3cf4c8[_0x848d34(248190,459495,476656)](_0x3cf4c8,
-_0xe47f10,
-_0xc96c19[32][_0xe8ebea(143115,157106,500433)](0.22,_0xc96c19[23][_0xd44ced(268889,309950,283411)][_0xe8ebea(490624,471056,1008074)],_0xc96c19[_0x40b209[181]-75][_0xe8ebea(370825,386072,553236)][_0x848d34(942139,522296,507784)]),
-{[_0xd44ced(443951,439389,429649)]=_0xc96c19[18][_0xe8ebea(139466,158323,503056)](_0xea489d(290006,290007),0,_0xea489d(_0x40b209[135],77),40+_0x7cbac1)}
+local _0xa2d163=_0xa46ec8()
+_0xfcbf84[_0x248f80(435318,449805,907058)]=_0xcca467[25][_0x248f80(243165,249260,905018)](_0xfc82ca(498411,498410),(662+_0x95b3ae(_0x6bafdb(586,220),1)-806),(_0xc84f9e[163]-245),_0xa2d163)
+if _0x186520 then
+_0x155c1d[_0x248f80(366160,389089,648157)](_0x155c1d,
+_0x2cefa3,
+_0xcca467[32][_0x248f80(103597,126172,1044042)](0.22,_0xcca467[18][_0x2b4f7f(431471,131105,144124)][_0x248f80(152447,141649,174117)],_0xcca467[18][_0x248f80(329442,359629,74959)][_0x2b4f7f(468304,201359,204911)]),
+{[_0x3f0d21(181620,680373,184640)]=_0xcca467[25][_0x2b4f7f(984456,333234,337043)]((_0xc84f9e[245]-196),_0xfc82ca(293270,293270),(623+_0x95b3ae(_0x6bafdb(114,541),1)-655),_0xfc82ca(_0xc84f9e[117],234)+_0xa2d163)}
 ):Play()
 end
 end
-for _0x7a498d,_0xced666 in _0xc96c19[11](_0x18f3f3)do
-local _0x2cc167=_0x6f36f0(_0xe7ca09,_0xd44ced(478529,420145,459822).. _0x7a498d,_0x848d34(681636,250457,234997),_0x3f3f8e[_0xd44ced(192969,242106,178527)],0.24,nil,_0xea489d(244122,244123))
-_0x2cc167[_0xd44ced(81237,710793,95620)]=_0x7a498d
-_0x2cc167[_0x848d34(231402,223610,208795)]=_0xc96c19[_0x40b209[228]-45][_0x848d34(273465,322714,305485)]((765+_0xa81147(_0xfaf96b(524,241),1)-764),_0xea489d(365578,365578),(_0x40b209[188]-232),(_0x40b209[36]-170))
-_0x2cc167[_0xd44ced(252099,68007,233651)]=(_0x40b209[54]-99)
-_0xc96c19[6][_0xd44ced(474428,1000685,490177)](_0x8affdd,{[_0xd44ced(457239,990593,439162)]=_0x2cc167,[_0xe8ebea(215496,198011,916344)]=_0xced666})
-local _0x99c696=_0xc96c19[_0x40b209[217]-134][_0x848d34(474554,523545,506062)](_0x848d34(567309,104937,122573))
-_0x99c696[_0xd44ced(193680,589894,176919)]=_0xc96c19[18][_0xe8ebea(151705,138395,662069)]((_0x40b209[94]-111),(_0x40b209[6]-118))
-_0x99c696[_0xe8ebea(118620,99487,290255)]=_0xc96c19[18][_0xe8ebea(349387,334025,859751)]((1523+_0xa81147(_0xfaf96b(1503,44),1)-1392),_0xea489d(361526,361514))
-_0x99c696[_0xd44ced(182599,495046,164324)]=_0xea489d(156174,156175)
-_0x99c696[_0x848d34(373599,421775,403626)]=_0xc96c19[23][_0xd44ced(169392,120194,187762)][_0xe8ebea(120685,105334,143746)]
-_0x99c696[_0xd44ced(488628,592384,474224)]=_0xea489d(871908,871919)
-_0x99c696[_0xe8ebea(202927,218277,627602)]=_0x3f3f8e[_0xe8ebea(430442,449163,658886)]
-_0x99c696[_0x848d34(74104,95830,78207)]=_0xc96c19[_0x40b209[222]-90][_0xd44ced(482767,497155,464137)][_0x848d34(472132,257474,240360)]
-_0x99c696[_0xd44ced(207386,129918,221802)]=(_0x40b209[107]-207)
-_0x99c696[_0xd44ced(380963,626259,366826)]=_0xced666[_0x848d34(828980,217456,202011)]
-_0x99c696[_0xd44ced(95228,978944,80831)]=_0x2cc167
-if _0xced666[_0xd44ced(188862,919675,174021)]==_0xe8ebea(514183,495959,277724)then
-local _0xd13196=_0x6f36f0(
-_0x2cc167,
-_0x848d34(200730,138288,154595),
-_0xd44ced(498807,963688,513342),
-_0xced666[_0xd44ced(446184,347593,428183)]and _0x3f3f8e[_0xd44ced(413493,962031,395170)]or _0x3f3f8e[_0xd44ced(421932,888483,407736)],
-_0xced666[_0x848d34(303087,491564,509134)]and 0.05 or 0.25,
+for _0x4fbf4d,_0x9a6b6d in _0xcca467[_0xc84f9e[136]-18](_0x30006b)do
+local _0xb0512f=_0x45e78c(_0xfcbf84,_0x3f0d21(223048,689093,225859).. _0x4fbf4d,_0x3f0d21(292963,417270,289926),_0x616a6c[_0x3f0d21(257507,222327,260527)],0.24,nil,(213+_0x95b3ae(_0x6bafdb(561,740),1)-1300))
+_0xb0512f[_0x248f80(424294,393384,962633)]=_0x4fbf4d
+_0xb0512f[_0x248f80(325625,298626,1017021)]=_0xcca467[_0xc84f9e[254]-50][_0x248f80(363940,390613,784195)](_0xfc82ca(186093,186092),_0xfc82ca(_0xc84f9e[196],124),(663+_0x95b3ae(_0x6bafdb(691,36),1)-727),28)
+_0xb0512f[_0x2b4f7f(739132,283284,286857)]=(_0xc84f9e[217]-216)
+_0xcca467[24][_0x2b4f7f(387721,402480,398746)](_0x7acd6d,{[_0x248f80(92414,70318,38898)]=_0xb0512f,[_0x2b4f7f(795816,284681,289544)]=_0x9a6b6d})
+local _0x494f75=_0xcca467[29][_0x3f0d21(262011,938771,257105)](_0x3f0d21(248586,75435,253821))
+_0x494f75[_0x3f0d21(258807,543077,254410)]=_0xcca467[_0xc84f9e[104]-109][_0x2b4f7f(513843,69529,81395)](11,_0xfc82ca(409825,409825))
+_0x494f75[_0x2b4f7f(856800,133747,145496)]=_0xcca467[25][_0x248f80(377426,375784,487918)](155,(_0xc84f9e[70]-167))
+_0x494f75[_0x2b4f7f(368139,149538,162418)]=_0xfc82ca(214607,214606)
+_0x494f75[_0x3f0d21(434981,829196,440157)]=_0xcca467[18][_0x2b4f7f(815301,116926,129745)][_0x2b4f7f(980523,302873,306586)]
+_0x494f75[_0x3f0d21(315132,878797,318086)]=_0xfc82ca(70639,70628)
+_0x494f75[_0x2b4f7f(615162,170831,174397)]=_0x616a6c[_0x3f0d21(395300,851807,400502)]
+_0x494f75[_0x3f0d21(381429,564715,378249)]=_0xcca467[18][_0x3f0d21(138873,1004135,133637)][_0x248f80(436153,450173,907707)]
+_0x494f75[_0x248f80(442889,441188,900192)]=8
+_0x494f75[_0x3f0d21(119610,939447,116549)]=_0x9a6b6d[_0x248f80(497073,516971,243568)]
+_0x494f75[_0x3f0d21(172147,248721,177034)]=_0xb0512f
+if _0x9a6b6d[_0x2b4f7f(38685,414785,424944)]==_0x3f0d21(144157,234551,139615)then
+local _0xf684c7=_0x45e78c(
+_0xb0512f,
+_0x2b4f7f(673794,177507,165472),
+_0x248f80(100754,127934,30933),
+_0x9a6b6d[_0x2b4f7f(221257,486585,482452)]and _0x616a6c[_0x248f80(255200,236916,762005)]or _0x616a6c[_0x2b4f7f(1036071,84665,96504)],
+_0x9a6b6d[_0x248f80(77147,88614,83066)]and 0.05 or 0.25,
 nil,
-1
+(816+_0x95b3ae(_0x6bafdb(789,37),1)-825)
 )
-_0xd13196[_0xd44ced(69289,297634,83477)]=_0xc96c19[15][_0x848d34(193997,144750,159929)]((3821+_0xa81147(_0xfaf96b(164,3657),1)-3820),0.5)
-_0xd13196[_0xe8ebea(467632,485500,591752)]=_0xc96c19[18][_0xd44ced(399527,410854,417747)](_0xea489d(595434,595435),-(2874+_0xa81147(_0xfaf96b(43,2833),1)-2867),0.5,(_0x40b209[176]-95))
-_0xd13196[_0x848d34(245074,218050,202019)]=_0xc96c19[18][_0xd44ced(182798,1005442,164531)](_0xea489d(455140,455106),_0xea489d(443857,443843))
-_0xd13196[_0x848d34(287907,403749,421878)]=(902+_0xa81147(_0xfaf96b(873,239),1)-1104)
-local _0x108b18=_0x6f36f0(
-_0xd13196,
-_0xd44ced(222236,164041,208237),
-_0x848d34(956953,97050,80921),
-_0xced666[_0x848d34(419983,358220,340910)]and _0xc96c19[30][_0x848d34(855266,426555,443619)]((215+_0xa81147(_0xfaf96b(257,470),1)-705),(1709+_0xa81147(_0xfaf96b(2027,326),1)-2337),_0xea489d(521052,521086))or _0x3f3f8e[_0xd44ced(516885,962426,502665)],
+_0xf684c7[_0x248f80(515422,500967,59635)]=_0xcca467[17][_0x3f0d21(438834,728666,434456)](_0xfc82ca(934623,934622),0.5)
+_0xf684c7[_0x248f80(495946,518606,1047714)]=_0xcca467[_0xc84f9e[128]-226][_0x3f0d21(392794,545330,388464)]((_0xc84f9e[79]-227),-_0xfc82ca(_0xc84f9e[159],31),0.5,(672+_0x95b3ae(_0x6bafdb(41,649),1)-690))
+_0xf684c7[_0x2b4f7f(953423,103644,108279)]=_0xcca467[25][_0x3f0d21(117162,44370,122329)]((_0xc84f9e[87]-51),(_0xc84f9e[176]-112))
+_0xf684c7[_0x248f80(337244,351281,940853)]=(1109+_0x95b3ae(_0x6bafdb(979,1926),1)-2897)
+local _0x944a22=_0x45e78c(
+_0xf684c7,
+_0x2b4f7f(684053,154029,158377),
+_0x3f0d21(255861,974330,258851),
+_0x9a6b6d[_0x248f80(466645,485800,489460)]and _0xcca467[12][_0x248f80(200082,226528,1009986)]((97+_0x95b3ae(_0x6bafdb(114,19),1)-111),16,34)or _0x616a6c[_0x248f80(404831,414918,986435)],
 0.0,
 nil,
-_0xea489d(821168,821169)
+_0xfc82ca(935044,935045)
 )
-_0x108b18[_0x848d34(65557,268540,286691)]=_0xc96c19[15][_0x848d34(411517,427998,442889)](0,0.5)
-_0x108b18[_0xd44ced(132166,651408,148417)]=_0xced666[_0xd44ced(467693,303564,484498)]and _0xc96c19[18][_0xd44ced(90063,66446,71867)]((_0x40b209[125]-61),-_0xea489d(16251,16244),0.5,(1919+_0xa81147(_0xfaf96b(2037,138),1)-2175))or _0xc96c19[_0x40b209[71]-196][_0x848d34(127057,78066,95525)](_0xea489d(905041,905041),(453+_0xa81147(_0xfaf96b(236,297),1)-530),0.5,0)
-_0x108b18[_0x848d34(278232,315464,300713)]=_0xc96c19[_0x40b209[141]-90][_0x848d34(588281,391319,376759)]((_0x40b209[57]-30),_0xea489d(_0x40b209[192],159))
-_0x108b18[_0xd44ced(116589,202249,102173)]=_0xea489d(801787,801777)
-local _0x775afd=_0xc96c19[_0x40b209[176]-78][_0x848d34(262891,311880,296863)](_0xd44ced(239341,185344,257569))
-_0x775afd[_0xe8ebea(353893,339366,50422)]=_0xc96c19[_0x40b209[82]-78][_0xe8ebea(107120,125318,395365)]((592+_0xa81147(_0xfaf96b(682,250),1)-931),(_0x40b209[174]-135))
-_0x775afd[_0xe8ebea(296338,315002,266713)]=_0xea489d(49521,49520)
-_0x775afd[_0xe8ebea(283287,269977,908235)]=_0xd44ced(454710,36269,439764)
-_0x775afd[_0xd44ced(491270,372322,472950)]=(26+_0xa81147(_0xfaf96b(316,294),1)-599)
-_0x775afd[_0xd44ced(279529,770069,265130)]=_0xd13196
-_0x775afd[_0xe8ebea(224021,206642,149589)]:Connect(function()
-_0xced666[_0xd44ced(76434,174515,93421)]=not _0xced666[_0xd44ced(341931,439434,356820)]
-_0x03da74(
-_0xd13196,
+_0x944a22[_0x2b4f7f(9485,228277,215516)]=_0xcca467[17][_0x3f0d21(378836,551868,382206)](_0xfc82ca(148477,148477),0.5)
+_0x944a22[_0x3f0d21(141451,627481,146358)]=_0x9a6b6d[_0x3f0d21(470791,303013,474417)]and _0xcca467[_0xc84f9e[218]-96][_0x2b4f7f(987409,327979,339978)](_0xfc82ca(361013,361012),-_0xfc82ca(502593,502606),0.5,0)or _0xcca467[_0xc84f9e[141]-55][_0x3f0d21(511872,680936,515242)]((480+_0x95b3ae(_0x6bafdb(876,652),1)-1528),(602+_0x95b3ae(_0x6bafdb(883,297),1)-1177),0.5,_0xfc82ca(600968,600968))
+_0x944a22[_0x2b4f7f(793283,197200,209019)]=_0xcca467[_0xc84f9e[184]-135][_0x248f80(494921,521459,343797)](_0xfc82ca(_0xc84f9e[109],45),(287+_0x95b3ae(_0x6bafdb(365,114),1)-467))
+_0x944a22[_0x2b4f7f(932791,77343,72706)]=_0xfc82ca(434058,434048)
+local _0x8189e3=_0xcca467[29][_0x2b4f7f(1011141,359935,347358)](_0x248f80(383467,368674,417533))
+_0x8189e3[_0x3f0d21(315666,816595,312614)]=_0xcca467[25][_0x2b4f7f(513455,507714,494876)]((2713+_0x95b3ae(_0x6bafdb(212,2637),1)-2848),(215+_0x95b3ae(_0x6bafdb(239,56),1)-294))
+_0x8189e3[_0x3f0d21(438917,448766,435932)]=(_0xc84f9e[144]-183)
+_0x8189e3[_0x3f0d21(272930,765103,278109)]=_0x248f80(257327,236443,540452)
+_0x8189e3[_0x3f0d21(270907,822209,275997)]=(_0xc84f9e[80]-152)
+_0x8189e3[_0x3f0d21(263771,355769,267682)]=_0xf684c7
+_0x8189e3[_0x2b4f7f(981061,505142,493497)]:Connect(function()
+_0x9a6b6d[_0x248f80(220961,206940,210432)]=not _0x9a6b6d[_0x3f0d21(127259,147897,123693)]
+_0x419d94(
+_0xf684c7,
 0.15,
-_0xced666[_0x848d34(382963,444464,429266)]and _0x3f3f8e[_0xe8ebea(160524,145616,999720)]or _0x3f3f8e[_0xe8ebea(116063,102022,1043243)],
-_0xced666[_0xd44ced(130100,163605,113227)]and 0.05 or 0.25
+_0x9a6b6d[_0x2b4f7f(67705,328841,341156)]and _0x616a6c[_0x2b4f7f(937635,156142,152490)]or _0x616a6c[_0x2b4f7f(838629,151163,162874)],
+_0x9a6b6d[_0x3f0d21(402513,365811,407143)]and 0.05 or 0.25
 )
-_0x03da74(
-_0x108b18,
+_0x419d94(
+_0x944a22,
 0.15,
-_0xced666[_0xe8ebea(470692,485216,98147)]and _0xc96c19[30][_0xe8ebea(117121,98875,985890)](_0xea489d(572274,572260),_0xea489d(_0x40b209[74],206),_0xea489d(249151,249117))or _0x3f3f8e[_0xe8ebea(420653,401612,718721)],
+_0x9a6b6d[_0x3f0d21(184215,98101,187809)]and _0xcca467[12][_0x248f80(126252,103518,887292)]((64+_0x95b3ae(_0x6bafdb(124,60),1)-162),_0xfc82ca(8656,8640),_0xfc82ca(793782,793748))or _0x616a6c[_0x3f0d21(157158,561821,160180)],
 nil,
-_0xced666[_0xd44ced(189572,92069,172795)]and _0xc96c19[18][_0xd44ced(137727,148926,155275)]((279+_0xa81147(_0xfaf96b(2042,1773),1)-3814),-(179+_0xa81147(_0xfaf96b(36,151),1)-172),0.5,_0xea489d(688602,688602))or _0xc96c19[18][_0x848d34(93116,109343,126664)]((1952+_0xa81147(_0xfaf96b(31,1983),1)-2014),_0xea489d(_0x40b209[85],67),0.5,_0xea489d(937585,937585))
+_0x9a6b6d[_0x248f80(104031,123170,130942)]and _0xcca467[25][_0x248f80(347266,341235,734821)]((_0xc84f9e[112]-177),-_0xfc82ca(783783,783784),0.5,(4009+_0x95b3ae(_0x6bafdb(1451,2562),1)-4013))or _0xcca467[25][_0x2b4f7f(874013,476711,489222)](0,_0xfc82ca(107023,107020),0.5,(_0xc84f9e[152]-138))
 )
-_0x573ea0()
+_0x106f30()
 end)
-elseif _0xced666[_0x848d34(679573,404402,421740)]==_0x848d34(509760,127921,112472)then
-local _0xf4d103=_0x6f36f0(_0x2cc167,_0xd44ced(182958,865253,164828),_0x848d34(708917,222664,205412),_0x3f3f8e[_0x848d34(911501,428768,445463)],0.15,nil,1)
-_0xf4d103[_0xd44ced(248978,411801,230446)]=_0xc96c19[_0x40b209[98]-221][_0xd44ced(420006,406759,405458)](1,0.5)
-_0xf4d103[_0xd44ced(468027,839917,484284)]=_0xc96c19[18][_0x848d34(111039,94492,79051)](_0xea489d(_0x40b209[21],1),-(129+_0xa81147(_0xfaf96b(1002,875),1)-1868),0.5,_0xea489d(624780,624780))
-_0xf4d103[_0xd44ced(227826,199552,209292)]=_0xc96c19[18][_0xe8ebea(351360,331906,857644)](_0xea489d(_0x40b209[118],92),_0xea489d(836987,836975))
-_0xf4d103[_0x848d34(112040,260142,245501)]=(_0x40b209[86]-13)
-local _0x5c1661=_0xc96c19[17][_0xd44ced(163182,139567,145946)](_0xd44ced(362156,324673,380512))
-_0x5c1661[_0x848d34(140994,182354,167603)]=_0xc96c19[18][_0xd44ced(158729,5832,140472)]((120+_0xa81147(_0xfaf96b(144,232),1)-375),(1366+_0xa81147(_0xfaf96b(1080,366),1)-1445))
-_0x5c1661[_0xe8ebea(365972,384636,328159)]=_0xea489d(_0x40b209[232],165)
-_0x5c1661[_0x848d34(347063,431975,446530)]=_0xc96c19[23][_0x848d34(101846,151814,136739)][_0xd44ced(273536,1042992,287811)]
-_0x5c1661[_0xe8ebea(194110,178743,614305)]=(2524+_0xa81147(_0xfaf96b(2138,390),1)-2517)
-_0x5c1661[_0x848d34(595519,448200,430560)]=_0x3f3f8e[_0x848d34(953940,454764,439958)]
-_0x5c1661[_0xe8ebea(439513,456919,998789)]=_0xced666[_0xe8ebea(449649,431541,36278)]
-_0x5c1661[_0xe8ebea(146117,160112,342838)]=_0xea489d(35752,35745)
-_0x5c1661[_0xe8ebea(192795,178835,565837)]=_0xf4d103
-_0x5c1661[_0xe8ebea(275707,293084,333755)]:Connect(function()
-local _0x85d2fd=_0xc96c19[6][_0xe8ebea(508865,494231,248336)](_0xced666[_0xd44ced(309263,476362,327304)],_0xced666[_0x848d34(45177,241594,256856)])or(2381+_0xa81147(_0xfaf96b(644,3017),1)-3660)
-_0x85d2fd=(_0x85d2fd%#_0xced666[_0xe8ebea(205450,224070,330913)])+_0xea489d(1026682,1026683)
-_0xced666[_0x848d34(49482,253577,236139)]=_0xced666[_0x848d34(97579,138508,154086)][_0x85d2fd]
-_0x5c1661[_0x848d34(770961,459011,476719)]=_0xced666[_0xd44ced(148287,114718,132416)]
-_0x573ea0()
+elseif _0x9a6b6d[_0x2b4f7f(489752,113220,103925)]==_0x248f80(334939,355295,503626)then
+local _0x011ed9=_0x45e78c(_0xb0512f,_0x2b4f7f(425131,206400,202053),_0x2b4f7f(182329,479742,484130),_0x616a6c[_0x248f80(234846,257231,621565)],0.15,nil,_0xfc82ca(_0xc84f9e[2],102))
+_0x011ed9[_0x3f0d21(201006,521156,197980)]=_0xcca467[17][_0x3f0d21(490942,709078,487060)](_0xfc82ca(849718,849719),0.5)
+_0x011ed9[_0x248f80(194091,167599,695235)]=_0xcca467[_0xc84f9e[130]-53][_0x3f0d21(359850,577986,355968)]((3104+_0x95b3ae(_0x6bafdb(1335,2327),1)-3661),-_0xfc82ca(665236,665245),0.5,_0xfc82ca(262616,262616))
+_0x011ed9[_0x2b4f7f(872923,149832,162659)]=_0xcca467[_0xc84f9e[85]-6][_0x248f80(115520,113402,225532)]((1482+_0x95b3ae(_0x6bafdb(596,1950),1)-2452),20)
+_0x011ed9[_0x248f80(372150,382171,971743)]=(3794+_0x95b3ae(_0x6bafdb(3253,615),1)-3860)
+local _0xaeeee4=_0xcca467[_0xc84f9e[22]-94][_0x2b4f7f(742972,83462,96039)](_0x3f0d21(515368,494857,510378))
+_0xaeeee4[_0x3f0d21(490802,1038835,485638)]=_0xcca467[_0xc84f9e[195]-187][_0x248f80(330458,357236,68405)]((3300+_0x95b3ae(_0x6bafdb(2167,1171),1)-3337),(864+_0x95b3ae(_0x6bafdb(502,662),1)-1163))
+_0xaeeee4[_0x3f0d21(81670,87421,76639)]=1
+_0xaeeee4[_0x3f0d21(397161,789312,400145)]=_0xcca467[18][_0x3f0d21(307378,963739,304330)][_0x248f80(400487,419239,531829)]
+_0xaeeee4[_0x3f0d21(225077,706820,228175)]=(661+_0x95b3ae(_0x6bafdb(804,433),1)-1226)
+_0xaeeee4[_0x2b4f7f(666868,120129,124723)]=_0x616a6c[_0x248f80(122163,107687,629062)]
+_0xaeeee4[_0x3f0d21(295119,722498,300208)]=_0x9a6b6d[_0x248f80(211593,216564,218024)]
+_0xaeeee4[_0x3f0d21(370703,852469,375849)]=_0xfc82ca(_0xc84f9e[161],195)
+_0xaeeee4[_0x248f80(190882,168162,22014)]=_0x011ed9
+_0xaeeee4[_0x3f0d21(206761,906888,209713)]:Connect(function()
+local _0x98880d=_0xcca467[24][_0x248f80(474563,477984,253568)](_0x9a6b6d[_0x2b4f7f(929779,133182,145419)],_0x9a6b6d[_0x3f0d21(504420,262854,499794)])or(125+_0x95b3ae(_0x6bafdb(85,40),1)-124)
+_0x98880d=(_0x98880d%#_0x9a6b6d[_0x2b4f7f(671794,419839,415690)])+_0xfc82ca(734927,734926)
+_0x9a6b6d[_0x2b4f7f(410032,150848,163181)]=_0x9a6b6d[_0x3f0d21(120289,675454,116703)][_0x98880d]
+_0xaeeee4[_0x248f80(216415,210073,990442)]=_0x9a6b6d[_0x3f0d21(180791,94869,184321)]
+_0x106f30()
 end)
-elseif _0xced666[_0xd44ced(429044,680497,445839)]==_0x848d34(66971,117006,101847)then
-local _0x706a93=_0x6f36f0(_0x2cc167,_0xe8ebea(290808,271168,506620),_0x848d34(871330,327519,309491),_0x3f3f8e[_0x848d34(802933,467480,484591)],0.15,nil,_0xea489d(654805,654804))
-_0x706a93[_0x848d34(493264,171577,186662)]=_0xc96c19[15][_0x848d34(433446,417157,399442)](_0xea489d(85764,85765),0.5)
-_0x706a93[_0xd44ced(77820,711466,92283)]=_0xc96c19[_0x40b209[138]-63][_0xd44ced(450207,426718,432619)](_0xea489d(_0x40b209[141],109),-9,0.5,(345+_0xa81147(_0xfaf96b(274,75),1)-349))
-_0x706a93[_0xd44ced(157160,137114,142742)]=_0xc96c19[18][_0xe8ebea(444349,428991,953617)](82,(1091+_0xa81147(_0xfaf96b(53,1142),1)-1175))
-_0x706a93[_0xd44ced(149684,39376,131268)]=_0xea489d(967644,967636)
-local _0xe045c9=_0xc96c19[17][_0xe8ebea(132667,150658,494561)](_0xe8ebea(356524,343229,120178))
-_0xe045c9[_0x848d34(109598,82574,66671)]=_0xc96c19[18][_0xd44ced(282920,404457,268697)]((_0x40b209[16]-133),1)
-_0xe045c9[_0xd44ced(338444,28301,352943)]=_0xea489d(1021085,1021084)
-_0xe045c9[_0xe8ebea(165208,182623,266831)]=_0xc96c19[_0x40b209[239]+16][_0xe8ebea(508602,495293,87469)][_0xe8ebea(163594,144130,814736)]
-_0xe045c9[_0x848d34(686295,301697,318886)]=_0xea489d(328911,328900)
-_0xe045c9[_0xe8ebea(94111,74645,779426)]=_0x3f3f8e[_0xd44ced(252843,735601,234300)]
-_0xe045c9[_0x848d34(876618,107224,124404)]=(_0xced666[_0xe8ebea(248950,230834,368049)]==nil or _0xced666[_0xd44ced(297700,461253,314523)]==_0xc96c19[23][_0xd44ced(310512,929733,326279)][_0xd44ced(96712,1011479,81840)])and _0x848d34(109883,65558,83935)or _0xced666[_0xd44ced(368372,400853,383115)][_0x848d34(949115,101439,116820)]
-_0xe045c9[_0xe8ebea(110695,130002,438676)]=_0xea489d(14786,14795)
-_0xe045c9[_0x848d34(603018,404628,420402)]=_0x706a93
-_0xe045c9[_0xd44ced(185877,402000,171767)]:Connect(function()
-_0xd4f42f={[_0xe8ebea(388667,369288,744587)]=_0xced666,[_0xe8ebea(138178,153455,798765)]=_0xe045c9,[_0xe8ebea(445522,426219,960509)]=true}
-_0xe045c9[_0xd44ced(197338,1006762,215571)]=_0xd44ced(459467,666099,478114)
-_0xe045c9[_0xd44ced(116621,957336,102216)]=_0x3f3f8e[_0x848d34(535480,374081,390077)]
+elseif _0x9a6b6d[_0x3f0d21(169535,256305,165765)]==_0x3f0d21(351034,986666,346388)then
+local _0x7ce469=_0x45e78c(_0xb0512f,_0x2b4f7f(648356,479925,483763),_0x248f80(481352,467556,436495),_0x616a6c[_0x3f0d21(208611,661295,211625)],0.15,nil,_0xfc82ca(1015266,1015267))
+_0x7ce469[_0x248f80(77906,84459,394751)]=_0xcca467[17][_0x2b4f7f(1018918,367644,372029)]((174+_0x95b3ae(_0x6bafdb(1197,1027),1)-2223),0.5)
+_0x7ce469[_0x3f0d21(397297,898147,400588)]=_0xcca467[_0xc84f9e[116]-222][_0x248f80(181567,179534,835544)]((402+_0x95b3ae(_0x6bafdb(1972,1574),1)-3545),-(3914+_0x95b3ae(_0x6bafdb(3870,84),1)-3945),0.5,(656+_0x95b3ae(_0x6bafdb(60,684),1)-744))
+_0x7ce469[_0x2b4f7f(697779,376096,364299)]=_0xcca467[25][_0x248f80(280460,278070,455728)]((3134+_0x95b3ae(_0x6bafdb(3477,427),1)-3822),_0xfc82ca(966748,966728))
+_0x7ce469[_0x248f80(205105,219228,548696)]=(91+_0x95b3ae(_0x6bafdb(12,87),1)-91)
+local _0x17e83f=_0xcca467[29][_0x248f80(430201,452616,584350)](_0x2b4f7f(90351,429212,442085))
+_0x17e83f[_0x3f0d21(401306,965467,396206)]=_0xcca467[_0xc84f9e[12]-162][_0x2b4f7f(260453,234376,238038)](_0xfc82ca(800291,800290),_0xfc82ca(136902,136903))
+_0x17e83f[_0x3f0d21(341279,352100,336198)]=_0xfc82ca(_0xc84f9e[139],129)
+_0x17e83f[_0x2b4f7f(608628,323855,312160)]=_0xcca467[18][_0x2b4f7f(534907,364800,369519)][_0x2b4f7f(909995,493781,506533)]
+_0x17e83f[_0x3f0d21(409057,1022928,403867)]=(180+_0x95b3ae(_0x6bafdb(44,152),1)-185)
+_0x17e83f[_0x3f0d21(156624,927287,161707)]=_0x616a6c[_0x2b4f7f(707367,451690,448046)]
+_0x17e83f[_0x2b4f7f(873685,355850,351356)]=(_0x9a6b6d[_0x2b4f7f(49623,314663,326922)]==nil or _0x9a6b6d[_0x248f80(296866,323807,323203)]==_0xcca467[18][_0x2b4f7f(569686,249270,261520)][_0x3f0d21(101385,588487,106041)])and _0x2b4f7f(459650,95011,82394)or _0x9a6b6d[_0x3f0d21(173411,71105,178005)][_0x3f0d21(96093,429496,91854)]
+_0x17e83f[_0x2b4f7f(775164,312916,324681)]=_0xfc82ca(_0xc84f9e[79],237)
+_0x17e83f[_0x2b4f7f(86963,492547,505331)]=_0x7ce469
+_0x17e83f[_0x3f0d21(183413,802132,186605)]:Connect(function()
+_0x5a6686={[_0x3f0d21(469065,583866,474435)]=_0x9a6b6d,[_0x2b4f7f(89664,150108,161959)]=_0x17e83f,[_0x2b4f7f(691505,284051,288404)]=true}
+_0x17e83f[_0x3f0d21(190565,880360,195610)]=_0x3f0d21(115219,1031314,120598)
+_0x17e83f[_0x3f0d21(373323,653228,370224)]=_0x616a6c[_0x248f80(304617,318591,605137)]
 end)
-elseif _0xced666[_0xd44ced(335678,653051,350533)]==_0x848d34(53620,442904,427719)then
-local _0xa8de2d=_0xc96c19[_0x40b209[86]-4][_0xe8ebea(326865,308840,94475)](_0xd44ced(120376,555838,106233))
-_0xa8de2d[_0xd44ced(432441,204082,446853)]=_0xc96c19[_0x40b209[181]-83][_0xe8ebea(244077,259028,406711)]((_0x40b209[191]-156),_0xea489d(594483,594483))
-_0xa8de2d[_0xd44ced(162958,624728,146185)]=_0xc96c19[_0x40b209[138]-63][_0x848d34(101847,85364,67747)]((1877+_0xa81147(_0xfaf96b(1681,452),1)-2132),-_0xea489d(808361,808355),0,(760+_0xa81147(_0xfaf96b(374,910),1)-1284))
-_0xa8de2d[_0x848d34(111891,88963,73058)]=_0xc96c19[_0x40b209[250]-101][_0xd44ced(161757,1043025,147296)](_0xea489d(_0x40b209[181],78),_0xea489d(888305,888301))
-_0xa8de2d[_0xd44ced(97745,276816,79218)]=(1601+_0xa81147(_0xfaf96b(1437,988),1)-2424)
-_0xa8de2d[_0xd44ced(353937,403107,339539)]=_0xc96c19[23][_0xd44ced(415287,333317,401141)][_0xd44ced(380533,919749,362166)]
-_0xa8de2d[_0x848d34(823036,158890,142221)]=(1415+_0xa81147(_0xfaf96b(277,1170),1)-1436)
-_0xa8de2d[_0xe8ebea(169419,186817,532214)]=_0x3f3f8e[_0xd44ced(146912,712506,161143)]
-_0xa8de2d[_0xd44ced(289916,305072,271546)]=_0xc96c19[23][_0xd44ced(133195,181127,147597)][_0xe8ebea(288568,273282,288843)]
-_0xa8de2d[_0xe8ebea(140360,159741,337339)]=(362+_0xa81147(_0xfaf96b(939,705),1)-1636)
-local _0xc0ffe2=_0xe8ebea(240301,255510,248332).. _0xc96c19[20](_0xced666[_0xe8ebea(140877,159624,485974)]or(2584+_0xa81147(_0xfaf96b(2250,722),1)-2971)).. _0xd44ced(476972,729765,462427)
-_0xa8de2d[_0xe8ebea(338265,353623,827397)]=_0xc96c19[_0x40b209[135]-68][_0xe8ebea(467287,485472,195541)](_0xc0ffe2,_0xced666[_0xe8ebea(126115,107879,507236)])
-_0xa8de2d[_0x848d34(845974,259976,241966)]=_0x2cc167
-local _0x732eeb=_0x6f36f0(_0x2cc167,_0x848d34(1027268,515051,498736),_0xd44ced(101115,980762,115291),_0x3f3f8e[_0x848d34(1002644,274169,288782)],0.15,nil,(986+_0xa81147(_0xfaf96b(833,155),1)-987))
-_0x732eeb[_0xe8ebea(166117,181476,187341)]=_0xc96c19[_0x40b209[255]-55][_0xe8ebea(511354,493507,147616)]((2840+_0xa81147(_0xfaf96b(2618,290),1)-2907),0.5)
-_0x732eeb[_0xe8ebea(381999,368355,782615)]=_0xc96c19[_0x40b209[213]-144][_0x848d34(88328,104875,121980)]((204+_0xa81147(_0xfaf96b(164,104),1)-267),-(2309+_0xa81147(_0xfaf96b(3067,766),1)-3773),0.5,(_0x40b209[195]-165))
-_0x732eeb[_0xd44ced(316629,304807,302251)]=_0xc96c19[18][_0x848d34(794430,73296,88432)](_0xea489d(_0x40b209[20],247),_0xea489d(_0x40b209[108],179))
-_0x732eeb[_0x848d34(87956,203282,220353)]=(3508+_0xa81147(_0xfaf96b(3161,493),1)-3646)
-local _0xbb394c=_0xc96c19[25][_0xe8ebea(304672,323515,139152)]((_0xced666[_0x848d34(471580,273887,289085)]-_0xced666[_0xd44ced(140489,635960,156340)])/(_0xced666[_0x848d34(173463,253509,236196)]-_0xced666[_0x848d34(955582,366765,384077)]),0,1)
-local _0xf484d4=_0x6f36f0(_0x732eeb,_0xe8ebea(519356,499714,219425),_0xe8ebea(255008,241605,608518),_0x3f3f8e[_0x848d34(1013820,460292,475390)],0.0,nil,(_0x40b209[203]-120))
-_0xf484d4[_0xe8ebea(321580,304111,84671)]=_0xc96c19[18][_0x848d34(265903,314892,297947)](_0xbb394c,(3635+_0xa81147(_0xfaf96b(3703,68),1)-3771),(2543+_0xa81147(_0xfaf96b(801,2766),1)-3566),_0xea489d(_0x40b209[226],49))
-_0xf484d4[_0xd44ced(499894,356818,518342)]=_0xea489d(178329,178320)
-local _0x108b18=_0x6f36f0(_0x732eeb,_0x848d34(327034,361805,377497),_0xe8ebea(423634,408887,842740),_0x3f3f8e[_0x848d34(770771,393178,375076)],0.0,nil,(1520+_0xa81147(_0xfaf96b(32,1488),1)-1519))
-_0x108b18[_0xd44ced(415965,253142,397409)]=_0xc96c19[15][_0xd44ced(395642,415035,413198)](0.5,0.5)
-_0x108b18[_0xe8ebea(261215,243347,907623)]=_0xc96c19[18][_0x848d34(359670,375893,391554)](_0xbb394c,_0xea489d(973211,973211),0.5,(97+_0xa81147(_0xfaf96b(197,164),1)-361))
-_0x108b18[_0xd44ced(196549,167351,178107)]=_0xc96c19[18][_0xd44ced(383009,542125,364700)](_0xea489d(865668,865672),_0xea489d(194183,194187))
-_0x108b18[_0xd44ced(509763,333351,495411)]=(1311+_0xa81147(_0xfaf96b(1862,601),1)-2453)
-local _0xee8a76=_0xc96c19[17][_0xe8ebea(509437,495428,149543)](_0x848d34(300780,358627,344012))
-_0xee8a76[_0x848d34(452530,261979,243780)]=_0xc96c19[_0x40b209[202]-186][_0x848d34(347666,364209,379750)](0.5,0.5)
-_0xee8a76[_0xd44ced(234084,550578,251363)]=_0xc96c19[_0x40b209[94]-104][_0x848d34(49549,141230,155834)](0.5,0.5)
-_0xee8a76[_0x848d34(100329,92537,77720)]=_0xc96c19[_0x40b209[211]-65][_0x848d34(279064,295611,313196)](_0xea489d(297730,297731),_0xea489d(655553,655569),_0xea489d(_0x40b209[95],55),18)
-_0xee8a76[_0xd44ced(485331,140114,470896)]=1
-_0xee8a76[_0x848d34(867034,129096,114532)]=_0xe8ebea(523309,505098,283571)
-_0xee8a76[_0xe8ebea(148147,133382,344896)]=(271+_0xa81147(_0xfaf96b(108,355),1)-452)
-_0xee8a76[_0xe8ebea(382190,368486,1017784)]=_0x732eeb
-local _0x882652=false
-local _0xb119ae=_0xc96c19[32][_0xe8ebea(198133,216908,428079)](0.10,_0xc96c19[23][_0x848d34(498649,501724,516209)][_0xe8ebea(404087,419559,931645)],_0xc96c19[_0x40b209[160]+9][_0x848d34(993118,505234,520765)][_0xe8ebea(314327,296773,530566)])
-local function _0xb32428(_0x168747)
-local _0x436124=_0xc96c19[25][_0xe8ebea(502627,516856,70355)]((_0x168747-_0x732eeb[_0xe8ebea(171708,184835,311613)][_0xd44ced(462307,394488,477839)])/_0xc96c19[_0x40b209[190]-133][_0x848d34(714118,294549,277079)](_0x732eeb[_0xe8ebea(484804,469252,964390)][_0x848d34(339373,309332,327067)],1),_0xea489d(_0x40b209[239],7),(3574+_0xa81147(_0xfaf96b(500,3074),1)-3573))
-local _0xc89987=_0xced666[_0xd44ced(366751,919662,384738)]+(_0xced666[_0x848d34(143391,216013,200492)]-_0xced666[_0xd44ced(383657,936536,367828)])*_0x436124
-local _0x58cf05=_0xea489d(845731,845737)^(_0xced666[_0xe8ebea(187912,169933,496147)]or _0xea489d(_0x40b209[34],139))
-_0xced666[_0xd44ced(100389,133892,118362)]=_0xc96c19[25][_0xe8ebea(339310,353294,537232)](_0xc89987*_0x58cf05+0.5)/_0x58cf05
-_0x3cf4c8[_0xd44ced(332468,83407,350720)](_0x3cf4c8,_0xf484d4,_0xb119ae,{[_0x848d34(465917,521581,504716)]=_0xc96c19[_0x40b209[195]-147][_0x848d34(162457,178746,196589)](_0x436124,0,(_0x40b209[90]-148),(995+_0xa81147(_0xfaf96b(458,553),1)-1011))}):Play()
-_0x3cf4c8[_0x848d34(225783,506478,523641)](_0x3cf4c8,_0x108b18,_0xb119ae,{[_0x848d34(877096,395804,413686)]=_0xc96c19[_0x40b209[71]-196][_0x848d34(369868,353391,336312)](_0x436124,(2046+_0xa81147(_0xfaf96b(1396,650),1)-2046),0.5,(2130+_0xa81147(_0xfaf96b(2849,883),1)-3732))}):Play()
-_0xa8de2d[_0xe8ebea(272867,288237,893119)]=_0xc96c19[9][_0xd44ced(292787,294692,275009)](_0xc0ffe2,_0xced666[_0x848d34(371347,439632,455090)])
+elseif _0x9a6b6d[_0x248f80(249902,239407,95967)]==_0x2b4f7f(64905,411688,423938)then
+local _0xd9c599=_0xcca467[_0xc84f9e[241]-178][_0x2b4f7f(1035706,384384,388257)](_0x2b4f7f(504562,189185,184687))
+_0xd9c599[_0x3f0d21(309992,22530,306842)]=_0xcca467[17][_0x248f80(322774,300199,693809)](_0xfc82ca(_0xc84f9e[23],41),_0xfc82ca(_0xc84f9e[132],144))
+_0xd9c599[_0x2b4f7f(751548,487548,475464)]=_0xcca467[_0xc84f9e[126]-2][_0x248f80(355896,333385,726239)]((809+_0x95b3ae(_0x6bafdb(250,979),1)-1228),-_0xfc82ca(980049,980059),0,(238+_0x95b3ae(_0x6bafdb(128,110),1)-238))
+_0xd9c599[_0x2b4f7f(613231,410620,422359)]=_0xcca467[25][_0x2b4f7f(304681,163459,150761)]((2092+_0x95b3ae(_0x6bafdb(818,2846),1)-3620),(1215+_0x95b3ae(_0x6bafdb(1598,641),1)-2211))
+_0xd9c599[_0x248f80(395856,422896,374645)]=(1085+_0x95b3ae(_0x6bafdb(1905,844),1)-2748)
+_0xd9c599[_0x2b4f7f(755215,409204,396315)]=_0xcca467[_0xc84f9e[164]-55][_0x3f0d21(327937,984360,333177)][_0x2b4f7f(763054,118480,130208)]
+_0xd9c599[_0x248f80(233737,256200,647175)]=_0xfc82ca(627794,627801)
+_0xd9c599[_0x3f0d21(344752,591703,349899)]=_0x616a6c[_0x248f80(180454,178546,689299)]
+_0xd9c599[_0x2b4f7f(573151,151187,163040)]=_0xcca467[_0xc84f9e[33]-155][_0x3f0d21(448438,760744,443338)][_0x248f80(69150,95302,780017)]
+_0xd9c599[_0x2b4f7f(605441,403625,400052)]=_0xfc82ca(_0xc84f9e[175],43)
+local _0x84edbf=_0x2b4f7f(325581,254204,250869).. _0xcca467[30](_0x9a6b6d[_0x248f80(367258,388580,189251)]or _0xfc82ca(409930,409931)).. _0x3f0d21(518972,406980,523823)
+_0xd9c599[_0x3f0d21(372113,666396,375278)]=_0xcca467[34][_0x248f80(186588,175640,868282)](_0x84edbf,_0x9a6b6d[_0x2b4f7f(23605,282821,286952)])
+_0xd9c599[_0x248f80(339669,350101,496265)]=_0xb0512f
+local _0x52b84c=_0x45e78c(_0xb0512f,_0x248f80(188873,170898,825168),_0x248f80(322314,299671,657126),_0x616a6c[_0x2b4f7f(788693,167243,179978)],0.15,nil,1)
+_0x52b84c[_0x3f0d21(181936,402522,185026)]=_0xcca467[_0xc84f9e[150]-199][_0x2b4f7f(874763,477489,489488)]((1175+_0x95b3ae(_0x6bafdb(573,1706),1)-2278),0.5)
+_0x52b84c[_0x3f0d21(255246,548508,259635)]=_0xcca467[25][_0x2b4f7f(783233,123835,119450)]((_0xc84f9e[118]-170),-(445+_0x95b3ae(_0x6bafdb(499,78),1)-517),0.5,(_0xc84f9e[203]-79))
+_0x52b84c[_0x248f80(255011,236888,563047)]=_0xcca467[25][_0x2b4f7f(61558,403676,400054)]((707+_0x95b3ae(_0x6bafdb(781,462),1)-1093),_0xfc82ca(_0xc84f9e[145],37))
+_0x52b84c[_0x3f0d21(297324,794774,302410)]=_0xfc82ca(311823,311815)
+local _0x3e7aa2=_0xcca467[21][_0x3f0d21(405294,997570,408864)]((_0x9a6b6d[_0x248f80(477169,471180,470736)]-_0x9a6b6d[_0x2b4f7f(991555,328594,340921)])/(_0x9a6b6d[_0x3f0d21(361787,302258,366350)]-_0x9a6b6d[_0x3f0d21(321767,620132,326355)]),_0xfc82ca(_0xc84f9e[81],125),(_0xc84f9e[140]-84))
+local _0xcdebb8=_0x45e78c(_0x52b84c,_0x3f0d21(83753,827242,86588),_0x2b4f7f(1018590,330755,343630),_0x616a6c[_0x248f80(472093,478601,1011816)],0.0,nil,(2375+_0x95b3ae(_0x6bafdb(2951,704),1)-3654))
+_0xcdebb8[_0x2b4f7f(610314,411801,424626)]=_0xcca467[_0xc84f9e[109]-8][_0x3f0d21(145587,1021147,142233)](_0x3e7aa2,_0xfc82ca(_0xc84f9e[44],164),_0xfc82ca(768814,768815),_0xfc82ca(803920,803920))
+_0xcdebb8[_0x3f0d21(515519,1012805,510361)]=(_0xc84f9e[167]-109)
+local _0x944a22=_0x45e78c(_0x52b84c,_0x3f0d21(234892,786534,229505),_0x248f80(314397,308608,664049),_0x616a6c[_0x248f80(93603,70715,19766)],0.0,nil,(1070+_0x95b3ae(_0x6bafdb(1034,36),1)-1069))
+_0x944a22[_0x2b4f7f(468311,293871,280966)]=_0xcca467[_0xc84f9e[55]-77][_0x3f0d21(412519,780047,415821)](0.5,0.5)
+_0x944a22[_0x2b4f7f(559606,298550,311042)]=_0xcca467[25][_0x3f0d21(201156,966060,197358)](_0x3e7aa2,(_0xc84f9e[175]-35),0.5,(1871+_0x95b3ae(_0x6bafdb(1497,662),1)-2159))
+_0x944a22[_0x248f80(325992,294931,1018412)]=_0xcca467[25][_0x3f0d21(68110,28406,73341)]((22+_0x95b3ae(_0x6bafdb(659,645),1)-1292),(45+_0x95b3ae(_0x6bafdb(16,61),1)-65))
+_0x944a22[_0x2b4f7f(686518,355358,351747)]=(_0xc84f9e[222]-1)
+local _0x8345a7=_0xcca467[29][_0x3f0d21(448734,750774,445428)](_0x2b4f7f(306194,213089,225816))
+_0x8345a7[_0x3f0d21(290473,35907,293595)]=_0xcca467[17][_0x3f0d21(69077,827837,73471)](0.5,0.5)
+_0x8345a7[_0x248f80(345755,343583,863091)]=_0xcca467[25][_0x2b4f7f(362181,388136,384630)](0.5,0.5)
+_0x8345a7[_0x3f0d21(433064,933737,429980)]=_0xcca467[25][_0x3f0d21(118677,812029,122047)](_0xfc82ca(670807,670806),16,(_0xc84f9e[210]-12),_0xfc82ca(565414,565428))
+_0x8345a7[_0x2b4f7f(123681,406792,395096)]=(_0xc84f9e[161]-201)
+_0x8345a7[_0x248f80(134702,161768,941979)]=_0x248f80(321242,299118,996561)
+_0x8345a7[_0x248f80(126481,104316,692344)]=11
+_0x8345a7[_0x248f80(65906,96306,245038)]=_0x52b84c
+local _0xf3ac6d=false
+local _0x5e60c7=_0xcca467[32][_0x2b4f7f(757313,106107,110426)](0.10,_0xcca467[18][_0x3f0d21(332827,408839,327933)][_0x2b4f7f(123791,356439,344713)],_0xcca467[18][_0x3f0d21(88002,434494,82730)][_0x248f80(197131,227387,220488)])
+local function _0x360431(_0x884063)
+local _0xf4ed26=_0xcca467[21][_0x3f0d21(117153,581197,121775)]((_0x884063-_0x52b84c[_0x3f0d21(483452,172250,488810)][_0x248f80(505889,507976,57120)])/_0xcca467[21][_0x248f80(157304,135462,805941)](_0x52b84c[_0x248f80(466586,484548,360476)][_0x248f80(418498,400043,67011)],_0xfc82ca(709669,709668)),_0xfc82ca(_0xc84f9e[4],5),(1928+_0x95b3ae(_0x6bafdb(826,1202),1)-2027))
+local _0xc9ad1b=_0x9a6b6d[_0x3f0d21(453327,750668,456955)]+(_0x9a6b6d[_0x2b4f7f(316361,161298,149054)]-_0x9a6b6d[_0x248f80(177606,180925,848576)])*_0xf4ed26
+local _0x9341b7=(1752+_0x95b3ae(_0x6bafdb(2017,313),1)-2320)^(_0x9a6b6d[_0x3f0d21(162609,449384,157958)]or _0xfc82ca(723792,723793))
+_0x9a6b6d[_0x2b4f7f(519343,254047,249970)]=_0xcca467[_0xc84f9e[133]-115][_0x248f80(458356,428392,495303)](_0xc9ad1b*_0x9341b7+0.5)/_0x9341b7
+_0x155c1d[_0x3f0d21(371921,658963,374971)](_0x155c1d,_0xcdebb8,_0x5e60c7,{[_0x2b4f7f(826605,230526,243285)]=_0xcca467[25][_0x248f80(211028,213029,869043)](_0xf4ed26,(2674+_0x95b3ae(_0x6bafdb(133,2807),1)-2940),_0xfc82ca(_0xc84f9e[48],97),(3291+_0x95b3ae(_0x6bafdb(2128,1163),1)-3291))}):Play()
+_0x155c1d[_0x2b4f7f(830478,307870,295167)](_0x155c1d,_0x944a22,_0x5e60c7,{[_0x3f0d21(82367,719405,86658)]=_0xcca467[25][_0x2b4f7f(763931,112673,100608)](_0xf4ed26,(485+_0x95b3ae(_0x6bafdb(452,33),1)-485),0.5,(833+_0x95b3ae(_0x6bafdb(1696,1505),1)-3201))}):Play()
+_0xd9c599[_0x3f0d21(146869,899896,141770)]=_0xcca467[34][_0x248f80(265916,292984,780762)](_0x84edbf,_0x9a6b6d[_0x3f0d21(75543,169909,79137)])
 end
-_0xee8a76[_0x848d34(733837,385392,370212)]:Connect(function(_0xe57301)
-if _0xe57301[_0xe8ebea(289951,270504,500777)]==_0xc96c19[23][_0xd44ced(156561,293938,142179)][_0xd44ced(268736,150612,282931)]or _0xe57301[_0xd44ced(270963,146896,289409)]==_0xc96c19[23][_0x848d34(298150,135143,149682)][_0xe8ebea(290926,277591,150000)]then
-_0x882652=true
-_0xaeab56[_0xd44ced(93143,269563,74411)]=false
-_0x3cf4c8[_0xe8ebea(223239,205822,192423)](_0x3cf4c8,_0x108b18,_0xc96c19[_0x40b209[204]-149][_0xd44ced(192474,177051,174254)](0.16,_0xc96c19[23][_0x848d34(209255,200034,215759)][_0xd44ced(313886,497574,295779)],_0xc96c19[23][_0xd44ced(219595,743397,200839)][_0x848d34(693107,199536,216256)]),{
-[_0xd44ced(177182,181868,195680)]=_0xc96c19[_0x40b209[165]-185][_0xe8ebea(423329,407971,933645)](_0xea489d(342318,342305),15)
+_0x8345a7[_0x2b4f7f(94854,365440,368926)]:Connect(function(_0x981f92)
+if _0x981f92[_0x248f80(459237,489482,9067)]==_0xcca467[18][_0x248f80(387941,365194,182763)][_0x248f80(66061,97277,977598)]or _0x981f92[_0x3f0d21(259644,459683,254612)]==_0xcca467[18][_0x3f0d21(252308,470027,249148)][_0x2b4f7f(408174,397632,402401)]then
+_0xf3ac6d=true
+_0xb0d9aa[_0x3f0d21(353353,460700,356689)]=false
+_0x155c1d[_0x3f0d21(154751,917181,149525)](_0x155c1d,_0x944a22,_0xcca467[32][_0x3f0d21(482911,717367,478581)](0.16,_0xcca467[18][_0x2b4f7f(204951,505305,493316)][_0x3f0d21(454602,504228,457427)],_0xcca467[18][_0x248f80(214737,212222,484604)][_0x248f80(310470,313078,320389)]),{
+[_0x248f80(495111,522108,851267)]=_0xcca467[25][_0x3f0d21(425922,465722,420785)]((3197+_0x95b3ae(_0x6bafdb(1056,2141),1)-3182),_0xfc82ca(_0xc84f9e[41],52))
 }):Play()
-_0x3cf4c8[_0xe8ebea(415108,401021,512548)](_0x3cf4c8,_0x732eeb,_0xc96c19[32][_0xe8ebea(70507,88530,302769)](0.16,_0xc96c19[23][_0xe8ebea(167164,180339,523190)][_0xe8ebea(169237,186757,690271)],_0xc96c19[_0x40b209[91]-28][_0xe8ebea(73739,93338,850326)][_0xd44ced(265578,854411,279591)]),{
-[_0xd44ced(401875,414625,420269)]=_0xc96c19[_0x40b209[155]-53][_0xd44ced(104795,787671,119270)](_0xea489d(363371,363517),_0xea489d(198699,198690))
+_0x155c1d[_0x248f80(212427,214138,1001542)](_0x155c1d,_0x52b84c,_0xcca467[32][_0x2b4f7f(930038,270540,266733)](0.16,_0xcca467[18][_0x3f0d21(412139,352503,417037)][_0x248f80(133388,160546,193110)],_0xcca467[18][_0x3f0d21(120713,401781,115553)][_0x248f80(182077,179469,170110)]),{
+[_0x2b4f7f(534244,474743,461916)]=_0xcca467[25][_0x3f0d21(342076,285892,339023)]((1236+_0x95b3ae(_0x6bafdb(1873,901),1)-2624),(477+_0x95b3ae(_0x6bafdb(305,236),1)-532))
 }):Play()
-_0x03da74(_0x108b18,0.14,_0x3f3f8e[_0x848d34(1024347,515939,498073)])
-_0xb32428(_0xe57301[_0xd44ced(197675,585981,213932)][_0xd44ced(231738,163873,249430)])
+_0x419d94(_0x944a22,0.14,_0x616a6c[_0x3f0d21(330226,957165,335295)])
+_0x360431(_0x981f92[_0x2b4f7f(744875,481899,486239)][_0x2b4f7f(161110,96402,84363)])
 end
 end)
-_0x1ceeaf[_0xd44ced(169056,87194,187541)]:Connect(function(_0xe57301)
-if _0x882652 and(_0xe57301[_0xd44ced(344430,220877,330140)]==_0xc96c19[23][_0xe8ebea(68570,83949,181100)][_0xd44ced(92724,725400,74434)]or _0xe57301[_0xe8ebea(390813,375466,409131)]==_0xc96c19[23][_0x848d34(502906,77627,92270)][_0xe8ebea(481391,463958,90609)])then
-_0xb32428(_0xe57301[_0x848d34(944016,331684,346702)][_0xd44ced(81484,14167,96544)])
+_0xdbf3be[_0x3f0d21(170176,863150,167019)]:Connect(function(_0x981f92)
+if _0xf3ac6d and(_0x981f92[_0x3f0d21(268815,61328,265895)]==_0xcca467[18][_0x3f0d21(368817,87342,373785)][_0x3f0d21(156117,424073,161145)]or _0x981f92[_0x3f0d21(451849,135318,455073)]==_0xcca467[18][_0x2b4f7f(485262,273987,269532)][_0x248f80(345146,343499,66633)])then
+_0x360431(_0x981f92[_0x3f0d21(417345,910803,413052)][_0x248f80(331798,354431,161559)])
 end
 end)
-_0x1ceeaf[_0xe8ebea(364943,384434,380195)]:Connect(function(_0xe57301)
-if _0xe57301[_0xd44ced(275247,142476,293853)]==_0xc96c19[_0x40b209[153]+20][_0x848d34(496383,70078,87787)][_0xe8ebea(378988,361556,412386)]or _0xe57301[_0xe8ebea(440726,456097,356640)]==_0xc96c19[23][_0xe8ebea(213126,199857,34864)][_0x848d34(95201,131462,149201)]then
-if _0x882652 then
-_0x882652=false
-_0xaeab56[_0xe8ebea(418565,405444,443338)]=true
-_0x3cf4c8[_0xe8ebea(65728,84793,34656)](_0x3cf4c8,_0x108b18,_0xc96c19[32][_0x848d34(373763,357536,340343)](0.18,_0xc96c19[23][_0xe8ebea(278065,291518,84347)][_0xd44ced(219977,954801,201218)],_0xc96c19[23][_0x848d34(924433,428509,446066)][_0xe8ebea(205866,223416,1046395)]),{
-[_0xe8ebea(497088,515587,145235)]=_0xc96c19[_0x40b209[120]-74][_0xe8ebea(236243,251601,774271)](12,_0xea489d(974983,974987))
+_0xdbf3be[_0x248f80(460312,491501,314807)]:Connect(function(_0x981f92)
+if _0x981f92[_0x2b4f7f(338869,418424,413927)]==_0xcca467[18][_0x248f80(140510,154929,329296)][_0x2b4f7f(926234,369141,365397)]or _0x981f92[_0x2b4f7f(16989,199568,211215)]==_0xcca467[18][_0x3f0d21(519398,203129,522318)][_0x2b4f7f(106625,101295,112910)]then
+if _0xf3ac6d then
+_0xf3ac6d=false
+_0xb0d9aa[_0x3f0d21(95471,202554,90615)]=true
+_0x155c1d[_0x2b4f7f(911693,391133,378300)](_0x155c1d,_0x944a22,_0xcca467[_0xc84f9e[205]-121][_0x3f0d21(167500,991780,171366)](0.18,_0xcca467[18][_0x3f0d21(424105,348597,420943)][_0x248f80(66346,96516,129136)],_0xcca467[18][_0x2b4f7f(494905,509847,521544)][_0x3f0d21(147137,111948,141864)]),{
+[_0x248f80(244181,245934,576145)]=_0xcca467[_0xc84f9e[129]-150][_0x2b4f7f(325105,142683,139057)](12,12)
 }):Play()
-_0x3cf4c8[_0xe8ebea(131675,149922,230907)](_0x3cf4c8,_0x732eeb,_0xc96c19[32][_0x848d34(113754,97529,80174)](0.18,_0xc96c19[23][_0x848d34(215704,226973,209200)][_0xd44ced(509028,659100,494895)],_0xc96c19[23][_0x848d34(801486,305154,323501)][_0xe8ebea(469745,484963,784800)]),{
-[_0xe8ebea(101804,116335,274239)]=_0xc96c19[_0x40b209[61]-168][_0xd44ced(495926,658618,514443)]((3096+_0xa81147(_0xfaf96b(1135,2167),1)-3152),_0xea489d(972485,972482))
+_0x155c1d[_0x248f80(482912,468945,732141)](_0x155c1d,_0x52b84c,_0xcca467[32][_0x3f0d21(418660,773900,421966)](0.18,_0xcca467[18][_0x2b4f7f(509491,217981,221600)][_0x2b4f7f(231699,465611,469013)],_0xcca467[_0xc84f9e[99]-49][_0x2b4f7f(382366,368432,372207)][_0x3f0d21(495425,263372,498600)]),{
+[_0x2b4f7f(552902,489301,476542)]=_0xcca467[25][_0x2b4f7f(480775,102061,113863)](_0xfc82ca(727113,727263),(_0xc84f9e[25]-100))
 }):Play()
-_0x03da74(_0x108b18,0.16,_0x3f3f8e[_0x848d34(847208,184417,169631)])
+_0x419d94(_0x944a22,0.16,_0x616a6c[_0x248f80(409452,411380,466937)])
 end
 end
 end)
 end
 end
-_0x573ea0()
-local function _0xfebfe9()
-_0x03da74(
-_0xe47f10,
+_0x106f30()
+local function _0x0ed157()
+_0x419d94(
+_0x2cefa3,
 0.18,
-_0x17d8a8[_0xd44ced(354615,232626,339183)]and _0x3f3f8e[_0x848d34(604008,417112,400288)]or _0x3f3f8e[_0xd44ced(310353,1000158,324805)],
-_0x17d8a8[_0x848d34(88022,470705,486026)]and 0.08 or 0.20
+_0x981e8b[_0x248f80(518101,495999,578753)]and _0x616a6c[_0x248f80(328540,359118,439224)]or _0x616a6c[_0x248f80(162331,131978,562360)],
+_0x981e8b[_0x248f80(72124,93974,928424)]and 0.08 or 0.20
 )
-if _0xf1cdf1 then
-_0x03da74(
-_0xf1cdf1,
+if _0xe187e1 then
+_0x419d94(
+_0xe187e1,
 0.18,
-_0x17d8a8[_0xd44ced(78822,513635,95806)]and _0x3f3f8e[_0x848d34(949469,393957,410655)]or _0x3f3f8e[_0xd44ced(78275,829221,96601)],
-_0x17d8a8[_0x848d34(192180,301011,316392)]and 0.32 or(_0x40b209[93]-60)
+_0x981e8b[_0x248f80(374266,377680,689902)]and _0x616a6c[_0x3f0d21(69281,695742,72428)]or _0x616a6c[_0x2b4f7f(638265,510269,523130)],
+_0x981e8b[_0x248f80(183543,178781,917475)]and 0.32 or 1
 )
 end
-_0x03da74(
-_0xfbad8e,
+_0x419d94(
+_0xc33e6d,
 0.18,
-_0x17d8a8[_0x848d34(222184,334479,351924)]and _0x3f3f8e[_0xe8ebea(243315,261551,951383)]or _0x3f3f8e[_0x848d34(710645,173226,189354)],
-_0x17d8a8[_0x848d34(60052,431091,448456)]and 0.0 or 0.35
+_0x981e8b[_0x248f80(211952,216410,788708)]and _0x616a6c[_0x248f80(523829,493473,1030720)]or _0x616a6c[_0x3f0d21(108227,709735,111248)],
+_0x981e8b[_0x3f0d21(422678,694358,418421)]and 0.0 or 0.35
 )
-_0x68877e[_0x848d34(605699,458484,440796)]=_0x17d8a8[_0x848d34(278999,145584,162955)]and _0x3f3f8e[_0xe8ebea(165588,183604,653309)]or _0x3f3f8e[_0xd44ced(421195,991524,402903)]
+_0x79bd7b[_0x3f0d21(128373,897170,123150)]=_0x981e8b[_0x248f80(406834,410520,591398)]and _0x616a6c[_0x248f80(66593,97721,9396)]or _0x616a6c[_0x3f0d21(66134,783661,71172)]
 end
-_0x17d8a8[_0x848d34(540735,495451,510210)]=_0xfebfe9
-local function _0x2960ce()
-_0x17d8a8[_0xd44ced(92750,495563,77718)]=not _0x17d8a8[_0xe8ebea(297185,311804,507739)]
-if _0x17d8a8[_0xd44ced(245528,840894,260368)]==_0xe8ebea(138533,152793,182129)and not _0x17d8a8[_0xd44ced(116535,467634,99055)]then
-_0x1a91f2(_0x17d8a8[_0xe8ebea(404615,419084,1003118)][_0x848d34(965,130045,114416)][_0xd44ced(200599,36022,215528)])
-elseif _0x17d8a8[_0x848d34(965509,85185,67754)]==_0xe8ebea(426929,444937,863381)and not _0x17d8a8[_0xd44ced(393422,58699,410902)]then
-_0x15649e[_0xd44ced(260804,234381,245093)]=nil
-_0x0ee8f4[_0xd44ced(74264,109045,92777)]=false
-elseif _0x17d8a8[_0x848d34(576585,473869,491366)]==_0xd44ced(387692,800169,372077)and not _0x17d8a8[_0x848d34(278817,145478,162941)]then
-_0x662977()
+_0x981e8b[_0x3f0d21(460750,466349,463970)]=_0x0ed157
+local function _0xcef209()
+_0x981e8b[_0x2b4f7f(1001254,266292,278382)]=not _0x981e8b[_0x2b4f7f(900327,453621,443567)]
+if _0x981e8b[_0x3f0d21(356999,165986,353044)]==_0x2b4f7f(50465,227472,215285)and not _0x981e8b[_0x248f80(115984,111546,980484)]then
+_0x43b782(_0x981e8b[_0x3f0d21(187573,627625,183989)][_0x248f80(161546,131234,988182)][_0x3f0d21(473286,297060,469744)])
+elseif _0x981e8b[_0x248f80(425221,396255,155588)]==_0x3f0d21(406083,426173,401512)and not _0x981e8b[_0x248f80(232539,260849,835407)]then
+_0xf24cc1[_0x2b4f7f(108888,299023,303425)]=nil
+_0x7c1cd4[_0x248f80(227563,196997,707968)]=false
+elseif _0x981e8b[_0x2b4f7f(251746,233941,245343)]==_0x2b4f7f(1037865,161781,149338)and not _0x981e8b[_0x2b4f7f(692962,116208,125610)]then
+_0x1c720d()
 end
-_0xfebfe9()
-_0x0b0364(_0x17d8a8[_0xd44ced(389989,491220,374033)],_0x17d8a8[_0x848d34(145324,282315,264944)]and _0x848d34(234208,387975,372668)or _0xe8ebea(91718,76421,446134),1.4)
+_0x0ed157()
+_0x75164e(_0x981e8b[_0x248f80(243527,245812,565068)],_0x981e8b[_0x2b4f7f(1009895,278517,266415)]and _0x248f80(499601,518459,568453)or _0x2b4f7f(486423,110846,99311),1.4)
 end
-_0x17d8a8[_0xe8ebea(516557,503049,822050)]=_0x2960ce
-local function _0xcdeb35()
-_0xcafc8a=not _0xcafc8a
-_0x0b6b21=_0x0b6b21+_0xea489d(_0x40b209[44],247)
-local _0x468f0c=_0x0b6b21
-if _0xcafc8a then
-_0x573ea0()
-local _0x7cbac1=_0xe75c41()
-_0xe7ca09[_0xe8ebea(246027,232136,418712)]=_0xc96c19[_0x40b209[181]-80][_0xe8ebea(421844,402797,254478)]((_0x40b209[199]-79),_0xea489d(_0x40b209[100],153),(_0x40b209[2]-176),_0x7cbac1)
-_0xe7ca09[_0xe8ebea(411315,396549,204234)]=true
-_0x3cf4c8[_0xe8ebea(141980,156005,240956)](_0x3cf4c8,
-_0xe47f10,
-_0xc96c19[_0x40b209[31]-184][_0xd44ced(395113,416552,409629)](0.24,_0xc96c19[_0x40b209[1]-207][_0x848d34(351948,352969,337252)][_0x848d34(679457,460859,479125)],_0xc96c19[_0x40b209[87]-203][_0xe8ebea(134280,147481,1037589)][_0xe8ebea(317956,300694,526677)]),
-{[_0xd44ced(514308,502646,495994)]=_0xc96c19[_0x40b209[166]+10][_0xd44ced(473163,484362,491327)](1,_0xea489d(_0x40b209[215],117),_0xea489d(898160,898160),(_0x40b209[58]-177)+_0x7cbac1)}
+_0x981e8b[_0x248f80(408737,411331,41643)]=_0xcef209
+local function _0x085b8d()
+_0x186520=not _0x186520
+_0xfca9aa=_0xfca9aa+(275+_0x95b3ae(_0x6bafdb(856,587),1)-1442)
+local _0x4ecd71=_0xfca9aa
+if _0x186520 then
+_0x106f30()
+local _0xa2d163=_0xa46ec8()
+_0xfcbf84[_0x3f0d21(300193,798816,295061)]=_0xcca467[25][_0x3f0d21(85230,843910,90052)]((2499+_0x95b3ae(_0x6bafdb(2932,695),1)-3626),_0xfc82ca(1041214,1041214),(_0xc84f9e[38]-196),_0xa2d163)
+_0xfcbf84[_0x3f0d21(375970,1039961,370821)]=true
+_0x155c1d[_0x248f80(446954,436315,697447)](_0x155c1d,
+_0x2cefa3,
+_0xcca467[_0xc84f9e[198]-189][_0x248f80(119910,109591,1027713)](0.24,_0xcca467[_0xc84f9e[140]-67][_0x248f80(350378,336519,370021)][_0x2b4f7f(124526,357814,345960)],_0xcca467[_0xc84f9e[114]-90][_0x2b4f7f(229609,248391,260248)][_0x2b4f7f(211777,461982,474750)]),
+{[_0x248f80(159590,136733,597026)]=_0xcca467[25][_0x2b4f7f(951041,299835,303642)]((934+_0x95b3ae(_0x6bafdb(145,823),1)-967),_0xfc82ca(_0xc84f9e[226],145),_0xfc82ca(828781,828781),_0xfc82ca(_0xc84f9e[115],38)+_0xa2d163)}
 ):Play()
 else
-_0x3cf4c8[_0x848d34(167014,411647,393448)](_0x3cf4c8,
-_0xe47f10,
-_0xc96c19[_0x40b209[33]-20][_0xe8ebea(522741,504652,160815)](0.20,_0xc96c19[_0x40b209[167]-231][_0xd44ced(255287,214480,240765)][_0xd44ced(370618,552258,388849)],_0xc96c19[23][_0x848d34(726274,231374,245857)][_0x848d34(831073,341602,356818)]),
-{[_0xe8ebea(354787,336416,52080)]=_0xc96c19[18][_0x848d34(515476,466231,481504)](1,_0xea489d(899896,899896),_0xea489d(586845,586845),(398+_0xa81147(_0xfaf96b(533,923),1)-1416))}
+_0x155c1d[_0x3f0d21(251758,816556,246532)](_0x155c1d,
+_0x2cefa3,
+_0xcca467[_0xc84f9e[18]-125][_0x3f0d21(330642,567290,334008)](0.20,_0xcca467[_0xc84f9e[249]-1][_0x248f80(98416,129629,97727)][_0x248f80(489503,459313,492357)],_0xcca467[18][_0x2b4f7f(337490,355580,351779)][_0x2b4f7f(40475,305604,301860)]),
+{[_0x248f80(177412,183423,640576)]=_0xcca467[25][_0x2b4f7f(639519,250405,254724)]((1593+_0x95b3ae(_0x6bafdb(310,1807),1)-2116),_0xfc82ca(56472,56472),0,_0xfc82ca(_0xc84f9e[149],164))}
 ):Play()
-_0xc96c19[_0x40b209[185]-16][_0xd44ced(521746,125682,504281)](0.20,function()
-if _0x0b6b21==_0x468f0c and not _0xcafc8a then
-_0xe7ca09[_0x848d34(326538,322693,305745)]=false
+_0xcca467[8][_0x3f0d21(241013,1004613,245492)](0.20,function()
+if _0xfca9aa==_0x4ecd71 and not _0x186520 then
+_0xfcbf84[_0x248f80(470602,481060,957217)]=false
 end
 end)
 end
 end
-local _0x8f78da=(1501+_0xa81147(_0xfaf96b(1041,460),1)-1501)
-local _0x73a0ab=false
-_0x379faf[_0x848d34(535092,457161,442013)]:Connect(function(_0xe57301)
-if _0xe57301[_0xe8ebea(401789,421194,387531)]==_0xc96c19[23][_0xd44ced(78925,469998,97471)][_0xd44ced(496918,293779,515554)]then
-_0x8f78da=_0x8f78da+(1726+_0xa81147(_0xfaf96b(1144,710),1)-1853)
-local _0x99dd98=_0x8f78da
-local _0x96438b=_0xe57301[_0x848d34(980985,368589,383527)]
-_0xc96c19[21][_0x848d34(167489,265795,280685)](0.35,function()
-if _0x8f78da==_0x99dd98 and _0xe57301[_0xd44ced(394822,699953,413638)]==_0xc96c19[_0x40b209[173]-88][_0xe8ebea(398919,416386,1010135)][_0xe8ebea(258721,245351,297440)]then
-if(_0xe57301[_0xd44ced(439243,870173,455756)]-_0x96438b)[_0x848d34(1032531,285629,269937)]<=(_0x40b209[196]-121)then
-_0x73a0ab=true
-_0xcdeb35()
+local _0x2fa530=_0xfc82ca(60053,60053)
+local _0xb61128=false
+_0x5229d5[_0x3f0d21(476933,268881,480162)]:Connect(function(_0x981f92)
+if _0x981f92[_0x3f0d21(210838,508425,205630)]==_0xcca467[18][_0x3f0d21(523772,198755,518484)][_0x248f80(372518,382679,126805)]then
+_0x2fa530=_0x2fa530+_0xfc82ca(_0xc84f9e[148],36)
+local _0xd4e730=_0x2fa530
+local _0x884f63=_0x981f92[_0x3f0d21(146372,622678,141561)]
+_0xcca467[_0xc84f9e[226]-137][_0x2b4f7f(685530,78008,65984)](0.35,function()
+if _0x2fa530==_0xd4e730 and _0x981f92[_0x248f80(78562,84097,767972)]==_0xcca467[_0xc84f9e[140]-67][_0x3f0d21(106912,585787,111804)][_0x2b4f7f(139554,358815,346763)]then
+if(_0x981f92[_0x2b4f7f(1028305,243473,230949)]-_0x884f63)[_0x3f0d21(76508,284670,80323)]<=(3533+_0x95b3ae(_0x6bafdb(2066,1503),1)-3557)then
+_0xb61128=true
+_0x085b8d()
 end
 end
 end)
 end
 end)
-_0x379faf[_0xd44ced(219146,447417,200946)]:Connect(function(_0xe57301)
-if _0xe57301[_0xd44ced(114254,500205,128700)]==_0xc96c19[_0x40b209[193]-202][_0x848d34(160479,323998,308939)][_0xd44ced(191975,66402,173331)]then
-_0x8f78da=_0x8f78da+_0xea489d(_0x40b209[93],60)
+_0x5229d5[_0x3f0d21(205312,212644,210606)]:Connect(function(_0x981f92)
+if _0x981f92[_0x3f0d21(86465,369758,83305)]==_0xcca467[_0xc84f9e[149]-122][_0x248f80(149880,143511,355318)][_0x2b4f7f(208746,197700,210661)]then
+_0x2fa530=_0x2fa530+_0xfc82ca(338666,338667)
 end
 end)
-_0x379faf[_0x848d34(69627,354140,335897)]:Connect(function()
-if _0x73a0ab then
-_0x73a0ab=false
+_0x5229d5[_0x248f80(132992,163423,991616)]:Connect(function()
+if _0xb61128 then
+_0xb61128=false
 return
 end
-_0x2960ce()
+_0xcef209()
 end)
-_0x379faf[_0xe8ebea(428137,443566,449336)]:Connect(_0xcdeb35)
+_0x5229d5[_0x248f80(369338,383199,501833)]:Connect(_0x085b8d)
 end
 end)()
-local _0xbabb0e,_0x32d410=_0x6f36f0(
-_0x0aa327,
-_0x848d34(726383,154675,138197),
-_0x848d34(385173,447715,431073),
-_0x3f3f8e[_0x848d34(952038,383191,368162)],
+local _0x9f76bb,_0xb66f07=_0x45e78c(
+_0xfc0484,
+_0x2b4f7f(758012,123202,119380),
+_0x2b4f7f(1009632,201468,204976),
+_0x616a6c[_0x3f0d21(293258,990230,290242)],
 0.10,
-_0x3f3f8e[_0xe8ebea(377124,363256,586496)],
+_0x616a6c[_0x2b4f7f(727952,472285,460441)],
 0.22
 )
-_0xbabb0e[_0x848d34(163853,497892,516091)]=_0xc96c19[_0x40b209[148]-148][_0xe8ebea(181156,166173,478846)](0.5,(_0x40b209[118]-2))
-_0xbabb0e[_0xe8ebea(292134,278506,675870)]=_0xc96c19[18][_0xd44ced(156821,145620,140257)](0.5,115,_0xea489d(_0x40b209[214],227),(_0x40b209[44]-232))
-_0xbabb0e[_0xd44ced(78738,82400,97260)]=_0xc96c19[18][_0xd44ced(85965,840257,67440)]((_0x40b209[34]-42),(_0x40b209[82]-66))
-_0xbabb0e[_0xd44ced(236393,200836,250648)]=_0x1b3a2b
-_0xbabb0e[_0xe8ebea(176948,194689,373447)]=_0xea489d(825763,825783)
-if _0x32d410 then _0x32d410[_0xd44ced(295326,413946,313838)]=_0xea489d(16150,16131)end
-local _0x987a6c=_0x6f36f0(_0xbabb0e,_0xe8ebea(421253,403320,62159),_0x848d34(685721,366490,381081),_0x3f3f8e[_0xe8ebea(122132,104136,847664)],0.0,nil,_0xea489d(533433,533432))
-_0x987a6c[_0xd44ced(66166,296573,84682)]=_0xc96c19[15][_0xd44ced(467815,491302,484371)]((_0x40b209[63]-235),0.5)
-_0x987a6c[_0xd44ced(144282,640844,160797)]=_0xc96c19[18][_0xe8ebea(358701,340884,62711)]((684+_0xa81147(_0xfaf96b(238,578),1)-816),_0xea489d(_0x40b209[49],114),0.5,(_0x40b209[23]-73))
-_0x987a6c[_0xd44ced(345967,341277,331537)]=_0xc96c19[_0x40b209[159]-211][_0xd44ced(381727,544403,367522)]((_0x40b209[132]-121),_0xea489d(961669,961667))
-_0x987a6c[_0xd44ced(374999,485811,389287)]=(_0x40b209[187]-201)
-local _0xfa183d=_0xc96c19[17][_0x848d34(504263,487780,472243)](_0xd44ced(258096,164573,243964))
-_0xfa183d[_0xe8ebea(292237,278337,676021)]=_0xc96c19[18][_0xd44ced(166161,988317,180652)](_0xea489d(551244,551256),_0xea489d(300177,300177))
-_0xfa183d[_0xe8ebea(434784,453027,196851)]=_0xc96c19[18][_0xd44ced(123693,114540,107609)]((493+_0xa81147(_0xfaf96b(1412,1129),1)-2540),-(279+_0xa81147(_0xfaf96b(1240,1487),1)-2703),_0xea489d(516693,516692),0)
-_0xfa183d[_0xe8ebea(395569,410329,433530)]=(3085+_0xa81147(_0xfaf96b(2116,1097),1)-3212)
-_0xfa183d[_0xe8ebea(242957,260362,336410)]=_0xc96c19[_0x40b209[220]-17][_0x848d34(158529,112529,127156)][_0xe8ebea(106654,126102,1028356)]
-_0xfa183d[_0xd44ced(490741,590401,472113)]=_0xea489d(276188,276176)
-_0xfa183d[_0x848d34(928625,125830,109742)]=_0x3f3f8e[_0x848d34(864948,200637,215363)]
-_0xfa183d[_0x848d34(1025691,222217,205605)]=_0xe8ebea(198186,215566,232505)
-_0xfa183d[_0xd44ced(190635,14799,172251)]=(243+_0xa81147(_0xfaf96b(719,572),1)-1268)
-_0xfa183d[_0xe8ebea(185898,171426,558460)]=_0xbabb0e
-local _0xd29a15,_0x0214ef=_0x6f36f0(
-_0x0aa327,
-_0x848d34(445820,354046,336153),
-_0xe8ebea(237406,251066,386828),
-_0x3f3f8e[_0xd44ced(414385,631907,399908)],
+_0x9f76bb[_0x248f80(188094,173831,387859)]=_0xcca467[17][_0x2b4f7f(871055,481973,486292)](0.5,0)
+_0x9f76bb[_0x248f80(96157,69401,596597)]=_0xcca467[_0xc84f9e[72]-178][_0x3f0d21(442026,725698,437632)](0.5,(638+_0x95b3ae(_0x6bafdb(426,980),1)-1291),_0xfc82ca(_0xc84f9e[247],233),(_0xc84f9e[104]-120))
+_0x9f76bb[_0x2b4f7f(959906,113969,102170)]=_0xcca467[25][_0x3f0d21(443964,500420,447055)](_0xfc82ca(_0xc84f9e[26],87),_0xfc82ca(_0xc84f9e[173],241))
+_0x9f76bb[_0x248f80(109498,119508,532177)]=_0x0df478
+_0x9f76bb[_0x3f0d21(169311,670885,164217)]=(3584+_0x95b3ae(_0x6bafdb(540,3100),1)-3620)
+if _0xb66f07 then _0xb66f07[_0x3f0d21(127303,612541,124257)]=_0xfc82ca(284983,284962)end
+local _0xee5999=_0x45e78c(_0x9f76bb,_0x248f80(401709,416152,866007),_0x3f0d21(338846,528657,344008),_0x616a6c[_0x2b4f7f(930066,138847,142363)],0.0,nil,_0xfc82ca(_0xc84f9e[163],244))
+_0xee5999[_0x2b4f7f(423240,338928,334233)]=_0xcca467[17][_0x248f80(464286,486895,618361)]((2180+_0x95b3ae(_0x6bafdb(953,2877),1)-3830),0.5)
+_0xee5999[_0x248f80(264419,290919,812299)]=_0xcca467[25][_0x248f80(161551,135038,789992)]((_0xc84f9e[205]-153),(93+_0x95b3ae(_0x6bafdb(481,444),1)-915),0.5,0)
+_0xee5999[_0x3f0d21(321930,806219,327102)]=_0xcca467[25][_0x2b4f7f(87790,495172,506926)]((_0xc84f9e[47]-57),(728+_0x95b3ae(_0x6bafdb(1517,1845),1)-3356))
+_0xee5999[_0x3f0d21(91186,642504,94228)]=(3332+_0x95b3ae(_0x6bafdb(2240,1476),1)-3694)
+local _0xa30f03=_0xcca467[29][_0x2b4f7f(852723,463561,467944)](_0x3f0d21(96742,76231,93540))
+_0xa30f03[_0x3f0d21(127640,674058,123301)]=_0xcca467[25][_0x2b4f7f(135714,313992,325858)]((3068+_0x95b3ae(_0x6bafdb(311,2763),1)-3054),_0xfc82ca(668182,668182))
+_0xa30f03[_0x3f0d21(263254,827543,266338)]=_0xcca467[25][_0x2b4f7f(525379,136313,140632)]((3570+_0x95b3ae(_0x6bafdb(405,3175),1)-3579),-_0xfc82ca(_0xc84f9e[198],197),(1385+_0x95b3ae(_0x6bafdb(1925,748),1)-2672),(_0xc84f9e[169]-41))
+_0xa30f03[_0x248f80(72255,91039,173850)]=_0xfc82ca(_0xc84f9e[78],80)
+_0xa30f03[_0x3f0d21(236572,628789,231524)]=_0xcca467[18][_0x2b4f7f(995202,169977,173462)][_0x2b4f7f(932121,283495,286999)]
+_0xa30f03[_0x2b4f7f(596779,459080,471865)]=_0xfc82ca(385459,385471)
+_0xa30f03[_0x3f0d21(337706,615117,340817)]=_0x616a6c[_0x248f80(262804,293644,336385)]
+_0xa30f03[_0x248f80(503140,513186,785617)]=_0x248f80(511171,505119,838405)
+_0xa30f03[_0x2b4f7f(660705,328009,340820)]=_0xfc82ca(_0xc84f9e[93],181)
+_0xa30f03[_0x2b4f7f(273537,195377,182977)]=_0x9f76bb
+local _0x0a4a6a,_0x1992fb=_0x45e78c(
+_0xfc0484,
+_0x3f0d21(273044,913233,278452),
+_0x248f80(317594,303366,837302),
+_0x616a6c[_0x2b4f7f(63853,467639,463093)],
 0.10,
-_0x3f3f8e[_0xd44ced(183113,666003,164830)],
+_0x616a6c[_0x2b4f7f(557573,306504,302860)],
 0.20
 )
-_0xd29a15[_0xe8ebea(316545,301184,296873)]=_0xc96c19[15][_0xe8ebea(410220,395477,249782)]((_0x40b209[157]-206),0.5)
-_0xd29a15[_0xd44ced(403675,908301,421724)]=_0xc96c19[_0x40b209[29]-69][_0x848d34(284139,300360,315551)](1,-(_0x40b209[88]-221),0.58,_0xea489d(_0x40b209[32],234))
-_0xd29a15[_0xd44ced(152170,139288,137748)]=_0xc96c19[18][_0xd44ced(384278,540826,365995)]((2900+_0xa81147(_0xfaf96b(2728,508),1)-3154),_0xea489d(131552,131522))
-_0xd29a15[_0xd44ced(211806,241843,226095)]=false
-_0xd29a15[_0xe8ebea(169454,187995,365597)]=(_0x40b209[218]-7)
-if _0x0214ef then _0x0214ef[_0xd44ced(381917,459449,367533)]=_0xea489d(_0x40b209[15],181)end
-_0xd29a15[_0x848d34(415111,441111,458230)]=_0xc96c19[18][_0x848d34(579862,383096,368472)]((542+_0xa81147(_0xfaf96b(649,151),1)-712),_0xea489d(533047,533013))
-local _0x58cd22=_0xc96c19[17][_0xe8ebea(305000,323025,76466)](_0x848d34(483250,438717,456338))
-_0x58cd22[_0x848d34(473661,513197,496204)]=_0xc96c19[18][_0xe8ebea(68957,83940,295047)](_0xea489d(930115,930114),-_0xea489d(1037931,1037937),_0xea489d(_0x40b209[129],7),(408+_0xa81147(_0xfaf96b(812,692),1)-1504))
-_0x58cd22[_0x848d34(856133,424049,408987)]=_0xc96c19[18][_0xd44ced(139089,148240,153637)]((_0x40b209[219]-60),(2549+_0xa81147(_0xfaf96b(356,2193),1)-2549),_0xea489d(321277,321277),(529+_0xa81147(_0xfaf96b(598,71),1)-669))
-_0x58cd22[_0xe8ebea(372861,392085,336950)]=_0xea489d(523475,523474)
-_0x58cd22[_0x848d34(301283,476211,459542)]=_0xc96c19[23][_0xd44ced(69751,151621,88245)][_0xd44ced(90410,747623,76276)]
-_0x58cd22[_0xd44ced(429655,585955,444051)]=_0xea489d(613585,613597)
-_0x58cd22[_0x848d34(925307,122508,104868)]=_0x3f3f8e[_0xe8ebea(474205,489345,659065)]
-_0x58cd22[_0x848d34(758746,479560,464484)]=_0x848d34(971504,425510,408014)
-_0x58cd22[_0xd44ced(192714,8622,178362)]=_0xea489d(113824,113846)
-_0x58cd22[_0xe8ebea(316057,301329,950735)]=_0xd29a15
-local _0x1d1fdc=false
-local _0x4ff306=_0xc96c19[_0x40b209[31]-199][_0xd44ced(443769,432440,426509)](_0x848d34(42255,84736,68655))
-_0x4ff306[_0xe8ebea(395733,410134,240454)]=_0xc96c19[18][_0xd44ced(226361,977333,212100)]((1151+_0xa81147(_0xfaf96b(1232,175),1)-1383),_0xea489d(888981,888973))
-_0x4ff306[_0xd44ced(85791,314132,67491)]=_0xc96c19[15][_0x848d34(479307,495848,513343)](_0xea489d(227022,227023),0.5)
-_0x4ff306[_0xd44ced(106640,676934,124695)]=_0xc96c19[_0x40b209[256]-165][_0x848d34(130860,81807,96856)](_0xea489d(1013224,1013225),-_0xea489d(241084,241081),0.5,_0xea489d(735837,735837))
-_0x4ff306[_0xd44ced(161171,1016278,146745)]=_0xc96c19[30][_0xd44ced(106817,701306,125236)]((2136+_0xa81147(_0xfaf96b(2615,623),1)-3208),(_0x40b209[149]-113),48)
-_0x4ff306[_0xe8ebea(290915,277387,320552)]=0.35
-_0x4ff306[_0x848d34(156788,112804,130945)]=_0xc96c19[23][_0xd44ced(467007,286733,485629)][_0x848d34(911265,441843,457429)]
-_0x4ff306[_0x848d34(1018493,92203,77580)]=_0xea489d(902137,902132)
-_0x4ff306[_0x848d34(971035,70124,87748)]=_0xc96c19[30][_0x848d34(636948,145101,159765)]((824+_0xa81147(_0xfaf96b(1852,1028),1)-2700),(_0x40b209[66]+74),(_0x40b209[180]-36))
-_0x4ff306[_0xd44ced(291447,535559,277182)]=_0xe8ebea(211013,226446,132290)
-_0x4ff306[_0xd44ced(310235,420543,324523)]=_0xea489d(314145,314168)
-_0x4ff306[_0xe8ebea(515955,496891,887845)]=_0xd29a15
-local _0xfe420c=_0xc96c19[_0x40b209[122]-230][_0xd44ced(65677,89292,83961)](_0xe8ebea(486578,468802,143828))
-_0xfe420c[_0xd44ced(495602,585681,509790)]=_0xc96c19[16][_0xd44ced(243395,256642,258487)](0,(2172+_0xa81147(_0xfaf96b(2567,635),1)-3195))
-_0xfe420c[_0x848d34(831218,242156,259914)]=_0x4ff306
-local _0xba3d8b=_0xc96c19[17][_0x848d34(329600,378659,361204)](_0xd44ced(93956,690406,75702))
-_0xba3d8b[_0x848d34(736844,340438,358207)]=(1997+_0xa81147(_0xfaf96b(112,1981),1)-2092)
-_0xba3d8b[_0x848d34(660618,498081,515763)]=_0xc96c19[_0x40b209[87]-196][_0xd44ced(431326,886501,449707)](_0xea489d(_0x40b209[121],251),_0xea489d(776282,776220),_0xea489d(921527,921540))
-_0xba3d8b[_0xd44ced(358569,5498,340013)]=0.45
-_0xba3d8b[_0xe8ebea(259677,245205,632075)]=_0x4ff306
-_0x4ff306[_0xe8ebea(182720,165351,256640)]:Connect(function()
-_0x1d1fdc=not _0x1d1fdc
-if _0x1d1fdc then
-_0x4ff306[_0xd44ced(257574,1028182,239343)]=_0x848d34(242706,106175,121173)
-_0x4ff306[_0xd44ced(141498,881839,155775)]=_0x3f3f8e[_0xd44ced(76621,641431,91098)]
-_0x4ff306[_0x848d34(973436,242395,259542)]=_0xc96c19[30][_0xd44ced(264107,988560,282590)]((250+_0xa81147(_0xfaf96b(287,485),1)-722),40,_0xea489d(858661,858741))
-_0xba3d8b[_0xd44ced(371502,572135,385921)]=_0x3f3f8e[_0xe8ebea(112206,130450,820330)]
-_0xba3d8b[_0x848d34(274844,114861,99914)]=0.20
-_0x0b0364(_0x848d34(667456,463336,480451),_0xd44ced(236995,658961,250955),1.2)
+_0x0a4a6a[_0x2b4f7f(141602,96154,83443)]=_0xcca467[17][_0x3f0d21(288267,641635,292129)]((751+_0x95b3ae(_0x6bafdb(988,307),1)-1294),0.5)
+_0x0a4a6a[_0x3f0d21(104190,666988,99779)]=_0xcca467[25][_0x3f0d21(158676,1034172,162046)]((_0xc84f9e[8]-69),-(_0xc84f9e[81]-107),0.58,(844+_0x95b3ae(_0x6bafdb(199,907),1)-1106))
+_0x0a4a6a[_0x3f0d21(500474,984635,505550)]=_0xcca467[25][_0x248f80(261432,230530,85636)]((3391+_0x95b3ae(_0x6bafdb(236,3539),1)-3693),34)
+_0x0a4a6a[_0x248f80(194264,167862,738227)]=false
+_0x0a4a6a[_0x3f0d21(148262,715484,153344)]=_0xfc82ca(_0xc84f9e[53],193)
+if _0x1992fb then _0x1992fb[_0x3f0d21(288617,839315,291663)]=_0xfc82ca(_0xc84f9e[52],196)end
+_0x0a4a6a[_0x3f0d21(353373,901276,356457)]=_0xcca467[_0xc84f9e[179]-210][_0x248f80(268971,287505,436503)]((514+_0x95b3ae(_0x6bafdb(313,827),1)-1052),_0xfc82ca(_0xc84f9e[53],247))
+local _0x625869=_0xcca467[29][_0x248f80(127524,100949,1018051)](_0x3f0d21(267267,279586,262273))
+_0x625869[_0x248f80(341467,347296,935583)]=_0xcca467[_0xc84f9e[4]+20][_0x2b4f7f(623089,233931,237802)](_0xfc82ca(743013,743012),-_0xfc82ca(_0xc84f9e[100],182),1,_0xfc82ca(749994,749994))
+_0x625869[_0x2b4f7f(646607,383503,387899)]=_0xcca467[_0xc84f9e[181]-189][_0x3f0d21(457858,741610,454568)](_0xfc82ca(195122,195122),_0xfc82ca(973000,973000),_0xfc82ca(17074,17074),_0xfc82ca(890125,890125))
+_0x625869[_0x2b4f7f(48917,485692,482156)]=_0xfc82ca(_0xc84f9e[211],158)
+_0x625869[_0x248f80(334264,352263,838352)]=_0xcca467[_0xc84f9e[84]-150][_0x248f80(340964,346715,843916)][_0x248f80(396748,422935,1047612)]
+_0x625869[_0x3f0d21(411052,1041309,414166)]=(_0xc84f9e[1]-129)
+_0x625869[_0x2b4f7f(671879,112946,101184)]=_0x616a6c[_0x3f0d21(468874,832661,472007)]
+_0x625869[_0x3f0d21(328017,690140,333102)]=_0x248f80(485445,463405,1032579)
+_0x625869[_0x2b4f7f(738507,282979,287614)]=_0xfc82ca(_0xc84f9e[251],46)
+_0x625869[_0x3f0d21(379048,303946,383825)]=_0x0a4a6a
+local _0x7a8e04=false
+local _0x81e967=_0xcca467[_0xc84f9e[164]-44][_0x2b4f7f(948258,288792,284985)](_0x248f80(135480,157937,103982))
+_0x81e967[_0x2b4f7f(825881,230026,241825)]=_0xcca467[25][_0x2b4f7f(209977,388243,384761)](_0xfc82ca(155646,155622),(_0xc84f9e[11]-91))
+_0x81e967[_0x2b4f7f(188932,113852,102101)]=_0xcca467[17][_0x3f0d21(189797,1001741,194127)]((_0xc84f9e[146]-199),0.5)
+_0x81e967[_0x3f0d21(192757,609127,189384)]=_0xcca467[25][_0x248f80(226920,200217,855183)]((2279+_0x95b3ae(_0x6bafdb(201,2094),1)-2294),-_0xfc82ca(865247,865242),0.5,_0xfc82ca(722303,722303))
+_0x81e967[_0x3f0d21(429935,539432,432911)]=_0xcca467[12][_0x2b4f7f(712471,184345,188987)](_0xfc82ca(_0xc84f9e[239],175),26,(45+_0x95b3ae(_0x6bafdb(1445,1416),1)-2813))
+_0x81e967[_0x3f0d21(246741,240046,251788)]=0.35
+_0x81e967[_0x2b4f7f(631104,268603,273236)]=_0xcca467[18][_0x248f80(80573,82690,584149)][_0x3f0d21(221389,964321,226484)]
+_0x81e967[_0x2b4f7f(1044231,128356,116501)]=(2334+_0x95b3ae(_0x6bafdb(243,2541),1)-2771)
+_0x81e967[_0x248f80(352757,333879,717614)]=_0xcca467[_0xc84f9e[189]-108][_0x2b4f7f(894512,371006,367388)]((517+_0x95b3ae(_0x6bafdb(178,695),1)-693),_0xfc82ca(1011769,1011862),(239+_0x95b3ae(_0x6bafdb(397,354),1)-546))
+_0x81e967[_0x248f80(338067,348501,620838)]=_0x2b4f7f(533387,341701,329180)
+_0x81e967[_0x2b4f7f(891484,167924,179689)]=(4079+_0x95b3ae(_0x6bafdb(3977,102),1)-4054)
+_0x81e967[_0x248f80(90145,72033,253053)]=_0x0a4a6a
+local _0xa57079=_0xcca467[29][_0x3f0d21(287750,641134,292652)](_0x2b4f7f(96532,396469,409325))
+_0xa57079[_0x3f0d21(99908,1032489,102950)]=_0xcca467[31][_0x3f0d21(299881,605953,294979)]((241+_0x95b3ae(_0x6bafdb(1059,1234),1)-2293),7)
+_0xa57079[_0x3f0d21(452257,494915,456024)]=_0x81e967
+local _0x1c9240=_0xcca467[29][_0x3f0d21(247111,944431,251501)](_0x3f0d21(243862,85245,240894))
+_0x1c9240[_0x3f0d21(127564,107454,124528)]=(_0xc84f9e[42]-89)
+_0x1c9240[_0x2b4f7f(258362,238996,235464)]=_0xcca467[12][_0x3f0d21(455131,606855,452080)](_0xfc82ca(329301,329221),(916+_0x95b3ae(_0x6bafdb(389,529),1)-848),_0xfc82ca(690115,690096))
+_0x1c9240[_0x2b4f7f(61496,360213,347428)]=0.45
+_0x1c9240[_0x3f0d21(412177,467443,416232)]=_0x81e967
+_0x81e967[_0x2b4f7f(1047056,440163,427500)]:Connect(function()
+_0x7a8e04=not _0x7a8e04
+if _0x7a8e04 then
+_0x81e967[_0x248f80(285296,271286,527301)]=_0x3f0d21(481849,295021,479002)
+_0x81e967[_0x248f80(138770,157648,888009)]=_0x616a6c[_0x2b4f7f(682311,411146,422990)]
+_0x81e967[_0x2b4f7f(878276,290513,285830)]=_0xcca467[_0xc84f9e[224]-36][_0x248f80(400164,418390,688116)]((3545+_0x95b3ae(_0x6bafdb(1162,2387),1)-3499),_0xfc82ca(331250,331226),(_0xc84f9e[88]+26))
+_0x1c9240[_0x3f0d21(81597,448065,76504)]=_0x616a6c[_0x248f80(236205,254777,777944)]
+_0x1c9240[_0x248f80(244985,247160,153849)]=0.20
+_0x75164e(_0x2b4f7f(864519,380608,392886),_0x248f80(384208,370363,343904),1.2)
 else
-_0x4ff306[_0xd44ced(181317,956981,167052)]=_0xd44ced(111599,350337,129641)
-_0x4ff306[_0x848d34(786869,246082,231018)]=_0xc96c19[_0x40b209[165]-173][_0xd44ced(429676,891991,443929)]((602+_0xa81147(_0xfaf96b(911,469),1)-1200),_0xea489d(_0x40b209[188],71),205)
-_0x4ff306[_0xe8ebea(267812,286155,799404)]=_0xc96c19[_0x40b209[78]+2][_0xd44ced(147503,610836,133210)](_0xea489d(122739,122733),_0xea489d(289772,289782),_0xea489d(158737,158753))
-_0xba3d8b[_0x848d34(1028407,146460,162574)]=_0xc96c19[_0x40b209[143]-120][_0x848d34(583879,222750,204998)]((594+_0xa81147(_0xfaf96b(860,270),1)-1050),(_0x40b209[67]+60),_0xea489d(_0x40b209[79],101))
-_0xba3d8b[_0xd44ced(208591,410396,222795)]=0.45
-_0x0b0364(_0x848d34(642872,323984,308411),_0xd44ced(404467,774420,418426),1.2)
+_0x81e967[_0x2b4f7f(682462,152321,156023)]=_0x3f0d21(243252,597800,238358)
+_0x81e967[_0x2b4f7f(648324,138545,143171)]=_0xcca467[12][_0x3f0d21(441279,592099,438164)]((_0xc84f9e[216]+160),175,(_0xc84f9e[185]-33))
+_0x81e967[_0x248f80(149080,147455,992582)]=_0xcca467[12][_0x2b4f7f(1008456,486470,482916)](_0xfc82ca(230104,230086),_0xfc82ca(179223,179213),(_0xc84f9e[39]+38))
+_0x1c9240[_0x2b4f7f(234559,245905,258765)]=_0xcca467[12][_0x2b4f7f(671676,143538,131728)](_0xfc82ca(_0xc84f9e[104],214),_0xfc82ca(329591,329521),(71+_0x95b3ae(_0x6bafdb(118,49),1)-52))
+_0x1c9240[_0x3f0d21(491356,347171,486246)]=0.45
+_0x75164e(_0x248f80(183450,179036,939575),_0x2b4f7f(343949,458280,445748),1.2)
 end
 end)
-local function _0x5220a3(_0xb76096,_0x0f49fc,_0x2fb259,_0x0d9e9c)
-local _0xdda1d6,_0x7d10a9,_0x3ac420,_0xa9bf3b=false,false,nil,nil
-_0x0f49fc[_0xd44ced(250678,891945,236487)]:Connect(function(_0xe57301)
-if _0xe57301[_0xe8ebea(503349,516610,288387)]==_0xc96c19[23][_0xe8ebea(95586,80213,179668)][_0xe8ebea(523544,504096,294806)]or _0xe57301[_0xd44ced(119778,511041,105232)]==_0xc96c19[23][_0xd44ced(402747,15000,421321)][_0x848d34(346473,408334,425049)]then
-_0xdda1d6=true
-_0x7d10a9=false
-_0x3ac420=_0xe57301[_0xd44ced(418372,890514,402883)]
-_0xa9bf3b=_0xb76096[_0xe8ebea(427785,445893,565809)]
+local function _0x3e779f(_0x006b4c,_0x335c14,_0xc14dda,_0xc2b5e9)
+local _0x71a2d5,_0x3c38f8,_0xfebc1c,_0x7f03b5=false,false,nil,nil
+_0x335c14[_0x248f80(211999,214513,243291)]:Connect(function(_0x981f92)
+if _0x981f92[_0x3f0d21(387035,70212,390003)]==_0xcca467[_0xc84f9e[24]-186][_0x3f0d21(311013,19322,305741)][_0x2b4f7f(803123,508636,520316)]or _0x981f92[_0x248f80(408223,410480,71697)]==_0xcca467[18][_0x2b4f7f(72777,152964,157467)][_0x3f0d21(520558,26130,517572)]then
+_0x71a2d5=true
+_0x3c38f8=false
+_0xfebc1c=_0x981f92[_0x3f0d21(179401,591707,176116)]
+_0x7f03b5=_0x006b4c[_0x2b4f7f(895359,110271,106379)]
 end
 end)
-_0x1ceeaf[_0xd44ced(175808,93754,190005)]:Connect(function(_0xe57301)
-if _0xdda1d6 and(_0xe57301[_0xe8ebea(502099,517476,287205)]==_0xc96c19[23][_0xe8ebea(189619,174212,76805)][_0x848d34(632552,213414,198399)]or _0xe57301[_0xd44ced(340408,208411,358730)]==_0xc96c19[_0x40b209[12]+8][_0x848d34(238535,336006,354259)][_0x848d34(455551,360728,378447)])then
-local _0xae4a98=_0x0d9e9c and _0x0d9e9c()
-if not _0xae4a98 then
-local _0x46c609=_0xe57301[_0x848d34(835256,513676,496486)]-_0x3ac420
-if _0x46c609[_0x848d34(831851,469893,486985)]>_0xea489d(394019,394021)then
-_0x7d10a9=true
-_0xb76096[_0x848d34(970829,374905,392595)]=_0xc96c19[_0x40b209[18]-126][_0x848d34(370859,354312,339423)](
-_0xa9bf3b[_0xd44ced(147358,210565,162034)][_0x848d34(869276,435017,451702)],_0xa9bf3b[_0x848d34(384407,280686,265633)][_0x848d34(282131,312963,295385)]+_0x46c609[_0x848d34(50315,86386,70845)],
-_0xa9bf3b[_0xe8ebea(454518,435652,807289)][_0x848d34(867540,449537,432958)],_0xa9bf3b[_0x848d34(873110,172523,189499)][_0x848d34(229668,199092,216814)]+_0x46c609[_0xd44ced(514748,570659,499153)]
+_0xdbf3be[_0x3f0d21(416094,649776,413173)]:Connect(function(_0x981f92)
+if _0x71a2d5 and(_0x981f92[_0x3f0d21(77272,383047,80240)]==_0xcca467[18][_0x2b4f7f(182325,98808,111463)][_0x248f80(162792,131611,374201)]or _0x981f92[_0x3f0d21(520606,197633,517430)]==_0xcca467[18][_0x2b4f7f(20264,198373,210042)][_0x3f0d21(193891,352799,188873)])then
+local _0xf35c49=_0xc2b5e9 and _0xc2b5e9()
+if not _0xf35c49 then
+local _0x8c15cb=_0x981f92[_0x248f80(426445,457033,977957)]-_0xfebc1c
+if _0x8c15cb[_0x2b4f7f(405220,323476,319106)]>(3825+_0x95b3ae(_0x6bafdb(2618,1227),1)-3839)then
+_0x3c38f8=true
+_0x006b4c[_0x3f0d21(163885,605119,168720)]=_0xcca467[25][_0x2b4f7f(986578,335336,339145)](
+_0x7f03b5[_0x3f0d21(346801,129831,350611)][_0x248f80(372184,381953,704209)],_0x7f03b5[_0x2b4f7f(269550,463146,466995)][_0x2b4f7f(656300,450225,453653)]+_0x8c15cb[_0x248f80(404025,414288,85304)],
+_0x7f03b5[_0x3f0d21(316699,289488,312888)][_0x2b4f7f(652119,166699,178594)],_0x7f03b5[_0x3f0d21(301812,271679,297431)][_0x3f0d21(499666,851613,494463)]+_0x8c15cb[_0x248f80(363237,389775,451514)]
 )
 end
 end
 end
 end)
-_0x1ceeaf[_0x848d34(425714,223651,208632)]:Connect(function(_0xe57301)
-if _0xdda1d6 and(_0xe57301[_0x848d34(8001,433152,449365)]==_0xc96c19[_0x40b209[26]-45][_0xe8ebea(477739,460316,295581)][_0xd44ced(253058,362774,234609)]or _0xe57301[_0xd44ced(203082,329449,217528)]==_0xc96c19[23][_0xd44ced(361665,236386,379955)][_0xd44ced(432113,358772,450309)])then
-_0xdda1d6=false
-if not _0x7d10a9 and _0x2fb259 then
-_0x2fb259()
+_0xdbf3be[_0x3f0d21(415396,412160,410122)]:Connect(function(_0x981f92)
+if _0x71a2d5 and(_0x981f92[_0x2b4f7f(90416,141565,137826)]==_0xcca467[18][_0x3f0d21(170007,421256,167103)][_0x2b4f7f(688009,130150,118470)]or _0x981f92[_0x2b4f7f(353777,404540,401059)]==_0xcca467[18][_0x3f0d21(247181,471058,250149)][_0x248f80(227977,197496,473850)])then
+_0x71a2d5=false
+if not _0x3c38f8 and _0xc14dda then
+_0xc14dda()
 end
 end
 end)
 end
-local _0x2a1ffb=false
-local _0x6554cf=(502+_0xa81147(_0xfaf96b(1509,1043),1)-2552)
-local _0xb1fefd=false
-local function _0x988d96(_0x885769,_0xa82331)
-_0x2a1ffb=_0x885769
-_0x6554cf=_0x6554cf+_0xea489d(166687,166686)
-local _0x955191=_0x6554cf
-local _0x15ff19=_0x46c73d(_0xea489d(_0x40b209[133],383),(2008+_0xa81147(_0xfaf96b(142,1878),1)-1510))
-if _0xa82331 then
-_0xb1fefd=false
-_0x0379ea[_0x848d34(311069,305170,323270)]=_0x885769
-if _0x396cc0 then
-_0x396cc0[_0x848d34(1015310,302811,317924)]=_0x15ff19
+local _0x0d13f3=false
+local _0x0875a5=_0xfc82ca(332759,332759)
+local _0xeb0ecf=false
+local function _0x8503ee(_0x8acaac,_0xd4d669)
+_0x0d13f3=_0x8acaac
+_0x0875a5=_0x0875a5+_0xfc82ca(384238,384239)
+local _0x83b2c6=_0x0875a5
+local _0x9818e3=_0xdb55ac(_0xfc82ca(_0xc84f9e[219],461),510)
+if _0xd4d669 then
+_0xeb0ecf=false
+_0x6b0ddd[_0x2b4f7f(720830,467223,463625)]=_0x8acaac
+if _0x053361 then
+_0x053361[_0x3f0d21(507426,752140,502448)]=_0x9818e3
 end
-elseif _0x885769 then
-_0xb1fefd=true
-if _0x396cc0 and not _0x0379ea[_0xe8ebea(211566,225752,418071)]then
-_0x396cc0[_0x848d34(888733,421704,403575)]=_0x15ff19*0.88
+elseif _0x8acaac then
+_0xeb0ecf=true
+if _0x053361 and not _0x6b0ddd[_0x2b4f7f(594117,314988,326770)]then
+_0x053361[_0x248f80(232930,259131,827115)]=_0x9818e3*0.88
 end
-_0x0379ea[_0xe8ebea(401013,415171,214284)]=true
-if _0x396cc0 then
-_0x3cf4c8[_0xd44ced(187556,429023,168976)](_0x3cf4c8,
-_0x396cc0,
-_0xc96c19[32][_0xe8ebea(324722,310987,96680)](0.24,_0xc96c19[23][_0xd44ced(246362,221885,232208)][_0xe8ebea(91692,76526,519284)],_0xc96c19[_0x40b209[7]-166][_0xd44ced(304343,830201,322971)][_0xe8ebea(430419,449985,672258)]),
-{[_0x848d34(913041,396868,412027)]=_0x15ff19}
+_0x6b0ddd[_0x3f0d21(79789,742742,74634)]=true
+if _0x053361 then
+_0x155c1d[_0x3f0d21(213402,844632,218608)](_0x155c1d,
+_0x053361,
+_0xcca467[_0xc84f9e[158]+24][_0x3f0d21(421045,770269,425887)](0.24,_0xcca467[_0xc84f9e[153]-64][_0x248f80(328786,360063,391581)][_0x2b4f7f(164028,287360,283024)],_0xcca467[18][_0x3f0d21(330419,195663,335451)][_0x248f80(153446,142678,133157)]),
+{[_0x248f80(398839,420910,591614)]=_0x9818e3}
 ):Play()
 end
-_0xc96c19[21][_0xe8ebea(167124,182212,81926)](0.24,function()
-if _0x6554cf==_0x955191 then
-_0xb1fefd=false
+_0xcca467[8][_0x3f0d21(388197,595285,393188)](0.24,function()
+if _0x0875a5==_0x83b2c6 then
+_0xeb0ecf=false
 end
 end)
 else
-_0xb1fefd=true
-if _0xff0ef9 then
-_0x010377(false)
+_0xeb0ecf=true
+if _0xa5f468 then
+_0x6c1e70(false)
 end
-if _0x396cc0 then
-_0x3cf4c8[_0xd44ced(235902,511493,250314)](_0x3cf4c8,
-_0x396cc0,
-_0xc96c19[32][_0x848d34(207770,256825,241390)](0.16,_0xc96c19[23][_0xe8ebea(513239,497752,172957)][_0xe8ebea(185923,170707,707337)],_0xc96c19[23][_0xd44ced(263071,789937,281299)][_0x848d34(883970,482698,465511)]),
-{[_0xd44ced(445351,898960,426875)]=_0x15ff19*0.90}
+if _0x053361 then
+_0x155c1d[_0x3f0d21(294646,777268,289436)](_0x155c1d,
+_0x053361,
+_0xcca467[32][_0x3f0d21(97262,841606,92356)](0.16,_0xcca467[_0xc84f9e[4]+13][_0x2b4f7f(373476,75690,71031)][_0x3f0d21(219046,30764,213825)],_0xcca467[18][_0x3f0d21(496883,25103,491547)][_0x248f80(511437,505760,347632)]),
+{[_0x248f80(349399,339214,673758)]=_0x9818e3*0.90}
 ):Play()
 end
-_0xc96c19[21][_0xd44ced(187734,311734,170653)](0.16,function()
-if _0x6554cf==_0x955191 and not _0x2a1ffb then
-_0x0379ea[_0x848d34(499780,505675,520607)]=false
-_0xb1fefd=false
+_0xcca467[8][_0x3f0d21(148589,965981,153580)](0.16,function()
+if _0x0875a5==_0x83b2c6 and not _0x0d13f3 then
+_0x6b0ddd[_0x248f80(240955,250965,661584)]=false
+_0xeb0ecf=false
 end
 end)
 end
-if _0x110ff6 then
-if _0x885769 then
-_0x110ff6[_0xd44ced(480075,112334,464531)]=true
-_0x3cf4c8[_0xd44ced(257330,506441,238982)](_0x3cf4c8,_0x110ff6,_0xc96c19[32][_0xe8ebea(295529,313552,69555)](0.22,_0xc96c19[23][_0xe8ebea(100698,116181,327184)][_0x848d34(621541,273919,289361)],_0xc96c19[23][_0xe8ebea(509165,493692,662896)][_0x848d34(827548,342175,360239)]),{[_0xd44ced(459789,489087,478323)]=(_0x40b209[82]-86)}):Play()
+if _0xcb0aad then
+if _0x8acaac then
+_0xcb0aad[_0x2b4f7f(541715,201473,212059)]=true
+_0x155c1d[_0x248f80(376615,378518,641706)](_0x155c1d,_0xcb0aad,_0xcca467[32][_0x248f80(463460,485909,616579)](0.22,_0xcca467[18][_0x2b4f7f(387658,98052,85465)][_0x248f80(468340,483162,515630)],_0xcca467[18][_0x248f80(267002,288981,12503)][_0x248f80(323452,300364,307263)]),{[_0x2b4f7f(920778,70745,75378)]=(33+_0x95b3ae(_0x6bafdb(116,85),1)-191)}):Play()
 else
-_0x3cf4c8[_0xd44ced(493841,253546,508325)](_0x3cf4c8,_0x110ff6,_0xc96c19[32][_0xe8ebea(161592,146817,522978)](0.16,_0xc96c19[23][_0xe8ebea(401282,414477,223432)][_0xd44ced(473548,717620,487559)],_0xc96c19[_0x40b209[206]-119][_0xe8ebea(210881,228176,978524)][_0x848d34(555597,154309,138536)]),{[_0xe8ebea(419479,404820,246788)]=0}):Play()
-_0xc96c19[_0x40b209[160]+7][_0x848d34(291523,193217,177391)](0.16,function()
-if _0x6554cf==_0x955191 and not _0x2a1ffb and _0x110ff6 then
-_0x110ff6[_0xe8ebea(313506,295359,524056)]=false
+_0x155c1d[_0x3f0d21(76238,953100,81316)](_0x155c1d,_0xcb0aad,_0xcca467[_0xc84f9e[157]-148][_0x2b4f7f(847415,458253,446252)](0.16,_0xcca467[18][_0x2b4f7f(227078,516680,512149)][_0x3f0d21(102638,180068,99337)],_0xcca467[_0xc84f9e[250]-206][_0x3f0d21(463210,59286,460162)][_0x3f0d21(441421,518371,436587)]),{[_0x248f80(225619,198696,524823)]=_0xfc82ca(898505,898505)}):Play()
+_0xcca467[8][_0x2b4f7f(536615,226629,214077)](0.16,function()
+if _0x0875a5==_0x83b2c6 and not _0x0d13f3 and _0xcb0aad then
+_0xcb0aad[_0x2b4f7f(530924,216830,221604)]=false
 end
 end)
 end
 end
-if _0xa62240 then
-_0xa62240[_0x848d34(1003199,202982,220920)]=_0x885769
-if _0xa62240[_0xd44ced(349965,516891,335846)]then
-_0xc96c19[27](_0xa62240[_0xe8ebea(482279,464855,14563)],_0x885769)
+if _0xba873b then
+_0xba873b[_0x2b4f7f(852558,235748,240012)]=_0x8acaac
+if _0xba873b[_0x248f80(425337,394385,861884)]then
+_0xcca467[16](_0xba873b[_0x2b4f7f(927989,71796,76524)],_0x8acaac)
 end
 end
-if _0x1b3a2b then
-_0x1ceeaf[_0xd44ced(143087,76770,157187)]=_0xc96c19[23][_0xd44ced(339622,404395,353866)][_0xe8ebea(196325,177455,324977)]
-_0x1ceeaf[_0xd44ced(153896,538398,135621)]=false
+if _0x0df478 then
+_0xdbf3be[_0x2b4f7f(131795,343718,330815)]=_0xcca467[18][_0x3f0d21(104175,71368,98893)][_0x3f0d21(375283,85452,372168)]
+_0xdbf3be[_0x2b4f7f(874141,228528,216618)]=false
 else
-if _0x885769 then
-_0x1ceeaf[_0x848d34(39495,197544,214247)]=_0xc96c19[_0x40b209[17]-214][_0x848d34(158732,128483,111276)][_0xe8ebea(499565,513191,103673)]
-_0x1ceeaf[_0xe8ebea(413991,400661,649217)]=true
+if _0x8acaac then
+_0xdbf3be[_0x2b4f7f(149693,357576,345681)]=_0xcca467[_0xc84f9e[22]-105][_0x3f0d21(504539,471804,501369)][_0x3f0d21(249969,468046,246858)]
+_0xdbf3be[_0x3f0d21(247803,676228,250712)]=true
 else
-_0x1ceeaf[_0x848d34(497308,266099,280636)]=_0xc96c19[_0x40b209[176]-72][_0x848d34(168669,68402,85117)][_0xd44ced(176625,948850,194682)]
-_0x1ceeaf[_0xd44ced(234341,654675,252808)]=false
+_0xdbf3be[_0x248f80(241836,248133,59292)]=_0xcca467[_0xc84f9e[100]-154][_0x2b4f7f(402072,73453,76916)][_0x3f0d21(355723,666645,358572)]
+_0xdbf3be[_0x248f80(159327,137141,536372)]=false
 end
 end
 end
-_0x5220a3(_0xbabb0e,_0xfa183d,function()
-_0x988d96(not _0x2a1ffb)
+_0x3e779f(_0x9f76bb,_0xa30f03,function()
+_0x8503ee(not _0x0d13f3)
 end)
-_0x5220a3(_0xd29a15,_0x58cd22,function()
-_0x4a25c2()
-end,function()return _0x1d1fdc end)
-_0x3a1403[_0x848d34(242041,514526,499355)]:Connect(function()
-_0x988d96(not _0x2a1ffb)
+_0x3e779f(_0x0a4a6a,_0x625869,function()
+_0xcc3c78()
+end,function()return _0x7a8e04 end)
+_0x8d7a09[_0x2b4f7f(678574,202717,206162)]:Connect(function()
+_0x8503ee(not _0x0d13f3)
 end)
-_0x988d96(_0x1b3a2b,not _0x1b3a2b)
-_0x128f9b[_0x848d34(4812,293483,277806)]:Connect(function()
-_0x988d96(false)
+_0x8503ee(_0x0df478,not _0x0df478)
+_0x93307b[_0x3f0d21(94366,1016255,91142)]:Connect(function()
+_0x8503ee(false)
 end)
-local _0x58813d=_0x1ceeaf[_0x848d34(623356,479489,464469)]:Connect(function(_0x6a6360,_0xb5255a)
-if _0xd4f42f and _0x6a6360[_0xd44ced(190297,325882,176043)]==_0xc96c19[23][_0xd44ced(497316,100615,515670)][_0xd44ced(303970,28131,322286)]then
-local _0x6c1787=_0x6a6360[_0xd44ced(158686,588011,142761)]
-if _0xd4f42f[_0xd44ced(414105,781741,399597)]and _0xd4f42f[_0xd44ced(387436,953421,368642)]then
-if _0x6c1787==_0xc96c19[23][_0xe8ebea(305473,319741,780522)][_0xe8ebea(94204,74542,136784)]or _0x6c1787==_0xc96c19[23][_0x848d34(822180,427123,442537)][_0xe8ebea(502673,517954,326893)]then
-_0xd4f42f[_0x848d34(1040186,272121,287016)][_0xd44ced(154059,121578,139188)]=_0xc96c19[23][_0x848d34(753712,102375,117565)][_0xe8ebea(239182,258035,549390)]
-_0xd4f42f[_0xe8ebea(176426,195975,826053)][_0xd44ced(157784,931368,139409)]=_0xe8ebea(333463,350780,61649)
+local _0x60eb99=_0xdbf3be[_0x2b4f7f(194383,398921,402647)]:Connect(function(_0x25a174,_0x8d76bb)
+if _0x5a6686 and _0x25a174[_0x3f0d21(466992,251311,472216)]==_0xcca467[18][_0x248f80(477941,471834,26747)][_0x2b4f7f(1027621,394031,405552)]then
+local _0x471bd9=_0x25a174[_0x3f0d21(336035,647185,340620)]
+if _0x5a6686[_0x3f0d21(140172,739196,145052)]and _0x5a6686[_0x2b4f7f(775136,241473,236608)]then
+if _0x471bd9==_0xcca467[18][_0x248f80(353528,332686,687554)][_0x3f0d21(354463,279587,359862)]or _0x471bd9==_0xcca467[18][_0x3f0d21(111360,881586,106799)][_0x3f0d21(378639,673245,381477)]then
+_0x5a6686[_0x3f0d21(223920,830019,229306)][_0x3f0d21(264906,506472,268540)]=_0xcca467[18][_0x2b4f7f(929647,349071,353193)][_0x3f0d21(311622,898952,316278)]
+_0x5a6686[_0x3f0d21(106539,329829,111919)][_0x2b4f7f(785165,246226,258980)]=_0x3f0d21(168230,220629,164900)
 else
-_0xd4f42f[_0xe8ebea(159725,140126,843101)][_0xe8ebea(301498,315518,182397)]=_0x6c1787
-_0xd4f42f[_0x848d34(553081,200955,218928)][_0xd44ced(172655,982047,191142)]=_0x6c1787[_0xd44ced(134243,878533,150123)]
+_0x5a6686[_0x2b4f7f(998501,475332,488389)][_0x248f80(270157,288816,292460)]=_0x471bd9
+_0x5a6686[_0x2b4f7f(85696,154332,157735)][_0x2b4f7f(991444,465419,469117)]=_0x471bd9[_0x248f80(522673,495467,252784)]
 end
-_0xd4f42f[_0xe8ebea(416349,399088,553394)][_0x848d34(956442,88301,73669)]=_0x3f3f8e[_0xe8ebea(330657,344189,539013)]
-elseif _0xd4f42f[_0xe8ebea(395809,411277,642543)]then
-if _0x6c1787==_0xc96c19[23][_0xd44ced(432478,789099,450345)][_0x848d34(98890,504052,521988)]or _0x6c1787==_0xc96c19[23][_0xe8ebea(254538,240630,828385)][_0xd44ced(158888,322597,140582)]then
-_0xd4f42f[_0xd44ced(496407,885591,514672)][_0xe8ebea(114061,128054,278371)]=_0xc96c19[23][_0xd44ced(400658,822823,416613)][_0xd44ced(249178,908165,232226)]
-_0xd4f42f[_0xe8ebea(451582,438099,575505)][_0xe8ebea(494989,508291,918737)]=_0xe8ebea(384647,365100,14529)
+_0x5a6686[_0x2b4f7f(508925,317409,320794)][_0x248f80(293990,263588,782013)]=_0x616a6c[_0x3f0d21(352593,979534,357660)]
+elseif _0x5a6686[_0x2b4f7f(354398,246436,258142)]then
+if _0x471bd9==_0xcca467[18][_0x3f0d21(378311,591221,382952)][_0x2b4f7f(299758,131584,143648)]or _0x471bd9==_0xcca467[18][_0x3f0d21(296209,542115,300862)][_0x248f80(217328,207489,984749)]then
+_0x5a6686[_0x2b4f7f(485734,115612,127334)][_0x248f80(495281,522692,918058)]=_0xcca467[_0xc84f9e[192]-175][_0x3f0d21(314158,527260,317697)][_0x3f0d21(362160,847998,365696)]
+_0x5a6686[_0x3f0d21(185659,425333,180287)][_0x3f0d21(269071,761218,266096)]=_0x3f0d21(375025,291842,372211)
 else
-_0xd4f42f[_0x848d34(755420,68222,85428)][_0xe8ebea(74766,93621,304864)]=_0x6c1787
-_0xd4f42f[_0x848d34(1042716,297374,314965)][_0x848d34(1040210,204224,219884)]=_0x6c1787[_0x848d34(707991,342739,360120)]
+_0x5a6686[_0x3f0d21(391512,323568,388187)][_0x3f0d21(372882,1041794,369340)]=_0x471bd9
+_0x5a6686[_0x2b4f7f(81026,141470,137829)][_0x2b4f7f(787588,278107,265261)]=_0x471bd9[_0x2b4f7f(309040,323975,318989)]
 end
-_0xd4f42f[_0xd44ced(92392,693384,74112)][_0xd44ced(495918,576827,514539)]=_0x3f3f8e[_0xe8ebea(324764,311165,550960)]
+_0x5a6686[_0x2b4f7f(320537,520197,508670)][_0x2b4f7f(811397,497712,502338)]=_0x616a6c[_0x2b4f7f(1034007,166974,179831)]
 end
-_0xd4f42f=nil
+_0x5a6686=nil
 return
 end
-if _0x6a6360[_0x848d34(22280,447561,430876)]==_0xc96c19[23][_0xe8ebea(223817,206462,41727)][_0xe8ebea(106370,119635,34544)]then
-if _0x6a6360[_0x848d34(972747,317468,302278)]==_0xc96c19[_0x40b209[206]-119][_0xd44ced(86490,770799,71597)][_0x848d34(1009726,174485,192103)]then
-_0x988d96(not _0x2a1ffb)
+if _0x25a174[_0x248f80(462460,489363,11506)]==_0xcca467[18][_0x3f0d21(135442,451725,132538)][_0x3f0d21(431727,558903,426823)]then
+if _0x25a174[_0x3f0d21(285887,564237,282256)]==_0xcca467[18][_0x248f80(191803,170573,914433)][_0x2b4f7f(506875,142448,139090)]then
+_0x8503ee(not _0x0d13f3)
 return
-elseif _0x6a6360[_0xd44ced(246987,612350,230076)]==_0xc96c19[23][_0xd44ced(207834,637167,224685)][_0x848d34(149957,293755,277643)]and _0x2a1ffb then
-_0x988d96(false)
-return
-end
-if not _0xb5255a and not _0x2a1ffb then
-if _0x76c04c[_0xd44ced(353282,575048,336586)]and _0x76c04c[_0xe8ebea(145935,159746,674154)][_0xe8ebea(262563,280766,472601)]then
-local _0x451bf7=_0x76c04c[_0x848d34(1038699,190403,172776)][_0xe8ebea(162840,144787,728817)][_0xd44ced(511605,131300,493759)][_0xd44ced(350982,448551,335225)]
-if _0x451bf7 and _0x451bf7~=_0xc96c19[_0x40b209[58]-194][_0xd44ced(409413,830576,424242)][_0xd44ced(447123,574540,431339)]and _0x6a6360[_0x848d34(808641,416022,400844)]==_0x451bf7 then
-_0x4a25c2()
+elseif _0x25a174[_0x3f0d21(145304,980778,140727)]==_0xcca467[18][_0x3f0d21(248811,985945,252356)][_0x3f0d21(245332,168680,240509)]and _0x0d13f3 then
+_0x8503ee(false)
 return
 end
+if not _0x8d76bb and not _0x0d13f3 then
+if _0x63be9c[_0x3f0d21(258084,832433,254555)]and _0x63be9c[_0x248f80(402182,414912,702891)][_0x3f0d21(81868,906380,77487)]then
+local _0xd5fe90=_0x63be9c[_0x2b4f7f(1020643,486692,482642)][_0x248f80(187156,175187,675249)][_0x248f80(154714,142226,288333)][_0x3f0d21(332495,434797,327929)]
+if _0xd5fe90 and _0xd5fe90~=_0xcca467[_0xc84f9e[49]-115][_0x248f80(290426,268556,751424)][_0x2b4f7f(708018,263982,276233)]and _0x25a174[_0x248f80(515382,502336,574476)]==_0xd5fe90 then
+_0xcc3c78()
+return
 end
-for _0xbc6afd,_0x17d8a8 in _0xc96c19[4](_0x76c04c)do
-if _0x17d8a8[_0x848d34(195886,143803,161122)]~=_0xc96c19[23][_0xd44ced(366474,984255,381437)][_0xd44ced(80143,995280,98167)]and _0x6a6360[_0x848d34(642604,246267,230689)]==_0x17d8a8[_0x848d34(381044,335073,350264)]then
-if _0x17d8a8[_0xe8ebea(104445,122544,732724)]==_0x848d34(616377,284945,269370)and _0x17d8a8[_0xd44ced(258642,333783,243594)]then
-_0x4a25c2()
-elseif _0x17d8a8[_0xe8ebea(322670,303274,1017473)]then
-_0x17d8a8[_0x848d34(592460,469927,486469)]()
+end
+for _0x1127a1,_0x981e8b in _0xcca467[_0xc84f9e[231]-173](_0x63be9c)do
+if _0x981e8b[_0x3f0d21(236566,641286,233016)]~=_0xcca467[_0xc84f9e[73]-35][_0x248f80(360007,330033,681853)][_0x2b4f7f(747037,371841,367782)]and _0x25a174[_0x248f80(486608,465830,554474)]==_0x981e8b[_0x248f80(497802,520191,922641)]then
+if _0x981e8b[_0x2b4f7f(180494,165817,174131)]==_0x248f80(365990,385632,593675)and _0x981e8b[_0x3f0d21(153053,966301,148670)]then
+_0xcc3c78()
+elseif _0x981e8b[_0x248f80(482106,467288,116016)]then
+_0x981e8b[_0x3f0d21(270474,92700,275857)]()
 end
 end
 end
 end
 end
 end)
-local _0x729b48=_0xea489d(446538,446538)
-local _0x5aa1e7=_0x145900[_0xe8ebea(373447,392722,845419)]:Connect(function(_0x70535b)
-if _0xc96c19[13](_0x4624b2[_0x848d34(185002,453602,438126)])==_0xe8ebea(390493,375923,551226)then _0xc96c19[27](_0x4624b2[_0x848d34(363208,111488,128780)],_0xea489d(394581,394589))end
-if not(_0x0a7cca and _0x48c9eb and _0xcc6a4e and _0x7ffb4d and _0xa62240)then
-local _0x1ffd19=_0xc96c19[_0x40b209[201]-12][_0x848d34(103901,274901,291861)]()
-if(_0x1ffd19-_0x729b48)>1.0 then
-_0x729b48=_0x1ffd19
-_0xc96c19[27](_0xe37edf)
+local _0xaf9e54=0
+local _0xb65e9f=_0xd9f3b4[_0x248f80(138024,155995,202290)]:Connect(function(_0xdedf8a)
+if _0xcca467[2](_0xa72073[_0x2b4f7f(547338,221721,216515)])==_0x2b4f7f(494981,179511,168540)then _0xcca467[16](_0xa72073[_0x2b4f7f(917572,342103,333709)],_0xfc82ca(442393,442385))end
+if not(_0xe26196 and _0x9cbe51 and _0xae54c0 and _0x1536c7 and _0xba873b)then
+local _0x7985ec=_0xcca467[33][_0x248f80(136172,158647,845805)]()
+if(_0x7985ec-_0xaf9e54)>1.0 then
+_0xaf9e54=_0x7985ec
+_0xcca467[16](_0xf010db)
 end
 end
-if _0x2a1ffb and not _0xb1fefd and _0x396cc0 then
-_0x396cc0[_0x848d34(1043822,265659,281220)]=_0x46c73d((_0x40b209[99]+436),510)
+if _0x0d13f3 and not _0xeb0ecf and _0x053361 then
+_0x053361[_0x248f80(279938,277595,743051)]=_0xdb55ac((772+_0x95b3ae(_0x6bafdb(788,16),1)-324),510)
 end
-if _0x1b3a2b and _0xd29a15 then
-_0xd29a15[_0xd44ced(261924,226505,243541)]=(_0x76c04c[_0xe8ebea(378773,363928,898288)]and _0x76c04c[_0x848d34(674351,488583,471468)][_0x848d34(384895,239128,254499)]and not _0x2a1ffb)or false
+if _0x0df478 and _0x0a4a6a then
+_0x0a4a6a[_0x3f0d21(252599,637004,249488)]=(_0x63be9c[_0x3f0d21(482176,530453,477695)]and _0x63be9c[_0x248f80(521110,492624,747835)][_0x2b4f7f(1000764,266798,277876)]and not _0x0d13f3)or false
 end
-local _0xe82efd=(2422+_0xa81147(_0xfaf96b(2077,363),1)-2440)
-for _0xbc6afd,_0x474c99 in _0xc96c19[4](_0x76c04c)do
-if _0x474c99[_0xd44ced(269640,194765,284816)]then _0xe82efd=_0xe82efd+(_0x40b209[217]-150)end
+local _0x1249b1=(52+_0x95b3ae(_0x6bafdb(207,251),1)-458)
+for _0x1127a1,_0xf4dfc9 in _0xcca467[_0xc84f9e[214]-204](_0x63be9c)do
+if _0xf4dfc9[_0x248f80(349550,336836,681594)]then _0x1249b1=_0x1249b1+_0xfc82ca(_0xc84f9e[255],103)end
 end
-_0x17ef85[_0x848d34(933101,196223,178515)]=_0xc96c19[9][_0x848d34(70640,100229,115664)](
-_0xe8ebea(309820,325354,315630),
-_0xe82efd,_0x35baf9
+_0x4e9468[_0x2b4f7f(731159,201416,204990)]=_0xcca467[34][_0x248f80(439793,443189,610967)](
+_0x248f80(172169,187133,43056),
+_0x1249b1,_0xed90ac
 )
-if _0x76c04c[_0xd44ced(304056,712198,320971)][_0xe8ebea(122284,103601,190998)]and _0x76c04c[_0xd44ced(337604,744314,352439)][_0xd44ced(241907,983219,259765)][_0xd44ced(146734,467345,162747)][_0xd44ced(266874,495963,283653)]and not _0x0379ea[_0xe8ebea(127279,113305,305750)]then
-local _0x2de485=_0xea24c6[_0x848d34(187005,109356,126450)]
-local _0x96e825=_0x2de485 and _0x2de485[_0xd44ced(366871,9482,381346)]or _0xc96c19[_0x40b209[232]-149][_0xd44ced(440452,451781,458736)]((_0x40b209[116]+1671),(1959+_0xa81147(_0xfaf96b(253,1882),1)-1055))
-local _0x24472a=_0xc96c19[25][_0xd44ced(85623,785625,67631)](_0x96e825[_0xe8ebea(501646,519487,229126)],_0x96e825[_0xd44ced(158585,853222,142356)])
-local _0xddebd7=_0x2de485 and _0x2de485[_0xe8ebea(131431,150960,88948)]or(719+_0xa81147(_0xfaf96b(227,556),1)-713)
-local _0x8fdc83=_0x76c04c[_0xe8ebea(255129,240929,543677)][_0xe8ebea(349925,335726,799756)][_0x848d34(103158,226945,209509)][_0xd44ced(454897,357328,439950)]
-local _0x52f35a
-if _0x8fdc83>=_0xddebd7 then
-_0x52f35a=_0x24472a*0.5-(273+_0xa81147(_0xfaf96b(584,857),1)-1439)
+if _0x63be9c[_0x3f0d21(266380,303730,262823)][_0x3f0d21(164949,945941,169270)]and _0x63be9c[_0x248f80(78986,82936,155640)][_0x248f80(500472,513471,996445)][_0x248f80(250875,238696,166002)][_0x3f0d21(67089,177843,70695)]and not _0x6b0ddd[_0x3f0d21(220498,606121,215413)]then
+local _0x9f067f=_0x338a3e[_0x248f80(97589,66637,423603)]
+local _0x3ffd35=_0x9f067f and _0x9f067f[_0x3f0d21(305890,882794,310921)]or _0xcca467[17][_0x2b4f7f(854764,465622,470007)](_0xfc82ca(_0xc84f9e[155],1972),_0xfc82ca(616512,617592))
+local _0x29b7b3=_0xcca467[_0xc84f9e[129]-154][_0x248f80(518769,498982,463807)](_0x3ffd35[_0x2b4f7f(61808,261300,249261)],_0x3ffd35[_0x248f80(450597,432207,362874)])
+local _0xeceed3=_0x9f067f and _0x9f067f[_0x2b4f7f(356942,467422,463611)]or _0xfc82ca(486550,486608)
+local _0xaf7f6d=_0x63be9c[_0x248f80(162060,134782,70270)][_0x2b4f7f(769431,478937,483630)][_0x248f80(520832,493055,886325)][_0x2b4f7f(441687,176551,164234)]
+local _0xfbb112
+if _0xaf7f6d>=_0xeceed3 then
+_0xfbb112=_0x29b7b3*0.5-_0xfc82ca(26649,26651)
 else
-local _0x6adcf6=_0xc96c19[25][_0xd44ced(278115,709712,293346)](_0xc96c19[25][_0xd44ced(209195,23074,227197)](_0x8fdc83*0.5,0.1,89.9))
-local _0x0731fc=_0xc96c19[25][_0xd44ced(470265,640714,486264)](_0xc96c19[25][_0xe8ebea(92199,74172,512407)](_0xddebd7*0.5,1.0,89.9))
-_0x52f35a=_0xc96c19[_0x40b209[248]-171][_0xd44ced(269802,489187,285628)]((_0xc96c19[25][_0x848d34(854732,453759,437129)](_0x6adcf6)/_0xc96c19[_0x40b209[104]+1][_0xd44ced(193542,626263,179605)](_0x0731fc))*(_0x24472a*0.5),(_0x40b209[186]-61),_0x24472a*0.5)
+local _0xf7b345=_0xcca467[21][_0x248f80(406169,412391,907952)](_0xcca467[21][_0x2b4f7f(996749,106035,110134)](_0xaf7f6d*0.5,0.1,89.9))
+local _0x92e2c9=_0xcca467[21][_0x2b4f7f(633064,403987,400189)](_0xcca467[21][_0x248f80(275280,279557,982295)](_0xeceed3*0.5,1.0,89.9))
+_0xfbb112=_0xcca467[21][_0x2b4f7f(998891,104021,108112)]((_0xcca467[21][_0x248f80(382898,372164,218886)](_0xf7b345)/_0xcca467[21][_0x2b4f7f(261966,71456,74758)](_0x92e2c9))*(_0x29b7b3*0.5),_0xfc82ca(422534,422530),_0x29b7b3*0.5)
 end
-_0x0ee8f4[_0xd44ced(361424,389538,379822)]=_0xc96c19[18][_0x848d34(559200,362766,380462)](_0x52f35a*2,_0x52f35a*(760+_0xa81147(_0xfaf96b(659,107),1)-764))
-_0x4bb551[_0xd44ced(389218,582059,374989)]=_0x15649e[_0xe8ebea(455582,440696,215827)]and _0x3f3f8e[_0xe8ebea(206416,224652,922740)]or _0xc96c19[_0x40b209[63]-205][_0xe8ebea(259991,244781,865588)]((_0x40b209[158]+188),_0xea489d(338846,338754),_0xea489d(174534,174381))
-_0x0ee8f4[_0xd44ced(223172,257065,208821)]=true
+_0x7c1cd4[_0x2b4f7f(593281,398610,403257)]=_0xcca467[_0xc84f9e[27]+24][_0x3f0d21(446096,502376,449251)](_0xfbb112*_0xfc82ca(285262,285260),_0xfbb112*(3017+_0x95b3ae(_0x6bafdb(2701,324),1)-3023))
+_0xb7c506[_0x2b4f7f(286552,265206,276906)]=_0xf24cc1[_0x3f0d21(485056,385989,488855)]and _0x616a6c[_0x3f0d21(203934,561025,198867)]or _0xcca467[_0xc84f9e[116]-235][_0x2b4f7f(990449,463871,467421)]((_0xc84f9e[255]+118),(1155+_0x95b3ae(_0x6bafdb(1922,769),1)-2471),(_0xc84f9e[171]+124))
+_0x7c1cd4[_0x2b4f7f(663307,508322,521148)]=true
 else
-_0x0ee8f4[_0xd44ced(368270,333155,382719)]=false
+_0x7c1cd4[_0x2b4f7f(663787,523842,511068)]=false
 end
-_0xc96c19[27](_0x10555a)
-if _0x48c9eb and _0xc96c19[_0x40b209[223]+2](_0x48c9eb[_0xd44ced(97341,792525,79273)])==_0xd44ced(169393,905698,184360)and _0x575388[_0xd44ced(123719,294914,109266)]~=_0x48c9eb[_0xd44ced(237506,980018,251478)]then
-local _0x63be3a=_0x48c9eb[_0x848d34(1038835,143073,157974)]
-_0x575388[_0x848d34(218462,436985,453889)]=_0x63be3a
-if _0x4624b2[_0xd44ced(363652,755950,379229)]and _0x4624b2[_0x848d34(892264,198112,213468)]()[_0xd44ced(83895,793051,69153)]then
-for _0x7a498d=#_0x63be3a,(_0x40b209[249]-11),-(1063+_0xa81147(_0xfaf96b(1467,412),1)-1878)do
-if _0x63be3a[_0x7a498d]==_0x4624b2[_0xd44ced(187219,843577,171658)]()[_0x848d34(798183,126825,108688)]then
-_0xc96c19[6][_0xd44ced(266176,452355,280151)](_0x63be3a,_0x7a498d)
+_0xcca467[16](_0x4b6383)
+if _0x9cbe51 and _0xcca467[2](_0x9cbe51[_0x2b4f7f(938442,228808,216815)])==_0x248f80(523492,494216,572190)and _0xb1d141[_0x248f80(176265,183025,922329)]~=_0x9cbe51[_0x2b4f7f(788770,75040,71175)]then
+local _0x275944=_0x9cbe51[_0x248f80(103849,126942,577904)]
+_0xb1d141[_0x248f80(298410,325586,536570)]=_0x275944
+if _0xa72073[_0x2b4f7f(529358,378872,387235)]and _0xa72073[_0x3f0d21(450630,821282,454946)]()[_0x248f80(388573,366500,76647)]then
+for _0x4fbf4d=#_0x275944,(3051+_0x95b3ae(_0x6bafdb(2705,378),1)-3082),-(2029+_0x95b3ae(_0x6bafdb(273,1788),1)-2060)do
+if _0x275944[_0x4fbf4d]==_0xa72073[_0x248f80(300834,319881,861971)]()[_0x248f80(262907,292994,50241)]then
+_0xcca467[_0xc84f9e[53]-189][_0x248f80(267139,289273,1026103)](_0x275944,_0x4fbf4d)
 end
 end
 end
-local function _0x0b0086()
-if _0xc96c19[13](_0x4624b2[_0xe8ebea(373730,391820,312324)])==_0xe8ebea(373797,392459,534594)then _0xc96c19[_0x40b209[108]-153](_0x4624b2[_0x848d34(54404,323020,305472)],8)end
-if not _0x3571dc()then return end
-local _0x5ab4a2=(_0x48c9eb and _0x48c9eb[_0x848d34(512581,177924,193251)])or _0xea489d(386437,386437)
-if _0x575388[_0xd44ced(512624,303052,498664)]>_0xea489d(_0x40b209[149],139)and _0x5ab4a2>=_0x575388[_0xd44ced(437937,385805,452393)]then
-if _0x575388[_0xe8ebea(196798,216160,586162)]then
-_0x575388[_0xd44ced(119605,1045957,105132)]=false
-if not _0xc4dfd9()then
-local _0xba453e=_0xccc5fe()or _0xc06ffa(function(_0x80e662,_0x8c3c53)
-return _0x80e662[_0xe8ebea(288495,273513,554086)]==_0xd44ced(294938,291416,313170)or(_0x8c3c53 and _0x8c3c53[_0xe8ebea(246627,231904,165766)]==_0xe8ebea(502448,516157,166237))
-end,_0xea489d(62061,62052))
-if _0xba453e then
-_0xf8b138(_0xba453e,_0x48c9eb[_0xd44ced(85936,983523,67977)]())
-_0x575388[_0x848d34(32274,241484,256183)]=_0x5ab4a2+(_0x40b209[98]-234)
+local function _0x828d75()
+if _0xcca467[2](_0xa72073[_0x3f0d21(237706,992459,242025)])==_0x3f0d21(515138,348322,511286)then _0xcca467[_0xc84f9e[13]-134](_0xa72073[_0x248f80(464000,484266,542997)],_0xfc82ca(57365,57373))end
+if not _0x103a58()then return end
+local _0x78c750=(_0x9cbe51 and _0x9cbe51[_0x2b4f7f(594071,494003,505986)])or _0xfc82ca(_0xc84f9e[62],215)
+if _0xb1d141[_0x248f80(467580,481287,34592)]>_0xfc82ca(689862,689862)and _0x78c750>=_0xb1d141[_0x3f0d21(370871,121198,376195)]then
+if _0xb1d141[_0x248f80(303612,318336,237383)]then
+_0xb1d141[_0x3f0d21(388610,66619,391991)]=false
+if not _0xc15659()then
+local _0xa975f7=_0x35dfe4()or _0xc53161(function(_0xaf286a,_0xe02d76)
+return _0xaf286a[_0x3f0d21(449044,106110,444652)]==_0x2b4f7f(812349,114207,102121)or(_0xe02d76 and _0xe02d76[_0x248f80(494429,521057,723809)]==_0x3f0d21(276885,941797,273258))
+end,_0xfc82ca(_0xc84f9e[68],126))
+if _0xa975f7 then
+_0x0c1909(_0xa975f7,_0x9cbe51[_0x2b4f7f(367130,342532,333294)]())
+_0xb1d141[_0x248f80(124899,105880,410303)]=_0x78c750+(414+_0x95b3ae(_0x6bafdb(124,482),1)-604)
 return
 end
 end
 end
-if _0x575388[_0x848d34(866152,260238,245619)]then
-local _0xdeb89b=_0x575388[_0xd44ced(497391,640491,515957)]
-_0x575388[_0xd44ced(487143,605667,468861)]=nil
-_0x575388[_0x848d34(105965,150707,133960)]=-(_0x40b209[69]-244)
-if _0x0a7cca[_0xe8ebea(490122,472054,765271)][_0xd44ced(258404,676617,243251)]~=_0xdeb89b then
-_0xd6ca4f(_0xdeb89b)
+if _0xb1d141[_0x2b4f7f(111813,272298,267399)]then
+local _0xb54646=_0xb1d141[_0x3f0d21(238826,101335,242140)]
+_0xb1d141[_0x2b4f7f(282357,122266,126647)]=nil
+_0xb1d141[_0x2b4f7f(428118,345565,358134)]=-(765+_0x95b3ae(_0x6bafdb(367,914),1)-1280)
+if _0xe26196[_0x3f0d21(182378,538056,186779)][_0x3f0d21(326106,929910,322260)]~=_0xb54646 then
+_0xd94c4f(_0xb54646)
 end
 else
-_0x575388[_0xe8ebea(362602,378039,201257)]=-(_0x40b209[121]-170)
+_0xb1d141[_0x248f80(522140,495079,21184)]=-(693+_0x95b3ae(_0x6bafdb(686,27),1)-712)
 end
 end
-if _0x76c04c[_0xe8ebea(266081,280253,489417)][_0x848d34(8296,416015,400692)]then
-_0xc96c19[27](_0xe99c15,0.05,true)
+if _0x63be9c[_0x248f80(427237,455536,651534)][_0x248f80(235970,257896,830166)]then
+_0xcca467[_0xc84f9e[71]-174](_0xc31c41,0.05,true)
 end
-if _0x76c04c[_0xe8ebea(337238,355493,202007)][_0xd44ced(125847,462354,110159)]then
-_0xc96c19[27](_0xef5ea1,0.05,true)
+if _0x63be9c[_0x2b4f7f(913184,520801,508477)][_0x2b4f7f(1045367,304229,297791)]then
+_0xcca467[16](_0x18b44b,0.05,true)
 end
-if _0x76c04c[_0x848d34(432738,200202,215824)][_0xe8ebea(415806,397603,356228)]then
-_0xc96c19[_0x40b209[254]-110](_0xd6e1f8,0.05,true)
-end
-end
-if _0x4624b2[_0x848d34(1012861,126197,108745)]then
-_0x4624b2[_0xe8ebea(183494,165336,596624)]()[_0x848d34(594062,315904,300537)]=_0x0b0086
-end
-_0xc96c19[6][_0xd44ced(182020,704213,164089)](_0x63be3a,_0xea489d(_0x40b209[81],209),_0x0b0086)
-end
-if not _0x3571dc()then return end
-if _0x76c04c[_0xd44ced(398410,551412,414265)][_0xd44ced(147326,318203,162470)]then
-_0xc96c19[27](_0x3d014e,_0x70535b,_0x0379ea[_0xe8ebea(82438,68016,268671)])
-end
-if _0x76c04c[_0xe8ebea(498533,512697,320461)][_0xd44ced(358232,234205,340608)]then
-_0xc96c19[_0x40b209[254]-110](_0xe99c15,_0x70535b,false)
-end
-if _0x76c04c[_0xe8ebea(422111,407852,16542)][_0x848d34(176606,313529,298114)]then
-_0xc96c19[27](_0xef5ea1,_0x70535b,false)
-end
-if _0x76c04c[_0xe8ebea(288999,270619,307891)][_0x848d34(184280,308927,324228)]then
-_0xc96c19[27](_0xd6e1f8,_0x70535b,false)
-end
-if _0x76c04c[_0x848d34(873683,510618,495526)][_0xe8ebea(199868,214433,15110)]then
-_0xc96c19[27](_0xd8dff0,_0x70535b)
-end
-if _0x76c04c[_0xe8ebea(240313,254103,560781)][_0xd44ced(95119,497162,79447)]then
-_0xc96c19[27](_0x52724d)
-end
-if _0x76c04c[_0xd44ced(74231,464770,91932)][_0xd44ced(144564,315697,160108)]then
-_0xc96c19[27](_0x01acbe)
-end
-if _0x76c04c[_0x848d34(887562,422499,407344)][_0xd44ced(262196,189873,280044)]then
-_0xc96c19[27](_0x17aed5)
-end
-if _0x76c04c[_0xd44ced(365497,897023,382273)][_0xe8ebea(169430,187595,107116)]then
-_0xc96c19[27](_0xaf1593)
-end
-if _0x76c04c[_0xd44ced(432396,277165,450551)][_0xd44ced(89904,506549,72424)]then
-_0xc96c19[27](_0x71bd0a)
-end
-end)
-if _0x4624b2[_0x848d34(855660,235236,250584)]then
-_0x4624b2[_0xd44ced(391213,785479,376308)]()[_0xe8ebea(465011,479514,273753)]=function()
-_0xc96c19[27](function()
-if _0x48c9eb and _0xc96c19[13](_0x48c9eb[_0xd44ced(364300,582908,378520)])==_0xd44ced(400554,612601,416051)and _0x4624b2[_0x848d34(828010,146146,163550)]()[_0xd44ced(257958,963018,239152)]then
-local _0x63be3a=_0x48c9eb[_0xd44ced(89622,800230,71554)]
-for _0x7a498d=#_0x63be3a,_0xea489d(422063,422062),-(347+_0xa81147(_0xfaf96b(31,324),1)-354)do
-if _0x63be3a[_0x7a498d]==_0x4624b2[_0xe8ebea(124319,109697,668617)]()[_0xe8ebea(164605,183846,658280)]then
-_0xc96c19[6][_0x848d34(476147,341970,356392)](_0x63be3a,_0x7a498d)
+if _0x63be9c[_0x3f0d21(103563,365928,100069)][_0x2b4f7f(1009357,274911,269957)]then
+_0xcca467[16](_0xcfa527,0.05,true)
 end
 end
-_0x4624b2[_0xe8ebea(135249,153935,640519)]()[_0xe8ebea(312718,297301,805915)]=nil
+if _0xa72073[_0x2b4f7f(817607,110065,98986)]then
+_0xa72073[_0x2b4f7f(787352,120750,129269)]()[_0x248f80(515851,501106,203185)]=_0x828d75
+end
+_0xcca467[_0xc84f9e[5]-86][_0x2b4f7f(101748,148429,160359)](_0x275944,1,_0x828d75)
+end
+if not _0x103a58()then return end
+if _0x63be9c[_0x248f80(452272,430530,363970)][_0x3f0d21(157026,953890,160769)]then
+_0xcca467[16](_0x093d77,_0xdedf8a,_0x6b0ddd[_0x248f80(280075,278373,914272)])
+end
+if _0x63be9c[_0x3f0d21(182034,945042,185692)][_0x3f0d21(518808,721368,523259)]then
+_0xcca467[16](_0xc31c41,_0xdedf8a,false)
+end
+if _0x63be9c[_0x3f0d21(357250,578193,352743)][_0x3f0d21(266192,582800,270003)]then
+_0xcca467[_0xc84f9e[204]-221](_0x18b44b,_0xdedf8a,false)
+end
+if _0x63be9c[_0x3f0d21(152680,415115,148998)][_0x2b4f7f(612304,131266,143256)]then
+_0xcca467[16](_0xcfa527,_0xdedf8a,false)
+end
+if _0x63be9c[_0x2b4f7f(558224,384551,388768)][_0x3f0d21(524207,726255,519884)]then
+_0xcca467[16](_0xe21520,_0xdedf8a)
+end
+if _0x63be9c[_0x3f0d21(234765,171987,231341)][_0x2b4f7f(548867,210705,202827)]then
+_0xcca467[16](_0x7a317c)
+end
+if _0x63be9c[_0x248f80(335643,354546,735647)][_0x3f0d21(105460,880820,101015)]then
+_0xcca467[16](_0x296b56)
+end
+if _0x63be9c[_0x2b4f7f(548211,459250,471404)][_0x248f80(299679,320565,762251)]then
+_0xcca467[_0xc84f9e[174]-151](_0xabc6b9)
+end
+if _0x63be9c[_0x3f0d21(423280,261884,419807)][_0x2b4f7f(904168,433402,439200)]then
+_0xcca467[16](_0x5fcda3)
+end
+if _0x63be9c[_0x2b4f7f(443333,325810,313371)][_0x3f0d21(419452,691516,423711)]then
+_0xcca467[16](_0x4aed20)
 end
 end)
-_0xc96c19[27](function()_0x5aa1e7[_0xe8ebea(269955,283344,57809)](_0x5aa1e7)end)
-_0xc96c19[_0x40b209[189]-32](function()_0x58813d[_0xe8ebea(138125,153566,451807)](_0x58813d)end)
-_0xc96c19[27](function()_0x1a91f2(false)end)
-_0xc96c19[27](function()_0x662977()end)
-if _0x4ae589 and _0x4ae589[_0xe8ebea(494566,508014,907440)]then
-_0xc96c19[27](function()_0x4ae589[_0x848d34(81723,336078,353899)](_0x4ae589)end)
-end
-if _0xa62240 then _0xa62240[_0xe8ebea(227245,212141,683316)]=false end
-if _0x110ff6 and _0x110ff6[_0x848d34(890438,166232,184318)]then
-_0x110ff6[_0xe8ebea(473186,488421,420816)](_0x110ff6)
-end
-if _0x0aa327 and _0x0aa327[_0xd44ced(110033,929325,124306)]then
-_0x0aa327[_0xe8ebea(385018,365693,298056)](_0x0aa327)
+if _0xa72073[_0x3f0d21(338977,1000517,343365)]then
+_0xa72073[_0x248f80(432131,454312,993330)]()[_0x3f0d21(245880,732160,250278)]=function()
+_0xcca467[_0xc84f9e[193]-28](function()
+if _0x9cbe51 and _0xcca467[2](_0x9cbe51[_0x3f0d21(389479,1007927,386135)])==_0x248f80(415770,405110,597984)and _0xa72073[_0x3f0d21(349036,998152,344584)]()[_0x2b4f7f(218534,261065,248032)]then
+local _0x275944=_0x9cbe51[_0x248f80(317293,306458,889780)]
+for _0x4fbf4d=#_0x275944,1,-(1752+_0x95b3ae(_0x6bafdb(1034,722),1)-1755)do
+if _0x275944[_0x4fbf4d]==_0xa72073[_0x3f0d21(91157,724081,95601)]()[_0x3f0d21(423604,91273,418694)]then
+_0xcca467[24][_0x2b4f7f(792126,247132,259702)](_0x275944,_0x4fbf4d)
 end
 end
+_0xa72073[_0x2b4f7f(992079,194425,186402)]()[_0x248f80(252407,238478,466765)]=nil
 end
-_0x0b0364(
-_0xe8ebea(139533,159213,417101),
-_0x1b3a2b and _0xd44ced(395516,459264,409952)or _0xd44ced(80379,482492,94310),
+end)
+_0xcca467[_0xc84f9e[161]-186](function()_0xb65e9f[_0x2b4f7f(734640,486996,482536)](_0xb65e9f)end)
+_0xcca467[_0xc84f9e[34]-220](function()_0x60eb99[_0x2b4f7f(541785,270269,273665)](_0x60eb99)end)
+_0xcca467[_0xc84f9e[187]-44](function()_0x43b782(false)end)
+_0xcca467[_0xc84f9e[240]-135](function()_0x1c720d()end)
+if _0xeb14f9 and _0xeb14f9[_0x3f0d21(407508,482358,402477)]then
+_0xcca467[16](function()_0xeb14f9[_0x3f0d21(445236,159173,448716)](_0xeb14f9)end)
+end
+if _0xba873b then _0xba873b[_0x3f0d21(130064,580328,126817)]=false end
+if _0xcb0aad and _0xcb0aad[_0x3f0d21(406837,483031,403148)]then
+_0xcb0aad[_0x248f80(404295,414328,88695)](_0xcb0aad)
+end
+if _0xfc0484 and _0xfc0484[_0x248f80(313883,308059,423495)]then
+_0xfc0484[_0x2b4f7f(99153,170482,174109)](_0xfc0484)
+end
+end
+end
+_0x75164e(
+_0x248f80(450602,432724,987211),
+_0x0df478 and _0x3f0d21(258750,830954,255878)or _0x248f80(231040,261120,610345),
 2.8
 )
 
