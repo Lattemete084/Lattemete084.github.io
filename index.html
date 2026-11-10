@@ -51,7 +51,7 @@
     display: flex; gap: 8px; margin-bottom: 14px;
   }
   .pill-btn {
-    flex: 1; padding: 10px 4px; border-radius: 12px; font-size: 12px; font-weight: 700;
+    flex: 1; padding: 10px 3px; border-radius: 12px; font-size: 11px; font-weight: 700; white-space: nowrap;
     background: rgba(30, 24, 48, 0.85); border: 1px solid rgba(190, 141, 255, 0.22);
     color: #c4b8e5; cursor: pointer; transition: 0.15s;
   }
@@ -100,13 +100,15 @@
     <div class="creator-link" onclick="showCreatorCard()">Creator / Streamer Rewards Portal</div>
   </div>
 
-  <!-- Creator / Admin Panel: Generate 7D, 30D, and Lifetime Keys -->
+  <!-- Creator / Admin Panel: Generate 12H, 1D, 7D, 30D, and Lifetime Keys -->
   <div class="card" id="creatorCard" style="display:none;">
     <h1>creator portal</h1>
-    <div class="sub">generate 7d, 30d & lifetime streamer rewards</div>
+    <div class="sub">generate 12h, 1d, 7d, 30d & lifetime keys</div>
 
     <label class="field-label">LICENSE DURATION</label>
     <div class="pill-group">
+      <button type="button" class="pill-btn" id="btn12H" onclick="selectTier('12H')">12 Hours</button>
+      <button type="button" class="pill-btn" id="btn1D" onclick="selectTier('1D')">1 Day</button>
       <button type="button" class="pill-btn active" id="btn7D" onclick="selectTier('7D')">7 Days</button>
       <button type="button" class="pill-btn" id="btn30D" onclick="selectTier('30D')">30 Days</button>
       <button type="button" class="pill-btn" id="btnLIFE" onclick="selectTier('LIFE')">Lifetime</button>
@@ -208,7 +210,7 @@ function generateSingleTierKey(tier, username) {
 
 function selectTier(t) {
   selectedTier = t;
-  ["7D", "30D", "LIFE"].forEach(x => {
+  ["12H", "1D", "7D", "30D", "LIFE"].forEach(x => {
     const el = document.getElementById("btn" + x);
     if (el) el.classList.toggle("active", x === t);
   });
