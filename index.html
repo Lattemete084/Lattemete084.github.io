@@ -3,7 +3,7 @@
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width,initial-scale=1.0">
-<title>moondlc — license authentication & creator portal</title>
+<title>moondlc — license key portal</title>
 <style>
   * { box-sizing: border-box; margin: 0; padding: 0; font-family: 'Inter', -apple-system, BlinkMacSystemFont, sans-serif; }
   body {
@@ -12,303 +12,404 @@
     padding: 20px;
   }
   .card {
-    width: 420px; max-width: 95vw; padding: 28px; border-radius: 24px;
-    background: rgba(24, 19, 38, 0.88);
+    width: 440px; max-width: 95vw; padding: 28px; border-radius: 24px;
+    background: rgba(24, 19, 38, 0.9);
     border: 1px solid rgba(190, 141, 255, 0.35);
     box-shadow: 0 20px 60px rgba(0, 0, 0, 0.65), inset 0 1px 0 rgba(255,255,255,0.18);
     backdrop-filter: blur(18px); text-align: center;
     position: relative;
   }
   h1 { font-size: 24px; font-weight: 900; letter-spacing: 0.4px; margin-bottom: 4px; }
-  .sub { font-size: 12px; color: #be8dff; margin-bottom: 20px; font-weight: 600; }
+  .sub { font-size: 12px; color: #be8dff; margin-bottom: 18px; font-weight: 600; }
+  .badge {
+    display: inline-block; padding: 6px 12px; border-radius: 999px;
+    font-size: 11px; font-weight: 700; margin-bottom: 14px;
+  }
+  .badge-ok {
+    background: rgba(110, 240, 150, 0.14); border: 1px solid rgba(110, 240, 150, 0.42);
+    color: #7bf2a5;
+  }
+  .badge-warn {
+    background: rgba(255, 190, 92, 0.14); border: 1px solid rgba(255, 190, 92, 0.42);
+    color: #ffc56c;
+  }
+  .badge-err {
+    background: rgba(255, 95, 110, 0.14); border: 1px solid rgba(255, 95, 110, 0.42);
+    color: #ff6b7b;
+  }
   .keybox {
     padding: 15px; border-radius: 14px; background: rgba(18, 14, 29, 0.95);
     border: 1px solid rgba(190, 141, 255, 0.28); font-family: monospace;
-    font-size: 14px; font-weight: 800; color: #ffffff; letter-spacing: 1px;
-    margin-bottom: 16px; user-select: all; word-break: break-all;
-    max-height: 140px; overflow-y: auto; text-align: left; white-space: pre-line;
+    font-size: 13px; font-weight: 800; color: #ffffff; letter-spacing: 0.7px;
+    margin-bottom: 14px; user-select: all; word-break: break-all;
+    max-height: 130px; overflow-y: auto; text-align: center;
   }
+  .desc {
+    font-size: 12px; color: #c8c2de; line-height: 1.55; margin-bottom: 18px;
+  }
+  .btn-stack { display: flex; flex-direction: column; gap: 10px; }
   button.primary-btn {
-    width: 100%; padding: 13px; border-radius: 14px; border: 1px solid rgba(190, 141, 255, 0.5);
+    width: 100%; padding: 13px 16px; border-radius: 14px; border: 1px solid rgba(190, 141, 255, 0.52);
     background: linear-gradient(135deg, rgba(84, 58, 138, 0.95), rgba(56, 38, 96, 0.95));
     color: #fff; font-weight: 700; font-size: 13px; cursor: pointer; transition: 0.18s;
   }
-  button.primary-btn:hover { transform: translateY(-1px); border-color: #be8dff; background: linear-gradient(135deg, rgba(104, 72, 168, 0.98), rgba(72, 48, 120, 0.98)); }
-  .hint { font-size: 11px; color: #8c84a8; margin-top: 14px; line-height: 1.45; }
-  .locked-badge {
-    display: inline-block; padding: 6px 12px; border-radius: 999px;
-    background: rgba(255, 95, 110, 0.14); border: 1px solid rgba(255, 95, 110, 0.4);
-    color: #ff6b7b; font-size: 11px; font-weight: 700; margin-bottom: 14px;
+  button.primary-btn:hover:not(:disabled) {
+    transform: translateY(-1px); border-color: #be8dff;
+    background: linear-gradient(135deg, rgba(104, 72, 168, 0.98), rgba(72, 48, 120, 0.98));
   }
-  .creator-link {
-    font-size: 11px; color: #6b5f8c; margin-top: 16px; cursor: pointer; text-decoration: underline;
-    transition: 0.15s;
+  button.secondary-btn {
+    width: 100%; padding: 12px 16px; border-radius: 14px; border: 1px solid rgba(190, 141, 255, 0.3);
+    background: rgba(34, 26, 56, 0.85); color: #efeaff; font-weight: 700; font-size: 13px;
+    cursor: pointer; transition: 0.18s;
   }
-  .creator-link:hover { color: #be8dff; }
-
-  /* Creator Panel Controls */
-  .pill-group {
-    display: flex; gap: 8px; margin-bottom: 14px;
+  button.secondary-btn:hover:not(:disabled) {
+    transform: translateY(-1px); border-color: #be8dff; background: rgba(52, 39, 84, 0.92);
   }
-  .pill-btn {
-    flex: 1; padding: 10px 3px; border-radius: 12px; font-size: 11px; font-weight: 700; white-space: nowrap;
-    background: rgba(30, 24, 48, 0.85); border: 1px solid rgba(190, 141, 255, 0.22);
-    color: #c4b8e5; cursor: pointer; transition: 0.15s;
+  button:disabled { opacity: 0.55; cursor: not-allowed; }
+  .btn-sub { display: block; font-size: 10px; font-weight: 500; color: #b8aed6; margin-top: 3px; }
+  .hint { font-size: 11px; color: #8c84a8; margin-top: 14px; line-height: 1.5; }
+  .link-row {
+    margin-top: 14px; font-size: 11px; color: #8c84a8;
   }
-  .pill-btn.active {
-    background: rgba(140, 85, 255, 0.32); border-color: #be8dff; color: #ffffff;
-    box-shadow: 0 0 12px rgba(190, 141, 255, 0.3);
+  .text-link {
+    color: #be8dff; cursor: pointer; text-decoration: underline; background: none; border: none; font-size: 11px;
   }
-  .input-field {
-    width: 100%; padding: 11px 14px; border-radius: 12px;
-    background: rgba(18, 14, 29, 0.9); border: 1px solid rgba(190, 141, 255, 0.25);
-    color: #ffffff; font-size: 13px; font-weight: 600; outline: none; margin-bottom: 14px;
-    transition: 0.18s;
-  }
-  .input-field:focus { border-color: #be8dff; box-shadow: 0 0 10px rgba(190, 141, 255, 0.25); }
-  .field-label {
-    text-align: left; font-size: 11px; font-weight: 700; color: #a59abf; margin-bottom: 5px;
-    display: block;
-  }
-  .back-link {
-    font-size: 11px; color: #a59abf; cursor: pointer; text-decoration: none; margin-top: 12px; display: inline-block;
-  }
-  .back-link:hover { color: #ffffff; }
+  .text-link:hover { color: #ffffff; }
 </style>
 </head>
 <body>
-  <!-- Standard Unlocked View: 24h key from Work.ink -->
-  <div class="card" id="unlockedCard" style="display:none;">
-    <h1 onclick="toggleCreator()">moondlc</h1>
+  <!-- Loading / Verification View -->
+  <div class="card" id="loadingCard">
+    <h1>moondlc</h1>
     <div class="sub">24-hour license authentication</div>
-    <div class="keybox" id="kbox">GENERATING...</div>
+    <div class="badge badge-warn" id="loadingBadge">verifying completion...</div>
+    <p class="desc" id="loadingText">Validating your session with the verification server. Please wait...</p>
+  </div>
+
+  <!-- Unlocked View: Displays server-verified Work.ink or LootLabs key -->
+  <div class="card" id="unlockedCard" style="display:none;">
+    <h1>moondlc</h1>
+    <div class="sub">24-hour license authentication</div>
+    <div class="badge badge-ok" id="providerBadge">verified</div>
+    <div class="keybox" id="kbox"></div>
     <button class="primary-btn" id="copyBtn" onclick="copyKey()">copy license key</button>
-    <div class="hint">Redeem in-game within 15 minutes to activate your 24-hour HWID license.</div>
-    <div class="creator-link" onclick="showCreatorCard()">Creator / Streamer Rewards Portal</div>
+    <div class="hint" id="unlockedHint">Paste this key into MoonDLC in-game to activate your 24-hour HWID license. Single-use only.</div>
+    <div class="link-row">
+      <button class="text-link" onclick="resetAndChooseProvider()">Need a new key or want to switch provider?</button>
+    </div>
   </div>
 
-  <!-- Locked View: Shown when opened from a bookmark without completing Work.ink -->
-  <div class="card" id="lockedCard" style="display:none;">
-    <h1 onclick="toggleCreator()">moondlc</h1>
-    <div class="sub">license session protection</div>
-    <div class="locked-badge">session expired / bookmark blocked</div>
-    <p style="font-size:12px; color:#c8c2de; line-height:1.5; margin-bottom:18px;">
-      Your one-time key session has expired or you opened this page directly from a bookmark. Complete the Work.ink link to generate a fresh key.
+  <!-- Provider Selection / Locked View -->
+  <div class="card" id="selectCard" style="display:none;">
+    <h1>moondlc</h1>
+    <div class="sub">24-hour license authentication</div>
+    <div class="badge badge-err" id="errorBadge" style="display:none;"></div>
+    <p class="desc" id="selectDesc">
+      Choose a verification provider below to receive a single-use 24-hour MoonDLC key.
     </p>
-    <button class="primary-btn" onclick="window.location.href=WORKINK_URL">complete work.ink to unlock</button>
-    <div class="hint">Single-use session protection active</div>
-    <div class="creator-link" onclick="showCreatorCard()">Creator / Streamer Rewards Portal</div>
-  </div>
-
-  <!-- Creator / Admin Panel: Generate 12H, 1D, 7D, 30D, and Lifetime Keys -->
-  <div class="card" id="creatorCard" style="display:none;">
-    <h1>creator portal</h1>
-    <div class="sub">generate 12h, 1d, 7d, 30d & lifetime keys</div>
-
-    <label class="field-label">LICENSE DURATION</label>
-    <div class="pill-group">
-      <button type="button" class="pill-btn" id="btn12H" onclick="selectTier('12H')">12 Hours</button>
-      <button type="button" class="pill-btn" id="btn1D" onclick="selectTier('1D')">1 Day</button>
-      <button type="button" class="pill-btn active" id="btn7D" onclick="selectTier('7D')">7 Days</button>
-      <button type="button" class="pill-btn" id="btn30D" onclick="selectTier('30D')">30 Days</button>
-      <button type="button" class="pill-btn" id="btnLIFE" onclick="selectTier('LIFE')">Lifetime</button>
+    <div class="btn-stack">
+      <button class="primary-btn" id="workinkBtn" onclick="startWorkink()">
+        Continue with Work.ink
+        <span class="btn-sub">Standard 24h key link</span>
+      </button>
+      <button class="secondary-btn" id="lootlabsBtn" onclick="startLootlabs()">
+        Continue with LootLabs (Optional)
+        <span class="btn-sub" id="lootlabsSub">Recommended backup if Work.ink loops or fails</span>
+      </button>
     </div>
-
-    <label class="field-label">TARGET STREAMER USERNAME (OPTIONAL)</label>
-    <input type="text" class="input-field" id="targetUser" placeholder="e.g. StreamerName (empty = 1st device lock)" autocomplete="off" />
-
-    <label class="field-label">QUANTITY</label>
-    <div class="pill-group">
-      <button type="button" class="pill-btn active" id="qty1" onclick="selectQty(1)">1 Key</button>
-      <button type="button" class="pill-btn" id="qty5" onclick="selectQty(5)">5 Keys</button>
-      <button type="button" class="pill-btn" id="qty10" onclick="selectQty(10)">10 Keys</button>
-    </div>
-
-    <button class="primary-btn" id="genBtn" onclick="onGenerateCreatorKeys()">generate license key(s)</button>
-
-    <div class="keybox" id="creatorKeyBox" style="margin-top:14px; display:none;"></div>
-    <button class="primary-btn" id="copyCreatorBtn" style="display:none; margin-top:8px;" onclick="copyCreatorKeys()">copy all keys</button>
-
-    <div class="hint" style="margin-top:12px;">
-      Anti-Abuse Active: Each key can only be activated once. Upon activation, it binds permanently to the user's device HWID.
-    </div>
-    <a class="back-link" onclick="initPage()">← Back to standard key page</a>
+    <div class="hint">Keys are verified server-side and locked to your device on activation.</div>
   </div>
 
 <script>
+// === CONFIGURATION ===
+// 1. Your Work.ink link URL (Destination URL on Work.ink MUST include ?provider=workink&token={TOKEN})
 const WORKINK_URL = "https://work.ink/39vZ/moondlc-key";
-const SALT = "mndlc_2026_x9";
-const CHARS = "ABCDEFGHJKLMNPQRSTUVWXYZ23456789";
+// Optional: Set to your numeric Work.ink linkId (e.g. 123456) to reject tokens from other links, or 0 to skip.
+const WORKINK_LINK_ID = 5068512;
+
+// 2. Your deployed Cloudflare Worker base URL (e.g. "https://moondlc-key.yourname.workers.dev")
+// Required for LootLabs verification. Leave "" if LootLabs is not deployed yet.
+const WORKER_URL = "https://soft-cake-1f91.igrram2525r.workers.dev";
 
 let currentKey = "";
-let selectedTier = "7D";
-let selectedQty = 1;
-let generatedCreatorKeys = [];
+const CACHE_STORAGE_KEY = "moondlc_verified_session_v2";
 
-function u32(x) { return (x >>> 0); }
-
-function hashMixPair(seed) {
-  let h1 = 0x811C9DC5 >>> 0, h2 = 0x9E3779B9 >>> 0;
-  for (let i = 0; i < seed.length; i++) {
-    const b = seed.charCodeAt(i);
-    h1 = u32(h1 + b);
-    h1 = u32(h1 + u32(h1 << 10));
-    h1 = u32(h1 ^ (h1 >>> 6));
-    h2 = u32(h2 + (b ^ ((i + 1) * 37)));
-    h2 = u32(h2 + u32(h2 << 7));
-    h2 = u32(h2 ^ (h2 >>> 11));
-  }
-  h1 = u32(h1 + u32(h1 << 3)); h1 = u32(h1 ^ (h1 >>> 11)); h1 = u32(h1 + u32(h1 << 15));
-  h2 = u32(h2 + u32(h2 << 3)); h2 = u32(h2 ^ (h2 >>> 11)); h2 = u32(h2 + u32(h2 << 15));
-  return [h1, h2];
+function showView(viewId) {
+  document.getElementById("loadingCard").style.display = viewId === "loadingCard" ? "block" : "none";
+  document.getElementById("unlockedCard").style.display = viewId === "unlockedCard" ? "block" : "none";
+  document.getElementById("selectCard").style.display = viewId === "selectCard" ? "block" : "none";
 }
 
-function generateActivationKey(workinkTok) {
-  const slot = Math.floor(Date.now() / 300000);
-  let nonce = "";
-  for (let i = 0; i < 4; i++) {
-    nonce += CHARS[Math.floor(Math.random() * CHARS.length)];
-  }
-  const seed = `${SALT}:act:${slot}:${nonce}`;
-  const [h1, h2] = hashMixPair(seed);
-  let p1 = "", p2 = "";
-  for (let i = 0; i < 4; i++) {
-    p1 += CHARS[((h1 >>> (i * 5)) & 31)];
-    p2 += CHARS[((h2 >>> (i * 5)) & 31)];
-  }
-  let k = `MOONDLC-${nonce}-${p1}${p2}`;
-  if (workinkTok && workinkTok.length >= 8) {
-    k += `-${workinkTok}`;
-  }
-  return k;
-}
-
-function generateSingleTierKey(tier, username) {
-  let nonce = "";
-  for (let i = 0; i < 6; i++) {
-    nonce += CHARS[Math.floor(Math.random() * CHARS.length)];
-  }
-  const cleanUser = (username || "").trim().toUpperCase().replace(/[^A-Z0-9_]/g, "");
-  let seed = "";
-  if (cleanUser && cleanUser.length >= 3) {
-    seed = `${SALT}:tier:${tier}:${cleanUser}:${nonce}`;
+function showSelectScreen(errorMessage) {
+  const errEl = document.getElementById("errorBadge");
+  if (errorMessage) {
+    errEl.textContent = errorMessage;
+    errEl.style.display = "inline-block";
   } else {
-    seed = `${SALT}:tier:${tier}:${nonce}`;
+    errEl.style.display = "none";
   }
-  const [h1, h2] = hashMixPair(seed);
-  let p1 = "", p2 = "";
-  for (let i = 0; i < 4; i++) {
-    p1 += CHARS[((h1 >>> (i * 5)) & 31)];
-    p2 += CHARS[((h2 >>> (i * 5)) & 31)];
+
+  const llBtn = document.getElementById("lootlabsBtn");
+  const llSub = document.getElementById("lootlabsSub");
+  if (!WORKER_URL.trim()) {
+    llSub.textContent = "Not enabled yet (set WORKER_URL in index.html)";
+  } else {
+    llSub.textContent = "Recommended backup if Work.ink loops or fails";
   }
-  const sig = `${p1}${p2}`;
-  if (cleanUser && cleanUser.length >= 3) {
-    return `MOONDLC-${tier}-${cleanUser}-${nonce}-${sig}`;
+  llBtn.disabled = false;
+  showView("selectCard");
+}
+
+function showUnlockedKey(key, providerLabel, expiresAtMs) {
+  currentKey = key;
+  document.getElementById("providerBadge").textContent = "verified via " + providerLabel;
+  document.getElementById("kbox").textContent = key;
+
+  let hintText = "Paste this key into MoonDLC in-game to activate your 24-hour HWID license. Single-use only.";
+  if (expiresAtMs && expiresAtMs > Date.now()) {
+    const mins = Math.max(1, Math.round((expiresAtMs - Date.now()) / 60000));
+    hintText = `Redeem in-game within ~${mins} minute(s) to activate your 24-hour HWID license. Single-use only.`;
   }
-  return `MOONDLC-${tier}-${nonce}-${sig}`;
+  document.getElementById("unlockedHint").textContent = hintText;
+  showView("unlockedCard");
 }
 
-function selectTier(t) {
-  selectedTier = t;
-  ["12H", "1D", "7D", "30D", "LIFE"].forEach(x => {
-    const el = document.getElementById("btn" + x);
-    if (el) el.classList.toggle("active", x === t);
-  });
+function saveCachedSession(data) {
+  try {
+    const serialized = JSON.stringify(data);
+    sessionStorage.setItem(CACHE_STORAGE_KEY, serialized);
+    localStorage.setItem(CACHE_STORAGE_KEY, serialized);
+  } catch {}
 }
 
-function selectQty(q) {
-  selectedQty = q;
-  [1, 5, 10].forEach(x => {
-    const el = document.getElementById("qty" + x);
-    if (el) el.classList.toggle("active", x === q);
-  });
-}
-
-function onGenerateCreatorKeys() {
-  const user = document.getElementById("targetUser").value;
-  generatedCreatorKeys = [];
-  for (let i = 0; i < selectedQty; i++) {
-    generatedCreatorKeys.push(generateSingleTierKey(selectedTier, user));
-  }
-  const box = document.getElementById("creatorKeyBox");
-  box.textContent = generatedCreatorKeys.join("\n");
-  box.style.display = "block";
-  const copyBtn = document.getElementById("copyCreatorBtn");
-  copyBtn.style.display = "block";
-  copyBtn.textContent = selectedQty === 1 ? "copy license key" : `copy ${selectedQty} license keys`;
-}
-
-function copyCreatorKeys() {
-  if (!generatedCreatorKeys.length) return;
-  const txt = generatedCreatorKeys.join("\n");
-  navigator.clipboard.writeText(txt).catch(() => {});
-  const btn = document.getElementById("copyCreatorBtn");
-  const prev = btn.textContent;
-  btn.textContent = "copied to clipboard!";
-  setTimeout(() => { btn.textContent = prev; }, 1600);
-}
-
-function showCreatorCard() {
-  document.getElementById("unlockedCard").style.display = "none";
-  document.getElementById("lockedCard").style.display = "none";
-  document.getElementById("creatorCard").style.display = "block";
-}
-
-let titleClickCount = 0;
-function toggleCreator() {
-  titleClickCount++;
-  if (titleClickCount >= 3) {
-    titleClickCount = 0;
-    showCreatorCard();
+function loadCachedSession() {
+  try {
+    const raw = sessionStorage.getItem(CACHE_STORAGE_KEY) || localStorage.getItem(CACHE_STORAGE_KEY);
+    if (!raw) return null;
+    const parsed = JSON.parse(raw);
+    if (!parsed || !parsed.key) return null;
+    if (parsed.expiresAt && Date.now() >= parsed.expiresAt) {
+      clearCachedSession();
+      return null;
+    }
+    return parsed;
+  } catch {
+    return null;
   }
 }
 
-function initPage() {
-  document.getElementById("creatorCard").style.display = "none";
-  const params = new URLSearchParams(window.location.search);
-  const token = (params.get("token") || params.get("t") || "").trim();
-  const isOwner = params.get("owner") === "1" || params.get("admin") === "1" || params.get("gen") === "1";
-  const ref = (document.referrer || "").toLowerCase();
+function clearCachedSession() {
+  try {
+    sessionStorage.removeItem(CACHE_STORAGE_KEY);
+    localStorage.removeItem(CACHE_STORAGE_KEY);
+  } catch {}
+}
 
-  if (isOwner) {
-    showCreatorCard();
+function startWorkink() {
+  clearCachedSession();
+  window.location.href = WORKINK_URL;
+}
+
+function startLootlabs() {
+  const base = WORKER_URL.trim().replace(/\/+$/, "");
+  if (!base) {
+    showSelectScreen("LootLabs is not configured yet (WORKER_URL is empty). Please use Work.ink.");
     return;
   }
+  clearCachedSession();
+  window.location.href = `${base}/api/lootlabs/start`;
+}
 
+function resetAndChooseProvider() {
+  clearCachedSession();
   if (window.location.search) {
     window.history.replaceState({}, document.title, window.location.pathname);
   }
+  showSelectScreen("");
+}
 
-  const cameFromWorkink = ref.includes("work.ink") || ref.includes("loot") || token.length >= 6;
-  const lastIssued = parseInt(localStorage.getItem("moondlc_last_issued") || "0", 10);
-  const now = Date.now();
+async function verifyWorkinkToken(token) {
+  if (!/^[A-Za-z0-9_-]{8,128}$/.test(token)) {
+    return { valid: false, error: "Invalid Work.ink token format." };
+  }
 
-  if (cameFromWorkink) {
-    currentKey = generateActivationKey(token);
-    localStorage.setItem("moondlc_last_issued", String(now));
-    localStorage.setItem("moondlc_cached_key", currentKey);
-    document.getElementById("kbox").textContent = currentKey;
-    document.getElementById("unlockedCard").style.display = "block";
+  const workerBase = WORKER_URL.trim().replace(/\/+$/, "");
+  const endpoints = [];
+  if (workerBase) {
+    endpoints.push(`${workerBase}/api/workink/check?token=${encodeURIComponent(token)}`);
+  }
+  endpoints.push(`https://work.ink/_api/v2/token/isValid/${encodeURIComponent(token)}`);
+
+  for (const url of endpoints) {
+    try {
+      const res = await fetch(url, { method: "GET", cache: "no-store" });
+      if (!res.ok) continue;
+      const data = await res.json();
+      if (!data || data.valid !== true) {
+        return { valid: false, error: data && data.error ? data.error : "Work.ink token is invalid, expired, or already used." };
+      }
+      if (WORKINK_LINK_ID > 0) {
+        const lid = Number(data.info && data.info.linkId);
+        if (lid !== WORKINK_LINK_ID) {
+          return { valid: false, error: "Token belongs to a different Work.ink link." };
+        }
+      }
+      const expiresAfter = (data.info && Number(data.info.expiresAfter)) || (Date.now() + 7 * 60 * 1000);
+      return { valid: true, expiresAfter };
+    } catch {
+      // Try next endpoint if network/CORS error occurred
+    }
+  }
+
+  return { valid: false, error: "Could not verify Work.ink token. Please try again or use LootLabs." };
+}
+
+async function claimLootlabsSession(session, ts, sig) {
+  const workerBase = WORKER_URL.trim().replace(/\/+$/, "");
+  if (!workerBase) {
+    return { ok: false, error: "WORKER_URL is not configured on this page." };
+  }
+
+  const maxAttempts = 6;
+  for (let attempt = 1; attempt <= maxAttempts; attempt++) {
+    try {
+      const res = await fetch(`${workerBase}/api/lootlabs/claim`, {
+        method: "POST",
+        headers: { "Content-Type": "application/json" },
+        body: JSON.stringify({ session, ts: Number(ts), sig }),
+      });
+      const data = await res.json();
+
+      if (res.status === 202 && data && data.pending) {
+        document.getElementById("loadingBadge").textContent = `confirming with lootlabs (${attempt}/${maxAttempts})...`;
+        document.getElementById("loadingText").textContent = "Waiting for LootLabs postback confirmation. Keep this tab open...";
+        await new Promise((r) => setTimeout(r, 1500));
+        continue;
+      }
+
+      if (res.ok && data && data.ok && data.key) {
+        return { ok: true, key: data.key, expiresAt: Number(data.expiresAt || 0) * 1000 };
+      }
+
+      return { ok: false, error: (data && data.error) || "LootLabs verification failed." };
+    } catch {
+      return { ok: false, error: "Could not reach LootLabs verification server." };
+    }
+  }
+
+  return {
+    ok: false,
+    error: "LootLabs postback confirmation timed out. Complete all LootLabs tasks cleanly and try again.",
+  };
+}
+
+async function initPage() {
+  const params = new URLSearchParams(window.location.search);
+  const provider = (params.get("provider") || "").trim().toLowerCase();
+  const workinkToken = (params.get("token") || params.get("t") || params.get("hash") || "").trim();
+  const llSession = (params.get("session") || "").trim();
+  const llTs = (params.get("ts") || "").trim();
+  const llSig = (params.get("sig") || "").trim();
+  const ref = (document.referrer || "").toLowerCase();
+
+  // 1. LootLabs callback verification flow (requires Worker HMAC signature + postback)
+  if (provider === "lootlabs" || (llSession && llTs && llSig)) {
+    showView("loadingCard");
+    document.getElementById("loadingBadge").textContent = "verifying lootlabs...";
+    document.getElementById("loadingText").textContent = "Confirming your LootLabs session with the backend...";
+    const res = await claimLootlabsSession(llSession, llTs, llSig);
+    if (res.ok) {
+      saveCachedSession({ provider: "lootlabs", session: llSession, ts: llTs, sig: llSig, key: res.key, expiresAt: res.expiresAt });
+      showUnlockedKey(res.key, "LootLabs", res.expiresAt);
+    } else {
+      clearCachedSession();
+      showSelectScreen(res.error);
+    }
     return;
   }
 
-  const cachedKey = localStorage.getItem("moondlc_cached_key") || "";
-  if (cachedKey && (now - lastIssued) < 90000) {
-    currentKey = cachedKey;
-    document.getElementById("kbox").textContent = currentKey;
-    document.getElementById("unlockedCard").style.display = "block";
+  // 2. Work.ink callback verification flow (strict server validation, never trusts raw token length or referrer)
+  if (workinkToken) {
+    showView("loadingCard");
+    document.getElementById("loadingBadge").textContent = "verifying work.ink...";
+    document.getElementById("loadingText").textContent = "Checking your Work.ink token with Work.ink servers...";
+    const res = await verifyWorkinkToken(workinkToken);
+    if (res.valid) {
+      const fullKey = `MOONDLC-WI-${workinkToken}`;
+      saveCachedSession({ provider: "workink", token: workinkToken, key: fullKey, expiresAt: res.expiresAfter });
+      showUnlockedKey(fullKey, "Work.ink", res.expiresAfter);
+    } else {
+      clearCachedSession();
+      showSelectScreen(res.error);
+    }
     return;
   }
 
-  document.getElementById("lockedCard").style.display = "block";
+  // 3. Detect misconfigured Work.ink redirect (returned from work.ink without ?token={TOKEN})
+  if (ref.includes("work.ink")) {
+    showSelectScreen("Work.ink returned without ?token={TOKEN}. Please try LootLabs or check Work.ink link setup.");
+    return;
+  }
+
+  // 4. Refresh persistence: re-validate any cached unredeemed session so page refresh does not loop
+  const cached = loadCachedSession();
+  if (cached) {
+    if (cached.provider === "workink" && cached.token) {
+      showView("loadingCard");
+      document.getElementById("loadingBadge").textContent = "restoring session...";
+      const check = await verifyWorkinkToken(cached.token);
+      if (check.valid) {
+        showUnlockedKey(cached.key, "Work.ink", check.expiresAfter);
+        return;
+      }
+      clearCachedSession();
+      showSelectScreen("Your previous Work.ink key expired or was already redeemed. Generate a new one below.");
+      return;
+    }
+    if (cached.provider === "lootlabs" && cached.session && cached.ts && cached.sig) {
+      showView("loadingCard");
+      document.getElementById("loadingBadge").textContent = "restoring session...";
+      const check = await claimLootlabsSession(cached.session, cached.ts, cached.sig);
+      if (check.ok) {
+        showUnlockedKey(check.key, "LootLabs", check.expiresAt);
+        return;
+      }
+      clearCachedSession();
+      showSelectScreen(check.error || "Your previous LootLabs key expired or was already redeemed.");
+      return;
+    }
+  }
+
+  // 5. Default state: show provider selector (Work.ink + optional LootLabs)
+  showSelectScreen("");
 }
 
 function copyKey() {
   if (!currentKey) return;
-  navigator.clipboard.writeText(currentKey).catch(() => {});
-  const btn = document.getElementById("copyBtn");
-  btn.textContent = "copied to clipboard!";
-  setTimeout(() => { btn.textContent = "copy license key"; }, 1600);
+  const finish = () => {
+    const btn = document.getElementById("copyBtn");
+    btn.textContent = "copied to clipboard!";
+    setTimeout(() => { btn.textContent = "copy license key"; }, 1600);
+  };
+  if (navigator.clipboard && navigator.clipboard.writeText) {
+    navigator.clipboard.writeText(currentKey).then(finish).catch(() => fallbackCopy(finish));
+  } else {
+    fallbackCopy(finish);
+  }
+}
+
+function fallbackCopy(cb) {
+  try {
+    const ta = document.createElement("textarea");
+    ta.value = currentKey;
+    ta.style.position = "fixed";
+    ta.style.opacity = "0";
+    document.body.appendChild(ta);
+    ta.select();
+    document.execCommand("copy");
+    document.body.removeChild(ta);
+    cb();
+  } catch {}
 }
 
 initPage();
